@@ -1,0 +1,68 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "getBasketsConfig",
+    "OmniProcessId": {
+        "Name": "VEEDigitalGetBasket",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/VEE/DigitalGetBasket/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "LoopBlockConfig",
+        "OmniProcessId": {
+            "Name": "VEEDigitalGetBasket",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/VEE/DigitalGetBasket/Procedure",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/VEE/DigitalGetBasket/Procedure/LoopBlockConfig",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "LoopBlockConfig",
+    "ParentElementType": "Loop Block",
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalChainableResponse": {
+        },
+        "additionalInput": {
+            "apiName": "basketOperations",
+            "catalogCode": "%catalogCode%",
+            "context": "=TOSTRING(CONCAT('{\"MeterType\":\"',%meterType%,'\"}'))",
+            "fields": "orderitem.pricebookentry.product2.family",
+            "methodName": "addAfterConfig",
+            "productConfig": "=%DRTransformSetDistRegionOnOffers:offerDetails:getOfferDetails:result%",
+            "requestURL": "/v3/catalogs/%catalogCode%/basket",
+            "trimmode": "=\"true\""
+        },
+        "additionalOutput": {
+        },
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "ISNOTBLANK(%DRTransformSetDistRegionOnOffers:offerDetails:getOfferDetails%)",
+        "failOnStepError": false,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+            "ErrorMessage": "VEEDigitalGetBasket:getBasketsConfig getBasketsConfig is failing"
+        },
+        "label": "RemoteAction8",
+        "remoteClass": "%vlocity_namespace%.CpqAppHandler",
+        "remoteMethod": "addAfterConfig",
+        "remoteOptions": {
+        },
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": true,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "Remote Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/VEE/DigitalGetBasket/Procedure/getBasketsConfig"
+}

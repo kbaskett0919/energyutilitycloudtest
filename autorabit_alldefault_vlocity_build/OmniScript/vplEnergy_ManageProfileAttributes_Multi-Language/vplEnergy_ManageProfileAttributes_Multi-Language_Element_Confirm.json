@@ -1,0 +1,40 @@
+{
+    "Description": "Confirmation to display updated Profile attribute values",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "Confirm",
+    "OmniProcessId": {
+        "Name": "vplEnergyManageProfileAttributes",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/vplEnergy/ManageProfileAttributes/Multi-Language",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Confirmation",
+        "OmniProcessId": {
+            "Name": "vplEnergyManageProfileAttributes",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/vplEnergy/ManageProfileAttributes/Multi-Language",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/vplEnergy/ManageProfileAttributes/Multi-Language/Confirmation",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Confirmation",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": "sfiEnergyConsoleConfirmation",
+        "show": null,
+        "text": "<h3>&nbsp;</h3>\n<h3><strong>Purchase Criteria</strong></h3>\n<p>Cost :&nbsp;<strong>%ManageProfileAttributes:PurchaseCriteriaCost%</strong></p>\n<p>Renewable Energy<strong> :&nbsp;%ManageProfileAttributes:PurchaseCriteriaRenewableEnergy%</strong></p>\n<p>Family Friendly<strong> :&nbsp;%ManageProfileAttributes:PurchaseCriteriaFamilyFriendly%</strong></p>\n<p>Service Availability<strong> :&nbsp;%ManageProfileAttributes:PurchaseCriteriaServiceAvailability%</strong></p>\n<p>Insurance<strong> :&nbsp;%ManageProfileAttributes:PurchaseCriteriaInsurance%</strong></p>",
+        "textKey": "sfiEnergyConsolePurchaseCriteriaConfirmMsg"
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/vplEnergy/ManageProfileAttributes/Multi-Language/Confirm"
+}

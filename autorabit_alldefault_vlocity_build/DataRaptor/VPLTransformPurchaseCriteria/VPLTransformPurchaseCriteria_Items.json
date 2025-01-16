@@ -1,0 +1,221 @@
+[
+    {
+        "FormulaExpression": "IF(%PurchaseCriteria:Category%==\"PURCHASE_CRITERIA_COST\",%PurchaseCriteria:AttributeValue%,\"0\")",
+        "FormulaResultPath": "PurchaseCriteriaCost",
+        "FormulaSequence": 1,
+        "GlobalKey": "VPL-TransformPurchaseCriteriaCustom6349",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformPurchaseCriteria",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformPurchaseCriteria",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformPurchaseCriteria",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(%PurchaseCriteria:Category%==\"PURCHASE_CRITERIA_FAMILY_FRIENDLY\",%PurchaseCriteria:AttributeValue%,\"0\")",
+        "FormulaResultPath": "PurchaseCriteriaFamilyFriendly",
+        "FormulaSequence": 2,
+        "GlobalKey": "VPL-TransformPurchaseCriteriaCustom7045",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformPurchaseCriteria",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformPurchaseCriteria",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformPurchaseCriteria",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(%PurchaseCriteria:Category%==\"PURCHASE_CRITERIA_INSURANCE\",%PurchaseCriteria:AttributeValue%,\"0\")",
+        "FormulaResultPath": "PurchaseCriteriaInsurance",
+        "FormulaSequence": 3,
+        "GlobalKey": "VPL-TransformPurchaseCriteriaCustom3958",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformPurchaseCriteria",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformPurchaseCriteria",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformPurchaseCriteria",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(%PurchaseCriteria:Category%==\"PURCHASE_CRITERIA_RENEWABLE_ENERGY\",%PurchaseCriteria:AttributeValue%,\"0\")",
+        "FormulaResultPath": "PurchaseCriteriaRenewableEnergy",
+        "FormulaSequence": 4,
+        "GlobalKey": "VPL-TransformPurchaseCriteriaCustom6595",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformPurchaseCriteria",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformPurchaseCriteria",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformPurchaseCriteria",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(%PurchaseCriteria:Category%==\"PURCHASE_CRITERIA_SERVICE_AVAILABILITY\",%PurchaseCriteria:AttributeValue%,\"0\")",
+        "FormulaResultPath": "PurchaseCriteriaServiceAvailability",
+        "FormulaSequence": 5,
+        "GlobalKey": "VPL-TransformPurchaseCriteriaCustom8112",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformPurchaseCriteria",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformPurchaseCriteria",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformPurchaseCriteria",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformPurchaseCriteriaCustoma1V3h000000mAOmEAMItem1",
+        "InputFieldName": "PurchaseCriteria",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformPurchaseCriteria",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformPurchaseCriteria",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformPurchaseCriteria",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PurchaseCriteria",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformPurchaseCriteriaCustom4135",
+        "InputFieldName": "PurchaseCriteriaCost",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformPurchaseCriteria",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformPurchaseCriteria",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformPurchaseCriteria",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PurchaseCriteriaCost",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformPurchaseCriteriaCustom9806",
+        "InputFieldName": "PurchaseCriteriaFamilyFriendly",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformPurchaseCriteria",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformPurchaseCriteria",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformPurchaseCriteria",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PurchaseCriteriaFamilyFriendly",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformPurchaseCriteriaCustom9683",
+        "InputFieldName": "PurchaseCriteriaInsurance",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformPurchaseCriteria",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformPurchaseCriteria",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformPurchaseCriteria",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PurchaseCriteriaInsurance",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformPurchaseCriteriaCustom9276",
+        "InputFieldName": "PurchaseCriteriaRenewableEnergy",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformPurchaseCriteria",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformPurchaseCriteria",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformPurchaseCriteria",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PurchaseCriteriaRenewableEnergy",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformPurchaseCriteriaCustom1515",
+        "InputFieldName": "PurchaseCriteriaServiceAvailability",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformPurchaseCriteria",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformPurchaseCriteria",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformPurchaseCriteria",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PurchaseCriteriaServiceAvailability",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

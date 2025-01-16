@@ -1,0 +1,68 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "FollowOnStepGetBaskets",
+    "OmniProcessId": {
+        "Name": "VEEDigitalCachingVIP",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/VEE/DigitalCachingVIP/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "BasketCreation",
+        "OmniProcessId": {
+            "Name": "VEEDigitalCachingVIP",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/VEE/DigitalCachingVIP/Procedure",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/VEE/DigitalCachingVIP/Procedure/BasketCreation",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "BasketCreation",
+    "ParentElementType": "Loop Block",
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalChainableResponse": {
+        },
+        "additionalInput": {
+            "apiName": "basketOperations",
+            "catalogCode": "=%DRDistributionRegion:offerDetails:CatalogCode%",
+            "context": "=TOSTRING(CONCAT('{\"MeterType\":\"',%DRDistributionRegion:offerDetails:meterType%,'\"}'))",
+            "fields": "orderitem.pricebookentry.product2.family",
+            "methodName": "addAfterConfig",
+            "multiTransactionKey": "=%SetmultiTransactionKey:multiTransactionKey%",
+            "productConfig": "=%DRDistributionRegion:offerDetails:getOfferDetails:result%",
+            "requestURL": "/v3/catalogs/%DRDistributionRegion:offerDetails:CatalogCode%/basket"
+        },
+        "additionalOutput": {
+        },
+        "chainOnStep": true,
+        "disOnTplt": false,
+        "executionConditionalFormula": "(getBasketsConfig:nexttransaction:rest:params:method == 'addAfterConfig')",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+            "ErrorMessage": "VEEDigitalCachingVIP:FollowOnStepGetBaskets Failed to fetch the response in Follow on step"
+        },
+        "label": "RemoteAction8",
+        "remoteClass": "%vlocity_namespace%.CpqAppHandler",
+        "remoteMethod": "addAfterConfig",
+        "remoteOptions": {
+        },
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": true,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "Remote Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/VEE/DigitalCachingVIP/Procedure/FollowOnStepGetBaskets"
+}

@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "EnergyUtilitiesPrograms_FindAccountApplicationProgramRelation_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "EnergyUtilitiesProgramsFindAccountApplicationProgramRelation",
+    "OmniProcessElement": [
+        "EnergyUtilitiesPrograms_FindAccountApplicationProgramRelation_Element_FindAccountApplicationProgramRelation.json",
+        "EnergyUtilitiesPrograms_FindAccountApplicationProgramRelation_Element_Resonse.json"
+    ],
+    "OmniProcessKey": "EnergyUtilitiesPrograms_FindAccountApplicationProgramRelation",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "EnergyUtilitiesPrograms_FindAccountApplicationProgramRelation_PropertySetConfig.json",
+    "SubType": "FindAccountApplicationProgramRelation",
+    "Type": "EnergyUtilitiesPrograms",
+    "UniqueName": "EnergyUtilitiesPrograms_FindAccountApplicationProgramRelation_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/EnergyUtilitiesPrograms/FindAccountApplicationProgramRelation/Procedure"
+}

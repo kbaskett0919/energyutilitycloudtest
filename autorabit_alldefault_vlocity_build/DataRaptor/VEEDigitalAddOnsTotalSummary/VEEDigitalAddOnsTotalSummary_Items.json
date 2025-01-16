@@ -1,0 +1,166 @@
+[
+    {
+        "FormulaExpression": "FILTER(LIST((AddOnProducts)), 'isAddedToCart == true && ChargeType == \"One-time\"')",
+        "FormulaResultPath": "filteredOneTimeAddOns",
+        "FormulaSequence": 1,
+        "GlobalKey": "VEEDigitalAddOnsTotalSummaryCustom7394",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalAddOnsTotalSummary",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalAddOnsTotalSummary",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalAddOnsTotalSummary",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST((AddOnProducts)), 'isAddedToCart == true && ChargeType == \"Recurring\"')",
+        "FormulaResultPath": "filteredRecurringAddOns",
+        "FormulaSequence": 2,
+        "GlobalKey": "VEEDigitalAddOnsTotalSummaryCustom2892",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalAddOnsTotalSummary",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalAddOnsTotalSummary",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalAddOnsTotalSummary",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "SUM(filteredOneTimeAddOns:Price)",
+        "FormulaResultPath": "oneTimeTotal",
+        "FormulaSequence": 4,
+        "GlobalKey": "VEEDigitalAddOnsTotalSummaryCustom2956",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalAddOnsTotalSummary",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalAddOnsTotalSummary",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalAddOnsTotalSummary",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "SUM(filteredRecurringAddOns:Price)",
+        "FormulaResultPath": "monthlyTotal",
+        "FormulaSequence": 3,
+        "GlobalKey": "VEEDigitalAddOnsTotalSummaryCustom3393",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalAddOnsTotalSummary",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalAddOnsTotalSummary",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalAddOnsTotalSummary",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalAddOnsTotalSummaryCustom4413",
+        "InputFieldName": "currencyCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalAddOnsTotalSummary",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalAddOnsTotalSummary",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalAddOnsTotalSummary",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "currencyCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "0",
+        "GlobalKey": "VEEDigitalAddOnsTotalSummaryCustom6444",
+        "InputFieldName": "monthlyTotal",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalAddOnsTotalSummary",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalAddOnsTotalSummary",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalAddOnsTotalSummary",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Integer",
+        "OutputFieldName": "monthlyTotal",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "0",
+        "GlobalKey": "VEEDigitalAddOnsTotalSummaryCustom7146",
+        "InputFieldName": "oneTimeTotal",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalAddOnsTotalSummary",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalAddOnsTotalSummary",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalAddOnsTotalSummary",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Integer",
+        "OutputFieldName": "oneTimeTotal",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalAddOnsTotalSummaryCustom6008",
+        "InputFieldName": "usageTotal",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalAddOnsTotalSummary",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalAddOnsTotalSummary",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalAddOnsTotalSummary",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "usageTotal",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

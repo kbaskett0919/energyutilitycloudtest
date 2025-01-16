@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniDataTransform xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <assignmentRulesUsed>false</assignmentRulesUsed>
+    <deletedOnSuccess>false</deletedOnSuccess>
+    <errorIgnored>false</errorIgnored>
+    <expectedInputJson>{
+  &quot;consumption&quot; : 100,
+  &quot;offerDetails&quot; : [ {
+    &quot;&quot; : &quot;&quot;,
+    &quot;cartContextKey&quot; : &quot;e7304d393ccfccd8cea3c3b780584a6f&quot;,
+    &quot;childProducts&quot; : [ {
+      &quot;currencyCode&quot; : &quot;GBP&quot;,
+      &quot;description&quot; : &quot;Unit rate is charged per kWh of energy consumption.&quot;,
+      &quot;family&quot; : &quot;Gas&quot;,
+      &quot;name&quot; : &quot;Unit Rate&quot;,
+      &quot;productCode&quot; : &quot;CC_UNIT_RATE_GASSTD&quot;,
+      &quot;subType&quot; : &quot;Unit Rate&quot;,
+      &quot;unitPrice&quot; : 0.16199
+    }, {
+      &quot;currencyCode&quot; : &quot;GBP&quot;,
+      &quot;description&quot; : &quot;Standing Charges is an infrastructure charge which is charged per Day of usage.&quot;,
+      &quot;family&quot; : &quot;Gas&quot;,
+      &quot;name&quot; : &quot;Standing Charges&quot;,
+      &quot;productCode&quot; : &quot;CC_STANDING_CHARGES_GASSTD&quot;,
+      &quot;subType&quot; : &quot;Standing Charges&quot;,
+      &quot;unitPrice&quot; : 0.1902
+    } ],
+    &quot;currencyCode&quot; : &quot;GBP&quot;,
+    &quot;description&quot; : &quot;Standard fixed rate gas product.&quot;,
+    &quot;isAddedToCart&quot; : false,
+    &quot;productCode&quot; : &quot;PD_GAS_STANDARD&quot;,
+    &quot;productName&quot; : &quot;Gas Standard Tariff&quot;,
+    &quot;subType&quot; : &quot;Gas&quot;
+  } ]
+}</expectedInputJson>
+    <fieldLevelSecurityEnabled>false</fieldLevelSecurityEnabled>
+    <inputType>JSON</inputType>
+    <name>VeeDigitalTransformBasketPrices</name>
+    <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:offerDetails:unitRateList:unitPrice AVG</formulaConverted>
+        <formulaExpression>AVG(offerDetails:unitRateList:unitPrice)</formulaExpression>
+        <formulaResultPath>offerDetails:unitPrice</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>VeeDigitalTransformBasketPrices4993709830147539</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VeeDigitalTransformBasketPrices</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>var:offerDetails:standingPrice 30 *</formulaConverted>
+        <formulaExpression>offerDetails:standingPrice * 30</formulaExpression>
+        <formulaResultPath>offerDetails:totalstandingPrice</formulaResultPath>
+        <formulaSequence>6.0</formulaSequence>
+        <globalKey>VeeDigitalTransformBasketPrices06418218687640853</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VeeDigitalTransformBasketPrices</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| | var:offerDetails:childProducts LIST &apos;subType/\/\/==/\/\/&quot;Unit/\/\/Rate&quot;&apos; FILTER (</formulaConverted>
+        <formulaExpression>(FILTER(LIST(offerDetails:childProducts), &apos;subType == &quot;Unit Rate&quot;&apos;)</formulaExpression>
+        <formulaResultPath>offerDetails:unitRateList</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>VeeDigitalTransformBasketPrices8542539847678614</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VeeDigitalTransformBasketPrices</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:offerDetails:standingRateList:unitPrice AVG</formulaConverted>
+        <formulaExpression>AVG(offerDetails:standingRateList:unitPrice)</formulaExpression>
+        <formulaResultPath>offerDetails:standingPrice</formulaResultPath>
+        <formulaSequence>5.0</formulaSequence>
+        <globalKey>VeeDigitalTransformBasketPrices7944764071682082</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VeeDigitalTransformBasketPrices</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| | var:offerDetails:childProducts LIST &apos;subType/\/\/==/\/\/&quot;Standing/\/\/Charge&quot;&apos; FILTER (</formulaConverted>
+        <formulaExpression>(FILTER(LIST(offerDetails:childProducts), &apos;subType == &quot;Standing Charge&quot;&apos;)</formulaExpression>
+        <formulaResultPath>offerDetails:standingRateList</formulaResultPath>
+        <formulaSequence>4.0</formulaSequence>
+        <globalKey>VeeDigitalTransformBasketPrices322519843285054</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VeeDigitalTransformBasketPrices</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VeeDigitalTransformBasketPrices9580263404324447</globalKey>
+        <inputFieldName>offerDetails:productCode</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VeeDigitalTransformBasketPrices</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>TotalPrices:productCode</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VeeDigitalTransformBasketPrices6378364104727092</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VeeDigitalTransformBasketPrices</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldFormat>List&lt;Map&gt;</outputFieldFormat>
+        <outputFieldName>TotalPrices</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <transformValuesMappings>{ }</transformValuesMappings>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VeeDigitalTransformBasketPrices7035805108776285</globalKey>
+        <inputFieldName>consumption</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VeeDigitalTransformBasketPrices</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>TotalPrices:consumption</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>var:offerDetails:totalstandingPrice var:offerDetails:totalUnitPrice +</formulaConverted>
+        <formulaExpression>offerDetails:totalstandingPrice + offerDetails:totalUnitPrice</formulaExpression>
+        <formulaResultPath>offerDetails:totalPrice</formulaResultPath>
+        <formulaSequence>7.0</formulaSequence>
+        <globalKey>VeeDigitalTransformBasketPrices9924481864068051</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VeeDigitalTransformBasketPrices</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>var:offerDetails:unitPrice var:consumption *</formulaConverted>
+        <formulaExpression>offerDetails:unitPrice * consumption</formulaExpression>
+        <formulaResultPath>offerDetails:totalUnitPrice</formulaResultPath>
+        <formulaSequence>3.0</formulaSequence>
+        <globalKey>VeeDigitalTransformBasketPrices2540467795827084</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VeeDigitalTransformBasketPrices</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VeeDigitalTransformBasketPrices2281314018060121</globalKey>
+        <inputFieldName>offerDetails:totalUnitPrice</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VeeDigitalTransformBasketPrices</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>TotalPrices:totalUnitPrice</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VeeDigitalTransformBasketPrices3505642839990717</globalKey>
+        <inputFieldName>offerDetails:totalPrice</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VeeDigitalTransformBasketPrices</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>TotalPrices:totalPrice</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VeeDigitalTransformBasketPrices9669548537019266</globalKey>
+        <inputFieldName>offerDetails:totalstandingPrice</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VeeDigitalTransformBasketPrices</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>TotalPrices:totalStandingPrice</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;consumption&quot; : 200,
+  &quot;offerDetails&quot; : [ {
+    &quot;&quot; : &quot;&quot;,
+    &quot;cartContextKey&quot; : &quot;487aa9aff14c31de7d9afebe18b5fb0d&quot;,
+    &quot;childProducts&quot; : [ {
+      &quot;currencyCode&quot; : &quot;GBP&quot;,
+      &quot;description&quot; : &quot;Unit rate is charged per kWh of energy consumption.&quot;,
+      &quot;family&quot; : &quot;Gas&quot;,
+      &quot;name&quot; : &quot;Unit Rate&quot;,
+      &quot;productCode&quot; : &quot;CC_UNIT_RATE_GASSTD&quot;,
+      &quot;subType&quot; : &quot;Unit Rate&quot;,
+      &quot;unitPrice&quot; : 0.1699
+    }, {
+      &quot;currencyCode&quot; : &quot;GBP&quot;,
+      &quot;description&quot; : &quot;Standing Charges is an infrastructure charge which is charged per Day of usage.&quot;,
+      &quot;family&quot; : &quot;Gas&quot;,
+      &quot;name&quot; : &quot;Standing Charges&quot;,
+      &quot;productCode&quot; : &quot;CC_STANDING_CHARGES_GASSTD&quot;,
+      &quot;subType&quot; : &quot;Standing Charges&quot;,
+      &quot;unitPrice&quot; : 0.1902
+    } ],
+    &quot;currencyCode&quot; : &quot;GBP&quot;,
+    &quot;default&quot; : true,
+    &quot;description&quot; : &quot;Standard fixed rate gas product.&quot;,
+    &quot;isAddedToCart&quot; : false,
+    &quot;productCode&quot; : &quot;PD_GAS_STANDARD&quot;,
+    &quot;productCodeWithAttachments&quot; : &quot;PD_GAS_STANDARD&quot;,
+    &quot;productName&quot; : &quot;Gas Standard Tariff&quot;,
+    &quot;subType&quot; : &quot;Gas&quot;,
+    &quot;url&quot; : &quot;/servlet/servlet.FileDownload?file=015B0000001q0JXIAY&quot;
+  } ],
+  &quot;productType&quot; : &quot;Electricity&quot;
+}</previewJsonData>
+    <processSuperBulk>false</processSuperBulk>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <rollbackOnError>false</rollbackOnError>
+    <sourceObject>json</sourceObject>
+    <sourceObjectDefault>false</sourceObjectDefault>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Transform</type>
+    <uniqueName>VeeDigitalTransformBasketPrices_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <xmlDeclarationRemoved>false</xmlDeclarationRemoved>
+</OmniDataTransform>

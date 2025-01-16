@@ -1,0 +1,48 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 5,
+                    "name": "recordId",
+                    "val": "0011Q00002ZRgo5QAD"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "Id": "{recordId}"
+                },
+                "ipMethod": "VPL_GetAccountNotificationPrefDetails",
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "optionsMap": {
+                    "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+                },
+                "resultVar": "AccountNotificationPreference",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "VEEEnergyNotificationsLayout",
+    "Namespace": "",
+    "OmniUiCardKey": "VEEEnergyNotificationsLayout/CME_E_U/5/1643271174412",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "VEEEnergyNotificationsLayout.json",
+    "SampleDataSourceResponse": "{\"AccountNotificationPreference\":{\"AccountId\":\"0011Q00002ZRgo5QAD\",\"AccountName\":null,\"Bill Notification\":null,\"DNCFrom\":null,\"DNCTo\":null,\"DNDTime\":\" - \",\"NotifPreferenceExists\":\"false\",\"Offers and Promotions\":null,\"Outage Notifications\":null,\"Payment Reminders and Notifications\":null,\"TotalNotification\":null,\"Work Order Notifications\":null},\"AccountPref\":\"\"}",
+    "StylingConfiguration": "",
+    "UniqueName": "VEEEnergyNotificationsLayout_CME_E_U_5",
+    "VersionNumber": 5,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/VEEEnergyNotificationsLayout"
+}

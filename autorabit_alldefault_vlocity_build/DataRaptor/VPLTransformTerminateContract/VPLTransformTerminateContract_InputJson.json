@@ -1,0 +1,57 @@
+{
+    "AccountDetails": "<p><strong><img src=\"../servlet/servlet.ImageServer?docName=015f2000001sxa4AAA&amp;&amp;id=015f2000001sxa4AAA&amp;&amp;oid=00Df2000000NVjKEAW\" alt=\"\" width=\"25\" height=\"25\" />&nbsp;Account Number:</strong>&nbsp; </p>\n<p><strong><img src=\"../servlet/servlet.ImageServer?id=015f2000001sxkiAAA&amp;&amp;id=015f2000001sxkiAAA&amp;&amp;oid=00Df2000000NVjKEAW\" alt=\"\" width=\"27\" height=\"25\" />&nbsp;Customer:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong>border boy</p>\n<p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>1234565675</p>\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<strong>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>akash.naik@accenture.com</p>\n<p><strong><img src=\"../servlet/servlet.ImageServer?id=015f2000001sxkiAAA&amp;&amp;id=015f2000001sxkiAAA&amp;&amp;oid=00Df2000000NVjKEAW\" alt=\"\" width=\"27\" height=\"25\" />&nbsp;Customer ID:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>003f200002lgmrcAAA</p>\n<p><strong><img src=\"../servlet/servlet.ImageServer?id=015f2000001sxknAAA&amp;&amp;id=015f2000001sxknAAA&amp;&amp;oid=00Df2000000NVjKEAW\" alt=\"\" width=\"25\" height=\"25\" />&nbsp;Premise Address:&nbsp; &nbsp; </strong>5 Harper Ave Detroit MI 48202</p>",
+    "AccountId": "001f200001tJyttAAC",
+    "AccountName": "border boy",
+    "BillDeliveryMethod": "Electronic Statements Online",
+    "BillFrequency": "Weekly",
+    "ContactFirstName": "border",
+    "ContactId": "003f200002lgmrcAAA",
+    "ContactLastName": "boy",
+    "ContactName": "border boy",
+    "ContextId": "001f200001tJytt",
+    "ERP_Account_Id__c": "6010605",
+    "Email": "akash.naik@accenture.com",
+    "Phone": "1234565675",
+    "PreConfirmMoveOut": {
+        "Confirm": null
+    },
+    "PremiseAddress": "5 Harper Ave Detroit MI 48202",
+    "PremiseCity": "Detroit",
+    "PremiseCountry": "US",
+    "PremiseId": "a0lf2000007hKlvAAE",
+    "PremisePostalCode": "48202",
+    "PremiseState": "MI",
+    "PremiseStreet": "5 Harper Ave",
+    "PrimaryContactPreferences": "Phone",
+    "SelectAsset": {
+        "AssetId": "02if200000WrzzLAAR"
+    },
+    "SelectContractLineItem": {
+        "ContractLineFormula": 0,
+        "SelectContractItem": null,
+        "SelectContractItemMessaging": false
+    },
+    "SelectContracts": {
+        "ContractId": "800f2000001gdZhAAI",
+        "ContractName": "border boy  Contract",
+        "ContractNumber": "00000427",
+        "ERP_AgreementID": "1500011131",
+        "StartDate": "2019-04-11"
+    },
+    "id": "a0Zf200000P46wQEAR",
+    "layout": "lightning",
+    "testContextId": "001f200001tJytt",
+    "timeStamp": "2019-04-05T10:54:26.433Z",
+    "userCurrencyCode": "CAD",
+    "userId": "005f2000008YzmAAAS",
+    "userName": "akash.naik@accenture.com.vlocity",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "GetAccountContracts": 893,
+        "OmniScriptSessionToken": "07f6e48f-3db4-42d2-89f2-378b0f38a72b",
+        "SetContractItemValue": 20
+    }
+}

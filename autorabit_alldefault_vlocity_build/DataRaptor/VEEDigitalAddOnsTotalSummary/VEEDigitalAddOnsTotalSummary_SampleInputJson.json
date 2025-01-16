@@ -1,0 +1,50 @@
+{
+    "AddOnProducts": [
+        {
+            "CatalogCode": "EUADDONS",
+            "ChargeType": "Recurring",
+            "Id": "REC0",
+            "Name": "Boiler Insurance",
+            "Price": 25,
+            "URL": "/servlet/servlet.FileDownload?file=0154x000000FimVAAS",
+            "isAddedToCart": false,
+            "productCode": "AD_BOILER_INSURANCE",
+            "uniqueKey": "REC0"
+        },
+        {
+            "CatalogCode": "EUADDONS",
+            "ChargeType": "One-time",
+            "Id": "REC1",
+            "Name": "Energy Audit",
+            "Price": 49,
+            "URL": "https://gesstabilizer.com/assets/img/product/energy.png",
+            "isAddedToCart": true,
+            "productCode": "AD_ENERGY_AUDIT",
+            "uniqueKey": "REC1"
+        },
+        {
+            "CatalogCode": "EUADDONS",
+            "ChargeType": "One-time",
+            "Id": "REC2",
+            "Name": "Solar Panels",
+            "Price": 2200,
+            "URL": "https://image.freepik.com/free-vector/solar-panel-energy-electric-electricity-logo-vector-icon_7688-797.jpg",
+            "isAddedToCart": false,
+            "productCode": "AD_SOLAR_PANELS",
+            "uniqueKey": "REC2"
+        },
+        {
+            "CatalogCode": "EUADDONS",
+            "ChargeType": "One-time",
+            "Id": "REC3",
+            "Name": "Smart Thermostat",
+            "Price": 199,
+            "URL": "https://st4.depositphotos.com/16061158/39264/v/950/depositphotos_392645548-stock-illustration-thermostat-vector-icon-thermostat-editable.jpg",
+            "isAddedToCart": false,
+            "productCode": "AD_SMART_THERMOSTAT",
+            "uniqueKey": "REC3"
+        }
+    ],
+    "currencyCode": "GBP",
+    "usageTotal": 398.675
+}

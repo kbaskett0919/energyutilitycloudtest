@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniDataTransform xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <assignmentRulesUsed>false</assignmentRulesUsed>
+    <deletedOnSuccess>false</deletedOnSuccess>
+    <errorIgnored>false</errorIgnored>
+    <expectedInputJson>{
+  &quot;ContextId&quot; : null,
+  &quot;timeStamp&quot; : null,
+  &quot;userId&quot; : null,
+  &quot;userName&quot; : null,
+  &quot;userProfile&quot; : null,
+  &quot;userTimeZone&quot; : null,
+  &quot;vlcPersistentComponent&quot; : { },
+  &quot;vlcTimeTracking&quot; : {
+    &quot;CreateContact&quot; : null,
+    &quot;CreatePremiseAndServiceAccount&quot; : null,
+    &quot;ResponseAction1&quot; : null
+  }
+}</expectedInputJson>
+    <fieldLevelSecurityEnabled>false</fieldLevelSecurityEnabled>
+    <inputType>JSON</inputType>
+    <name>VEEDigitalCreateContact</name>
+    <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VEEDigitalCreateContactCustom3206</globalKey>
+        <inputFieldName>accountId</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalCreateContact</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>AccountId</outputFieldName>
+        <outputObjectName>Contact</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VEEDigitalCreateContactCustom6502</globalKey>
+        <inputFieldName>email</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalCreateContact</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Email</outputFieldName>
+        <outputObjectName>Contact</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VEEDigitalCreateContactCustom9524</globalKey>
+        <inputFieldName>lastName</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalCreateContact</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>LastName</outputFieldName>
+        <outputObjectName>Contact</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VEEDigitalCreateContactCustom8379</globalKey>
+        <inputFieldName>phone</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalCreateContact</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Phone</outputFieldName>
+        <outputObjectName>Contact</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VEEDigitalCreateContactCustom5273</globalKey>
+        <inputFieldName>firstName</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalCreateContact</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>FirstName</outputFieldName>
+        <outputObjectName>Contact</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>true</disabled>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>=</filterOperator>
+        <globalKey>VEEDigitalCreateContactCustom7515</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <migrationValue>FAKEMAPPING</migrationValue>
+        <name>VEEDigitalCreateContact</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Id</outputFieldName>
+        <outputObjectName>Contact</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;Address&quot; : {
+    &quot;ContactPreference&quot; : &quot;Email&quot;,
+    &quot;Email&quot; : &quot;abcde@r.com&quot;,
+    &quot;FirstName&quot; : &quot;abcde&quot;,
+    &quot;LastName&quot; : &quot;abcde&quot;,
+    &quot;Phone&quot; : null,
+    &quot;TAAreaLevel1&quot; : &quot;abcde&quot;,
+    &quot;TACountry&quot; : &quot;abcde&quot;,
+    &quot;TAPostalCode&quot; : &quot;abcde&quot;,
+    &quot;TAStreet&quot; : &quot;abcde&quot;
+  },
+  &quot;Enroll&quot; : {
+    &quot;VEECustomerDetailsBlock&quot; : {
+      &quot;ContactPreference&quot; : &quot;Email&quot;,
+      &quot;Email&quot; : &quot;abcde@r.com&quot;,
+      &quot;FirstName&quot; : &quot;abcde&quot;,
+      &quot;LastName&quot; : &quot;abcde&quot;,
+      &quot;Phone&quot; : null,
+      &quot;TAAreaLevel1&quot; : &quot;abcde&quot;,
+      &quot;TACountry&quot; : &quot;abcde&quot;,
+      &quot;TAPostalCode&quot; : &quot;abcde&quot;,
+      &quot;TAStreet&quot; : &quot;abcde&quot;
+    }
+  },
+  &quot;distributionRegion&quot; : &quot;Derby&quot;,
+  &quot;meterType&quot; : &quot;Standard&quot;,
+  &quot;orderDetails&quot; : {
+    &quot;accountId&quot; : &quot;001B000001SP7cjIAD&quot;,
+    &quot;orderId&quot; : &quot;801B0000002RrbNIAS&quot;,
+    &quot;orderNumber&quot; : &quot;00000276&quot;,
+    &quot;serviceAccountRecordTypeId&quot; : &quot;012B0000000SytKIAS&quot;
+  },
+  &quot;productType&quot; : &quot;Electricity&quot;
+}</previewJsonData>
+    <processSuperBulk>false</processSuperBulk>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <rollbackOnError>false</rollbackOnError>
+    <sourceObject>json</sourceObject>
+    <sourceObjectDefault>false</sourceObjectDefault>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Load</type>
+    <uniqueName>VEEDigitalCreateContact_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <xmlDeclarationRemoved>false</xmlDeclarationRemoved>
+</OmniDataTransform>

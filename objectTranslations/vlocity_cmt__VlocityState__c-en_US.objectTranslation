@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__DTPStateModelName__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__Description__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__NoDelete__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__NoUpdate__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__StateModelId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__StateRecordType__c</name>
+    </fields>
+</CustomObjectTranslation>

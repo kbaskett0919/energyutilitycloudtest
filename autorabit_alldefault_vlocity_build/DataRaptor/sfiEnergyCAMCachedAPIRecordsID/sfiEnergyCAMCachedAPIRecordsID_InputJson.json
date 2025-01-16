@@ -1,0 +1,26 @@
+{
+    "BasketCreation": {
+    },
+    "ContextId": null,
+    "FetchOfferDetails": {
+    },
+    "FetchOffers": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "BasketCreation": null,
+        "DRDistributionRegion": null,
+        "DRGetCatalogMeterType": null,
+        "DRGetModifiedProductCode": null,
+        "DRtransformOfferCode": null,
+        "FetchOfferDetails": null,
+        "FetchOffers": null,
+        "Response": null
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 0,
+                    "name": "Session.AccountId",
+                    "val": "001RO000004KLOwYAO"
+                }
+            ],
+            "orderBy": {
+            },
+            "type": null,
+            "value": {
+            }
+        }
+    },
+    "Description": "This is a container card for quick links region",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergySelfServiceQuickLinksContainer",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergySelfServiceQuickLinksContainer/Salesforce/2.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergySelfServiceQuickLinksContainer.json",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "",
+    "UniqueName": "sfiEnergySelfServiceQuickLinksContainer_Salesforce_2",
+    "VersionNumber": 2,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergySelfServiceQuickLinksContainer"
+}

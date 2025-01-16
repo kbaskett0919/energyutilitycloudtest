@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "sfiEnergy_GetConsumerBillingDetails_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergyGetConsumerBillingDetails",
+    "OmniProcessElement": [
+        "sfiEnergy_GetConsumerBillingDetails_Element_DRGetConsumerBillingDetails.json",
+        "sfiEnergy_GetConsumerBillingDetails_Element_ConsumerBillingDetailsResponse.json"
+    ],
+    "OmniProcessKey": "sfiEnergy_GetConsumerBillingDetails",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergy_GetConsumerBillingDetails_PropertySetConfig.json",
+    "SubType": "GetConsumerBillingDetails",
+    "Type": "sfiEnergy",
+    "UniqueName": "sfiEnergy_GetConsumerBillingDetails_Procedure_5",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergy/GetConsumerBillingDetails/Procedure"
+}

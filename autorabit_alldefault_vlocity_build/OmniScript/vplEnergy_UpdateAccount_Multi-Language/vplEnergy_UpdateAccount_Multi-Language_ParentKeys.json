@@ -1,0 +1,17 @@
+[
+    "DataRaptor/VPLSearchAccountContactInfo",
+    "IntegrationProcedure/VPL_GetBiilingAccountDetails",
+    "IntegrationProcedure/VPL_GetCustomerAccountContact",
+    "IntegrationProcedure/sfiEnergySelfService_RetrievePremiseInfo",
+    "IntegrationProcedure/sfiEnergySelfService_UpdateConsumerPremises",
+    "IntegrationProcedure/sfiEnergy_ExtractAccountDetails",
+    "IntegrationProcedure/sfiEnergy_ExtractBussinessAccountRecId",
+    "IntegrationProcedure/sfiEnergy_ExtractServiceAccountPremises",
+    "IntegrationProcedure/sfiEnergy_GetAccContactRelDetailsForNewPrimCon",
+    "IntegrationProcedure/sfiEnergy_GetConsumerBillingDetails",
+    "IntegrationProcedure/sfiEnergy_TransformPrimaryContactAccConRelationDetails",
+    "IntegrationProcedure/sfiEnergy_TransformUpdateConsumerPremisesData",
+    "IntegrationProcedure/sfiEnergy_TransfromAccountDetails",
+    "IntegrationProcedure/sfiEnergy_UpdateAccountContactRelation",
+    "IntegrationProcedure/sfiEnergy_UpdateAccountPrimaryContact"
+]

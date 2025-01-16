@@ -1,0 +1,45 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "'FSL'",
+        "GlobalKey": "sfiEnergyConsoleFSGetPackageLicenseCustom2879",
+        "InputFieldName": "NamespacePrefix",
+        "InputObjectName": "PackageLicense",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSGetPackageLicense",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSGetPackageLicense",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSGetPackageLicense",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "PackageLicense",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyConsoleFSGetPackageLicenseCustom4007",
+        "InputFieldName": "PackageLicense:NamespacePrefix",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSGetPackageLicense",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSGetPackageLicense",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSGetPackageLicense",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "NameSpacePrefix",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

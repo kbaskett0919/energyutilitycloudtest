@@ -1,0 +1,204 @@
+[
+    {
+        "FormulaExpression": "DESERIALIZE(Offers:addtocart:rest:params:context)",
+        "FormulaResultPath": "Offers:Context",
+        "FormulaSequence": 5,
+        "GlobalKey": "VEECreateOfferCodeList286006571909893",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEECreateOfferCodeList",
+        "OmniDataTransformationId": {
+            "Name": "VEECreateOfferCodeList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEECreateOfferCodeList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "Offers:Context:MeterType",
+        "FormulaResultPath": "Offers:meterType",
+        "FormulaSequence": 6,
+        "GlobalKey": "VEECreateOfferCodeList030870310149088143",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEECreateOfferCodeList",
+        "OmniDataTransformationId": {
+            "Name": "VEECreateOfferCodeList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEECreateOfferCodeList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "Offers:addtocart:rest:link",
+        "FormulaResultPath": "Offers:sac",
+        "FormulaSequence": 1,
+        "GlobalKey": "VEECreateOfferCodeList2918264054338311",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEECreateOfferCodeList",
+        "OmniDataTransformationId": {
+            "Name": "VEECreateOfferCodeList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEECreateOfferCodeList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "STRINGINDEXOF(Offers:addtocart:rest:link,\"/basket\")",
+        "FormulaResultPath": "Offers:last",
+        "FormulaSequence": 2,
+        "GlobalKey": "VEECreateOfferCodeList5165893074759524",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEECreateOfferCodeList",
+        "OmniDataTransformationId": {
+            "Name": "VEECreateOfferCodeList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEECreateOfferCodeList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "STRINGINDEXOF(Offers:addtocart:rest:link,\"/catalogs\")+10",
+        "FormulaResultPath": "Offers:start",
+        "FormulaSequence": 3,
+        "GlobalKey": "VEECreateOfferCodeList4982594249337693",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEECreateOfferCodeList",
+        "OmniDataTransformationId": {
+            "Name": "VEECreateOfferCodeList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEECreateOfferCodeList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "SUBSTRING(Offers:sac,Offers:start,Offers:last)",
+        "FormulaResultPath": "Offers:CatalogCode",
+        "FormulaSequence": 4,
+        "GlobalKey": "VEECreateOfferCodeList7860681451479907",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEECreateOfferCodeList",
+        "OmniDataTransformationId": {
+            "Name": "VEECreateOfferCodeList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEECreateOfferCodeList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEECreateOfferCodeList1702584997486678",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEECreateOfferCodeList",
+        "OmniDataTransformationId": {
+            "Name": "VEECreateOfferCodeList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEECreateOfferCodeList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "Offers",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEECreateOfferCodeList2767125803800887",
+        "InputFieldName": "Offers:CatalogCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEECreateOfferCodeList",
+        "OmniDataTransformationId": {
+            "Name": "VEECreateOfferCodeList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEECreateOfferCodeList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Offers:CatalogCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEECreateOfferCodeList190662815887074",
+        "InputFieldName": "Offers:ProductCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEECreateOfferCodeList",
+        "OmniDataTransformationId": {
+            "Name": "VEECreateOfferCodeList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEECreateOfferCodeList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Offers:ProductCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEECreateOfferCodeList31501616851386993",
+        "InputFieldName": "Offers:meterType",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEECreateOfferCodeList",
+        "OmniDataTransformationId": {
+            "Name": "VEECreateOfferCodeList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEECreateOfferCodeList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Offers:meterType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__DestinationChildObject__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__DestinationParentObject__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__ParentDestinationReferenceField__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__ParentSourceReferenceField__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__SourceChildObject__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__SourceParentObject__c</name>
+    </fields>
+</CustomObjectTranslation>

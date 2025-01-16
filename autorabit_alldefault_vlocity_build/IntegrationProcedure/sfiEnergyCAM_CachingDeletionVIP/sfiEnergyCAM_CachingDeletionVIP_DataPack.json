@@ -1,0 +1,32 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "This VIP identifies the basket records to be deleted to regenerate their cache records.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergyCAMCachingDeletionVIP",
+    "OmniProcessElement": [
+        "sfiEnergyCAM_CachingDeletionVIP_Element_DRGetModifiedProductCode.json",
+        "sfiEnergyCAM_CachingDeletionVIP_Element_LoopModifiedProducts.json",
+        "sfiEnergyCAM_CachingDeletionVIP_Element_DRTransformModifiedProductCode.json",
+        "sfiEnergyCAM_CachingDeletionVIP_Element_DRGetCacheKeys.json",
+        "sfiEnergyCAM_CachingDeletionVIP_Element_DRTransformCacheKeyList.json",
+        "sfiEnergyCAM_CachingDeletionVIP_Element_DRFetchCachedAPIRecords.json",
+        "sfiEnergyCAM_CachingDeletionVIP_Element_DRCachedAPIRecordsIDList.json",
+        "sfiEnergyCAM_CachingDeletionVIP_Element_DeleteCachedAPIRecords.json",
+        "sfiEnergyCAM_CachingDeletionVIP_Element_Response.json"
+    ],
+    "OmniProcessKey": "sfiEnergyCAM_CachingDeletionVIP",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergyCAM_CachingDeletionVIP_PropertySetConfig.json",
+    "SubType": "CachingDeletionVIP",
+    "Type": "sfiEnergyCAM",
+    "UniqueName": "sfiEnergyCAM_CachingDeletionVIP_Procedure_3",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergyCAM/CachingDeletionVIP/Procedure"
+}

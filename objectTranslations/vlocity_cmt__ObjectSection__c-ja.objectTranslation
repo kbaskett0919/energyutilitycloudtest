@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Vlocity オブジェクトセクション</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__ColumnLayout__c</name>
+        <picklistValues>
+            <masterLabel>1 Column</masterLabel>
+            <translation>1 列</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Columns</masterLabel>
+            <translation>2 列</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__EffectiveFromDate__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__EffectiveUntilDate__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__GlobalKey__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__IsActive__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__ObjectFacetId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__SectionId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__Sequence__c</name>
+    </fields>
+    <fields>
+        <help>左から右へ - タブを右に移動してから下へ
+上から下へ - タブを下に移動してから右へ</help>
+        <label></label>
+        <name>vlocity_cmt__TabKeyOrder__c</name>
+        <picklistValues>
+            <masterLabel>Left-Right</masterLabel>
+            <translation>左から右へ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Top-Down</masterLabel>
+            <translation>上から下へ</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__ViewType__c</name>
+        <picklistValues>
+            <masterLabel>Custom View</masterLabel>
+            <translation>カスタムビュー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Layout</masterLabel>
+            <translation>項目レイアウト</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__ViewUri__c</name>
+    </fields>
+    <nameFieldLabel>オブジェクトセクション名</nameFieldLabel>
+</CustomObjectTranslation>

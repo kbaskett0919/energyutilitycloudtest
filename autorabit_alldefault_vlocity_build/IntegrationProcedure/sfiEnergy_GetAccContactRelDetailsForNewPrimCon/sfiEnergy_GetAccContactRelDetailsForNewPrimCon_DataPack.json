@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergyGetAccContactRelDetailsForNewPrimCon",
+    "OmniProcessElement": [
+        "sfiEnergy_GetAccContactRelDetailsForNewPrimCon_Element_DRGetAccContactRelDetailsForNewPrimCon.json",
+        "sfiEnergy_GetAccContactRelDetailsForNewPrimCon_Element_AccContactRelDetailsForNewPrimConResponse.json"
+    ],
+    "OmniProcessKey": "sfiEnergy_GetAccContactRelDetailsForNewPrimCon",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergy_GetAccContactRelDetailsForNewPrimCon_PropertySetConfig.json",
+    "SubType": "GetAccContactRelDetailsForNewPrimCon",
+    "Type": "sfiEnergy",
+    "UniqueName": "sfiEnergy_GetAccContactRelDetailsForNewPrimCon_Procedure_5",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergy/GetAccContactRelDetailsForNewPrimCon/Procedure"
+}

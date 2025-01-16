@@ -1,0 +1,81 @@
+[
+    {
+        "FormulaExpression": "IF(%CustomerSelection:AccountType% = 'Business', %BillingAccountId%, %DRId_Account%)",
+        "FormulaResultPath": "FML_AccountId",
+        "FormulaSequence": 1,
+        "GlobalKey": "VPL-TransformCreateContractAccountCustom6062",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateContractAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateContractAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateContractAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreateContractAccountCustoma1V3h000002Q1HyEAKItem0",
+        "InputFieldName": "FML_AccountId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateContractAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateContractAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateContractAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AccountId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreateContractAccountCustoma1V3h000002Q1HyEAKItem2",
+        "InputFieldName": "CustomerSelection:MoveInDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateContractAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateContractAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateContractAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "CloseDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreateContractAccountCustoma1V3h000002Q1HyEAKItem1",
+        "InputFieldName": "VIPCreateBusinessPartner:ERPAccountID__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateContractAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateContractAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateContractAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "ERP_Account_Id__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

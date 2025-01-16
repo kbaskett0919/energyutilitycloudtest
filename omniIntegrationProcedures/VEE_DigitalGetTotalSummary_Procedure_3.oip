@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniIntegrationProcedure xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customJavaScript>{&quot;AddOnProducts&quot;:[{&quot;CatalogCode&quot;:&quot;EUADDONS&quot;,&quot;ChargeType&quot;:&quot;Recurring&quot;,&quot;Id&quot;:&quot;REC0&quot;,&quot;Name&quot;:&quot;Boiler Insurance&quot;,&quot;Price&quot;:25,&quot;URL&quot;:&quot;/servlet/servlet.FileDownload?file=0154x000000FimVAAS&quot;,&quot;isAddedToCart&quot;:false,&quot;productCode&quot;:&quot;AD_BOILER_INSURANCE&quot;,&quot;uniqueKey&quot;:&quot;REC0&quot;},{&quot;CatalogCode&quot;:&quot;EUADDONS&quot;,&quot;ChargeType&quot;:&quot;One-time&quot;,&quot;Id&quot;:&quot;REC1&quot;,&quot;Name&quot;:&quot;Energy Audit&quot;,&quot;Price&quot;:49,&quot;URL&quot;:&quot;https://gesstabilizer.com/assets/img/product/energy.png&quot;,&quot;isAddedToCart&quot;:true,&quot;productCode&quot;:&quot;AD_ENERGY_AUDIT&quot;,&quot;uniqueKey&quot;:&quot;REC1&quot;},{&quot;CatalogCode&quot;:&quot;EUADDONS&quot;,&quot;ChargeType&quot;:&quot;One-time&quot;,&quot;Id&quot;:&quot;REC2&quot;,&quot;Name&quot;:&quot;Solar Panels&quot;,&quot;Price&quot;:2200,&quot;URL&quot;:&quot;https://image.freepik.com/free-vector/solar-panel-energy-electric-electricity-logo-vector-icon_7688-797.jpg&quot;,&quot;isAddedToCart&quot;:false,&quot;productCode&quot;:&quot;AD_SOLAR_PANELS&quot;,&quot;uniqueKey&quot;:&quot;REC2&quot;},{&quot;CatalogCode&quot;:&quot;EUADDONS&quot;,&quot;ChargeType&quot;:&quot;One-time&quot;,&quot;Id&quot;:&quot;REC3&quot;,&quot;Name&quot;:&quot;Smart Thermostat&quot;,&quot;Price&quot;:199,&quot;URL&quot;:&quot;https://st4.depositphotos.com/16061158/39264/v/950/depositphotos_392645548-stock-illustration-thermostat-vector-icon-thermostat-editable.jpg&quot;,&quot;isAddedToCart&quot;:false,&quot;productCode&quot;:&quot;AD_SMART_THERMOSTAT&quot;,&quot;uniqueKey&quot;:&quot;REC3&quot;}],&quot;currencyCode&quot;:&quot;GBP&quot;,&quot;usageTotal&quot;:398.675}</customJavaScript>
+    <elementTypeComponentMapping>{&quot;ElementTypeToHTMLTemplateList&quot;:[]}</elementTypeComponentMapping>
+    <isActive>true</isActive>
+    <isIntegrationProcedure>true</isIntegrationProcedure>
+    <isMetadataCacheDisabled>false</isMetadataCacheDisabled>
+    <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+    <isTestProcedure>false</isTestProcedure>
+    <isWebCompEnabled>false</isWebCompEnabled>
+    <language>Procedure</language>
+    <name>VEEDigitalGetTotalSummary</name>
+    <omniProcessElements>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>ResponseAction1</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;additionalOutput&quot; : { },
+  &quot;disOnTplt&quot; : false,
+  &quot;executionConditionalFormula&quot; : &quot;&quot;,
+  &quot;label&quot; : &quot;ResponseAction1&quot;,
+  &quot;responseDefaultData&quot; : { },
+  &quot;responseFormat&quot; : &quot;JSON&quot;,
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;returnFullDataJSON&quot; : false,
+  &quot;returnOnlyAdditionalOutput&quot; : false,
+  &quot;sendJSONNode&quot; : &quot;&quot;,
+  &quot;sendJSONPath&quot; : &quot;VEEDigitalAddOnsTotalSummary&quot;,
+  &quot;show&quot; : null,
+  &quot;useFormulas&quot; : true,
+  &quot;vlcResponseHeaders&quot; : { }
+}</propertySetConfig>
+        <sequenceNumber>2.0</sequenceNumber>
+        <type>Response Action</type>
+    </omniProcessElements>
+    <omniProcessElements>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>VEEDigitalAddOnsTotalSummary</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;actionMessage&quot; : &quot;&quot;,
+  &quot;additionalInput&quot; : {
+    &quot;AddOnProducts&quot; : &quot;%AddOnProducts%&quot;,
+    &quot;currencyCode&quot; : &quot;%currencyCode%&quot;,
+    &quot;usageTotal&quot; : &quot;%usageTotal%&quot;
+  },
+  &quot;additionalOutput&quot; : { },
+  &quot;bundle&quot; : &quot;VEEDigitalAddOnsTotalSummary&quot;,
+  &quot;chainOnStep&quot; : false,
+  &quot;disOnTplt&quot; : false,
+  &quot;executionConditionalFormula&quot; : &quot;&quot;,
+  &quot;failOnStepError&quot; : true,
+  &quot;failureConditionalFormula&quot; : &quot;&quot;,
+  &quot;failureResponse&quot; : { },
+  &quot;ignoreCache&quot; : false,
+  &quot;label&quot; : &quot;DataRaptorTransformAction1&quot;,
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;returnOnlyAdditionalOutput&quot; : false,
+  &quot;returnOnlyFailureResponse&quot; : false,
+  &quot;sendJSONNode&quot; : &quot;&quot;,
+  &quot;sendJSONPath&quot; : &quot;&quot;,
+  &quot;sendOnlyAdditionalInput&quot; : true,
+  &quot;show&quot; : null,
+  &quot;useFormulas&quot; : true
+}</propertySetConfig>
+        <sequenceNumber>1.0</sequenceNumber>
+        <type>DataRaptor Transform Action</type>
+    </omniProcessElements>
+    <omniProcessKey>VEE_DigitalGetTotalSummary</omniProcessKey>
+    <omniProcessType>Integration Procedure</omniProcessType>
+    <propertySetConfig>{
+  &quot;additionalChainableResponse&quot; : { },
+  &quot;chainableActualTimeLimit&quot; : null,
+  &quot;chainableCpuLimit&quot; : 2000,
+  &quot;chainableDMLRowsLimit&quot; : null,
+  &quot;chainableDMLStatementsLimit&quot; : null,
+  &quot;chainableHeapSizeLimit&quot; : null,
+  &quot;chainableQueriesLimit&quot; : 50,
+  &quot;chainableQueryRowsLimit&quot; : null,
+  &quot;chainableSoslQueriesLimit&quot; : null,
+  &quot;columnsPropertyMap&quot; : [ ],
+  &quot;description&quot; : &quot;&quot;,
+  &quot;includeAllActionsInResponse&quot; : false,
+  &quot;labelPlural&quot; : &quot;&quot;,
+  &quot;labelSingular&quot; : &quot;&quot;,
+  &quot;linkToExternalObject&quot; : &quot;&quot;,
+  &quot;mockResponseMap&quot; : { },
+  &quot;nameColumn&quot; : &quot;&quot;,
+  &quot;queueableChainableCpuLimit&quot; : 40000,
+  &quot;queueableChainableHeapSizeLimit&quot; : 6,
+  &quot;queueableChainableQueriesLimit&quot; : 120,
+  &quot;relationshipFieldsMap&quot; : [ ],
+  &quot;rollbackOnError&quot; : false,
+  &quot;trackingCustomData&quot; : { },
+  &quot;ttlMinutes&quot; : 5
+}</propertySetConfig>
+    <requiredPermission>VEEDigitalOrderPermission</requiredPermission>
+    <subType>DigitalGetTotalSummary</subType>
+    <type>VEE</type>
+    <uniqueName>VEE_DigitalGetTotalSummary_Procedure_3</uniqueName>
+    <versionNumber>3.0</versionNumber>
+    <webComponentKey>5d68e0ff-2672-6235-acd0-a3f0a34e080c</webComponentKey>
+</OmniIntegrationProcedure>

@@ -1,0 +1,63 @@
+[
+    {
+        "FormulaExpression": "FILTER(LIST(transformAddOnOffers:addOnProducts), 'isAddedToCart == true')",
+        "FormulaResultPath": "filteredAddOns",
+        "FormulaSequence": 1,
+        "GlobalKey": "VEESelectedAddOnsTransformCustom3941",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEESelectedAddOnsTransform",
+        "OmniDataTransformationId": {
+            "Name": "VEESelectedAddOnsTransform",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEESelectedAddOnsTransform",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "filteredAddOns:productCode",
+        "FormulaResultPath": "addOnList",
+        "FormulaSequence": 2,
+        "GlobalKey": "VEESelectedAddOnsTransformCustom2026",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEESelectedAddOnsTransform",
+        "OmniDataTransformationId": {
+            "Name": "VEESelectedAddOnsTransform",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEESelectedAddOnsTransform",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEESelectedAddOnsTransformCustom1491",
+        "InputFieldName": "addOnList",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEESelectedAddOnsTransform",
+        "OmniDataTransformationId": {
+            "Name": "VEESelectedAddOnsTransform",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEESelectedAddOnsTransform",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "selectedAddOns",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

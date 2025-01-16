@@ -1,0 +1,3566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniDataTransform xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <assignmentRulesUsed>false</assignmentRulesUsed>
+    <deletedOnSuccess>false</deletedOnSuccess>
+    <errorIgnored>false</errorIgnored>
+    <expectedInputJson>[ {
+  &quot;LoopBlockIterationIndex&quot; : 1,
+  &quot;LoopBlockIterationStatus&quot; : true,
+  &quot;getOfferDetails&quot; : {
+    &quot;contextKey&quot; : &quot;84f7858f600f277039aa62012c674c44&quot;,
+    &quot;error&quot; : &quot;OK&quot;,
+    &quot;errorCode&quot; : &quot;INVOKE-200&quot;,
+    &quot;result&quot; : {
+      &quot;offerDetails&quot; : {
+        &quot;offer&quot; : {
+          &quot;vlocity_cmt__EndOfLifeDate__c&quot; : null,
+          &quot;vlocity_cmt__IsOrderable__c&quot; : true,
+          &quot;vlocity_cmt__SellingEndDate__c&quot; : null,
+          &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2020-12-01T00:00:00.000Z&quot;,
+          &quot;Attachments&quot; : [ {
+            &quot;contentType&quot; : &quot;Image&quot;,
+            &quot;defaultAttachment&quot; : true,
+            &quot;description&quot; : null,
+            &quot;displayConditionsData&quot; : null,
+            &quot;mimeType&quot; : null,
+            &quot;sequenceNumber&quot; : null,
+            &quot;title&quot; : &quot;Green Energy&quot;,
+            &quot;url&quot; : &quot;/servlet/servlet.FileDownload?file=0154K00000104NVQAY&quot;
+          } ],
+          &quot;AttributeCategory&quot; : {
+            &quot;messages&quot; : [ ],
+            &quot;records&quot; : [ {
+              &quot;Code__c&quot; : &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot;,
+              &quot;Name&quot; : &quot;Commodity Commercial Offers&quot;,
+              &quot;displaySequence&quot; : 10,
+              &quot;id&quot; : &quot;a0O4K0000009IdZUAU&quot;,
+              &quot;messages&quot; : [ ],
+              &quot;productAttributes&quot; : {
+                &quot;messages&quot; : [ ],
+                &quot;records&quot; : [ {
+                  &quot;attributeId&quot; : &quot;a0P4K0000009Qh9UAE&quot;,
+                  &quot;cacheable&quot; : true,
+                  &quot;cloneable&quot; : true,
+                  &quot;code&quot; : &quot;ATT_METER_TYPE&quot;,
+                  &quot;dataType&quot; : &quot;text&quot;,
+                  &quot;disabled&quot; : false,
+                  &quot;displaySequence&quot; : 1,
+                  &quot;filterable&quot; : true,
+                  &quot;hasRules&quot; : true,
+                  &quot;hidden&quot; : false,
+                  &quot;inputType&quot; : &quot;dropdown&quot;,
+                  &quot;isNotTranslatable&quot; : false,
+                  &quot;label&quot; : &quot;Meter Type&quot;,
+                  &quot;messages&quot; : [ ],
+                  &quot;multiselect&quot; : false,
+                  &quot;readonly&quot; : false,
+                  &quot;required&quot; : false,
+                  &quot;userValues&quot; : &quot;Prepaid&quot;,
+                  &quot;values&quot; : [ {
+                    &quot;defaultSelected&quot; : false,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 1,
+                    &quot;id&quot; : &quot;0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9&quot;,
+                    &quot;label&quot; : &quot;Any&quot;,
+                    &quot;name&quot; : &quot;0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9&quot;,
+                    &quot;readonly&quot; : false,
+                    &quot;value&quot; : &quot;Any&quot;
+                  }, {
+                    &quot;defaultSelected&quot; : false,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 3,
+                    &quot;id&quot; : &quot;7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d&quot;,
+                    &quot;label&quot; : &quot;Smart&quot;,
+                    &quot;name&quot; : &quot;7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d&quot;,
+                    &quot;readonly&quot; : false,
+                    &quot;value&quot; : &quot;Smart&quot;
+                  }, {
+                    &quot;defaultSelected&quot; : true,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 2,
+                    &quot;id&quot; : &quot;f2d13d9d-b452-81e1-83b2-3c2fc126734f&quot;,
+                    &quot;label&quot; : &quot;Prepaid&quot;,
+                    &quot;name&quot; : &quot;f2d13d9d-b452-81e1-83b2-3c2fc126734f&quot;,
+                    &quot;readonly&quot; : false,
+                    &quot;value&quot; : &quot;Prepaid&quot;
+                  } ]
+                } ],
+                &quot;totalSize&quot; : 1
+              }
+            } ],
+            &quot;totalSize&quot; : 1
+          },
+          &quot;Description&quot; : null,
+          &quot;Id&quot; : &quot;01t4K000001JqiqQAC&quot;,
+          &quot;IsActive&quot; : true,
+          &quot;Name&quot; : &quot;Green Energy&quot;,
+          &quot;PricebookEntryId&quot; : &quot;01u4K0000025rWuQAI&quot;,
+          &quot;Product2Id&quot; : &quot;01t4K000001JqiqQAC&quot;,
+          &quot;ProductCode&quot; : &quot;PD_ENERGY_GREEN&quot;,
+          &quot;Quantity&quot; : 1,
+          &quot;addtocart&quot; : {
+            &quot;rest&quot; : {
+              &quot;link&quot; : &quot;v3/catalogs/COMMODITY/basket&quot;,
+              &quot;method&quot; : &quot;POST&quot;,
+              &quot;params&quot; : {
+                &quot;basketAction&quot; : &quot;AddWithNoConfig&quot;,
+                &quot;context&quot; : &quot;{\&quot;DIMENSION13191\&quot;:\&quot;Gold\&quot;,\&quot;DIMENSION17825\&quot;:\&quot;Active\&quot;,\&quot;IsAddOn\&quot;:\&quot;Comm\&quot;,\&quot;MeterType\&quot;:\&quot;Any\&quot;,\&quot;ProductType\&quot;:\&quot;Electricity\&quot;}&quot;,
+                &quot;offer&quot; : null
+              }
+            }
+          },
+          &quot;childProducts&quot; : [ {
+            &quot;vlocity_cmt__EndOfLifeDate__c&quot; : null,
+            &quot;vlocity_cmt__IsOrderable__c&quot; : false,
+            &quot;vlocity_cmt__SellingEndDate__c&quot; : null,
+            &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2020-12-01T00:00:00.000Z&quot;,
+            &quot;Attachments&quot; : null,
+            &quot;AttributeCategory&quot; : {
+              &quot;messages&quot; : [ ],
+              &quot;records&quot; : [ {
+                &quot;Code__c&quot; : &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot;,
+                &quot;Name&quot; : &quot;Commodity Commercial Offers&quot;,
+                &quot;displaySequence&quot; : 10,
+                &quot;id&quot; : &quot;a0O4K0000009IdZUAU&quot;,
+                &quot;messages&quot; : [ ],
+                &quot;productAttributes&quot; : {
+                  &quot;messages&quot; : [ ],
+                  &quot;records&quot; : [ {
+                    &quot;attributeId&quot; : &quot;a0P4K0000009QhBUAU&quot;,
+                    &quot;cacheable&quot; : true,
+                    &quot;cloneable&quot; : true,
+                    &quot;code&quot; : &quot;ATT_PAYMENT_METHOD&quot;,
+                    &quot;dataType&quot; : &quot;text&quot;,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 1,
+                    &quot;filterable&quot; : true,
+                    &quot;hasRules&quot; : true,
+                    &quot;hidden&quot; : false,
+                    &quot;inputType&quot; : &quot;dropdown&quot;,
+                    &quot;isNotTranslatable&quot; : false,
+                    &quot;label&quot; : &quot;Payment Method&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;multiselect&quot; : false,
+                    &quot;readonly&quot; : false,
+                    &quot;required&quot; : false,
+                    &quot;userValues&quot; : null,
+                    &quot;values&quot; : [ {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 1,
+                      &quot;id&quot; : &quot;08639b53-2428-3c70-b4b3-1cc1f682ceb6&quot;,
+                      &quot;label&quot; : &quot;Direct Debit&quot;,
+                      &quot;name&quot; : &quot;08639b53-2428-3c70-b4b3-1cc1f682ceb6&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;Direct Debit&quot;
+                    } ]
+                  } ],
+                  &quot;totalSize&quot; : 1
+                }
+              }, {
+                &quot;Code__c&quot; : &quot;06a3cbf8-91fa-b7da-a10d-bfcee0856831&quot;,
+                &quot;Name&quot; : &quot;Commodity Cost Components&quot;,
+                &quot;displaySequence&quot; : 20,
+                &quot;id&quot; : &quot;a0O4K0000009IdcUAE&quot;,
+                &quot;messages&quot; : [ ],
+                &quot;productAttributes&quot; : {
+                  &quot;messages&quot; : [ ],
+                  &quot;records&quot; : [ {
+                    &quot;attributeId&quot; : &quot;a0P4K0000009Qh4UAE&quot;,
+                    &quot;cacheable&quot; : true,
+                    &quot;cloneable&quot; : true,
+                    &quot;code&quot; : &quot;ATT_DISTRIBUTION_REGION&quot;,
+                    &quot;dataType&quot; : &quot;text&quot;,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 1,
+                    &quot;filterable&quot; : true,
+                    &quot;hasRules&quot; : true,
+                    &quot;hidden&quot; : false,
+                    &quot;inputType&quot; : &quot;dropdown&quot;,
+                    &quot;isNotTranslatable&quot; : false,
+                    &quot;label&quot; : &quot;Distribution Region&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;multiselect&quot; : false,
+                    &quot;readonly&quot; : false,
+                    &quot;required&quot; : false,
+                    &quot;userValues&quot; : null,
+                    &quot;values&quot; : [ {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 2,
+                      &quot;id&quot; : &quot;09a836d9-ed3a-74e8-f194-e91ad95c30aa&quot;,
+                      &quot;label&quot; : &quot;East Midlands&quot;,
+                      &quot;name&quot; : &quot;09a836d9-ed3a-74e8-f194-e91ad95c30aa&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;East Midlands&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 8,
+                      &quot;id&quot; : &quot;32615501-2941-de8c-dd1f-5a739659d009&quot;,
+                      &quot;label&quot; : &quot;South England&quot;,
+                      &quot;name&quot; : &quot;32615501-2941-de8c-dd1f-5a739659d009&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;South England&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 4,
+                      &quot;id&quot; : &quot;3486c362-fabb-b71c-894f-9e4715d68e47&quot;,
+                      &quot;label&quot; : &quot;Merseyside &amp; Northern Wales&quot;,
+                      &quot;name&quot; : &quot;3486c362-fabb-b71c-894f-9e4715d68e47&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;Merseyside &amp; Northern Wales&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 6,
+                      &quot;id&quot; : &quot;438b3c71-6825-0bfb-e4e6-1c222e9e125f&quot;,
+                      &quot;label&quot; : &quot;North England&quot;,
+                      &quot;name&quot; : &quot;438b3c71-6825-0bfb-e4e6-1c222e9e125f&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;North England&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 14,
+                      &quot;id&quot; : &quot;4cf82974-b692-11bc-1f6e-d06bd3fd786d&quot;,
+                      &quot;label&quot; : &quot;North Scotland&quot;,
+                      &quot;name&quot; : &quot;4cf82974-b692-11bc-1f6e-d06bd3fd786d&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;North Scotland&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 5,
+                      &quot;id&quot; : &quot;77cc6a62-6e63-ec2c-2acb-afc2377d4330&quot;,
+                      &quot;label&quot; : &quot;West Midlands&quot;,
+                      &quot;name&quot; : &quot;77cc6a62-6e63-ec2c-2acb-afc2377d4330&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;West Midlands&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 11,
+                      &quot;id&quot; : &quot;7c37e397-894f-34e0-6657-21d0b691a347&quot;,
+                      &quot;label&quot; : &quot;South West England&quot;,
+                      &quot;name&quot; : &quot;7c37e397-894f-34e0-6657-21d0b691a347&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;South West England&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 13,
+                      &quot;id&quot; : &quot;86fd0c23-2935-2818-2a45-0d3a4ad2c36d&quot;,
+                      &quot;label&quot; : &quot;South Scotland&quot;,
+                      &quot;name&quot; : &quot;86fd0c23-2935-2818-2a45-0d3a4ad2c36d&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;South Scotland&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 1,
+                      &quot;id&quot; : &quot;9f53919e-b865-57f7-3cac-951b071640a8&quot;,
+                      &quot;label&quot; : &quot;East England&quot;,
+                      &quot;name&quot; : &quot;9f53919e-b865-57f7-3cac-951b071640a8&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;East England&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 3,
+                      &quot;id&quot; : &quot;a7640a85-31ef-893e-8dc6-a6b16b6131df&quot;,
+                      &quot;label&quot; : &quot;London&quot;,
+                      &quot;name&quot; : &quot;a7640a85-31ef-893e-8dc6-a6b16b6131df&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;London&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 9,
+                      &quot;id&quot; : &quot;af91dd0c-6e48-0a1a-5048-d787d739e99e&quot;,
+                      &quot;label&quot; : &quot;South East England&quot;,
+                      &quot;name&quot; : &quot;af91dd0c-6e48-0a1a-5048-d787d739e99e&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;South East England&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 12,
+                      &quot;id&quot; : &quot;dcdecd9f-9055-0742-fb1b-205efbbe10a1&quot;,
+                      &quot;label&quot; : &quot;Yorkshire&quot;,
+                      &quot;name&quot; : &quot;dcdecd9f-9055-0742-fb1b-205efbbe10a1&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;Yorkshire&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 10,
+                      &quot;id&quot; : &quot;e2b1854a-279b-b60f-7c7f-ce0906bddf3d&quot;,
+                      &quot;label&quot; : &quot;South Wales&quot;,
+                      &quot;name&quot; : &quot;e2b1854a-279b-b60f-7c7f-ce0906bddf3d&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;South Wales&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 7,
+                      &quot;id&quot; : &quot;eedbefcb-bfdf-6422-7389-dc4db0c6e60a&quot;,
+                      &quot;label&quot; : &quot;North West England&quot;,
+                      &quot;name&quot; : &quot;eedbefcb-bfdf-6422-7389-dc4db0c6e60a&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;North West England&quot;
+                    } ]
+                  } ],
+                  &quot;totalSize&quot; : 1
+                }
+              }, {
+                &quot;Code__c&quot; : &quot;18de9fa5-a3b1-97f1-267f-5d06bf1caa7e&quot;,
+                &quot;Name&quot; : &quot;Usage Pricing&quot;,
+                &quot;displaySequence&quot; : 40,
+                &quot;id&quot; : &quot;a0O4K0000009IddUAE&quot;,
+                &quot;messages&quot; : [ ],
+                &quot;productAttributes&quot; : {
+                  &quot;messages&quot; : [ ],
+                  &quot;records&quot; : [ {
+                    &quot;attributeId&quot; : &quot;a0P4K0000009QgsUAE&quot;,
+                    &quot;cacheable&quot; : true,
+                    &quot;cloneable&quot; : true,
+                    &quot;code&quot; : &quot;ATT_USAGE&quot;,
+                    &quot;dataType&quot; : &quot;number&quot;,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 1,
+                    &quot;filterable&quot; : true,
+                    &quot;hasRules&quot; : true,
+                    &quot;hidden&quot; : false,
+                    &quot;inputType&quot; : &quot;number&quot;,
+                    &quot;isNotTranslatable&quot; : false,
+                    &quot;label&quot; : &quot;Usage Attribute&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;multiselect&quot; : false,
+                    &quot;readonly&quot; : false,
+                    &quot;required&quot; : false,
+                    &quot;userValues&quot; : null,
+                    &quot;values&quot; : [ {
+                      &quot;disabled&quot; : false,
+                      &quot;readonly&quot; : false
+                    } ]
+                  } ],
+                  &quot;totalSize&quot; : 1
+                }
+              } ],
+              &quot;totalSize&quot; : 3
+            },
+            &quot;Description&quot; : null,
+            &quot;Id&quot; : &quot;01t4K000001JqmYQAS&quot;,
+            &quot;IsActive&quot; : true,
+            &quot;Name&quot; : &quot;Unit Rate&quot;,
+            &quot;PricebookEntryId&quot; : &quot;01u4K0000025rciQAA&quot;,
+            &quot;Product2Id&quot; : &quot;01t4K000001JqmYQAS&quot;,
+            &quot;ProductCode&quot; : &quot;CC_UNIT_RATE_GREEN&quot;,
+            &quot;Quantity&quot; : 1,
+            &quot;groupMaxQuantity&quot; : 99999,
+            &quot;groupMinQuantity&quot; : 0,
+            &quot;lineNumber&quot; : &quot;0001.0001&quot;,
+            &quot;maxQuantity&quot; : 1,
+            &quot;minQuantity&quot; : 1,
+            &quot;priceResult&quot; : [ {
+              &quot;Amount__c&quot; : 0.0158,
+              &quot;ChargeType__c&quot; : &quot;Usage&quot;,
+              &quot;DisplayText__c&quot; : &quot;0.0158 GBP&quot;,
+              &quot;IsBasePrice__c&quot; : true,
+              &quot;IsVirtualPrice__c&quot; : false,
+              &quot;RecurringFrequency__c&quot; : null,
+              &quot;SubType__c&quot; : &quot;Standard&quot;,
+              &quot;Type__c&quot; : &quot;Price&quot;,
+              &quot;adjustments&quot; : [ ],
+              &quot;baseamount&quot; : 0.0158,
+              &quot;chargeamount&quot; : 0.0158,
+              &quot;effectivefromdatespec&quot; : null,
+              &quot;effectiveuntildatespec&quot; : null,
+              &quot;overrides&quot; : [ ]
+            } ],
+            &quot;productHierarchyPath&quot; : &quot;01t4K000001JqiqQAC&lt;01t4K000001JqmYQAS&quot;
+          }, {
+            &quot;vlocity_cmt__EndOfLifeDate__c&quot; : null,
+            &quot;vlocity_cmt__IsOrderable__c&quot; : false,
+            &quot;vlocity_cmt__SellingEndDate__c&quot; : null,
+            &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2020-09-30T23:00:00.000Z&quot;,
+            &quot;Attachments&quot; : null,
+            &quot;Description&quot; : null,
+            &quot;Id&quot; : &quot;01t4K000001Jc4AQAS&quot;,
+            &quot;IsActive&quot; : true,
+            &quot;Name&quot; : &quot;Standing Charges&quot;,
+            &quot;PricebookEntryId&quot; : &quot;01u4K0000021LlzQAE&quot;,
+            &quot;Product2Id&quot; : &quot;01t4K000001Jc4AQAS&quot;,
+            &quot;ProductCode&quot; : &quot;CC_STANDING_CHARGES&quot;,
+            &quot;Quantity&quot; : 1,
+            &quot;groupMaxQuantity&quot; : 99999,
+            &quot;groupMinQuantity&quot; : 0,
+            &quot;lineNumber&quot; : &quot;0001.0002&quot;,
+            &quot;maxQuantity&quot; : 1,
+            &quot;minQuantity&quot; : 1,
+            &quot;priceResult&quot; : [ {
+              &quot;Amount__c&quot; : 0.2134,
+              &quot;ChargeType__c&quot; : &quot;Usage&quot;,
+              &quot;DisplayText__c&quot; : &quot;Priced based on distribution region&quot;,
+              &quot;IsBasePrice__c&quot; : true,
+              &quot;IsVirtualPrice__c&quot; : false,
+              &quot;RecurringFrequency__c&quot; : null,
+              &quot;SubType__c&quot; : &quot;Standard&quot;,
+              &quot;Type__c&quot; : &quot;Cost&quot;,
+              &quot;adjustments&quot; : [ ],
+              &quot;baseamount&quot; : 0.2134,
+              &quot;chargeamount&quot; : 0.2134,
+              &quot;effectivefromdatespec&quot; : null,
+              &quot;effectiveuntildatespec&quot; : null,
+              &quot;overrides&quot; : [ ]
+            }, {
+              &quot;Amount__c&quot; : 0.2134,
+              &quot;ChargeType__c&quot; : &quot;Usage&quot;,
+              &quot;DisplayText__c&quot; : &quot;Priced based on distribution region&quot;,
+              &quot;IsBasePrice__c&quot; : true,
+              &quot;IsVirtualPrice__c&quot; : false,
+              &quot;RecurringFrequency__c&quot; : null,
+              &quot;SubType__c&quot; : &quot;Standard&quot;,
+              &quot;Type__c&quot; : &quot;Price&quot;,
+              &quot;adjustments&quot; : [ ],
+              &quot;baseamount&quot; : 0.2134,
+              &quot;chargeamount&quot; : 0.2134,
+              &quot;effectivefromdatespec&quot; : null,
+              &quot;effectiveuntildatespec&quot; : null,
+              &quot;overrides&quot; : [ ]
+            } ],
+            &quot;productHierarchyPath&quot; : &quot;01t4K000001JqiqQAC&lt;01t4K000001Jc4AQAS&quot;
+          } ],
+          &quot;groupMaxQuantity&quot; : 99999,
+          &quot;groupMinQuantity&quot; : 0,
+          &quot;lineNumber&quot; : &quot;0001&quot;,
+          &quot;maxQuantity&quot; : 99999,
+          &quot;minQuantity&quot; : 0,
+          &quot;offerType&quot; : &quot;Product&quot;,
+          &quot;priceResult&quot; : [ {
+            &quot;Amount__c&quot; : 0,
+            &quot;ChargeType__c&quot; : &quot;Recurring&quot;,
+            &quot;DisplayText__c&quot; : &quot;based on distribution region&quot;,
+            &quot;IsBasePrice__c&quot; : true,
+            &quot;IsVirtualPrice__c&quot; : false,
+            &quot;RecurringFrequency__c&quot; : &quot;Monthly&quot;,
+            &quot;SubType__c&quot; : &quot;Standard&quot;,
+            &quot;Type__c&quot; : &quot;Price&quot;,
+            &quot;adjustments&quot; : [ ],
+            &quot;baseamount&quot; : 0,
+            &quot;chargeamount&quot; : 0,
+            &quot;effectivefromdatespec&quot; : null,
+            &quot;effectiveuntildatespec&quot; : null,
+            &quot;overrides&quot; : [ ]
+          }, {
+            &quot;Amount__c&quot; : 0,
+            &quot;ChargeType__c&quot; : &quot;One-time&quot;,
+            &quot;DisplayText__c&quot; : &quot;based on consumption&quot;,
+            &quot;IsBasePrice__c&quot; : true,
+            &quot;IsVirtualPrice__c&quot; : false,
+            &quot;RecurringFrequency__c&quot; : null,
+            &quot;SubType__c&quot; : &quot;Standard&quot;,
+            &quot;Type__c&quot; : &quot;Price&quot;,
+            &quot;UnitPrice&quot; : 0,
+            &quot;adjustments&quot; : [ ],
+            &quot;baseamount&quot; : 0,
+            &quot;chargeamount&quot; : 0,
+            &quot;effectivefromdatespec&quot; : null,
+            &quot;effectiveuntildatespec&quot; : null,
+            &quot;overrides&quot; : [ ]
+          } ],
+          &quot;productHierarchyPath&quot; : &quot;01t4K000001JqiqQAC&quot;
+        }
+      }
+    }
+  },
+  &quot;getOfferDetailsStatus&quot; : true
+}, {
+  &quot;LoopBlockIterationIndex&quot; : 2,
+  &quot;LoopBlockIterationStatus&quot; : true,
+  &quot;getOfferDetails&quot; : {
+    &quot;contextKey&quot; : &quot;84f7858f600f277039aa62012c674c44&quot;,
+    &quot;error&quot; : &quot;OK&quot;,
+    &quot;errorCode&quot; : &quot;INVOKE-200&quot;,
+    &quot;result&quot; : {
+      &quot;offerDetails&quot; : {
+        &quot;offer&quot; : {
+          &quot;vlocity_cmt__EndOfLifeDate__c&quot; : null,
+          &quot;vlocity_cmt__IsOrderable__c&quot; : true,
+          &quot;vlocity_cmt__SellingEndDate__c&quot; : null,
+          &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2020-09-30T23:00:00.000Z&quot;,
+          &quot;Attachments&quot; : null,
+          &quot;AttributeCategory&quot; : {
+            &quot;messages&quot; : [ ],
+            &quot;records&quot; : [ {
+              &quot;Code__c&quot; : &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot;,
+              &quot;Name&quot; : &quot;Commodity Commercial Offers&quot;,
+              &quot;displaySequence&quot; : 10,
+              &quot;id&quot; : &quot;a0O4K0000009IdZUAU&quot;,
+              &quot;messages&quot; : [ ],
+              &quot;productAttributes&quot; : {
+                &quot;messages&quot; : [ ],
+                &quot;records&quot; : [ {
+                  &quot;attributeId&quot; : &quot;a0P4K0000009Qh9UAE&quot;,
+                  &quot;cacheable&quot; : true,
+                  &quot;cloneable&quot; : true,
+                  &quot;code&quot; : &quot;ATT_METER_TYPE&quot;,
+                  &quot;dataType&quot; : &quot;text&quot;,
+                  &quot;disabled&quot; : false,
+                  &quot;displaySequence&quot; : 1,
+                  &quot;filterable&quot; : true,
+                  &quot;hasRules&quot; : true,
+                  &quot;hidden&quot; : false,
+                  &quot;inputType&quot; : &quot;dropdown&quot;,
+                  &quot;isNotTranslatable&quot; : false,
+                  &quot;label&quot; : &quot;Meter Type&quot;,
+                  &quot;messages&quot; : [ ],
+                  &quot;multiselect&quot; : false,
+                  &quot;readonly&quot; : false,
+                  &quot;required&quot; : false,
+                  &quot;userValues&quot; : &quot;Any&quot;,
+                  &quot;values&quot; : [ {
+                    &quot;defaultSelected&quot; : true,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 1,
+                    &quot;id&quot; : &quot;0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9&quot;,
+                    &quot;label&quot; : &quot;Any&quot;,
+                    &quot;name&quot; : &quot;0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9&quot;,
+                    &quot;readonly&quot; : false,
+                    &quot;value&quot; : &quot;Any&quot;
+                  }, {
+                    &quot;defaultSelected&quot; : false,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 3,
+                    &quot;id&quot; : &quot;7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d&quot;,
+                    &quot;label&quot; : &quot;Smart&quot;,
+                    &quot;name&quot; : &quot;7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d&quot;,
+                    &quot;readonly&quot; : false,
+                    &quot;value&quot; : &quot;Smart&quot;
+                  }, {
+                    &quot;defaultSelected&quot; : false,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 2,
+                    &quot;id&quot; : &quot;f2d13d9d-b452-81e1-83b2-3c2fc126734f&quot;,
+                    &quot;label&quot; : &quot;Prepaid&quot;,
+                    &quot;name&quot; : &quot;f2d13d9d-b452-81e1-83b2-3c2fc126734f&quot;,
+                    &quot;readonly&quot; : false,
+                    &quot;value&quot; : &quot;Prepaid&quot;
+                  } ]
+                } ],
+                &quot;totalSize&quot; : 1
+              }
+            } ],
+            &quot;totalSize&quot; : 1
+          },
+          &quot;Description&quot; : &quot;Fixed energy product based on setting a target margin for a single unit rate.&quot;,
+          &quot;Id&quot; : &quot;01t4K000001Jc4CQAS&quot;,
+          &quot;IsActive&quot; : true,
+          &quot;Name&quot; : &quot;Fixed Energy&quot;,
+          &quot;PricebookEntryId&quot; : &quot;01u4K0000021LlxQAE&quot;,
+          &quot;Product2Id&quot; : &quot;01t4K000001Jc4CQAS&quot;,
+          &quot;ProductCode&quot; : &quot;PD_FIXED_ENERGY_MARGIN&quot;,
+          &quot;Quantity&quot; : 1,
+          &quot;addtocart&quot; : {
+            &quot;rest&quot; : {
+              &quot;link&quot; : &quot;v3/catalogs/COMMODITY/basket&quot;,
+              &quot;method&quot; : &quot;POST&quot;,
+              &quot;params&quot; : {
+                &quot;basketAction&quot; : &quot;AddWithNoConfig&quot;,
+                &quot;context&quot; : &quot;{\&quot;DIMENSION13191\&quot;:\&quot;Gold\&quot;,\&quot;DIMENSION17825\&quot;:\&quot;Active\&quot;,\&quot;IsAddOn\&quot;:\&quot;Comm\&quot;,\&quot;MeterType\&quot;:\&quot;Any\&quot;,\&quot;ProductType\&quot;:\&quot;Electricity\&quot;}&quot;,
+                &quot;offer&quot; : null
+              }
+            }
+          },
+          &quot;childProducts&quot; : [ {
+            &quot;vlocity_cmt__EndOfLifeDate__c&quot; : null,
+            &quot;vlocity_cmt__IsOrderable__c&quot; : false,
+            &quot;vlocity_cmt__SellingEndDate__c&quot; : null,
+            &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2020-11-01T00:00:00.000Z&quot;,
+            &quot;Attachments&quot; : null,
+            &quot;AttributeCategory&quot; : {
+              &quot;messages&quot; : [ ],
+              &quot;records&quot; : [ {
+                &quot;Code__c&quot; : &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot;,
+                &quot;Name&quot; : &quot;Commodity Commercial Offers&quot;,
+                &quot;displaySequence&quot; : 10,
+                &quot;id&quot; : &quot;a0O4K0000009IdZUAU&quot;,
+                &quot;messages&quot; : [ ],
+                &quot;productAttributes&quot; : {
+                  &quot;messages&quot; : [ ],
+                  &quot;records&quot; : [ {
+                    &quot;attributeId&quot; : &quot;a0P4K0000009QhBUAU&quot;,
+                    &quot;cacheable&quot; : true,
+                    &quot;cloneable&quot; : true,
+                    &quot;code&quot; : &quot;ATT_PAYMENT_METHOD&quot;,
+                    &quot;dataType&quot; : &quot;text&quot;,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 1,
+                    &quot;filterable&quot; : true,
+                    &quot;hasRules&quot; : false,
+                    &quot;hidden&quot; : false,
+                    &quot;inputType&quot; : &quot;text&quot;,
+                    &quot;isNotTranslatable&quot; : false,
+                    &quot;label&quot; : &quot;Payment Method&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;multiselect&quot; : false,
+                    &quot;readonly&quot; : false,
+                    &quot;required&quot; : false,
+                    &quot;userValues&quot; : null,
+                    &quot;values&quot; : [ {
+                      &quot;disabled&quot; : false,
+                      &quot;readonly&quot; : false
+                    } ]
+                  } ],
+                  &quot;totalSize&quot; : 1
+                }
+              }, {
+                &quot;Code__c&quot; : &quot;06a3cbf8-91fa-b7da-a10d-bfcee0856831&quot;,
+                &quot;Name&quot; : &quot;Commodity Cost Components&quot;,
+                &quot;displaySequence&quot; : 20,
+                &quot;id&quot; : &quot;a0O4K0000009IdcUAE&quot;,
+                &quot;messages&quot; : [ ],
+                &quot;productAttributes&quot; : {
+                  &quot;messages&quot; : [ ],
+                  &quot;records&quot; : [ {
+                    &quot;attributeId&quot; : &quot;a0P4K0000009QhgUAE&quot;,
+                    &quot;cacheable&quot; : true,
+                    &quot;cloneable&quot; : true,
+                    &quot;code&quot; : &quot;ATT_ENABLE_TARGET&quot;,
+                    &quot;dataType&quot; : &quot;text&quot;,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 1,
+                    &quot;filterable&quot; : true,
+                    &quot;hasRules&quot; : true,
+                    &quot;hidden&quot; : false,
+                    &quot;inputType&quot; : &quot;checkbox&quot;,
+                    &quot;isNotTranslatable&quot; : false,
+                    &quot;label&quot; : &quot;Enable Target Pricing&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;multiselect&quot; : false,
+                    &quot;readonly&quot; : false,
+                    &quot;required&quot; : false,
+                    &quot;userValues&quot; : false,
+                    &quot;values&quot; : [ {
+                      &quot;defaultValue&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;readonly&quot; : false
+                    } ]
+                  }, {
+                    &quot;attributeId&quot; : &quot;a0P4K0000009QhhUAE&quot;,
+                    &quot;cacheable&quot; : true,
+                    &quot;cloneable&quot; : true,
+                    &quot;code&quot; : &quot;ATT_MARGIN_TARGET&quot;,
+                    &quot;dataType&quot; : &quot;percentage&quot;,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 1,
+                    &quot;filterable&quot; : true,
+                    &quot;hasRules&quot; : true,
+                    &quot;hidden&quot; : false,
+                    &quot;inputType&quot; : &quot;number&quot;,
+                    &quot;isNotTranslatable&quot; : false,
+                    &quot;label&quot; : &quot;Target Margin&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;multiselect&quot; : false,
+                    &quot;readonly&quot; : false,
+                    &quot;required&quot; : false,
+                    &quot;userValues&quot; : 3,
+                    &quot;values&quot; : [ {
+                      &quot;defaultValue&quot; : 3,
+                      &quot;disabled&quot; : false,
+                      &quot;readonly&quot; : false
+                    } ]
+                  } ],
+                  &quot;totalSize&quot; : 2
+                }
+              }, {
+                &quot;Code__c&quot; : &quot;18de9fa5-a3b1-97f1-267f-5d06bf1caa7e&quot;,
+                &quot;Name&quot; : &quot;Usage Pricing&quot;,
+                &quot;displaySequence&quot; : 40,
+                &quot;id&quot; : &quot;a0O4K0000009IddUAE&quot;,
+                &quot;messages&quot; : [ ],
+                &quot;productAttributes&quot; : {
+                  &quot;messages&quot; : [ ],
+                  &quot;records&quot; : [ {
+                    &quot;attributeId&quot; : &quot;a0P4K0000009QgsUAE&quot;,
+                    &quot;cacheable&quot; : true,
+                    &quot;cloneable&quot; : true,
+                    &quot;code&quot; : &quot;ATT_USAGE&quot;,
+                    &quot;dataType&quot; : &quot;number&quot;,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 1,
+                    &quot;filterable&quot; : true,
+                    &quot;hasRules&quot; : false,
+                    &quot;hidden&quot; : false,
+                    &quot;inputType&quot; : &quot;number&quot;,
+                    &quot;isNotTranslatable&quot; : false,
+                    &quot;label&quot; : &quot;Usage Attribute&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;multiselect&quot; : false,
+                    &quot;readonly&quot; : false,
+                    &quot;required&quot; : false,
+                    &quot;userValues&quot; : null,
+                    &quot;values&quot; : [ {
+                      &quot;disabled&quot; : false,
+                      &quot;readonly&quot; : false
+                    } ]
+                  } ],
+                  &quot;totalSize&quot; : 1
+                }
+              }, {
+                &quot;Code__c&quot; : &quot;4ce6fdc8-9fe3-f5d4-c594-5649bfcfccbb&quot;,
+                &quot;Name&quot; : &quot;Market Data&quot;,
+                &quot;displaySequence&quot; : 54,
+                &quot;id&quot; : &quot;a0O4K0000009IdeUAE&quot;,
+                &quot;messages&quot; : [ ],
+                &quot;productAttributes&quot; : {
+                  &quot;messages&quot; : [ ],
+                  &quot;records&quot; : [ {
+                    &quot;attributeId&quot; : &quot;a0P4K0000009QhjUAE&quot;,
+                    &quot;cacheable&quot; : true,
+                    &quot;cloneable&quot; : true,
+                    &quot;code&quot; : &quot;ATT_DYN_USAGE&quot;,
+                    &quot;dataType&quot; : &quot;number&quot;,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 1,
+                    &quot;filterable&quot; : true,
+                    &quot;hasRules&quot; : true,
+                    &quot;hidden&quot; : false,
+                    &quot;inputType&quot; : &quot;number&quot;,
+                    &quot;isNotTranslatable&quot; : false,
+                    &quot;label&quot; : &quot;Forecasted Usage&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;multiselect&quot; : false,
+                    &quot;readonly&quot; : false,
+                    &quot;required&quot; : false,
+                    &quot;userValues&quot; : null,
+                    &quot;values&quot; : [ {
+                      &quot;disabled&quot; : false,
+                      &quot;readonly&quot; : false
+                    } ]
+                  }, {
+                    &quot;attributeId&quot; : &quot;a0P4K0000009Qh4UAE&quot;,
+                    &quot;cacheable&quot; : true,
+                    &quot;cloneable&quot; : true,
+                    &quot;code&quot; : &quot;ATT_DISTRIBUTION_REGION&quot;,
+                    &quot;dataType&quot; : &quot;text&quot;,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 1,
+                    &quot;filterable&quot; : true,
+                    &quot;hasRules&quot; : false,
+                    &quot;hidden&quot; : false,
+                    &quot;inputType&quot; : &quot;text&quot;,
+                    &quot;isNotTranslatable&quot; : false,
+                    &quot;label&quot; : &quot;Distribution Region&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;multiselect&quot; : false,
+                    &quot;readonly&quot; : false,
+                    &quot;required&quot; : false,
+                    &quot;userValues&quot; : &quot;London&quot;,
+                    &quot;values&quot; : [ {
+                      &quot;defaultValue&quot; : &quot;London&quot;,
+                      &quot;disabled&quot; : false,
+                      &quot;readonly&quot; : false
+                    } ]
+                  } ],
+                  &quot;totalSize&quot; : 2
+                }
+              } ],
+              &quot;totalSize&quot; : 4
+            },
+            &quot;Description&quot; : null,
+            &quot;Id&quot; : &quot;01t4K000001Jc4DQAS&quot;,
+            &quot;IsActive&quot; : true,
+            &quot;Name&quot; : &quot;Unit Rate&quot;,
+            &quot;PricebookEntryId&quot; : &quot;01u4K0000021LlyQAE&quot;,
+            &quot;Product2Id&quot; : &quot;01t4K000001Jc4DQAS&quot;,
+            &quot;ProductCode&quot; : &quot;CC_UNIT_RATE_MARGIN&quot;,
+            &quot;Quantity&quot; : 1,
+            &quot;groupMaxQuantity&quot; : 99999,
+            &quot;groupMinQuantity&quot; : 0,
+            &quot;lineNumber&quot; : &quot;0001.0001&quot;,
+            &quot;maxQuantity&quot; : 1,
+            &quot;minQuantity&quot; : 1,
+            &quot;priceResult&quot; : [ {
+              &quot;Amount__c&quot; : 0.11,
+              &quot;ChargeType__c&quot; : &quot;Usage&quot;,
+              &quot;DisplayText__c&quot; : &quot;0.11&quot;,
+              &quot;IsBasePrice__c&quot; : true,
+              &quot;IsVirtualPrice__c&quot; : false,
+              &quot;RecurringFrequency__c&quot; : null,
+              &quot;SubType__c&quot; : &quot;Standard&quot;,
+              &quot;Type__c&quot; : &quot;Price&quot;,
+              &quot;adjustments&quot; : [ ],
+              &quot;baseamount&quot; : 0.11,
+              &quot;chargeamount&quot; : 0.11,
+              &quot;effectivefromdatespec&quot; : null,
+              &quot;effectiveuntildatespec&quot; : null,
+              &quot;overrides&quot; : [ ]
+            }, {
+              &quot;Amount__c&quot; : 0.09,
+              &quot;ChargeType__c&quot; : &quot;Usage&quot;,
+              &quot;DisplayText__c&quot; : &quot;0.09&quot;,
+              &quot;IsBasePrice__c&quot; : true,
+              &quot;IsVirtualPrice__c&quot; : false,
+              &quot;RecurringFrequency__c&quot; : null,
+              &quot;SubType__c&quot; : &quot;Standard&quot;,
+              &quot;Type__c&quot; : &quot;Cost&quot;,
+              &quot;adjustments&quot; : [ ],
+              &quot;baseamount&quot; : 0.09,
+              &quot;chargeamount&quot; : 0.09,
+              &quot;effectivefromdatespec&quot; : null,
+              &quot;effectiveuntildatespec&quot; : null,
+              &quot;overrides&quot; : [ ]
+            } ],
+            &quot;productHierarchyPath&quot; : &quot;01t4K000001Jc4CQAS&lt;01t4K000001Jc4DQAS&quot;
+          }, {
+            &quot;vlocity_cmt__EndOfLifeDate__c&quot; : null,
+            &quot;vlocity_cmt__IsOrderable__c&quot; : false,
+            &quot;vlocity_cmt__SellingEndDate__c&quot; : null,
+            &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2020-09-30T23:00:00.000Z&quot;,
+            &quot;Attachments&quot; : null,
+            &quot;Description&quot; : null,
+            &quot;Id&quot; : &quot;01t4K000001Jc4AQAS&quot;,
+            &quot;IsActive&quot; : true,
+            &quot;Name&quot; : &quot;Standing Charges&quot;,
+            &quot;PricebookEntryId&quot; : &quot;01u4K0000021LlzQAE&quot;,
+            &quot;Product2Id&quot; : &quot;01t4K000001Jc4AQAS&quot;,
+            &quot;ProductCode&quot; : &quot;CC_STANDING_CHARGES&quot;,
+            &quot;Quantity&quot; : 1,
+            &quot;groupMaxQuantity&quot; : 99999,
+            &quot;groupMinQuantity&quot; : 0,
+            &quot;lineNumber&quot; : &quot;0001.0002&quot;,
+            &quot;maxQuantity&quot; : 1,
+            &quot;minQuantity&quot; : 1,
+            &quot;priceResult&quot; : [ {
+              &quot;Amount__c&quot; : 0.2134,
+              &quot;ChargeType__c&quot; : &quot;Usage&quot;,
+              &quot;DisplayText__c&quot; : &quot;Priced based on distribution region&quot;,
+              &quot;IsBasePrice__c&quot; : true,
+              &quot;IsVirtualPrice__c&quot; : false,
+              &quot;RecurringFrequency__c&quot; : null,
+              &quot;SubType__c&quot; : &quot;Standard&quot;,
+              &quot;Type__c&quot; : &quot;Cost&quot;,
+              &quot;adjustments&quot; : [ ],
+              &quot;baseamount&quot; : 0.2134,
+              &quot;chargeamount&quot; : 0.2134,
+              &quot;effectivefromdatespec&quot; : null,
+              &quot;effectiveuntildatespec&quot; : null,
+              &quot;overrides&quot; : [ ]
+            }, {
+              &quot;Amount__c&quot; : 0.2134,
+              &quot;ChargeType__c&quot; : &quot;Usage&quot;,
+              &quot;DisplayText__c&quot; : &quot;Priced based on distribution region&quot;,
+              &quot;IsBasePrice__c&quot; : true,
+              &quot;IsVirtualPrice__c&quot; : false,
+              &quot;RecurringFrequency__c&quot; : null,
+              &quot;SubType__c&quot; : &quot;Standard&quot;,
+              &quot;Type__c&quot; : &quot;Price&quot;,
+              &quot;adjustments&quot; : [ ],
+              &quot;baseamount&quot; : 0.2134,
+              &quot;chargeamount&quot; : 0.2134,
+              &quot;effectivefromdatespec&quot; : null,
+              &quot;effectiveuntildatespec&quot; : null,
+              &quot;overrides&quot; : [ ]
+            } ],
+            &quot;productHierarchyPath&quot; : &quot;01t4K000001Jc4CQAS&lt;01t4K000001Jc4AQAS&quot;
+          } ],
+          &quot;groupMaxQuantity&quot; : 99999,
+          &quot;groupMinQuantity&quot; : 0,
+          &quot;lineNumber&quot; : &quot;0001&quot;,
+          &quot;maxQuantity&quot; : 99999,
+          &quot;minQuantity&quot; : 0,
+          &quot;offerType&quot; : &quot;Product&quot;,
+          &quot;priceResult&quot; : [ {
+            &quot;Amount__c&quot; : 0,
+            &quot;ChargeType__c&quot; : &quot;One-time&quot;,
+            &quot;DisplayText__c&quot; : &quot;based on consumption&quot;,
+            &quot;IsBasePrice__c&quot; : true,
+            &quot;IsVirtualPrice__c&quot; : false,
+            &quot;RecurringFrequency__c&quot; : null,
+            &quot;SubType__c&quot; : &quot;Standard&quot;,
+            &quot;Type__c&quot; : &quot;Price&quot;,
+            &quot;UnitPrice&quot; : 0,
+            &quot;adjustments&quot; : [ ],
+            &quot;baseamount&quot; : 0,
+            &quot;chargeamount&quot; : 0,
+            &quot;effectivefromdatespec&quot; : null,
+            &quot;effectiveuntildatespec&quot; : null,
+            &quot;overrides&quot; : [ ]
+          }, {
+            &quot;Amount__c&quot; : 0,
+            &quot;ChargeType__c&quot; : &quot;Recurring&quot;,
+            &quot;DisplayText__c&quot; : &quot;based on distribution region&quot;,
+            &quot;IsBasePrice__c&quot; : true,
+            &quot;IsVirtualPrice__c&quot; : false,
+            &quot;RecurringFrequency__c&quot; : &quot;Monthly&quot;,
+            &quot;SubType__c&quot; : &quot;Standard&quot;,
+            &quot;Type__c&quot; : &quot;Price&quot;,
+            &quot;adjustments&quot; : [ ],
+            &quot;baseamount&quot; : 0,
+            &quot;chargeamount&quot; : 0,
+            &quot;effectivefromdatespec&quot; : null,
+            &quot;effectiveuntildatespec&quot; : null,
+            &quot;overrides&quot; : [ ]
+          } ],
+          &quot;productHierarchyPath&quot; : &quot;01t4K000001Jc4CQAS&quot;
+        }
+      }
+    }
+  },
+  &quot;getOfferDetailsStatus&quot; : true
+} ]</expectedInputJson>
+    <expectedOutputJson>[ {
+  &quot;LoopBlockIterationIndex&quot; : 1,
+  &quot;LoopBlockIterationStatus&quot; : true,
+  &quot;getOfferDetails&quot; : {
+    &quot;contextKey&quot; : &quot;84f7858f600f277039aa62012c674c44&quot;,
+    &quot;error&quot; : &quot;OK&quot;,
+    &quot;errorCode&quot; : &quot;INVOKE-200&quot;,
+    &quot;result&quot; : {
+      &quot;offerDetails&quot; : {
+        &quot;offer&quot; : {
+          &quot;vlocity_cmt__EndOfLifeDate__c&quot; : null,
+          &quot;vlocity_cmt__IsOrderable__c&quot; : true,
+          &quot;vlocity_cmt__SellingEndDate__c&quot; : null,
+          &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2020-12-01T00:00:00.000Z&quot;,
+          &quot;Attachments&quot; : [ {
+            &quot;contentType&quot; : &quot;Image&quot;,
+            &quot;defaultAttachment&quot; : true,
+            &quot;description&quot; : null,
+            &quot;displayConditionsData&quot; : null,
+            &quot;mimeType&quot; : null,
+            &quot;sequenceNumber&quot; : null,
+            &quot;title&quot; : &quot;Green Energy&quot;,
+            &quot;url&quot; : &quot;/servlet/servlet.FileDownload?file=0154K00000104NVQAY&quot;
+          } ],
+          &quot;AttributeCategory&quot; : {
+            &quot;messages&quot; : [ ],
+            &quot;records&quot; : [ {
+              &quot;Code__c&quot; : &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot;,
+              &quot;Name&quot; : &quot;Commodity Commercial Offers&quot;,
+              &quot;displaySequence&quot; : 10,
+              &quot;id&quot; : &quot;a0O4K0000009IdZUAU&quot;,
+              &quot;messages&quot; : [ ],
+              &quot;productAttributes&quot; : {
+                &quot;messages&quot; : [ ],
+                &quot;records&quot; : [ {
+                  &quot;attributeId&quot; : &quot;a0P4K0000009Qh9UAE&quot;,
+                  &quot;cacheable&quot; : true,
+                  &quot;cloneable&quot; : true,
+                  &quot;code&quot; : &quot;ATT_METER_TYPE&quot;,
+                  &quot;dataType&quot; : &quot;text&quot;,
+                  &quot;disabled&quot; : false,
+                  &quot;displaySequence&quot; : 1,
+                  &quot;filterable&quot; : true,
+                  &quot;hasRules&quot; : true,
+                  &quot;hidden&quot; : false,
+                  &quot;inputType&quot; : &quot;dropdown&quot;,
+                  &quot;isNotTranslatable&quot; : false,
+                  &quot;label&quot; : &quot;Meter Type&quot;,
+                  &quot;messages&quot; : [ ],
+                  &quot;multiselect&quot; : false,
+                  &quot;readonly&quot; : false,
+                  &quot;required&quot; : false,
+                  &quot;userValues&quot; : &quot;Prepaid&quot;,
+                  &quot;values&quot; : [ {
+                    &quot;defaultSelected&quot; : false,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 1,
+                    &quot;id&quot; : &quot;0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9&quot;,
+                    &quot;label&quot; : &quot;Any&quot;,
+                    &quot;name&quot; : &quot;0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9&quot;,
+                    &quot;readonly&quot; : false,
+                    &quot;value&quot; : &quot;Any&quot;
+                  }, {
+                    &quot;defaultSelected&quot; : false,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 3,
+                    &quot;id&quot; : &quot;7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d&quot;,
+                    &quot;label&quot; : &quot;Smart&quot;,
+                    &quot;name&quot; : &quot;7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d&quot;,
+                    &quot;readonly&quot; : false,
+                    &quot;value&quot; : &quot;Smart&quot;
+                  }, {
+                    &quot;defaultSelected&quot; : true,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 2,
+                    &quot;id&quot; : &quot;f2d13d9d-b452-81e1-83b2-3c2fc126734f&quot;,
+                    &quot;label&quot; : &quot;Prepaid&quot;,
+                    &quot;name&quot; : &quot;f2d13d9d-b452-81e1-83b2-3c2fc126734f&quot;,
+                    &quot;readonly&quot; : false,
+                    &quot;value&quot; : &quot;Prepaid&quot;
+                  } ]
+                } ],
+                &quot;totalSize&quot; : 1
+              }
+            } ],
+            &quot;totalSize&quot; : 1
+          },
+          &quot;Description&quot; : null,
+          &quot;Id&quot; : &quot;01t4K000001JqiqQAC&quot;,
+          &quot;IsActive&quot; : true,
+          &quot;Name&quot; : &quot;Green Energy&quot;,
+          &quot;PricebookEntryId&quot; : &quot;01u4K0000025rWuQAI&quot;,
+          &quot;Product2Id&quot; : &quot;01t4K000001JqiqQAC&quot;,
+          &quot;ProductCode&quot; : &quot;PD_ENERGY_GREEN&quot;,
+          &quot;Quantity&quot; : 1,
+          &quot;addtocart&quot; : {
+            &quot;rest&quot; : {
+              &quot;link&quot; : &quot;v3/catalogs/COMMODITY/basket&quot;,
+              &quot;method&quot; : &quot;POST&quot;,
+              &quot;params&quot; : {
+                &quot;basketAction&quot; : &quot;AddWithNoConfig&quot;,
+                &quot;context&quot; : &quot;{\&quot;DIMENSION13191\&quot;:\&quot;Gold\&quot;,\&quot;DIMENSION17825\&quot;:\&quot;Active\&quot;,\&quot;IsAddOn\&quot;:\&quot;Comm\&quot;,\&quot;MeterType\&quot;:\&quot;Any\&quot;,\&quot;ProductType\&quot;:\&quot;Electricity\&quot;}&quot;,
+                &quot;offer&quot; : null
+              }
+            }
+          },
+          &quot;childProducts&quot; : [ {
+            &quot;vlocity_cmt__EndOfLifeDate__c&quot; : null,
+            &quot;vlocity_cmt__IsOrderable__c&quot; : false,
+            &quot;vlocity_cmt__SellingEndDate__c&quot; : null,
+            &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2020-12-01T00:00:00.000Z&quot;,
+            &quot;Attachments&quot; : null,
+            &quot;AttributeCategory&quot; : {
+              &quot;messages&quot; : [ ],
+              &quot;records&quot; : [ {
+                &quot;Code__c&quot; : &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot;,
+                &quot;Name&quot; : &quot;Commodity Commercial Offers&quot;,
+                &quot;displaySequence&quot; : 10,
+                &quot;id&quot; : &quot;a0O4K0000009IdZUAU&quot;,
+                &quot;messages&quot; : [ ],
+                &quot;productAttributes&quot; : {
+                  &quot;messages&quot; : [ ],
+                  &quot;records&quot; : [ {
+                    &quot;attributeId&quot; : &quot;a0P4K0000009QhBUAU&quot;,
+                    &quot;cacheable&quot; : true,
+                    &quot;cloneable&quot; : true,
+                    &quot;code&quot; : &quot;ATT_PAYMENT_METHOD&quot;,
+                    &quot;dataType&quot; : &quot;text&quot;,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 1,
+                    &quot;filterable&quot; : true,
+                    &quot;hasRules&quot; : true,
+                    &quot;hidden&quot; : false,
+                    &quot;inputType&quot; : &quot;dropdown&quot;,
+                    &quot;isNotTranslatable&quot; : false,
+                    &quot;label&quot; : &quot;Payment Method&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;multiselect&quot; : false,
+                    &quot;readonly&quot; : false,
+                    &quot;required&quot; : false,
+                    &quot;userValues&quot; : null,
+                    &quot;values&quot; : [ {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 1,
+                      &quot;id&quot; : &quot;08639b53-2428-3c70-b4b3-1cc1f682ceb6&quot;,
+                      &quot;label&quot; : &quot;Direct Debit&quot;,
+                      &quot;name&quot; : &quot;08639b53-2428-3c70-b4b3-1cc1f682ceb6&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;Direct Debit&quot;
+                    } ]
+                  } ],
+                  &quot;totalSize&quot; : 1
+                }
+              }, {
+                &quot;Code__c&quot; : &quot;06a3cbf8-91fa-b7da-a10d-bfcee0856831&quot;,
+                &quot;Name&quot; : &quot;Commodity Cost Components&quot;,
+                &quot;displaySequence&quot; : 20,
+                &quot;id&quot; : &quot;a0O4K0000009IdcUAE&quot;,
+                &quot;messages&quot; : [ ],
+                &quot;productAttributes&quot; : {
+                  &quot;messages&quot; : [ ],
+                  &quot;records&quot; : [ {
+                    &quot;attributeId&quot; : &quot;a0P4K0000009Qh4UAE&quot;,
+                    &quot;cacheable&quot; : true,
+                    &quot;cloneable&quot; : true,
+                    &quot;code&quot; : &quot;ATT_DISTRIBUTION_REGION&quot;,
+                    &quot;dataType&quot; : &quot;text&quot;,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 1,
+                    &quot;filterable&quot; : true,
+                    &quot;hasRules&quot; : true,
+                    &quot;hidden&quot; : false,
+                    &quot;inputType&quot; : &quot;dropdown&quot;,
+                    &quot;isNotTranslatable&quot; : false,
+                    &quot;label&quot; : &quot;Distribution Region&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;multiselect&quot; : false,
+                    &quot;readonly&quot; : false,
+                    &quot;required&quot; : false,
+                    &quot;userValues&quot; : null,
+                    &quot;values&quot; : [ {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 2,
+                      &quot;id&quot; : &quot;09a836d9-ed3a-74e8-f194-e91ad95c30aa&quot;,
+                      &quot;label&quot; : &quot;East Midlands&quot;,
+                      &quot;name&quot; : &quot;09a836d9-ed3a-74e8-f194-e91ad95c30aa&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;East Midlands&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 8,
+                      &quot;id&quot; : &quot;32615501-2941-de8c-dd1f-5a739659d009&quot;,
+                      &quot;label&quot; : &quot;South England&quot;,
+                      &quot;name&quot; : &quot;32615501-2941-de8c-dd1f-5a739659d009&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;South England&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 4,
+                      &quot;id&quot; : &quot;3486c362-fabb-b71c-894f-9e4715d68e47&quot;,
+                      &quot;label&quot; : &quot;Merseyside &amp; Northern Wales&quot;,
+                      &quot;name&quot; : &quot;3486c362-fabb-b71c-894f-9e4715d68e47&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;Merseyside &amp; Northern Wales&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 6,
+                      &quot;id&quot; : &quot;438b3c71-6825-0bfb-e4e6-1c222e9e125f&quot;,
+                      &quot;label&quot; : &quot;North England&quot;,
+                      &quot;name&quot; : &quot;438b3c71-6825-0bfb-e4e6-1c222e9e125f&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;North England&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 14,
+                      &quot;id&quot; : &quot;4cf82974-b692-11bc-1f6e-d06bd3fd786d&quot;,
+                      &quot;label&quot; : &quot;North Scotland&quot;,
+                      &quot;name&quot; : &quot;4cf82974-b692-11bc-1f6e-d06bd3fd786d&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;North Scotland&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 5,
+                      &quot;id&quot; : &quot;77cc6a62-6e63-ec2c-2acb-afc2377d4330&quot;,
+                      &quot;label&quot; : &quot;West Midlands&quot;,
+                      &quot;name&quot; : &quot;77cc6a62-6e63-ec2c-2acb-afc2377d4330&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;West Midlands&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 11,
+                      &quot;id&quot; : &quot;7c37e397-894f-34e0-6657-21d0b691a347&quot;,
+                      &quot;label&quot; : &quot;South West England&quot;,
+                      &quot;name&quot; : &quot;7c37e397-894f-34e0-6657-21d0b691a347&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;South West England&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 13,
+                      &quot;id&quot; : &quot;86fd0c23-2935-2818-2a45-0d3a4ad2c36d&quot;,
+                      &quot;label&quot; : &quot;South Scotland&quot;,
+                      &quot;name&quot; : &quot;86fd0c23-2935-2818-2a45-0d3a4ad2c36d&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;South Scotland&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 1,
+                      &quot;id&quot; : &quot;9f53919e-b865-57f7-3cac-951b071640a8&quot;,
+                      &quot;label&quot; : &quot;East England&quot;,
+                      &quot;name&quot; : &quot;9f53919e-b865-57f7-3cac-951b071640a8&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;East England&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 3,
+                      &quot;id&quot; : &quot;a7640a85-31ef-893e-8dc6-a6b16b6131df&quot;,
+                      &quot;label&quot; : &quot;London&quot;,
+                      &quot;name&quot; : &quot;a7640a85-31ef-893e-8dc6-a6b16b6131df&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;London&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 9,
+                      &quot;id&quot; : &quot;af91dd0c-6e48-0a1a-5048-d787d739e99e&quot;,
+                      &quot;label&quot; : &quot;South East England&quot;,
+                      &quot;name&quot; : &quot;af91dd0c-6e48-0a1a-5048-d787d739e99e&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;South East England&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 12,
+                      &quot;id&quot; : &quot;dcdecd9f-9055-0742-fb1b-205efbbe10a1&quot;,
+                      &quot;label&quot; : &quot;Yorkshire&quot;,
+                      &quot;name&quot; : &quot;dcdecd9f-9055-0742-fb1b-205efbbe10a1&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;Yorkshire&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 10,
+                      &quot;id&quot; : &quot;e2b1854a-279b-b60f-7c7f-ce0906bddf3d&quot;,
+                      &quot;label&quot; : &quot;South Wales&quot;,
+                      &quot;name&quot; : &quot;e2b1854a-279b-b60f-7c7f-ce0906bddf3d&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;South Wales&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 7,
+                      &quot;id&quot; : &quot;eedbefcb-bfdf-6422-7389-dc4db0c6e60a&quot;,
+                      &quot;label&quot; : &quot;North West England&quot;,
+                      &quot;name&quot; : &quot;eedbefcb-bfdf-6422-7389-dc4db0c6e60a&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;North West England&quot;
+                    } ]
+                  } ],
+                  &quot;totalSize&quot; : 1
+                }
+              }, {
+                &quot;Code__c&quot; : &quot;18de9fa5-a3b1-97f1-267f-5d06bf1caa7e&quot;,
+                &quot;Name&quot; : &quot;Usage Pricing&quot;,
+                &quot;displaySequence&quot; : 40,
+                &quot;id&quot; : &quot;a0O4K0000009IddUAE&quot;,
+                &quot;messages&quot; : [ ],
+                &quot;productAttributes&quot; : {
+                  &quot;messages&quot; : [ ],
+                  &quot;records&quot; : [ {
+                    &quot;attributeId&quot; : &quot;a0P4K0000009QgsUAE&quot;,
+                    &quot;cacheable&quot; : true,
+                    &quot;cloneable&quot; : true,
+                    &quot;code&quot; : &quot;ATT_USAGE&quot;,
+                    &quot;dataType&quot; : &quot;number&quot;,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 1,
+                    &quot;filterable&quot; : true,
+                    &quot;hasRules&quot; : true,
+                    &quot;hidden&quot; : false,
+                    &quot;inputType&quot; : &quot;number&quot;,
+                    &quot;isNotTranslatable&quot; : false,
+                    &quot;label&quot; : &quot;Usage Attribute&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;multiselect&quot; : false,
+                    &quot;readonly&quot; : false,
+                    &quot;required&quot; : false,
+                    &quot;userValues&quot; : null,
+                    &quot;values&quot; : [ {
+                      &quot;disabled&quot; : false,
+                      &quot;readonly&quot; : false
+                    } ]
+                  } ],
+                  &quot;totalSize&quot; : 1
+                }
+              } ],
+              &quot;totalSize&quot; : 3
+            },
+            &quot;Description&quot; : null,
+            &quot;Id&quot; : &quot;01t4K000001JqmYQAS&quot;,
+            &quot;IsActive&quot; : true,
+            &quot;Name&quot; : &quot;Unit Rate&quot;,
+            &quot;PricebookEntryId&quot; : &quot;01u4K0000025rciQAA&quot;,
+            &quot;Product2Id&quot; : &quot;01t4K000001JqmYQAS&quot;,
+            &quot;ProductCode&quot; : &quot;CC_UNIT_RATE_GREEN&quot;,
+            &quot;Quantity&quot; : 1,
+            &quot;groupMaxQuantity&quot; : 99999,
+            &quot;groupMinQuantity&quot; : 0,
+            &quot;lineNumber&quot; : &quot;0001.0001&quot;,
+            &quot;maxQuantity&quot; : 1,
+            &quot;minQuantity&quot; : 1,
+            &quot;priceResult&quot; : [ {
+              &quot;Amount__c&quot; : 0.0158,
+              &quot;ChargeType__c&quot; : &quot;Usage&quot;,
+              &quot;DisplayText__c&quot; : &quot;0.0158 GBP&quot;,
+              &quot;IsBasePrice__c&quot; : true,
+              &quot;IsVirtualPrice__c&quot; : false,
+              &quot;RecurringFrequency__c&quot; : null,
+              &quot;SubType__c&quot; : &quot;Standard&quot;,
+              &quot;Type__c&quot; : &quot;Price&quot;,
+              &quot;adjustments&quot; : [ ],
+              &quot;baseamount&quot; : 0.0158,
+              &quot;chargeamount&quot; : 0.0158,
+              &quot;effectivefromdatespec&quot; : null,
+              &quot;effectiveuntildatespec&quot; : null,
+              &quot;overrides&quot; : [ ]
+            } ],
+            &quot;productHierarchyPath&quot; : &quot;01t4K000001JqiqQAC&lt;01t4K000001JqmYQAS&quot;
+          }, {
+            &quot;vlocity_cmt__EndOfLifeDate__c&quot; : null,
+            &quot;vlocity_cmt__IsOrderable__c&quot; : false,
+            &quot;vlocity_cmt__SellingEndDate__c&quot; : null,
+            &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2020-09-30T23:00:00.000Z&quot;,
+            &quot;Attachments&quot; : null,
+            &quot;Description&quot; : null,
+            &quot;Id&quot; : &quot;01t4K000001Jc4AQAS&quot;,
+            &quot;IsActive&quot; : true,
+            &quot;Name&quot; : &quot;Standing Charges&quot;,
+            &quot;PricebookEntryId&quot; : &quot;01u4K0000021LlzQAE&quot;,
+            &quot;Product2Id&quot; : &quot;01t4K000001Jc4AQAS&quot;,
+            &quot;ProductCode&quot; : &quot;CC_STANDING_CHARGES&quot;,
+            &quot;Quantity&quot; : 1,
+            &quot;groupMaxQuantity&quot; : 99999,
+            &quot;groupMinQuantity&quot; : 0,
+            &quot;lineNumber&quot; : &quot;0001.0002&quot;,
+            &quot;maxQuantity&quot; : 1,
+            &quot;minQuantity&quot; : 1,
+            &quot;priceResult&quot; : [ {
+              &quot;Amount__c&quot; : 0.2134,
+              &quot;ChargeType__c&quot; : &quot;Usage&quot;,
+              &quot;DisplayText__c&quot; : &quot;Priced based on distribution region&quot;,
+              &quot;IsBasePrice__c&quot; : true,
+              &quot;IsVirtualPrice__c&quot; : false,
+              &quot;RecurringFrequency__c&quot; : null,
+              &quot;SubType__c&quot; : &quot;Standard&quot;,
+              &quot;Type__c&quot; : &quot;Cost&quot;,
+              &quot;adjustments&quot; : [ ],
+              &quot;baseamount&quot; : 0.2134,
+              &quot;chargeamount&quot; : 0.2134,
+              &quot;effectivefromdatespec&quot; : null,
+              &quot;effectiveuntildatespec&quot; : null,
+              &quot;overrides&quot; : [ ]
+            }, {
+              &quot;Amount__c&quot; : 0.2134,
+              &quot;ChargeType__c&quot; : &quot;Usage&quot;,
+              &quot;DisplayText__c&quot; : &quot;Priced based on distribution region&quot;,
+              &quot;IsBasePrice__c&quot; : true,
+              &quot;IsVirtualPrice__c&quot; : false,
+              &quot;RecurringFrequency__c&quot; : null,
+              &quot;SubType__c&quot; : &quot;Standard&quot;,
+              &quot;Type__c&quot; : &quot;Price&quot;,
+              &quot;adjustments&quot; : [ ],
+              &quot;baseamount&quot; : 0.2134,
+              &quot;chargeamount&quot; : 0.2134,
+              &quot;effectivefromdatespec&quot; : null,
+              &quot;effectiveuntildatespec&quot; : null,
+              &quot;overrides&quot; : [ ]
+            } ],
+            &quot;productHierarchyPath&quot; : &quot;01t4K000001JqiqQAC&lt;01t4K000001Jc4AQAS&quot;
+          } ],
+          &quot;groupMaxQuantity&quot; : 99999,
+          &quot;groupMinQuantity&quot; : 0,
+          &quot;lineNumber&quot; : &quot;0001&quot;,
+          &quot;maxQuantity&quot; : 99999,
+          &quot;minQuantity&quot; : 0,
+          &quot;offerType&quot; : &quot;Product&quot;,
+          &quot;priceResult&quot; : [ {
+            &quot;Amount__c&quot; : 0,
+            &quot;ChargeType__c&quot; : &quot;Recurring&quot;,
+            &quot;DisplayText__c&quot; : &quot;based on distribution region&quot;,
+            &quot;IsBasePrice__c&quot; : true,
+            &quot;IsVirtualPrice__c&quot; : false,
+            &quot;RecurringFrequency__c&quot; : &quot;Monthly&quot;,
+            &quot;SubType__c&quot; : &quot;Standard&quot;,
+            &quot;Type__c&quot; : &quot;Price&quot;,
+            &quot;adjustments&quot; : [ ],
+            &quot;baseamount&quot; : 0,
+            &quot;chargeamount&quot; : 0,
+            &quot;effectivefromdatespec&quot; : null,
+            &quot;effectiveuntildatespec&quot; : null,
+            &quot;overrides&quot; : [ ]
+          }, {
+            &quot;Amount__c&quot; : 0,
+            &quot;ChargeType__c&quot; : &quot;One-time&quot;,
+            &quot;DisplayText__c&quot; : &quot;based on consumption&quot;,
+            &quot;IsBasePrice__c&quot; : true,
+            &quot;IsVirtualPrice__c&quot; : false,
+            &quot;RecurringFrequency__c&quot; : null,
+            &quot;SubType__c&quot; : &quot;Standard&quot;,
+            &quot;Type__c&quot; : &quot;Price&quot;,
+            &quot;UnitPrice&quot; : 0,
+            &quot;adjustments&quot; : [ ],
+            &quot;baseamount&quot; : 0,
+            &quot;chargeamount&quot; : 0,
+            &quot;effectivefromdatespec&quot; : null,
+            &quot;effectiveuntildatespec&quot; : null,
+            &quot;overrides&quot; : [ ]
+          } ],
+          &quot;productHierarchyPath&quot; : &quot;01t4K000001JqiqQAC&quot;
+        }
+      }
+    }
+  },
+  &quot;getOfferDetailsStatus&quot; : true
+}, {
+  &quot;LoopBlockIterationIndex&quot; : 2,
+  &quot;LoopBlockIterationStatus&quot; : true,
+  &quot;getOfferDetails&quot; : {
+    &quot;contextKey&quot; : &quot;84f7858f600f277039aa62012c674c44&quot;,
+    &quot;error&quot; : &quot;OK&quot;,
+    &quot;errorCode&quot; : &quot;INVOKE-200&quot;,
+    &quot;result&quot; : {
+      &quot;offerDetails&quot; : {
+        &quot;offer&quot; : {
+          &quot;vlocity_cmt__EndOfLifeDate__c&quot; : null,
+          &quot;vlocity_cmt__IsOrderable__c&quot; : true,
+          &quot;vlocity_cmt__SellingEndDate__c&quot; : null,
+          &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2020-09-30T23:00:00.000Z&quot;,
+          &quot;Attachments&quot; : null,
+          &quot;AttributeCategory&quot; : {
+            &quot;messages&quot; : [ ],
+            &quot;records&quot; : [ {
+              &quot;Code__c&quot; : &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot;,
+              &quot;Name&quot; : &quot;Commodity Commercial Offers&quot;,
+              &quot;displaySequence&quot; : 10,
+              &quot;id&quot; : &quot;a0O4K0000009IdZUAU&quot;,
+              &quot;messages&quot; : [ ],
+              &quot;productAttributes&quot; : {
+                &quot;messages&quot; : [ ],
+                &quot;records&quot; : [ {
+                  &quot;attributeId&quot; : &quot;a0P4K0000009Qh9UAE&quot;,
+                  &quot;cacheable&quot; : true,
+                  &quot;cloneable&quot; : true,
+                  &quot;code&quot; : &quot;ATT_METER_TYPE&quot;,
+                  &quot;dataType&quot; : &quot;text&quot;,
+                  &quot;disabled&quot; : false,
+                  &quot;displaySequence&quot; : 1,
+                  &quot;filterable&quot; : true,
+                  &quot;hasRules&quot; : true,
+                  &quot;hidden&quot; : false,
+                  &quot;inputType&quot; : &quot;dropdown&quot;,
+                  &quot;isNotTranslatable&quot; : false,
+                  &quot;label&quot; : &quot;Meter Type&quot;,
+                  &quot;messages&quot; : [ ],
+                  &quot;multiselect&quot; : false,
+                  &quot;readonly&quot; : false,
+                  &quot;required&quot; : false,
+                  &quot;userValues&quot; : &quot;Any&quot;,
+                  &quot;values&quot; : [ {
+                    &quot;defaultSelected&quot; : true,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 1,
+                    &quot;id&quot; : &quot;0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9&quot;,
+                    &quot;label&quot; : &quot;Any&quot;,
+                    &quot;name&quot; : &quot;0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9&quot;,
+                    &quot;readonly&quot; : false,
+                    &quot;value&quot; : &quot;Any&quot;
+                  }, {
+                    &quot;defaultSelected&quot; : false,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 3,
+                    &quot;id&quot; : &quot;7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d&quot;,
+                    &quot;label&quot; : &quot;Smart&quot;,
+                    &quot;name&quot; : &quot;7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d&quot;,
+                    &quot;readonly&quot; : false,
+                    &quot;value&quot; : &quot;Smart&quot;
+                  }, {
+                    &quot;defaultSelected&quot; : false,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 2,
+                    &quot;id&quot; : &quot;f2d13d9d-b452-81e1-83b2-3c2fc126734f&quot;,
+                    &quot;label&quot; : &quot;Prepaid&quot;,
+                    &quot;name&quot; : &quot;f2d13d9d-b452-81e1-83b2-3c2fc126734f&quot;,
+                    &quot;readonly&quot; : false,
+                    &quot;value&quot; : &quot;Prepaid&quot;
+                  } ]
+                } ],
+                &quot;totalSize&quot; : 1
+              }
+            } ],
+            &quot;totalSize&quot; : 1
+          },
+          &quot;Description&quot; : &quot;Fixed energy product based on setting a target margin for a single unit rate.&quot;,
+          &quot;Id&quot; : &quot;01t4K000001Jc4CQAS&quot;,
+          &quot;IsActive&quot; : true,
+          &quot;Name&quot; : &quot;Fixed Energy&quot;,
+          &quot;PricebookEntryId&quot; : &quot;01u4K0000021LlxQAE&quot;,
+          &quot;Product2Id&quot; : &quot;01t4K000001Jc4CQAS&quot;,
+          &quot;ProductCode&quot; : &quot;PD_FIXED_ENERGY_MARGIN&quot;,
+          &quot;Quantity&quot; : 1,
+          &quot;addtocart&quot; : {
+            &quot;rest&quot; : {
+              &quot;link&quot; : &quot;v3/catalogs/COMMODITY/basket&quot;,
+              &quot;method&quot; : &quot;POST&quot;,
+              &quot;params&quot; : {
+                &quot;basketAction&quot; : &quot;AddWithNoConfig&quot;,
+                &quot;context&quot; : &quot;{\&quot;DIMENSION13191\&quot;:\&quot;Gold\&quot;,\&quot;DIMENSION17825\&quot;:\&quot;Active\&quot;,\&quot;IsAddOn\&quot;:\&quot;Comm\&quot;,\&quot;MeterType\&quot;:\&quot;Any\&quot;,\&quot;ProductType\&quot;:\&quot;Electricity\&quot;}&quot;,
+                &quot;offer&quot; : null
+              }
+            }
+          },
+          &quot;childProducts&quot; : [ {
+            &quot;vlocity_cmt__EndOfLifeDate__c&quot; : null,
+            &quot;vlocity_cmt__IsOrderable__c&quot; : false,
+            &quot;vlocity_cmt__SellingEndDate__c&quot; : null,
+            &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2020-11-01T00:00:00.000Z&quot;,
+            &quot;Attachments&quot; : null,
+            &quot;AttributeCategory&quot; : {
+              &quot;messages&quot; : [ ],
+              &quot;records&quot; : [ {
+                &quot;Code__c&quot; : &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot;,
+                &quot;Name&quot; : &quot;Commodity Commercial Offers&quot;,
+                &quot;displaySequence&quot; : 10,
+                &quot;id&quot; : &quot;a0O4K0000009IdZUAU&quot;,
+                &quot;messages&quot; : [ ],
+                &quot;productAttributes&quot; : {
+                  &quot;messages&quot; : [ ],
+                  &quot;records&quot; : [ {
+                    &quot;attributeId&quot; : &quot;a0P4K0000009QhBUAU&quot;,
+                    &quot;cacheable&quot; : true,
+                    &quot;cloneable&quot; : true,
+                    &quot;code&quot; : &quot;ATT_PAYMENT_METHOD&quot;,
+                    &quot;dataType&quot; : &quot;text&quot;,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 1,
+                    &quot;filterable&quot; : true,
+                    &quot;hasRules&quot; : false,
+                    &quot;hidden&quot; : false,
+                    &quot;inputType&quot; : &quot;text&quot;,
+                    &quot;isNotTranslatable&quot; : false,
+                    &quot;label&quot; : &quot;Payment Method&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;multiselect&quot; : false,
+                    &quot;readonly&quot; : false,
+                    &quot;required&quot; : false,
+                    &quot;userValues&quot; : null,
+                    &quot;values&quot; : [ {
+                      &quot;disabled&quot; : false,
+                      &quot;readonly&quot; : false
+                    } ]
+                  } ],
+                  &quot;totalSize&quot; : 1
+                }
+              }, {
+                &quot;Code__c&quot; : &quot;06a3cbf8-91fa-b7da-a10d-bfcee0856831&quot;,
+                &quot;Name&quot; : &quot;Commodity Cost Components&quot;,
+                &quot;displaySequence&quot; : 20,
+                &quot;id&quot; : &quot;a0O4K0000009IdcUAE&quot;,
+                &quot;messages&quot; : [ ],
+                &quot;productAttributes&quot; : {
+                  &quot;messages&quot; : [ ],
+                  &quot;records&quot; : [ {
+                    &quot;attributeId&quot; : &quot;a0P4K0000009QhgUAE&quot;,
+                    &quot;cacheable&quot; : true,
+                    &quot;cloneable&quot; : true,
+                    &quot;code&quot; : &quot;ATT_ENABLE_TARGET&quot;,
+                    &quot;dataType&quot; : &quot;text&quot;,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 1,
+                    &quot;filterable&quot; : true,
+                    &quot;hasRules&quot; : true,
+                    &quot;hidden&quot; : false,
+                    &quot;inputType&quot; : &quot;checkbox&quot;,
+                    &quot;isNotTranslatable&quot; : false,
+                    &quot;label&quot; : &quot;Enable Target Pricing&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;multiselect&quot; : false,
+                    &quot;readonly&quot; : false,
+                    &quot;required&quot; : false,
+                    &quot;userValues&quot; : false,
+                    &quot;values&quot; : [ {
+                      &quot;defaultValue&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;readonly&quot; : false
+                    } ]
+                  }, {
+                    &quot;attributeId&quot; : &quot;a0P4K0000009QhhUAE&quot;,
+                    &quot;cacheable&quot; : true,
+                    &quot;cloneable&quot; : true,
+                    &quot;code&quot; : &quot;ATT_MARGIN_TARGET&quot;,
+                    &quot;dataType&quot; : &quot;percentage&quot;,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 1,
+                    &quot;filterable&quot; : true,
+                    &quot;hasRules&quot; : true,
+                    &quot;hidden&quot; : false,
+                    &quot;inputType&quot; : &quot;number&quot;,
+                    &quot;isNotTranslatable&quot; : false,
+                    &quot;label&quot; : &quot;Target Margin&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;multiselect&quot; : false,
+                    &quot;readonly&quot; : false,
+                    &quot;required&quot; : false,
+                    &quot;userValues&quot; : 3,
+                    &quot;values&quot; : [ {
+                      &quot;defaultValue&quot; : 3,
+                      &quot;disabled&quot; : false,
+                      &quot;readonly&quot; : false
+                    } ]
+                  } ],
+                  &quot;totalSize&quot; : 2
+                }
+              }, {
+                &quot;Code__c&quot; : &quot;18de9fa5-a3b1-97f1-267f-5d06bf1caa7e&quot;,
+                &quot;Name&quot; : &quot;Usage Pricing&quot;,
+                &quot;displaySequence&quot; : 40,
+                &quot;id&quot; : &quot;a0O4K0000009IddUAE&quot;,
+                &quot;messages&quot; : [ ],
+                &quot;productAttributes&quot; : {
+                  &quot;messages&quot; : [ ],
+                  &quot;records&quot; : [ {
+                    &quot;attributeId&quot; : &quot;a0P4K0000009QgsUAE&quot;,
+                    &quot;cacheable&quot; : true,
+                    &quot;cloneable&quot; : true,
+                    &quot;code&quot; : &quot;ATT_USAGE&quot;,
+                    &quot;dataType&quot; : &quot;number&quot;,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 1,
+                    &quot;filterable&quot; : true,
+                    &quot;hasRules&quot; : false,
+                    &quot;hidden&quot; : false,
+                    &quot;inputType&quot; : &quot;number&quot;,
+                    &quot;isNotTranslatable&quot; : false,
+                    &quot;label&quot; : &quot;Usage Attribute&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;multiselect&quot; : false,
+                    &quot;readonly&quot; : false,
+                    &quot;required&quot; : false,
+                    &quot;userValues&quot; : null,
+                    &quot;values&quot; : [ {
+                      &quot;disabled&quot; : false,
+                      &quot;readonly&quot; : false
+                    } ]
+                  } ],
+                  &quot;totalSize&quot; : 1
+                }
+              }, {
+                &quot;Code__c&quot; : &quot;4ce6fdc8-9fe3-f5d4-c594-5649bfcfccbb&quot;,
+                &quot;Name&quot; : &quot;Market Data&quot;,
+                &quot;displaySequence&quot; : 54,
+                &quot;id&quot; : &quot;a0O4K0000009IdeUAE&quot;,
+                &quot;messages&quot; : [ ],
+                &quot;productAttributes&quot; : {
+                  &quot;messages&quot; : [ ],
+                  &quot;records&quot; : [ {
+                    &quot;attributeId&quot; : &quot;a0P4K0000009QhjUAE&quot;,
+                    &quot;cacheable&quot; : true,
+                    &quot;cloneable&quot; : true,
+                    &quot;code&quot; : &quot;ATT_DYN_USAGE&quot;,
+                    &quot;dataType&quot; : &quot;number&quot;,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 1,
+                    &quot;filterable&quot; : true,
+                    &quot;hasRules&quot; : true,
+                    &quot;hidden&quot; : false,
+                    &quot;inputType&quot; : &quot;number&quot;,
+                    &quot;isNotTranslatable&quot; : false,
+                    &quot;label&quot; : &quot;Forecasted Usage&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;multiselect&quot; : false,
+                    &quot;readonly&quot; : false,
+                    &quot;required&quot; : false,
+                    &quot;userValues&quot; : null,
+                    &quot;values&quot; : [ {
+                      &quot;disabled&quot; : false,
+                      &quot;readonly&quot; : false
+                    } ]
+                  }, {
+                    &quot;attributeId&quot; : &quot;a0P4K0000009Qh4UAE&quot;,
+                    &quot;cacheable&quot; : true,
+                    &quot;cloneable&quot; : true,
+                    &quot;code&quot; : &quot;ATT_DISTRIBUTION_REGION&quot;,
+                    &quot;dataType&quot; : &quot;text&quot;,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 1,
+                    &quot;filterable&quot; : true,
+                    &quot;hasRules&quot; : false,
+                    &quot;hidden&quot; : false,
+                    &quot;inputType&quot; : &quot;text&quot;,
+                    &quot;isNotTranslatable&quot; : false,
+                    &quot;label&quot; : &quot;Distribution Region&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;multiselect&quot; : false,
+                    &quot;readonly&quot; : false,
+                    &quot;required&quot; : false,
+                    &quot;userValues&quot; : &quot;London&quot;,
+                    &quot;values&quot; : [ {
+                      &quot;defaultValue&quot; : &quot;London&quot;,
+                      &quot;disabled&quot; : false,
+                      &quot;readonly&quot; : false
+                    } ]
+                  } ],
+                  &quot;totalSize&quot; : 2
+                }
+              } ],
+              &quot;totalSize&quot; : 4
+            },
+            &quot;Description&quot; : null,
+            &quot;Id&quot; : &quot;01t4K000001Jc4DQAS&quot;,
+            &quot;IsActive&quot; : true,
+            &quot;Name&quot; : &quot;Unit Rate&quot;,
+            &quot;PricebookEntryId&quot; : &quot;01u4K0000021LlyQAE&quot;,
+            &quot;Product2Id&quot; : &quot;01t4K000001Jc4DQAS&quot;,
+            &quot;ProductCode&quot; : &quot;CC_UNIT_RATE_MARGIN&quot;,
+            &quot;Quantity&quot; : 1,
+            &quot;groupMaxQuantity&quot; : 99999,
+            &quot;groupMinQuantity&quot; : 0,
+            &quot;lineNumber&quot; : &quot;0001.0001&quot;,
+            &quot;maxQuantity&quot; : 1,
+            &quot;minQuantity&quot; : 1,
+            &quot;priceResult&quot; : [ {
+              &quot;Amount__c&quot; : 0.11,
+              &quot;ChargeType__c&quot; : &quot;Usage&quot;,
+              &quot;DisplayText__c&quot; : &quot;0.11&quot;,
+              &quot;IsBasePrice__c&quot; : true,
+              &quot;IsVirtualPrice__c&quot; : false,
+              &quot;RecurringFrequency__c&quot; : null,
+              &quot;SubType__c&quot; : &quot;Standard&quot;,
+              &quot;Type__c&quot; : &quot;Price&quot;,
+              &quot;adjustments&quot; : [ ],
+              &quot;baseamount&quot; : 0.11,
+              &quot;chargeamount&quot; : 0.11,
+              &quot;effectivefromdatespec&quot; : null,
+              &quot;effectiveuntildatespec&quot; : null,
+              &quot;overrides&quot; : [ ]
+            }, {
+              &quot;Amount__c&quot; : 0.09,
+              &quot;ChargeType__c&quot; : &quot;Usage&quot;,
+              &quot;DisplayText__c&quot; : &quot;0.09&quot;,
+              &quot;IsBasePrice__c&quot; : true,
+              &quot;IsVirtualPrice__c&quot; : false,
+              &quot;RecurringFrequency__c&quot; : null,
+              &quot;SubType__c&quot; : &quot;Standard&quot;,
+              &quot;Type__c&quot; : &quot;Cost&quot;,
+              &quot;adjustments&quot; : [ ],
+              &quot;baseamount&quot; : 0.09,
+              &quot;chargeamount&quot; : 0.09,
+              &quot;effectivefromdatespec&quot; : null,
+              &quot;effectiveuntildatespec&quot; : null,
+              &quot;overrides&quot; : [ ]
+            } ],
+            &quot;productHierarchyPath&quot; : &quot;01t4K000001Jc4CQAS&lt;01t4K000001Jc4DQAS&quot;
+          }, {
+            &quot;vlocity_cmt__EndOfLifeDate__c&quot; : null,
+            &quot;vlocity_cmt__IsOrderable__c&quot; : false,
+            &quot;vlocity_cmt__SellingEndDate__c&quot; : null,
+            &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2020-09-30T23:00:00.000Z&quot;,
+            &quot;Attachments&quot; : null,
+            &quot;Description&quot; : null,
+            &quot;Id&quot; : &quot;01t4K000001Jc4AQAS&quot;,
+            &quot;IsActive&quot; : true,
+            &quot;Name&quot; : &quot;Standing Charges&quot;,
+            &quot;PricebookEntryId&quot; : &quot;01u4K0000021LlzQAE&quot;,
+            &quot;Product2Id&quot; : &quot;01t4K000001Jc4AQAS&quot;,
+            &quot;ProductCode&quot; : &quot;CC_STANDING_CHARGES&quot;,
+            &quot;Quantity&quot; : 1,
+            &quot;groupMaxQuantity&quot; : 99999,
+            &quot;groupMinQuantity&quot; : 0,
+            &quot;lineNumber&quot; : &quot;0001.0002&quot;,
+            &quot;maxQuantity&quot; : 1,
+            &quot;minQuantity&quot; : 1,
+            &quot;priceResult&quot; : [ {
+              &quot;Amount__c&quot; : 0.2134,
+              &quot;ChargeType__c&quot; : &quot;Usage&quot;,
+              &quot;DisplayText__c&quot; : &quot;Priced based on distribution region&quot;,
+              &quot;IsBasePrice__c&quot; : true,
+              &quot;IsVirtualPrice__c&quot; : false,
+              &quot;RecurringFrequency__c&quot; : null,
+              &quot;SubType__c&quot; : &quot;Standard&quot;,
+              &quot;Type__c&quot; : &quot;Cost&quot;,
+              &quot;adjustments&quot; : [ ],
+              &quot;baseamount&quot; : 0.2134,
+              &quot;chargeamount&quot; : 0.2134,
+              &quot;effectivefromdatespec&quot; : null,
+              &quot;effectiveuntildatespec&quot; : null,
+              &quot;overrides&quot; : [ ]
+            }, {
+              &quot;Amount__c&quot; : 0.2134,
+              &quot;ChargeType__c&quot; : &quot;Usage&quot;,
+              &quot;DisplayText__c&quot; : &quot;Priced based on distribution region&quot;,
+              &quot;IsBasePrice__c&quot; : true,
+              &quot;IsVirtualPrice__c&quot; : false,
+              &quot;RecurringFrequency__c&quot; : null,
+              &quot;SubType__c&quot; : &quot;Standard&quot;,
+              &quot;Type__c&quot; : &quot;Price&quot;,
+              &quot;adjustments&quot; : [ ],
+              &quot;baseamount&quot; : 0.2134,
+              &quot;chargeamount&quot; : 0.2134,
+              &quot;effectivefromdatespec&quot; : null,
+              &quot;effectiveuntildatespec&quot; : null,
+              &quot;overrides&quot; : [ ]
+            } ],
+            &quot;productHierarchyPath&quot; : &quot;01t4K000001Jc4CQAS&lt;01t4K000001Jc4AQAS&quot;
+          } ],
+          &quot;groupMaxQuantity&quot; : 99999,
+          &quot;groupMinQuantity&quot; : 0,
+          &quot;lineNumber&quot; : &quot;0001&quot;,
+          &quot;maxQuantity&quot; : 99999,
+          &quot;minQuantity&quot; : 0,
+          &quot;offerType&quot; : &quot;Product&quot;,
+          &quot;priceResult&quot; : [ {
+            &quot;Amount__c&quot; : 0,
+            &quot;ChargeType__c&quot; : &quot;One-time&quot;,
+            &quot;DisplayText__c&quot; : &quot;based on consumption&quot;,
+            &quot;IsBasePrice__c&quot; : true,
+            &quot;IsVirtualPrice__c&quot; : false,
+            &quot;RecurringFrequency__c&quot; : null,
+            &quot;SubType__c&quot; : &quot;Standard&quot;,
+            &quot;Type__c&quot; : &quot;Price&quot;,
+            &quot;UnitPrice&quot; : 0,
+            &quot;adjustments&quot; : [ ],
+            &quot;baseamount&quot; : 0,
+            &quot;chargeamount&quot; : 0,
+            &quot;effectivefromdatespec&quot; : null,
+            &quot;effectiveuntildatespec&quot; : null,
+            &quot;overrides&quot; : [ ]
+          }, {
+            &quot;Amount__c&quot; : 0,
+            &quot;ChargeType__c&quot; : &quot;Recurring&quot;,
+            &quot;DisplayText__c&quot; : &quot;based on distribution region&quot;,
+            &quot;IsBasePrice__c&quot; : true,
+            &quot;IsVirtualPrice__c&quot; : false,
+            &quot;RecurringFrequency__c&quot; : &quot;Monthly&quot;,
+            &quot;SubType__c&quot; : &quot;Standard&quot;,
+            &quot;Type__c&quot; : &quot;Price&quot;,
+            &quot;adjustments&quot; : [ ],
+            &quot;baseamount&quot; : 0,
+            &quot;chargeamount&quot; : 0,
+            &quot;effectivefromdatespec&quot; : null,
+            &quot;effectiveuntildatespec&quot; : null,
+            &quot;overrides&quot; : [ ]
+          } ],
+          &quot;productHierarchyPath&quot; : &quot;01t4K000001Jc4CQAS&quot;
+        }
+      }
+    }
+  },
+  &quot;getOfferDetailsStatus&quot; : true
+} ]</expectedOutputJson>
+    <fieldLevelSecurityEnabled>false</fieldLevelSecurityEnabled>
+    <inputType>JSON</inputType>
+    <name>VEEDigitalSetDistributionRegionOnOffers</name>
+    <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VEEDigitalSetDistributionRegionOnOffersCustom4305</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalSetDistributionRegionOnOffers</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldFormat>List&lt;Map&gt;</outputFieldFormat>
+        <outputFieldName>offerWithFamily</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VEEDigitalSetDistributionRegionOnOffersCustoma1V4x000009nHxNEAUItem3</globalKey>
+        <inputFieldName>offerDetails:getOfferDetails:result:offerDetails:offer:ProductCode</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalSetDistributionRegionOnOffers</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldFormat>String</outputFieldFormat>
+        <outputFieldName>offerWithAttachments:productCodeWithAttachments</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VEEDigitalSetDistributionRegionOnOffersCustoma1V4x000009nHxNEAUItem2</globalKey>
+        <inputFieldName>offerDetails:getOfferDetails:result:offerDetails:offer:Attachments:url</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalSetDistributionRegionOnOffers</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>offerWithAttachments:url</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VEEDigitalSetDistributionRegionOnOffersCustoma1V4x000009nHxNEAUItem4</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalSetDistributionRegionOnOffers</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>offerWithAttachments</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VEEDigitalSetDistributionRegionOnOffersCustoma1V4x000009nHxNEAUItem5</globalKey>
+        <inputFieldName>offerDetails:getOfferDetails:result:offerDetails:offer:Attachments:defaultAttachment</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalSetDistributionRegionOnOffers</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>offerWithAttachments:default</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:offerDetails:getOfferDetails:result:offerDetails:offer:childProducts:childProducts:AttributeCategory:records:productAttributes:records:code &quot;ATT_DISTRIBUTION_REGION&quot; == var:distRegion var:offerDetails:getOfferDetails:result:offerDetails:offer:childProducts:childProducts:AttributeCategory:records:productAttributes:records:userValues IF</formulaConverted>
+        <formulaExpression>IF(offerDetails:getOfferDetails:result:offerDetails:offer:childProducts:childProducts:AttributeCategory:records:productAttributes:records:code == &quot;ATT_DISTRIBUTION_REGION&quot;,distRegion,offerDetails:getOfferDetails:result:offerDetails:offer:childProducts:childProducts:AttributeCategory:records:productAttributes:records:userValues)</formulaExpression>
+        <formulaResultPath>offerDetails:getOfferDetails:result:offerDetails:offer:childProducts:childProducts:AttributeCategory:records:productAttributes:records:userValues</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>VEEDigitalSetDistributionRegionOnOffersCustom689</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalSetDistributionRegionOnOffers</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VEEDigitalSetDistributionRegionOnOffersCustoma1V4x000009nHxNEAUItem1</globalKey>
+        <inputFieldName>offerDetails</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalSetDistributionRegionOnOffers</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>offerDetails</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:offerDetails:getOfferDetails:result:offerDetails:offer:childProducts:AttributeCategory:records:productAttributes:records:code &quot;ATT_DISTRIBUTION_REGION&quot; == var:distRegion var:offerDetails:getOfferDetails:result:offerDetails:offer:childProducts:AttributeCategory:records:productAttributes:records:userValues IF</formulaConverted>
+        <formulaExpression>IF(offerDetails:getOfferDetails:result:offerDetails:offer:childProducts:AttributeCategory:records:productAttributes:records:code == &quot;ATT_DISTRIBUTION_REGION&quot;,distRegion,offerDetails:getOfferDetails:result:offerDetails:offer:childProducts:AttributeCategory:records:productAttributes:records:userValues)</formulaExpression>
+        <formulaResultPath>offerDetails:getOfferDetails:result:offerDetails:offer:childProducts:AttributeCategory:records:productAttributes:records:userValues</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>VEEDigitalSetDistributionRegionOnOffersCustoma1V4x000009nHxNEAUItem0</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalSetDistributionRegionOnOffers</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;distRegion&quot; : &quot;Avinash12&quot;,
+  &quot;offerDetails&quot; : [ {
+    &quot;LoopBlockIterationIndex&quot; : 1,
+    &quot;LoopBlockIterationStatus&quot; : true,
+    &quot;getOfferDetails&quot; : {
+      &quot;contextKey&quot; : &quot;8a62f9c267b633484970f5e46dbc287f&quot;,
+      &quot;error&quot; : &quot;OK&quot;,
+      &quot;errorCode&quot; : &quot;INVOKE-200&quot;,
+      &quot;result&quot; : {
+        &quot;offerDetails&quot; : {
+          &quot;offer&quot; : {
+            &quot;vlocity_cmt__EndOfLifeDate__c&quot; : null,
+            &quot;vlocity_cmt__InCartQuantityMap__c&quot; : {
+              &quot;01t4x000000CFeqAAG&quot; : 1,
+              &quot;01t4x000000CFkQAAW&quot; : 1
+            },
+            &quot;vlocity_cmt__IsOrderable__c&quot; : true,
+            &quot;vlocity_cmt__SellingEndDate__c&quot; : null,
+            &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2021-01-26T20:00:00.000Z&quot;,
+            &quot;Attachments&quot; : [ {
+              &quot;contentType&quot; : &quot;Image&quot;,
+              &quot;defaultAttachment&quot; : true,
+              &quot;description&quot; : null,
+              &quot;displayConditionsData&quot; : null,
+              &quot;mimeType&quot; : &quot;image/png&quot;,
+              &quot;sequenceNumber&quot; : 10,
+              &quot;title&quot; : &quot;Dual Fuel Test Image&quot;,
+              &quot;url&quot; : &quot;https://lookaftermybills.com/wp-content/uploads/2019/08/electricity-gas-01.png&quot;
+            } ],
+            &quot;AttributeCategory&quot; : {
+              &quot;messages&quot; : [ ],
+              &quot;records&quot; : [ {
+                &quot;Code__c&quot; : &quot;55c76fca-ebe3-a84c-a1d8-caedb8db8600&quot;,
+                &quot;Name&quot; : &quot;Commodity Commercial Offers&quot;,
+                &quot;displaySequence&quot; : 10,
+                &quot;id&quot; : &quot;a0O4x0000019pLwEAI&quot;,
+                &quot;messages&quot; : [ ],
+                &quot;productAttributes&quot; : {
+                  &quot;messages&quot; : [ ],
+                  &quot;records&quot; : [ {
+                    &quot;attributeId&quot; : &quot;a0P4x000002PNR9EAO&quot;,
+                    &quot;cloneable&quot; : true,
+                    &quot;code&quot; : &quot;ATT_METER_TYPE&quot;,
+                    &quot;dataType&quot; : &quot;text&quot;,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 10,
+                    &quot;filterable&quot; : true,
+                    &quot;hasRules&quot; : false,
+                    &quot;hidden&quot; : false,
+                    &quot;inputType&quot; : &quot;dropdown&quot;,
+                    &quot;isNotTranslatable&quot; : false,
+                    &quot;label&quot; : &quot;Meter Type&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;multiselect&quot; : false,
+                    &quot;readonly&quot; : false,
+                    &quot;required&quot; : false,
+                    &quot;userValues&quot; : &quot;Standard&quot;,
+                    &quot;values&quot; : [ {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 20,
+                      &quot;id&quot; : &quot;332e3ab7-e5ec-9561-390a-5507c5e5df90&quot;,
+                      &quot;label&quot; : &quot;Prepaid&quot;,
+                      &quot;name&quot; : &quot;332e3ab7-e5ec-9561-390a-5507c5e5df90&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;Prepaid&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 30,
+                      &quot;id&quot; : &quot;350e1f80-1f55-aa3a-c665-ec09c5c6b852&quot;,
+                      &quot;label&quot; : &quot;Smart&quot;,
+                      &quot;name&quot; : &quot;350e1f80-1f55-aa3a-c665-ec09c5c6b852&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;Smart&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : true,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 10,
+                      &quot;id&quot; : &quot;979073c9-3799-571b-007f-f2c47a4bfbbc&quot;,
+                      &quot;label&quot; : &quot;Standard&quot;,
+                      &quot;name&quot; : &quot;979073c9-3799-571b-007f-f2c47a4bfbbc&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;Standard&quot;
+                    } ]
+                  } ],
+                  &quot;totalSize&quot; : 1
+                }
+              }, {
+                &quot;Code__c&quot; : &quot;61669341-06cd-03a7-48b1-6da083425848&quot;,
+                &quot;Name&quot; : &quot;Commodity Cost Components&quot;,
+                &quot;displaySequence&quot; : 20,
+                &quot;id&quot; : &quot;a0O4x0000019pLxEAI&quot;,
+                &quot;messages&quot; : [ ],
+                &quot;productAttributes&quot; : {
+                  &quot;messages&quot; : [ ],
+                  &quot;records&quot; : [ {
+                    &quot;attributeId&quot; : &quot;a0P4x000002PNREEA4&quot;,
+                    &quot;cloneable&quot; : true,
+                    &quot;code&quot; : &quot;ATT_DISTRIBUTION_REGION&quot;,
+                    &quot;dataType&quot; : &quot;text&quot;,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 20,
+                    &quot;filterable&quot; : true,
+                    &quot;hasRules&quot; : false,
+                    &quot;hidden&quot; : false,
+                    &quot;inputType&quot; : &quot;dropdown&quot;,
+                    &quot;isNotTranslatable&quot; : false,
+                    &quot;label&quot; : &quot;Distribution Region&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;multiselect&quot; : false,
+                    &quot;readonly&quot; : false,
+                    &quot;required&quot; : false,
+                    &quot;userValues&quot; : null,
+                    &quot;values&quot; : [ {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 10,
+                      &quot;id&quot; : &quot;037d0aa8-3840-8a04-3b26-2c7645716d40&quot;,
+                      &quot;label&quot; : &quot;Armagh&quot;,
+                      &quot;name&quot; : &quot;037d0aa8-3840-8a04-3b26-2c7645716d40&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;Armagh&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 50,
+                      &quot;id&quot; : &quot;1b185341-ea70-2c21-f34b-57ffe6d86251&quot;,
+                      &quot;label&quot; : &quot;Salisbury&quot;,
+                      &quot;name&quot; : &quot;1b185341-ea70-2c21-f34b-57ffe6d86251&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;Salisbury&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 40,
+                      &quot;id&quot; : &quot;3e6915be-2d29-f395-0f0e-37cab6e81773&quot;,
+                      &quot;label&quot; : &quot;London&quot;,
+                      &quot;name&quot; : &quot;3e6915be-2d29-f395-0f0e-37cab6e81773&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;London&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 20,
+                      &quot;id&quot; : &quot;977d56a0-3732-0671-f727-91b3dd9fff2d&quot;,
+                      &quot;label&quot; : &quot;Chichester&quot;,
+                      &quot;name&quot; : &quot;977d56a0-3732-0671-f727-91b3dd9fff2d&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;Chichester&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 30,
+                      &quot;id&quot; : &quot;d6675d0c-f932-e3c5-4313-fd2110efd248&quot;,
+                      &quot;label&quot; : &quot;Derby&quot;,
+                      &quot;name&quot; : &quot;d6675d0c-f932-e3c5-4313-fd2110efd248&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;Derby&quot;
+                    } ]
+                  } ],
+                  &quot;totalSize&quot; : 1
+                }
+              }, {
+                &quot;Code__c&quot; : &quot;22eada2e-2351-abff-0986-fa7a01612c84&quot;,
+                &quot;Name&quot; : &quot;Usage Pricing&quot;,
+                &quot;displaySequence&quot; : 40,
+                &quot;id&quot; : &quot;a0O4x0000019ppYEAQ&quot;,
+                &quot;messages&quot; : [ ],
+                &quot;productAttributes&quot; : {
+                  &quot;messages&quot; : [ ],
+                  &quot;records&quot; : [ {
+                    &quot;attributeId&quot; : &quot;a0P4x000002PNVREA4&quot;,
+                    &quot;cloneable&quot; : true,
+                    &quot;code&quot; : &quot;ATT_USAGE&quot;,
+                    &quot;dataType&quot; : &quot;number&quot;,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 30,
+                    &quot;filterable&quot; : true,
+                    &quot;hasRules&quot; : false,
+                    &quot;hidden&quot; : false,
+                    &quot;inputType&quot; : &quot;number&quot;,
+                    &quot;isNotTranslatable&quot; : false,
+                    &quot;label&quot; : &quot;Usage Attribute&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;multiselect&quot; : false,
+                    &quot;readonly&quot; : false,
+                    &quot;required&quot; : false,
+                    &quot;userValues&quot; : 1,
+                    &quot;values&quot; : [ {
+                      &quot;defaultValue&quot; : 1,
+                      &quot;disabled&quot; : false,
+                      &quot;readonly&quot; : false
+                    } ]
+                  } ],
+                  &quot;totalSize&quot; : 1
+                }
+              } ],
+              &quot;totalSize&quot; : 3
+            },
+            &quot;Description&quot; : null,
+            &quot;Id&quot; : &quot;01t4x000000C7BlAAK&quot;,
+            &quot;IsActive&quot; : true,
+            &quot;Name&quot; : &quot;Dual Fuel (Elec &amp; Gas) Tariff&quot;,
+            &quot;PricebookEntryId&quot; : &quot;01u4x000003FQ3sAAG&quot;,
+            &quot;Product2Id&quot; : &quot;01t4x000000C7BlAAK&quot;,
+            &quot;ProductCode&quot; : &quot;PD_DUAL_FUEL_ELEC_GAS_TARIFF&quot;,
+            &quot;Quantity&quot; : 1,
+            &quot;addtocart&quot; : {
+              &quot;rest&quot; : {
+                &quot;link&quot; : &quot;v3/catalogs/CONSUMERDUALFUEL/basket&quot;,
+                &quot;method&quot; : &quot;POST&quot;,
+                &quot;params&quot; : {
+                  &quot;basketAction&quot; : &quot;AddWithNoConfig&quot;,
+                  &quot;context&quot; : &quot;{\&quot;DIMENSION13191\&quot;:\&quot;Gold\&quot;,\&quot;DIMENSION17825\&quot;:\&quot;Active\&quot;,\&quot;MeterType\&quot;:\&quot;Any\&quot;}&quot;,
+                  &quot;offer&quot; : &quot;PD_DUAL_FUEL_ELEC_GAS_TARIFF&quot;
+                }
+              }
+            },
+            &quot;childProducts&quot; : [ {
+              &quot;vlocity_cmt__EndOfLifeDate__c&quot; : null,
+              &quot;vlocity_cmt__InCartQuantityMap__c&quot; : {
+                &quot;01t4x000000CFl4AAG&quot; : 1,
+                &quot;01t4x000000CFl5AAG&quot; : 1
+              },
+              &quot;vlocity_cmt__IsOrderable__c&quot; : false,
+              &quot;vlocity_cmt__SellingEndDate__c&quot; : null,
+              &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2021-01-27T18:30:00.000Z&quot;,
+              &quot;Attachments&quot; : null,
+              &quot;AttributeCategory&quot; : {
+                &quot;messages&quot; : [ ],
+                &quot;records&quot; : [ {
+                  &quot;Code__c&quot; : &quot;55c76fca-ebe3-a84c-a1d8-caedb8db8600&quot;,
+                  &quot;Name&quot; : &quot;Commodity Commercial Offers&quot;,
+                  &quot;displaySequence&quot; : 10,
+                  &quot;id&quot; : &quot;a0O4x0000019pLwEAI&quot;,
+                  &quot;messages&quot; : [ ],
+                  &quot;productAttributes&quot; : {
+                    &quot;messages&quot; : [ ],
+                    &quot;records&quot; : [ {
+                      &quot;attributeId&quot; : &quot;a0P4x000002PNR9EAO&quot;,
+                      &quot;cloneable&quot; : true,
+                      &quot;code&quot; : &quot;ATT_METER_TYPE&quot;,
+                      &quot;dataType&quot; : &quot;text&quot;,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 10,
+                      &quot;filterable&quot; : true,
+                      &quot;hasRules&quot; : false,
+                      &quot;hidden&quot; : false,
+                      &quot;inputType&quot; : &quot;dropdown&quot;,
+                      &quot;isNotTranslatable&quot; : false,
+                      &quot;label&quot; : &quot;Meter Type&quot;,
+                      &quot;messages&quot; : [ ],
+                      &quot;multiselect&quot; : false,
+                      &quot;readonly&quot; : false,
+                      &quot;required&quot; : false,
+                      &quot;userValues&quot; : null,
+                      &quot;values&quot; : [ {
+                        &quot;defaultSelected&quot; : false,
+                        &quot;disabled&quot; : false,
+                        &quot;displaySequence&quot; : 20,
+                        &quot;id&quot; : &quot;332e3ab7-e5ec-9561-390a-5507c5e5df90&quot;,
+                        &quot;label&quot; : &quot;Prepaid&quot;,
+                        &quot;name&quot; : &quot;332e3ab7-e5ec-9561-390a-5507c5e5df90&quot;,
+                        &quot;readonly&quot; : false,
+                        &quot;value&quot; : &quot;Prepaid&quot;
+                      }, {
+                        &quot;defaultSelected&quot; : false,
+                        &quot;disabled&quot; : false,
+                        &quot;displaySequence&quot; : 30,
+                        &quot;id&quot; : &quot;350e1f80-1f55-aa3a-c665-ec09c5c6b852&quot;,
+                        &quot;label&quot; : &quot;Smart&quot;,
+                        &quot;name&quot; : &quot;350e1f80-1f55-aa3a-c665-ec09c5c6b852&quot;,
+                        &quot;readonly&quot; : false,
+                        &quot;value&quot; : &quot;Smart&quot;
+                      }, {
+                        &quot;defaultSelected&quot; : false,
+                        &quot;disabled&quot; : false,
+                        &quot;displaySequence&quot; : 10,
+                        &quot;id&quot; : &quot;979073c9-3799-571b-007f-f2c47a4bfbbc&quot;,
+                        &quot;label&quot; : &quot;Standard&quot;,
+                        &quot;name&quot; : &quot;979073c9-3799-571b-007f-f2c47a4bfbbc&quot;,
+                        &quot;readonly&quot; : false,
+                        &quot;value&quot; : &quot;Standard&quot;
+                      } ]
+                    } ],
+                    &quot;totalSize&quot; : 1
+                  }
+                }, {
+                  &quot;Code__c&quot; : &quot;61669341-06cd-03a7-48b1-6da083425848&quot;,
+                  &quot;Name&quot; : &quot;Commodity Cost Components&quot;,
+                  &quot;displaySequence&quot; : 20,
+                  &quot;id&quot; : &quot;a0O4x0000019pLxEAI&quot;,
+                  &quot;messages&quot; : [ ],
+                  &quot;productAttributes&quot; : {
+                    &quot;messages&quot; : [ ],
+                    &quot;records&quot; : [ {
+                      &quot;attributeId&quot; : &quot;a0P4x000002PNREEA4&quot;,
+                      &quot;cloneable&quot; : true,
+                      &quot;code&quot; : &quot;ATT_DISTRIBUTION_REGION&quot;,
+                      &quot;dataType&quot; : &quot;text&quot;,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 20,
+                      &quot;filterable&quot; : true,
+                      &quot;hasRules&quot; : false,
+                      &quot;hidden&quot; : false,
+                      &quot;inputType&quot; : &quot;dropdown&quot;,
+                      &quot;isNotTranslatable&quot; : false,
+                      &quot;label&quot; : &quot;Distribution Region&quot;,
+                      &quot;messages&quot; : [ ],
+                      &quot;multiselect&quot; : false,
+                      &quot;readonly&quot; : false,
+                      &quot;required&quot; : false,
+                      &quot;userValues&quot; : null,
+                      &quot;values&quot; : [ {
+                        &quot;defaultSelected&quot; : false,
+                        &quot;disabled&quot; : false,
+                        &quot;displaySequence&quot; : 10,
+                        &quot;id&quot; : &quot;037d0aa8-3840-8a04-3b26-2c7645716d40&quot;,
+                        &quot;label&quot; : &quot;Armagh&quot;,
+                        &quot;name&quot; : &quot;037d0aa8-3840-8a04-3b26-2c7645716d40&quot;,
+                        &quot;readonly&quot; : false,
+                        &quot;value&quot; : &quot;Armagh&quot;
+                      }, {
+                        &quot;defaultSelected&quot; : false,
+                        &quot;disabled&quot; : false,
+                        &quot;displaySequence&quot; : 50,
+                        &quot;id&quot; : &quot;1b185341-ea70-2c21-f34b-57ffe6d86251&quot;,
+                        &quot;label&quot; : &quot;Salisbury&quot;,
+                        &quot;name&quot; : &quot;1b185341-ea70-2c21-f34b-57ffe6d86251&quot;,
+                        &quot;readonly&quot; : false,
+                        &quot;value&quot; : &quot;Salisbury&quot;
+                      }, {
+                        &quot;defaultSelected&quot; : false,
+                        &quot;disabled&quot; : false,
+                        &quot;displaySequence&quot; : 40,
+                        &quot;id&quot; : &quot;3e6915be-2d29-f395-0f0e-37cab6e81773&quot;,
+                        &quot;label&quot; : &quot;London&quot;,
+                        &quot;name&quot; : &quot;3e6915be-2d29-f395-0f0e-37cab6e81773&quot;,
+                        &quot;readonly&quot; : false,
+                        &quot;value&quot; : &quot;London&quot;
+                      }, {
+                        &quot;defaultSelected&quot; : false,
+                        &quot;disabled&quot; : false,
+                        &quot;displaySequence&quot; : 20,
+                        &quot;id&quot; : &quot;977d56a0-3732-0671-f727-91b3dd9fff2d&quot;,
+                        &quot;label&quot; : &quot;Chichester&quot;,
+                        &quot;name&quot; : &quot;977d56a0-3732-0671-f727-91b3dd9fff2d&quot;,
+                        &quot;readonly&quot; : false,
+                        &quot;value&quot; : &quot;Chichester&quot;
+                      }, {
+                        &quot;defaultSelected&quot; : false,
+                        &quot;disabled&quot; : false,
+                        &quot;displaySequence&quot; : 30,
+                        &quot;id&quot; : &quot;d6675d0c-f932-e3c5-4313-fd2110efd248&quot;,
+                        &quot;label&quot; : &quot;Derby&quot;,
+                        &quot;name&quot; : &quot;d6675d0c-f932-e3c5-4313-fd2110efd248&quot;,
+                        &quot;readonly&quot; : false,
+                        &quot;value&quot; : &quot;Derby&quot;
+                      } ]
+                    } ],
+                    &quot;totalSize&quot; : 1
+                  }
+                }, {
+                  &quot;Code__c&quot; : &quot;22eada2e-2351-abff-0986-fa7a01612c84&quot;,
+                  &quot;Name&quot; : &quot;Usage Pricing&quot;,
+                  &quot;displaySequence&quot; : 40,
+                  &quot;id&quot; : &quot;a0O4x0000019ppYEAQ&quot;,
+                  &quot;messages&quot; : [ ],
+                  &quot;productAttributes&quot; : {
+                    &quot;messages&quot; : [ ],
+                    &quot;records&quot; : [ {
+                      &quot;attributeId&quot; : &quot;a0P4x000002PNVREA4&quot;,
+                      &quot;cloneable&quot; : true,
+                      &quot;code&quot; : &quot;ATT_USAGE&quot;,
+                      &quot;dataType&quot; : &quot;number&quot;,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 30,
+                      &quot;filterable&quot; : true,
+                      &quot;hasRules&quot; : false,
+                      &quot;hidden&quot; : false,
+                      &quot;inputType&quot; : &quot;number&quot;,
+                      &quot;isNotTranslatable&quot; : false,
+                      &quot;label&quot; : &quot;Usage Attribute&quot;,
+                      &quot;messages&quot; : [ ],
+                      &quot;multiselect&quot; : false,
+                      &quot;readonly&quot; : false,
+                      &quot;required&quot; : false,
+                      &quot;userValues&quot; : 1,
+                      &quot;values&quot; : [ {
+                        &quot;defaultValue&quot; : 1,
+                        &quot;disabled&quot; : false,
+                        &quot;readonly&quot; : false
+                      } ]
+                    } ],
+                    &quot;totalSize&quot; : 1
+                  }
+                } ],
+                &quot;totalSize&quot; : 3
+              },
+              &quot;Description&quot; : null,
+              &quot;Id&quot; : &quot;01t4x000000CFkQAAW&quot;,
+              &quot;IsActive&quot; : true,
+              &quot;Name&quot; : &quot;Electricity&quot;,
+              &quot;PricebookEntryId&quot; : &quot;01u4x000003FZO9AAO&quot;,
+              &quot;Product2Id&quot; : &quot;01t4x000000CFkQAAW&quot;,
+              &quot;ProductCode&quot; : &quot;PD_ELECTRICITY_DUALFUEL&quot;,
+              &quot;Quantity&quot; : 1,
+              &quot;childProducts&quot; : [ {
+                &quot;vlocity_cmt__EndOfLifeDate__c&quot; : null,
+                &quot;vlocity_cmt__IsOrderable__c&quot; : false,
+                &quot;vlocity_cmt__SellingEndDate__c&quot; : null,
+                &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2021-01-27T18:30:00.000Z&quot;,
+                &quot;Attachments&quot; : null,
+                &quot;AttributeCategory&quot; : {
+                  &quot;messages&quot; : [ ],
+                  &quot;records&quot; : [ {
+                    &quot;Code__c&quot; : &quot;61669341-06cd-03a7-48b1-6da083425848&quot;,
+                    &quot;Name&quot; : &quot;Commodity Cost Components&quot;,
+                    &quot;displaySequence&quot; : 20,
+                    &quot;id&quot; : &quot;a0O4x0000019pLxEAI&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;productAttributes&quot; : {
+                      &quot;messages&quot; : [ ],
+                      &quot;records&quot; : [ {
+                        &quot;attributeId&quot; : &quot;a0P4x000002PNREEA4&quot;,
+                        &quot;cloneable&quot; : true,
+                        &quot;code&quot; : &quot;ATT_DISTRIBUTION_REGION&quot;,
+                        &quot;dataType&quot; : &quot;text&quot;,
+                        &quot;disabled&quot; : false,
+                        &quot;displaySequence&quot; : 20,
+                        &quot;filterable&quot; : true,
+                        &quot;hasRules&quot; : false,
+                        &quot;hidden&quot; : false,
+                        &quot;inputType&quot; : &quot;dropdown&quot;,
+                        &quot;isNotTranslatable&quot; : false,
+                        &quot;label&quot; : &quot;Distribution Region&quot;,
+                        &quot;messages&quot; : [ ],
+                        &quot;multiselect&quot; : false,
+                        &quot;readonly&quot; : false,
+                        &quot;required&quot; : false,
+                        &quot;userValues&quot; : null,
+                        &quot;values&quot; : [ {
+                          &quot;defaultSelected&quot; : false,
+                          &quot;disabled&quot; : false,
+                          &quot;displaySequence&quot; : 10,
+                          &quot;id&quot; : &quot;037d0aa8-3840-8a04-3b26-2c7645716d40&quot;,
+                          &quot;label&quot; : &quot;Armagh&quot;,
+                          &quot;name&quot; : &quot;037d0aa8-3840-8a04-3b26-2c7645716d40&quot;,
+                          &quot;readonly&quot; : false,
+                          &quot;value&quot; : &quot;Armagh&quot;
+                        }, {
+                          &quot;defaultSelected&quot; : false,
+                          &quot;disabled&quot; : false,
+                          &quot;displaySequence&quot; : 50,
+                          &quot;id&quot; : &quot;1b185341-ea70-2c21-f34b-57ffe6d86251&quot;,
+                          &quot;label&quot; : &quot;Salisbury&quot;,
+                          &quot;name&quot; : &quot;1b185341-ea70-2c21-f34b-57ffe6d86251&quot;,
+                          &quot;readonly&quot; : false,
+                          &quot;value&quot; : &quot;Salisbury&quot;
+                        }, {
+                          &quot;defaultSelected&quot; : false,
+                          &quot;disabled&quot; : false,
+                          &quot;displaySequence&quot; : 40,
+                          &quot;id&quot; : &quot;3e6915be-2d29-f395-0f0e-37cab6e81773&quot;,
+                          &quot;label&quot; : &quot;London&quot;,
+                          &quot;name&quot; : &quot;3e6915be-2d29-f395-0f0e-37cab6e81773&quot;,
+                          &quot;readonly&quot; : false,
+                          &quot;value&quot; : &quot;London&quot;
+                        }, {
+                          &quot;defaultSelected&quot; : false,
+                          &quot;disabled&quot; : false,
+                          &quot;displaySequence&quot; : 20,
+                          &quot;id&quot; : &quot;977d56a0-3732-0671-f727-91b3dd9fff2d&quot;,
+                          &quot;label&quot; : &quot;Chichester&quot;,
+                          &quot;name&quot; : &quot;977d56a0-3732-0671-f727-91b3dd9fff2d&quot;,
+                          &quot;readonly&quot; : false,
+                          &quot;value&quot; : &quot;Chichester&quot;
+                        }, {
+                          &quot;defaultSelected&quot; : false,
+                          &quot;disabled&quot; : false,
+                          &quot;displaySequence&quot; : 30,
+                          &quot;id&quot; : &quot;d6675d0c-f932-e3c5-4313-fd2110efd248&quot;,
+                          &quot;label&quot; : &quot;Derby&quot;,
+                          &quot;name&quot; : &quot;d6675d0c-f932-e3c5-4313-fd2110efd248&quot;,
+                          &quot;readonly&quot; : false,
+                          &quot;value&quot; : &quot;Derby&quot;
+                        } ]
+                      } ],
+                      &quot;totalSize&quot; : 1
+                    }
+                  }, {
+                    &quot;Code__c&quot; : &quot;22eada2e-2351-abff-0986-fa7a01612c84&quot;,
+                    &quot;Name&quot; : &quot;Usage Pricing&quot;,
+                    &quot;displaySequence&quot; : 40,
+                    &quot;id&quot; : &quot;a0O4x0000019ppYEAQ&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;productAttributes&quot; : {
+                      &quot;messages&quot; : [ ],
+                      &quot;records&quot; : [ {
+                        &quot;attributeId&quot; : &quot;a0P4x000002PNVREA4&quot;,
+                        &quot;cloneable&quot; : true,
+                        &quot;code&quot; : &quot;ATT_USAGE&quot;,
+                        &quot;dataType&quot; : &quot;number&quot;,
+                        &quot;disabled&quot; : false,
+                        &quot;displaySequence&quot; : 30,
+                        &quot;filterable&quot; : true,
+                        &quot;hasRules&quot; : true,
+                        &quot;hidden&quot; : false,
+                        &quot;inputType&quot; : &quot;number&quot;,
+                        &quot;isNotTranslatable&quot; : false,
+                        &quot;label&quot; : &quot;Usage Attribute&quot;,
+                        &quot;messages&quot; : [ ],
+                        &quot;multiselect&quot; : false,
+                        &quot;readonly&quot; : false,
+                        &quot;required&quot; : false,
+                        &quot;userValues&quot; : 2000,
+                        &quot;values&quot; : [ {
+                          &quot;defaultValue&quot; : 2000,
+                          &quot;disabled&quot; : false,
+                          &quot;readonly&quot; : false
+                        } ]
+                      } ],
+                      &quot;totalSize&quot; : 1
+                    }
+                  } ],
+                  &quot;totalSize&quot; : 2
+                },
+                &quot;Description&quot; : null,
+                &quot;Id&quot; : &quot;01t4x000000CFl4AAG&quot;,
+                &quot;IsActive&quot; : true,
+                &quot;Name&quot; : &quot;Unit Rate&quot;,
+                &quot;PricebookEntryId&quot; : &quot;01u4x000003FZfMAAW&quot;,
+                &quot;Product2Id&quot; : &quot;01t4x000000CFl4AAG&quot;,
+                &quot;ProductCode&quot; : &quot;CC_UNIT_RATE_ELEC_DUAL&quot;,
+                &quot;Quantity&quot; : 1,
+                &quot;groupMaxQuantity&quot; : 99999,
+                &quot;groupMinQuantity&quot; : 0,
+                &quot;lineNumber&quot; : &quot;0001.0001.0001&quot;,
+                &quot;maxQuantity&quot; : 1,
+                &quot;minQuantity&quot; : 1,
+                &quot;priceResult&quot; : [ {
+                  &quot;Amount__c&quot; : 0.111,
+                  &quot;ChargeType__c&quot; : &quot;Usage&quot;,
+                  &quot;DisplayText__c&quot; : &quot;0.111 GBP&quot;,
+                  &quot;IsBasePrice__c&quot; : true,
+                  &quot;IsVirtualPrice__c&quot; : false,
+                  &quot;RecurringFrequency__c&quot; : null,
+                  &quot;SubType__c&quot; : &quot;Standard&quot;,
+                  &quot;Type__c&quot; : &quot;Price&quot;,
+                  &quot;adjustments&quot; : [ ],
+                  &quot;baseamount&quot; : 0.111,
+                  &quot;chargeamount&quot; : 0.111,
+                  &quot;effectivefromdatespec&quot; : null,
+                  &quot;effectiveuntildatespec&quot; : null,
+                  &quot;overrides&quot; : [ ]
+                } ],
+                &quot;productHierarchyPath&quot; : &quot;01t4x000000C7BlAAK&lt;01t4x000000CFkQAAW&lt;01t4x000000CFl4AAG&quot;
+              }, {
+                &quot;vlocity_cmt__EndOfLifeDate__c&quot; : null,
+                &quot;vlocity_cmt__IsOrderable__c&quot; : false,
+                &quot;vlocity_cmt__SellingEndDate__c&quot; : null,
+                &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2021-01-27T18:30:00.000Z&quot;,
+                &quot;Attachments&quot; : null,
+                &quot;AttributeCategory&quot; : {
+                  &quot;messages&quot; : [ ],
+                  &quot;records&quot; : [ {
+                    &quot;Code__c&quot; : &quot;22eada2e-2351-abff-0986-fa7a01612c84&quot;,
+                    &quot;Name&quot; : &quot;Usage Pricing&quot;,
+                    &quot;displaySequence&quot; : 40,
+                    &quot;id&quot; : &quot;a0O4x0000019ppYEAQ&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;productAttributes&quot; : {
+                      &quot;messages&quot; : [ ],
+                      &quot;records&quot; : [ {
+                        &quot;attributeId&quot; : &quot;a0P4x000002PNVREA4&quot;,
+                        &quot;cloneable&quot; : true,
+                        &quot;code&quot; : &quot;ATT_USAGE&quot;,
+                        &quot;dataType&quot; : &quot;number&quot;,
+                        &quot;disabled&quot; : true,
+                        &quot;displaySequence&quot; : 30,
+                        &quot;filterable&quot; : true,
+                        &quot;hasRules&quot; : false,
+                        &quot;hidden&quot; : false,
+                        &quot;inputType&quot; : &quot;number&quot;,
+                        &quot;isNotTranslatable&quot; : false,
+                        &quot;label&quot; : &quot;Usage Attribute&quot;,
+                        &quot;messages&quot; : [ ],
+                        &quot;multiselect&quot; : false,
+                        &quot;readonly&quot; : true,
+                        &quot;required&quot; : false,
+                        &quot;userValues&quot; : 30,
+                        &quot;values&quot; : [ {
+                          &quot;defaultValue&quot; : 30,
+                          &quot;disabled&quot; : true,
+                          &quot;readonly&quot; : true
+                        } ]
+                      } ],
+                      &quot;totalSize&quot; : 1
+                    }
+                  } ],
+                  &quot;totalSize&quot; : 1
+                },
+                &quot;Description&quot; : null,
+                &quot;Id&quot; : &quot;01t4x000000CFl5AAG&quot;,
+                &quot;IsActive&quot; : true,
+                &quot;Name&quot; : &quot;Standing Charges&quot;,
+                &quot;PricebookEntryId&quot; : &quot;01u4x000003FZfRAAW&quot;,
+                &quot;Product2Id&quot; : &quot;01t4x000000CFl5AAG&quot;,
+                &quot;ProductCode&quot; : &quot;CC_STANDING_CHARGES_ELEC_DUAL&quot;,
+                &quot;Quantity&quot; : 1,
+                &quot;groupMaxQuantity&quot; : 99999,
+                &quot;groupMinQuantity&quot; : 0,
+                &quot;lineNumber&quot; : &quot;0001.0001.0002&quot;,
+                &quot;maxQuantity&quot; : 1,
+                &quot;minQuantity&quot; : 1,
+                &quot;priceResult&quot; : [ {
+                  &quot;Amount__c&quot; : 0.1952,
+                  &quot;ChargeType__c&quot; : &quot;Usage&quot;,
+                  &quot;DisplayText__c&quot; : &quot;0.1952 GBP&quot;,
+                  &quot;IsBasePrice__c&quot; : true,
+                  &quot;IsVirtualPrice__c&quot; : false,
+                  &quot;RecurringFrequency__c&quot; : null,
+                  &quot;SubType__c&quot; : &quot;Standard&quot;,
+                  &quot;Type__c&quot; : &quot;Price&quot;,
+                  &quot;adjustments&quot; : [ ],
+                  &quot;baseamount&quot; : 0.1952,
+                  &quot;chargeamount&quot; : 0.1952,
+                  &quot;effectivefromdatespec&quot; : null,
+                  &quot;effectiveuntildatespec&quot; : null,
+                  &quot;overrides&quot; : [ ]
+                } ],
+                &quot;productHierarchyPath&quot; : &quot;01t4x000000C7BlAAK&lt;01t4x000000CFkQAAW&lt;01t4x000000CFl5AAG&quot;
+              } ],
+              &quot;groupMaxQuantity&quot; : 99999,
+              &quot;groupMinQuantity&quot; : 0,
+              &quot;lineNumber&quot; : &quot;0001.0001&quot;,
+              &quot;maxQuantity&quot; : 1,
+              &quot;minQuantity&quot; : 1,
+              &quot;priceResult&quot; : [ {
+                &quot;Amount__c&quot; : 0,
+                &quot;ChargeType__c&quot; : &quot;Recurring&quot;,
+                &quot;DisplayText__c&quot; : &quot;Based on distribution region&quot;,
+                &quot;IsBasePrice__c&quot; : true,
+                &quot;IsVirtualPrice__c&quot; : false,
+                &quot;RecurringFrequency__c&quot; : &quot;Monthly&quot;,
+                &quot;SubType__c&quot; : &quot;Standard&quot;,
+                &quot;Type__c&quot; : &quot;Price&quot;,
+                &quot;adjustments&quot; : [ ],
+                &quot;baseamount&quot; : 0,
+                &quot;chargeamount&quot; : 0,
+                &quot;effectivefromdatespec&quot; : null,
+                &quot;effectiveuntildatespec&quot; : null,
+                &quot;overrides&quot; : [ ]
+              }, {
+                &quot;Amount__c&quot; : 0,
+                &quot;ChargeType__c&quot; : &quot;One-time&quot;,
+                &quot;DisplayText__c&quot; : &quot;Based on consumption&quot;,
+                &quot;IsBasePrice__c&quot; : true,
+                &quot;IsVirtualPrice__c&quot; : false,
+                &quot;RecurringFrequency__c&quot; : null,
+                &quot;SubType__c&quot; : &quot;Standard&quot;,
+                &quot;Type__c&quot; : &quot;Price&quot;,
+                &quot;UnitPrice&quot; : 0,
+                &quot;adjustments&quot; : [ ],
+                &quot;baseamount&quot; : 0,
+                &quot;chargeamount&quot; : 0,
+                &quot;effectivefromdatespec&quot; : null,
+                &quot;effectiveuntildatespec&quot; : null,
+                &quot;overrides&quot; : [ ]
+              } ],
+              &quot;productHierarchyPath&quot; : &quot;01t4x000000C7BlAAK&lt;01t4x000000CFkQAAW&quot;
+            }, {
+              &quot;vlocity_cmt__EndOfLifeDate__c&quot; : null,
+              &quot;vlocity_cmt__InCartQuantityMap__c&quot; : {
+                &quot;01t4x000000CFslAAG&quot; : 1,
+                &quot;01t4x000000CFsvAAG&quot; : 1
+              },
+              &quot;vlocity_cmt__IsOrderable__c&quot; : false,
+              &quot;vlocity_cmt__SellingEndDate__c&quot; : null,
+              &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2021-01-30T18:30:00.000Z&quot;,
+              &quot;Attachments&quot; : null,
+              &quot;AttributeCategory&quot; : {
+                &quot;messages&quot; : [ ],
+                &quot;records&quot; : [ {
+                  &quot;Code__c&quot; : &quot;55c76fca-ebe3-a84c-a1d8-caedb8db8600&quot;,
+                  &quot;Name&quot; : &quot;Commodity Commercial Offers&quot;,
+                  &quot;displaySequence&quot; : 10,
+                  &quot;id&quot; : &quot;a0O4x0000019pLwEAI&quot;,
+                  &quot;messages&quot; : [ ],
+                  &quot;productAttributes&quot; : {
+                    &quot;messages&quot; : [ ],
+                    &quot;records&quot; : [ {
+                      &quot;attributeId&quot; : &quot;a0P4x000002PNR9EAO&quot;,
+                      &quot;cloneable&quot; : true,
+                      &quot;code&quot; : &quot;ATT_METER_TYPE&quot;,
+                      &quot;dataType&quot; : &quot;text&quot;,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 10,
+                      &quot;filterable&quot; : true,
+                      &quot;hasRules&quot; : false,
+                      &quot;hidden&quot; : false,
+                      &quot;inputType&quot; : &quot;dropdown&quot;,
+                      &quot;isNotTranslatable&quot; : false,
+                      &quot;label&quot; : &quot;Meter Type&quot;,
+                      &quot;messages&quot; : [ ],
+                      &quot;multiselect&quot; : false,
+                      &quot;readonly&quot; : false,
+                      &quot;required&quot; : false,
+                      &quot;userValues&quot; : null,
+                      &quot;values&quot; : [ {
+                        &quot;defaultSelected&quot; : false,
+                        &quot;disabled&quot; : false,
+                        &quot;displaySequence&quot; : 20,
+                        &quot;id&quot; : &quot;332e3ab7-e5ec-9561-390a-5507c5e5df90&quot;,
+                        &quot;label&quot; : &quot;Prepaid&quot;,
+                        &quot;name&quot; : &quot;332e3ab7-e5ec-9561-390a-5507c5e5df90&quot;,
+                        &quot;readonly&quot; : false,
+                        &quot;value&quot; : &quot;Prepaid&quot;
+                      }, {
+                        &quot;defaultSelected&quot; : false,
+                        &quot;disabled&quot; : false,
+                        &quot;displaySequence&quot; : 30,
+                        &quot;id&quot; : &quot;350e1f80-1f55-aa3a-c665-ec09c5c6b852&quot;,
+                        &quot;label&quot; : &quot;Smart&quot;,
+                        &quot;name&quot; : &quot;350e1f80-1f55-aa3a-c665-ec09c5c6b852&quot;,
+                        &quot;readonly&quot; : false,
+                        &quot;value&quot; : &quot;Smart&quot;
+                      }, {
+                        &quot;defaultSelected&quot; : false,
+                        &quot;disabled&quot; : false,
+                        &quot;displaySequence&quot; : 10,
+                        &quot;id&quot; : &quot;979073c9-3799-571b-007f-f2c47a4bfbbc&quot;,
+                        &quot;label&quot; : &quot;Standard&quot;,
+                        &quot;name&quot; : &quot;979073c9-3799-571b-007f-f2c47a4bfbbc&quot;,
+                        &quot;readonly&quot; : false,
+                        &quot;value&quot; : &quot;Standard&quot;
+                      } ]
+                    } ],
+                    &quot;totalSize&quot; : 1
+                  }
+                }, {
+                  &quot;Code__c&quot; : &quot;61669341-06cd-03a7-48b1-6da083425848&quot;,
+                  &quot;Name&quot; : &quot;Commodity Cost Components&quot;,
+                  &quot;displaySequence&quot; : 20,
+                  &quot;id&quot; : &quot;a0O4x0000019pLxEAI&quot;,
+                  &quot;messages&quot; : [ ],
+                  &quot;productAttributes&quot; : {
+                    &quot;messages&quot; : [ ],
+                    &quot;records&quot; : [ {
+                      &quot;attributeId&quot; : &quot;a0P4x000002PNREEA4&quot;,
+                      &quot;cloneable&quot; : true,
+                      &quot;code&quot; : &quot;ATT_DISTRIBUTION_REGION&quot;,
+                      &quot;dataType&quot; : &quot;text&quot;,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 20,
+                      &quot;filterable&quot; : true,
+                      &quot;hasRules&quot; : false,
+                      &quot;hidden&quot; : false,
+                      &quot;inputType&quot; : &quot;dropdown&quot;,
+                      &quot;isNotTranslatable&quot; : false,
+                      &quot;label&quot; : &quot;Distribution Region&quot;,
+                      &quot;messages&quot; : [ ],
+                      &quot;multiselect&quot; : false,
+                      &quot;readonly&quot; : false,
+                      &quot;required&quot; : false,
+                      &quot;userValues&quot; : null,
+                      &quot;values&quot; : [ {
+                        &quot;defaultSelected&quot; : false,
+                        &quot;disabled&quot; : false,
+                        &quot;displaySequence&quot; : 10,
+                        &quot;id&quot; : &quot;037d0aa8-3840-8a04-3b26-2c7645716d40&quot;,
+                        &quot;label&quot; : &quot;Armagh&quot;,
+                        &quot;name&quot; : &quot;037d0aa8-3840-8a04-3b26-2c7645716d40&quot;,
+                        &quot;readonly&quot; : false,
+                        &quot;value&quot; : &quot;Armagh&quot;
+                      }, {
+                        &quot;defaultSelected&quot; : false,
+                        &quot;disabled&quot; : false,
+                        &quot;displaySequence&quot; : 50,
+                        &quot;id&quot; : &quot;1b185341-ea70-2c21-f34b-57ffe6d86251&quot;,
+                        &quot;label&quot; : &quot;Salisbury&quot;,
+                        &quot;name&quot; : &quot;1b185341-ea70-2c21-f34b-57ffe6d86251&quot;,
+                        &quot;readonly&quot; : false,
+                        &quot;value&quot; : &quot;Salisbury&quot;
+                      }, {
+                        &quot;defaultSelected&quot; : false,
+                        &quot;disabled&quot; : false,
+                        &quot;displaySequence&quot; : 40,
+                        &quot;id&quot; : &quot;3e6915be-2d29-f395-0f0e-37cab6e81773&quot;,
+                        &quot;label&quot; : &quot;London&quot;,
+                        &quot;name&quot; : &quot;3e6915be-2d29-f395-0f0e-37cab6e81773&quot;,
+                        &quot;readonly&quot; : false,
+                        &quot;value&quot; : &quot;London&quot;
+                      }, {
+                        &quot;defaultSelected&quot; : false,
+                        &quot;disabled&quot; : false,
+                        &quot;displaySequence&quot; : 20,
+                        &quot;id&quot; : &quot;977d56a0-3732-0671-f727-91b3dd9fff2d&quot;,
+                        &quot;label&quot; : &quot;Chichester&quot;,
+                        &quot;name&quot; : &quot;977d56a0-3732-0671-f727-91b3dd9fff2d&quot;,
+                        &quot;readonly&quot; : false,
+                        &quot;value&quot; : &quot;Chichester&quot;
+                      }, {
+                        &quot;defaultSelected&quot; : false,
+                        &quot;disabled&quot; : false,
+                        &quot;displaySequence&quot; : 30,
+                        &quot;id&quot; : &quot;d6675d0c-f932-e3c5-4313-fd2110efd248&quot;,
+                        &quot;label&quot; : &quot;Derby&quot;,
+                        &quot;name&quot; : &quot;d6675d0c-f932-e3c5-4313-fd2110efd248&quot;,
+                        &quot;readonly&quot; : false,
+                        &quot;value&quot; : &quot;Derby&quot;
+                      } ]
+                    } ],
+                    &quot;totalSize&quot; : 1
+                  }
+                }, {
+                  &quot;Code__c&quot; : &quot;22eada2e-2351-abff-0986-fa7a01612c84&quot;,
+                  &quot;Name&quot; : &quot;Usage Pricing&quot;,
+                  &quot;displaySequence&quot; : 40,
+                  &quot;id&quot; : &quot;a0O4x0000019ppYEAQ&quot;,
+                  &quot;messages&quot; : [ ],
+                  &quot;productAttributes&quot; : {
+                    &quot;messages&quot; : [ ],
+                    &quot;records&quot; : [ {
+                      &quot;attributeId&quot; : &quot;a0P4x000002PNVREA4&quot;,
+                      &quot;cloneable&quot; : true,
+                      &quot;code&quot; : &quot;ATT_USAGE&quot;,
+                      &quot;dataType&quot; : &quot;number&quot;,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 30,
+                      &quot;filterable&quot; : true,
+                      &quot;hasRules&quot; : false,
+                      &quot;hidden&quot; : false,
+                      &quot;inputType&quot; : &quot;number&quot;,
+                      &quot;isNotTranslatable&quot; : false,
+                      &quot;label&quot; : &quot;Usage Attribute&quot;,
+                      &quot;messages&quot; : [ ],
+                      &quot;multiselect&quot; : false,
+                      &quot;readonly&quot; : false,
+                      &quot;required&quot; : false,
+                      &quot;userValues&quot; : 1,
+                      &quot;values&quot; : [ {
+                        &quot;defaultValue&quot; : 1,
+                        &quot;disabled&quot; : false,
+                        &quot;readonly&quot; : false
+                      } ]
+                    } ],
+                    &quot;totalSize&quot; : 1
+                  }
+                } ],
+                &quot;totalSize&quot; : 3
+              },
+              &quot;Description&quot; : null,
+              &quot;Id&quot; : &quot;01t4x000000CFeqAAG&quot;,
+              &quot;IsActive&quot; : true,
+              &quot;Name&quot; : &quot;Gas&quot;,
+              &quot;PricebookEntryId&quot; : &quot;01u4x000003FZNzAAO&quot;,
+              &quot;Product2Id&quot; : &quot;01t4x000000CFeqAAG&quot;,
+              &quot;ProductCode&quot; : &quot;PD_GAS_DUALFUEL&quot;,
+              &quot;Quantity&quot; : 1,
+              &quot;childProducts&quot; : [ {
+                &quot;vlocity_cmt__EndOfLifeDate__c&quot; : null,
+                &quot;vlocity_cmt__IsOrderable__c&quot; : false,
+                &quot;vlocity_cmt__SellingEndDate__c&quot; : null,
+                &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2021-01-30T18:30:00.000Z&quot;,
+                &quot;Attachments&quot; : null,
+                &quot;AttributeCategory&quot; : {
+                  &quot;messages&quot; : [ ],
+                  &quot;records&quot; : [ {
+                    &quot;Code__c&quot; : &quot;61669341-06cd-03a7-48b1-6da083425848&quot;,
+                    &quot;Name&quot; : &quot;Commodity Cost Components&quot;,
+                    &quot;displaySequence&quot; : 20,
+                    &quot;id&quot; : &quot;a0O4x0000019pLxEAI&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;productAttributes&quot; : {
+                      &quot;messages&quot; : [ ],
+                      &quot;records&quot; : [ {
+                        &quot;attributeId&quot; : &quot;a0P4x000002PNREEA4&quot;,
+                        &quot;cloneable&quot; : true,
+                        &quot;code&quot; : &quot;ATT_DISTRIBUTION_REGION&quot;,
+                        &quot;dataType&quot; : &quot;text&quot;,
+                        &quot;disabled&quot; : false,
+                        &quot;displaySequence&quot; : 20,
+                        &quot;filterable&quot; : true,
+                        &quot;hasRules&quot; : false,
+                        &quot;hidden&quot; : false,
+                        &quot;inputType&quot; : &quot;dropdown&quot;,
+                        &quot;isNotTranslatable&quot; : false,
+                        &quot;label&quot; : &quot;Distribution Region&quot;,
+                        &quot;messages&quot; : [ ],
+                        &quot;multiselect&quot; : false,
+                        &quot;readonly&quot; : false,
+                        &quot;required&quot; : false,
+                        &quot;userValues&quot; : null,
+                        &quot;values&quot; : [ {
+                          &quot;defaultSelected&quot; : false,
+                          &quot;disabled&quot; : false,
+                          &quot;displaySequence&quot; : 10,
+                          &quot;id&quot; : &quot;037d0aa8-3840-8a04-3b26-2c7645716d40&quot;,
+                          &quot;label&quot; : &quot;Armagh&quot;,
+                          &quot;name&quot; : &quot;037d0aa8-3840-8a04-3b26-2c7645716d40&quot;,
+                          &quot;readonly&quot; : false,
+                          &quot;value&quot; : &quot;Armagh&quot;
+                        }, {
+                          &quot;defaultSelected&quot; : false,
+                          &quot;disabled&quot; : false,
+                          &quot;displaySequence&quot; : 50,
+                          &quot;id&quot; : &quot;1b185341-ea70-2c21-f34b-57ffe6d86251&quot;,
+                          &quot;label&quot; : &quot;Salisbury&quot;,
+                          &quot;name&quot; : &quot;1b185341-ea70-2c21-f34b-57ffe6d86251&quot;,
+                          &quot;readonly&quot; : false,
+                          &quot;value&quot; : &quot;Salisbury&quot;
+                        }, {
+                          &quot;defaultSelected&quot; : false,
+                          &quot;disabled&quot; : false,
+                          &quot;displaySequence&quot; : 40,
+                          &quot;id&quot; : &quot;3e6915be-2d29-f395-0f0e-37cab6e81773&quot;,
+                          &quot;label&quot; : &quot;London&quot;,
+                          &quot;name&quot; : &quot;3e6915be-2d29-f395-0f0e-37cab6e81773&quot;,
+                          &quot;readonly&quot; : false,
+                          &quot;value&quot; : &quot;London&quot;
+                        }, {
+                          &quot;defaultSelected&quot; : false,
+                          &quot;disabled&quot; : false,
+                          &quot;displaySequence&quot; : 20,
+                          &quot;id&quot; : &quot;977d56a0-3732-0671-f727-91b3dd9fff2d&quot;,
+                          &quot;label&quot; : &quot;Chichester&quot;,
+                          &quot;name&quot; : &quot;977d56a0-3732-0671-f727-91b3dd9fff2d&quot;,
+                          &quot;readonly&quot; : false,
+                          &quot;value&quot; : &quot;Chichester&quot;
+                        }, {
+                          &quot;defaultSelected&quot; : false,
+                          &quot;disabled&quot; : false,
+                          &quot;displaySequence&quot; : 30,
+                          &quot;id&quot; : &quot;d6675d0c-f932-e3c5-4313-fd2110efd248&quot;,
+                          &quot;label&quot; : &quot;Derby&quot;,
+                          &quot;name&quot; : &quot;d6675d0c-f932-e3c5-4313-fd2110efd248&quot;,
+                          &quot;readonly&quot; : false,
+                          &quot;value&quot; : &quot;Derby&quot;
+                        } ]
+                      } ],
+                      &quot;totalSize&quot; : 1
+                    }
+                  }, {
+                    &quot;Code__c&quot; : &quot;22eada2e-2351-abff-0986-fa7a01612c84&quot;,
+                    &quot;Name&quot; : &quot;Usage Pricing&quot;,
+                    &quot;displaySequence&quot; : 40,
+                    &quot;id&quot; : &quot;a0O4x0000019ppYEAQ&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;productAttributes&quot; : {
+                      &quot;messages&quot; : [ ],
+                      &quot;records&quot; : [ {
+                        &quot;attributeId&quot; : &quot;a0P4x000002PNVREA4&quot;,
+                        &quot;cloneable&quot; : true,
+                        &quot;code&quot; : &quot;ATT_USAGE&quot;,
+                        &quot;dataType&quot; : &quot;number&quot;,
+                        &quot;disabled&quot; : false,
+                        &quot;displaySequence&quot; : 30,
+                        &quot;filterable&quot; : true,
+                        &quot;hasRules&quot; : true,
+                        &quot;hidden&quot; : false,
+                        &quot;inputType&quot; : &quot;number&quot;,
+                        &quot;isNotTranslatable&quot; : false,
+                        &quot;label&quot; : &quot;Usage Attribute&quot;,
+                        &quot;messages&quot; : [ ],
+                        &quot;multiselect&quot; : false,
+                        &quot;readonly&quot; : false,
+                        &quot;required&quot; : false,
+                        &quot;userValues&quot; : 2000,
+                        &quot;values&quot; : [ {
+                          &quot;defaultValue&quot; : 2000,
+                          &quot;disabled&quot; : false,
+                          &quot;readonly&quot; : false
+                        } ]
+                      } ],
+                      &quot;totalSize&quot; : 1
+                    }
+                  } ],
+                  &quot;totalSize&quot; : 2
+                },
+                &quot;Description&quot; : null,
+                &quot;Id&quot; : &quot;01t4x000000CFslAAG&quot;,
+                &quot;IsActive&quot; : true,
+                &quot;Name&quot; : &quot;Unit Rate&quot;,
+                &quot;PricebookEntryId&quot; : &quot;01u4x000003FZfWAAW&quot;,
+                &quot;Product2Id&quot; : &quot;01t4x000000CFslAAG&quot;,
+                &quot;ProductCode&quot; : &quot;CC_UNIT_RATE_GAS_DUAL&quot;,
+                &quot;Quantity&quot; : 1,
+                &quot;groupMaxQuantity&quot; : 99999,
+                &quot;groupMinQuantity&quot; : 0,
+                &quot;lineNumber&quot; : &quot;0001.0002.0002&quot;,
+                &quot;maxQuantity&quot; : 1,
+                &quot;minQuantity&quot; : 1,
+                &quot;priceResult&quot; : [ {
+                  &quot;Amount__c&quot; : 0.212,
+                  &quot;ChargeType__c&quot; : &quot;Usage&quot;,
+                  &quot;DisplayText__c&quot; : &quot;0.212 GBP&quot;,
+                  &quot;IsBasePrice__c&quot; : true,
+                  &quot;IsVirtualPrice__c&quot; : false,
+                  &quot;RecurringFrequency__c&quot; : null,
+                  &quot;SubType__c&quot; : &quot;Standard&quot;,
+                  &quot;Type__c&quot; : &quot;Price&quot;,
+                  &quot;adjustments&quot; : [ ],
+                  &quot;baseamount&quot; : 0.212,
+                  &quot;chargeamount&quot; : 0.212,
+                  &quot;effectivefromdatespec&quot; : null,
+                  &quot;effectiveuntildatespec&quot; : null,
+                  &quot;overrides&quot; : [ ]
+                } ],
+                &quot;productHierarchyPath&quot; : &quot;01t4x000000C7BlAAK&lt;01t4x000000CFeqAAG&lt;01t4x000000CFslAAG&quot;
+              }, {
+                &quot;vlocity_cmt__EndOfLifeDate__c&quot; : null,
+                &quot;vlocity_cmt__IsOrderable__c&quot; : false,
+                &quot;vlocity_cmt__SellingEndDate__c&quot; : null,
+                &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2021-01-30T18:30:00.000Z&quot;,
+                &quot;Attachments&quot; : null,
+                &quot;AttributeCategory&quot; : {
+                  &quot;messages&quot; : [ ],
+                  &quot;records&quot; : [ {
+                    &quot;Code__c&quot; : &quot;22eada2e-2351-abff-0986-fa7a01612c84&quot;,
+                    &quot;Name&quot; : &quot;Usage Pricing&quot;,
+                    &quot;displaySequence&quot; : 40,
+                    &quot;id&quot; : &quot;a0O4x0000019ppYEAQ&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;productAttributes&quot; : {
+                      &quot;messages&quot; : [ ],
+                      &quot;records&quot; : [ {
+                        &quot;attributeId&quot; : &quot;a0P4x000002PNVREA4&quot;,
+                        &quot;cloneable&quot; : true,
+                        &quot;code&quot; : &quot;ATT_USAGE&quot;,
+                        &quot;dataType&quot; : &quot;number&quot;,
+                        &quot;disabled&quot; : true,
+                        &quot;displaySequence&quot; : 30,
+                        &quot;filterable&quot; : true,
+                        &quot;hasRules&quot; : false,
+                        &quot;hidden&quot; : false,
+                        &quot;inputType&quot; : &quot;number&quot;,
+                        &quot;isNotTranslatable&quot; : false,
+                        &quot;label&quot; : &quot;Usage Attribute&quot;,
+                        &quot;messages&quot; : [ ],
+                        &quot;multiselect&quot; : false,
+                        &quot;readonly&quot; : true,
+                        &quot;required&quot; : false,
+                        &quot;userValues&quot; : 30,
+                        &quot;values&quot; : [ {
+                          &quot;defaultValue&quot; : 30,
+                          &quot;disabled&quot; : true,
+                          &quot;readonly&quot; : true
+                        } ]
+                      } ],
+                      &quot;totalSize&quot; : 1
+                    }
+                  } ],
+                  &quot;totalSize&quot; : 1
+                },
+                &quot;Description&quot; : null,
+                &quot;Id&quot; : &quot;01t4x000000CFsvAAG&quot;,
+                &quot;IsActive&quot; : true,
+                &quot;Name&quot; : &quot;Standing Charges&quot;,
+                &quot;PricebookEntryId&quot; : &quot;01u4x000003FZfbAAG&quot;,
+                &quot;Product2Id&quot; : &quot;01t4x000000CFsvAAG&quot;,
+                &quot;ProductCode&quot; : &quot;CC_STANDING_CHARGES_GAS_DUAL&quot;,
+                &quot;Quantity&quot; : 1,
+                &quot;groupMaxQuantity&quot; : 99999,
+                &quot;groupMinQuantity&quot; : 0,
+                &quot;lineNumber&quot; : &quot;0001.0002.0003&quot;,
+                &quot;maxQuantity&quot; : 1,
+                &quot;minQuantity&quot; : 1,
+                &quot;priceResult&quot; : [ {
+                  &quot;Amount__c&quot; : 0.282,
+                  &quot;ChargeType__c&quot; : &quot;Usage&quot;,
+                  &quot;DisplayText__c&quot; : &quot;0.2820 GBP&quot;,
+                  &quot;IsBasePrice__c&quot; : true,
+                  &quot;IsVirtualPrice__c&quot; : false,
+                  &quot;RecurringFrequency__c&quot; : null,
+                  &quot;SubType__c&quot; : &quot;Standard&quot;,
+                  &quot;Type__c&quot; : &quot;Price&quot;,
+                  &quot;adjustments&quot; : [ ],
+                  &quot;baseamount&quot; : 0.282,
+                  &quot;chargeamount&quot; : 0.282,
+                  &quot;effectivefromdatespec&quot; : null,
+                  &quot;effectiveuntildatespec&quot; : null,
+                  &quot;overrides&quot; : [ ]
+                } ],
+                &quot;productHierarchyPath&quot; : &quot;01t4x000000C7BlAAK&lt;01t4x000000CFeqAAG&lt;01t4x000000CFsvAAG&quot;
+              } ],
+              &quot;groupMaxQuantity&quot; : 99999,
+              &quot;groupMinQuantity&quot; : 0,
+              &quot;lineNumber&quot; : &quot;0001.0002&quot;,
+              &quot;maxQuantity&quot; : 1,
+              &quot;minQuantity&quot; : 1,
+              &quot;priceResult&quot; : [ {
+                &quot;Amount__c&quot; : 0,
+                &quot;ChargeType__c&quot; : &quot;One-time&quot;,
+                &quot;DisplayText__c&quot; : &quot;Based on consumption&quot;,
+                &quot;IsBasePrice__c&quot; : true,
+                &quot;IsVirtualPrice__c&quot; : false,
+                &quot;RecurringFrequency__c&quot; : null,
+                &quot;SubType__c&quot; : &quot;Standard&quot;,
+                &quot;Type__c&quot; : &quot;Price&quot;,
+                &quot;UnitPrice&quot; : 0,
+                &quot;adjustments&quot; : [ ],
+                &quot;baseamount&quot; : 0,
+                &quot;chargeamount&quot; : 0,
+                &quot;effectivefromdatespec&quot; : null,
+                &quot;effectiveuntildatespec&quot; : null,
+                &quot;overrides&quot; : [ ]
+              }, {
+                &quot;Amount__c&quot; : 0,
+                &quot;ChargeType__c&quot; : &quot;Recurring&quot;,
+                &quot;DisplayText__c&quot; : &quot;Based on distribution region&quot;,
+                &quot;IsBasePrice__c&quot; : true,
+                &quot;IsVirtualPrice__c&quot; : false,
+                &quot;RecurringFrequency__c&quot; : &quot;Monthly&quot;,
+                &quot;SubType__c&quot; : &quot;Standard&quot;,
+                &quot;Type__c&quot; : &quot;Price&quot;,
+                &quot;adjustments&quot; : [ ],
+                &quot;baseamount&quot; : 0,
+                &quot;chargeamount&quot; : 0,
+                &quot;effectivefromdatespec&quot; : null,
+                &quot;effectiveuntildatespec&quot; : null,
+                &quot;overrides&quot; : [ ]
+              } ],
+              &quot;productHierarchyPath&quot; : &quot;01t4x000000C7BlAAK&lt;01t4x000000CFeqAAG&quot;
+            } ],
+            &quot;groupMaxQuantity&quot; : 99999,
+            &quot;groupMinQuantity&quot; : 0,
+            &quot;lineNumber&quot; : &quot;0001&quot;,
+            &quot;maxQuantity&quot; : 99999,
+            &quot;minQuantity&quot; : 0,
+            &quot;offerType&quot; : &quot;Product&quot;,
+            &quot;priceResult&quot; : [ {
+              &quot;Amount__c&quot; : 0,
+              &quot;ChargeType__c&quot; : &quot;One-time&quot;,
+              &quot;DisplayText__c&quot; : &quot;Based on consumption&quot;,
+              &quot;IsBasePrice__c&quot; : true,
+              &quot;IsVirtualPrice__c&quot; : false,
+              &quot;RecurringFrequency__c&quot; : null,
+              &quot;SubType__c&quot; : &quot;Standard&quot;,
+              &quot;Type__c&quot; : &quot;Price&quot;,
+              &quot;UnitPrice&quot; : 0,
+              &quot;adjustments&quot; : [ ],
+              &quot;baseamount&quot; : 0,
+              &quot;chargeamount&quot; : 0,
+              &quot;effectivefromdatespec&quot; : null,
+              &quot;effectiveuntildatespec&quot; : null,
+              &quot;overrides&quot; : [ ]
+            }, {
+              &quot;Amount__c&quot; : 0,
+              &quot;ChargeType__c&quot; : &quot;Recurring&quot;,
+              &quot;DisplayText__c&quot; : &quot;Based on distribution region&quot;,
+              &quot;IsBasePrice__c&quot; : true,
+              &quot;IsVirtualPrice__c&quot; : false,
+              &quot;RecurringFrequency__c&quot; : &quot;Monthly&quot;,
+              &quot;SubType__c&quot; : &quot;Standard&quot;,
+              &quot;Type__c&quot; : &quot;Price&quot;,
+              &quot;adjustments&quot; : [ ],
+              &quot;baseamount&quot; : 0,
+              &quot;chargeamount&quot; : 0,
+              &quot;effectivefromdatespec&quot; : null,
+              &quot;effectiveuntildatespec&quot; : null,
+              &quot;overrides&quot; : [ ]
+            } ],
+            &quot;productHierarchyPath&quot; : &quot;01t4x000000C7BlAAK&quot;
+          }
+        }
+      }
+    },
+    &quot;getOfferDetailsStatus&quot; : true
+  }, {
+    &quot;LoopBlockIterationIndex&quot; : 2,
+    &quot;LoopBlockIterationStatus&quot; : true,
+    &quot;getOfferDetails&quot; : {
+      &quot;contextKey&quot; : &quot;84f7858f600f277039aa62012c674c44&quot;,
+      &quot;error&quot; : &quot;OK&quot;,
+      &quot;errorCode&quot; : &quot;INVOKE-200&quot;,
+      &quot;result&quot; : {
+        &quot;offerDetails&quot; : {
+          &quot;offer&quot; : {
+            &quot;vlocity_cmt__EndOfLifeDate__c&quot; : null,
+            &quot;vlocity_cmt__IsOrderable__c&quot; : true,
+            &quot;vlocity_cmt__SellingEndDate__c&quot; : null,
+            &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2020-09-30T23:00:00.000Z&quot;,
+            &quot;Attachments&quot; : null,
+            &quot;AttributeCategory&quot; : {
+              &quot;messages&quot; : [ ],
+              &quot;records&quot; : [ {
+                &quot;Code__c&quot; : &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot;,
+                &quot;Name&quot; : &quot;Commodity Commercial Offers&quot;,
+                &quot;displaySequence&quot; : 10,
+                &quot;id&quot; : &quot;a0O4K0000009IdZUAU&quot;,
+                &quot;messages&quot; : [ ],
+                &quot;productAttributes&quot; : {
+                  &quot;messages&quot; : [ ],
+                  &quot;records&quot; : [ {
+                    &quot;attributeId&quot; : &quot;a0P4K0000009Qh9UAE&quot;,
+                    &quot;cacheable&quot; : true,
+                    &quot;cloneable&quot; : true,
+                    &quot;code&quot; : &quot;ATT_METER_TYPE&quot;,
+                    &quot;dataType&quot; : &quot;text&quot;,
+                    &quot;disabled&quot; : false,
+                    &quot;displaySequence&quot; : 1,
+                    &quot;filterable&quot; : true,
+                    &quot;hasRules&quot; : true,
+                    &quot;hidden&quot; : false,
+                    &quot;inputType&quot; : &quot;dropdown&quot;,
+                    &quot;isNotTranslatable&quot; : false,
+                    &quot;label&quot; : &quot;Meter Type&quot;,
+                    &quot;messages&quot; : [ ],
+                    &quot;multiselect&quot; : false,
+                    &quot;readonly&quot; : false,
+                    &quot;required&quot; : false,
+                    &quot;userValues&quot; : &quot;Any&quot;,
+                    &quot;values&quot; : [ {
+                      &quot;defaultSelected&quot; : true,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 1,
+                      &quot;id&quot; : &quot;0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9&quot;,
+                      &quot;label&quot; : &quot;Any&quot;,
+                      &quot;name&quot; : &quot;0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;Any&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 3,
+                      &quot;id&quot; : &quot;7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d&quot;,
+                      &quot;label&quot; : &quot;Smart&quot;,
+                      &quot;name&quot; : &quot;7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;Smart&quot;
+                    }, {
+                      &quot;defaultSelected&quot; : false,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 2,
+                      &quot;id&quot; : &quot;f2d13d9d-b452-81e1-83b2-3c2fc126734f&quot;,
+                      &quot;label&quot; : &quot;Prepaid&quot;,
+                      &quot;name&quot; : &quot;f2d13d9d-b452-81e1-83b2-3c2fc126734f&quot;,
+                      &quot;readonly&quot; : false,
+                      &quot;value&quot; : &quot;Prepaid&quot;
+                    } ]
+                  } ],
+                  &quot;totalSize&quot; : 1
+                }
+              } ],
+              &quot;totalSize&quot; : 1
+            },
+            &quot;Description&quot; : &quot;Fixed energy product based on setting a target margin for a single unit rate.&quot;,
+            &quot;Id&quot; : &quot;01t4K000001Jc4CQAS&quot;,
+            &quot;IsActive&quot; : true,
+            &quot;Name&quot; : &quot;Fixed Energy&quot;,
+            &quot;PricebookEntryId&quot; : &quot;01u4K0000021LlxQAE&quot;,
+            &quot;Product2Id&quot; : &quot;01t4K000001Jc4CQAS&quot;,
+            &quot;ProductCode&quot; : &quot;PD_FIXED_ENERGY_MARGIN&quot;,
+            &quot;Quantity&quot; : 1,
+            &quot;addtocart&quot; : {
+              &quot;rest&quot; : {
+                &quot;link&quot; : &quot;v3/catalogs/COMMODITY/basket&quot;,
+                &quot;method&quot; : &quot;POST&quot;,
+                &quot;params&quot; : {
+                  &quot;basketAction&quot; : &quot;AddWithNoConfig&quot;,
+                  &quot;context&quot; : &quot;{\&quot;DIMENSION13191\&quot;:\&quot;Gold\&quot;,\&quot;DIMENSION17825\&quot;:\&quot;Active\&quot;,\&quot;IsAddOn\&quot;:\&quot;Comm\&quot;,\&quot;MeterType\&quot;:\&quot;Any\&quot;,\&quot;ProductType\&quot;:\&quot;Electricity\&quot;}&quot;,
+                  &quot;offer&quot; : null
+                }
+              }
+            },
+            &quot;childProducts&quot; : [ {
+              &quot;vlocity_cmt__EndOfLifeDate__c&quot; : null,
+              &quot;vlocity_cmt__IsOrderable__c&quot; : false,
+              &quot;vlocity_cmt__SellingEndDate__c&quot; : null,
+              &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2020-11-01T00:00:00.000Z&quot;,
+              &quot;Attachments&quot; : null,
+              &quot;AttributeCategory&quot; : {
+                &quot;messages&quot; : [ ],
+                &quot;records&quot; : [ {
+                  &quot;Code__c&quot; : &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot;,
+                  &quot;Name&quot; : &quot;Commodity Commercial Offers&quot;,
+                  &quot;displaySequence&quot; : 10,
+                  &quot;id&quot; : &quot;a0O4K0000009IdZUAU&quot;,
+                  &quot;messages&quot; : [ ],
+                  &quot;productAttributes&quot; : {
+                    &quot;messages&quot; : [ ],
+                    &quot;records&quot; : [ {
+                      &quot;attributeId&quot; : &quot;a0P4K0000009QhBUAU&quot;,
+                      &quot;cacheable&quot; : true,
+                      &quot;cloneable&quot; : true,
+                      &quot;code&quot; : &quot;ATT_PAYMENT_METHOD&quot;,
+                      &quot;dataType&quot; : &quot;text&quot;,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 1,
+                      &quot;filterable&quot; : true,
+                      &quot;hasRules&quot; : false,
+                      &quot;hidden&quot; : false,
+                      &quot;inputType&quot; : &quot;text&quot;,
+                      &quot;isNotTranslatable&quot; : false,
+                      &quot;label&quot; : &quot;Payment Method&quot;,
+                      &quot;messages&quot; : [ ],
+                      &quot;multiselect&quot; : false,
+                      &quot;readonly&quot; : false,
+                      &quot;required&quot; : false,
+                      &quot;userValues&quot; : null,
+                      &quot;values&quot; : [ {
+                        &quot;disabled&quot; : false,
+                        &quot;readonly&quot; : false
+                      } ]
+                    } ],
+                    &quot;totalSize&quot; : 1
+                  }
+                }, {
+                  &quot;Code__c&quot; : &quot;06a3cbf8-91fa-b7da-a10d-bfcee0856831&quot;,
+                  &quot;Name&quot; : &quot;Commodity Cost Components&quot;,
+                  &quot;displaySequence&quot; : 20,
+                  &quot;id&quot; : &quot;a0O4K0000009IdcUAE&quot;,
+                  &quot;messages&quot; : [ ],
+                  &quot;productAttributes&quot; : {
+                    &quot;messages&quot; : [ ],
+                    &quot;records&quot; : [ {
+                      &quot;attributeId&quot; : &quot;a0P4K0000009QhgUAE&quot;,
+                      &quot;cacheable&quot; : true,
+                      &quot;cloneable&quot; : true,
+                      &quot;code&quot; : &quot;ATT_ENABLE_TARGET&quot;,
+                      &quot;dataType&quot; : &quot;text&quot;,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 1,
+                      &quot;filterable&quot; : true,
+                      &quot;hasRules&quot; : true,
+                      &quot;hidden&quot; : false,
+                      &quot;inputType&quot; : &quot;checkbox&quot;,
+                      &quot;isNotTranslatable&quot; : false,
+                      &quot;label&quot; : &quot;Enable Target Pricing&quot;,
+                      &quot;messages&quot; : [ ],
+                      &quot;multiselect&quot; : false,
+                      &quot;readonly&quot; : false,
+                      &quot;required&quot; : false,
+                      &quot;userValues&quot; : false,
+                      &quot;values&quot; : [ {
+                        &quot;defaultValue&quot; : false,
+                        &quot;disabled&quot; : false,
+                        &quot;readonly&quot; : false
+                      } ]
+                    }, {
+                      &quot;attributeId&quot; : &quot;a0P4K0000009QhhUAE&quot;,
+                      &quot;cacheable&quot; : true,
+                      &quot;cloneable&quot; : true,
+                      &quot;code&quot; : &quot;ATT_MARGIN_TARGET&quot;,
+                      &quot;dataType&quot; : &quot;percentage&quot;,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 1,
+                      &quot;filterable&quot; : true,
+                      &quot;hasRules&quot; : true,
+                      &quot;hidden&quot; : false,
+                      &quot;inputType&quot; : &quot;number&quot;,
+                      &quot;isNotTranslatable&quot; : false,
+                      &quot;label&quot; : &quot;Target Margin&quot;,
+                      &quot;messages&quot; : [ ],
+                      &quot;multiselect&quot; : false,
+                      &quot;readonly&quot; : false,
+                      &quot;required&quot; : false,
+                      &quot;userValues&quot; : 3,
+                      &quot;values&quot; : [ {
+                        &quot;defaultValue&quot; : 3,
+                        &quot;disabled&quot; : false,
+                        &quot;readonly&quot; : false
+                      } ]
+                    } ],
+                    &quot;totalSize&quot; : 2
+                  }
+                }, {
+                  &quot;Code__c&quot; : &quot;18de9fa5-a3b1-97f1-267f-5d06bf1caa7e&quot;,
+                  &quot;Name&quot; : &quot;Usage Pricing&quot;,
+                  &quot;displaySequence&quot; : 40,
+                  &quot;id&quot; : &quot;a0O4K0000009IddUAE&quot;,
+                  &quot;messages&quot; : [ ],
+                  &quot;productAttributes&quot; : {
+                    &quot;messages&quot; : [ ],
+                    &quot;records&quot; : [ {
+                      &quot;attributeId&quot; : &quot;a0P4K0000009QgsUAE&quot;,
+                      &quot;cacheable&quot; : true,
+                      &quot;cloneable&quot; : true,
+                      &quot;code&quot; : &quot;ATT_USAGE&quot;,
+                      &quot;dataType&quot; : &quot;number&quot;,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 1,
+                      &quot;filterable&quot; : true,
+                      &quot;hasRules&quot; : false,
+                      &quot;hidden&quot; : false,
+                      &quot;inputType&quot; : &quot;number&quot;,
+                      &quot;isNotTranslatable&quot; : false,
+                      &quot;label&quot; : &quot;Usage Attribute&quot;,
+                      &quot;messages&quot; : [ ],
+                      &quot;multiselect&quot; : false,
+                      &quot;readonly&quot; : false,
+                      &quot;required&quot; : false,
+                      &quot;userValues&quot; : null,
+                      &quot;values&quot; : [ {
+                        &quot;disabled&quot; : false,
+                        &quot;readonly&quot; : false
+                      } ]
+                    } ],
+                    &quot;totalSize&quot; : 1
+                  }
+                }, {
+                  &quot;Code__c&quot; : &quot;4ce6fdc8-9fe3-f5d4-c594-5649bfcfccbb&quot;,
+                  &quot;Name&quot; : &quot;Market Data&quot;,
+                  &quot;displaySequence&quot; : 54,
+                  &quot;id&quot; : &quot;a0O4K0000009IdeUAE&quot;,
+                  &quot;messages&quot; : [ ],
+                  &quot;productAttributes&quot; : {
+                    &quot;messages&quot; : [ ],
+                    &quot;records&quot; : [ {
+                      &quot;attributeId&quot; : &quot;a0P4K0000009QhjUAE&quot;,
+                      &quot;cacheable&quot; : true,
+                      &quot;cloneable&quot; : true,
+                      &quot;code&quot; : &quot;ATT_DYN_USAGE&quot;,
+                      &quot;dataType&quot; : &quot;number&quot;,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 1,
+                      &quot;filterable&quot; : true,
+                      &quot;hasRules&quot; : true,
+                      &quot;hidden&quot; : false,
+                      &quot;inputType&quot; : &quot;number&quot;,
+                      &quot;isNotTranslatable&quot; : false,
+                      &quot;label&quot; : &quot;Forecasted Usage&quot;,
+                      &quot;messages&quot; : [ ],
+                      &quot;multiselect&quot; : false,
+                      &quot;readonly&quot; : false,
+                      &quot;required&quot; : false,
+                      &quot;userValues&quot; : null,
+                      &quot;values&quot; : [ {
+                        &quot;disabled&quot; : false,
+                        &quot;readonly&quot; : false
+                      } ]
+                    }, {
+                      &quot;attributeId&quot; : &quot;a0P4K0000009Qh4UAE&quot;,
+                      &quot;cacheable&quot; : true,
+                      &quot;cloneable&quot; : true,
+                      &quot;code&quot; : &quot;ATT_DISTRIBUTION_REGION&quot;,
+                      &quot;dataType&quot; : &quot;text&quot;,
+                      &quot;disabled&quot; : false,
+                      &quot;displaySequence&quot; : 1,
+                      &quot;filterable&quot; : true,
+                      &quot;hasRules&quot; : false,
+                      &quot;hidden&quot; : false,
+                      &quot;inputType&quot; : &quot;text&quot;,
+                      &quot;isNotTranslatable&quot; : false,
+                      &quot;label&quot; : &quot;Distribution Region&quot;,
+                      &quot;messages&quot; : [ ],
+                      &quot;multiselect&quot; : false,
+                      &quot;readonly&quot; : false,
+                      &quot;required&quot; : false,
+                      &quot;userValues&quot; : &quot;London&quot;,
+                      &quot;values&quot; : [ {
+                        &quot;defaultValue&quot; : &quot;London&quot;,
+                        &quot;disabled&quot; : false,
+                        &quot;readonly&quot; : false
+                      } ]
+                    } ],
+                    &quot;totalSize&quot; : 2
+                  }
+                } ],
+                &quot;totalSize&quot; : 4
+              },
+              &quot;Description&quot; : null,
+              &quot;Id&quot; : &quot;01t4K000001Jc4DQAS&quot;,
+              &quot;IsActive&quot; : true,
+              &quot;Name&quot; : &quot;Unit Rate&quot;,
+              &quot;PricebookEntryId&quot; : &quot;01u4K0000021LlyQAE&quot;,
+              &quot;Product2Id&quot; : &quot;01t4K000001Jc4DQAS&quot;,
+              &quot;ProductCode&quot; : &quot;CC_UNIT_RATE_MARGIN&quot;,
+              &quot;Quantity&quot; : 1,
+              &quot;groupMaxQuantity&quot; : 99999,
+              &quot;groupMinQuantity&quot; : 0,
+              &quot;lineNumber&quot; : &quot;0001.0001&quot;,
+              &quot;maxQuantity&quot; : 1,
+              &quot;minQuantity&quot; : 1,
+              &quot;priceResult&quot; : [ {
+                &quot;Amount__c&quot; : 0.11,
+                &quot;ChargeType__c&quot; : &quot;Usage&quot;,
+                &quot;DisplayText__c&quot; : &quot;0.11&quot;,
+                &quot;IsBasePrice__c&quot; : true,
+                &quot;IsVirtualPrice__c&quot; : false,
+                &quot;RecurringFrequency__c&quot; : null,
+                &quot;SubType__c&quot; : &quot;Standard&quot;,
+                &quot;Type__c&quot; : &quot;Price&quot;,
+                &quot;adjustments&quot; : [ ],
+                &quot;baseamount&quot; : 0.11,
+                &quot;chargeamount&quot; : 0.11,
+                &quot;effectivefromdatespec&quot; : null,
+                &quot;effectiveuntildatespec&quot; : null,
+                &quot;overrides&quot; : [ ]
+              }, {
+                &quot;Amount__c&quot; : 0.09,
+                &quot;ChargeType__c&quot; : &quot;Usage&quot;,
+                &quot;DisplayText__c&quot; : &quot;0.09&quot;,
+                &quot;IsBasePrice__c&quot; : true,
+                &quot;IsVirtualPrice__c&quot; : false,
+                &quot;RecurringFrequency__c&quot; : null,
+                &quot;SubType__c&quot; : &quot;Standard&quot;,
+                &quot;Type__c&quot; : &quot;Cost&quot;,
+                &quot;adjustments&quot; : [ ],
+                &quot;baseamount&quot; : 0.09,
+                &quot;chargeamount&quot; : 0.09,
+                &quot;effectivefromdatespec&quot; : null,
+                &quot;effectiveuntildatespec&quot; : null,
+                &quot;overrides&quot; : [ ]
+              } ],
+              &quot;productHierarchyPath&quot; : &quot;01t4K000001Jc4CQAS&lt;01t4K000001Jc4DQAS&quot;
+            }, {
+              &quot;vlocity_cmt__EndOfLifeDate__c&quot; : null,
+              &quot;vlocity_cmt__IsOrderable__c&quot; : false,
+              &quot;vlocity_cmt__SellingEndDate__c&quot; : null,
+              &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2020-09-30T23:00:00.000Z&quot;,
+              &quot;Attachments&quot; : null,
+              &quot;Description&quot; : null,
+              &quot;Id&quot; : &quot;01t4K000001Jc4AQAS&quot;,
+              &quot;IsActive&quot; : true,
+              &quot;Name&quot; : &quot;Standing Charges&quot;,
+              &quot;PricebookEntryId&quot; : &quot;01u4K0000021LlzQAE&quot;,
+              &quot;Product2Id&quot; : &quot;01t4K000001Jc4AQAS&quot;,
+              &quot;ProductCode&quot; : &quot;CC_STANDING_CHARGES&quot;,
+              &quot;Quantity&quot; : 1,
+              &quot;groupMaxQuantity&quot; : 99999,
+              &quot;groupMinQuantity&quot; : 0,
+              &quot;lineNumber&quot; : &quot;0001.0002&quot;,
+              &quot;maxQuantity&quot; : 1,
+              &quot;minQuantity&quot; : 1,
+              &quot;priceResult&quot; : [ {
+                &quot;Amount__c&quot; : 0.2134,
+                &quot;ChargeType__c&quot; : &quot;Usage&quot;,
+                &quot;DisplayText__c&quot; : &quot;Priced based on distribution region&quot;,
+                &quot;IsBasePrice__c&quot; : true,
+                &quot;IsVirtualPrice__c&quot; : false,
+                &quot;RecurringFrequency__c&quot; : null,
+                &quot;SubType__c&quot; : &quot;Standard&quot;,
+                &quot;Type__c&quot; : &quot;Cost&quot;,
+                &quot;adjustments&quot; : [ ],
+                &quot;baseamount&quot; : 0.2134,
+                &quot;chargeamount&quot; : 0.2134,
+                &quot;effectivefromdatespec&quot; : null,
+                &quot;effectiveuntildatespec&quot; : null,
+                &quot;overrides&quot; : [ ]
+              }, {
+                &quot;Amount__c&quot; : 0.2134,
+                &quot;ChargeType__c&quot; : &quot;Usage&quot;,
+                &quot;DisplayText__c&quot; : &quot;Priced based on distribution region&quot;,
+                &quot;IsBasePrice__c&quot; : true,
+                &quot;IsVirtualPrice__c&quot; : false,
+                &quot;RecurringFrequency__c&quot; : null,
+                &quot;SubType__c&quot; : &quot;Standard&quot;,
+                &quot;Type__c&quot; : &quot;Price&quot;,
+                &quot;adjustments&quot; : [ ],
+                &quot;baseamount&quot; : 0.2134,
+                &quot;chargeamount&quot; : 0.2134,
+                &quot;effectivefromdatespec&quot; : null,
+                &quot;effectiveuntildatespec&quot; : null,
+                &quot;overrides&quot; : [ ]
+              } ],
+              &quot;productHierarchyPath&quot; : &quot;01t4K000001Jc4CQAS&lt;01t4K000001Jc4AQAS&quot;
+            } ],
+            &quot;groupMaxQuantity&quot; : 99999,
+            &quot;groupMinQuantity&quot; : 0,
+            &quot;lineNumber&quot; : &quot;0001&quot;,
+            &quot;maxQuantity&quot; : 99999,
+            &quot;minQuantity&quot; : 0,
+            &quot;offerType&quot; : &quot;Product&quot;,
+            &quot;priceResult&quot; : [ {
+              &quot;Amount__c&quot; : 0,
+              &quot;ChargeType__c&quot; : &quot;One-time&quot;,
+              &quot;DisplayText__c&quot; : &quot;based on consumption&quot;,
+              &quot;IsBasePrice__c&quot; : true,
+              &quot;IsVirtualPrice__c&quot; : false,
+              &quot;RecurringFrequency__c&quot; : null,
+              &quot;SubType__c&quot; : &quot;Standard&quot;,
+              &quot;Type__c&quot; : &quot;Price&quot;,
+              &quot;UnitPrice&quot; : 0,
+              &quot;adjustments&quot; : [ ],
+              &quot;baseamount&quot; : 0,
+              &quot;chargeamount&quot; : 0,
+              &quot;effectivefromdatespec&quot; : null,
+              &quot;effectiveuntildatespec&quot; : null,
+              &quot;overrides&quot; : [ ]
+            }, {
+              &quot;Amount__c&quot; : 0,
+              &quot;ChargeType__c&quot; : &quot;Recurring&quot;,
+              &quot;DisplayText__c&quot; : &quot;based on distribution region&quot;,
+              &quot;IsBasePrice__c&quot; : true,
+              &quot;IsVirtualPrice__c&quot; : false,
+              &quot;RecurringFrequency__c&quot; : &quot;Monthly&quot;,
+              &quot;SubType__c&quot; : &quot;Standard&quot;,
+              &quot;Type__c&quot; : &quot;Price&quot;,
+              &quot;adjustments&quot; : [ ],
+              &quot;baseamount&quot; : 0,
+              &quot;chargeamount&quot; : 0,
+              &quot;effectivefromdatespec&quot; : null,
+              &quot;effectiveuntildatespec&quot; : null,
+              &quot;overrides&quot; : [ ]
+            } ],
+            &quot;productHierarchyPath&quot; : &quot;01t4K000001Jc4CQAS&quot;
+          }
+        }
+      }
+    },
+    &quot;getOfferDetailsStatus&quot; : true
+  } ]
+}</previewJsonData>
+    <processSuperBulk>false</processSuperBulk>
+    <responseCacheTtlMinutes>2880.0</responseCacheTtlMinutes>
+    <responseCacheType>Org Cache</responseCacheType>
+    <rollbackOnError>false</rollbackOnError>
+    <sourceObject>json</sourceObject>
+    <sourceObjectDefault>false</sourceObjectDefault>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Transform</type>
+    <uniqueName>VEEDigitalSetDistributionRegionOnOffers_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <xmlDeclarationRemoved>false</xmlDeclarationRemoved>
+</OmniDataTransform>

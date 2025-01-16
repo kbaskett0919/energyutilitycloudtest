@@ -1,0 +1,40 @@
+{
+    "Description": "Label for Analysis",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "Analysis",
+    "OmniProcessId": {
+        "Name": "vplEnergyManageProfileAttributes",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/vplEnergy/ManageProfileAttributes/Multi-Language",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "ManageProfileAttributes",
+        "OmniProcessId": {
+            "Name": "vplEnergyManageProfileAttributes",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/vplEnergy/ManageProfileAttributes/Multi-Language",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/vplEnergy/ManageProfileAttributes/Multi-Language/ManageProfileAttributes",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "ManageProfileAttributes",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": "sfiEnergyConsoleAnalysis",
+        "show": null,
+        "text": "<h2>&nbsp;</h2>\n<h2><strong>Analysis</strong></h2>",
+        "textKey": "sfiEnergyConsoleAnalysisHeader"
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/vplEnergy/ManageProfileAttributes/Multi-Language/Analysis"
+}

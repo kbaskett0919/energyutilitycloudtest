@@ -1,0 +1,52 @@
+{
+    "Description": "making get offers DC api call.",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "GetOffers",
+    "OmniProcessId": {
+        "Name": "VEEDigitalGetBasket",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/VEE/DigitalGetBasket/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalChainableResponse": {
+        },
+        "additionalInput": {
+            "apiName": "getOffers",
+            "catalogCode": "%catalogCode%",
+            "context": "=TOSTRING(CONCAT('{\"MeterType\":\"',%meterType%,'\"}'))",
+            "requestURL": "/v3/catalogs/%catalogCode%/offers",
+            "sortby": "%vlocity_namespace%__SequenceNumber__c"
+        },
+        "additionalOutput": {
+        },
+        "chainOnStep": true,
+        "disOnTplt": false,
+        "executionConditionalFormula": "ISNOTBLANK(catalogCode)",
+        "failOnStepError": true,
+        "failureConditionalFormula": "ISBLANK(offers)",
+        "failureResponse": {
+            "ErrorMessage": "VEEDigitalGetBasket:ApexGetOffers  Get Offers api is failing or there are no offers returned"
+        },
+        "label": "RemoteAction1",
+        "remoteClass": "%vlocity_namespace%.CpqAppHandler",
+        "remoteMethod": "getOffersByCatalogCode",
+        "remoteOptions": {
+        },
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": true,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "Remote Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/VEE/DigitalGetBasket/Procedure/GetOffers"
+}

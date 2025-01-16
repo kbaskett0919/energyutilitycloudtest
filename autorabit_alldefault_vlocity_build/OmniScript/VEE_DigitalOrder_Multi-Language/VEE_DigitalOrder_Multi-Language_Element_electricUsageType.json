@@ -1,0 +1,99 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "electricUsageType",
+    "OmniProcessId": {
+        "Name": "VEEDigitalOrder",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/VEE/DigitalOrder/Multi-Language",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "UserInputsBlock",
+        "OmniProcessId": {
+            "Name": "VEEDigitalOrder",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/VEE/DigitalOrder/Multi-Language",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/VEE/DigitalOrder/Multi-Language/UserInputsBlock",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "UserInputsBlock",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 6,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": "Manual",
+        "disOnTplt": false,
+        "enableCaption": true,
+        "help": false,
+        "hide": false,
+        "horizontalMode": true,
+        "imageCountInRow": 3,
+        "label": "VEEElecMonthlyUsage",
+        "optionHeight": 100,
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "optionWidth": 100,
+        "options": [
+            {
+                "name": "Manual",
+                "value": "VEEConsumptionManual"
+            },
+            {
+                "name": "Slider",
+                "value": "VEEConsumptionSlider"
+            }
+        ],
+        "options|0:value": "VEEConsumptionManual",
+        "options|1:value": "VEEConsumptionSlider",
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "required": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "null",
+                        "field": "elecMeterType"
+                    },
+                    {
+                        "group": {
+                            "operator": "OR",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "CONSUMERELECTRICITY",
+                                    "field": "offerType"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "CONSUMERDUALFUEL",
+                                    "field": "offerType"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "Type": "Radio",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/VEE/DigitalOrder/Multi-Language/electricUsageType"
+}

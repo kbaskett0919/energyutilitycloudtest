@@ -1,0 +1,29 @@
+{
+    "CustomJavaScript": "VEE_DigitalUpdateBasket_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VEEDigitalUpdateBasket",
+    "OmniProcessElement": [
+        "VEE_DigitalUpdateBasket_Element_DRTransformAddOns.json",
+        "VEE_DigitalUpdateBasket_Element_AddChildProducts.json",
+        "VEE_DigitalUpdateBasket_Element_SVMultiTransactionKey.json",
+        "VEE_DigitalUpdateBasket_Element_FollowOnStepOne.json",
+        "VEE_DigitalUpdateBasket_Element_FollowOnStepTwo.json",
+        "VEE_DigitalUpdateBasket_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "VEE_DigitalUpdateBasket",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VEE_DigitalUpdateBasket_PropertySetConfig.json",
+    "RequiredPermission": "VEEDigitalOrderPermission",
+    "SubType": "DigitalUpdateBasket",
+    "Type": "VEE",
+    "UniqueName": "VEE_DigitalUpdateBasket_Procedure_3",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VEE/DigitalUpdateBasket/Procedure"
+}

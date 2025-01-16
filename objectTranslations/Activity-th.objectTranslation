@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help>จำนวนเหตุการณ์ทั้งหมด</help>
+        <label></label>
+        <name>FSL__Count_of_Events__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>FSL__Count_of_Tasks__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>FSL__Event_Type__c</name>
+        <picklistValues>
+            <masterLabel>Resource Absence</masterLabel>
+            <translation>ทรัพยากรขาดงาน</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Appointment</masterLabel>
+            <translation>การนัดหมายการบริการ</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__CompletedDate__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>vlocity_cmt__DueInDays__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__EventStatus__c</name>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shared</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__FollowUpTo__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__VerificationTimestamp__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__VerifiedAgentName__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__Verified__c</name>
+    </fields>
+</CustomObjectTranslation>

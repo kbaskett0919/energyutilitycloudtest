@@ -1,0 +1,40 @@
+{
+    "Description": "Success message",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SuccessMsg",
+    "OmniProcessId": {
+        "Name": "vplEnergyManageProfileAttributes",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/vplEnergy/ManageProfileAttributes/Multi-Language",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Success",
+        "OmniProcessId": {
+            "Name": "vplEnergyManageProfileAttributes",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/vplEnergy/ManageProfileAttributes/Multi-Language",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/vplEnergy/ManageProfileAttributes/Multi-Language/Success",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Success",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": null,
+        "show": null,
+        "text": "<p>Profile Attributes&nbsp;have been saved Successfully for Account <strong>%AccountNotificationPreference:AccountName%.</strong></p>",
+        "textKey": "sfiEnergyConsoleManageProfileAttributesSuccess"
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/vplEnergy/ManageProfileAttributes/Multi-Language/SuccessMsg"
+}

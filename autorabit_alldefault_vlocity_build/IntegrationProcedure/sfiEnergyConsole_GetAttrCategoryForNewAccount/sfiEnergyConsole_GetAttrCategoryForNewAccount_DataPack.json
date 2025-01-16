@@ -1,0 +1,26 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "VIP Used to get Attribute category for New Account.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergyConsoleGetAttrCategoryForNewAccount",
+    "OmniProcessElement": [
+        "sfiEnergyConsole_GetAttrCategoryForNewAccount_Element_DRExtractAttrCategory.json",
+        "sfiEnergyConsole_GetAttrCategoryForNewAccount_Element_DRTransformAttrCategory.json",
+        "sfiEnergyConsole_GetAttrCategoryForNewAccount_Element_Response.json"
+    ],
+    "OmniProcessKey": "sfiEnergyConsole_GetAttrCategoryForNewAccount",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergyConsole_GetAttrCategoryForNewAccount_PropertySetConfig.json",
+    "SubType": "GetAttrCategoryForNewAccount",
+    "Type": "sfiEnergyConsole",
+    "UniqueName": "sfiEnergyConsole_GetAttrCategoryForNewAccount_Procedure_5",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergyConsole/GetAttrCategoryForNewAccount/Procedure"
+}

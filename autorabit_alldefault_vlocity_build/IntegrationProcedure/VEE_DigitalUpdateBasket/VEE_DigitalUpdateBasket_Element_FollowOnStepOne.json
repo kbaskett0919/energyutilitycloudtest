@@ -1,0 +1,52 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "FollowOnStepOne",
+    "OmniProcessId": {
+        "Name": "VEEDigitalUpdateBasket",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/VEE/DigitalUpdateBasket/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalChainableResponse": {
+        },
+        "additionalInput": {
+            "apiName": "basketOperations",
+            "basketAction": "addWithNoConfig",
+            "catalogCode": "%selectedCatalogCode%",
+            "methodName": "addWithNoConfig",
+            "multiTransactionKey": "%SVMultiTransactionKey:multiTransactionKey%"
+        },
+        "additionalOutput": {
+            "result": "=DESERIALIZE(%FollowOnStepOne:result%)"
+        },
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "(AddChildProducts:nexttransaction:rest:params:method == 'addWithNoConfig')",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+            "ErrorMessage": "VEEDigitalUpdateBasket:FollowOnStepOne Failed on first follow on step while modifying the basket"
+        },
+        "label": "RemoteAction1",
+        "remoteClass": "%vlocity_namespace%.CpqAppHandler",
+        "remoteMethod": "addWithNoConfig",
+        "remoteOptions": {
+        },
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": true,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "Remote Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/VEE/DigitalUpdateBasket/Procedure/FollowOnStepOne"
+}

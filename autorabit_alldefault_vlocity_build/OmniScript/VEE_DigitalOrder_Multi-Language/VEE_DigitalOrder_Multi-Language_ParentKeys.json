@@ -1,0 +1,12 @@
+[
+    "IntegrationProcedure/VEE_DigitalCalculateBasketTotal",
+    "IntegrationProcedure/VEE_DigitalCreateAccount",
+    "IntegrationProcedure/VEE_DigitalCreateCart",
+    "IntegrationProcedure/VEE_DigitalCreateEnergySobjects",
+    "IntegrationProcedure/VEE_DigitalFetchRegions",
+    "IntegrationProcedure/VEE_DigitalGetAddons",
+    "IntegrationProcedure/VEE_DigitalGetBasket",
+    "IntegrationProcedure/VEE_DigitalGetOrderDetails",
+    "IntegrationProcedure/VEE_DigitalGetTotalSummary",
+    "IntegrationProcedure/VEE_DigitalUpdateBasket"
+]

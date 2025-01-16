@@ -1,0 +1,99 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": true,
+    "Name": "CaseStatusBillingDispute",
+    "OmniProcessId": {
+        "Name": "VPLEnergyUpdateCase",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/vplEnergy/UpdateCase/Multi-Language",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "CaseDetails",
+        "OmniProcessId": {
+            "Name": "VPLEnergyUpdateCase",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/vplEnergy/UpdateCase/Multi-Language",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/vplEnergy/UpdateCase/Multi-Language/CaseDetails",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "CaseDetails",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": true,
+        "conditionType": "Hide if False",
+        "controlWidth": 6,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": "New",
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "sfiEnergyConsoleCaseStatus",
+        "optionSource": {
+            "source": "Case.Status",
+            "type": ""
+        },
+        "options": [
+            {
+                "name": "Closed",
+                "value": "sfiEnergyConsoleCaseClosed"
+            },
+            {
+                "name": "New",
+                "value": "sfiEnergyConsoleCaseNew"
+            },
+            {
+                "name": "Under Investigation",
+                "value": "sfiEnergyConsoleCaseUnderInvestigation"
+            },
+            {
+                "name": "Resolution Proposed",
+                "value": "sfiEnergyConsoleCaseResolutionProposed"
+            },
+            {
+                "name": "Resolved - Adjustment Requested",
+                "value": "sfiEnergyConsoleCaseResolvedAdjustment"
+            },
+            {
+                "name": "Resolved - Meter Read / Rebill",
+                "value": "sfiEnergyConsoleCaseResolvedMeterRead"
+            },
+            {
+                "name": "Resolved - No Action",
+                "value": "sfiEnergyConsoleCaseResolvedNoAction"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": true,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Billing Dispute",
+                        "field": "CaseListDetail:CaseListLWC:RecordTypeName"
+                    }
+                ]
+            }
+        },
+        "showInputWidth": false
+    },
+    "Type": "Select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/vplEnergy/UpdateCase/Multi-Language/CaseStatusBillingDispute"
+}

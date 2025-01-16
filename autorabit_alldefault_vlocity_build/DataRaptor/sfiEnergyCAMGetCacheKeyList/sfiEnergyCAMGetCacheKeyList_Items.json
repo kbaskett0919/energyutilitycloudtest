@@ -1,0 +1,47 @@
+[
+    {
+        "FilterDataType": "STRING",
+        "FilterGroup": 0,
+        "FilterOperator": "IN",
+        "FilterValue": "productCodeList",
+        "GlobalKey": "sfiEnergyCAMGetCacheKeyList5079465230756612",
+        "InputFieldName": "%vlocity_namespace%__Code__c",
+        "InputObjectName": "%vlocity_namespace%__CachedAPIResponse__c",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyCAMGetCacheKeyList",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyCAMGetCacheKeyList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyCAMGetCacheKeyList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "records",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyCAMGetCacheKeyList376628449355479",
+        "InputFieldName": "%vlocity_namespace%__CacheKey__c",
+        "InputObjectName": "%vlocity_namespace%__CachedAPIResponse__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyCAMGetCacheKeyList",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyCAMGetCacheKeyList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyCAMGetCacheKeyList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "records",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

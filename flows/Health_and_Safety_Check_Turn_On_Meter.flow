@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>A Screen Flow that is used to perform health and safety checks at customer&apos;s location before turning on the meter.</description>
+    <environments>Default</environments>
+    <interviewLabel>Health and Safety Check Turn On Meter {!$Flow.CurrentDateTime}</interviewLabel>
+    <isTemplate>true</isTemplate>
+    <label>Health and safety checks - Turn on meter</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>FieldServiceMobile</processType>
+    <screens>
+        <name>Health_and_Safety_Check_Turn_On_Meter</name>
+        <label>Health and Safety Check Turn On Meter</label>
+        <locationX>583</locationX>
+        <locationY>182</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>Instructions</name>
+            <fieldText>&lt;p&gt;&lt;strong&gt;Follow the Instructions below :&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Spot Test:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(55, 65, 81);&quot;&gt;1) Start the dial test: To perform the dial test, follow these steps for each dial:&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;ql-indent-1&quot;&gt;&lt;span style=&quot;color: rgb(55, 65, 81);&quot;&gt;a) Begin with the first dial on the left and record the number the hand is pointing to. Note whether the dial rotates clockwise or counterclockwise.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;ql-indent-1&quot;&gt;&lt;span style=&quot;color: rgb(55, 65, 81);&quot;&gt;b) Move to the next dial to the right and record its number.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;ql-indent-1&quot;&gt;&lt;span style=&quot;color: rgb(55, 65, 81);&quot;&gt;c) Repeat this process for all the dials.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(55, 65, 81);&quot;&gt;2) Record the readings: After reading each dial, write down the numbers you have recorded. Ensure you maintain the correct order of the readings from left to right.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(55, 65, 81);&quot;&gt;3) Calculate the gas usage: To determine the gas usage, subtract the previous reading from the current reading. If this is your first reading, you can skip this step. The resulting value will indicate the amount of gas used since the previous reading.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(55, 65, 81);&quot;&gt;4) Reset the dials: To reset the dials to zero after the test, locate the reset button on the gas meter. Press and hold it until all the dials reset to zero. Be cautious not to tamper with any other parts of the meter.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Leak Test:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;1) Using a gas leak detector or bubble solution, check all the connections, fittings, and joints associated with the service spot for any gas leaks. Follow the instructions provided with the gas leak detector or apply the bubble solution to the connections and observe for any bubbles. If a leak is detected, immediately shut off the gas supply and rectify the issue before proceeding.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Bar Hold Test:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;1) Locate the existing gas line and identify a suitable location for drilling a small hole into it.&lt;/p&gt;&lt;p&gt;2) Use a suitable drilling tool to create a small hole in the gas line. The size and technique may vary depending on the specific requirements.&lt;/p&gt;&lt;p&gt;3) Attach the tubing from the bar hole tester kit to the drilled hole, ensuring a secure connection.&lt;/p&gt;&lt;p&gt;4) Open the valves on the tester kit to allow gas to flow into the tubing.&lt;/p&gt;&lt;p&gt;5) Monitor the pressure gauge to measure the gas pressure within the line.&lt;/p&gt;&lt;p&gt;6) Compare the measured pressure with the acceptable range specified by the relevant safety standards or guidelines.&lt;/p&gt;&lt;p&gt;7) Close the valves on the tester kit and carefully remove the tubing from the drilled hole.&lt;/p&gt;&lt;p&gt;8) Properly seal or repair the drilled hole to ensure the integrity of the gas line is maintained.&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Spot_Test</name>
+            <dataType>Boolean</dataType>
+            <defaultValue>
+                <booleanValue>true</booleanValue>
+            </defaultValue>
+            <fieldText>I have performed the Spot Test</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>CGI_Test</name>
+            <dataType>Boolean</dataType>
+            <defaultValue>
+                <booleanValue>true</booleanValue>
+            </defaultValue>
+            <fieldText>I have performed the CGI Test</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Leak_Test</name>
+            <dataType>Boolean</dataType>
+            <defaultValue>
+                <booleanValue>true</booleanValue>
+            </defaultValue>
+            <fieldText>I have performed the Leak Test</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Bar_Hold_Test</name>
+            <dataType>Boolean</dataType>
+            <defaultValue>
+                <booleanValue>true</booleanValue>
+            </defaultValue>
+            <fieldText>I have performed the Bar Hold Test</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <nextOrFinishButtonLabel>Submit</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>457</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>Health_and_Safety_Check_Turn_On_Meter</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+</Flow>

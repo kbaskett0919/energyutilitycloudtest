@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__AccountId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__DepositAmount__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__DepositIdentifier__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__DepositType__c</name>
+        <picklistValues>
+            <masterLabel>Guarantor</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letter of Guarantee</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__DiscountAmount__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__DiscountReason__c</name>
+        <picklistValues>
+            <masterLabel>Customer dispute</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to pay</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__EndDate__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__RequestDate__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__RequestReason__c</name>
+        <picklistValues>
+            <masterLabel>Disconnection for Non-Payment</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor Credit</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to Perform Credit Check</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__WaiverReason__c</name>
+        <picklistValues>
+            <masterLabel>Customer dispute</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer provided letter of credit</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

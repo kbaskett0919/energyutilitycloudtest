@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>sfiEnergySelfServiceOverviewContainer</masterLabel>
+    <runtimeNamespace>vlocity_cmt</runtimeNamespace>
+    <targets>
+      <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightningCommunity__Default</target>
+        <target>lightning__HomePage</target>
+        <target>lightningCommunity__Page</target>
+        </targets>
+      <targetConfigs>
+    <targetConfig xmlns="http://soap.sforce.com/2006/04/metadata" targets="lightning__AppPage">
+      <property name="debug" type="Boolean"/>
+      <property name="recordId" type="String"/>
+    </targetConfig>
+    <targetConfig xmlns="http://soap.sforce.com/2006/04/metadata" targets="lightning__RecordPage">
+      <property name="debug" type="Boolean"/>
+    </targetConfig>
+    <targetConfig xmlns="http://soap.sforce.com/2006/04/metadata" targets="lightningCommunity__Default">
+      <property label="accountId" name="cfAccountId" type="String"/>
+      <property name="cfFirstName" type="String" label="firstName"/>
+      <property name="cfLastName" type="String" label="lastName"/>
+      <property name="cfUserId" type="String" label="userId"/>
+    </targetConfig>
+    </targetConfigs></LightningComponentBundle>

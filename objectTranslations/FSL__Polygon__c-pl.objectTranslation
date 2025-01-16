@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Wielokącie mapy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Wielokąt mapy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Wielokąta mapy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Wielokątach mapy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Wielokątami mapy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Wielokątem mapy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Wielokątom mapy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Wielokątowi mapy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Wielokąty mapy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Wielokątów mapy</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>FSL__Color__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>FSL__KML__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>FSL__Ma_La__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>FSL__Ma_Lo__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>FSL__Mi_La__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>FSL__Mi_Lo__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>FSL__Service_Territory__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nazwa wielokąta</nameFieldLabel>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>FSL__Polygon_Color_HEX_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

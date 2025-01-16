@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <fullName>VEE_Calc_Matrix_Sharing_Rule</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>VEE Calc Matrix Sharing Rule</label>
+        <sharedTo>
+            <guestUser>VEE_Digital_Sales</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>contains</operation>
+            <value>VEE</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+</SharingRules>

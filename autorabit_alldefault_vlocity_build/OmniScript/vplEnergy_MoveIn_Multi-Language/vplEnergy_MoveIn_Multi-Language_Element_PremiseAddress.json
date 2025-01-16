@@ -1,0 +1,54 @@
+{
+    "Description": "Text block to display the premise details",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "PremiseAddress",
+    "OmniProcessId": {
+        "Name": "VPLMoveIn-WithoutCPQ",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/vplEnergy/MoveIn/Multi-Language",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "SelectPremises",
+        "OmniProcessId": {
+            "Name": "VPLMoveIn-WithoutCPQ",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/vplEnergy/MoveIn/Multi-Language",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/vplEnergy/MoveIn/Multi-Language/SelectPremises",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "SelectPremises",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "sanitize": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "field": "PremId"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "No",
+                        "field": "NewAccountNeeded"
+                    }
+                ]
+            }
+        },
+        "text": "<h2><strong><img src=\"/servlet/servlet.ImageServer?id=0151Q000005H1I6QAK&amp;&amp;docName=CABJABAHAb7459b4a30424add942049b43f913f2a&amp;&amp;oid=00D1Q0000014x4D\" alt=\"\" width=\"25\" height=\"25\" />Premise Address:&nbsp;</strong></h2>\n<p><strong>&nbsp;Premise Number:&nbsp;&nbsp;</strong>%PremiseNumber%</p>\n<p>&nbsp;<strong>Street:</strong> %PremiseStreetAddress%</p>\n<p>&nbsp;<strong>City: </strong>%PremCity%</p>\n<p>&nbsp;<strong>State: </strong>%PremState%</p>\n<p>&nbsp;<strong>Country:</strong>%PremCountry%</p>\n<p><strong>&nbsp;Postal Code: </strong>%PremPostalCode%</p>",
+        "textKey": "sfiEnergyConsolePremiseAddressText"
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/vplEnergy/MoveIn/Multi-Language/PremiseAddress"
+}

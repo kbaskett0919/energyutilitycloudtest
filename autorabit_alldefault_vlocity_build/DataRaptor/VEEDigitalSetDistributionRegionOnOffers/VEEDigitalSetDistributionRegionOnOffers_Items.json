@@ -1,0 +1,158 @@
+[
+    {
+        "FormulaExpression": "IF(offerDetails:getOfferDetails:result:offerDetails:offer:childProducts:AttributeCategory:records:productAttributes:records:code == \"ATT_DISTRIBUTION_REGION\",distRegion,offerDetails:getOfferDetails:result:offerDetails:offer:childProducts:AttributeCategory:records:productAttributes:records:userValues)",
+        "FormulaResultPath": "offerDetails:getOfferDetails:result:offerDetails:offer:childProducts:AttributeCategory:records:productAttributes:records:userValues",
+        "FormulaSequence": 1,
+        "GlobalKey": "VEEDigitalSetDistributionRegionOnOffersCustoma1V4x000009nHxNEAUItem0",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalSetDistributionRegionOnOffers",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalSetDistributionRegionOnOffers",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalSetDistributionRegionOnOffers",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(offerDetails:getOfferDetails:result:offerDetails:offer:childProducts:childProducts:AttributeCategory:records:productAttributes:records:code == \"ATT_DISTRIBUTION_REGION\",distRegion,offerDetails:getOfferDetails:result:offerDetails:offer:childProducts:childProducts:AttributeCategory:records:productAttributes:records:userValues)",
+        "FormulaResultPath": "offerDetails:getOfferDetails:result:offerDetails:offer:childProducts:childProducts:AttributeCategory:records:productAttributes:records:userValues",
+        "FormulaSequence": 2,
+        "GlobalKey": "VEEDigitalSetDistributionRegionOnOffersCustom689",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalSetDistributionRegionOnOffers",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalSetDistributionRegionOnOffers",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalSetDistributionRegionOnOffers",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalSetDistributionRegionOnOffersCustoma1V4x000009nHxNEAUItem1",
+        "InputFieldName": "offerDetails",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalSetDistributionRegionOnOffers",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalSetDistributionRegionOnOffers",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalSetDistributionRegionOnOffers",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "offerDetails",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalSetDistributionRegionOnOffersCustoma1V4x000009nHxNEAUItem4",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalSetDistributionRegionOnOffers",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalSetDistributionRegionOnOffers",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalSetDistributionRegionOnOffers",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "offerWithAttachments",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalSetDistributionRegionOnOffersCustoma1V4x000009nHxNEAUItem5",
+        "InputFieldName": "offerDetails:getOfferDetails:result:offerDetails:offer:Attachments:defaultAttachment",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalSetDistributionRegionOnOffers",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalSetDistributionRegionOnOffers",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalSetDistributionRegionOnOffers",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "offerWithAttachments:default",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalSetDistributionRegionOnOffersCustoma1V4x000009nHxNEAUItem3",
+        "InputFieldName": "offerDetails:getOfferDetails:result:offerDetails:offer:ProductCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalSetDistributionRegionOnOffers",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalSetDistributionRegionOnOffers",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalSetDistributionRegionOnOffers",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "offerWithAttachments:productCodeWithAttachments",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalSetDistributionRegionOnOffersCustoma1V4x000009nHxNEAUItem2",
+        "InputFieldName": "offerDetails:getOfferDetails:result:offerDetails:offer:Attachments:url",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalSetDistributionRegionOnOffers",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalSetDistributionRegionOnOffers",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalSetDistributionRegionOnOffers",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "offerWithAttachments:url",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalSetDistributionRegionOnOffersCustom4305",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalSetDistributionRegionOnOffers",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalSetDistributionRegionOnOffers",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalSetDistributionRegionOnOffers",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "offerWithFamily",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

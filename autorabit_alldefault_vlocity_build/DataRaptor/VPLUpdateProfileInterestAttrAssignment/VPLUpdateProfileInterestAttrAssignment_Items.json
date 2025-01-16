@@ -1,0 +1,60 @@
+[
+    {
+        "GlobalKey": "VPL-UpdateProfileInterestAttrAssignmentCustoma1V3h000000mB3FEAUItem2",
+        "InputFieldName": "removedflag",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-UpdateProfileInterestAttrAssignment",
+        "OmniDataTransformationId": {
+            "Name": "VPLUpdateProfileInterestAttrAssignment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLUpdateProfileInterestAttrAssignment",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__RemovedFlag__c",
+        "OutputObjectName": "%vlocity_namespace%__AttributeAssignment__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-UpdateProfileInterestAttrAssignmentCustoma1V3h000000mB3FEAUItem1",
+        "InputFieldName": "Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-UpdateProfileInterestAttrAssignment",
+        "OmniDataTransformationId": {
+            "Name": "VPLUpdateProfileInterestAttrAssignment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLUpdateProfileInterestAttrAssignment",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "%vlocity_namespace%__AttributeAssignment__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "VPL-UpdateProfileInterestAttrAssignmentCustoma1V3h000000mB3FEAUItem0",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "VPL-UpdateProfileInterestAttrAssignment",
+        "OmniDataTransformationId": {
+            "Name": "VPLUpdateProfileInterestAttrAssignment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLUpdateProfileInterestAttrAssignment",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "%vlocity_namespace%__AttributeAssignment__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

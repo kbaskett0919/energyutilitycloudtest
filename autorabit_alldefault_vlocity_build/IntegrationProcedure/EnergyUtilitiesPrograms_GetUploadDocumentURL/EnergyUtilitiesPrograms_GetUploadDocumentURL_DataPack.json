@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "EnergyUtilitiesPrograms_GetUploadDocumentURL_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "EnergyUtilitiesProgramsGetUploadDocumentURL",
+    "OmniProcessElement": [
+        "EnergyUtilitiesPrograms_GetUploadDocumentURL_Element_DRGetSiteURL.json",
+        "EnergyUtilitiesPrograms_GetUploadDocumentURL_Element_DRTransformUploadDocumentURL.json",
+        "EnergyUtilitiesPrograms_GetUploadDocumentURL_Element_Response.json"
+    ],
+    "OmniProcessKey": "EnergyUtilitiesPrograms_GetUploadDocumentURL",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "EnergyUtilitiesPrograms_GetUploadDocumentURL_PropertySetConfig.json",
+    "SubType": "GetUploadDocumentURL",
+    "Type": "EnergyUtilitiesPrograms",
+    "UniqueName": "EnergyUtilitiesPrograms_GetUploadDocumentURL_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/EnergyUtilitiesPrograms/GetUploadDocumentURL/Procedure"
+}

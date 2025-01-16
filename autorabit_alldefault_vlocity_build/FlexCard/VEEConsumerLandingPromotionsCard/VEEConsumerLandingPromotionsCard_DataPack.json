@@ -1,0 +1,28 @@
+{
+    "AuthorName": "CME_EU_Express",
+    "ClonedFromOmniUiCardKey": "VEEConsumerLandingTestimonialCard/Lakshmi/1/1615710172658",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "VEEConsumerLandingPromotionsCard",
+    "Namespace": "",
+    "OmniUiCardKey": "VEEConsumerLandingPromotionsCard/Lakshmi/1/1615711290516",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "VEEConsumerLandingPromotionsCard.json",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "",
+    "UniqueName": "VEEConsumerLandingPromotionsCard_CME_EU_Express_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/VEEConsumerLandingPromotionsCard"
+}

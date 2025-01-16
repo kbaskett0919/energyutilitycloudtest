@@ -1,0 +1,60 @@
+[
+    {
+        "GlobalKey": "sfiEnergyCAMUpdateModifiedProductsCodes6957384563476854",
+        "InputFieldName": "recordIds:recId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": true,
+        "IsUpsertKey": true,
+        "Name": "sfiEnergyCAMUpdateModifiedProductsCodes",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyCAMUpdateModifiedProductsCodes",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyCAMUpdateModifiedProductsCodes",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "sfiEnergyCAMModifiedProductsCode__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "sfiEnergyCAMUpdateModifiedProductsCodes9886274967246329",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "sfiEnergyCAMUpdateModifiedProductsCodes",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyCAMUpdateModifiedProductsCodes",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyCAMUpdateModifiedProductsCodes",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "sfiEnergyCAMModifiedProductsCode__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "True",
+        "GlobalKey": "sfiEnergyCAMUpdateModifiedProductsCodes6498573912839529",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyCAMUpdateModifiedProductsCodes",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyCAMUpdateModifiedProductsCodes",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyCAMUpdateModifiedProductsCodes",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Is_Processed__c",
+        "OutputObjectName": "sfiEnergyCAMModifiedProductsCode__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

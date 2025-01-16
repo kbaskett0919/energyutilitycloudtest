@@ -1,0 +1,67 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "<>",
+        "FilterValue": "\"$Vlocity.null\"",
+        "GlobalKey": "sfiEnergyCAMGetCachedAPIResponseRecordsCustom7447",
+        "InputFieldName": "Id",
+        "InputObjectName": "%vlocity_namespace%__CachedAPIResponse__c",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyCAMGetCachedAPIResponseRecords",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyCAMGetCachedAPIResponseRecords",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyCAMGetCachedAPIResponseRecords",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "CachedAPIResponse",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "CachedAPIResponse:Id",
+        "FormulaResultPath": "records",
+        "FormulaSequence": 1,
+        "GlobalKey": "sfiEnergyCAMGetCachedAPIResponseRecordsCustom5923",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyCAMGetCachedAPIResponseRecords",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyCAMGetCachedAPIResponseRecords",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyCAMGetCachedAPIResponseRecords",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyCAMGetCachedAPIResponseRecordsCustom7815",
+        "InputFieldName": "records",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyCAMGetCachedAPIResponseRecords",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyCAMGetCachedAPIResponseRecords",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyCAMGetCachedAPIResponseRecords",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<String>",
+        "OutputFieldName": "Ids",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

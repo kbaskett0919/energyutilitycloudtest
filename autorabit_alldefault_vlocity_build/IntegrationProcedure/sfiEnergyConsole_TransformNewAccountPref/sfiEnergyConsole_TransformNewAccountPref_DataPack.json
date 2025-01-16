@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "VIP Used to transform New Account Preferences",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergyConsoleTransformNewAccountPref",
+    "OmniProcessElement": [
+        "sfiEnergyConsole_TransformNewAccountPref_Element_DRTransformNewAccountPref.json",
+        "sfiEnergyConsole_TransformNewAccountPref_Element_Response.json"
+    ],
+    "OmniProcessKey": "sfiEnergyConsole_TransformNewAccountPref",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergyConsole_TransformNewAccountPref_PropertySetConfig.json",
+    "SubType": "TransformNewAccountPref",
+    "Type": "sfiEnergyConsole",
+    "UniqueName": "sfiEnergyConsole_TransformNewAccountPref_Procedure_5",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergyConsole/TransformNewAccountPref/Procedure"
+}

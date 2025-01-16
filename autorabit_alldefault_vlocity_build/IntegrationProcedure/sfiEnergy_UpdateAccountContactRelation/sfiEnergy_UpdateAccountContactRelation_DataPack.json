@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergySelfServiceUpdateAccountContactRelation",
+    "OmniProcessElement": [
+        "sfiEnergy_UpdateAccountContactRelation_Element_DRUpdateAccountContactRelation.json",
+        "sfiEnergy_UpdateAccountContactRelation_Element_UpdateResponse.json"
+    ],
+    "OmniProcessKey": "sfiEnergy_UpdateAccountContactRelation",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergy_UpdateAccountContactRelation_PropertySetConfig.json",
+    "SubType": "UpdateAccountContactRelation",
+    "Type": "sfiEnergy",
+    "UniqueName": "sfiEnergy_UpdateAccountContactRelation_Procedure_5",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergy/UpdateAccountContactRelation/Procedure"
+}

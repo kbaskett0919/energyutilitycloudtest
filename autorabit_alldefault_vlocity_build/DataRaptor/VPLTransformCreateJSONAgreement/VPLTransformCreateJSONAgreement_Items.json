@@ -1,0 +1,217 @@
+[
+    {
+        "FormulaExpression": "IF(%CustomerSelection:AccountType% = 'Business', %BillingAccountId%, %DRId_Account%)",
+        "FormulaResultPath": "FML_AccountId",
+        "FormulaSequence": 2,
+        "GlobalKey": "VPL-TransformCreateJSONAgreementCustom5385",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateJSONAgreement",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateJSONAgreement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateJSONAgreement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "TODAY()",
+        "FormulaResultPath": "Today",
+        "FormulaSequence": 1,
+        "GlobalKey": "VPL-TransformCreateJSONAgreement-ENGY-104-1Customa192E00000BvVtEQAVItem0",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateJSONAgreement",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateJSONAgreement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateJSONAgreement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreateJSONAgreement-ENGY-104-1Customa192E00000BvVtEQAVItem1",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateJSONAgreement",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateJSONAgreement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateJSONAgreement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "agreementList",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreateJSONAgreement-ENGY-104-1Customa192E00000BvVtEQAVItem2",
+        "InputFieldName": "FML_AccountId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateJSONAgreement",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateJSONAgreement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateJSONAgreement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "agreementList:AccountId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreateJSONAgreement-ENGY-104-1Customa192E00000BvVtEQAVItem4",
+        "InputFieldName": "VIPCreateBusinessPartner:ERPAccountID__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateJSONAgreement",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateJSONAgreement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateJSONAgreement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "agreementList:Account_ERP_Id__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreateJSONAgreement-ENGY-104-1Customa192E00000BvVtEQAVItem10",
+        "InputFieldName": "CustomerSelection:MoveInDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateJSONAgreement",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateJSONAgreement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateJSONAgreement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "agreementList:Agreement_Start_Date__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreateJSONAgreement-ENGY-104-1Customa192E00000BvVtEQAVItem6",
+        "InputFieldName": "ExtractMeterDetails:MeterDetails:IntsallationNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateJSONAgreement",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateJSONAgreement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateJSONAgreement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "agreementList:Con_Installation_Number__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreateJSONAgreement-ENGY-104-1Customa192E00000BvVtEQAVItem5",
+        "InputFieldName": "VIPCreateContractAccount:ERP_Contract_ID__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateJSONAgreement",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateJSONAgreement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateJSONAgreement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "agreementList:Contract_ERP_ID__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreateJSONAgreement-ENGY-104-1Customa192E00000BvVtEQAVItem8",
+        "InputFieldName": "ExtractMeterDetails:MeterDetails:ProductFamily",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateJSONAgreement",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateJSONAgreement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateJSONAgreement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "agreementList:PROD_Utility_Type__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreateJSONAgreement-ENGY-104-1Customa192E00000BvVtEQAVItem7",
+        "InputFieldName": "ExtractMeterDetails:MeterDetails:ProdId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateJSONAgreement",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateJSONAgreement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateJSONAgreement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "agreementList:Product2Id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreateJSONAgreement-ENGY-104-1Customa192E00000BvVtEQAVItem9",
+        "InputFieldName": "ExtractMeterDetails:MeterDetails:SerialNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateJSONAgreement",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateJSONAgreement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateJSONAgreement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "agreementList:SerialNumber__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

@@ -1,0 +1,32 @@
+{
+    "Attachments": [
+        {
+            "ProductCode": "PD_GREEN_ENERGY_TARIFF",
+            "default": false,
+            "url": "https://seeklogo.com/images/G/green-energy-logo-CA7B8C29E9-seeklogo.com.png"
+        },
+        {
+            "ProductCode": "PD_GREEN_ENERGY_TARIFF1",
+            "default": true,
+            "url": "https://seeklogo.com/images/G/green-energy-logo-CA7B8C29E9-seeklogo.com.png"
+        },
+        {
+            "ProductCode": "PD_GREEN_ENERGY_TARIFF1",
+            "default": false,
+            "url": "https://thumbs.dreamstime.com/z/green-energy-logo-design-element-power-icon-symbol-designs-156214865.jpg"
+        },
+        {
+            "ProductCode": "PD_SMART_ELEC_TARIFF"
+        },
+        {
+            "ProductCode": "PD_DAY_NIGHT_TARIFF",
+            "default": false,
+            "url": "https://marketplace-images-production.s3-us-west-2.amazonaws.com/vault/items/preview-53b400cf-5edc-4996-b9a5-4c240a140b28-1180x660-gPpuz.png"
+        },
+        {
+            "ProductCode": "PD_PREPAID_ELECTRICITY_TARIFF",
+            "default": false,
+            "url": "http://www.swec.org/assets/uploads/SouthwestPrepaid_Logo_2-01.jpg"
+        }
+    ]
+}

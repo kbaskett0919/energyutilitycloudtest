@@ -1,0 +1,30 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+            },
+            "type": "",
+            "value": {
+            }
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergySelfServicePremiseFlyout",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergySelfServicePremiseFlyout/CME_E_U/1/1658229286637",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergySelfServicePremiseFlyout.json",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "",
+    "UniqueName": "sfiEnergySelfServicePremiseFlyout_CME_E_U_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergySelfServicePremiseFlyout"
+}

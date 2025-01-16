@@ -1,0 +1,47 @@
+{
+    "Description": "%Enroll:VEECustomerDetailsBlock:LastName%",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "CreateContact",
+    "OmniProcessId": {
+        "Name": "VEEDigitalCreateEnergySobjects",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/VEE/DigitalCreateEnergySobjects/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+            "accountId": "%orderDetails:accountId%",
+            "email": "%Enroll:VEECustomerDetailsBlock:Email%",
+            "firstName": "%Enroll:VEECustomerDetailsBlock:FirstName%",
+            "lastName": "%Enroll:VEECustomerDetailsBlock:LastName%",
+            "phone": "%Enroll:VEECustomerDetailsBlock:Phone%"
+        },
+        "additionalOutput": {
+        },
+        "bundle": "VEEDigitalCreateContact",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "ISBLANK(Contact_1)",
+        "failureResponse": {
+            "ErrorMessage": "VEEDigitalCreateEnergySobjects:CreateContact Contact didnt got created"
+        },
+        "label": "DataRaptorPostAction1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": true,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Post Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/VEE/DigitalCreateEnergySobjects/Procedure/CreateContact"
+}

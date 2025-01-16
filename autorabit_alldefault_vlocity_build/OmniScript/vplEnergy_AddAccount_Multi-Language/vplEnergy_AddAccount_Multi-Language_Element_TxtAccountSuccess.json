@@ -1,0 +1,40 @@
+{
+    "Description": "Success message text block",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "TxtAccountSuccess",
+    "OmniProcessId": {
+        "Name": "VPLEnegryAddAccount",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/vplEnergy/AddAccount/Multi-Language",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Success",
+        "OmniProcessId": {
+            "Name": "VPLEnegryAddAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/vplEnergy/AddAccount/Multi-Language",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/vplEnergy/AddAccount/Multi-Language/Success",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Success",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": "sfiEnergyConsoleAddAccountSuccessMessage",
+        "show": null,
+        "text": "<h1>%AccountType% account created Successfully! Click Finish&nbsp;to&nbsp;view more details.</h1>",
+        "textKey": "sfiEnergyConsoleAddAccountSuccessMessage"
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/vplEnergy/AddAccount/Multi-Language/TxtAccountSuccess"
+}

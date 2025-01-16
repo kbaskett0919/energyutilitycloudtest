@@ -1,0 +1,36 @@
+{
+    "Description": "Set default values",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SVSetDefaultValues",
+    "OmniProcessId": {
+        "Name": "VPLEnegryAddAccount",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/vplEnergy/AddAccount/Multi-Language",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "BusinessAccountRecordType": "='Business'",
+            "SObjectName": "='Account'"
+        },
+        "label": null,
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/vplEnergy/AddAccount/Multi-Language/SVSetDefaultValues"
+}

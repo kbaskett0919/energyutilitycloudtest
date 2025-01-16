@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniDataTransform xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <assignmentRulesUsed>false</assignmentRulesUsed>
+    <deletedOnSuccess>false</deletedOnSuccess>
+    <errorIgnored>false</errorIgnored>
+    <expectedInputJson>{
+  &quot;BasketCreation&quot; : { },
+  &quot;ContextId&quot; : null,
+  &quot;FetchOfferDetails&quot; : { },
+  &quot;FetchOffers&quot; : { },
+  &quot;timeStamp&quot; : null,
+  &quot;userId&quot; : null,
+  &quot;userName&quot; : null,
+  &quot;userProfile&quot; : null,
+  &quot;userTimeZone&quot; : null,
+  &quot;vlcPersistentComponent&quot; : { },
+  &quot;vlcTimeTracking&quot; : {
+    &quot;BasketCreation&quot; : null,
+    &quot;DRDistributionRegion&quot; : null,
+    &quot;DRGetCatalogMeterType&quot; : null,
+    &quot;DRGetModifiedProductCode&quot; : null,
+    &quot;DRtransformOfferCode&quot; : null,
+    &quot;FetchOfferDetails&quot; : null,
+    &quot;FetchOffers&quot; : null,
+    &quot;Response&quot; : null
+  }
+}</expectedInputJson>
+    <fieldLevelSecurityEnabled>false</fieldLevelSecurityEnabled>
+    <inputType>JSON</inputType>
+    <name>sfiEnergyCAMCachedAPIRecordsID</name>
+    <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>var:records:Id</formulaConverted>
+        <formulaExpression>records:Id</formulaExpression>
+        <formulaResultPath>idList</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>sfiEnergyCAMCachedAPIRecordsIDCustom4671</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>sfiEnergyCAMCachedAPIRecordsID</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>sfiEnergyCAMCachedAPIRecordsID4879125205090511</globalKey>
+        <inputFieldName>idList</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>sfiEnergyCAMCachedAPIRecordsID</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>cachedAPIRecords:recId</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;records&quot; : [ {
+    &quot;vlocity_cmt__CacheKey__c&quot; : &quot;0af2c247078cbe18cf2bcfa171b538d0&quot;,
+    &quot;Id&quot; : &quot;a0X4x000001FbNqEAK&quot;
+  }, {
+    &quot;vlocity_cmt__CacheKey__c&quot; : &quot;0af2c247078cbe18cf2bcfa171b538d0&quot;,
+    &quot;Id&quot; : &quot;a0X4x000001FbSTEA0&quot;
+  }, {
+    &quot;vlocity_cmt__CacheKey__c&quot; : &quot;0af2c247078cbe18cf2bcfa171b538d0&quot;,
+    &quot;Id&quot; : &quot;a0X4x000001FbSUEA0&quot;
+  }, {
+    &quot;vlocity_cmt__CacheKey__c&quot; : &quot;0af2c247078cbe18cf2bcfa171b538d0&quot;,
+    &quot;Id&quot; : &quot;a0X4x000001FbSVEA0&quot;
+  }, {
+    &quot;vlocity_cmt__CacheKey__c&quot; : &quot;0af2c247078cbe18cf2bcfa171b538d0&quot;,
+    &quot;Id&quot; : &quot;a0X4x000001FbSWEA0&quot;
+  }, {
+    &quot;vlocity_cmt__CacheKey__c&quot; : &quot;0af2c247078cbe18cf2bcfa171b538d0&quot;,
+    &quot;Id&quot; : &quot;a0X4x000001FbSdEAK&quot;
+  }, {
+    &quot;vlocity_cmt__CacheKey__c&quot; : &quot;0af2c247078cbe18cf2bcfa171b538d0&quot;,
+    &quot;Id&quot; : &quot;a0X4x000001FbSiEAK&quot;
+  }, {
+    &quot;vlocity_cmt__CacheKey__c&quot; : &quot;0af2c247078cbe18cf2bcfa171b538d0&quot;,
+    &quot;Id&quot; : &quot;a0X4x000001FbSnEAK&quot;
+  }, {
+    &quot;vlocity_cmt__CacheKey__c&quot; : &quot;0af2c247078cbe18cf2bcfa171b538d0&quot;,
+    &quot;Id&quot; : &quot;a0X4x000001FbSsEAK&quot;
+  }, {
+    &quot;vlocity_cmt__CacheKey__c&quot; : &quot;27780040fb63d8f1bb0d0450129a7db5&quot;,
+    &quot;Id&quot; : &quot;a0X4x000001FbUUEA0&quot;
+  }, {
+    &quot;vlocity_cmt__CacheKey__c&quot; : &quot;27780040fb63d8f1bb0d0450129a7db5&quot;,
+    &quot;Id&quot; : &quot;a0X4x000001FbUVEA0&quot;
+  }, {
+    &quot;vlocity_cmt__CacheKey__c&quot; : &quot;27780040fb63d8f1bb0d0450129a7db5&quot;,
+    &quot;Id&quot; : &quot;a0X4x000001FbUWEA0&quot;
+  }, {
+    &quot;vlocity_cmt__CacheKey__c&quot; : &quot;27780040fb63d8f1bb0d0450129a7db5&quot;,
+    &quot;Id&quot; : &quot;a0X4x000001FbUXEA0&quot;
+  }, {
+    &quot;vlocity_cmt__CacheKey__c&quot; : &quot;27780040fb63d8f1bb0d0450129a7db5&quot;,
+    &quot;Id&quot; : &quot;a0X4x000001FbUeEAK&quot;
+  }, {
+    &quot;vlocity_cmt__CacheKey__c&quot; : &quot;a31ff87025a9f644ae9472073975a236&quot;,
+    &quot;Id&quot; : &quot;a0X4x000001FbV3EAK&quot;
+  }, {
+    &quot;vlocity_cmt__CacheKey__c&quot; : &quot;a31ff87025a9f644ae9472073975a236&quot;,
+    &quot;Id&quot; : &quot;a0X4x000001FbV4EAK&quot;
+  }, {
+    &quot;vlocity_cmt__CacheKey__c&quot; : &quot;a31ff87025a9f644ae9472073975a236&quot;,
+    &quot;Id&quot; : &quot;a0X4x000001FbV5EAK&quot;
+  }, {
+    &quot;vlocity_cmt__CacheKey__c&quot; : &quot;a31ff87025a9f644ae9472073975a236&quot;,
+    &quot;Id&quot; : &quot;a0X4x000001FbV6EAK&quot;
+  }, {
+    &quot;vlocity_cmt__CacheKey__c&quot; : &quot;a31ff87025a9f644ae9472073975a236&quot;,
+    &quot;Id&quot; : &quot;a0X4x000001FbVDEA0&quot;
+  } ]
+}</previewJsonData>
+    <processSuperBulk>false</processSuperBulk>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <rollbackOnError>false</rollbackOnError>
+    <sourceObject>json</sourceObject>
+    <sourceObjectDefault>false</sourceObjectDefault>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Transform</type>
+    <uniqueName>sfiEnergyCAMCachedAPIRecordsID_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <xmlDeclarationRemoved>false</xmlDeclarationRemoved>
+</OmniDataTransform>

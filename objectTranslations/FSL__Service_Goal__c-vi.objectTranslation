@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <plural>false</plural>
+        <value>Mục Tiêu Dịch Vụ</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>FSL__Custom_Logic_Data__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>FSL__Custom_Type__c</name>
+        <picklistValues>
+            <masterLabel>ASAP</masterLabel>
+            <translation>Càng Sớm Càng Tốt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minimize Engineer Idle Time</masterLabel>
+            <translation>Giảm Tối Đa Thời Gian Nghỉ Của Kỹ Sư</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minimize Overtime</masterLabel>
+            <translation>Giảm Tối Đa Tăng Ca</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minimize Travel</masterLabel>
+            <translation>Giảm Tối Đa Thời Gian Di Chuyển</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minimize Use Of Elasticity</masterLabel>
+            <translation>Giảm Tối Đa Việc Sử Dụng Tính Linh Hoạt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preferred Resource</masterLabel>
+            <translation>Nhân Sự Được Ưu Tiên</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Priority By Distance To Engineer</masterLabel>
+            <translation>Mức Ưu Tiên Theo Khoảng Cách Đến Kỹ Sư</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resource Priority</masterLabel>
+            <translation>Mức Ưu Tiên Của Nhân Sự</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Same Site</masterLabel>
+            <translation>Cùng Một Địa Điểm</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skill Level</masterLabel>
+            <translation>Cấp Độ Kỹ Năng</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Task Priority</masterLabel>
+            <translation>Mức Ưu Tiên Của Nhiệm Vụ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel From Home Base</masterLabel>
+            <translation>Di Chuyển Tối Đa Từ Nơi Làm Việc Chính</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Đặt lên lịch để có bao gồm hoặc không bao gồm cân nhắc trừ ngày di chuyển đầu tiên và ngày cuối cùng, tới và từ trụ sở của nhân sự dịch vụ</help>
+        <label></label>
+        <name>FSL__Ignore_Home_Base_Coordinates__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>FSL__Object_Group_Field__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>FSL__Prioritize_Resource__c</name>
+        <picklistValues>
+            <masterLabel>Least Qualified</masterLabel>
+            <translation>Đủ Điều Kiện Thấp Nhất</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Most Qualified</masterLabel>
+            <translation>Đủ Điều Kiện Hầu Hết</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>FSL__Resource_Group_Field__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>FSL__Resource_Priority_Field__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>FSL__Skill_Type__c</name>
+    </fields>
+    <nameFieldLabel>Tên Mục Tiêu Dịch Vụ</nameFieldLabel>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>FSL__Objective_Asap</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>FSL__Objective_Custom_Logic</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>FSL__Objective_Minimize_Overtime</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>FSL__Objective_Minimize_Travel</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>FSL__Objective_PreferredEngineer</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>FSL__Objective_Resource_Priority</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>FSL__Objective_Same_Site</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>FSL__Objective_Skill_Level</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>FSL__Objective_Skill_Preferences</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>FSL__Resource_Priority_Not_Null</name>
+    </validationRules>
+</CustomObjectTranslation>

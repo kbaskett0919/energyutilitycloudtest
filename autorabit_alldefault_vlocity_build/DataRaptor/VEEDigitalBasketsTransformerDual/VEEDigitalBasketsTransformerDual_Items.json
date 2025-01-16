@@ -1,0 +1,824 @@
+[
+    {
+        "FormulaSequence": 1,
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustom3571",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustoma1V4x00000AdnNXEAZItem22",
+        "InputFieldName": "Attachments",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Attachments",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustoma1V4x00000AdnNXEAZItem0",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "Baskets",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustoma1V4x00000AdnNXEAZItem2",
+        "InputFieldName": "BasketsList:FollowOnStepOne:createCartAction:rest:params:cartContextKey",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:cartContextKey",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustoma1V4x00000AdnNXEAZItem4",
+        "InputFieldName": "BasketsList:getBasketsConfig:cartContextKey",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:cartContextKey",
+        "OutputObjectName": "json",
+        "TransformValueMappings": "{}",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustoma1V4x00000AdnNXEAZItem1",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "Baskets:childProducts",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustom2917",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "Baskets:childProducts:childProducts",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustom1594",
+        "InputFieldName": "BasketsList:FollowOnStepOne:result:records:lineItems:records:lineItems:records:Product2:Description",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:childProducts:childProducts:description",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustom5582",
+        "InputFieldName": "BasketsList:getBasketsConfig:result:records:lineItems:records:lineItems:records:Product2:Description",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:childProducts:childProducts:description",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustom2038",
+        "InputFieldName": "BasketsList:FollowOnStepOne:result:records:lineItems:records:lineItems:records:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:childProducts:childProducts:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustom1800",
+        "InputFieldName": "BasketsList:getBasketsConfig:result:records:lineItems:records:lineItems:records:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:childProducts:childProducts:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustom7893",
+        "InputFieldName": "BasketsList:FollowOnStepOne:result:records:lineItems:records:lineItems:records:ProductCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:childProducts:childProducts:productCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustom4964",
+        "InputFieldName": "BasketsList:getBasketsConfig:result:records:lineItems:records:lineItems:records:ProductCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:childProducts:childProducts:productCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustom3834",
+        "InputFieldName": "BasketsList:FollowOnStepOne:result:records:lineItems:records:lineItems:records:Product2:%vlocity_namespace%__SubType__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:childProducts:childProducts:subType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustom7489",
+        "InputFieldName": "BasketsList:getBasketsConfig:result:records:lineItems:records:lineItems:records:Product2:%vlocity_namespace%__SubType__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:childProducts:childProducts:subType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustom7688",
+        "InputFieldName": "BasketsList:FollowOnStepOne:result:records:lineItems:records:lineItems:records:pricingLogValue:PricingVariableCodeBaseValues:USAGE_STD_PRC",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:childProducts:childProducts:unitPrice",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustom7617",
+        "InputFieldName": "BasketsList:getBasketsConfig:result:records:lineItems:records:lineItems:records:pricingLogValue:PricingVariableCodeBaseValues:USAGE_STD_PRC",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:childProducts:childProducts:unitPrice",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustoma1V4x00000AdnNXEAZItem26",
+        "InputFieldName": "BasketsList:FollowOnStepOne:result:records:pricingLogValue:LogData:REC_MNTH_STD_PRC:CurrencyCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:childProducts:currencyCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustoma1V4x00000AdnNXEAZItem25",
+        "InputFieldName": "BasketsList:getBasketsConfig:result:records:pricingLogValue:LogData:REC_MNTH_STD_PRC:CurrencyCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:childProducts:currencyCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustom1111",
+        "InputFieldName": "BasketsList:FollowOnStepOne:result:records:lineItems:records:Product2:Description",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:childProducts:description",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustom2469",
+        "InputFieldName": "BasketsList:getBasketsConfig:result:records:lineItems:records:Product2:Description",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:childProducts:description",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustom9882",
+        "InputFieldName": "BasketsList:FollowOnStepOne:result:records:lineItems:records:PricebookEntry:Product2:Family",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:childProducts:family",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustom1466",
+        "InputFieldName": "BasketsList:getBasketsConfig:result:records:lineItems:records:PricebookEntry:Product2:Family",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:childProducts:family",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustoma1V4x00000AdnNXEAZItem15",
+        "InputFieldName": "BasketsList:FollowOnStepOne:result:records:lineItems:records:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:childProducts:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustoma1V4x00000AdnNXEAZItem6",
+        "InputFieldName": "BasketsList:getBasketsConfig:result:records:lineItems:records:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:childProducts:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustoma1V4x00000AdnNXEAZItem11",
+        "InputFieldName": "BasketsList:FollowOnStepOne:result:records:lineItems:records:ProductCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:childProducts:productCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustoma1V4x00000AdnNXEAZItem7",
+        "InputFieldName": "BasketsList:getBasketsConfig:result:records:lineItems:records:ProductCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:childProducts:productCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustoma1V4x00000AdnNXEAZItem24",
+        "InputFieldName": "BasketsList:FollowOnStepOne:result:records:lineItems:records:Product2:%vlocity_namespace%__SubType__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:childProducts:subType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustoma1V4x00000AdnNXEAZItem23",
+        "InputFieldName": "BasketsList:getBasketsConfig:result:records:lineItems:records:Product2:%vlocity_namespace%__SubType__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:childProducts:subType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustoma1V4x00000AdnNXEAZItem16",
+        "InputFieldName": "BasketsList:FollowOnStepOne:result:records:lineItems:records:pricingLogValue:PricingVariableCodeBaseValues:USAGE_STD_PRC",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:childProducts:unitPrice",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustoma1V4x00000AdnNXEAZItem12",
+        "InputFieldName": "BasketsList:getBasketsConfig:result:records:lineItems:records:pricingLogValue:PricingVariableCodeBaseValues:USAGE_STD_PRC",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:childProducts:unitPrice",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustom7703",
+        "InputFieldName": "BasketsList:FollowOnStepOne:result:records:pricingLogValue:LogData:REC_MNTH_STD_PRC:CurrencyCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:currencyCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustoma1V4x00000AdnNXEAZItem5",
+        "InputFieldName": "BasketsList:getBasketsConfig:result:records:pricingLogValue:LogData:REC_MNTH_STD_PRC:CurrencyCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:currencyCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustoma1V4x00000AdnNXEAZItem17",
+        "InputFieldName": "BasketsList:FollowOnStepOne:result:records:Product2:Description",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Baskets:description",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustoma1V4x00000AdnNXEAZItem18",
+        "InputFieldName": "BasketsList:getBasketsConfig:result:records:Product2:Description",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Baskets:description",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "false",
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustoma1V4x00000AdnNXEAZItem19",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Boolean",
+        "OutputFieldName": "Baskets:isAddedToCart",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustoma1V4x00000AdnNXEAZItem3",
+        "InputFieldName": "BasketsList:FollowOnStepOne:result:records:ProductCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:productCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustoma1V4x00000AdnNXEAZItem9",
+        "InputFieldName": "BasketsList:getBasketsConfig:result:records:ProductCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:productCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustoma1V4x00000AdnNXEAZItem10",
+        "InputFieldName": "BasketsList:FollowOnStepOne:result:records:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:productName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustoma1V4x00000AdnNXEAZItem8",
+        "InputFieldName": "BasketsList:getBasketsConfig:result:records:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:productName",
+        "OutputObjectName": "json",
+        "TransformValueMappings": "{}",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustom4035",
+        "InputFieldName": "BasketsList:getBasketsConfig:result:records:Product2:%vlocity_namespace%__SubType__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Baskets:subType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustom1210",
+        "InputFieldName": "BasketsList:FollowOnStepOne:result:records:Product2:%vlocity_namespace%__SubType__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ProductType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalBasketsTransformerDualCustom4497",
+        "InputFieldName": "BasketsList:getBasketsConfig:result:records:Product2:%vlocity_namespace%__SubType__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalBasketsTransformerDual",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalBasketsTransformerDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalBasketsTransformerDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ProductType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

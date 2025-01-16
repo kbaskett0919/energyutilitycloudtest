@@ -1,0 +1,30 @@
+{
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "EnergyUtilitiesApplicationSubmission/Salesforce/1.0",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+            },
+            "type": null,
+            "value": {
+            }
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "EnergyUtilitiesProgramsSubmitApplicationResponse",
+    "Namespace": "",
+    "OmniUiCardKey": "EnergyUtilitiesProgramsSubmitApplicationResponse/Salesforce/3.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "EnergyUtilitiesProgramsSubmitApplicationResponse.json",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "",
+    "UniqueName": "EnergyUtilitiesProgramsSubmitApplicationResponse_Salesforce_3",
+    "VersionNumber": 3,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/EnergyUtilitiesProgramsSubmitApplicationResponse"
+}

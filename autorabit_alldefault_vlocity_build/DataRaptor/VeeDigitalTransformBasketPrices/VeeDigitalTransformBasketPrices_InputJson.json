@@ -1,0 +1,35 @@
+{
+    "consumption": 100,
+    "offerDetails": [
+        {
+            "": "",
+            "cartContextKey": "e7304d393ccfccd8cea3c3b780584a6f",
+            "childProducts": [
+                {
+                    "currencyCode": "GBP",
+                    "description": "Unit rate is charged per kWh of energy consumption.",
+                    "family": "Gas",
+                    "name": "Unit Rate",
+                    "productCode": "CC_UNIT_RATE_GASSTD",
+                    "subType": "Unit Rate",
+                    "unitPrice": 0.16199
+                },
+                {
+                    "currencyCode": "GBP",
+                    "description": "Standing Charges is an infrastructure charge which is charged per Day of usage.",
+                    "family": "Gas",
+                    "name": "Standing Charges",
+                    "productCode": "CC_STANDING_CHARGES_GASSTD",
+                    "subType": "Standing Charges",
+                    "unitPrice": 0.1902
+                }
+            ],
+            "currencyCode": "GBP",
+            "description": "Standard fixed rate gas product.",
+            "isAddedToCart": false,
+            "productCode": "PD_GAS_STANDARD",
+            "productName": "Gas Standard Tariff",
+            "subType": "Gas"
+        }
+    ]
+}

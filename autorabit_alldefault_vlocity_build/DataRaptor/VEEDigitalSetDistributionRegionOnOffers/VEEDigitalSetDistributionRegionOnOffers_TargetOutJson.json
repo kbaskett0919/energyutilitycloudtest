@@ -1,0 +1,1064 @@
+[
+    {
+        "LoopBlockIterationIndex": 1,
+        "LoopBlockIterationStatus": true,
+        "getOfferDetails": {
+            "contextKey": "84f7858f600f277039aa62012c674c44",
+            "error": "OK",
+            "errorCode": "INVOKE-200",
+            "result": {
+                "offerDetails": {
+                    "offer": {
+                        "%vlocity_namespace%__EndOfLifeDate__c": null,
+                        "%vlocity_namespace%__IsOrderable__c": true,
+                        "%vlocity_namespace%__SellingEndDate__c": null,
+                        "%vlocity_namespace%__SellingStartDate__c": "2020-12-01T00:00:00.000Z",
+                        "Attachments": [
+                            {
+                                "contentType": "Image",
+                                "defaultAttachment": true,
+                                "description": null,
+                                "displayConditionsData": null,
+                                "mimeType": null,
+                                "sequenceNumber": null,
+                                "title": "Green Energy",
+                                "url": "/servlet/servlet.FileDownload?file=0154K00000104NVQAY"
+                            }
+                        ],
+                        "AttributeCategory": {
+                            "messages": [
+                            ],
+                            "records": [
+                                {
+                                    "Code__c": "4d0ed959-8a53-98d5-b944-addc436e82c8",
+                                    "Name": "Commodity Commercial Offers",
+                                    "displaySequence": 10,
+                                    "id": "a0O4K0000009IdZUAU",
+                                    "messages": [
+                                    ],
+                                    "productAttributes": {
+                                        "messages": [
+                                        ],
+                                        "records": [
+                                            {
+                                                "attributeId": "a0P4K0000009Qh9UAE",
+                                                "cacheable": true,
+                                                "cloneable": true,
+                                                "code": "ATT_METER_TYPE",
+                                                "dataType": "text",
+                                                "disabled": false,
+                                                "displaySequence": 1,
+                                                "filterable": true,
+                                                "hasRules": true,
+                                                "hidden": false,
+                                                "inputType": "dropdown",
+                                                "isNotTranslatable": false,
+                                                "label": "Meter Type",
+                                                "messages": [
+                                                ],
+                                                "multiselect": false,
+                                                "readonly": false,
+                                                "required": false,
+                                                "userValues": "Prepaid",
+                                                "values": [
+                                                    {
+                                                        "defaultSelected": false,
+                                                        "disabled": false,
+                                                        "displaySequence": 1,
+                                                        "id": "0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9",
+                                                        "label": "Any",
+                                                        "name": "0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9",
+                                                        "readonly": false,
+                                                        "value": "Any"
+                                                    },
+                                                    {
+                                                        "defaultSelected": false,
+                                                        "disabled": false,
+                                                        "displaySequence": 3,
+                                                        "id": "7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d",
+                                                        "label": "Smart",
+                                                        "name": "7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d",
+                                                        "readonly": false,
+                                                        "value": "Smart"
+                                                    },
+                                                    {
+                                                        "defaultSelected": true,
+                                                        "disabled": false,
+                                                        "displaySequence": 2,
+                                                        "id": "f2d13d9d-b452-81e1-83b2-3c2fc126734f",
+                                                        "label": "Prepaid",
+                                                        "name": "f2d13d9d-b452-81e1-83b2-3c2fc126734f",
+                                                        "readonly": false,
+                                                        "value": "Prepaid"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    }
+                                }
+                            ],
+                            "totalSize": 1
+                        },
+                        "Description": null,
+                        "Id": "01t4K000001JqiqQAC",
+                        "IsActive": true,
+                        "Name": "Green Energy",
+                        "PricebookEntryId": "01u4K0000025rWuQAI",
+                        "Product2Id": "01t4K000001JqiqQAC",
+                        "ProductCode": "PD_ENERGY_GREEN",
+                        "Quantity": 1,
+                        "addtocart": {
+                            "rest": {
+                                "link": "v3/catalogs/COMMODITY/basket",
+                                "method": "POST",
+                                "params": {
+                                    "basketAction": "AddWithNoConfig",
+                                    "context": "{\"DIMENSION13191\":\"Gold\",\"DIMENSION17825\":\"Active\",\"IsAddOn\":\"Comm\",\"MeterType\":\"Any\",\"ProductType\":\"Electricity\"}",
+                                    "offer": null
+                                }
+                            }
+                        },
+                        "childProducts": [
+                            {
+                                "%vlocity_namespace%__EndOfLifeDate__c": null,
+                                "%vlocity_namespace%__IsOrderable__c": false,
+                                "%vlocity_namespace%__SellingEndDate__c": null,
+                                "%vlocity_namespace%__SellingStartDate__c": "2020-12-01T00:00:00.000Z",
+                                "Attachments": null,
+                                "AttributeCategory": {
+                                    "messages": [
+                                    ],
+                                    "records": [
+                                        {
+                                            "Code__c": "4d0ed959-8a53-98d5-b944-addc436e82c8",
+                                            "Name": "Commodity Commercial Offers",
+                                            "displaySequence": 10,
+                                            "id": "a0O4K0000009IdZUAU",
+                                            "messages": [
+                                            ],
+                                            "productAttributes": {
+                                                "messages": [
+                                                ],
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0P4K0000009QhBUAU",
+                                                        "cacheable": true,
+                                                        "cloneable": true,
+                                                        "code": "ATT_PAYMENT_METHOD",
+                                                        "dataType": "text",
+                                                        "disabled": false,
+                                                        "displaySequence": 1,
+                                                        "filterable": true,
+                                                        "hasRules": true,
+                                                        "hidden": false,
+                                                        "inputType": "dropdown",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Payment Method",
+                                                        "messages": [
+                                                        ],
+                                                        "multiselect": false,
+                                                        "readonly": false,
+                                                        "required": false,
+                                                        "userValues": null,
+                                                        "values": [
+                                                            {
+                                                                "defaultSelected": false,
+                                                                "disabled": false,
+                                                                "displaySequence": 1,
+                                                                "id": "08639b53-2428-3c70-b4b3-1cc1f682ceb6",
+                                                                "label": "Direct Debit",
+                                                                "name": "08639b53-2428-3c70-b4b3-1cc1f682ceb6",
+                                                                "readonly": false,
+                                                                "value": "Direct Debit"
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 1
+                                            }
+                                        },
+                                        {
+                                            "Code__c": "06a3cbf8-91fa-b7da-a10d-bfcee0856831",
+                                            "Name": "Commodity Cost Components",
+                                            "displaySequence": 20,
+                                            "id": "a0O4K0000009IdcUAE",
+                                            "messages": [
+                                            ],
+                                            "productAttributes": {
+                                                "messages": [
+                                                ],
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0P4K0000009Qh4UAE",
+                                                        "cacheable": true,
+                                                        "cloneable": true,
+                                                        "code": "ATT_DISTRIBUTION_REGION",
+                                                        "dataType": "text",
+                                                        "disabled": false,
+                                                        "displaySequence": 1,
+                                                        "filterable": true,
+                                                        "hasRules": true,
+                                                        "hidden": false,
+                                                        "inputType": "dropdown",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Distribution Region",
+                                                        "messages": [
+                                                        ],
+                                                        "multiselect": false,
+                                                        "readonly": false,
+                                                        "required": false,
+                                                        "userValues": null,
+                                                        "values": [
+                                                            {
+                                                                "defaultSelected": false,
+                                                                "disabled": false,
+                                                                "displaySequence": 2,
+                                                                "id": "09a836d9-ed3a-74e8-f194-e91ad95c30aa",
+                                                                "label": "East Midlands",
+                                                                "name": "09a836d9-ed3a-74e8-f194-e91ad95c30aa",
+                                                                "readonly": false,
+                                                                "value": "East Midlands"
+                                                            },
+                                                            {
+                                                                "defaultSelected": false,
+                                                                "disabled": false,
+                                                                "displaySequence": 8,
+                                                                "id": "32615501-2941-de8c-dd1f-5a739659d009",
+                                                                "label": "South England",
+                                                                "name": "32615501-2941-de8c-dd1f-5a739659d009",
+                                                                "readonly": false,
+                                                                "value": "South England"
+                                                            },
+                                                            {
+                                                                "defaultSelected": false,
+                                                                "disabled": false,
+                                                                "displaySequence": 4,
+                                                                "id": "3486c362-fabb-b71c-894f-9e4715d68e47",
+                                                                "label": "Merseyside & Northern Wales",
+                                                                "name": "3486c362-fabb-b71c-894f-9e4715d68e47",
+                                                                "readonly": false,
+                                                                "value": "Merseyside & Northern Wales"
+                                                            },
+                                                            {
+                                                                "defaultSelected": false,
+                                                                "disabled": false,
+                                                                "displaySequence": 6,
+                                                                "id": "438b3c71-6825-0bfb-e4e6-1c222e9e125f",
+                                                                "label": "North England",
+                                                                "name": "438b3c71-6825-0bfb-e4e6-1c222e9e125f",
+                                                                "readonly": false,
+                                                                "value": "North England"
+                                                            },
+                                                            {
+                                                                "defaultSelected": false,
+                                                                "disabled": false,
+                                                                "displaySequence": 14,
+                                                                "id": "4cf82974-b692-11bc-1f6e-d06bd3fd786d",
+                                                                "label": "North Scotland",
+                                                                "name": "4cf82974-b692-11bc-1f6e-d06bd3fd786d",
+                                                                "readonly": false,
+                                                                "value": "North Scotland"
+                                                            },
+                                                            {
+                                                                "defaultSelected": false,
+                                                                "disabled": false,
+                                                                "displaySequence": 5,
+                                                                "id": "77cc6a62-6e63-ec2c-2acb-afc2377d4330",
+                                                                "label": "West Midlands",
+                                                                "name": "77cc6a62-6e63-ec2c-2acb-afc2377d4330",
+                                                                "readonly": false,
+                                                                "value": "West Midlands"
+                                                            },
+                                                            {
+                                                                "defaultSelected": false,
+                                                                "disabled": false,
+                                                                "displaySequence": 11,
+                                                                "id": "7c37e397-894f-34e0-6657-21d0b691a347",
+                                                                "label": "South West England",
+                                                                "name": "7c37e397-894f-34e0-6657-21d0b691a347",
+                                                                "readonly": false,
+                                                                "value": "South West England"
+                                                            },
+                                                            {
+                                                                "defaultSelected": false,
+                                                                "disabled": false,
+                                                                "displaySequence": 13,
+                                                                "id": "86fd0c23-2935-2818-2a45-0d3a4ad2c36d",
+                                                                "label": "South Scotland",
+                                                                "name": "86fd0c23-2935-2818-2a45-0d3a4ad2c36d",
+                                                                "readonly": false,
+                                                                "value": "South Scotland"
+                                                            },
+                                                            {
+                                                                "defaultSelected": false,
+                                                                "disabled": false,
+                                                                "displaySequence": 1,
+                                                                "id": "9f53919e-b865-57f7-3cac-951b071640a8",
+                                                                "label": "East England",
+                                                                "name": "9f53919e-b865-57f7-3cac-951b071640a8",
+                                                                "readonly": false,
+                                                                "value": "East England"
+                                                            },
+                                                            {
+                                                                "defaultSelected": false,
+                                                                "disabled": false,
+                                                                "displaySequence": 3,
+                                                                "id": "a7640a85-31ef-893e-8dc6-a6b16b6131df",
+                                                                "label": "London",
+                                                                "name": "a7640a85-31ef-893e-8dc6-a6b16b6131df",
+                                                                "readonly": false,
+                                                                "value": "London"
+                                                            },
+                                                            {
+                                                                "defaultSelected": false,
+                                                                "disabled": false,
+                                                                "displaySequence": 9,
+                                                                "id": "af91dd0c-6e48-0a1a-5048-d787d739e99e",
+                                                                "label": "South East England",
+                                                                "name": "af91dd0c-6e48-0a1a-5048-d787d739e99e",
+                                                                "readonly": false,
+                                                                "value": "South East England"
+                                                            },
+                                                            {
+                                                                "defaultSelected": false,
+                                                                "disabled": false,
+                                                                "displaySequence": 12,
+                                                                "id": "dcdecd9f-9055-0742-fb1b-205efbbe10a1",
+                                                                "label": "Yorkshire",
+                                                                "name": "dcdecd9f-9055-0742-fb1b-205efbbe10a1",
+                                                                "readonly": false,
+                                                                "value": "Yorkshire"
+                                                            },
+                                                            {
+                                                                "defaultSelected": false,
+                                                                "disabled": false,
+                                                                "displaySequence": 10,
+                                                                "id": "e2b1854a-279b-b60f-7c7f-ce0906bddf3d",
+                                                                "label": "South Wales",
+                                                                "name": "e2b1854a-279b-b60f-7c7f-ce0906bddf3d",
+                                                                "readonly": false,
+                                                                "value": "South Wales"
+                                                            },
+                                                            {
+                                                                "defaultSelected": false,
+                                                                "disabled": false,
+                                                                "displaySequence": 7,
+                                                                "id": "eedbefcb-bfdf-6422-7389-dc4db0c6e60a",
+                                                                "label": "North West England",
+                                                                "name": "eedbefcb-bfdf-6422-7389-dc4db0c6e60a",
+                                                                "readonly": false,
+                                                                "value": "North West England"
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 1
+                                            }
+                                        },
+                                        {
+                                            "Code__c": "18de9fa5-a3b1-97f1-267f-5d06bf1caa7e",
+                                            "Name": "Usage Pricing",
+                                            "displaySequence": 40,
+                                            "id": "a0O4K0000009IddUAE",
+                                            "messages": [
+                                            ],
+                                            "productAttributes": {
+                                                "messages": [
+                                                ],
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0P4K0000009QgsUAE",
+                                                        "cacheable": true,
+                                                        "cloneable": true,
+                                                        "code": "ATT_USAGE",
+                                                        "dataType": "number",
+                                                        "disabled": false,
+                                                        "displaySequence": 1,
+                                                        "filterable": true,
+                                                        "hasRules": true,
+                                                        "hidden": false,
+                                                        "inputType": "number",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Usage Attribute",
+                                                        "messages": [
+                                                        ],
+                                                        "multiselect": false,
+                                                        "readonly": false,
+                                                        "required": false,
+                                                        "userValues": null,
+                                                        "values": [
+                                                            {
+                                                                "disabled": false,
+                                                                "readonly": false
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 1
+                                            }
+                                        }
+                                    ],
+                                    "totalSize": 3
+                                },
+                                "Description": null,
+                                "Id": "01t4K000001JqmYQAS",
+                                "IsActive": true,
+                                "Name": "Unit Rate",
+                                "PricebookEntryId": "01u4K0000025rciQAA",
+                                "Product2Id": "01t4K000001JqmYQAS",
+                                "ProductCode": "CC_UNIT_RATE_GREEN",
+                                "Quantity": 1,
+                                "groupMaxQuantity": 99999,
+                                "groupMinQuantity": 0,
+                                "lineNumber": "0001.0001",
+                                "maxQuantity": 1,
+                                "minQuantity": 1,
+                                "priceResult": [
+                                    {
+                                        "Amount__c": 0.0158,
+                                        "ChargeType__c": "Usage",
+                                        "DisplayText__c": "0.0158 GBP",
+                                        "IsBasePrice__c": true,
+                                        "IsVirtualPrice__c": false,
+                                        "RecurringFrequency__c": null,
+                                        "SubType__c": "Standard",
+                                        "Type__c": "Price",
+                                        "adjustments": [
+                                        ],
+                                        "baseamount": 0.0158,
+                                        "chargeamount": 0.0158,
+                                        "effectivefromdatespec": null,
+                                        "effectiveuntildatespec": null,
+                                        "overrides": [
+                                        ]
+                                    }
+                                ],
+                                "productHierarchyPath": "01t4K000001JqiqQAC<01t4K000001JqmYQAS"
+                            },
+                            {
+                                "%vlocity_namespace%__EndOfLifeDate__c": null,
+                                "%vlocity_namespace%__IsOrderable__c": false,
+                                "%vlocity_namespace%__SellingEndDate__c": null,
+                                "%vlocity_namespace%__SellingStartDate__c": "2020-09-30T23:00:00.000Z",
+                                "Attachments": null,
+                                "Description": null,
+                                "Id": "01t4K000001Jc4AQAS",
+                                "IsActive": true,
+                                "Name": "Standing Charges",
+                                "PricebookEntryId": "01u4K0000021LlzQAE",
+                                "Product2Id": "01t4K000001Jc4AQAS",
+                                "ProductCode": "CC_STANDING_CHARGES",
+                                "Quantity": 1,
+                                "groupMaxQuantity": 99999,
+                                "groupMinQuantity": 0,
+                                "lineNumber": "0001.0002",
+                                "maxQuantity": 1,
+                                "minQuantity": 1,
+                                "priceResult": [
+                                    {
+                                        "Amount__c": 0.2134,
+                                        "ChargeType__c": "Usage",
+                                        "DisplayText__c": "Priced based on distribution region",
+                                        "IsBasePrice__c": true,
+                                        "IsVirtualPrice__c": false,
+                                        "RecurringFrequency__c": null,
+                                        "SubType__c": "Standard",
+                                        "Type__c": "Cost",
+                                        "adjustments": [
+                                        ],
+                                        "baseamount": 0.2134,
+                                        "chargeamount": 0.2134,
+                                        "effectivefromdatespec": null,
+                                        "effectiveuntildatespec": null,
+                                        "overrides": [
+                                        ]
+                                    },
+                                    {
+                                        "Amount__c": 0.2134,
+                                        "ChargeType__c": "Usage",
+                                        "DisplayText__c": "Priced based on distribution region",
+                                        "IsBasePrice__c": true,
+                                        "IsVirtualPrice__c": false,
+                                        "RecurringFrequency__c": null,
+                                        "SubType__c": "Standard",
+                                        "Type__c": "Price",
+                                        "adjustments": [
+                                        ],
+                                        "baseamount": 0.2134,
+                                        "chargeamount": 0.2134,
+                                        "effectivefromdatespec": null,
+                                        "effectiveuntildatespec": null,
+                                        "overrides": [
+                                        ]
+                                    }
+                                ],
+                                "productHierarchyPath": "01t4K000001JqiqQAC<01t4K000001Jc4AQAS"
+                            }
+                        ],
+                        "groupMaxQuantity": 99999,
+                        "groupMinQuantity": 0,
+                        "lineNumber": "0001",
+                        "maxQuantity": 99999,
+                        "minQuantity": 0,
+                        "offerType": "Product",
+                        "priceResult": [
+                            {
+                                "Amount__c": 0,
+                                "ChargeType__c": "Recurring",
+                                "DisplayText__c": "based on distribution region",
+                                "IsBasePrice__c": true,
+                                "IsVirtualPrice__c": false,
+                                "RecurringFrequency__c": "Monthly",
+                                "SubType__c": "Standard",
+                                "Type__c": "Price",
+                                "adjustments": [
+                                ],
+                                "baseamount": 0,
+                                "chargeamount": 0,
+                                "effectivefromdatespec": null,
+                                "effectiveuntildatespec": null,
+                                "overrides": [
+                                ]
+                            },
+                            {
+                                "Amount__c": 0,
+                                "ChargeType__c": "One-time",
+                                "DisplayText__c": "based on consumption",
+                                "IsBasePrice__c": true,
+                                "IsVirtualPrice__c": false,
+                                "RecurringFrequency__c": null,
+                                "SubType__c": "Standard",
+                                "Type__c": "Price",
+                                "UnitPrice": 0,
+                                "adjustments": [
+                                ],
+                                "baseamount": 0,
+                                "chargeamount": 0,
+                                "effectivefromdatespec": null,
+                                "effectiveuntildatespec": null,
+                                "overrides": [
+                                ]
+                            }
+                        ],
+                        "productHierarchyPath": "01t4K000001JqiqQAC"
+                    }
+                }
+            }
+        },
+        "getOfferDetailsStatus": true
+    },
+    {
+        "LoopBlockIterationIndex": 2,
+        "LoopBlockIterationStatus": true,
+        "getOfferDetails": {
+            "contextKey": "84f7858f600f277039aa62012c674c44",
+            "error": "OK",
+            "errorCode": "INVOKE-200",
+            "result": {
+                "offerDetails": {
+                    "offer": {
+                        "%vlocity_namespace%__EndOfLifeDate__c": null,
+                        "%vlocity_namespace%__IsOrderable__c": true,
+                        "%vlocity_namespace%__SellingEndDate__c": null,
+                        "%vlocity_namespace%__SellingStartDate__c": "2020-09-30T23:00:00.000Z",
+                        "Attachments": null,
+                        "AttributeCategory": {
+                            "messages": [
+                            ],
+                            "records": [
+                                {
+                                    "Code__c": "4d0ed959-8a53-98d5-b944-addc436e82c8",
+                                    "Name": "Commodity Commercial Offers",
+                                    "displaySequence": 10,
+                                    "id": "a0O4K0000009IdZUAU",
+                                    "messages": [
+                                    ],
+                                    "productAttributes": {
+                                        "messages": [
+                                        ],
+                                        "records": [
+                                            {
+                                                "attributeId": "a0P4K0000009Qh9UAE",
+                                                "cacheable": true,
+                                                "cloneable": true,
+                                                "code": "ATT_METER_TYPE",
+                                                "dataType": "text",
+                                                "disabled": false,
+                                                "displaySequence": 1,
+                                                "filterable": true,
+                                                "hasRules": true,
+                                                "hidden": false,
+                                                "inputType": "dropdown",
+                                                "isNotTranslatable": false,
+                                                "label": "Meter Type",
+                                                "messages": [
+                                                ],
+                                                "multiselect": false,
+                                                "readonly": false,
+                                                "required": false,
+                                                "userValues": "Any",
+                                                "values": [
+                                                    {
+                                                        "defaultSelected": true,
+                                                        "disabled": false,
+                                                        "displaySequence": 1,
+                                                        "id": "0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9",
+                                                        "label": "Any",
+                                                        "name": "0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9",
+                                                        "readonly": false,
+                                                        "value": "Any"
+                                                    },
+                                                    {
+                                                        "defaultSelected": false,
+                                                        "disabled": false,
+                                                        "displaySequence": 3,
+                                                        "id": "7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d",
+                                                        "label": "Smart",
+                                                        "name": "7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d",
+                                                        "readonly": false,
+                                                        "value": "Smart"
+                                                    },
+                                                    {
+                                                        "defaultSelected": false,
+                                                        "disabled": false,
+                                                        "displaySequence": 2,
+                                                        "id": "f2d13d9d-b452-81e1-83b2-3c2fc126734f",
+                                                        "label": "Prepaid",
+                                                        "name": "f2d13d9d-b452-81e1-83b2-3c2fc126734f",
+                                                        "readonly": false,
+                                                        "value": "Prepaid"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    }
+                                }
+                            ],
+                            "totalSize": 1
+                        },
+                        "Description": "Fixed energy product based on setting a target margin for a single unit rate.",
+                        "Id": "01t4K000001Jc4CQAS",
+                        "IsActive": true,
+                        "Name": "Fixed Energy",
+                        "PricebookEntryId": "01u4K0000021LlxQAE",
+                        "Product2Id": "01t4K000001Jc4CQAS",
+                        "ProductCode": "PD_FIXED_ENERGY_MARGIN",
+                        "Quantity": 1,
+                        "addtocart": {
+                            "rest": {
+                                "link": "v3/catalogs/COMMODITY/basket",
+                                "method": "POST",
+                                "params": {
+                                    "basketAction": "AddWithNoConfig",
+                                    "context": "{\"DIMENSION13191\":\"Gold\",\"DIMENSION17825\":\"Active\",\"IsAddOn\":\"Comm\",\"MeterType\":\"Any\",\"ProductType\":\"Electricity\"}",
+                                    "offer": null
+                                }
+                            }
+                        },
+                        "childProducts": [
+                            {
+                                "%vlocity_namespace%__EndOfLifeDate__c": null,
+                                "%vlocity_namespace%__IsOrderable__c": false,
+                                "%vlocity_namespace%__SellingEndDate__c": null,
+                                "%vlocity_namespace%__SellingStartDate__c": "2020-11-01T00:00:00.000Z",
+                                "Attachments": null,
+                                "AttributeCategory": {
+                                    "messages": [
+                                    ],
+                                    "records": [
+                                        {
+                                            "Code__c": "4d0ed959-8a53-98d5-b944-addc436e82c8",
+                                            "Name": "Commodity Commercial Offers",
+                                            "displaySequence": 10,
+                                            "id": "a0O4K0000009IdZUAU",
+                                            "messages": [
+                                            ],
+                                            "productAttributes": {
+                                                "messages": [
+                                                ],
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0P4K0000009QhBUAU",
+                                                        "cacheable": true,
+                                                        "cloneable": true,
+                                                        "code": "ATT_PAYMENT_METHOD",
+                                                        "dataType": "text",
+                                                        "disabled": false,
+                                                        "displaySequence": 1,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "text",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Payment Method",
+                                                        "messages": [
+                                                        ],
+                                                        "multiselect": false,
+                                                        "readonly": false,
+                                                        "required": false,
+                                                        "userValues": null,
+                                                        "values": [
+                                                            {
+                                                                "disabled": false,
+                                                                "readonly": false
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 1
+                                            }
+                                        },
+                                        {
+                                            "Code__c": "06a3cbf8-91fa-b7da-a10d-bfcee0856831",
+                                            "Name": "Commodity Cost Components",
+                                            "displaySequence": 20,
+                                            "id": "a0O4K0000009IdcUAE",
+                                            "messages": [
+                                            ],
+                                            "productAttributes": {
+                                                "messages": [
+                                                ],
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0P4K0000009QhgUAE",
+                                                        "cacheable": true,
+                                                        "cloneable": true,
+                                                        "code": "ATT_ENABLE_TARGET",
+                                                        "dataType": "text",
+                                                        "disabled": false,
+                                                        "displaySequence": 1,
+                                                        "filterable": true,
+                                                        "hasRules": true,
+                                                        "hidden": false,
+                                                        "inputType": "checkbox",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Enable Target Pricing",
+                                                        "messages": [
+                                                        ],
+                                                        "multiselect": false,
+                                                        "readonly": false,
+                                                        "required": false,
+                                                        "userValues": false,
+                                                        "values": [
+                                                            {
+                                                                "defaultValue": false,
+                                                                "disabled": false,
+                                                                "readonly": false
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "attributeId": "a0P4K0000009QhhUAE",
+                                                        "cacheable": true,
+                                                        "cloneable": true,
+                                                        "code": "ATT_MARGIN_TARGET",
+                                                        "dataType": "percentage",
+                                                        "disabled": false,
+                                                        "displaySequence": 1,
+                                                        "filterable": true,
+                                                        "hasRules": true,
+                                                        "hidden": false,
+                                                        "inputType": "number",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Target Margin",
+                                                        "messages": [
+                                                        ],
+                                                        "multiselect": false,
+                                                        "readonly": false,
+                                                        "required": false,
+                                                        "userValues": 3,
+                                                        "values": [
+                                                            {
+                                                                "defaultValue": 3,
+                                                                "disabled": false,
+                                                                "readonly": false
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 2
+                                            }
+                                        },
+                                        {
+                                            "Code__c": "18de9fa5-a3b1-97f1-267f-5d06bf1caa7e",
+                                            "Name": "Usage Pricing",
+                                            "displaySequence": 40,
+                                            "id": "a0O4K0000009IddUAE",
+                                            "messages": [
+                                            ],
+                                            "productAttributes": {
+                                                "messages": [
+                                                ],
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0P4K0000009QgsUAE",
+                                                        "cacheable": true,
+                                                        "cloneable": true,
+                                                        "code": "ATT_USAGE",
+                                                        "dataType": "number",
+                                                        "disabled": false,
+                                                        "displaySequence": 1,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "number",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Usage Attribute",
+                                                        "messages": [
+                                                        ],
+                                                        "multiselect": false,
+                                                        "readonly": false,
+                                                        "required": false,
+                                                        "userValues": null,
+                                                        "values": [
+                                                            {
+                                                                "disabled": false,
+                                                                "readonly": false
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 1
+                                            }
+                                        },
+                                        {
+                                            "Code__c": "4ce6fdc8-9fe3-f5d4-c594-5649bfcfccbb",
+                                            "Name": "Market Data",
+                                            "displaySequence": 54,
+                                            "id": "a0O4K0000009IdeUAE",
+                                            "messages": [
+                                            ],
+                                            "productAttributes": {
+                                                "messages": [
+                                                ],
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0P4K0000009QhjUAE",
+                                                        "cacheable": true,
+                                                        "cloneable": true,
+                                                        "code": "ATT_DYN_USAGE",
+                                                        "dataType": "number",
+                                                        "disabled": false,
+                                                        "displaySequence": 1,
+                                                        "filterable": true,
+                                                        "hasRules": true,
+                                                        "hidden": false,
+                                                        "inputType": "number",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Forecasted Usage",
+                                                        "messages": [
+                                                        ],
+                                                        "multiselect": false,
+                                                        "readonly": false,
+                                                        "required": false,
+                                                        "userValues": null,
+                                                        "values": [
+                                                            {
+                                                                "disabled": false,
+                                                                "readonly": false
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "attributeId": "a0P4K0000009Qh4UAE",
+                                                        "cacheable": true,
+                                                        "cloneable": true,
+                                                        "code": "ATT_DISTRIBUTION_REGION",
+                                                        "dataType": "text",
+                                                        "disabled": false,
+                                                        "displaySequence": 1,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "text",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Distribution Region",
+                                                        "messages": [
+                                                        ],
+                                                        "multiselect": false,
+                                                        "readonly": false,
+                                                        "required": false,
+                                                        "userValues": "London",
+                                                        "values": [
+                                                            {
+                                                                "defaultValue": "London",
+                                                                "disabled": false,
+                                                                "readonly": false
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 2
+                                            }
+                                        }
+                                    ],
+                                    "totalSize": 4
+                                },
+                                "Description": null,
+                                "Id": "01t4K000001Jc4DQAS",
+                                "IsActive": true,
+                                "Name": "Unit Rate",
+                                "PricebookEntryId": "01u4K0000021LlyQAE",
+                                "Product2Id": "01t4K000001Jc4DQAS",
+                                "ProductCode": "CC_UNIT_RATE_MARGIN",
+                                "Quantity": 1,
+                                "groupMaxQuantity": 99999,
+                                "groupMinQuantity": 0,
+                                "lineNumber": "0001.0001",
+                                "maxQuantity": 1,
+                                "minQuantity": 1,
+                                "priceResult": [
+                                    {
+                                        "Amount__c": 0.11,
+                                        "ChargeType__c": "Usage",
+                                        "DisplayText__c": "0.11",
+                                        "IsBasePrice__c": true,
+                                        "IsVirtualPrice__c": false,
+                                        "RecurringFrequency__c": null,
+                                        "SubType__c": "Standard",
+                                        "Type__c": "Price",
+                                        "adjustments": [
+                                        ],
+                                        "baseamount": 0.11,
+                                        "chargeamount": 0.11,
+                                        "effectivefromdatespec": null,
+                                        "effectiveuntildatespec": null,
+                                        "overrides": [
+                                        ]
+                                    },
+                                    {
+                                        "Amount__c": 0.09,
+                                        "ChargeType__c": "Usage",
+                                        "DisplayText__c": "0.09",
+                                        "IsBasePrice__c": true,
+                                        "IsVirtualPrice__c": false,
+                                        "RecurringFrequency__c": null,
+                                        "SubType__c": "Standard",
+                                        "Type__c": "Cost",
+                                        "adjustments": [
+                                        ],
+                                        "baseamount": 0.09,
+                                        "chargeamount": 0.09,
+                                        "effectivefromdatespec": null,
+                                        "effectiveuntildatespec": null,
+                                        "overrides": [
+                                        ]
+                                    }
+                                ],
+                                "productHierarchyPath": "01t4K000001Jc4CQAS<01t4K000001Jc4DQAS"
+                            },
+                            {
+                                "%vlocity_namespace%__EndOfLifeDate__c": null,
+                                "%vlocity_namespace%__IsOrderable__c": false,
+                                "%vlocity_namespace%__SellingEndDate__c": null,
+                                "%vlocity_namespace%__SellingStartDate__c": "2020-09-30T23:00:00.000Z",
+                                "Attachments": null,
+                                "Description": null,
+                                "Id": "01t4K000001Jc4AQAS",
+                                "IsActive": true,
+                                "Name": "Standing Charges",
+                                "PricebookEntryId": "01u4K0000021LlzQAE",
+                                "Product2Id": "01t4K000001Jc4AQAS",
+                                "ProductCode": "CC_STANDING_CHARGES",
+                                "Quantity": 1,
+                                "groupMaxQuantity": 99999,
+                                "groupMinQuantity": 0,
+                                "lineNumber": "0001.0002",
+                                "maxQuantity": 1,
+                                "minQuantity": 1,
+                                "priceResult": [
+                                    {
+                                        "Amount__c": 0.2134,
+                                        "ChargeType__c": "Usage",
+                                        "DisplayText__c": "Priced based on distribution region",
+                                        "IsBasePrice__c": true,
+                                        "IsVirtualPrice__c": false,
+                                        "RecurringFrequency__c": null,
+                                        "SubType__c": "Standard",
+                                        "Type__c": "Cost",
+                                        "adjustments": [
+                                        ],
+                                        "baseamount": 0.2134,
+                                        "chargeamount": 0.2134,
+                                        "effectivefromdatespec": null,
+                                        "effectiveuntildatespec": null,
+                                        "overrides": [
+                                        ]
+                                    },
+                                    {
+                                        "Amount__c": 0.2134,
+                                        "ChargeType__c": "Usage",
+                                        "DisplayText__c": "Priced based on distribution region",
+                                        "IsBasePrice__c": true,
+                                        "IsVirtualPrice__c": false,
+                                        "RecurringFrequency__c": null,
+                                        "SubType__c": "Standard",
+                                        "Type__c": "Price",
+                                        "adjustments": [
+                                        ],
+                                        "baseamount": 0.2134,
+                                        "chargeamount": 0.2134,
+                                        "effectivefromdatespec": null,
+                                        "effectiveuntildatespec": null,
+                                        "overrides": [
+                                        ]
+                                    }
+                                ],
+                                "productHierarchyPath": "01t4K000001Jc4CQAS<01t4K000001Jc4AQAS"
+                            }
+                        ],
+                        "groupMaxQuantity": 99999,
+                        "groupMinQuantity": 0,
+                        "lineNumber": "0001",
+                        "maxQuantity": 99999,
+                        "minQuantity": 0,
+                        "offerType": "Product",
+                        "priceResult": [
+                            {
+                                "Amount__c": 0,
+                                "ChargeType__c": "One-time",
+                                "DisplayText__c": "based on consumption",
+                                "IsBasePrice__c": true,
+                                "IsVirtualPrice__c": false,
+                                "RecurringFrequency__c": null,
+                                "SubType__c": "Standard",
+                                "Type__c": "Price",
+                                "UnitPrice": 0,
+                                "adjustments": [
+                                ],
+                                "baseamount": 0,
+                                "chargeamount": 0,
+                                "effectivefromdatespec": null,
+                                "effectiveuntildatespec": null,
+                                "overrides": [
+                                ]
+                            },
+                            {
+                                "Amount__c": 0,
+                                "ChargeType__c": "Recurring",
+                                "DisplayText__c": "based on distribution region",
+                                "IsBasePrice__c": true,
+                                "IsVirtualPrice__c": false,
+                                "RecurringFrequency__c": "Monthly",
+                                "SubType__c": "Standard",
+                                "Type__c": "Price",
+                                "adjustments": [
+                                ],
+                                "baseamount": 0,
+                                "chargeamount": 0,
+                                "effectivefromdatespec": null,
+                                "effectiveuntildatespec": null,
+                                "overrides": [
+                                ]
+                            }
+                        ],
+                        "productHierarchyPath": "01t4K000001Jc4CQAS"
+                    }
+                }
+            }
+        },
+        "getOfferDetailsStatus": true
+    }
+]

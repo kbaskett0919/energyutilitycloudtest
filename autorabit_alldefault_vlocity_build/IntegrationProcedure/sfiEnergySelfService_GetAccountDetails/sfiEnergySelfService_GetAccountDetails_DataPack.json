@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "sfiEnergySelfService_GetAccountDetails_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "IPSelfServiceGetAccountDetails",
+    "OmniProcessElement": [
+        "sfiEnergySelfService_GetAccountDetails_Element_DRSelfServiceGetAccountAndPremiseDetails.json",
+        "sfiEnergySelfService_GetAccountDetails_Element_IPRetrievePremiseInfo.json",
+        "sfiEnergySelfService_GetAccountDetails_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "sfiEnergySelfService_GetAccountDetails",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergySelfService_GetAccountDetails_PropertySetConfig.json",
+    "SubType": "GetAccountDetails",
+    "Type": "sfiEnergySelfService",
+    "UniqueName": "sfiEnergySelfService_GetAccountDetails_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergySelfService/GetAccountDetails/Procedure"
+}

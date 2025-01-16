@@ -1,0 +1,32 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "BasketCreation",
+    "OmniProcessId": {
+        "Name": "VEEDigitalCachingVIP",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/VEE/DigitalCachingVIP/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "label": "LoopBlock2",
+        "loopList": "DRDistributionRegion:offerDetails",
+        "loopOutput": {
+            "Condition": "%SetValues3:conidtioncheck%",
+            "DRCachedAPIRecordsIDList": "%DRCachedAPIRecordsIDList%",
+            "DRFetchCachedAPIRecords": "%DRFetchCachedAPIRecords%",
+            "DRGetCacheKeys": "%DRGetCacheKeys%",
+            "DeleteCachedAPIRecords": "%DeleteCachedAPIRecords%",
+            "FollowOnStepGetBaskets": "%FollowOnStepGetBaskets%",
+            "getBasketsConfig": "%getBasketsConfig%",
+            "value": "%SetValues3%"
+        },
+        "show": null
+    },
+    "Type": "Loop Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/VEE/DigitalCachingVIP/Procedure/BasketCreation"
+}

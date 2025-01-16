@@ -1,0 +1,32 @@
+{
+    "AuthorName": "CME_EU_Express",
+    "ClonedFromOmniUiCardKey": "VEEConsumerOfferChildProducts/Lakshmi/1/1611744461161",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "[\n        {\n          \"productCode\": \"CC_UNIT_RATE_GREEN\",\n          \"name\": \"Unit Rate\",\n           \"description\":\"Unit Rate Description\",\n            \"unitPrice\":\"0.10\",\n            \"currencyCode\":\"USD\"\n        },\n        {\n          \"productCode\": \"CC_STANDING_CHARGES\",\n          \"name\": \"Standing Charges\",\n          \"description\":\"Standing Charges Description\",\n           \"unitPrice\":\"0.20\",\n            \"currencyCode\":\"GBP\"\n        }\n      ]",
+            "resultVar": ""
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "VEEConsumerOfferChildProductDetails",
+    "Namespace": "",
+    "OmniUiCardKey": "VEEConsumerOfferChildProductDetails/Lakshmi/1/1612349386610",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "VEEConsumerOfferChildProductDetails.json",
+    "SampleDataSourceResponse": "[{\"productCode\":\"CC_UNIT_RATE_GREEN\",\"name\":\"Unit Rate\",\"description\":\"Unit Rate Description\",\"unitPrice\":\"0.10\",\"currencyCode\":\"USD\"},{\"productCode\":\"CC_STANDING_CHARGES\",\"name\":\"Standing Charges\",\"description\":\"Standing Charges Description\",\"unitPrice\":\"0.20\",\"currencyCode\":\"GBP\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "VEEConsumerOfferChildProductDetails_CME_EU_Express_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/VEEConsumerOfferChildProductDetails"
+}

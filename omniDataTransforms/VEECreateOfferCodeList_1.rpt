@@ -1,0 +1,1545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniDataTransform xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <assignmentRulesUsed>false</assignmentRulesUsed>
+    <deletedOnSuccess>false</deletedOnSuccess>
+    <errorIgnored>false</errorIgnored>
+    <expectedInputJson>{
+  &quot;Offers&quot; : [ {
+    &quot;ApexGetOffersStatus&quot; : true,
+    &quot;LoopBlockIterationIndex&quot; : 1,
+    &quot;LoopBlockIterationStatus&quot; : true,
+    &quot;SetValuesForRemoteActionStatus&quot; : true,
+    &quot;TotalOffers&quot; : [ {
+      &quot;vlocity_cmt__IsOrderable__c&quot; : true,
+      &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2020-12-01T00:00:00.000Z&quot;,
+      &quot;Attachments&quot; : [ {
+        &quot;contentType&quot; : &quot;Image&quot;,
+        &quot;defaultAttachment&quot; : true,
+        &quot;description&quot; : null,
+        &quot;displayConditionsData&quot; : null,
+        &quot;mimeType&quot; : null,
+        &quot;sequenceNumber&quot; : null,
+        &quot;title&quot; : &quot;Green Energy&quot;,
+        &quot;url&quot; : &quot;/servlet/servlet.FileDownload?file=0154K00000104NVQAY&quot;
+      } ],
+      &quot;AttributeCategory&quot; : {
+        &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot; : [ {
+          &quot;$$AttributeDefinitionEnd$$&quot; : null,
+          &quot;$$AttributeDefinitionStart$$&quot; : null,
+          &quot;attributeRunTimeInfo&quot; : {
+            &quot;dataType&quot; : &quot;Picklist&quot;,
+            &quot;default&quot; : [ {
+              &quot;displayText&quot; : &quot;Prepaid&quot;,
+              &quot;id&quot; : &quot;f2d13d9d-b452-81e1-83b2-3c2fc126734f&quot;,
+              &quot;sequence&quot; : 2,
+              &quot;value&quot; : &quot;Prepaid&quot;
+            } ],
+            &quot;uiDisplayType&quot; : &quot;Dropdown&quot;,
+            &quot;values&quot; : [ {
+              &quot;displayText&quot; : &quot;Any&quot;,
+              &quot;id&quot; : &quot;0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9&quot;,
+              &quot;sequence&quot; : 1,
+              &quot;value&quot; : &quot;Any&quot;
+            }, {
+              &quot;displayText&quot; : &quot;Prepaid&quot;,
+              &quot;id&quot; : &quot;f2d13d9d-b452-81e1-83b2-3c2fc126734f&quot;,
+              &quot;sequence&quot; : 2,
+              &quot;value&quot; : &quot;Prepaid&quot;
+            }, {
+              &quot;displayText&quot; : &quot;Smart&quot;,
+              &quot;id&quot; : &quot;7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d&quot;,
+              &quot;sequence&quot; : 3,
+              &quot;value&quot; : &quot;Smart&quot;
+            } ]
+          },
+          &quot;attributecategoryid__c&quot; : &quot;a0O4K0000009IdZUAU&quot;,
+          &quot;attributecloneable__c&quot; : true,
+          &quot;attributeconfigurable__c&quot; : true,
+          &quot;attributedisplayname__c&quot; : &quot;Meter Type&quot;,
+          &quot;attributedisplaysequence__c&quot; : &quot;1&quot;,
+          &quot;attributefilterable__c&quot; : true,
+          &quot;attributegrouptype__c&quot; : null,
+          &quot;attributeid__c&quot; : &quot;a0P4K0000009Qh9UAE&quot;,
+          &quot;attributeuniquecode__c&quot; : &quot;ATT_METER_TYPE&quot;,
+          &quot;categorycode__c&quot; : &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot;,
+          &quot;categorydisplaysequence__c&quot; : 10,
+          &quot;categoryname__c&quot; : &quot;Commodity Commercial Offers&quot;,
+          &quot;customconfiguitemplate__c&quot; : null,
+          &quot;displaysequence__c&quot; : &quot;10&quot;,
+          &quot;formatmask__c&quot; : null,
+          &quot;hasrule__c&quot; : true,
+          &quot;id&quot; : &quot;a0M4K0000000dhRUAQ&quot;,
+          &quot;isactive__c&quot; : true,
+          &quot;isconfigurable__c&quot; : true,
+          &quot;ishidden__c&quot; : false,
+          &quot;isnottranslatable__c&quot; : false,
+          &quot;isquerydriven__c&quot; : false,
+          &quot;isreadonly__c&quot; : false,
+          &quot;isrequired__c&quot; : false,
+          &quot;objectid__c&quot; : &quot;01t4K000001JqiqQAC&quot;,
+          &quot;objecttype__c&quot; : &quot;vlocity_cmt__ObjectClass__c&quot;,
+          &quot;querycode__c&quot; : null,
+          &quot;querylabel__c&quot; : null,
+          &quot;rulemessage__c&quot; : null,
+          &quot;uidisplaytype__c&quot; : &quot;Dropdown&quot;,
+          &quot;value__c&quot; : &quot;Prepaid&quot;,
+          &quot;valuedatatype__c&quot; : &quot;Picklist&quot;,
+          &quot;valuedescription__c&quot; : null,
+          &quot;valueinnumber__c&quot; : null
+        } ]
+      },
+      &quot;IsActive&quot; : true,
+      &quot;Name&quot; : &quot;Green Energy&quot;,
+      &quot;ProductCode&quot; : &quot;PD_ENERGY_GREEN&quot;,
+      &quot;addtocart&quot; : {
+        &quot;rest&quot; : {
+          &quot;link&quot; : &quot;v3/catalogs/COMMODITY/basket&quot;,
+          &quot;method&quot; : &quot;POST&quot;,
+          &quot;params&quot; : {
+            &quot;basketAction&quot; : &quot;AddWithNoConfig&quot;,
+            &quot;context&quot; : &quot;{\&quot;MeterType\&quot;:\&quot;Smart\&quot;}&quot;,
+            &quot;offer&quot; : &quot;PD_ENERGY_GREEN&quot;
+          }
+        }
+      },
+      &quot;offerDetailsAction&quot; : {
+        &quot;client&quot; : {
+          &quot;params&quot; : { },
+          &quot;records&quot; : [ ]
+        },
+        &quot;remote&quot; : {
+          &quot;params&quot; : { }
+        },
+        &quot;rest&quot; : {
+          &quot;link&quot; : &quot;/v3/catalogs/COMMODITY/offers/PD_ENERGY_GREEN?context={\&quot;MeterType\&quot;:\&quot;Smart\&quot;}&quot;,
+          &quot;method&quot; : &quot;GET&quot;,
+          &quot;params&quot; : { }
+        }
+      },
+      &quot;offerType&quot; : &quot;Product&quot;,
+      &quot;priceResult&quot; : [ {
+        &quot;Amount__c&quot; : 0,
+        &quot;ChargeType__c&quot; : &quot;Recurring&quot;,
+        &quot;DisplayText__c&quot; : &quot;based on distribution region&quot;,
+        &quot;IsBasePrice__c&quot; : true,
+        &quot;IsVirtualPrice__c&quot; : false,
+        &quot;RecurringFrequency__c&quot; : &quot;Monthly&quot;,
+        &quot;SubType__c&quot; : &quot;Standard&quot;,
+        &quot;Type__c&quot; : &quot;Price&quot;,
+        &quot;adjustments&quot; : [ ],
+        &quot;baseamount&quot; : 0,
+        &quot;chargeamount&quot; : 0,
+        &quot;effectivefromdatespec&quot; : null,
+        &quot;effectiveuntildatespec&quot; : null,
+        &quot;overrides&quot; : [ ]
+      }, {
+        &quot;Amount__c&quot; : 0,
+        &quot;ChargeType__c&quot; : &quot;One-time&quot;,
+        &quot;DisplayText__c&quot; : &quot;based on consumption&quot;,
+        &quot;IsBasePrice__c&quot; : true,
+        &quot;IsVirtualPrice__c&quot; : false,
+        &quot;RecurringFrequency__c&quot; : null,
+        &quot;SubType__c&quot; : &quot;Standard&quot;,
+        &quot;Type__c&quot; : &quot;Price&quot;,
+        &quot;UnitPrice&quot; : 0,
+        &quot;adjustments&quot; : [ ],
+        &quot;baseamount&quot; : 0,
+        &quot;chargeamount&quot; : 0,
+        &quot;effectivefromdatespec&quot; : null,
+        &quot;effectiveuntildatespec&quot; : null,
+        &quot;overrides&quot; : [ ]
+      } ]
+    }, {
+      &quot;vlocity_cmt__IsOrderable__c&quot; : true,
+      &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2020-09-30T23:00:00.000Z&quot;,
+      &quot;Attachments&quot; : null,
+      &quot;AttributeCategory&quot; : {
+        &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot; : [ {
+          &quot;$$AttributeDefinitionEnd$$&quot; : null,
+          &quot;$$AttributeDefinitionStart$$&quot; : null,
+          &quot;attributeRunTimeInfo&quot; : {
+            &quot;dataType&quot; : &quot;Picklist&quot;,
+            &quot;default&quot; : [ {
+              &quot;displayText&quot; : &quot;Any&quot;,
+              &quot;id&quot; : &quot;0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9&quot;,
+              &quot;sequence&quot; : 1,
+              &quot;value&quot; : &quot;Any&quot;
+            } ],
+            &quot;uiDisplayType&quot; : &quot;Dropdown&quot;,
+            &quot;values&quot; : [ {
+              &quot;displayText&quot; : &quot;Any&quot;,
+              &quot;id&quot; : &quot;0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9&quot;,
+              &quot;sequence&quot; : 1,
+              &quot;value&quot; : &quot;Any&quot;
+            }, {
+              &quot;displayText&quot; : &quot;Prepaid&quot;,
+              &quot;id&quot; : &quot;f2d13d9d-b452-81e1-83b2-3c2fc126734f&quot;,
+              &quot;sequence&quot; : 2,
+              &quot;value&quot; : &quot;Prepaid&quot;
+            }, {
+              &quot;displayText&quot; : &quot;Smart&quot;,
+              &quot;id&quot; : &quot;7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d&quot;,
+              &quot;sequence&quot; : 3,
+              &quot;value&quot; : &quot;Smart&quot;
+            } ]
+          },
+          &quot;attributecategoryid__c&quot; : &quot;a0O4K0000009IdZUAU&quot;,
+          &quot;attributecloneable__c&quot; : true,
+          &quot;attributeconfigurable__c&quot; : true,
+          &quot;attributedisplayname__c&quot; : &quot;Meter Type&quot;,
+          &quot;attributedisplaysequence__c&quot; : &quot;1&quot;,
+          &quot;attributefilterable__c&quot; : true,
+          &quot;attributegrouptype__c&quot; : null,
+          &quot;attributeid__c&quot; : &quot;a0P4K0000009Qh9UAE&quot;,
+          &quot;attributeuniquecode__c&quot; : &quot;ATT_METER_TYPE&quot;,
+          &quot;categorycode__c&quot; : &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot;,
+          &quot;categorydisplaysequence__c&quot; : 10,
+          &quot;categoryname__c&quot; : &quot;Commodity Commercial Offers&quot;,
+          &quot;customconfiguitemplate__c&quot; : null,
+          &quot;displaysequence__c&quot; : &quot;10&quot;,
+          &quot;formatmask__c&quot; : null,
+          &quot;hasrule__c&quot; : true,
+          &quot;id&quot; : &quot;a0M4K0000000dWCUAY&quot;,
+          &quot;isactive__c&quot; : true,
+          &quot;isconfigurable__c&quot; : true,
+          &quot;ishidden__c&quot; : false,
+          &quot;isnottranslatable__c&quot; : false,
+          &quot;isquerydriven__c&quot; : false,
+          &quot;isreadonly__c&quot; : false,
+          &quot;isrequired__c&quot; : false,
+          &quot;objectid__c&quot; : &quot;01t4K000001Jc4CQAS&quot;,
+          &quot;objecttype__c&quot; : &quot;vlocity_cmt__ObjectClass__c&quot;,
+          &quot;querycode__c&quot; : null,
+          &quot;querylabel__c&quot; : null,
+          &quot;rulemessage__c&quot; : null,
+          &quot;uidisplaytype__c&quot; : &quot;Dropdown&quot;,
+          &quot;value__c&quot; : &quot;Any&quot;,
+          &quot;valuedatatype__c&quot; : &quot;Picklist&quot;,
+          &quot;valuedescription__c&quot; : null,
+          &quot;valueinnumber__c&quot; : null
+        } ]
+      },
+      &quot;Description&quot; : &quot;Fixed energy product based on setting a target margin for a single unit rate.&quot;,
+      &quot;IsActive&quot; : true,
+      &quot;Name&quot; : &quot;Fixed Energy&quot;,
+      &quot;ProductCode&quot; : &quot;PD_FIXED_ENERGY_MARGIN&quot;,
+      &quot;addtocart&quot; : {
+        &quot;rest&quot; : {
+          &quot;link&quot; : &quot;v3/catalogs/COMMODITY/basket&quot;,
+          &quot;method&quot; : &quot;POST&quot;,
+          &quot;params&quot; : {
+            &quot;basketAction&quot; : &quot;AddWithNoConfig&quot;,
+            &quot;context&quot; : &quot;{\&quot;MeterType\&quot;:\&quot;Smart\&quot;}&quot;,
+            &quot;offer&quot; : &quot;PD_FIXED_ENERGY_MARGIN&quot;
+          }
+        }
+      },
+      &quot;offerDetailsAction&quot; : {
+        &quot;client&quot; : {
+          &quot;params&quot; : { },
+          &quot;records&quot; : [ ]
+        },
+        &quot;remote&quot; : {
+          &quot;params&quot; : { }
+        },
+        &quot;rest&quot; : {
+          &quot;link&quot; : &quot;/v3/catalogs/COMMODITY/offers/PD_FIXED_ENERGY_MARGIN?context={\&quot;MeterType\&quot;:\&quot;Smart\&quot;}&quot;,
+          &quot;method&quot; : &quot;GET&quot;,
+          &quot;params&quot; : { }
+        }
+      },
+      &quot;offerType&quot; : &quot;Product&quot;,
+      &quot;priceResult&quot; : [ {
+        &quot;Amount__c&quot; : 0,
+        &quot;ChargeType__c&quot; : &quot;One-time&quot;,
+        &quot;DisplayText__c&quot; : &quot;based on consumption&quot;,
+        &quot;IsBasePrice__c&quot; : true,
+        &quot;IsVirtualPrice__c&quot; : false,
+        &quot;RecurringFrequency__c&quot; : null,
+        &quot;SubType__c&quot; : &quot;Standard&quot;,
+        &quot;Type__c&quot; : &quot;Price&quot;,
+        &quot;UnitPrice&quot; : 0,
+        &quot;adjustments&quot; : [ ],
+        &quot;baseamount&quot; : 0,
+        &quot;chargeamount&quot; : 0,
+        &quot;effectivefromdatespec&quot; : null,
+        &quot;effectiveuntildatespec&quot; : null,
+        &quot;overrides&quot; : [ ]
+      }, {
+        &quot;Amount__c&quot; : 0,
+        &quot;ChargeType__c&quot; : &quot;Recurring&quot;,
+        &quot;DisplayText__c&quot; : &quot;based on distribution region&quot;,
+        &quot;IsBasePrice__c&quot; : true,
+        &quot;IsVirtualPrice__c&quot; : false,
+        &quot;RecurringFrequency__c&quot; : &quot;Monthly&quot;,
+        &quot;SubType__c&quot; : &quot;Standard&quot;,
+        &quot;Type__c&quot; : &quot;Price&quot;,
+        &quot;adjustments&quot; : [ ],
+        &quot;baseamount&quot; : 0,
+        &quot;chargeamount&quot; : 0,
+        &quot;effectivefromdatespec&quot; : null,
+        &quot;effectiveuntildatespec&quot; : null,
+        &quot;overrides&quot; : [ ]
+      } ]
+    }, {
+      &quot;vlocity_cmt__IsOrderable__c&quot; : true,
+      &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2020-12-01T00:00:00.000Z&quot;,
+      &quot;Attachments&quot; : [ {
+        &quot;contentType&quot; : &quot;Image&quot;,
+        &quot;defaultAttachment&quot; : true,
+        &quot;description&quot; : null,
+        &quot;displayConditionsData&quot; : null,
+        &quot;mimeType&quot; : null,
+        &quot;sequenceNumber&quot; : null,
+        &quot;title&quot; : &quot;Energy Saver&quot;,
+        &quot;url&quot; : &quot;/servlet/servlet.FileDownload?file=0154K00000104N6QAI&quot;
+      } ],
+      &quot;AttributeCategory&quot; : {
+        &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot; : [ {
+          &quot;$$AttributeDefinitionEnd$$&quot; : null,
+          &quot;$$AttributeDefinitionStart$$&quot; : null,
+          &quot;attributeRunTimeInfo&quot; : {
+            &quot;dataType&quot; : &quot;Picklist&quot;,
+            &quot;default&quot; : [ {
+              &quot;displayText&quot; : &quot;Any&quot;,
+              &quot;id&quot; : &quot;0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9&quot;,
+              &quot;sequence&quot; : 1,
+              &quot;value&quot; : &quot;Any&quot;
+            } ],
+            &quot;uiDisplayType&quot; : &quot;Dropdown&quot;,
+            &quot;values&quot; : [ {
+              &quot;displayText&quot; : &quot;Any&quot;,
+              &quot;id&quot; : &quot;0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9&quot;,
+              &quot;sequence&quot; : 1,
+              &quot;value&quot; : &quot;Any&quot;
+            }, {
+              &quot;displayText&quot; : &quot;Prepaid&quot;,
+              &quot;id&quot; : &quot;f2d13d9d-b452-81e1-83b2-3c2fc126734f&quot;,
+              &quot;sequence&quot; : 2,
+              &quot;value&quot; : &quot;Prepaid&quot;
+            }, {
+              &quot;displayText&quot; : &quot;Smart&quot;,
+              &quot;id&quot; : &quot;7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d&quot;,
+              &quot;sequence&quot; : 3,
+              &quot;value&quot; : &quot;Smart&quot;
+            } ]
+          },
+          &quot;attributecategoryid__c&quot; : &quot;a0O4K0000009IdZUAU&quot;,
+          &quot;attributecloneable__c&quot; : true,
+          &quot;attributeconfigurable__c&quot; : true,
+          &quot;attributedisplayname__c&quot; : &quot;Meter Type&quot;,
+          &quot;attributedisplaysequence__c&quot; : &quot;1&quot;,
+          &quot;attributefilterable__c&quot; : true,
+          &quot;attributegrouptype__c&quot; : null,
+          &quot;attributeid__c&quot; : &quot;a0P4K0000009Qh9UAE&quot;,
+          &quot;attributeuniquecode__c&quot; : &quot;ATT_METER_TYPE&quot;,
+          &quot;categorycode__c&quot; : &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot;,
+          &quot;categorydisplaysequence__c&quot; : 10,
+          &quot;categoryname__c&quot; : &quot;Commodity Commercial Offers&quot;,
+          &quot;customconfiguitemplate__c&quot; : null,
+          &quot;displaysequence__c&quot; : &quot;10&quot;,
+          &quot;formatmask__c&quot; : null,
+          &quot;hasrule__c&quot; : true,
+          &quot;id&quot; : &quot;a0M4K0000000diPUAQ&quot;,
+          &quot;isactive__c&quot; : true,
+          &quot;isconfigurable__c&quot; : true,
+          &quot;ishidden__c&quot; : false,
+          &quot;isnottranslatable__c&quot; : false,
+          &quot;isquerydriven__c&quot; : false,
+          &quot;isreadonly__c&quot; : false,
+          &quot;isrequired__c&quot; : false,
+          &quot;objectid__c&quot; : &quot;01t4K000001JuI6QAK&quot;,
+          &quot;objecttype__c&quot; : &quot;vlocity_cmt__ObjectClass__c&quot;,
+          &quot;querycode__c&quot; : null,
+          &quot;querylabel__c&quot; : null,
+          &quot;rulemessage__c&quot; : null,
+          &quot;uidisplaytype__c&quot; : &quot;Dropdown&quot;,
+          &quot;value__c&quot; : &quot;Any&quot;,
+          &quot;valuedatatype__c&quot; : &quot;Picklist&quot;,
+          &quot;valuedescription__c&quot; : null,
+          &quot;valueinnumber__c&quot; : null
+        } ]
+      },
+      &quot;Description&quot; : &quot;Day night energy product that works on smart meters or meters with multiple registers. Electricity during peak hours is charged at a different rate to off peak energy consumption.&quot;,
+      &quot;IsActive&quot; : true,
+      &quot;Name&quot; : &quot;Energy Saver&quot;,
+      &quot;ProductCode&quot; : &quot;PD_ENERGY_SAVER&quot;,
+      &quot;addtocart&quot; : {
+        &quot;rest&quot; : {
+          &quot;link&quot; : &quot;v3/catalogs/COMMODITY/basket&quot;,
+          &quot;method&quot; : &quot;POST&quot;,
+          &quot;params&quot; : {
+            &quot;basketAction&quot; : &quot;AddWithNoConfig&quot;,
+            &quot;context&quot; : &quot;{\&quot;MeterType\&quot;:\&quot;Smart\&quot;}&quot;,
+            &quot;offer&quot; : &quot;PD_ENERGY_SAVER&quot;
+          }
+        }
+      },
+      &quot;offerDetailsAction&quot; : {
+        &quot;client&quot; : {
+          &quot;params&quot; : { },
+          &quot;records&quot; : [ ]
+        },
+        &quot;remote&quot; : {
+          &quot;params&quot; : { }
+        },
+        &quot;rest&quot; : {
+          &quot;link&quot; : &quot;/v3/catalogs/COMMODITY/offers/PD_ENERGY_SAVER?context={\&quot;MeterType\&quot;:\&quot;Smart\&quot;}&quot;,
+          &quot;method&quot; : &quot;GET&quot;,
+          &quot;params&quot; : { }
+        }
+      },
+      &quot;offerType&quot; : &quot;Product&quot;,
+      &quot;priceResult&quot; : [ {
+        &quot;Amount__c&quot; : 0,
+        &quot;ChargeType__c&quot; : &quot;Recurring&quot;,
+        &quot;DisplayText__c&quot; : &quot;based on distribution region&quot;,
+        &quot;IsBasePrice__c&quot; : true,
+        &quot;IsVirtualPrice__c&quot; : false,
+        &quot;RecurringFrequency__c&quot; : &quot;Monthly&quot;,
+        &quot;SubType__c&quot; : &quot;Standard&quot;,
+        &quot;Type__c&quot; : &quot;Price&quot;,
+        &quot;adjustments&quot; : [ ],
+        &quot;baseamount&quot; : 0,
+        &quot;chargeamount&quot; : 0,
+        &quot;effectivefromdatespec&quot; : null,
+        &quot;effectiveuntildatespec&quot; : null,
+        &quot;overrides&quot; : [ ]
+      }, {
+        &quot;Amount__c&quot; : 0,
+        &quot;ChargeType__c&quot; : &quot;One-time&quot;,
+        &quot;DisplayText__c&quot; : &quot;based on consumption&quot;,
+        &quot;IsBasePrice__c&quot; : true,
+        &quot;IsVirtualPrice__c&quot; : false,
+        &quot;RecurringFrequency__c&quot; : null,
+        &quot;SubType__c&quot; : &quot;Standard&quot;,
+        &quot;Type__c&quot; : &quot;Price&quot;,
+        &quot;UnitPrice&quot; : 0,
+        &quot;adjustments&quot; : [ ],
+        &quot;baseamount&quot; : 0,
+        &quot;chargeamount&quot; : 0,
+        &quot;effectivefromdatespec&quot; : null,
+        &quot;effectiveuntildatespec&quot; : null,
+        &quot;overrides&quot; : [ ]
+      } ]
+    } ]
+  }, {
+    &quot;ApexGetOffersStatus&quot; : true,
+    &quot;LoopBlockIterationIndex&quot; : 2,
+    &quot;LoopBlockIterationStatus&quot; : true,
+    &quot;SetValuesForRemoteActionStatus&quot; : true,
+    &quot;TotalOffers&quot; : [ {
+      &quot;vlocity_cmt__IsOrderable__c&quot; : true,
+      &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2020-12-01T00:00:00.000Z&quot;,
+      &quot;Attachments&quot; : [ {
+        &quot;contentType&quot; : &quot;Image&quot;,
+        &quot;defaultAttachment&quot; : true,
+        &quot;description&quot; : null,
+        &quot;displayConditionsData&quot; : null,
+        &quot;mimeType&quot; : null,
+        &quot;sequenceNumber&quot; : null,
+        &quot;title&quot; : &quot;Green Energy&quot;,
+        &quot;url&quot; : &quot;/servlet/servlet.FileDownload?file=0154K00000104NVQAY&quot;
+      } ],
+      &quot;AttributeCategory&quot; : {
+        &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot; : [ {
+          &quot;$$AttributeDefinitionEnd$$&quot; : null,
+          &quot;$$AttributeDefinitionStart$$&quot; : null,
+          &quot;attributeRunTimeInfo&quot; : {
+            &quot;dataType&quot; : &quot;Picklist&quot;,
+            &quot;default&quot; : [ {
+              &quot;displayText&quot; : &quot;Prepaid&quot;,
+              &quot;id&quot; : &quot;f2d13d9d-b452-81e1-83b2-3c2fc126734f&quot;,
+              &quot;sequence&quot; : 2,
+              &quot;value&quot; : &quot;Prepaid&quot;
+            } ],
+            &quot;uiDisplayType&quot; : &quot;Dropdown&quot;,
+            &quot;values&quot; : [ {
+              &quot;displayText&quot; : &quot;Any&quot;,
+              &quot;id&quot; : &quot;0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9&quot;,
+              &quot;sequence&quot; : 1,
+              &quot;value&quot; : &quot;Any&quot;
+            }, {
+              &quot;displayText&quot; : &quot;Prepaid&quot;,
+              &quot;id&quot; : &quot;f2d13d9d-b452-81e1-83b2-3c2fc126734f&quot;,
+              &quot;sequence&quot; : 2,
+              &quot;value&quot; : &quot;Prepaid&quot;
+            }, {
+              &quot;displayText&quot; : &quot;Smart&quot;,
+              &quot;id&quot; : &quot;7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d&quot;,
+              &quot;sequence&quot; : 3,
+              &quot;value&quot; : &quot;Smart&quot;
+            } ]
+          },
+          &quot;attributecategoryid__c&quot; : &quot;a0O4K0000009IdZUAU&quot;,
+          &quot;attributecloneable__c&quot; : true,
+          &quot;attributeconfigurable__c&quot; : true,
+          &quot;attributedisplayname__c&quot; : &quot;Meter Type&quot;,
+          &quot;attributedisplaysequence__c&quot; : &quot;1&quot;,
+          &quot;attributefilterable__c&quot; : true,
+          &quot;attributegrouptype__c&quot; : null,
+          &quot;attributeid__c&quot; : &quot;a0P4K0000009Qh9UAE&quot;,
+          &quot;attributeuniquecode__c&quot; : &quot;ATT_METER_TYPE&quot;,
+          &quot;categorycode__c&quot; : &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot;,
+          &quot;categorydisplaysequence__c&quot; : 10,
+          &quot;categoryname__c&quot; : &quot;Commodity Commercial Offers&quot;,
+          &quot;customconfiguitemplate__c&quot; : null,
+          &quot;displaysequence__c&quot; : &quot;10&quot;,
+          &quot;formatmask__c&quot; : null,
+          &quot;hasrule__c&quot; : true,
+          &quot;id&quot; : &quot;a0M4K0000000dhRUAQ&quot;,
+          &quot;isactive__c&quot; : true,
+          &quot;isconfigurable__c&quot; : true,
+          &quot;ishidden__c&quot; : false,
+          &quot;isnottranslatable__c&quot; : false,
+          &quot;isquerydriven__c&quot; : false,
+          &quot;isreadonly__c&quot; : false,
+          &quot;isrequired__c&quot; : false,
+          &quot;objectid__c&quot; : &quot;01t4K000001JqiqQAC&quot;,
+          &quot;objecttype__c&quot; : &quot;vlocity_cmt__ObjectClass__c&quot;,
+          &quot;querycode__c&quot; : null,
+          &quot;querylabel__c&quot; : null,
+          &quot;rulemessage__c&quot; : null,
+          &quot;uidisplaytype__c&quot; : &quot;Dropdown&quot;,
+          &quot;value__c&quot; : &quot;Prepaid&quot;,
+          &quot;valuedatatype__c&quot; : &quot;Picklist&quot;,
+          &quot;valuedescription__c&quot; : null,
+          &quot;valueinnumber__c&quot; : null
+        } ]
+      },
+      &quot;IsActive&quot; : true,
+      &quot;Name&quot; : &quot;Green Energy&quot;,
+      &quot;ProductCode&quot; : &quot;PD_ENERGY_GREEN&quot;,
+      &quot;addtocart&quot; : {
+        &quot;rest&quot; : {
+          &quot;link&quot; : &quot;v3/catalogs/COMMODITY/basket&quot;,
+          &quot;method&quot; : &quot;POST&quot;,
+          &quot;params&quot; : {
+            &quot;basketAction&quot; : &quot;AddWithNoConfig&quot;,
+            &quot;context&quot; : &quot;{\&quot;MeterType\&quot;:\&quot;Prepaid\&quot;}&quot;,
+            &quot;offer&quot; : &quot;PD_ENERGY_GREEN&quot;
+          }
+        }
+      },
+      &quot;offerDetailsAction&quot; : {
+        &quot;client&quot; : {
+          &quot;params&quot; : { },
+          &quot;records&quot; : [ ]
+        },
+        &quot;remote&quot; : {
+          &quot;params&quot; : { }
+        },
+        &quot;rest&quot; : {
+          &quot;link&quot; : &quot;/v3/catalogs/COMMODITY/offers/PD_ENERGY_GREEN?context={\&quot;MeterType\&quot;:\&quot;Prepaid\&quot;}&quot;,
+          &quot;method&quot; : &quot;GET&quot;,
+          &quot;params&quot; : { }
+        }
+      },
+      &quot;offerType&quot; : &quot;Product&quot;,
+      &quot;priceResult&quot; : [ {
+        &quot;Amount__c&quot; : 0,
+        &quot;ChargeType__c&quot; : &quot;Recurring&quot;,
+        &quot;DisplayText__c&quot; : &quot;based on distribution region&quot;,
+        &quot;IsBasePrice__c&quot; : true,
+        &quot;IsVirtualPrice__c&quot; : false,
+        &quot;RecurringFrequency__c&quot; : &quot;Monthly&quot;,
+        &quot;SubType__c&quot; : &quot;Standard&quot;,
+        &quot;Type__c&quot; : &quot;Price&quot;,
+        &quot;adjustments&quot; : [ ],
+        &quot;baseamount&quot; : 0,
+        &quot;chargeamount&quot; : 0,
+        &quot;effectivefromdatespec&quot; : null,
+        &quot;effectiveuntildatespec&quot; : null,
+        &quot;overrides&quot; : [ ]
+      }, {
+        &quot;Amount__c&quot; : 0,
+        &quot;ChargeType__c&quot; : &quot;One-time&quot;,
+        &quot;DisplayText__c&quot; : &quot;based on consumption&quot;,
+        &quot;IsBasePrice__c&quot; : true,
+        &quot;IsVirtualPrice__c&quot; : false,
+        &quot;RecurringFrequency__c&quot; : null,
+        &quot;SubType__c&quot; : &quot;Standard&quot;,
+        &quot;Type__c&quot; : &quot;Price&quot;,
+        &quot;UnitPrice&quot; : 0,
+        &quot;adjustments&quot; : [ ],
+        &quot;baseamount&quot; : 0,
+        &quot;chargeamount&quot; : 0,
+        &quot;effectivefromdatespec&quot; : null,
+        &quot;effectiveuntildatespec&quot; : null,
+        &quot;overrides&quot; : [ ]
+      } ]
+    }, {
+      &quot;vlocity_cmt__IsOrderable__c&quot; : true,
+      &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2020-09-30T23:00:00.000Z&quot;,
+      &quot;Attachments&quot; : null,
+      &quot;AttributeCategory&quot; : {
+        &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot; : [ {
+          &quot;$$AttributeDefinitionEnd$$&quot; : null,
+          &quot;$$AttributeDefinitionStart$$&quot; : null,
+          &quot;attributeRunTimeInfo&quot; : {
+            &quot;dataType&quot; : &quot;Picklist&quot;,
+            &quot;default&quot; : [ {
+              &quot;displayText&quot; : &quot;Any&quot;,
+              &quot;id&quot; : &quot;0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9&quot;,
+              &quot;sequence&quot; : 1,
+              &quot;value&quot; : &quot;Any&quot;
+            } ],
+            &quot;uiDisplayType&quot; : &quot;Dropdown&quot;,
+            &quot;values&quot; : [ {
+              &quot;displayText&quot; : &quot;Any&quot;,
+              &quot;id&quot; : &quot;0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9&quot;,
+              &quot;sequence&quot; : 1,
+              &quot;value&quot; : &quot;Any&quot;
+            }, {
+              &quot;displayText&quot; : &quot;Prepaid&quot;,
+              &quot;id&quot; : &quot;f2d13d9d-b452-81e1-83b2-3c2fc126734f&quot;,
+              &quot;sequence&quot; : 2,
+              &quot;value&quot; : &quot;Prepaid&quot;
+            }, {
+              &quot;displayText&quot; : &quot;Smart&quot;,
+              &quot;id&quot; : &quot;7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d&quot;,
+              &quot;sequence&quot; : 3,
+              &quot;value&quot; : &quot;Smart&quot;
+            } ]
+          },
+          &quot;attributecategoryid__c&quot; : &quot;a0O4K0000009IdZUAU&quot;,
+          &quot;attributecloneable__c&quot; : true,
+          &quot;attributeconfigurable__c&quot; : true,
+          &quot;attributedisplayname__c&quot; : &quot;Meter Type&quot;,
+          &quot;attributedisplaysequence__c&quot; : &quot;1&quot;,
+          &quot;attributefilterable__c&quot; : true,
+          &quot;attributegrouptype__c&quot; : null,
+          &quot;attributeid__c&quot; : &quot;a0P4K0000009Qh9UAE&quot;,
+          &quot;attributeuniquecode__c&quot; : &quot;ATT_METER_TYPE&quot;,
+          &quot;categorycode__c&quot; : &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot;,
+          &quot;categorydisplaysequence__c&quot; : 10,
+          &quot;categoryname__c&quot; : &quot;Commodity Commercial Offers&quot;,
+          &quot;customconfiguitemplate__c&quot; : null,
+          &quot;displaysequence__c&quot; : &quot;10&quot;,
+          &quot;formatmask__c&quot; : null,
+          &quot;hasrule__c&quot; : true,
+          &quot;id&quot; : &quot;a0M4K0000000dWCUAY&quot;,
+          &quot;isactive__c&quot; : true,
+          &quot;isconfigurable__c&quot; : true,
+          &quot;ishidden__c&quot; : false,
+          &quot;isnottranslatable__c&quot; : false,
+          &quot;isquerydriven__c&quot; : false,
+          &quot;isreadonly__c&quot; : false,
+          &quot;isrequired__c&quot; : false,
+          &quot;objectid__c&quot; : &quot;01t4K000001Jc4CQAS&quot;,
+          &quot;objecttype__c&quot; : &quot;vlocity_cmt__ObjectClass__c&quot;,
+          &quot;querycode__c&quot; : null,
+          &quot;querylabel__c&quot; : null,
+          &quot;rulemessage__c&quot; : null,
+          &quot;uidisplaytype__c&quot; : &quot;Dropdown&quot;,
+          &quot;value__c&quot; : &quot;Any&quot;,
+          &quot;valuedatatype__c&quot; : &quot;Picklist&quot;,
+          &quot;valuedescription__c&quot; : null,
+          &quot;valueinnumber__c&quot; : null
+        } ]
+      },
+      &quot;Description&quot; : &quot;Fixed energy product based on setting a target margin for a single unit rate.&quot;,
+      &quot;IsActive&quot; : true,
+      &quot;Name&quot; : &quot;Fixed Energy&quot;,
+      &quot;ProductCode&quot; : &quot;PD_FIXED_ENERGY_MARGIN&quot;,
+      &quot;addtocart&quot; : {
+        &quot;rest&quot; : {
+          &quot;link&quot; : &quot;v3/catalogs/COMMODITY/basket&quot;,
+          &quot;method&quot; : &quot;POST&quot;,
+          &quot;params&quot; : {
+            &quot;basketAction&quot; : &quot;AddWithNoConfig&quot;,
+            &quot;context&quot; : &quot;{\&quot;MeterType\&quot;:\&quot;Prepaid\&quot;}&quot;,
+            &quot;offer&quot; : &quot;PD_FIXED_ENERGY_MARGIN&quot;
+          }
+        }
+      },
+      &quot;offerDetailsAction&quot; : {
+        &quot;client&quot; : {
+          &quot;params&quot; : { },
+          &quot;records&quot; : [ ]
+        },
+        &quot;remote&quot; : {
+          &quot;params&quot; : { }
+        },
+        &quot;rest&quot; : {
+          &quot;link&quot; : &quot;/v3/catalogs/COMMODITY/offers/PD_FIXED_ENERGY_MARGIN?context={\&quot;MeterType\&quot;:\&quot;Prepaid\&quot;}&quot;,
+          &quot;method&quot; : &quot;GET&quot;,
+          &quot;params&quot; : { }
+        }
+      },
+      &quot;offerType&quot; : &quot;Product&quot;,
+      &quot;priceResult&quot; : [ {
+        &quot;Amount__c&quot; : 0,
+        &quot;ChargeType__c&quot; : &quot;One-time&quot;,
+        &quot;DisplayText__c&quot; : &quot;based on consumption&quot;,
+        &quot;IsBasePrice__c&quot; : true,
+        &quot;IsVirtualPrice__c&quot; : false,
+        &quot;RecurringFrequency__c&quot; : null,
+        &quot;SubType__c&quot; : &quot;Standard&quot;,
+        &quot;Type__c&quot; : &quot;Price&quot;,
+        &quot;UnitPrice&quot; : 0,
+        &quot;adjustments&quot; : [ ],
+        &quot;baseamount&quot; : 0,
+        &quot;chargeamount&quot; : 0,
+        &quot;effectivefromdatespec&quot; : null,
+        &quot;effectiveuntildatespec&quot; : null,
+        &quot;overrides&quot; : [ ]
+      }, {
+        &quot;Amount__c&quot; : 0,
+        &quot;ChargeType__c&quot; : &quot;Recurring&quot;,
+        &quot;DisplayText__c&quot; : &quot;based on distribution region&quot;,
+        &quot;IsBasePrice__c&quot; : true,
+        &quot;IsVirtualPrice__c&quot; : false,
+        &quot;RecurringFrequency__c&quot; : &quot;Monthly&quot;,
+        &quot;SubType__c&quot; : &quot;Standard&quot;,
+        &quot;Type__c&quot; : &quot;Price&quot;,
+        &quot;adjustments&quot; : [ ],
+        &quot;baseamount&quot; : 0,
+        &quot;chargeamount&quot; : 0,
+        &quot;effectivefromdatespec&quot; : null,
+        &quot;effectiveuntildatespec&quot; : null,
+        &quot;overrides&quot; : [ ]
+      } ]
+    }, {
+      &quot;vlocity_cmt__IsOrderable__c&quot; : true,
+      &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2020-12-01T00:00:00.000Z&quot;,
+      &quot;Attachments&quot; : null,
+      &quot;AttributeCategory&quot; : {
+        &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot; : [ {
+          &quot;$$AttributeDefinitionEnd$$&quot; : null,
+          &quot;$$AttributeDefinitionStart$$&quot; : null,
+          &quot;attributeRunTimeInfo&quot; : {
+            &quot;dataType&quot; : &quot;Picklist&quot;,
+            &quot;default&quot; : [ {
+              &quot;displayText&quot; : &quot;Any&quot;,
+              &quot;id&quot; : &quot;0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9&quot;,
+              &quot;sequence&quot; : 1,
+              &quot;value&quot; : &quot;Any&quot;
+            } ],
+            &quot;uiDisplayType&quot; : &quot;Dropdown&quot;,
+            &quot;values&quot; : [ {
+              &quot;displayText&quot; : &quot;Any&quot;,
+              &quot;id&quot; : &quot;0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9&quot;,
+              &quot;sequence&quot; : 1,
+              &quot;value&quot; : &quot;Any&quot;
+            }, {
+              &quot;displayText&quot; : &quot;Prepaid&quot;,
+              &quot;id&quot; : &quot;f2d13d9d-b452-81e1-83b2-3c2fc126734f&quot;,
+              &quot;sequence&quot; : 2,
+              &quot;value&quot; : &quot;Prepaid&quot;
+            }, {
+              &quot;displayText&quot; : &quot;Smart&quot;,
+              &quot;id&quot; : &quot;7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d&quot;,
+              &quot;sequence&quot; : 3,
+              &quot;value&quot; : &quot;Smart&quot;
+            } ]
+          },
+          &quot;attributecategoryid__c&quot; : &quot;a0O4K0000009IdZUAU&quot;,
+          &quot;attributecloneable__c&quot; : true,
+          &quot;attributeconfigurable__c&quot; : true,
+          &quot;attributedisplayname__c&quot; : &quot;Meter Type&quot;,
+          &quot;attributedisplaysequence__c&quot; : &quot;1&quot;,
+          &quot;attributefilterable__c&quot; : true,
+          &quot;attributegrouptype__c&quot; : null,
+          &quot;attributeid__c&quot; : &quot;a0P4K0000009Qh9UAE&quot;,
+          &quot;attributeuniquecode__c&quot; : &quot;ATT_METER_TYPE&quot;,
+          &quot;categorycode__c&quot; : &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot;,
+          &quot;categorydisplaysequence__c&quot; : 10,
+          &quot;categoryname__c&quot; : &quot;Commodity Commercial Offers&quot;,
+          &quot;customconfiguitemplate__c&quot; : null,
+          &quot;displaysequence__c&quot; : &quot;10&quot;,
+          &quot;formatmask__c&quot; : null,
+          &quot;hasrule__c&quot; : false,
+          &quot;id&quot; : &quot;a0M4K0000000fXjUAI&quot;,
+          &quot;isactive__c&quot; : true,
+          &quot;isconfigurable__c&quot; : true,
+          &quot;ishidden__c&quot; : false,
+          &quot;isnottranslatable__c&quot; : false,
+          &quot;isquerydriven__c&quot; : false,
+          &quot;isreadonly__c&quot; : false,
+          &quot;isrequired__c&quot; : false,
+          &quot;objectid__c&quot; : &quot;01t4K000001KRq4QAG&quot;,
+          &quot;objecttype__c&quot; : &quot;vlocity_cmt__ObjectClass__c&quot;,
+          &quot;querycode__c&quot; : null,
+          &quot;querylabel__c&quot; : null,
+          &quot;rulemessage__c&quot; : null,
+          &quot;uidisplaytype__c&quot; : &quot;Dropdown&quot;,
+          &quot;value__c&quot; : &quot;Any&quot;,
+          &quot;valuedatatype__c&quot; : &quot;Picklist&quot;,
+          &quot;valuedescription__c&quot; : null,
+          &quot;valueinnumber__c&quot; : null
+        } ]
+      },
+      &quot;Description&quot; : &quot;Our best prepaid offering for customers with prepaid meters.&quot;,
+      &quot;IsActive&quot; : true,
+      &quot;Name&quot; : &quot;Prepaid Energy&quot;,
+      &quot;ProductCode&quot; : &quot;PD_PREPAID_ENERGY&quot;,
+      &quot;addtocart&quot; : {
+        &quot;rest&quot; : {
+          &quot;link&quot; : &quot;v3/catalogs/COMMODITY/basket&quot;,
+          &quot;method&quot; : &quot;POST&quot;,
+          &quot;params&quot; : {
+            &quot;basketAction&quot; : &quot;AddWithNoConfig&quot;,
+            &quot;context&quot; : &quot;{\&quot;MeterType\&quot;:\&quot;Prepaid\&quot;}&quot;,
+            &quot;offer&quot; : &quot;PD_PREPAID_ENERGY&quot;
+          }
+        }
+      },
+      &quot;offerDetailsAction&quot; : {
+        &quot;client&quot; : {
+          &quot;params&quot; : { },
+          &quot;records&quot; : [ ]
+        },
+        &quot;remote&quot; : {
+          &quot;params&quot; : { }
+        },
+        &quot;rest&quot; : {
+          &quot;link&quot; : &quot;/v3/catalogs/COMMODITY/offers/PD_PREPAID_ENERGY?context={\&quot;MeterType\&quot;:\&quot;Prepaid\&quot;}&quot;,
+          &quot;method&quot; : &quot;GET&quot;,
+          &quot;params&quot; : { }
+        }
+      },
+      &quot;offerType&quot; : &quot;Product&quot;,
+      &quot;priceResult&quot; : [ {
+        &quot;Amount__c&quot; : 0,
+        &quot;ChargeType__c&quot; : &quot;Recurring&quot;,
+        &quot;DisplayText__c&quot; : &quot;based on distribution region&quot;,
+        &quot;IsBasePrice__c&quot; : true,
+        &quot;IsVirtualPrice__c&quot; : false,
+        &quot;RecurringFrequency__c&quot; : &quot;Monthly&quot;,
+        &quot;SubType__c&quot; : &quot;Standard&quot;,
+        &quot;Type__c&quot; : &quot;Price&quot;,
+        &quot;adjustments&quot; : [ ],
+        &quot;baseamount&quot; : 0,
+        &quot;chargeamount&quot; : 0,
+        &quot;effectivefromdatespec&quot; : null,
+        &quot;effectiveuntildatespec&quot; : null,
+        &quot;overrides&quot; : [ ]
+      }, {
+        &quot;Amount__c&quot; : 0,
+        &quot;ChargeType__c&quot; : &quot;One-time&quot;,
+        &quot;DisplayText__c&quot; : &quot;based on consumption&quot;,
+        &quot;IsBasePrice__c&quot; : true,
+        &quot;IsVirtualPrice__c&quot; : false,
+        &quot;RecurringFrequency__c&quot; : null,
+        &quot;SubType__c&quot; : &quot;Standard&quot;,
+        &quot;Type__c&quot; : &quot;Price&quot;,
+        &quot;UnitPrice&quot; : 0,
+        &quot;adjustments&quot; : [ ],
+        &quot;baseamount&quot; : 0,
+        &quot;chargeamount&quot; : 0,
+        &quot;effectivefromdatespec&quot; : null,
+        &quot;effectiveuntildatespec&quot; : null,
+        &quot;overrides&quot; : [ ]
+      } ]
+    } ]
+  }, {
+    &quot;ApexGetOffersStatus&quot; : true,
+    &quot;LoopBlockIterationIndex&quot; : 3,
+    &quot;LoopBlockIterationStatus&quot; : true,
+    &quot;SetValuesForRemoteActionStatus&quot; : true,
+    &quot;TotalOffers&quot; : [ {
+      &quot;vlocity_cmt__IsOrderable__c&quot; : true,
+      &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2020-12-01T00:00:00.000Z&quot;,
+      &quot;Attachments&quot; : [ {
+        &quot;contentType&quot; : &quot;Image&quot;,
+        &quot;defaultAttachment&quot; : true,
+        &quot;description&quot; : null,
+        &quot;displayConditionsData&quot; : null,
+        &quot;mimeType&quot; : null,
+        &quot;sequenceNumber&quot; : null,
+        &quot;title&quot; : &quot;Green Energy&quot;,
+        &quot;url&quot; : &quot;/servlet/servlet.FileDownload?file=0154K00000104NVQAY&quot;
+      } ],
+      &quot;AttributeCategory&quot; : {
+        &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot; : [ {
+          &quot;$$AttributeDefinitionEnd$$&quot; : null,
+          &quot;$$AttributeDefinitionStart$$&quot; : null,
+          &quot;attributeRunTimeInfo&quot; : {
+            &quot;dataType&quot; : &quot;Picklist&quot;,
+            &quot;default&quot; : [ {
+              &quot;displayText&quot; : &quot;Prepaid&quot;,
+              &quot;id&quot; : &quot;f2d13d9d-b452-81e1-83b2-3c2fc126734f&quot;,
+              &quot;sequence&quot; : 2,
+              &quot;value&quot; : &quot;Prepaid&quot;
+            } ],
+            &quot;uiDisplayType&quot; : &quot;Dropdown&quot;,
+            &quot;values&quot; : [ {
+              &quot;displayText&quot; : &quot;Any&quot;,
+              &quot;id&quot; : &quot;0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9&quot;,
+              &quot;sequence&quot; : 1,
+              &quot;value&quot; : &quot;Any&quot;
+            }, {
+              &quot;displayText&quot; : &quot;Prepaid&quot;,
+              &quot;id&quot; : &quot;f2d13d9d-b452-81e1-83b2-3c2fc126734f&quot;,
+              &quot;sequence&quot; : 2,
+              &quot;value&quot; : &quot;Prepaid&quot;
+            }, {
+              &quot;displayText&quot; : &quot;Smart&quot;,
+              &quot;id&quot; : &quot;7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d&quot;,
+              &quot;sequence&quot; : 3,
+              &quot;value&quot; : &quot;Smart&quot;
+            } ]
+          },
+          &quot;attributecategoryid__c&quot; : &quot;a0O4K0000009IdZUAU&quot;,
+          &quot;attributecloneable__c&quot; : true,
+          &quot;attributeconfigurable__c&quot; : true,
+          &quot;attributedisplayname__c&quot; : &quot;Meter Type&quot;,
+          &quot;attributedisplaysequence__c&quot; : &quot;1&quot;,
+          &quot;attributefilterable__c&quot; : true,
+          &quot;attributegrouptype__c&quot; : null,
+          &quot;attributeid__c&quot; : &quot;a0P4K0000009Qh9UAE&quot;,
+          &quot;attributeuniquecode__c&quot; : &quot;ATT_METER_TYPE&quot;,
+          &quot;categorycode__c&quot; : &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot;,
+          &quot;categorydisplaysequence__c&quot; : 10,
+          &quot;categoryname__c&quot; : &quot;Commodity Commercial Offers&quot;,
+          &quot;customconfiguitemplate__c&quot; : null,
+          &quot;displaysequence__c&quot; : &quot;10&quot;,
+          &quot;formatmask__c&quot; : null,
+          &quot;hasrule__c&quot; : true,
+          &quot;id&quot; : &quot;a0M4K0000000dhRUAQ&quot;,
+          &quot;isactive__c&quot; : true,
+          &quot;isconfigurable__c&quot; : true,
+          &quot;ishidden__c&quot; : false,
+          &quot;isnottranslatable__c&quot; : false,
+          &quot;isquerydriven__c&quot; : false,
+          &quot;isreadonly__c&quot; : false,
+          &quot;isrequired__c&quot; : false,
+          &quot;objectid__c&quot; : &quot;01t4K000001JqiqQAC&quot;,
+          &quot;objecttype__c&quot; : &quot;vlocity_cmt__ObjectClass__c&quot;,
+          &quot;querycode__c&quot; : null,
+          &quot;querylabel__c&quot; : null,
+          &quot;rulemessage__c&quot; : null,
+          &quot;uidisplaytype__c&quot; : &quot;Dropdown&quot;,
+          &quot;value__c&quot; : &quot;Prepaid&quot;,
+          &quot;valuedatatype__c&quot; : &quot;Picklist&quot;,
+          &quot;valuedescription__c&quot; : null,
+          &quot;valueinnumber__c&quot; : null
+        } ]
+      },
+      &quot;IsActive&quot; : true,
+      &quot;Name&quot; : &quot;Green Energy&quot;,
+      &quot;ProductCode&quot; : &quot;PD_ENERGY_GREEN&quot;,
+      &quot;addtocart&quot; : {
+        &quot;rest&quot; : {
+          &quot;link&quot; : &quot;v3/catalogs/COMMODITY/basket&quot;,
+          &quot;method&quot; : &quot;POST&quot;,
+          &quot;params&quot; : {
+            &quot;basketAction&quot; : &quot;AddWithNoConfig&quot;,
+            &quot;context&quot; : &quot;{\&quot;MeterType\&quot;:\&quot;Any\&quot;}&quot;,
+            &quot;offer&quot; : &quot;PD_ENERGY_GREEN&quot;
+          }
+        }
+      },
+      &quot;offerDetailsAction&quot; : {
+        &quot;client&quot; : {
+          &quot;params&quot; : { },
+          &quot;records&quot; : [ ]
+        },
+        &quot;remote&quot; : {
+          &quot;params&quot; : { }
+        },
+        &quot;rest&quot; : {
+          &quot;link&quot; : &quot;/v3/catalogs/COMMODITY/offers/PD_ENERGY_GREEN?context={\&quot;MeterType\&quot;:\&quot;Any\&quot;}&quot;,
+          &quot;method&quot; : &quot;GET&quot;,
+          &quot;params&quot; : { }
+        }
+      },
+      &quot;offerType&quot; : &quot;Product&quot;,
+      &quot;priceResult&quot; : [ {
+        &quot;Amount__c&quot; : 0,
+        &quot;ChargeType__c&quot; : &quot;Recurring&quot;,
+        &quot;DisplayText__c&quot; : &quot;based on distribution region&quot;,
+        &quot;IsBasePrice__c&quot; : true,
+        &quot;IsVirtualPrice__c&quot; : false,
+        &quot;RecurringFrequency__c&quot; : &quot;Monthly&quot;,
+        &quot;SubType__c&quot; : &quot;Standard&quot;,
+        &quot;Type__c&quot; : &quot;Price&quot;,
+        &quot;adjustments&quot; : [ ],
+        &quot;baseamount&quot; : 0,
+        &quot;chargeamount&quot; : 0,
+        &quot;effectivefromdatespec&quot; : null,
+        &quot;effectiveuntildatespec&quot; : null,
+        &quot;overrides&quot; : [ ]
+      }, {
+        &quot;Amount__c&quot; : 0,
+        &quot;ChargeType__c&quot; : &quot;One-time&quot;,
+        &quot;DisplayText__c&quot; : &quot;based on consumption&quot;,
+        &quot;IsBasePrice__c&quot; : true,
+        &quot;IsVirtualPrice__c&quot; : false,
+        &quot;RecurringFrequency__c&quot; : null,
+        &quot;SubType__c&quot; : &quot;Standard&quot;,
+        &quot;Type__c&quot; : &quot;Price&quot;,
+        &quot;UnitPrice&quot; : 0,
+        &quot;adjustments&quot; : [ ],
+        &quot;baseamount&quot; : 0,
+        &quot;chargeamount&quot; : 0,
+        &quot;effectivefromdatespec&quot; : null,
+        &quot;effectiveuntildatespec&quot; : null,
+        &quot;overrides&quot; : [ ]
+      } ]
+    }, {
+      &quot;vlocity_cmt__IsOrderable__c&quot; : true,
+      &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2020-09-30T23:00:00.000Z&quot;,
+      &quot;Attachments&quot; : null,
+      &quot;AttributeCategory&quot; : {
+        &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot; : [ {
+          &quot;$$AttributeDefinitionEnd$$&quot; : null,
+          &quot;$$AttributeDefinitionStart$$&quot; : null,
+          &quot;attributeRunTimeInfo&quot; : {
+            &quot;dataType&quot; : &quot;Picklist&quot;,
+            &quot;default&quot; : [ {
+              &quot;displayText&quot; : &quot;Any&quot;,
+              &quot;id&quot; : &quot;0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9&quot;,
+              &quot;sequence&quot; : 1,
+              &quot;value&quot; : &quot;Any&quot;
+            } ],
+            &quot;uiDisplayType&quot; : &quot;Dropdown&quot;,
+            &quot;values&quot; : [ {
+              &quot;displayText&quot; : &quot;Any&quot;,
+              &quot;id&quot; : &quot;0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9&quot;,
+              &quot;sequence&quot; : 1,
+              &quot;value&quot; : &quot;Any&quot;
+            }, {
+              &quot;displayText&quot; : &quot;Prepaid&quot;,
+              &quot;id&quot; : &quot;f2d13d9d-b452-81e1-83b2-3c2fc126734f&quot;,
+              &quot;sequence&quot; : 2,
+              &quot;value&quot; : &quot;Prepaid&quot;
+            }, {
+              &quot;displayText&quot; : &quot;Smart&quot;,
+              &quot;id&quot; : &quot;7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d&quot;,
+              &quot;sequence&quot; : 3,
+              &quot;value&quot; : &quot;Smart&quot;
+            } ]
+          },
+          &quot;attributecategoryid__c&quot; : &quot;a0O4K0000009IdZUAU&quot;,
+          &quot;attributecloneable__c&quot; : true,
+          &quot;attributeconfigurable__c&quot; : true,
+          &quot;attributedisplayname__c&quot; : &quot;Meter Type&quot;,
+          &quot;attributedisplaysequence__c&quot; : &quot;1&quot;,
+          &quot;attributefilterable__c&quot; : true,
+          &quot;attributegrouptype__c&quot; : null,
+          &quot;attributeid__c&quot; : &quot;a0P4K0000009Qh9UAE&quot;,
+          &quot;attributeuniquecode__c&quot; : &quot;ATT_METER_TYPE&quot;,
+          &quot;categorycode__c&quot; : &quot;4d0ed959-8a53-98d5-b944-addc436e82c8&quot;,
+          &quot;categorydisplaysequence__c&quot; : 10,
+          &quot;categoryname__c&quot; : &quot;Commodity Commercial Offers&quot;,
+          &quot;customconfiguitemplate__c&quot; : null,
+          &quot;displaysequence__c&quot; : &quot;10&quot;,
+          &quot;formatmask__c&quot; : null,
+          &quot;hasrule__c&quot; : true,
+          &quot;id&quot; : &quot;a0M4K0000000dWCUAY&quot;,
+          &quot;isactive__c&quot; : true,
+          &quot;isconfigurable__c&quot; : true,
+          &quot;ishidden__c&quot; : false,
+          &quot;isnottranslatable__c&quot; : false,
+          &quot;isquerydriven__c&quot; : false,
+          &quot;isreadonly__c&quot; : false,
+          &quot;isrequired__c&quot; : false,
+          &quot;objectid__c&quot; : &quot;01t4K000001Jc4CQAS&quot;,
+          &quot;objecttype__c&quot; : &quot;vlocity_cmt__ObjectClass__c&quot;,
+          &quot;querycode__c&quot; : null,
+          &quot;querylabel__c&quot; : null,
+          &quot;rulemessage__c&quot; : null,
+          &quot;uidisplaytype__c&quot; : &quot;Dropdown&quot;,
+          &quot;value__c&quot; : &quot;Any&quot;,
+          &quot;valuedatatype__c&quot; : &quot;Picklist&quot;,
+          &quot;valuedescription__c&quot; : null,
+          &quot;valueinnumber__c&quot; : null
+        } ]
+      },
+      &quot;Description&quot; : &quot;Fixed energy product based on setting a target margin for a single unit rate.&quot;,
+      &quot;IsActive&quot; : true,
+      &quot;Name&quot; : &quot;Fixed Energy&quot;,
+      &quot;ProductCode&quot; : &quot;PD_FIXED_ENERGY_MARGIN&quot;,
+      &quot;addtocart&quot; : {
+        &quot;rest&quot; : {
+          &quot;link&quot; : &quot;v3/catalogs/COMMODITY/basket&quot;,
+          &quot;method&quot; : &quot;POST&quot;,
+          &quot;params&quot; : {
+            &quot;basketAction&quot; : &quot;AddWithNoConfig&quot;,
+            &quot;context&quot; : &quot;{\&quot;MeterType\&quot;:\&quot;Any\&quot;}&quot;,
+            &quot;offer&quot; : &quot;PD_FIXED_ENERGY_MARGIN&quot;
+          }
+        }
+      },
+      &quot;offerDetailsAction&quot; : {
+        &quot;client&quot; : {
+          &quot;params&quot; : { },
+          &quot;records&quot; : [ ]
+        },
+        &quot;remote&quot; : {
+          &quot;params&quot; : { }
+        },
+        &quot;rest&quot; : {
+          &quot;link&quot; : &quot;/v3/catalogs/COMMODITY/offers/PD_FIXED_ENERGY_MARGIN?context={\&quot;MeterType\&quot;:\&quot;Any\&quot;}&quot;,
+          &quot;method&quot; : &quot;GET&quot;,
+          &quot;params&quot; : { }
+        }
+      },
+      &quot;offerType&quot; : &quot;Product&quot;,
+      &quot;priceResult&quot; : [ {
+        &quot;Amount__c&quot; : 0,
+        &quot;ChargeType__c&quot; : &quot;One-time&quot;,
+        &quot;DisplayText__c&quot; : &quot;based on consumption&quot;,
+        &quot;IsBasePrice__c&quot; : true,
+        &quot;IsVirtualPrice__c&quot; : false,
+        &quot;RecurringFrequency__c&quot; : null,
+        &quot;SubType__c&quot; : &quot;Standard&quot;,
+        &quot;Type__c&quot; : &quot;Price&quot;,
+        &quot;UnitPrice&quot; : 0,
+        &quot;adjustments&quot; : [ ],
+        &quot;baseamount&quot; : 0,
+        &quot;chargeamount&quot; : 0,
+        &quot;effectivefromdatespec&quot; : null,
+        &quot;effectiveuntildatespec&quot; : null,
+        &quot;overrides&quot; : [ ]
+      }, {
+        &quot;Amount__c&quot; : 0,
+        &quot;ChargeType__c&quot; : &quot;Recurring&quot;,
+        &quot;DisplayText__c&quot; : &quot;based on distribution region&quot;,
+        &quot;IsBasePrice__c&quot; : true,
+        &quot;IsVirtualPrice__c&quot; : false,
+        &quot;RecurringFrequency__c&quot; : &quot;Monthly&quot;,
+        &quot;SubType__c&quot; : &quot;Standard&quot;,
+        &quot;Type__c&quot; : &quot;Price&quot;,
+        &quot;adjustments&quot; : [ ],
+        &quot;baseamount&quot; : 0,
+        &quot;chargeamount&quot; : 0,
+        &quot;effectivefromdatespec&quot; : null,
+        &quot;effectiveuntildatespec&quot; : null,
+        &quot;overrides&quot; : [ ]
+      } ]
+    } ]
+  } ]
+}</expectedInputJson>
+    <fieldLevelSecurityEnabled>false</fieldLevelSecurityEnabled>
+    <inputType>JSON</inputType>
+    <name>VEECreateOfferCodeList</name>
+    <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:Offers:addtocart:rest:params:context DESERIALIZE</formulaConverted>
+        <formulaExpression>DESERIALIZE(Offers:addtocart:rest:params:context)</formulaExpression>
+        <formulaResultPath>Offers:Context</formulaResultPath>
+        <formulaSequence>5.0</formulaSequence>
+        <globalKey>VEECreateOfferCodeList286006571909893</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEECreateOfferCodeList</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VEECreateOfferCodeList31501616851386993</globalKey>
+        <inputFieldName>Offers:meterType</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEECreateOfferCodeList</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Offers:meterType</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VEECreateOfferCodeList2767125803800887</globalKey>
+        <inputFieldName>Offers:CatalogCode</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEECreateOfferCodeList</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Offers:CatalogCode</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VEECreateOfferCodeList190662815887074</globalKey>
+        <inputFieldName>Offers:ProductCode</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEECreateOfferCodeList</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Offers:ProductCode</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:Offers:sac var:Offers:start var:Offers:last SUBSTRING</formulaConverted>
+        <formulaExpression>SUBSTRING(Offers:sac,Offers:start,Offers:last)</formulaExpression>
+        <formulaResultPath>Offers:CatalogCode</formulaResultPath>
+        <formulaSequence>4.0</formulaSequence>
+        <globalKey>VEECreateOfferCodeList7860681451479907</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEECreateOfferCodeList</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VEECreateOfferCodeList1702584997486678</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEECreateOfferCodeList</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldFormat>List&lt;Map&gt;</outputFieldFormat>
+        <outputFieldName>Offers</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:Offers:addtocart:rest:link &quot;/basket&quot; STRINGINDEXOF</formulaConverted>
+        <formulaExpression>STRINGINDEXOF(Offers:addtocart:rest:link,&quot;/basket&quot;)</formulaExpression>
+        <formulaResultPath>Offers:last</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>VEECreateOfferCodeList5165893074759524</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEECreateOfferCodeList</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:Offers:addtocart:rest:link &quot;/catalogs&quot; STRINGINDEXOF 10 +</formulaConverted>
+        <formulaExpression>STRINGINDEXOF(Offers:addtocart:rest:link,&quot;/catalogs&quot;)+10</formulaExpression>
+        <formulaResultPath>Offers:start</formulaResultPath>
+        <formulaSequence>3.0</formulaSequence>
+        <globalKey>VEECreateOfferCodeList4982594249337693</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEECreateOfferCodeList</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>var:Offers:Context:MeterType</formulaConverted>
+        <formulaExpression>Offers:Context:MeterType</formulaExpression>
+        <formulaResultPath>Offers:meterType</formulaResultPath>
+        <formulaSequence>6.0</formulaSequence>
+        <globalKey>VEECreateOfferCodeList030870310149088143</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEECreateOfferCodeList</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>var:Offers:addtocart:rest:link</formulaConverted>
+        <formulaExpression>Offers:addtocart:rest:link</formulaExpression>
+        <formulaResultPath>Offers:sac</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>VEECreateOfferCodeList2918264054338311</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEECreateOfferCodeList</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;Offers&quot; : [ {
+    &quot;vlocity_cmt__IsOrderable__c&quot; : true,
+    &quot;vlocity_cmt__SellingStartDate__c&quot; : &quot;2021-01-26T20:00:00.000Z&quot;,
+    &quot;Attachments&quot; : [ {
+      &quot;contentType&quot; : &quot;Image&quot;,
+      &quot;defaultAttachment&quot; : true,
+      &quot;description&quot; : null,
+      &quot;displayConditionsData&quot; : null,
+      &quot;mimeType&quot; : &quot;image/png&quot;,
+      &quot;sequenceNumber&quot; : 10,
+      &quot;title&quot; : &quot;Dual Fuel Test Image&quot;,
+      &quot;url&quot; : &quot;https://lookaftermybills.com/wp-content/uploads/2019/08/electricity-gas-01.png&quot;
+    } ],
+    &quot;AttributeCategory&quot; : {
+      &quot;22eada2e-2351-abff-0986-fa7a01612c84&quot; : [ {
+        &quot;$$AttributeDefinitionEnd$$&quot; : null,
+        &quot;$$AttributeDefinitionStart$$&quot; : null,
+        &quot;attributeRunTimeInfo&quot; : {
+          &quot;dataType&quot; : &quot;Number&quot;,
+          &quot;default&quot; : &quot;1&quot;,
+          &quot;uiDisplayType&quot; : &quot;Number&quot;
+        },
+        &quot;attributecategoryid__c&quot; : &quot;a0O4x0000019ppYEAQ&quot;,
+        &quot;attributecloneable__c&quot; : true,
+        &quot;attributeconfigurable__c&quot; : true,
+        &quot;attributedisplayname__c&quot; : &quot;Usage Attribute&quot;,
+        &quot;attributedisplaysequence__c&quot; : &quot;30&quot;,
+        &quot;attributefilterable__c&quot; : true,
+        &quot;attributegrouptype__c&quot; : null,
+        &quot;attributeid__c&quot; : &quot;a0P4x000002PNVREA4&quot;,
+        &quot;attributeuniquecode__c&quot; : &quot;ATT_USAGE&quot;,
+        &quot;categorycode__c&quot; : &quot;22eada2e-2351-abff-0986-fa7a01612c84&quot;,
+        &quot;categorydisplaysequence__c&quot; : 40,
+        &quot;categoryname__c&quot; : &quot;Usage Pricing&quot;,
+        &quot;customconfiguitemplate__c&quot; : null,
+        &quot;displaysequence__c&quot; : &quot;40&quot;,
+        &quot;formatmask__c&quot; : null,
+        &quot;hasrule__c&quot; : false,
+        &quot;id&quot; : &quot;a0M4x000001AbJwEAK&quot;,
+        &quot;isactive__c&quot; : true,
+        &quot;isconfigurable__c&quot; : false,
+        &quot;ishidden__c&quot; : false,
+        &quot;isnottranslatable__c&quot; : false,
+        &quot;isquerydriven__c&quot; : false,
+        &quot;isreadonly__c&quot; : false,
+        &quot;isrequired__c&quot; : false,
+        &quot;objectid__c&quot; : &quot;01t4x000000C7BlAAK&quot;,
+        &quot;objecttype__c&quot; : &quot;vlocity_cmt__ObjectClass__c&quot;,
+        &quot;querycode__c&quot; : null,
+        &quot;querylabel__c&quot; : null,
+        &quot;rulemessage__c&quot; : null,
+        &quot;uidisplaytype__c&quot; : &quot;Number&quot;,
+        &quot;value__c&quot; : &quot;1&quot;,
+        &quot;valuedatatype__c&quot; : &quot;Number&quot;,
+        &quot;valuedescription__c&quot; : null,
+        &quot;valueinnumber__c&quot; : 1
+      } ],
+      &quot;55c76fca-ebe3-a84c-a1d8-caedb8db8600&quot; : [ {
+        &quot;$$AttributeDefinitionEnd$$&quot; : null,
+        &quot;$$AttributeDefinitionStart$$&quot; : null,
+        &quot;attributeRunTimeInfo&quot; : {
+          &quot;dataType&quot; : &quot;Picklist&quot;,
+          &quot;default&quot; : [ {
+            &quot;displayText&quot; : &quot;Standard&quot;,
+            &quot;id&quot; : &quot;979073c9-3799-571b-007f-f2c47a4bfbbc&quot;,
+            &quot;sequence&quot; : 10,
+            &quot;value&quot; : &quot;Standard&quot;
+          } ],
+          &quot;uiDisplayType&quot; : &quot;Dropdown&quot;,
+          &quot;values&quot; : [ {
+            &quot;displayText&quot; : &quot;Standard&quot;,
+            &quot;id&quot; : &quot;979073c9-3799-571b-007f-f2c47a4bfbbc&quot;,
+            &quot;sequence&quot; : 10,
+            &quot;value&quot; : &quot;Standard&quot;
+          }, {
+            &quot;displayText&quot; : &quot;Prepaid&quot;,
+            &quot;id&quot; : &quot;332e3ab7-e5ec-9561-390a-5507c5e5df90&quot;,
+            &quot;sequence&quot; : 20,
+            &quot;value&quot; : &quot;Prepaid&quot;
+          }, {
+            &quot;displayText&quot; : &quot;Smart&quot;,
+            &quot;id&quot; : &quot;350e1f80-1f55-aa3a-c665-ec09c5c6b852&quot;,
+            &quot;sequence&quot; : 30,
+            &quot;value&quot; : &quot;Smart&quot;
+          } ]
+        },
+        &quot;attributecategoryid__c&quot; : &quot;a0O4x0000019pLwEAI&quot;,
+        &quot;attributecloneable__c&quot; : true,
+        &quot;attributeconfigurable__c&quot; : true,
+        &quot;attributedisplayname__c&quot; : &quot;Meter Type&quot;,
+        &quot;attributedisplaysequence__c&quot; : &quot;10&quot;,
+        &quot;attributefilterable__c&quot; : true,
+        &quot;attributegrouptype__c&quot; : null,
+        &quot;attributeid__c&quot; : &quot;a0P4x000002PNR9EAO&quot;,
+        &quot;attributeuniquecode__c&quot; : &quot;ATT_METER_TYPE&quot;,
+        &quot;categorycode__c&quot; : &quot;55c76fca-ebe3-a84c-a1d8-caedb8db8600&quot;,
+        &quot;categorydisplaysequence__c&quot; : 10,
+        &quot;categoryname__c&quot; : &quot;Commodity Commercial Offers&quot;,
+        &quot;customconfiguitemplate__c&quot; : null,
+        &quot;displaysequence__c&quot; : &quot;10&quot;,
+        &quot;formatmask__c&quot; : null,
+        &quot;hasrule__c&quot; : false,
+        &quot;id&quot; : &quot;a0M4x000001AKlPEAW&quot;,
+        &quot;isactive__c&quot; : true,
+        &quot;isconfigurable__c&quot; : true,
+        &quot;ishidden__c&quot; : false,
+        &quot;isnottranslatable__c&quot; : false,
+        &quot;isquerydriven__c&quot; : false,
+        &quot;isreadonly__c&quot; : false,
+        &quot;isrequired__c&quot; : false,
+        &quot;objectid__c&quot; : &quot;01t4x000000C7BlAAK&quot;,
+        &quot;objecttype__c&quot; : &quot;vlocity_cmt__ObjectClass__c&quot;,
+        &quot;querycode__c&quot; : null,
+        &quot;querylabel__c&quot; : null,
+        &quot;rulemessage__c&quot; : null,
+        &quot;uidisplaytype__c&quot; : &quot;Dropdown&quot;,
+        &quot;value__c&quot; : &quot;Standard&quot;,
+        &quot;valuedatatype__c&quot; : &quot;Picklist&quot;,
+        &quot;valuedescription__c&quot; : null,
+        &quot;valueinnumber__c&quot; : null
+      } ],
+      &quot;61669341-06cd-03a7-48b1-6da083425848&quot; : [ {
+        &quot;$$AttributeDefinitionEnd$$&quot; : null,
+        &quot;$$AttributeDefinitionStart$$&quot; : null,
+        &quot;attributeRunTimeInfo&quot; : {
+          &quot;dataType&quot; : &quot;Picklist&quot;,
+          &quot;default&quot; : [ ],
+          &quot;uiDisplayType&quot; : &quot;Dropdown&quot;,
+          &quot;values&quot; : [ {
+            &quot;displayText&quot; : &quot;Armagh&quot;,
+            &quot;id&quot; : &quot;037d0aa8-3840-8a04-3b26-2c7645716d40&quot;,
+            &quot;sequence&quot; : 10,
+            &quot;value&quot; : &quot;Armagh&quot;
+          }, {
+            &quot;displayText&quot; : &quot;Chichester&quot;,
+            &quot;id&quot; : &quot;977d56a0-3732-0671-f727-91b3dd9fff2d&quot;,
+            &quot;sequence&quot; : 20,
+            &quot;value&quot; : &quot;Chichester&quot;
+          }, {
+            &quot;displayText&quot; : &quot;Derby&quot;,
+            &quot;id&quot; : &quot;d6675d0c-f932-e3c5-4313-fd2110efd248&quot;,
+            &quot;sequence&quot; : 30,
+            &quot;value&quot; : &quot;Derby&quot;
+          }, {
+            &quot;displayText&quot; : &quot;London&quot;,
+            &quot;id&quot; : &quot;3e6915be-2d29-f395-0f0e-37cab6e81773&quot;,
+            &quot;sequence&quot; : 40,
+            &quot;value&quot; : &quot;London&quot;
+          }, {
+            &quot;displayText&quot; : &quot;Salisbury&quot;,
+            &quot;id&quot; : &quot;1b185341-ea70-2c21-f34b-57ffe6d86251&quot;,
+            &quot;sequence&quot; : 50,
+            &quot;value&quot; : &quot;Salisbury&quot;
+          } ]
+        },
+        &quot;attributecategoryid__c&quot; : &quot;a0O4x0000019pLxEAI&quot;,
+        &quot;attributecloneable__c&quot; : true,
+        &quot;attributeconfigurable__c&quot; : true,
+        &quot;attributedisplayname__c&quot; : &quot;Distribution Region&quot;,
+        &quot;attributedisplaysequence__c&quot; : &quot;20&quot;,
+        &quot;attributefilterable__c&quot; : true,
+        &quot;attributegrouptype__c&quot; : null,
+        &quot;attributeid__c&quot; : &quot;a0P4x000002PNREEA4&quot;,
+        &quot;attributeuniquecode__c&quot; : &quot;ATT_DISTRIBUTION_REGION&quot;,
+        &quot;categorycode__c&quot; : &quot;61669341-06cd-03a7-48b1-6da083425848&quot;,
+        &quot;categorydisplaysequence__c&quot; : 20,
+        &quot;categoryname__c&quot; : &quot;Commodity Cost Components&quot;,
+        &quot;customconfiguitemplate__c&quot; : null,
+        &quot;displaysequence__c&quot; : &quot;20&quot;,
+        &quot;formatmask__c&quot; : null,
+        &quot;hasrule__c&quot; : false,
+        &quot;id&quot; : &quot;a0M4x000001AbJvEAK&quot;,
+        &quot;isactive__c&quot; : true,
+        &quot;isconfigurable__c&quot; : true,
+        &quot;ishidden__c&quot; : false,
+        &quot;isnottranslatable__c&quot; : false,
+        &quot;isquerydriven__c&quot; : false,
+        &quot;isreadonly__c&quot; : false,
+        &quot;isrequired__c&quot; : false,
+        &quot;objectid__c&quot; : &quot;01t4x000000C7BlAAK&quot;,
+        &quot;objecttype__c&quot; : &quot;vlocity_cmt__ObjectClass__c&quot;,
+        &quot;querycode__c&quot; : null,
+        &quot;querylabel__c&quot; : null,
+        &quot;rulemessage__c&quot; : null,
+        &quot;uidisplaytype__c&quot; : &quot;Dropdown&quot;,
+        &quot;value__c&quot; : null,
+        &quot;valuedatatype__c&quot; : &quot;Picklist&quot;,
+        &quot;valuedescription__c&quot; : null,
+        &quot;valueinnumber__c&quot; : null
+      } ]
+    },
+    &quot;IsActive&quot; : true,
+    &quot;Name&quot; : &quot;Dual Fuel (Elec &amp; Gas) Tariff&quot;,
+    &quot;ProductCode&quot; : &quot;PD_DUAL_FUEL_ELEC_GAS_TARIFF&quot;,
+    &quot;addtocart&quot; : {
+      &quot;rest&quot; : {
+        &quot;link&quot; : &quot;v3/catalogs/CONSUMERDUALFUEL/basket&quot;,
+        &quot;method&quot; : &quot;POST&quot;,
+        &quot;params&quot; : {
+          &quot;basketAction&quot; : &quot;AddWithNoConfig&quot;,
+          &quot;context&quot; : &quot;{\&quot;MeterType\&quot;:\&quot;Smart\&quot;}&quot;,
+          &quot;offer&quot; : &quot;PD_DUAL_FUEL_ELEC_GAS_TARIFF&quot;
+        }
+      }
+    },
+    &quot;offerDetailsAction&quot; : {
+      &quot;client&quot; : {
+        &quot;params&quot; : { },
+        &quot;records&quot; : [ ]
+      },
+      &quot;remote&quot; : {
+        &quot;params&quot; : { }
+      },
+      &quot;rest&quot; : {
+        &quot;link&quot; : &quot;/v3/catalogs/CONSUMERDUALFUEL/offers/PD_DUAL_FUEL_ELEC_GAS_TARIFF?context={\&quot;MeterType\&quot;:\&quot;Smart\&quot;}&quot;,
+        &quot;method&quot; : &quot;GET&quot;,
+        &quot;params&quot; : { }
+      }
+    },
+    &quot;offerType&quot; : &quot;Product&quot;,
+    &quot;priceResult&quot; : [ {
+      &quot;Amount__c&quot; : 0,
+      &quot;ChargeType__c&quot; : &quot;One-time&quot;,
+      &quot;DisplayText__c&quot; : &quot;Based on consumption&quot;,
+      &quot;IsBasePrice__c&quot; : true,
+      &quot;IsVirtualPrice__c&quot; : false,
+      &quot;RecurringFrequency__c&quot; : null,
+      &quot;SubType__c&quot; : &quot;Standard&quot;,
+      &quot;Type__c&quot; : &quot;Price&quot;,
+      &quot;UnitPrice&quot; : 0,
+      &quot;adjustments&quot; : [ ],
+      &quot;baseamount&quot; : 0,
+      &quot;chargeamount&quot; : 0,
+      &quot;effectivefromdatespec&quot; : null,
+      &quot;effectiveuntildatespec&quot; : null,
+      &quot;overrides&quot; : [ ]
+    }, {
+      &quot;Amount__c&quot; : 0,
+      &quot;ChargeType__c&quot; : &quot;Recurring&quot;,
+      &quot;DisplayText__c&quot; : &quot;Based on distribution region&quot;,
+      &quot;IsBasePrice__c&quot; : true,
+      &quot;IsVirtualPrice__c&quot; : false,
+      &quot;RecurringFrequency__c&quot; : &quot;Monthly&quot;,
+      &quot;SubType__c&quot; : &quot;Standard&quot;,
+      &quot;Type__c&quot; : &quot;Price&quot;,
+      &quot;adjustments&quot; : [ ],
+      &quot;baseamount&quot; : 0,
+      &quot;chargeamount&quot; : 0,
+      &quot;effectivefromdatespec&quot; : null,
+      &quot;effectiveuntildatespec&quot; : null,
+      &quot;overrides&quot; : [ ]
+    } ]
+  } ]
+}</previewJsonData>
+    <processSuperBulk>false</processSuperBulk>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <rollbackOnError>false</rollbackOnError>
+    <sourceObject>json</sourceObject>
+    <sourceObjectDefault>false</sourceObjectDefault>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Transform</type>
+    <uniqueName>VEECreateOfferCodeList_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <xmlDeclarationRemoved>false</xmlDeclarationRemoved>
+</OmniDataTransform>

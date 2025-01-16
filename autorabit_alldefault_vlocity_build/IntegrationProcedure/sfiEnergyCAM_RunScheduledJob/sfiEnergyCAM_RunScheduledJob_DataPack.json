@@ -1,0 +1,29 @@
+{
+    "CustomJavaScript": "sfiEnergyCAM_RunScheduledJob_SampleInput.json",
+    "Description": "This VIP is used to run the Vlocity Scheduled Job.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergyCAMRunScheduledJob",
+    "OmniProcessElement": [
+        "sfiEnergyCAM_RunScheduledJob_Element_RunScheduledJob.json",
+        "sfiEnergyCAM_RunScheduledJob_Element_RunBatchJob.json",
+        "sfiEnergyCAM_RunScheduledJob_Element_ResponseSuccess.json",
+        "sfiEnergyCAM_RunScheduledJob_Element_ResponseFailure.json",
+        "sfiEnergyCAM_RunScheduledJob_Element_BatchResponseSuccess.json",
+        "sfiEnergyCAM_RunScheduledJob_Element_BatchResponseFailure.json"
+    ],
+    "OmniProcessKey": "sfiEnergyCAM_RunScheduledJob",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergyCAM_RunScheduledJob_PropertySetConfig.json",
+    "SubType": "RunScheduledJob",
+    "Type": "sfiEnergyCAM",
+    "UniqueName": "sfiEnergyCAM_RunScheduledJob_Procedure_3",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergyCAM/RunScheduledJob/Procedure"
+}

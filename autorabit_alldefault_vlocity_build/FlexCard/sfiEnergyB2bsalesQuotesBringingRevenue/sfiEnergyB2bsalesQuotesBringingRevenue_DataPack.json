@@ -1,0 +1,45 @@
+{
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 6,
+                    "name": "recordId",
+                    "val": "006Ws000001MQJTIA4"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "sfiEnergyB2bsalesGetQuotesBringingRevenue",
+                "bundleType": "",
+                "dsDelay": "",
+                "inputMap": {
+                    "OpportunityId": "{recordId}"
+                },
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyB2bsalesQuotesBringingRevenue",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyB2bsalesQuotesBringingRevenue/Salesforce/1/1632271113320",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyB2bsalesQuotesBringingRevenue.json",
+    "SampleDataSourceResponse": "[{\"quoteList\":\"[]\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "sfiEnergyB2bsalesQuotesBringingRevenue_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyB2bsalesQuotesBringingRevenue"
+}

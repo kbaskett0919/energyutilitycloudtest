@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergyExtractBussinessAccountRecId",
+    "OmniProcessElement": [
+        "sfiEnergy_ExtractBussinessAccountRecId_Element_DRExtractBussinessAccountRecId.json",
+        "sfiEnergy_ExtractBussinessAccountRecId_Element_BussinessAccountRecIdResponse.json"
+    ],
+    "OmniProcessKey": "sfiEnergy_ExtractBussinessAccountRecId",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergy_ExtractBussinessAccountRecId_PropertySetConfig.json",
+    "SubType": "ExtractBussinessAccountRecId",
+    "Type": "sfiEnergy",
+    "UniqueName": "sfiEnergy_ExtractBussinessAccountRecId_Procedure_3",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergy/ExtractBussinessAccountRecId/Procedure"
+}

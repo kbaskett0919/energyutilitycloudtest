@@ -1,0 +1,100 @@
+[
+    {
+        "FormulaExpression": "IF(%CustomerSelection:AccountType% = 'Consumer', %DRId_Account%, %BusinessAccountId%)",
+        "FormulaResultPath": "Account_Id",
+        "FormulaSequence": 1,
+        "GlobalKey": "VPL-InsertAccountContactRelationCustom6005",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-InsertAccountContactRelation",
+        "OmniDataTransformationId": {
+            "Name": "VPLInsertAccountContactRelation",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLInsertAccountContactRelation",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-InsertAccountContactRelationCustoma1V3h000002QDhLEAWItem2",
+        "InputFieldName": "Account_Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-InsertAccountContactRelation",
+        "OmniDataTransformationId": {
+            "Name": "VPLInsertAccountContactRelation",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLInsertAccountContactRelation",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AccountId",
+        "OutputObjectName": "AccountContactRelation",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-InsertAccountContactRelationCustoma1V3h000002QDhLEAWItem3",
+        "InputFieldName": "DRId_Contact",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-InsertAccountContactRelation",
+        "OmniDataTransformationId": {
+            "Name": "VPLInsertAccountContactRelation",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLInsertAccountContactRelation",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ContactId",
+        "OutputObjectName": "AccountContactRelation",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "VPL-InsertAccountContactRelationCustoma1V3h000002QDhLEAWItem0",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "VPL-InsertAccountContactRelation",
+        "OmniDataTransformationId": {
+            "Name": "VPLInsertAccountContactRelation",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLInsertAccountContactRelation",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "AccountContactRelation",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "Primary Contact",
+        "GlobalKey": "VPL-InsertAccountContactRelationCustoma1V3h000002QDhLEAWItem4",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-InsertAccountContactRelation",
+        "OmniDataTransformationId": {
+            "Name": "VPLInsertAccountContactRelation",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLInsertAccountContactRelation",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Roles",
+        "OutputObjectName": "AccountContactRelation",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

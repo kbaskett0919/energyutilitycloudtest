@@ -1,0 +1,38 @@
+{
+    "Description": "Pre Confirm Text Block with Customer Details",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "PreConfirmTxtBlk1",
+    "OmniProcessId": {
+        "Name": "VPLMoveIn-WithoutCPQ",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/vplEnergy/MoveIn/Multi-Language",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "PreConfirm",
+        "OmniProcessId": {
+            "Name": "VPLMoveIn-WithoutCPQ",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/vplEnergy/MoveIn/Multi-Language",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/vplEnergy/MoveIn/Multi-Language/PreConfirm",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "PreConfirm",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "text": "<p><strong>&nbsp;%AccountDisplayName%</strong> will be responsible for</p>\n<p></p>",
+        "textKey": "sfiEnergyConsoleMoveInPreConfirmTxt1"
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/vplEnergy/MoveIn/Multi-Language/PreConfirmTxtBlk1"
+}

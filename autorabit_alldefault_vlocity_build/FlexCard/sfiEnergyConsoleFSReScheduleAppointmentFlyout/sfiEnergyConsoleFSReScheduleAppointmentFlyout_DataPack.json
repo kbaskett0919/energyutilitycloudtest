@@ -1,0 +1,35 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "sfiEnergyConsoleFSReScheduleAptFlyout/CME_E_U/1/1625644516937",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "Custom",
+            "value": {
+                "body": "[{\n\t\t\"Cycle\": \"Dec 2019\",\n\t\t\"Temperature\": \"H 61° / L 44°\",\n\t\t\"Electricity\": \"164 kWh\",\n\t\t\"ElectricityCost\": \"$35.12\",\n\t\t\"NaturalGas\": \"41 therms\",\n\t\t\"NaturalGasCost\": \"$70.34\"\n\t},\n\t{\n\t\t\"Cycle\": \"Nov 2019\",\n\t\t\"Temperature\": \"H 69° / L 46°\",\n\t\t\"Electricity\": \"121 kWh\",\n\t\t\"ElectricityCost\": \"$26.18\",\n\t\t\"NaturalGas\": \"44 therms\",\n\t\t\"NaturalGasCost\": \"$75.65\"\n\t},\n\t{\n\t\t\"Cycle\": \"Oct 2019\",\n\t\t\"Temperature\": \"H 77° / L 47°\",\n\t\t\"Electricity\": \"98 kWh\",\n\t\t\"ElectricityCost\": \"$21.12\",\n\t\t\"NaturalGas\": \"46 therms\",\n\t\t\"NaturalGasCost\": \"$77.23\"\n\t},\n\t{\n\t\t\"Cycle\": \"Sep 2019\",\n\t\t\"Temperature\": \"H 82° / L 48°\",\n\t\t\"Electricity\": \"73 kWh\",\n\t\t\"ElectricityCost\": \"$17.23\",\n\t\t\"NaturalGas\": \"43 therms\",\n\t\t\"NaturalGasCost\": \"$73.65\"\n\t},\n\t{\n\t\t\"Cycle\": \"Aug 2019\",\n\t\t\"Temperature\": \"H 81° / L 48°\",\n\t\t\"Electricity\": \"73 kWh\",\n\t\t\"ElectricityCost\": \"$17.23\",\n\t\t\"NaturalGas\": \"42 therms\",\n\t\t\"NaturalGasCost\": \"$72.12\"\n\t},\n\t{\n\t\t\"Cycle\": \"July 2019\",\n\t\t\"Temperature\": \"H 80° / L 46°\",\n\t\t\"Electricity\": \"75 kWh\",\n\t\t\"ElectricityCost\": \"$18.23\",\n\t\t\"NaturalGas\": \"44 therms\",\n\t\t\"NaturalGasCost\": \"$74.76\"\n\t},\n\t{\n\t\t\"Cycle\": \"June 2019\",\n\t\t\"Temperature\": \"H 76° / L 47°\",\n\t\t\"Electricity\": \"78 kWh\",\n\t\t\"ElectricityCost\": \"$18.66\",\n\t\t\"NaturalGas\": \"39 therms\",\n\t\t\"NaturalGasCost\": \"$69.13\"\n\t},\n\t{\n\t\t\"Cycle\": \"May 2019\",\n\t\t\"Temperature\": \"H 76° / L 44°\",\n\t\t\"Electricity\": \"74 kWh\",\n\t\t\"ElectricityCost\": \"$17.23\",\n\t\t\"NaturalGas\": \"39 therms\",\n\t\t\"NaturalGasCost\": \"$69.13\"\n\t},\n\t{\n\t\t\"Cycle\": \"Apr 2019\",\n\t\t\"Temperature\": \"H 76° / L 43°\",\n\t\t\"Electricity\": \"74 kWh\",\n\t\t\"ElectricityCost\": \"$17.23\",\n\t\t\"NaturalGas\": \"39 therms\",\n\t\t\"NaturalGasCost\": \"$69.13\"\n\t},\n\t{\n\t\t\"Cycle\": \"Mar 2019\",\n\t\t\"Temperature\": \"H 76° / L 44°\",\n\t\t\"Electricity\": \"78 kWh\",\n\t\t\"ElectricityCost\": \"$18.66\",\n\t\t\"NaturalGas\": \"39 therms\",\n\t\t\"NaturalGasCost\": \"$69.13\"\n\t},\n\t{\n\t\t\"Cycle\": \"Feb 2019\",\n\t\t\"Temperature\": \"H 80° / L 47°\",\n\t\t\"Electricity\": \"75 kWh\",\n\t\t\"ElectricityCost\": \"$18.23\",\n\t\t\"NaturalGas\": \"44 therms\",\n\t\t\"NaturalGasCost\": \"$74.76\"\n\t},\n\t{\n\t\t\"Cycle\": \"Jan 2019\",\n\t\t\"Temperature\": \"H 81° / L 48°\",\n\t\t\"Electricity\": \"73 kWh\",\n\t\t\"ElectricityCost\": \"$17.23\",\n\t\t\"NaturalGas\": \"42 therms\",\n\t\t\"NaturalGasCost\": \"$72.12\"\n\t}]\n",
+                "dsDelay": 0,
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "FlexCard used to show a modal popup when user clicks on Re-Schedule button on Appointment",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyConsoleFSReScheduleAppointmentFlyout",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyConsoleFSReScheduleAppointmentFlyout/CME_E_U/2/1629196660463",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyConsoleFSReScheduleAppointmentFlyout.json",
+    "SampleDataSourceResponse": "{\"workType\":null,\"startDate\":\"Mon, May 17 08:00 AM\",\"schedDateTime\":\"Mon, May 17 08:00 AM - 09:00 AM\",\"location\":null,\"endDate\":\"09:00 AM\",\"contactPerson\":null,\"caseNumber\":\"00001008\",\"caseId\":\"5003h000005orF9AAI\",\"appointmentStatus\":\"In Progress\"}",
+    "StylingConfiguration": "",
+    "UniqueName": "sfiEnergyConsoleFSReScheduleAppointmentFlyout_CME_E_U_2",
+    "VersionNumber": 2,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyConsoleFSReScheduleAppointmentFlyout"
+}

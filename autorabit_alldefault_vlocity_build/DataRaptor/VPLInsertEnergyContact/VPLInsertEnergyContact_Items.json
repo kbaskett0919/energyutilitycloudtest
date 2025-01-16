@@ -1,0 +1,336 @@
+[
+    {
+        "FormulaExpression": "IF(OR(%BillingPreferences:MailingAddres% == 'DifferentAddress', %BillingPreferences:MailingAddresss% == 'DifferentAddress'),%BillingPreferences:MailingCity%, %SelectPremises:ServiceLocation-Block:PremCity%)",
+        "FormulaResultPath": "FML_MailingCity",
+        "FormulaSequence": 2,
+        "GlobalKey": "VPL-InsertEnergyContactCustom6323",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-InsertEnergyContact",
+        "OmniDataTransformationId": {
+            "Name": "VPLInsertEnergyContact",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLInsertEnergyContact",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(OR(%BillingPreferences:MailingAddres% == 'DifferentAddress', %BillingPreferences:MailingAddresss% == 'DifferentAddress'),%BillingPreferences:MailingCountry%, %SelectPremises:ServiceLocation-Block:PremCountry%)",
+        "FormulaResultPath": "FML_MailingCountry",
+        "FormulaSequence": 4,
+        "GlobalKey": "VPL-InsertEnergyContactCustom7787",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-InsertEnergyContact",
+        "OmniDataTransformationId": {
+            "Name": "VPLInsertEnergyContact",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLInsertEnergyContact",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(OR(%BillingPreferences:MailingAddres% == 'DifferentAddress', %BillingPreferences:MailingAddresss% == 'DifferentAddress'),%BillingPreferences:MailingState%, %SelectPremises:ServiceLocation-Block:PremState%)",
+        "FormulaResultPath": "FML_MailingState",
+        "FormulaSequence": 3,
+        "GlobalKey": "VPL-InsertEnergyContactCustom4714",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-InsertEnergyContact",
+        "OmniDataTransformationId": {
+            "Name": "VPLInsertEnergyContact",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLInsertEnergyContact",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(OR(%BillingPreferences:MailingAddres% == 'DifferentAddress', %BillingPreferences:MailingAddresss% == 'DifferentAddress'),%BillingPreferences:MailingStreet%, %SelectPremises:ServiceLocation-Block:PremiseStreetAddress%)",
+        "FormulaResultPath": "FML_MailingStreet",
+        "FormulaSequence": 1,
+        "GlobalKey": "VPL-InsertEnergyContactCustom1195",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-InsertEnergyContact",
+        "OmniDataTransformationId": {
+            "Name": "VPLInsertEnergyContact",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLInsertEnergyContact",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(OR(%BillingPreferences:MailingAddres% == 'DifferentAddress', %BillingPreferences:MailingAddresss% == 'DifferentAddress'),%BillingPreferences:MailingZipCode%, %SelectPremises:ServiceLocation-Block:PremPostalCode%)",
+        "FormulaResultPath": "FML_MailingPostalCode",
+        "FormulaSequence": 5,
+        "GlobalKey": "VPL-InsertEnergyContactCustom454",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-InsertEnergyContact",
+        "OmniDataTransformationId": {
+            "Name": "VPLInsertEnergyContact",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLInsertEnergyContact",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-InsertEnergyContactCustom3155",
+        "InputFieldName": "CustomerSelection:NewCustomerDetails:SSN",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-InsertEnergyContact",
+        "OmniDataTransformationId": {
+            "Name": "VPLInsertEnergyContact",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLInsertEnergyContact",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__SSN__c",
+        "OutputObjectName": "Contact",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-InsertEnergyContactCustom5143",
+        "InputFieldName": "CustomerSelection:NewCustomerDetails:CustomerDOB",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-InsertEnergyContact",
+        "OmniDataTransformationId": {
+            "Name": "VPLInsertEnergyContact",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLInsertEnergyContact",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Birthdate",
+        "OutputObjectName": "Contact",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-InsertEnergyContactCustom3748",
+        "InputFieldName": "CustomerSelection:NewCustomerDetails:CustomerEmail",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-InsertEnergyContact",
+        "OmniDataTransformationId": {
+            "Name": "VPLInsertEnergyContact",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLInsertEnergyContact",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Email",
+        "OutputObjectName": "Contact",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-InsertEnergyContactCustom8653",
+        "InputFieldName": "CustomerSelection:NewCustomerDetails:CustomerFirstName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-InsertEnergyContact",
+        "OmniDataTransformationId": {
+            "Name": "VPLInsertEnergyContact",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLInsertEnergyContact",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "FirstName",
+        "OutputObjectName": "Contact",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "VPL-InsertEnergyContactCustom2768",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "VPL-InsertEnergyContact",
+        "OmniDataTransformationId": {
+            "Name": "VPLInsertEnergyContact",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLInsertEnergyContact",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "Contact",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-InsertEnergyContactCustom3242",
+        "InputFieldName": "CustomerSelection:NewCustomerDetails:CustomerLastName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-InsertEnergyContact",
+        "OmniDataTransformationId": {
+            "Name": "VPLInsertEnergyContact",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLInsertEnergyContact",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "LastName",
+        "OutputObjectName": "Contact",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-InsertEnergyContactCustom8853",
+        "InputFieldName": "FML_MailingCity",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-InsertEnergyContact",
+        "OmniDataTransformationId": {
+            "Name": "VPLInsertEnergyContact",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLInsertEnergyContact",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "MailingCity",
+        "OutputObjectName": "Contact",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-InsertEnergyContactCustom1574",
+        "InputFieldName": "FML_MailingCountry",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-InsertEnergyContact",
+        "OmniDataTransformationId": {
+            "Name": "VPLInsertEnergyContact",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLInsertEnergyContact",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "MailingCountry",
+        "OutputObjectName": "Contact",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-InsertEnergyContactCustom8038",
+        "InputFieldName": "FML_MailingPostalCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-InsertEnergyContact",
+        "OmniDataTransformationId": {
+            "Name": "VPLInsertEnergyContact",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLInsertEnergyContact",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "MailingPostalCode",
+        "OutputObjectName": "Contact",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-InsertEnergyContactCustom7464",
+        "InputFieldName": "FML_MailingState",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-InsertEnergyContact",
+        "OmniDataTransformationId": {
+            "Name": "VPLInsertEnergyContact",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLInsertEnergyContact",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "MailingState",
+        "OutputObjectName": "Contact",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-InsertEnergyContactCustom4987",
+        "InputFieldName": "FML_MailingStreet",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-InsertEnergyContact",
+        "OmniDataTransformationId": {
+            "Name": "VPLInsertEnergyContact",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLInsertEnergyContact",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "MailingStreet",
+        "OutputObjectName": "Contact",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-InsertEnergyContactCustom3076",
+        "InputFieldName": "CustomerSelection:NewCustomerDetails:CustomerPhone",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-InsertEnergyContact",
+        "OmniDataTransformationId": {
+            "Name": "VPLInsertEnergyContact",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLInsertEnergyContact",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Phone",
+        "OutputObjectName": "Contact",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

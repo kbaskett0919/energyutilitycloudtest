@@ -1,0 +1,42 @@
+[
+    {
+        "FormulaExpression": "CONCAT(\"(\",%productCodesList%,\")\")",
+        "FormulaResultPath": "productCodes",
+        "FormulaSequence": 1,
+        "GlobalKey": "sfiEnergyCAMTransformProductsCodes5740995453525148",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyCAMTransformProductsCodes",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyCAMTransformProductsCodes",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyCAMTransformProductsCodes",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyCAMTransformProductsCodes48687979132567305",
+        "InputFieldName": "productCodes",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyCAMTransformProductsCodes",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyCAMTransformProductsCodes",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyCAMTransformProductsCodes",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "productCodesList",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

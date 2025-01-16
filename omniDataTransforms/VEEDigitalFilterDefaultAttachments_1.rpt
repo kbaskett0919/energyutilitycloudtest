@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniDataTransform xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <assignmentRulesUsed>false</assignmentRulesUsed>
+    <deletedOnSuccess>false</deletedOnSuccess>
+    <errorIgnored>false</errorIgnored>
+    <fieldLevelSecurityEnabled>false</fieldLevelSecurityEnabled>
+    <inputType>JSON</inputType>
+    <name>VEEDigitalFilterDefaultAttachments</name>
+    <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VEEDigitalFilterDefaultAttachmentsCustoma1V4x000009nHxIEAUItem1</globalKey>
+        <inputFieldName>defaultAttachments</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalFilterDefaultAttachments</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Att:defaultAttachments</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| | var:Attachments LIST &apos;default/\/\/==/\/\/true&apos; FILTER</formulaConverted>
+        <formulaExpression>FILTER(LIST(Attachments),&apos;default == true&apos;)</formulaExpression>
+        <formulaResultPath>defaultAttachments</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>VEEDigitalFilterDefaultAttachmentsCustoma1V4x000009nHxIEAUItem0</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalFilterDefaultAttachments</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VEEDigitalFilterDefaultAttachmentsCustoma1V4x000009nHxIEAUItem2</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalFilterDefaultAttachments</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldFormat>List&lt;Map&gt;</outputFieldFormat>
+        <outputFieldName>Att</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;Attachments&quot; : [ {
+    &quot;ProductCode&quot; : &quot;PD_GREEN_ENERGY_TARIFF&quot;,
+    &quot;default&quot; : false,
+    &quot;url&quot; : &quot;https://seeklogo.com/images/G/green-energy-logo-CA7B8C29E9-seeklogo.com.png&quot;
+  }, {
+    &quot;ProductCode&quot; : &quot;PD_GREEN_ENERGY_TARIFF1&quot;,
+    &quot;default&quot; : true,
+    &quot;url&quot; : &quot;https://seeklogo.com/images/G/green-energy-logo-CA7B8C29E9-seeklogo.com.png&quot;
+  }, {
+    &quot;ProductCode&quot; : &quot;PD_GREEN_ENERGY_TARIFF1&quot;,
+    &quot;default&quot; : false,
+    &quot;url&quot; : &quot;https://thumbs.dreamstime.com/z/green-energy-logo-design-element-power-icon-symbol-designs-156214865.jpg&quot;
+  }, {
+    &quot;ProductCode&quot; : &quot;PD_SMART_ELEC_TARIFF&quot;
+  }, {
+    &quot;ProductCode&quot; : &quot;PD_DAY_NIGHT_TARIFF&quot;,
+    &quot;default&quot; : false,
+    &quot;url&quot; : &quot;https://marketplace-images-production.s3-us-west-2.amazonaws.com/vault/items/preview-53b400cf-5edc-4996-b9a5-4c240a140b28-1180x660-gPpuz.png&quot;
+  }, {
+    &quot;ProductCode&quot; : &quot;PD_PREPAID_ELECTRICITY_TARIFF&quot;,
+    &quot;default&quot; : false,
+    &quot;url&quot; : &quot;http://www.swec.org/assets/uploads/SouthwestPrepaid_Logo_2-01.jpg&quot;
+  } ]
+}</previewJsonData>
+    <processSuperBulk>false</processSuperBulk>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <responseCacheType>Org Cache</responseCacheType>
+    <rollbackOnError>false</rollbackOnError>
+    <sourceObject>json</sourceObject>
+    <sourceObjectDefault>false</sourceObjectDefault>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Transform</type>
+    <uniqueName>VEEDigitalFilterDefaultAttachments_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <xmlDeclarationRemoved>false</xmlDeclarationRemoved>
+</OmniDataTransform>

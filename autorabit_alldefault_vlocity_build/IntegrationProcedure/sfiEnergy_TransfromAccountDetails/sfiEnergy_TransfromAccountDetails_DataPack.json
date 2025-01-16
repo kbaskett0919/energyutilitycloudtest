@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "sfiEnergy_TransfromAccountDetails_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergySelfServiceTransfromAccountDetails",
+    "OmniProcessElement": [
+        "sfiEnergy_TransfromAccountDetails_Element_DRTransfromDetails.json",
+        "sfiEnergy_TransfromAccountDetails_Element_TransformedResponse.json"
+    ],
+    "OmniProcessKey": "sfiEnergy_TransfromAccountDetails",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergy_TransfromAccountDetails_PropertySetConfig.json",
+    "SubType": "TransfromAccountDetails",
+    "Type": "sfiEnergy",
+    "UniqueName": "sfiEnergy_TransfromAccountDetails_Procedure_5",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergy/TransfromAccountDetails/Procedure"
+}

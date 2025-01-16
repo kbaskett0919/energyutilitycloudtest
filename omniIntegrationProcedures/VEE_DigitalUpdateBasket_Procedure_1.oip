@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniIntegrationProcedure xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customJavaScript>{&quot;cartContextKey&quot;:&quot;1c749d9faeda47d5bc944b815d9eb30c&quot;,&quot;elementName&quot;:&quot;VIPUpdateBasketWithAddOns&quot;,&quot;meterType&quot;:&quot;Standard&quot;,&quot;omniScriptId&quot;:&quot;0jNSG0000004YCn2AM&quot;,&quot;selectedCatalogCode&quot;:&quot;CONSUMERGAS&quot;,&quot;transformAddOnOffers&quot;:{&quot;addOnProducts&quot;:[{&quot;CatalogCode&quot;:&quot;EUADDONS&quot;,&quot;ChargeType&quot;:&quot;Recurring&quot;,&quot;Id&quot;:&quot;REC0&quot;,&quot;Name&quot;:&quot;Boiler Insurance&quot;,&quot;Price&quot;:25,&quot;_flex&quot;:{&quot;state0element0block_element1block_element0block_element0&quot;:false,&quot;state0element0block_element1block_element0block_element0_child&quot;:false,&quot;state0element0block_element1block_element0block_element1&quot;:true,&quot;state0element0block_element1block_element0block_element1_child&quot;:true,&quot;state0element0block_element1block_element2block_element1&quot;:false,&quot;state0element0block_element1block_element2block_element1_child&quot;:false,&quot;state0element0block_element1block_element2block_element2&quot;:true,&quot;state0element0block_element1block_element2block_element2_child&quot;:true,&quot;uniqueKey&quot;:&quot;REC0&quot;},&quot;description&quot;:&quot;You’ve got an expensive boiler, need to make sure your policy covers the cost of replacing it if it breaks.&quot;,&quot;isAddedToCart&quot;:true,&quot;productCode&quot;:&quot;AD_BOILER_INSURANCE&quot;,&quot;uniqueKey&quot;:&quot;REC0&quot;},{&quot;CatalogCode&quot;:&quot;EUADDONS&quot;,&quot;ChargeType&quot;:&quot;One-time&quot;,&quot;Id&quot;:&quot;REC1&quot;,&quot;Name&quot;:&quot;Energy Audit&quot;,&quot;Price&quot;:49,&quot;_flex&quot;:{&quot;state0element0block_element1block_element0block_element0&quot;:false,&quot;state0element0block_element1block_element0block_element0_child&quot;:false,&quot;state0element0block_element1block_element0block_element1&quot;:true,&quot;state0element0block_element1block_element0block_element1_child&quot;:true,&quot;state0element0block_element1block_element2block_element1&quot;:true,&quot;state0element0block_element1block_element2block_element1_child&quot;:true,&quot;state0element0block_element1block_element2block_element2&quot;:false,&quot;state0element0block_element1block_element2block_element2_child&quot;:false,&quot;uniqueKey&quot;:&quot;REC1&quot;},&quot;description&quot;:&quot;Find out about your energy consumption, identify ways to make it more efficient. helps to save your utility bills.&quot;,&quot;isAddedToCart&quot;:true,&quot;productCode&quot;:&quot;AD_ENERGY_AUDIT&quot;,&quot;uniqueKey&quot;:&quot;REC1&quot;},{&quot;CatalogCode&quot;:&quot;EUADDONS&quot;,&quot;ChargeType&quot;:&quot;One-time&quot;,&quot;Id&quot;:&quot;REC2&quot;,&quot;Name&quot;:&quot;Smart Thermostat&quot;,&quot;Price&quot;:199,&quot;_flex&quot;:{&quot;state0element0block_element1block_element0block_element0&quot;:false,&quot;state0element0block_element1block_element0block_element0_child&quot;:false,&quot;state0element0block_element1block_element0block_element1&quot;:true,&quot;state0element0block_element1block_element0block_element1_child&quot;:true,&quot;state0element0block_element1block_element2block_element1&quot;:true,&quot;state0element0block_element1block_element2block_element1_child&quot;:true,&quot;state0element0block_element1block_element2block_element2&quot;:false,&quot;state0element0block_element1block_element2block_element2_child&quot;:false,&quot;uniqueKey&quot;:&quot;REC2&quot;},&quot;description&quot;:&quot;Host of connectivity options, from tablets, to mobile, move it to anywhere, can be controlled directly and remotely.&quot;,&quot;isAddedToCart&quot;:false,&quot;productCode&quot;:&quot;AD_SMART_THERMOSTAT&quot;,&quot;uniqueKey&quot;:&quot;REC2&quot;},{&quot;CatalogCode&quot;:&quot;EUADDONS&quot;,&quot;ChargeType&quot;:&quot;One-time&quot;,&quot;Id&quot;:&quot;REC3&quot;,&quot;Name&quot;:&quot;Solar Panel Starter kit&quot;,&quot;Price&quot;:2200,&quot;_flex&quot;:{&quot;state0element0block_element1block_element0block_element0&quot;:false,&quot;state0element0block_element1block_element0block_element0_child&quot;:false,&quot;state0element0block_element1block_element0block_element1&quot;:true,&quot;state0element0block_element1block_element0block_element1_child&quot;:true,&quot;state0element0block_element1block_element2block_element1&quot;:true,&quot;state0element0block_element1block_element2block_element1_child&quot;:true,&quot;state0element0block_element1block_element2block_element2&quot;:false,&quot;state0element0block_element1block_element2block_element2_child&quot;:false,&quot;uniqueKey&quot;:&quot;REC3&quot;},&quot;description&quot;:&quot;4 kW Solar PV System Without Battery, 12 yrs Warranty, 25 Yrs Guarantee, Online Monitoring.&quot;,&quot;isAddedToCart&quot;:false,&quot;productCode&quot;:&quot;AD_SOLAR_PANELS&quot;,&quot;uniqueKey&quot;:&quot;REC3&quot;}]}}</customJavaScript>
+    <elementTypeComponentMapping>{&quot;ElementTypeToHTMLTemplateList&quot;:[]}</elementTypeComponentMapping>
+    <isActive>false</isActive>
+    <isIntegrationProcedure>true</isIntegrationProcedure>
+    <isMetadataCacheDisabled>false</isMetadataCacheDisabled>
+    <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+    <isTestProcedure>false</isTestProcedure>
+    <isWebCompEnabled>false</isWebCompEnabled>
+    <language>Procedure</language>
+    <name>VEEDigitalUpdateBasket</name>
+    <omniProcessElements>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>AddChildProducts</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;actionMessage&quot; : &quot;&quot;,
+  &quot;additionalChainableResponse&quot; : { },
+  &quot;additionalInput&quot; : {
+    &quot;apiName&quot; : &quot;basketOperations&quot;,
+    &quot;basketAction&quot; : &quot;addWithNoConfig&quot;,
+    &quot;cartContextKey&quot; : &quot;%cartContextKey%&quot;,
+    &quot;catalogCode&quot; : &quot;%selectedCatalogCode%&quot;,
+    &quot;context&quot; : &quot;=TOSTRING(CONCAT(&apos;{\&quot;MeterType\&quot;:\&quot;&apos;,%meterType%,&apos;\&quot;}&apos;))&quot;,
+    &quot;methodName&quot; : &quot;addWithNoConfig&quot;,
+    &quot;offer&quot; : &quot;%selectedAddOns%&quot;
+  },
+  &quot;additionalOutput&quot; : {
+    &quot;result&quot; : &quot;=DESERIALIZE(%AddChildProducts:result%)&quot;
+  },
+  &quot;chainOnStep&quot; : false,
+  &quot;disOnTplt&quot; : false,
+  &quot;executionConditionalFormula&quot; : &quot;ISNOTBLANK(%selectedAddOns%)&quot;,
+  &quot;failOnStepError&quot; : false,
+  &quot;failureConditionalFormula&quot; : &quot;&quot;,
+  &quot;failureResponse&quot; : {
+    &quot;ErrorMessage&quot; : &quot;VEEDigitalUpdateBasket AddChildProducts Failed to modify the basket&quot;
+  },
+  &quot;label&quot; : &quot;RemoteAction1&quot;,
+  &quot;remoteClass&quot; : &quot;vlocity_cmt.CpqAppHandler&quot;,
+  &quot;remoteMethod&quot; : &quot;addWithNoConfig&quot;,
+  &quot;remoteOptions&quot; : { },
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;returnOnlyAdditionalOutput&quot; : false,
+  &quot;returnOnlyFailureResponse&quot; : false,
+  &quot;sendJSONNode&quot; : &quot;&quot;,
+  &quot;sendJSONPath&quot; : &quot;&quot;,
+  &quot;sendOnlyAdditionalInput&quot; : true,
+  &quot;show&quot; : null,
+  &quot;useFormulas&quot; : true
+}</propertySetConfig>
+        <sequenceNumber>2.0</sequenceNumber>
+        <type>Remote Action</type>
+    </omniProcessElements>
+    <omniProcessElements>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>DRTransformAddOns</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;actionMessage&quot; : &quot;&quot;,
+  &quot;additionalInput&quot; : {
+    &quot;transformAddOnOffers&quot; : &quot;%transformAddOnOffers%&quot;
+  },
+  &quot;additionalOutput&quot; : { },
+  &quot;bundle&quot; : &quot;VEESelectedAddOnsTransform&quot;,
+  &quot;chainOnStep&quot; : false,
+  &quot;disOnTplt&quot; : false,
+  &quot;executionConditionalFormula&quot; : &quot;ISNOTBLANK(%transformAddOnOffers%)&quot;,
+  &quot;failOnStepError&quot; : true,
+  &quot;failureConditionalFormula&quot; : &quot;&quot;,
+  &quot;failureResponse&quot; : {
+    &quot;ErrorMessage&quot; : &quot;VEEDigitalUpdateBasket:DRTransformAddOns No add on is selected&quot;
+  },
+  &quot;ignoreCache&quot; : false,
+  &quot;label&quot; : &quot;DataRaptorTransformAction1&quot;,
+  &quot;responseJSONNode&quot; : &quot;selectedAddOns&quot;,
+  &quot;responseJSONPath&quot; : &quot;selectedAddOns&quot;,
+  &quot;returnOnlyAdditionalOutput&quot; : false,
+  &quot;returnOnlyFailureResponse&quot; : false,
+  &quot;sendJSONNode&quot; : &quot;&quot;,
+  &quot;sendJSONPath&quot; : &quot;&quot;,
+  &quot;sendOnlyAdditionalInput&quot; : true,
+  &quot;show&quot; : null,
+  &quot;useFormulas&quot; : true
+}</propertySetConfig>
+        <sequenceNumber>1.0</sequenceNumber>
+        <type>DataRaptor Transform Action</type>
+    </omniProcessElements>
+    <omniProcessElements>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>FollowOnStepOne</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;actionMessage&quot; : &quot;&quot;,
+  &quot;additionalChainableResponse&quot; : { },
+  &quot;additionalInput&quot; : {
+    &quot;apiName&quot; : &quot;basketOperations&quot;,
+    &quot;basketAction&quot; : &quot;addWithNoConfig&quot;,
+    &quot;catalogCode&quot; : &quot;%selectedCatalogCode%&quot;,
+    &quot;methodName&quot; : &quot;addWithNoConfig&quot;,
+    &quot;multiTransactionKey&quot; : &quot;%SVMultiTransactionKey:multiTransactionKey%&quot;
+  },
+  &quot;additionalOutput&quot; : {
+    &quot;result&quot; : &quot;=DESERIALIZE(%FollowOnStepOne:result%)&quot;
+  },
+  &quot;chainOnStep&quot; : false,
+  &quot;disOnTplt&quot; : false,
+  &quot;executionConditionalFormula&quot; : &quot;(AddChildProducts:nexttransaction:rest:params:method == &apos;addWithNoConfig&apos;)&quot;,
+  &quot;failOnStepError&quot; : true,
+  &quot;failureConditionalFormula&quot; : &quot;&quot;,
+  &quot;failureResponse&quot; : {
+    &quot;ErrorMessage&quot; : &quot;VEEDigitalUpdateBasket:FollowOnStepOne Failed on first follow on step while modifying the basket&quot;
+  },
+  &quot;label&quot; : &quot;RemoteAction1&quot;,
+  &quot;remoteClass&quot; : &quot;vlocity_cmt.CpqAppHandler&quot;,
+  &quot;remoteMethod&quot; : &quot;addWithNoConfig&quot;,
+  &quot;remoteOptions&quot; : { },
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;returnOnlyAdditionalOutput&quot; : false,
+  &quot;returnOnlyFailureResponse&quot; : false,
+  &quot;sendJSONNode&quot; : &quot;&quot;,
+  &quot;sendJSONPath&quot; : &quot;&quot;,
+  &quot;sendOnlyAdditionalInput&quot; : true,
+  &quot;show&quot; : null,
+  &quot;useFormulas&quot; : true
+}</propertySetConfig>
+        <sequenceNumber>4.0</sequenceNumber>
+        <type>Remote Action</type>
+    </omniProcessElements>
+    <omniProcessElements>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>FollowOnStepTwo</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;actionMessage&quot; : &quot;&quot;,
+  &quot;additionalChainableResponse&quot; : { },
+  &quot;additionalInput&quot; : {
+    &quot;apiName&quot; : &quot;basketOperations&quot;,
+    &quot;basketAction&quot; : &quot;addWithNoConfig&quot;,
+    &quot;catalogCode&quot; : &quot;%selectedCatalogCode%&quot;,
+    &quot;methodName&quot; : &quot;addWithNoConfig&quot;,
+    &quot;multiTransactionKey&quot; : &quot;%FollowOnStepOne:nexttransaction:rest:params:multiTransactionKey%&quot;
+  },
+  &quot;additionalOutput&quot; : {
+    &quot;result&quot; : &quot;=DESERIALIZE(%FollowOnStepTwo:result%)&quot;
+  },
+  &quot;chainOnStep&quot; : false,
+  &quot;disOnTplt&quot; : false,
+  &quot;executionConditionalFormula&quot; : &quot;(FollowOnStepOne:nexttransaction:rest:params:method == &apos;addWithNoConfig&apos;)&quot;,
+  &quot;failOnStepError&quot; : true,
+  &quot;failureConditionalFormula&quot; : &quot;&quot;,
+  &quot;failureResponse&quot; : {
+    &quot;ErrorMessage&quot; : &quot;VEEDigitalUpdateBasket:FollowOnStepTwo Failed on second follow on step while modifying the basket&quot;
+  },
+  &quot;label&quot; : &quot;RemoteAction1&quot;,
+  &quot;remoteClass&quot; : &quot;vlocity_cmt.CpqAppHandler&quot;,
+  &quot;remoteMethod&quot; : &quot;addWithNoConfig&quot;,
+  &quot;remoteOptions&quot; : { },
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;returnOnlyAdditionalOutput&quot; : false,
+  &quot;returnOnlyFailureResponse&quot; : false,
+  &quot;sendJSONNode&quot; : &quot;&quot;,
+  &quot;sendJSONPath&quot; : &quot;&quot;,
+  &quot;sendOnlyAdditionalInput&quot; : true,
+  &quot;show&quot; : null,
+  &quot;useFormulas&quot; : true
+}</propertySetConfig>
+        <sequenceNumber>5.0</sequenceNumber>
+        <type>Remote Action</type>
+    </omniProcessElements>
+    <omniProcessElements>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>ResponseAction</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;additionalOutput&quot; : {
+    &quot;newCartContextKey&quot; : &quot;=IF(ISNOTBLANK(%AddChildProducts:result:cartContextKey%),%AddChildProducts:result:cartContextKey%,IF(ISNOTBLANK(%FollowOnStepOne:result:cartContextKey%),%FollowOnStepOne:result:cartContextKey%,IF(ISNOTBLANK(%FollowOnStepTwo:result:cartContextKey%),%FollowOnStepTwo:result:cartContextKey%,%cartContextKey%)))&quot;
+  },
+  &quot;disOnTplt&quot; : false,
+  &quot;executionConditionalFormula&quot; : &quot;&quot;,
+  &quot;label&quot; : &quot;ResponseAction1&quot;,
+  &quot;responseDefaultData&quot; : { },
+  &quot;responseFormat&quot; : &quot;JSON&quot;,
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;returnFullDataJSON&quot; : false,
+  &quot;returnOnlyAdditionalOutput&quot; : true,
+  &quot;sendJSONNode&quot; : &quot;&quot;,
+  &quot;sendJSONPath&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;useFormulas&quot; : true,
+  &quot;vlcResponseHeaders&quot; : { }
+}</propertySetConfig>
+        <sequenceNumber>6.0</sequenceNumber>
+        <type>Response Action</type>
+    </omniProcessElements>
+    <omniProcessElements>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>SVMultiTransactionKey</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;actionMessage&quot; : &quot;&quot;,
+  &quot;chainOnStep&quot; : false,
+  &quot;disOnTplt&quot; : false,
+  &quot;elementValueMap&quot; : {
+    &quot;multiTransactionKey&quot; : &quot;%AddChildProducts:nexttransaction:rest:params:multiTransactionKey%&quot;
+  },
+  &quot;executionConditionalFormula&quot; : &quot;(AddChildProducts:nexttransaction:rest:params:method == &apos;addWithNoConfig&apos;)&quot;,
+  &quot;failOnStepError&quot; : true,
+  &quot;failureConditionalFormula&quot; : &quot;&quot;,
+  &quot;label&quot; : &quot;SetValues2&quot;,
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;show&quot; : null
+}</propertySetConfig>
+        <sequenceNumber>3.0</sequenceNumber>
+        <type>Set Values</type>
+    </omniProcessElements>
+    <omniProcessKey>VEE_DigitalUpdateBasket</omniProcessKey>
+    <omniProcessType>Integration Procedure</omniProcessType>
+    <propertySetConfig>{
+  &quot;additionalChainableResponse&quot; : { },
+  &quot;chainableActualTimeLimit&quot; : null,
+  &quot;chainableCpuLimit&quot; : 2000,
+  &quot;chainableDMLRowsLimit&quot; : null,
+  &quot;chainableDMLStatementsLimit&quot; : null,
+  &quot;chainableHeapSizeLimit&quot; : null,
+  &quot;chainableQueriesLimit&quot; : 50,
+  &quot;chainableQueryRowsLimit&quot; : null,
+  &quot;chainableSoslQueriesLimit&quot; : null,
+  &quot;columnsPropertyMap&quot; : [ ],
+  &quot;description&quot; : &quot;&quot;,
+  &quot;includeAllActionsInResponse&quot; : false,
+  &quot;labelPlural&quot; : &quot;&quot;,
+  &quot;labelSingular&quot; : &quot;&quot;,
+  &quot;linkToExternalObject&quot; : &quot;&quot;,
+  &quot;mockResponseMap&quot; : { },
+  &quot;nameColumn&quot; : &quot;&quot;,
+  &quot;queueableChainableCpuLimit&quot; : 40000,
+  &quot;queueableChainableHeapSizeLimit&quot; : 6,
+  &quot;queueableChainableQueriesLimit&quot; : 120,
+  &quot;relationshipFieldsMap&quot; : [ ],
+  &quot;rollbackOnError&quot; : false,
+  &quot;trackingCustomData&quot; : { },
+  &quot;ttlMinutes&quot; : 5
+}</propertySetConfig>
+    <requiredPermission>VEEDigitalOrderPermission</requiredPermission>
+    <subType>DigitalUpdateBasket</subType>
+    <type>VEE</type>
+    <uniqueName>VEE_DigitalUpdateBasket_Procedure_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <webComponentKey>9363224d-0f60-353e-f940-3ae63658d960</webComponentKey>
+</OmniIntegrationProcedure>

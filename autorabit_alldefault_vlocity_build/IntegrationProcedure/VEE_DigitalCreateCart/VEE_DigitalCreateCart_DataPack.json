@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "This VIP will call apex class which will be creating the cart.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VEEDigitalCreateCart",
+    "OmniProcessElement": [
+        "VEE_DigitalCreateCart_Element_CreateCart.json",
+        "VEE_DigitalCreateCart_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "VEE_DigitalCreateCart",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VEE_DigitalCreateCart_PropertySetConfig.json",
+    "SubType": "DigitalCreateCart",
+    "Type": "VEE",
+    "UniqueName": "VEE_DigitalCreateCart_Procedure_3",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VEE/DigitalCreateCart/Procedure"
+}

@@ -1,0 +1,30 @@
+{
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+            },
+            "type": null,
+            "value": {
+            }
+        }
+    },
+    "Description": "This card will serve as a container card for the order history page.",
+    "IsTrackingEnabled": false,
+    "Name": "EnergyUtilitiesProgramsOrderHistoryContainer",
+    "Namespace": "",
+    "OmniUiCardKey": "EnergyUtilitiesProgramsOrderHistoryContainer/Salesforce/1.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "EnergyUtilitiesProgramsOrderHistoryContainer.json",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "{\"customStyles\":\"\"}",
+    "UniqueName": "EnergyUtilitiesProgramsOrderHistoryContainer_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/EnergyUtilitiesProgramsOrderHistoryContainer"
+}

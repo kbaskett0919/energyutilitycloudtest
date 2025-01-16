@@ -1,0 +1,28 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "LoopBlockConfig",
+    "OmniProcessId": {
+        "Name": "VEEDigitalGetBasket",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/VEE/DigitalGetBasket/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "label": "LoopBlock2",
+        "loopList": "DRTransformSetDistRegionOnOffers:offerDetails",
+        "loopOutput": {
+            "FollowOnStepOne": "=DESERIALIZE(%FollowOnStepOne:result%)",
+            "HTTPAction1": "%HTTPAction1%",
+            "RemoteAction5": "%RemoteAction5%",
+            "getBasketsConfig": "=DESERIALIZE(%getBasketsConfig:result%)"
+        },
+        "show": null
+    },
+    "Type": "Loop Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/VEE/DigitalGetBasket/Procedure/LoopBlockConfig"
+}

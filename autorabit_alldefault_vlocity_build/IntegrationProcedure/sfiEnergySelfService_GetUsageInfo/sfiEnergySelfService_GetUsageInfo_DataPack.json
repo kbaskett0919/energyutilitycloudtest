@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "sfiEnergySelfService_GetUsageInfo_SampleInput.json",
+    "Description": "It fetches Chart configuration and Premise details",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergySelfServiceGetUsageInfo",
+    "OmniProcessElement": [
+        "sfiEnergySelfService_GetUsageInfo_Element_FrequencyFilterList.json",
+        "sfiEnergySelfService_GetUsageInfo_Element_Config.json",
+        "sfiEnergySelfService_GetUsageInfo_Element_FetchAccountId.json",
+        "sfiEnergySelfService_GetUsageInfo_Element_FetchPremiseData.json",
+        "sfiEnergySelfService_GetUsageInfo_Element_GetUsageInfoResponse.json"
+    ],
+    "OmniProcessKey": "sfiEnergySelfService_GetUsageInfo",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergySelfService_GetUsageInfo_PropertySetConfig.json",
+    "SubType": "GetUsageInfo",
+    "Type": "sfiEnergySelfService",
+    "UniqueName": "sfiEnergySelfService_GetUsageInfo_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergySelfService/GetUsageInfo/Procedure"
+}

@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "This VIP will call apex class which will be creating premise, service points and service accounts. It will also activate order, Orderid will be given as input to this VIP.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VEEDigitalCreateEnergySobjects",
+    "OmniProcessElement": [
+        "VEE_DigitalCreateEnergySobjects_Element_CreatePremiseAndServiceAccount.json",
+        "VEE_DigitalCreateEnergySobjects_Element_CreateContact.json",
+        "VEE_DigitalCreateEnergySobjects_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "VEE_DigitalCreateEnergySobjects",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VEE_DigitalCreateEnergySobjects_PropertySetConfig.json",
+    "RequiredPermission": "VEEDigitalOrderPermission",
+    "SubType": "DigitalCreateEnergySobjects",
+    "Type": "VEE",
+    "UniqueName": "VEE_DigitalCreateEnergySobjects_Procedure_3",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VEE/DigitalCreateEnergySobjects/Procedure"
+}

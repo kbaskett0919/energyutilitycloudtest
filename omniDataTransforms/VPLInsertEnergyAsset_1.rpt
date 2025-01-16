@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniDataTransform xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <assignmentRulesUsed>false</assignmentRulesUsed>
+    <deletedOnSuccess>false</deletedOnSuccess>
+    <description>Insert Asset</description>
+    <errorIgnored>false</errorIgnored>
+    <expectedInputJson>{
+  &quot;AvailableProductList&quot; : null,
+  &quot;AvailableProductMaxRowSelection&quot; : &quot;Multiple&quot;,
+  &quot;AvialbleProductsColumns&quot; : [ {
+    &quot;fieldName&quot; : &quot;ProdName&quot;,
+    &quot;label&quot; : &quot;Product Name&quot;
+  }, {
+    &quot;fieldName&quot; : &quot;ProdFamily&quot;,
+    &quot;label&quot; : &quot;Product Family&quot;
+  }, {
+    &quot;fieldName&quot; : &quot;ProdCategory&quot;,
+    &quot;label&quot; : &quot;Service Type&quot;
+  }, {
+    &quot;fieldName&quot; : &quot;ProdDescription&quot;,
+    &quot;label&quot; : &quot;Description&quot;
+  } ],
+  &quot;BillingAccountRecTypeId&quot; : &quot;0123h000000jV4IAAU&quot;,
+  &quot;BillingAccountRecordType&quot; : &quot;Billing&quot;,
+  &quot;BillingPreferences&quot; : { },
+  &quot;BusinessAccountRecTypeId&quot; : &quot;0123h000000jV4HAAU&quot;,
+  &quot;BusinessAccountRecordType&quot; : &quot;Business&quot;,
+  &quot;Confirmation&quot; : null,
+  &quot;CustomerSelection&quot; : {
+    &quot;AccountType&quot; : &quot;Consumer&quot;,
+    &quot;BillingDetails&quot; : { },
+    &quot;ConNameError&quot; : null,
+    &quot;ExistingAccount-Block&quot; : null,
+    &quot;GetCustomer-Block&quot; : null,
+    &quot;MoveInDate&quot; : &quot;2020-09-01T18:30:00.000Z&quot;,
+    &quot;MoveInDateFormula&quot; : true,
+    &quot;MoveInMessage&quot; : true,
+    &quot;MsgInvalidExistingAccount&quot; : null,
+    &quot;MsgInvalidParentAccount&quot; : null,
+    &quot;NewAccountNeeded&quot; : null,
+    &quot;NewCustomer&quot; : &quot;Yes&quot;,
+    &quot;NewCustomerDetails&quot; : {
+      &quot;CustomerDOB&quot; : &quot;08/26/2020&quot;,
+      &quot;CustomerEmail&quot; : &quot;test@tt.co&quot;,
+      &quot;CustomerFirstName&quot; : &quot;test&quot;,
+      &quot;CustomerLastName&quot; : &quot;tt&quot;,
+      &quot;CustomerPhone&quot; : &quot;0767887878&quot;,
+      &quot;DOBFormula&quot; : true,
+      &quot;DOBMsg&quot; : true,
+      &quot;Description&quot; : null,
+      &quot;DriverLicense&quot; : null,
+      &quot;IdentificationType&quot; : &quot;SSN&quot;,
+      &quot;SSN&quot; : &quot;221211221&quot;,
+      &quot;TaxId&quot; : null
+    },
+    &quot;ParentAccount-Block&quot; : null,
+    &quot;TaxDetails&quot; : {
+      &quot;ExemptionEndDate&quot; : null,
+      &quot;ExemptionPercentage&quot; : null,
+      &quot;ExemptionStartDate&quot; : null
+    }
+  },
+  &quot;Error&quot; : { },
+  &quot;IntegrationType&quot; : &quot;JSON&quot;,
+  &quot;OmniscriptType&quot; : &quot;Move_In&quot;,
+  &quot;PremiseServicePointsListReadOnlyColumns&quot; : [ {
+    &quot;fieldName&quot; : &quot;ServicePointName&quot;,
+    &quot;label&quot; : &quot;Service Point Name&quot;
+  }, {
+    &quot;fieldName&quot; : &quot;ServiceType&quot;,
+    &quot;label&quot; : &quot;Service Type&quot;
+  } ],
+  &quot;ProductListReadOnlyColumns&quot; : [ {
+    &quot;fieldName&quot; : &quot;ServicePointName&quot;,
+    &quot;label&quot; : &quot;Service Point Name&quot;
+  }, {
+    &quot;fieldName&quot; : &quot;ProdCategory&quot;,
+    &quot;label&quot; : &quot;Service Type&quot;
+  }, {
+    &quot;fieldName&quot; : &quot;ProdName&quot;,
+    &quot;label&quot; : &quot;Product Name&quot;
+  }, {
+    &quot;fieldName&quot; : &quot;ProdDescription&quot;,
+    &quot;label&quot; : &quot;Description&quot;
+  } ],
+  &quot;Products&quot; : {
+    &quot;ElectricityProduct&quot; : [ {
+      &quot;Id&quot; : &quot;01t3h000001Ck7WAAS&quot;,
+      &quot;Name&quot; : &quot;Day/Night Tariff&quot;,
+      &quot;ProductCode&quot; : &quot;001&quot;
+    }, {
+      &quot;Id&quot; : &quot;01t3h000001Ck7gAAC&quot;,
+      &quot;Name&quot; : &quot;Night Display Tariff&quot;,
+      &quot;ProductCode&quot; : &quot;003&quot;
+    }, {
+      &quot;Id&quot; : &quot;01t3h000001Ck7bAAC&quot;,
+      &quot;Name&quot; : &quot;High Voltage Tariff&quot;,
+      &quot;ProductCode&quot; : &quot;002&quot;
+    } ],
+    &quot;GasProduct&quot; : [ {
+      &quot;Id&quot; : &quot;01t3h000001Ck7lAAC&quot;,
+      &quot;Name&quot; : &quot;Turn Off Order&quot;,
+      &quot;ProductCode&quot; : &quot;004&quot;
+    }, {
+      &quot;Id&quot; : &quot;01t3h000001Ck7qAAC&quot;,
+      &quot;Name&quot; : &quot;Regulated Gas Rate&quot;,
+      &quot;ProductCode&quot; : &quot;REG-GAS-1&quot;
+    } ],
+    &quot;WaterProduct&quot; : [ {
+      &quot;Id&quot; : &quot;01t3h000001Ck7vAAC&quot;,
+      &quot;Name&quot; : &quot;Water&quot;,
+      &quot;ProductCode&quot; : &quot;water&quot;
+    } ]
+  },
+  &quot;RecordType&quot; : [ {
+    &quot;Id&quot; : &quot;0123h000000jV4IAAU&quot;,
+    &quot;Name&quot; : &quot;Billing&quot;
+  } ],
+  &quot;SObjectName&quot; : &quot;Account&quot;,
+  &quot;SelectPremises&quot; : {
+    &quot;NewAccountPremises&quot; : null,
+    &quot;PremiseError&quot; : null,
+    &quot;ServiceLocation-Block&quot; : {
+      &quot;PremCity&quot; : &quot;Kolkata&quot;,
+      &quot;PremCountry&quot; : &quot;India&quot;,
+      &quot;PremId&quot; : &quot;a3X3h0000006OvsEAE&quot;,
+      &quot;PremPostalCode&quot; : &quot;700059&quot;,
+      &quot;PremState&quot; : &quot;West Bengal&quot;,
+      &quot;PremiseName&quot; : &quot;London Premise&quot;,
+      &quot;PremiseNumber&quot; : &quot;12121&quot;,
+      &quot;PremiseStreetAddress&quot; : &quot;Akshara Lotus Garden London&quot;,
+      &quot;ServiceLocation&quot; : &quot;London Premise&quot;
+    }
+  },
+  &quot;SelectService&quot; : [ {
+    &quot;PremiseAddress&quot; : &quot;London Premise&quot;,
+    &quot;PremiseNumber&quot; : &quot;12121&quot;,
+    &quot;Premises&quot; : &quot;a3X3h0000006OvsEAE&quot;,
+    &quot;PremisesId&quot; : &quot;a3X3h0000006OvsEAE&quot;,
+    &quot;ServicePointId&quot; : &quot;a4P3h00000059wBEAQ&quot;,
+    &quot;ServicePointName&quot; : &quot;London Electricity&quot;,
+    &quot;ServiceType&quot; : &quot;Electricity&quot;,
+    &quot;Status&quot; : &quot;Connected&quot;
+  }, {
+    &quot;PremiseAddress&quot; : &quot;London Premise&quot;,
+    &quot;PremiseNumber&quot; : &quot;12121&quot;,
+    &quot;Premises&quot; : &quot;a3X3h0000006OvsEAE&quot;,
+    &quot;PremisesId&quot; : &quot;a3X3h0000006OvsEAE&quot;,
+    &quot;ServicePointId&quot; : &quot;a4P3h00000059wWEAQ&quot;,
+    &quot;ServicePointName&quot; : &quot;London Gas&quot;,
+    &quot;ServiceType&quot; : &quot;Gas&quot;,
+    &quot;Status&quot; : &quot;Connected&quot;
+  }, {
+    &quot;PremiseAddress&quot; : &quot;London Premise&quot;,
+    &quot;PremiseNumber&quot; : &quot;12121&quot;,
+    &quot;Premises&quot; : &quot;a3X3h0000006OvsEAE&quot;,
+    &quot;PremisesId&quot; : &quot;a3X3h0000006OvsEAE&quot;,
+    &quot;ServicePointId&quot; : &quot;a4P3h00000059wYEAQ&quot;,
+    &quot;ServicePointName&quot; : &quot;London Water&quot;,
+    &quot;ServiceType&quot; : &quot;Water&quot;,
+    &quot;Status&quot; : &quot;Connected&quot;
+  } ],
+  &quot;SelectServicePoints&quot; : [ {
+    &quot;PremiseAddress&quot; : &quot;London Premise&quot;,
+    &quot;PremiseNumber&quot; : &quot;12121&quot;,
+    &quot;Premises&quot; : &quot;a3X3h0000006OvsEAE&quot;,
+    &quot;PremisesId&quot; : &quot;a3X3h0000006OvsEAE&quot;,
+    &quot;ServicePointId&quot; : &quot;a4P3h00000059wBEAQ&quot;,
+    &quot;ServicePointName&quot; : &quot;London Electricity&quot;,
+    &quot;ServiceType&quot; : &quot;Electricity&quot;,
+    &quot;Status&quot; : &quot;Connected&quot;
+  }, {
+    &quot;PremiseAddress&quot; : &quot;London Premise&quot;,
+    &quot;PremiseNumber&quot; : &quot;12121&quot;,
+    &quot;Premises&quot; : &quot;a3X3h0000006OvsEAE&quot;,
+    &quot;PremisesId&quot; : &quot;a3X3h0000006OvsEAE&quot;,
+    &quot;ServicePointId&quot; : &quot;a4P3h00000059wWEAQ&quot;,
+    &quot;ServicePointName&quot; : &quot;London Gas&quot;,
+    &quot;ServiceType&quot; : &quot;Gas&quot;,
+    &quot;Status&quot; : &quot;Connected&quot;
+  }, {
+    &quot;PremiseAddress&quot; : &quot;London Premise&quot;,
+    &quot;PremiseNumber&quot; : &quot;12121&quot;,
+    &quot;Premises&quot; : &quot;a3X3h0000006OvsEAE&quot;,
+    &quot;PremisesId&quot; : &quot;a3X3h0000006OvsEAE&quot;,
+    &quot;ServicePointId&quot; : &quot;a4P3h00000059wYEAQ&quot;,
+    &quot;ServicePointName&quot; : &quot;London Water&quot;,
+    &quot;ServiceType&quot; : &quot;Water&quot;,
+    &quot;Status&quot; : &quot;Connected&quot;
+  } ],
+  &quot;SelectTypeofService&quot; : {
+    &quot;SelectServicePoint&quot; : null,
+    &quot;SelectServicePoints&quot; : [ {
+      &quot;PremiseAddress&quot; : &quot;London Premise&quot;,
+      &quot;PremiseNumber&quot; : &quot;12121&quot;,
+      &quot;Premises&quot; : &quot;a3X3h0000006OvsEAE&quot;,
+      &quot;PremisesId&quot; : &quot;a3X3h0000006OvsEAE&quot;,
+      &quot;ProductId&quot; : &quot;01t3h000001Ck7gAAC&quot;,
+      &quot;ServicePointId&quot; : &quot;a4P3h00000059wBEAQ&quot;,
+      &quot;ServicePointName&quot; : &quot;London Electricity&quot;,
+      &quot;ServiceType&quot; : &quot;Electricity&quot;,
+      &quot;Status&quot; : &quot;Connected&quot;,
+      &quot;originalIndex&quot; : &quot;0&quot;
+    }, {
+      &quot;PremiseAddress&quot; : &quot;London Premise&quot;,
+      &quot;PremiseNumber&quot; : &quot;12121&quot;,
+      &quot;Premises&quot; : &quot;a3X3h0000006OvsEAE&quot;,
+      &quot;PremisesId&quot; : &quot;a3X3h0000006OvsEAE&quot;,
+      &quot;ProductId&quot; : &quot;01t3h000001Ck7qAAC&quot;,
+      &quot;ServicePointId&quot; : &quot;a4P3h00000059wWEAQ&quot;,
+      &quot;ServicePointName&quot; : &quot;London Gas&quot;,
+      &quot;ServiceType&quot; : &quot;Gas&quot;,
+      &quot;Status&quot; : &quot;Connected&quot;,
+      &quot;originalIndex&quot; : &quot;1&quot;
+    }, {
+      &quot;PremiseAddress&quot; : &quot;London Premise&quot;,
+      &quot;PremiseNumber&quot; : &quot;12121&quot;,
+      &quot;Premises&quot; : &quot;a3X3h0000006OvsEAE&quot;,
+      &quot;PremisesId&quot; : &quot;a3X3h0000006OvsEAE&quot;,
+      &quot;ProductId&quot; : &quot;01t3h000001Ck7vAAC&quot;,
+      &quot;ServicePointId&quot; : &quot;a4P3h00000059wYEAQ&quot;,
+      &quot;ServicePointName&quot; : &quot;London Water&quot;,
+      &quot;ServiceType&quot; : &quot;Water&quot;,
+      &quot;Status&quot; : &quot;Connected&quot;,
+      &quot;originalIndex&quot; : &quot;2&quot;
+    } ],
+    &quot;ServicePointsFormula&quot; : 3
+  },
+  &quot;SelectedPremises&quot; : &quot;a3X3h0000006OvsEAE&quot;,
+  &quot;ServiceAccountPremisesColumns&quot; : [ {
+    &quot;fieldName&quot; : &quot;SrevicePremisesId&quot;,
+    &quot;label&quot; : &quot;SrevicePremisesId&quot;
+  }, {
+    &quot;fieldName&quot; : &quot;AccountName&quot;,
+    &quot;label&quot; : &quot;Account Name&quot;
+  }, {
+    &quot;fieldName&quot; : &quot;PremisesName&quot;,
+    &quot;label&quot; : &quot;Premise Address&quot;
+  } ],
+  &quot;ServiceAccountPremisesMaxRowSelection&quot; : &quot;Single&quot;,
+  &quot;ServiceAccountRecordType&quot; : &quot;Service&quot;,
+  &quot;ServicePointsColumns&quot; : [ {
+    &quot;fieldName&quot; : &quot;ServicePointName&quot;,
+    &quot;label&quot; : &quot;Service Point Name&quot;
+  }, {
+    &quot;fieldName&quot; : &quot;ServiceType&quot;,
+    &quot;label&quot; : &quot;Service Type&quot;
+  }, {
+    &quot;fieldName&quot; : &quot;SelectProduct&quot;,
+    &quot;label&quot; : &quot;Select Product&quot;
+  } ],
+  &quot;ServicePointsError&quot; : null,
+  &quot;ServicePremises&quot; : null,
+  &quot;timeStamp&quot; : &quot;2020-09-01T05:44:45.458Z&quot;,
+  &quot;userCurrencyCode&quot; : &quot;USD&quot;,
+  &quot;userId&quot; : &quot;0053h000002WfuuAAC&quot;,
+  &quot;userName&quot; : &quot;express_org_sebanti@org.dev&quot;,
+  &quot;userProfile&quot; : &quot;System Administrator&quot;,
+  &quot;userTimeZone&quot; : &quot;-420&quot;,
+  &quot;vlcTimeTracking&quot; : {
+    &quot;CustomerSelection&quot; : 119808,
+    &quot;DR-GetProducts&quot; : 2984,
+    &quot;DRExtractBussinessAccountRecId&quot; : 3132,
+    &quot;DRFetchBillingAccountRecTypeId&quot; : 2089,
+    &quot;ExtractServiceAccountPremises&quot; : 0,
+    &quot;GetPremServicePoints&quot; : 1037,
+    &quot;OmniScriptSessionToken&quot; : &quot;3e4769e2-a603-4c78-8c93-059fec1e026e&quot;,
+    &quot;SVBusinessAccountRecTypeId&quot; : 72,
+    &quot;SelectPremises&quot; : 9297,
+    &quot;SelectTypeofService&quot; : 28318,
+    &quot;ServicePointsError&quot; : 0,
+    &quot;SetCustomLWCValues&quot; : 85,
+    &quot;SetDefaultValues&quot; : 94,
+    &quot;SetPremisesBusinessAccountRecTypeId&quot; : 72,
+    &quot;SetServicePointVal&quot; : 76
+  }
+}</expectedInputJson>
+    <fieldLevelSecurityEnabled>false</fieldLevelSecurityEnabled>
+    <inputType>JSON</inputType>
+    <name>VPLInsertEnergyAsset</name>
+    <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VPL-InsertEnergyAssetCustom8067</globalKey>
+        <inputFieldName>SelectTypeofService:SelectServicePoints:ServicePointId</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-InsertEnergyAsset</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>vlocity_cmt__ServicePointId__c</outputFieldName>
+        <outputObjectName>Asset</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VPL-InsertEnergyAssetCustom5677</globalKey>
+        <inputFieldName>SetRedirectionIdValues:AccountIdRedirection</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-InsertEnergyAsset</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>AccountId</outputFieldName>
+        <outputObjectName>Asset</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VPL-InsertEnergyAssetCustom1846</globalKey>
+        <inputFieldName>SelectTypeofService:SelectServicePoints:PremisesId</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-InsertEnergyAsset</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>vlocity_cmt__PremisesId__c</outputFieldName>
+        <outputObjectName>Asset</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VPL-InsertEnergyAssetCustom8115</globalKey>
+        <inputFieldName>FML_ServiceAccount</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-InsertEnergyAsset</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>vlocity_cmt__ServiceAccountId__c</outputFieldName>
+        <outputObjectName>Asset</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VPL-InsertEnergyAssetCustom8624</globalKey>
+        <inputFieldName>CustomerSelection:MoveInDate</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-InsertEnergyAsset</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>vlocity_cmt__ConnectDate__c</outputFieldName>
+        <outputObjectName>Asset</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VPL-InsertEnergyAssetCustom6324</globalKey>
+        <inputFieldName>SelectTypeofService:SelectServicePoints:InventoryItemId</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-InsertEnergyAsset</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>vlocity_cmt__InventoryItemId__c</outputFieldName>
+        <outputObjectName>Asset</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VPL-InsertEnergyAssetCustom1967</globalKey>
+        <inputFieldName>CustomerSelection:MoveInDate</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-InsertEnergyAsset</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>vlocity_cmt__ActivationDate__c</outputFieldName>
+        <outputObjectName>Asset</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VPL-InsertEnergyAssetCustom4050</globalKey>
+        <inputFieldName>FML_BillingAccount</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-InsertEnergyAsset</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>vlocity_cmt__BillingAccountId__c</outputFieldName>
+        <outputObjectName>Asset</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VPL-InsertEnergyAssetCustom7220</globalKey>
+        <inputFieldName>SelectTypeofService:SelectServicePoints:ProductId</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-InsertEnergyAsset</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Product2Id</outputFieldName>
+        <outputObjectName>Asset</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <defaultValue>Active</defaultValue>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VPL-InsertEnergyAssetCustom1893</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-InsertEnergyAsset</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Status</outputFieldName>
+        <outputObjectName>Asset</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VPL-InsertEnergyAssetCustom1087</globalKey>
+        <inputFieldName>CustomerSelection:MoveInDate</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-InsertEnergyAsset</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>InstallDate</outputFieldName>
+        <outputObjectName>Asset</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VPL-InsertEnergyAssetCustom6617</globalKey>
+        <inputFieldName>SelectTypeofService:SelectServicePoints:ServicePointName</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-InsertEnergyAsset</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Name</outputFieldName>
+        <outputObjectName>Asset</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VPL-InsertEnergyAssetCustom1952</globalKey>
+        <inputFieldName>DRId_Contact</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-InsertEnergyAsset</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>ContactId</outputFieldName>
+        <outputObjectName>Asset</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>true</disabled>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>=</filterOperator>
+        <globalKey>VPL-InsertEnergyAssetCustom5340</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <migrationValue>FAKEMAPPING</migrationValue>
+        <name>VPL-InsertEnergyAsset</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Id</outputFieldName>
+        <outputObjectName>Asset</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>true</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:CustomerSelection &apos;Business&apos; = | var:CustomerSelection:NewCustomerDetails:BusinessAccountName &apos;/\/\/&apos; var:SelectTypeofService:SelectServicePoints:ServicePointName &apos;/\/\/&apos; var:SelectTypeofService:SelectServicePoints:ServiceType CONCAT | var:CustomerSelection:NewCustomerDetails:CustomerFirstName &apos;/\/\/&apos; var:CustomerSelection:NewCustomerDetails:CustomerLastName &apos;/\/\/&apos; var:SelectTypeofService:SelectServicePoints:ServicePointName &apos;/\/\/&apos; var:SelectTypeofService:SelectServicePoints:ServiceType CONCAT IF</formulaConverted>
+        <formulaExpression>IF(%CustomerSelection% = &apos;Business&apos;, CONCAT(%CustomerSelection:NewCustomerDetails:BusinessAccountName%, &apos; &apos;, %SelectTypeofService:SelectServicePoints:ServicePointName%, &apos; &apos;, %SelectTypeofService:SelectServicePoints:ServiceType%), CONCAT(%CustomerSelection:NewCustomerDetails:CustomerFirstName%, &apos; &apos;, %CustomerSelection:NewCustomerDetails:CustomerLastName%, &apos; &apos;, %SelectTypeofService:SelectServicePoints:ServicePointName%, &apos; &apos;, %SelectTypeofService:SelectServicePoints:ServiceType%))</formulaExpression>
+        <formulaResultPath>FML_AssetName</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>VPL-InsertEnergyAssetCustom7753</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-InsertEnergyAsset</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:CustomerSelection:AccountType &apos;Consumer&apos; = var:SetRedirectionIdValues:AccountIdRedirection var:BillingAccountId IF</formulaConverted>
+        <formulaExpression>IF(%CustomerSelection:AccountType% = &apos;Consumer&apos;, %SetRedirectionIdValues:AccountIdRedirection%, %BillingAccountId%)</formulaExpression>
+        <formulaResultPath>FML_BillingAccount</formulaResultPath>
+        <formulaSequence>4.0</formulaSequence>
+        <globalKey>VPL-InsertEnergyAssetCustom1682</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-InsertEnergyAsset</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>true</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:CustomerSelection:AccountType &apos;Consumer&apos; = var:SetRedirectionIdValues:AccountIdRedirection var:BusinessAccountId IF</formulaConverted>
+        <formulaExpression>IF(%CustomerSelection:AccountType% = &apos;Consumer&apos;, %SetRedirectionIdValues:AccountIdRedirection%, %BusinessAccountId%)</formulaExpression>
+        <formulaResultPath>FML_DRId_Account</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>VPL-InsertEnergyAssetCustom743</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-InsertEnergyAsset</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:CustomerSelection:AccountType &apos;Consumer&apos; = var:SetRedirectionIdValues:AccountIdRedirection var:ServiceAccountId IF</formulaConverted>
+        <formulaExpression>IF(%CustomerSelection:AccountType% = &apos;Consumer&apos;, %SetRedirectionIdValues:AccountIdRedirection%, %ServiceAccountId%)</formulaExpression>
+        <formulaResultPath>FML_ServiceAccount</formulaResultPath>
+        <formulaSequence>3.0</formulaSequence>
+        <globalKey>VPL-InsertEnergyAssetCustom299</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-InsertEnergyAsset</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;AgreementIdList&quot; : [ &quot;1500011384&quot;, &quot;1500011385&quot;, &quot;1500011386&quot; ],
+  &quot;AgreementMessageList&quot; : [ &quot;Contract 1500011384 created for installation 800012984 (move-in date 04.05.2019) Move-in document 100011516 created.Contract 1500011385 created for installation 800012987 (move-in date 2020-09-02 11:07:09.739463).&quot;, &quot;Contract 1500011384 created for installation 800012985 (move-in date 2020-09-02 11:07:09.739463) Move-in document 100011516 created.Contract 1500011385 created for installation 800012987 (move-in date 2020-09-02 11:07:09.739463).&quot;, &quot;Contract 1500011384 created for installation 800012986 (move-in date 04.05.2019) Move-in document 100011516 created.Contract 1500011385 created for installation 800012987 (move-in date 2020-09-02 11:07:09.739463).&quot; ],
+  &quot;AvailableProductMaxRowSelection&quot; : &quot;Multiple&quot;,
+  &quot;AvialbleProductsColumns&quot; : [ {
+    &quot;fieldName&quot; : &quot;ProdName&quot;,
+    &quot;label&quot; : &quot;Product Name&quot;
+  }, {
+    &quot;fieldName&quot; : &quot;ProdFamily&quot;,
+    &quot;label&quot; : &quot;Product Family&quot;
+  }, {
+    &quot;fieldName&quot; : &quot;ProdCategory&quot;,
+    &quot;label&quot; : &quot;Service Type&quot;
+  }, {
+    &quot;fieldName&quot; : &quot;ProdDescription&quot;,
+    &quot;label&quot; : &quot;Description&quot;
+  } ],
+  &quot;BankPaymentDetails&quot; : null,
+  &quot;BillingAccountId&quot; : &quot;0013h00000JOU2tAAH&quot;,
+  &quot;BillingAccountRecTypeId&quot; : &quot;0123h000000jV4IAAU&quot;,
+  &quot;BillingAccountRecordType&quot; : &quot;Billing&quot;,
+  &quot;BillingPreferences&quot; : {
+    &quot;APaymentType&quot; : &quot;Postpaid&quot;,
+    &quot;AutoPay&quot; : &quot;No&quot;,
+    &quot;BillNotification&quot; : &quot;Yes&quot;,
+    &quot;MailingAddres&quot; : null,
+    &quot;MailingAddresss&quot; : null,
+    &quot;MailingCity&quot; : null,
+    &quot;MailingCountry&quot; : null,
+    &quot;MailingState&quot; : null,
+    &quot;MailingStreet&quot; : null,
+    &quot;MailingZipCode&quot; : null,
+    &quot;OffersPromotions&quot; : &quot;Yes&quot;,
+    &quot;OutageNotification&quot; : &quot;Yes&quot;,
+    &quot;PaymentNotification&quot; : &quot;Yes&quot;,
+    &quot;WorkOrderNotification&quot; : &quot;Yes&quot;
+  },
+  &quot;BusinessAccountId&quot; : &quot;0013h00000JOU2oAAH&quot;,
+  &quot;BusinessAccountRecTypeId&quot; : &quot;0123h000000jV4HAAU&quot;,
+  &quot;BusinessAccountRecordType&quot; : &quot;Business&quot;,
+  &quot;ChoosePaymentMethod&quot; : null,
+  &quot;Confirmation&quot; : { },
+  &quot;CustomerSelection&quot; : {
+    &quot;AccountType&quot; : &quot;Business&quot;,
+    &quot;BillingDetails&quot; : { },
+    &quot;ConNameError&quot; : null,
+    &quot;ExistingAccount-Block&quot; : null,
+    &quot;GetCustomer-Block&quot; : null,
+    &quot;MoveInDate&quot; : &quot;2020-09-08T18:30:00.000Z&quot;,
+    &quot;MoveInDateFormula&quot; : true,
+    &quot;MoveInMessage&quot; : true,
+    &quot;MsgInvalidExistingAccount&quot; : null,
+    &quot;MsgInvalidParentAccount&quot; : null,
+    &quot;NewAccountNeeded&quot; : null,
+    &quot;NewCustomer&quot; : &quot;Yes&quot;,
+    &quot;NewCustomerDetails&quot; : {
+      &quot;BusinessAccountName&quot; : &quot;Roy &quot;,
+      &quot;CustomerDOB&quot; : &quot;09/01/2020&quot;,
+      &quot;CustomerEmail&quot; : &quot;test@tt.co&quot;,
+      &quot;CustomerFirstName&quot; : &quot;Rolex&quot;,
+      &quot;CustomerLastName&quot; : &quot;Roys&quot;,
+      &quot;CustomerPhone&quot; : &quot;0767887878&quot;,
+      &quot;DOBFormula&quot; : true,
+      &quot;DOBMsg&quot; : true,
+      &quot;DriverLicense&quot; : null,
+      &quot;IdentificationType&quot; : &quot;TaxID&quot;,
+      &quot;SSN&quot; : null,
+      &quot;TaxId&quot; : &quot;123232233&quot;
+    },
+    &quot;ParentAccount-Block&quot; : {
+      &quot;ParentAccount&quot; : null
+    },
+    &quot;TaxDetails&quot; : {
+      &quot;ExemptionEndDate&quot; : null,
+      &quot;ExemptionPercentage&quot; : null,
+      &quot;ExemptionStartDate&quot; : null
+    }
+  },
+  &quot;DRId_Account&quot; : &quot;0013h00000JOU2uAAH&quot;,
+  &quot;DRId_Contact&quot; : &quot;0033h00000DWwZxAAL&quot;,
+  &quot;ERPAccountID__c&quot; : 6011110,
+  &quot;ERP_Contract_ID__c&quot; : 2334455,
+  &quot;Error&quot; : { },
+  &quot;IntegrationType&quot; : &quot;JSON&quot;,
+  &quot;OmniscriptType&quot; : &quot;Move_In&quot;,
+  &quot;PaymentDetails&quot; : null,
+  &quot;PreConfirm&quot; : {
+    &quot;Confirm&quot; : &quot;Yes&quot;
+  },
+  &quot;Products&quot; : {
+    &quot;ElectricityProduct&quot; : [ {
+      &quot;Id&quot; : &quot;01t3h000001Ck7WAAS&quot;,
+      &quot;Name&quot; : &quot;Day/Night Tariff&quot;,
+      &quot;ProductCode&quot; : &quot;001&quot;
+    }, {
+      &quot;Id&quot; : &quot;01t3h000001Ck7gAAC&quot;,
+      &quot;Name&quot; : &quot;Night Display Tariff&quot;,
+      &quot;ProductCode&quot; : &quot;003&quot;
+    }, {
+      &quot;Id&quot; : &quot;01t3h000001Ck7bAAC&quot;,
+      &quot;Name&quot; : &quot;High Voltage Tariff&quot;,
+      &quot;ProductCode&quot; : &quot;002&quot;
+    } ],
+    &quot;GasProduct&quot; : [ {
+      &quot;Id&quot; : &quot;01t3h000001Ck7lAAC&quot;,
+      &quot;Name&quot; : &quot;Turn Off Order&quot;,
+      &quot;ProductCode&quot; : &quot;004&quot;
+    }, {
+      &quot;Id&quot; : &quot;01t3h000001Ck7qAAC&quot;,
+      &quot;Name&quot; : &quot;Regulated Gas Rate&quot;,
+      &quot;ProductCode&quot; : &quot;REG-GAS-1&quot;
+    } ],
+    &quot;WaterProduct&quot; : [ {
+      &quot;Id&quot; : &quot;01t3h000001Ck7vAAC&quot;,
+      &quot;Name&quot; : &quot;Water&quot;,
+      &quot;ProductCode&quot; : &quot;water&quot;
+    } ]
+  },
+  &quot;RecordType&quot; : [ {
+    &quot;Id&quot; : &quot;0123h000000jV4JAAU&quot;,
+    &quot;Name&quot; : &quot;Service&quot;
+  } ],
+  &quot;SObjectName&quot; : &quot;Account&quot;,
+  &quot;SelectPremises&quot; : {
+    &quot;NewAccountPremises&quot; : null,
+    &quot;PremiseError&quot; : null,
+    &quot;ServiceLocation-Block&quot; : {
+      &quot;PremCity&quot; : &quot;Kolkata&quot;,
+      &quot;PremCountry&quot; : &quot;India&quot;,
+      &quot;PremId&quot; : &quot;a3X3h0000006OviEAE&quot;,
+      &quot;PremPostalCode&quot; : &quot;700059&quot;,
+      &quot;PremState&quot; : &quot;West Bengal&quot;,
+      &quot;PremiseName&quot; : &quot;Coventry premise&quot;,
+      &quot;PremiseStreetAddress&quot; : &quot;Akshara Lotus Garden Coevtry&quot;,
+      &quot;ServiceLocation&quot; : &quot;Coventry premise&quot;
+    }
+  },
+  &quot;SelectService&quot; : [ {
+    &quot;InventoryItemId&quot; : &quot;a2O3h000000hrDaEAI&quot;,
+    &quot;PremisesId&quot; : &quot;a3X3h0000006OviEAE&quot;,
+    &quot;ServicePointId&quot; : &quot;a4P3h00000059waEAA&quot;,
+    &quot;ServicePointName&quot; : &quot;Coventry Gas&quot;,
+    &quot;ServiceType&quot; : &quot;Gas&quot;,
+    &quot;Status&quot; : &quot;Connected&quot;
+  }, {
+    &quot;InventoryItemId&quot; : &quot;a2O3h000000hrDVEAY&quot;,
+    &quot;PremisesId&quot; : &quot;a3X3h0000006OviEAE&quot;,
+    &quot;ServicePointId&quot; : &quot;a4P3h00000059wGEAQ&quot;,
+    &quot;ServicePointName&quot; : &quot;Coventry Electricity&quot;,
+    &quot;ServiceType&quot; : &quot;Electricity&quot;,
+    &quot;Status&quot; : &quot;Connected&quot;
+  }, {
+    &quot;InventoryItemId&quot; : &quot;a2O3h000000hrDQEAY&quot;,
+    &quot;PremisesId&quot; : &quot;a3X3h0000006OviEAE&quot;,
+    &quot;ServicePointId&quot; : &quot;a4P3h00000059wHEAQ&quot;,
+    &quot;ServicePointName&quot; : &quot;Coventry Water&quot;,
+    &quot;ServiceType&quot; : &quot;Water&quot;,
+    &quot;Status&quot; : &quot;Connected&quot;
+  } ],
+  &quot;SelectServicePoints&quot; : [ {
+    &quot;InventoryItemId&quot; : &quot;a2O3h000000hrDaEAI&quot;,
+    &quot;PremisesId&quot; : &quot;a3X3h0000006OviEAE&quot;,
+    &quot;ServicePointId&quot; : &quot;a4P3h00000059waEAA&quot;,
+    &quot;ServicePointName&quot; : &quot;Coventry Gas&quot;,
+    &quot;ServiceType&quot; : &quot;Gas&quot;,
+    &quot;Status&quot; : &quot;Connected&quot;
+  }, {
+    &quot;InventoryItemId&quot; : &quot;a2O3h000000hrDVEAY&quot;,
+    &quot;PremisesId&quot; : &quot;a3X3h0000006OviEAE&quot;,
+    &quot;ServicePointId&quot; : &quot;a4P3h00000059wGEAQ&quot;,
+    &quot;ServicePointName&quot; : &quot;Coventry Electricity&quot;,
+    &quot;ServiceType&quot; : &quot;Electricity&quot;,
+    &quot;Status&quot; : &quot;Connected&quot;
+  }, {
+    &quot;InventoryItemId&quot; : &quot;a2O3h000000hrDQEAY&quot;,
+    &quot;PremisesId&quot; : &quot;a3X3h0000006OviEAE&quot;,
+    &quot;ServicePointId&quot; : &quot;a4P3h00000059wHEAQ&quot;,
+    &quot;ServicePointName&quot; : &quot;Coventry Water&quot;,
+    &quot;ServiceType&quot; : &quot;Water&quot;,
+    &quot;Status&quot; : &quot;Connected&quot;
+  } ],
+  &quot;SelectTypeofService&quot; : {
+    &quot;SelectServicePoint&quot; : null,
+    &quot;SelectServicePoints&quot; : [ {
+      &quot;InventoryItemId&quot; : &quot;a2O3h000000hrDaEAI&quot;,
+      &quot;PremisesId&quot; : &quot;a3X3h0000006OviEAE&quot;,
+      &quot;ProductId&quot; : &quot;01t3h000001Ck7lAAC&quot;,
+      &quot;ServicePointId&quot; : &quot;a4P3h00000059waEAA&quot;,
+      &quot;ServicePointName&quot; : &quot;Coventry Gas&quot;,
+      &quot;ServiceType&quot; : &quot;Gas&quot;,
+      &quot;Status&quot; : &quot;Connected&quot;,
+      &quot;originalIndex&quot; : &quot;0&quot;
+    }, {
+      &quot;InventoryItemId&quot; : &quot;a2O3h000000hrDVEAY&quot;,
+      &quot;PremisesId&quot; : &quot;a3X3h0000006OviEAE&quot;,
+      &quot;ProductId&quot; : &quot;01t3h000001Ck7gAAC&quot;,
+      &quot;ServicePointId&quot; : &quot;a4P3h00000059wGEAQ&quot;,
+      &quot;ServicePointName&quot; : &quot;Coventry Electricity&quot;,
+      &quot;ServiceType&quot; : &quot;Electricity&quot;,
+      &quot;Status&quot; : &quot;Connected&quot;,
+      &quot;originalIndex&quot; : &quot;1&quot;
+    } ],
+    &quot;ServicePointsFormula&quot; : 2
+  },
+  &quot;SelectedPremises&quot; : &quot;a3X3h0000006OviEAE&quot;,
+  &quot;SelectedServiceData&quot; : [ {
+    &quot;InventoryItemId&quot; : &quot;a2O3h000000hrDaEAI&quot;,
+    &quot;PremisesId&quot; : &quot;a3X3h0000006OviEAE&quot;,
+    &quot;ProductId&quot; : &quot;01t3h000001Ck7lAAC&quot;,
+    &quot;ServicePointId&quot; : &quot;a4P3h00000059waEAA&quot;,
+    &quot;ServicePointName&quot; : &quot;Coventry Gas&quot;,
+    &quot;ServiceType&quot; : &quot;Gas&quot;,
+    &quot;Status&quot; : &quot;Connected&quot;,
+    &quot;originalIndex&quot; : &quot;0&quot;
+  }, {
+    &quot;InventoryItemId&quot; : &quot;a2O3h000000hrDVEAY&quot;,
+    &quot;PremisesId&quot; : &quot;a3X3h0000006OviEAE&quot;,
+    &quot;ProductId&quot; : &quot;01t3h000001Ck7gAAC&quot;,
+    &quot;ServicePointId&quot; : &quot;a4P3h00000059wGEAQ&quot;,
+    &quot;ServicePointName&quot; : &quot;Coventry Electricity&quot;,
+    &quot;ServiceType&quot; : &quot;Electricity&quot;,
+    &quot;Status&quot; : &quot;Connected&quot;,
+    &quot;originalIndex&quot; : &quot;1&quot;
+  } ],
+  &quot;SelectedServiceMaxRow&quot; : &quot;&quot;,
+  &quot;ServiceAccountId&quot; : &quot;0013h00000JOU2uAAH&quot;,
+  &quot;ServiceAccountPremisesColumns&quot; : [ {
+    &quot;fieldName&quot; : &quot;SrevicePremisesId&quot;,
+    &quot;label&quot; : &quot;SrevicePremisesId&quot;
+  }, {
+    &quot;fieldName&quot; : &quot;AccountName&quot;,
+    &quot;label&quot; : &quot;Account Name&quot;
+  }, {
+    &quot;fieldName&quot; : &quot;PremisesName&quot;,
+    &quot;label&quot; : &quot;Premise Address&quot;
+  } ],
+  &quot;ServiceAccountPremisesMaxRowSelection&quot; : &quot;Single&quot;,
+  &quot;ServiceAccountRecTypeId&quot; : &quot;0123h000000jV4JAAU&quot;,
+  &quot;ServiceAccountRecordType&quot; : &quot;Service&quot;,
+  &quot;ServicePointsColumns&quot; : [ {
+    &quot;fieldName&quot; : &quot;ServicePointName&quot;,
+    &quot;label&quot; : &quot;Service Point Name&quot;
+  }, {
+    &quot;fieldName&quot; : &quot;ServiceType&quot;,
+    &quot;label&quot; : &quot;Service Type&quot;
+  }, {
+    &quot;fieldName&quot; : &quot;SelectProduct&quot;,
+    &quot;label&quot; : &quot;Select Product&quot;
+  } ],
+  &quot;ServicePointsError&quot; : null,
+  &quot;ServicePremises&quot; : null,
+  &quot;createResidentialAccount_Msg&quot; : &quot;Contract created in SAP successfully..!&quot;,
+  &quot;timeStamp&quot; : &quot;2020-09-02T11:05:20.453Z&quot;,
+  &quot;userCurrencyCode&quot; : &quot;USD&quot;,
+  &quot;userId&quot; : &quot;0053h000002WfuuAAC&quot;,
+  &quot;userName&quot; : &quot;express_org_sebanti@org.dev&quot;,
+  &quot;userProfile&quot; : &quot;System Administrator&quot;,
+  &quot;userTimeZone&quot; : &quot;-420&quot;,
+  &quot;vlcTimeTracking&quot; : {
+    &quot;BankPaymentDetails&quot; : 0,
+    &quot;BillingPreferences&quot; : 12190,
+    &quot;ChoosePaymentMethod&quot; : 0,
+    &quot;ConfirmUserActionError&quot; : 4542,
+    &quot;CreateBankAccountPaymentMethod&quot; : 0,
+    &quot;CreateCreditCardPaymentMethod&quot; : 0,
+    &quot;CustomerSelection&quot; : 42483,
+    &quot;DR-GetProducts&quot; : 814,
+    &quot;DRCreatServiceAccount&quot; : 1009,
+    &quot;DRCreateBillingAccount&quot; : 1614,
+    &quot;DRCreateBusinessAccount&quot; : 1446,
+    &quot;DRExtractBussinessAccountRecId&quot; : 666,
+    &quot;DRFetchBillingAccountRecTypeId&quot; : 738,
+    &quot;DRFetchDesiredRecordType&quot; : 559,
+    &quot;DRFetchServiceAccountRecTypeId&quot; : 577,
+    &quot;DRInsertContact&quot; : 1207,
+    &quot;ExtractServiceAccountPremises&quot; : 0,
+    &quot;GetPremServicePoints&quot; : 692,
+    &quot;OmniScriptSessionToken&quot; : &quot;06c3170d-d156-4f86-9283-8c1f4a017080&quot;,
+    &quot;PaymentDetails&quot; : 0,
+    &quot;PreConfirm&quot; : 5302,
+    &quot;SVBusinessAccountRecTypeId&quot; : 45,
+    &quot;SVSelectedServicesData&quot; : 36,
+    &quot;SVServiceAccountRecTypeId&quot; : 95,
+    &quot;SelectPremises&quot; : 23319,
+    &quot;SelectTypeofService&quot; : 6024,
+    &quot;ServicePointsError&quot; : 0,
+    &quot;SetBillingAccountId&quot; : 62,
+    &quot;SetBusinessAccountId&quot; : 65,
+    &quot;SetCustomLWCValues&quot; : 66,
+    &quot;SetDefaultValues&quot; : 52,
+    &quot;SetPremisesBusinessAccountRecTypeId&quot; : 106,
+    &quot;SetServiceAccountId&quot; : 85,
+    &quot;SetServicePointVal&quot; : 74,
+    &quot;VIPCreateAgreement&quot; : 2959,
+    &quot;VIPCreateBusinessPartner&quot; : 3235,
+    &quot;VIPCreateContractAccount&quot; : 1066
+  }
+}</previewJsonData>
+    <processSuperBulk>false</processSuperBulk>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <rollbackOnError>false</rollbackOnError>
+    <sourceObject>json</sourceObject>
+    <sourceObjectDefault>false</sourceObjectDefault>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Load</type>
+    <uniqueName>VPLInsertEnergyAsset_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <xmlDeclarationRemoved>false</xmlDeclarationRemoved>
+</OmniDataTransform>

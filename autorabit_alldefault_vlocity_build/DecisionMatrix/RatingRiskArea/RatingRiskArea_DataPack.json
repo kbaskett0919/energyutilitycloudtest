@@ -1,0 +1,15 @@
+{
+    "CalculationMatrixColumn": "RatingRiskArea_CalculationMatrixColumns.json",
+    "DecisionMatrixType": "DecisionMatrix",
+    "Description": "",
+    "GroupKey": "",
+    "Name": "RatingRiskArea",
+    "Namespace": "",
+    "SubGroupKey": "",
+    "Type": "Standard",
+    "UniqueName": "RatingRiskArea",
+    "UsageType": "Bre",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationMatrix",
+    "VlocityRecordSourceKey": "CalculationMatrix/RatingRiskArea"
+}

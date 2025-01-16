@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>手動キュー</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__Active__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__DisplayedFields__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__FilterFields__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__GlobalKey__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__LastAssignedToUserId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__NotificationEmailId__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__QueueType__c</name>
+        <picklistValues>
+            <masterLabel>Attributes-Based</masterLabel>
+            <translation>属性ベース</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Least Loaded</masterLabel>
+            <translation>読み込みが最小</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation>なし</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Round Robin</masterLabel>
+            <translation>ラウンドロビン</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>手動キュー</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,21 @@
+{
+    "AddOns": [
+        {
+            "cartContextKey": "b2559cbf1e64217a71a5dbbc5a2f920d",
+            "offers": [
+                {
+                    "Attachmentsurl": "https://t4.ftcdn.net/jpg/03/68/33/29/240_F_368332994_ponkHiJj9sArPqNIYrjLdfl7MeJAlsYR.jpg",
+                    "Name": "Boiler Insurance",
+                    "Price": 0.1433,
+                    "productCode": "AD_BOILER_INSURANCE"
+                },
+                {
+                    "Attachmentsurl": "https://t4.ftcdn.net/jpg/03/68/33/29/240_F_368332994_ponkHiJj9sArPqNIYrjLdfl7MeJAlsYR.jpg",
+                    "Name": "Boiler Insurance2",
+                    "Price": 0.1433,
+                    "productCode": "AD_BOILER_INSURANCE"
+                }
+            ]
+        }
+    ]
+}

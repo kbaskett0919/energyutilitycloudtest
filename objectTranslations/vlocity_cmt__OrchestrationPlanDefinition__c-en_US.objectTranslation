@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__GlobalKey__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__IsSchedulingEnabled__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__SchedulingExpirationIntervalSeconds__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__Scope__c</name>
+        <picklistValues>
+            <masterLabel>Global</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Main Order Item</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order Item</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__ShowOrder__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>vlocity_cmt__ShowOrderValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>vlocity_cmt__ValidateShowOrder</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>vlocity_cmt__Export</name>
+    </webLinks>
+</CustomObjectTranslation>

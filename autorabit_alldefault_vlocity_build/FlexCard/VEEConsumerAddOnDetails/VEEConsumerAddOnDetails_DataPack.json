@@ -1,0 +1,32 @@
+{
+    "AuthorName": "CME_EU_Express",
+    "ClonedFromOmniUiCardKey": "VEEConsumerCommodityOfferDetails/Lakshmi/4/1612769741786",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "[\n      {\n        \"Name\": \"Boiler Insurance\",\n        \"productCode\": \"AD_BOILER_INSURANCE\",\n        \"URL\": \"https://t4.ftcdn.net/jpg/03/68/33/29/240_F_368332994_ponkHiJj9sArPqNIYrjLdfl7MeJAlsYR.jpg\",\n        \"Price\": 25,\n\"test\":\"../servlet/servlet.FileDownload?file=0154x000000FXtFAAW\",\n         \"isAddedToCart\":false,\n\"ChargeType\":\"One-time\"\n      },\n      {\n        \"Name\": \"Energy Audit\",\n        \"productCode\": \"AD_ENERGY_AUDIT\",\n        \"URL\": \"https://gesstabilizer.com/assets/img/product/energy.png\",\n\"test\":\"../servlet/servlet.FileDownload?file=0154x000000FXtFAAW\",\n        \"Price\": 49,\n\"isAddedToCart\":false,\n\"ChargeType\":\"One-time\"\n      },\n      {\n        \"Name\": \"Solar Panels\",\n        \"productCode\": \"AD_SOLAR_PANELS\",\n        \"URL\": \"https://image.freepik.com/free-vector/solar-panel-energy-electric-electricity-logo-vector-icon_7688-797.jpg\",\n        \"Price\": 2200,\n\"test\":\"../servlet/servlet.FileDownload?file=0154x000000FXtFAAW\",\n\"isAddedToCart\":false,\n\"ChargeType\":\"Recurring\"\n      },\n      {\n        \"Name\": \"Smart Thermostat\",\n        \"productCode\": \"AD_SMART_THERMOSTAT\",\n        \"Price\": 199,\n\"isAddedToCart\":false,\n\"ChargeType\":\"Recurring\"\n      }\n    ]",
+            "resultVar": ""
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "VEEConsumerAddOnDetails",
+    "Namespace": "",
+    "OmniUiCardKey": "VEEConsumerAddOnDetails/CME_EU_Express/7/1618383683453",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "VEEConsumerAddOnDetails.json",
+    "SampleDataSourceResponse": "[{\"Name\":\"Boiler Insurance\",\"productCode\":\"AD_BOILER_INSURANCE\",\"URL\":\"https://t4.ftcdn.net/jpg/03/68/33/29/240_F_368332994_ponkHiJj9sArPqNIYrjLdfl7MeJAlsYR.jpg\",\"Price\":25,\"test\":\"../servlet/servlet.FileDownload?file=0154x000000FXtFAAW\",\"isAddedToCart\":false,\"ChargeType\":\"One-time\"},{\"Name\":\"Energy Audit\",\"productCode\":\"AD_ENERGY_AUDIT\",\"URL\":\"https://gesstabilizer.com/assets/img/product/energy.png\",\"test\":\"../servlet/servlet.FileDownload?file=0154x000000FXtFAAW\",\"Price\":49,\"isAddedToCart\":false,\"ChargeType\":\"One-time\"},{\"Name\":\"Solar Panels\",\"productCode\":\"AD_SOLAR_PANELS\",\"URL\":\"https://image.freepik.com/free-vector/solar-panel-energy-electric-electricity-logo-vector-icon_7688-797.jpg\",\"Price\":2200,\"test\":\"../servlet/servlet.FileDownload?file=0154x000000FXtFAAW\",\"isAddedToCart\":false,\"ChargeType\":\"Recurring\"},{\"Name\":\"Smart Thermostat\",\"productCode\":\"AD_SMART_THERMOSTAT\",\"Price\":199,\"isAddedToCart\":false,\"ChargeType\":\"Recurring\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "VEEConsumerAddOnDetails_CME_EU_Express_7",
+    "VersionNumber": 7,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/VEEConsumerAddOnDetails"
+}

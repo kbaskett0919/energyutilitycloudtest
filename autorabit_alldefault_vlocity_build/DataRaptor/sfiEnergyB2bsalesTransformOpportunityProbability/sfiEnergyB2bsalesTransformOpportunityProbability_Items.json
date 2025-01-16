@@ -1,0 +1,42 @@
+[
+    {
+        "FormulaExpression": "IF(%ProbabilityPercent%!='',CONCAT(%ProbabilityPercent%,\"%\"),%ProbabilityPercent%)",
+        "FormulaResultPath": "ProbabilityPercent",
+        "FormulaSequence": 1,
+        "GlobalKey": "sfiEnergyB2bsalesTransformOpportunityProbability8370725905966259",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyB2bsalesTransformOpportunityProbability",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyB2bsalesTransformOpportunityProbability",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyB2bsalesTransformOpportunityProbability",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyB2bsalesTransformOpportunityProbability9553831658159082",
+        "InputFieldName": "ProbabilityPercent",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyB2bsalesTransformOpportunityProbability",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyB2bsalesTransformOpportunityProbability",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyB2bsalesTransformOpportunityProbability",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ProbabilityPercent",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

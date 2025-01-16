@@ -1,0 +1,341 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "Id",
+        "GlobalKey": "VPL-Fetch-Active-PaymentPlans-ENGY-104-1Customa192E00000BvVFkQANItem3",
+        "InputFieldName": "%vlocity_namespace%__AccountId__c",
+        "InputObjectName": "%vlocity_namespace%__PaymentPlan__c",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-Fetch-Active-PaymentPlans",
+        "OmniDataTransformationId": {
+            "Name": "VPLFetchActivePaymentPlans",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLFetchActivePaymentPlans",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "PaymentPlans",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "'Active'",
+        "GlobalKey": "VPL-Fetch-Active-PaymentPlans-ENGY-104-1Customa192E00000BvVFkQANItem4",
+        "InputFieldName": "%vlocity_namespace%__Status__c",
+        "InputObjectName": "%vlocity_namespace%__PaymentPlan__c",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-Fetch-Active-PaymentPlans",
+        "OmniDataTransformationId": {
+            "Name": "VPLFetchActivePaymentPlans",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLFetchActivePaymentPlans",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "PaymentPlans",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "LIMIT",
+        "FilterValue": "500",
+        "GlobalKey": "VPL-Fetch-Active-PaymentPlans-ENGY-104-1Customa192E00000BvVFkQANItem1",
+        "InputObjectName": "%vlocity_namespace%__PaymentPlan__c",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-Fetch-Active-PaymentPlans",
+        "OmniDataTransformationId": {
+            "Name": "VPLFetchActivePaymentPlans",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLFetchActivePaymentPlans",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "PaymentPlans",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-Fetch-Active-PaymentPlans-ENGY-104-1Customa192E00000BvVFkQANItem15",
+        "InputFieldName": "PaymentPlans:%vlocity_namespace%__AccountId__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-Fetch-Active-PaymentPlans",
+        "OmniDataTransformationId": {
+            "Name": "VPLFetchActivePaymentPlans",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLFetchActivePaymentPlans",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AccountId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-Fetch-Active-PaymentPlans-ENGY-104-1Customa192E00000BvVFkQANItem23",
+        "InputFieldName": "PaymentPlans:%vlocity_namespace%__PaymentPlanAmount__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-Fetch-Active-PaymentPlans",
+        "OmniDataTransformationId": {
+            "Name": "VPLFetchActivePaymentPlans",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLFetchActivePaymentPlans",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "BalanceAmount",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-Fetch-Active-PaymentPlans-ENGY-104-1Customa192E00000BvVFkQANItem16",
+        "InputFieldName": "PaymentPlans:%vlocity_namespace%__DeactivationDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-Fetch-Active-PaymentPlans",
+        "OmniDataTransformationId": {
+            "Name": "VPLFetchActivePaymentPlans",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLFetchActivePaymentPlans",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Date(MM/dd/yyyy)",
+        "OutputFieldName": "DeactivationDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-Fetch-Active-PaymentPlans-ENGY-104-1Customa192E00000BvVFkQANItem17",
+        "InputFieldName": "PaymentPlans:%vlocity_namespace%__DownPaymentAmount__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-Fetch-Active-PaymentPlans",
+        "OmniDataTransformationId": {
+            "Name": "VPLFetchActivePaymentPlans",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLFetchActivePaymentPlans",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "DownPaymentAmount",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-Fetch-Active-PaymentPlans-ENGY-104-1Customa192E00000BvVFkQANItem18",
+        "InputFieldName": "PaymentPlans:%vlocity_namespace%__EndDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-Fetch-Active-PaymentPlans",
+        "OmniDataTransformationId": {
+            "Name": "VPLFetchActivePaymentPlans",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLFetchActivePaymentPlans",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "EndDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-Fetch-Active-PaymentPlans-ENGY-104-1Customa192E00000BvVFkQANItem19",
+        "InputFieldName": "PaymentPlans:%vlocity_namespace%__InstallmentAmount__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-Fetch-Active-PaymentPlans",
+        "OmniDataTransformationId": {
+            "Name": "VPLFetchActivePaymentPlans",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLFetchActivePaymentPlans",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "InstallmentAmount",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-Fetch-Active-PaymentPlans-ENGY-104-1Customa192E00000BvVFkQANItem20",
+        "InputFieldName": "PaymentPlans:%vlocity_namespace%__NumberOfInstallments__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-Fetch-Active-PaymentPlans",
+        "OmniDataTransformationId": {
+            "Name": "VPLFetchActivePaymentPlans",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLFetchActivePaymentPlans",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "NumberOfInstallments",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-Fetch-Active-PaymentPlans-ENGY-104-1Customa192E00000BvVFkQANItem21",
+        "InputFieldName": "PaymentPlans:%vlocity_namespace%__PaymentFrequency__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-Fetch-Active-PaymentPlans",
+        "OmniDataTransformationId": {
+            "Name": "VPLFetchActivePaymentPlans",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLFetchActivePaymentPlans",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PaymentFrequency",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-Fetch-Active-PaymentPlans-ENGY-104-1Customa192E00000BvVFkQANItem13",
+        "InputFieldName": "PaymentPlans:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-Fetch-Active-PaymentPlans",
+        "OmniDataTransformationId": {
+            "Name": "VPLFetchActivePaymentPlans",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLFetchActivePaymentPlans",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PaymentPlanId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-Fetch-Active-PaymentPlans-ENGY-104-1Customa192E00000BvVFkQANItem14",
+        "InputFieldName": "PaymentPlans:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-Fetch-Active-PaymentPlans",
+        "OmniDataTransformationId": {
+            "Name": "VPLFetchActivePaymentPlans",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLFetchActivePaymentPlans",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PaymentPlanName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-Fetch-Active-PaymentPlans-ENGY-104-1Customa192E00000BvVFkQANItem24",
+        "InputFieldName": "PaymentPlans:%vlocity_namespace%__Reason__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-Fetch-Active-PaymentPlans",
+        "OmniDataTransformationId": {
+            "Name": "VPLFetchActivePaymentPlans",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLFetchActivePaymentPlans",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PaymentPlanReason",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-Fetch-Active-PaymentPlans-ENGY-104-1Customa192E00000BvVFkQANItem22",
+        "InputFieldName": "PaymentPlans:%vlocity_namespace%__PaymentFrequency__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-Fetch-Active-PaymentPlans",
+        "OmniDataTransformationId": {
+            "Name": "VPLFetchActivePaymentPlans",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLFetchActivePaymentPlans",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ServiceTerms",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-Fetch-Active-PaymentPlans-ENGY-104-1Customa192E00000BvVFkQANItem25",
+        "InputFieldName": "PaymentPlans:%vlocity_namespace%__StartDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-Fetch-Active-PaymentPlans",
+        "OmniDataTransformationId": {
+            "Name": "VPLFetchActivePaymentPlans",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLFetchActivePaymentPlans",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Date(MM/dd/yyyy)",
+        "OutputFieldName": "StartDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-Fetch-Active-PaymentPlans-ENGY-104-1Customa192E00000BvVFkQANItem26",
+        "InputFieldName": "PaymentPlans:%vlocity_namespace%__Status__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-Fetch-Active-PaymentPlans",
+        "OmniDataTransformationId": {
+            "Name": "VPLFetchActivePaymentPlans",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLFetchActivePaymentPlans",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Status",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Vyrovnávacej pamäte SLR</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Vyrovnávacej pamäti SLR</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Vyrovnávacia pamäť SLR</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Vyrovnávacie pamäte SLR</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Vyrovnávaciu pamäť SLR</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Vyrovnávacou pamäťou SLR</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Vyrovnávacích pamätiach SLR</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Vyrovnávacích pamätí SLR</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Vyrovnávacími pamäťami SLR</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>FSL__Distance__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>FSL__From__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>FSL__Identifier__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>FSL__Time__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>FSL__To__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Číslo vyrovnávacej pamäte SLR</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,67 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "sfiEnergyEUCAdminTasks/CME_E_U/1/1654690160712",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "Custom",
+            "value": {
+                "body": "{\n\"status\": \"false\"\n}",
+                "dsDelay": "",
+                "resultVar": ""
+            }
+        },
+        "state0element0block_element0block_element1_0": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "ipMethod": "sfiEnergyCAM_DeleteCachedAPIResponse",
+                "vlocityAsync": false
+            }
+        },
+        "state1element0block_element0block_element1_0": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "jobName": "Test"
+                },
+                "ipMethod": "sfiEnergyCAM_ScheduledJobPOC",
+                "resultVar": "",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "This FlexCard is used to display CAM Delete Cached API Response action.",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyEUCCAMDeleteCachedAPIResponse",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyEUCCAMDeleteCachedAPIResponse/CME_E_U/2/1664188222691",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyEUCCAMDeleteCachedAPIResponse.json",
+    "SampleDataSourceResponse": "{\"status\":\"false\"}",
+    "StylingConfiguration": "",
+    "UniqueName": "sfiEnergyEUCCAMDeleteCachedAPIResponse_CME_E_U_2",
+    "VersionNumber": 2,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyEUCCAMDeleteCachedAPIResponse"
+}

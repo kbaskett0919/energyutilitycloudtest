@@ -1,0 +1,30 @@
+{
+    "AuthorName": "salesforce",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+            },
+            "type": null,
+            "value": {
+            }
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "EnergyUtilitiesProgramsAttributesSelectorFlow",
+    "Namespace": "",
+    "OmniUiCardKey": "EnergyUtilitiesProgramsAttributesSelectorFlow/salesforce/1.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "EnergyUtilitiesProgramsAttributesSelectorFlow.json",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "",
+    "UniqueName": "EnergyUtilitiesProgramsAttributesSelectorFlow_salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/EnergyUtilitiesProgramsAttributesSelectorFlow"
+}

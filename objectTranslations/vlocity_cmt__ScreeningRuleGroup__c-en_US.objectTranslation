@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__JSONParserClass__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>vlocity_cmt__ScreeningClass__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__Type__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <webLinks>
+        <label></label>
+        <name>vlocity_cmt__GenerateJSONParserClass</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>vlocity_cmt__GenerateScreeningClass</name>
+    </webLinks>
+</CustomObjectTranslation>

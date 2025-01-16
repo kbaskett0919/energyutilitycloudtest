@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "This VIP will return static response for add meter read.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VPL-AddMeterRead",
+    "OmniProcessElement": [
+        "VPL_AddmeterRead_Element_SVResponse.json",
+        "VPL_AddmeterRead_Element_Response.json"
+    ],
+    "OmniProcessKey": "VPL_AddmeterRead",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VPL_AddmeterRead_PropertySetConfig.json",
+    "SubType": "AddmeterRead",
+    "Type": "VPL",
+    "UniqueName": "VPL_AddmeterRead_Procedure_5",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VPL/AddmeterRead/Procedure"
+}

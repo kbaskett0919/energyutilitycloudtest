@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniDataTransform xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <assignmentRulesUsed>false</assignmentRulesUsed>
+    <deletedOnSuccess>false</deletedOnSuccess>
+    <errorIgnored>false</errorIgnored>
+    <fieldLevelSecurityEnabled>false</fieldLevelSecurityEnabled>
+    <inputType>JSON</inputType>
+    <name>sfiEnergyCAMCachedAPIRecsToDelete</name>
+    <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterDataType>STRING</filterDataType>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>IN</filterOperator>
+        <filterValue>cacheKeysList</filterValue>
+        <globalKey>sfiEnergyCAMCachedAPIRecsToDelete2129039979163314</globalKey>
+        <inputFieldName>vlocity_cmt__CacheKey__c</inputFieldName>
+        <inputObjectName>vlocity_cmt__CachedAPIResponse__c</inputObjectName>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>sfiEnergyCAMCachedAPIRecsToDelete</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>records</outputFieldName>
+        <outputObjectName>Turbo Extract</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>sfiEnergyCAMCachedAPIRecsToDelete9974629224697198</globalKey>
+        <inputFieldName>vlocity_cmt__CacheKey__c</inputFieldName>
+        <inputObjectName>vlocity_cmt__CachedAPIResponse__c</inputObjectName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>sfiEnergyCAMCachedAPIRecsToDelete</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>records</outputFieldName>
+        <outputObjectName>Turbo Extract</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;cacheKeysList&quot; : [ &quot;0af2c247078cbe18cf2bcfa171b538d0&quot;, &quot;0af2c247078cbe18cf2bcfa171b538d0&quot;, &quot;27780040fb63d8f1bb0d0450129a7db5&quot;, &quot;0af2c247078cbe18cf2bcfa171b538d0&quot;, &quot;a31ff87025a9f644ae9472073975a236&quot;, &quot;0af2c247078cbe18cf2bcfa171b538d0&quot;, &quot;0af2c247078cbe18cf2bcfa171b538d0&quot; ]
+}</previewJsonData>
+    <processSuperBulk>false</processSuperBulk>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <rollbackOnError>false</rollbackOnError>
+    <sourceObject>json</sourceObject>
+    <sourceObjectDefault>false</sourceObjectDefault>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Turbo Extract</type>
+    <uniqueName>sfiEnergyCAMCachedAPIRecsToDelete_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <xmlDeclarationRemoved>false</xmlDeclarationRemoved>
+</OmniDataTransform>

@@ -1,0 +1,48 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 8,
+                    "name": "recordId",
+                    "val": "0011Q00002ZRgo5QAD"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "Id": "{recordId}"
+                },
+                "ipMethod": "VPL_GetBillingInfo",
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "optionsMap": {
+                    "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+                },
+                "resultVar": "",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "VEEEnergyBillingTab",
+    "Namespace": "",
+    "OmniUiCardKey": "VEEEnergyBillingTab/CME_E_U/4/1626848646332",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "VEEEnergyBillingTab.json",
+    "SampleDataSourceResponse": "{\"CurrentBillingDetails\":{\"OverDuePayment\":\"$46.00\",\"GeneratedStatementLastYear\":\"2021\",\"OverDueBill\":true,\"StatementId\":\"a511Q000000M3LjQAK\",\"BillingAccountName\":\"Billy Bing\",\"GeneratedStatementMonth\":\"03\",\"TotalBalance\":\"$459.00\",\"PaymentDueDate\":\"Apr 12, 2022\",\"NewCharges\":\"$459.00\",\"StatementDate\":\"Mar 27, 2022\",\"filterStatementDate\":\"2022-03-20\",\"AccountId\":\"0011Q00002ZRgo5QAD\",\"AmountDue\":\"$505\",\"IsStatementAvailable\":true,\"BillPeriod\":null,\"OverDueMessage\":\"This customer has overdue bills\",\"DisconnectFee\":\"$126.25\"},\"ImmediateBillingAccount\":true,\"CurentBillingInvoice\":\"\",\"BillingGraphDetails\":{\"BillAmountLabel\":[\"Current Bill\",\"Previous Bill\"],\"statementId\":[\"a511Q000000M3LjQAK\",\"a511Q000000M3LkQAK\"],\"BillAmount\":[\"505.00\",\"492.00\"]},\"StatementList\":{\"StatementResult\":[{\"BillAmount\":\"$459.00\",\"BillBalance\":\"$459.00\",\"BillMethod\":\"---\",\"DRGetLineItemStatus\":null,\"LineItem\":[{\"AssetName\":\"Billy Bing Electricity\",\"BillIncrease\":\"100%\",\"BillIndication\":\"utility:arrowup\",\"CurrencyAmount\":\"$203\",\"Name\":\"SLI-000000002\",\"StatementServiceId\":\"S94553\",\"StatementServiceName\":\"Electricity\",\"TotalConsumption\":\"100 Kwh\"},{\"AssetName\":\"Billy Bing Gas\",\"BillIncrease\":\"100%\",\"BillIndication\":\"utility:arrowup\",\"CurrencyAmount\":\"$210\",\"Name\":\"SLI-000000003\",\"StatementServiceId\":\"S94553\",\"StatementServiceName\":\"Gas\",\"TotalConsumption\":\"100 Kwh\"}],\"LoopBlockIterationIndex\":null,\"LoopBlockIterationStatus\":null,\"Name\":\"Billy Bing Statement Aug-2020\",\"StatementDate\":\"03/27/2022\",\"StatementID\":\"a511Q000000M3LjQAK\",\"StatementURL\":\"\",\"Type\":\"Bill\"}]},\"BillingAccountName\":\"Billing Account: Billy Bing\",\"Statementcolumns\":[{\"searchable\":true,\"type\":\"date\",\"label\":\"VEEConsoleBillingDate\",\"sortable\":true,\"userSelectable\":false,\"fieldName\":\"StatementDate\"},{\"searchable\":true,\"label\":\"VEEConsoleType\",\"sortable\":true,\"userSelectable\":true,\"fieldName\":\"Type\"},{\"searchable\":true,\"label\":\"VEEConsoleAmount\",\"sortable\":true,\"userSelectable\":true,\"fieldName\":\"BillAmount\"},{\"searchable\":true,\"label\":\"VEEConsoleBillingMethod\",\"sortable\":true,\"userSelectable\":true,\"fieldName\":\"BillMethod\"},{\"searchable\":true,\"label\":\"VEEConsoleBalance\",\"sortable\":true,\"userSelectable\":true,\"fieldName\":\"BillBalance\"},{\"searchable\":false,\"label\":\"\",\"sortable\":false,\"userSelectable\":false,\"fieldName\":\"StatementURL\"},{\"searchable\":false,\"label\":\"\",\"sortable\":false,\"userSelectable\":false,\"fieldName\":\"StatementID\"}],\"InputAccountId\":\"0011Q00002ZRgo5QAD\",\"StatementLineItemcolumns\":[{\"searchable\":false,\"label\":\"Account Name\",\"sortable\":false,\"userSelectable\":false,\"fieldName\":\"StatementServiceName\"},{\"searchable\":false,\"label\":\"Account Number\",\"sortable\":false,\"userSelectable\":false,\"fieldName\":\"StatementServiceId\"},{\"searchable\":false,\"label\":\"Usage Amount\",\"sortable\":false,\"userSelectable\":false,\"fieldName\":\"TotalConsumption\"},{\"searchable\":false,\"label\":\"Compare in Percent\",\"sortable\":false,\"userSelectable\":false,\"fieldName\":\"BillIncrease\"},{\"searchable\":false,\"label\":\"%\",\"sortable\":false,\"userSelectable\":false,\"fieldName\":\"Name\"}]}",
+    "StylingConfiguration": "",
+    "UniqueName": "VEEEnergyBillingTab_CME_E_U_4",
+    "VersionNumber": 4,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/VEEEnergyBillingTab"
+}

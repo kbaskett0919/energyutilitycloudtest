@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>A Screen flow that is used to perform final health and safety checks after replacing a meter.</description>
+    <environments>Default</environments>
+    <interviewLabel>Final Health And Safety Checks {!$Flow.CurrentDateTime}</interviewLabel>
+    <isTemplate>true</isTemplate>
+    <label>Final health and safety checks</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>FieldServiceMobile</processType>
+    <screens>
+        <description>A Screen flow that is used to perform final health and safety checks after replacing a meter.</description>
+        <name>S01_FinalHealthAndSafetyChecks</name>
+        <label>Final Health And Safety Checks</label>
+        <locationX>669</locationX>
+        <locationY>181</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>S01_Instructions</name>
+            <fieldText>&lt;p&gt;&lt;strong&gt;Instructions:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Tightness Test:﻿&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;1) Raise the pressure top 7/10 millibar (mb) for 1 minute to test the let by of the ECV.1. If the let by is susceptive, then disconnect the regulator and apply the leak detection fluid (LDF) inside the ECV.&lt;/p&gt;&lt;p&gt;2) If let by is present, then contact the gas transporter.&lt;/p&gt;&lt;p&gt;3) Raise the pressure to 20 millibar for 1 minute for the stabilisation period.&lt;/p&gt;&lt;p&gt;4) For a further 2 minutes, test the installation at 20mb.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Leak Test:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;1) Apply LDF to unions and test points after the testing procedure.&lt;/p&gt;&lt;p&gt;2) Ensure that test point is correctly inserted and tightened as appropriate.&lt;/p&gt;&lt;p&gt;3) LDF will bubble if there is an escape present.&lt;/p&gt;&lt;p&gt;4) Leave sufficient time for LDF to react , around 2 minutes. Ensure consideration is given to all the new and existing connections for signs of leakage.&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>S01_IsTightnessTestPerformed</name>
+            <dataType>Boolean</dataType>
+            <defaultValue>
+                <booleanValue>true</booleanValue>
+            </defaultValue>
+            <fieldText>I have performed the Tightness Test</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>S01_IsApplianceTested</name>
+            <dataType>Boolean</dataType>
+            <defaultValue>
+                <booleanValue>true</booleanValue>
+            </defaultValue>
+            <fieldText>I have opened valve and tested the appliance</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>S01_IsLeakTestPeformed</name>
+            <dataType>Boolean</dataType>
+            <defaultValue>
+                <booleanValue>true</booleanValue>
+            </defaultValue>
+            <fieldText>I have performed the Leak Test</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>543</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>S01_FinalHealthAndSafetyChecks</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+</Flow>

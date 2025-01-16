@@ -1,0 +1,45 @@
+{
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 1,
+                    "name": "User.userId",
+                    "val": "005Ws000000Ea4dIAC"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "CreatedById": "{User.userId}"
+                },
+                "ipMethod": "sfiEnergyB2bsales_AgentTargets",
+                "jsonMap": "{\"User.userId\":\"{User.userId}\"}",
+                "resultVar": "",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyB2bsalesAgentTargets",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyB2bsalesAgentTargets/Salesforce/1/1631673894951",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyB2bsalesAgentTargets.json",
+    "SampleDataSourceResponse": "{\"chartData\":{\"quote\":{\"presented\":0,\"inReview\":0},\"opportunity\":{\"proposal\":0,\"negotiation\":1},\"lead\":{\"warm\":0,\"hot\":0,\"cold\":0}},\"metaData\":[{\"attributes\":[{\"label\":\"SfiEnergyProposal\",\"name\":\"proposal\"},{\"label\":\"SfiEnergyNegotiation\",\"name\":\"negotiation\"}],\"label\":\"SfiEnergyOpportunities\",\"name\":\"opportunity\"},{\"attributes\":[{\"label\":\"SfiEnergyPresented\",\"name\":\"presented\"},{\"label\":\"SfiEnergyInReview\",\"name\":\"inReview\"}],\"label\":\"SfiEnergyQuotes\",\"name\":\"quote\"},{\"attributes\":[{\"label\":\"SfiEnergyHot\",\"name\":\"hot\"},{\"label\":\"SfiEnergyWarm\",\"name\":\"warm\"},{\"label\":\"SfiEnergyCold\",\"name\":\"cold\"}],\"label\":\"SfiEnergyLeads\",\"name\":\"lead\"}]}",
+    "StylingConfiguration": "",
+    "UniqueName": "sfiEnergyB2bsalesAgentTargets_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyB2bsalesAgentTargets"
+}

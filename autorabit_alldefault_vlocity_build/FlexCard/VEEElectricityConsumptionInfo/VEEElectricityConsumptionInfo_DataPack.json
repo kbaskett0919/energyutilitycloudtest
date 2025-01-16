@@ -1,0 +1,32 @@
+{
+    "AuthorName": "CME_EU_Express",
+    "ClonedFromOmniUiCardKey": "VEEConsumptionRangeNew/Divakar/2/1614844339945",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "{\n\"State\": \"High\"\n}",
+            "resultVar": ""
+        }
+    },
+    "Description": "Used to display consumption Info message for Electricity",
+    "IsTrackingEnabled": false,
+    "Name": "VEEElectricityConsumptionInfo",
+    "Namespace": "",
+    "OmniUiCardKey": "VEEElectricityConsumptionInfo/Divakar/1/1614852319746",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "VEEElectricityConsumptionInfo.json",
+    "SampleDataSourceResponse": "{\"State\":\"High\"}",
+    "StylingConfiguration": "",
+    "UniqueName": "VEEElectricityConsumptionInfo_CME_EU_Express_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/VEEElectricityConsumptionInfo"
+}

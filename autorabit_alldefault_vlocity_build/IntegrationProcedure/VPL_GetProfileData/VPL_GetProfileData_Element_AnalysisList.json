@@ -1,0 +1,28 @@
+{
+    "Description": "Loop block to  Loop over the Analysis values",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "AnalysisList",
+    "OmniProcessId": {
+        "Name": "VPL/GetProfileData",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/VPL/GetProfileData/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "label": "LoopBlock1",
+        "loopList": "DRGetAnalysis:Analysis",
+        "loopOutput": {
+            "AnalysisMood": "%DRTransformAnalysis:AnalysisMood%",
+            "AnalysisRenewablePotential": "%DRTransformAnalysis:AnalysisRenewablePotential%",
+            "AnalysisUpsellPotential": "%DRTransformAnalysis:AnalysisUpsellPotential%"
+        },
+        "show": null
+    },
+    "Type": "Loop Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/VPL/GetProfileData/Procedure/AnalysisList"
+}

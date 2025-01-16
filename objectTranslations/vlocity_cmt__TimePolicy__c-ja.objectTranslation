@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>時間ポリシー</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__Description__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__EffectiveEndDate__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__EffectiveStartDate__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__EndTimePolicy__c</name>
+        <picklistValues>
+            <masterLabel>Cycle End Date</masterLabel>
+            <translation>サイクル終了日</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End of Plan Duration</masterLabel>
+            <translation>計画期間の終了</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Last Day of Month</masterLabel>
+            <translation>月の最終日</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Set by Order Management</masterLabel>
+            <translation>注文管理により設定</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__GlobalKey__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__IsActive__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__IsEndProratable__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__IsStartProratable__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__IsStartTimeDelayed__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__StartTimeDelayOffsetUoM__c</name>
+        <picklistValues>
+            <masterLabel>Day</masterLabel>
+            <translation>日</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month</masterLabel>
+            <translation>月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week</masterLabel>
+            <translation>週</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year</masterLabel>
+            <translation>年</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__StartTimeDelayOffset__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__StartTimePolicy__c</name>
+        <picklistValues>
+            <masterLabel>Activation Start</masterLabel>
+            <translation>有効化開始</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cycle Start Date</masterLabel>
+            <translation>サイクル開始日</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Day of Month</masterLabel>
+            <translation>月の初日</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Date</masterLabel>
+            <translation>購入日</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>名前</nameFieldLabel>
+</CustomObjectTranslation>

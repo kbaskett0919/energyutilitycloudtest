@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <description>Sets recordId.</description>
+        <name>Set_RecordId</name>
+        <label>Set RecordId</label>
+        <locationX>632</locationX>
+        <locationY>10</locationY>
+        <assignmentItems>
+            <assignToReference>recordId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Id</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Get_WorkStep</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <description>Check whether Id of Work Step exists or not.</description>
+        <name>Check_Id_Exists</name>
+        <label>Check Id Exists?</label>
+        <locationX>390</locationX>
+        <locationY>70</locationY>
+        <defaultConnector>
+            <targetReference>Get_WorkStep</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>IdExists</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Id</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_RecordId</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Based on user selection for checkbox for valid meter, Service Appointment status is updated to Can&apos;t Complete.</description>
+        <name>Check_Is_Right_Meter</name>
+        <label>Check Is Right Meter?</label>
+        <locationX>437</locationX>
+        <locationY>594</locationY>
+        <defaultConnector>
+            <targetReference>Update_ServiceAppointment</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>S01_CorrectMeterCheckBox</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <description>A Screen flow that is used to verify the details of meter to be replaced.</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>var_NumberOfDialsNumber</name>
+        <dataType>Number</dataType>
+        <expression>VALUE({!var_NumberOfDials})</expression>
+        <scale>0</scale>
+    </formulas>
+    <interviewLabel>Verify Meter Details {!$Flow.CurrentDateTime}</interviewLabel>
+    <isTemplate>true</isTemplate>
+    <label>Verify meter details</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>FieldServiceMobile</processType>
+    <recordLookups>
+        <name>Get_Asset</name>
+        <label>Get Asset</label>
+        <locationX>927</locationX>
+        <locationY>177</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_MeterSizeAttributeDefinition</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_AssetId</elementReference>
+            </value>
+        </filters>
+        <object>Asset</object>
+        <outputAssignments>
+            <assignToReference>var_MeterSerialNumber</assignToReference>
+            <field>SerialNumber</field>
+        </outputAssignments>
+    </recordLookups>
+    <recordLookups>
+        <description>Get Meter Manufacturer.</description>
+        <name>Get_MeterManufacturer</name>
+        <label>Get Meter Manufacturer</label>
+        <locationX>437</locationX>
+        <locationY>361</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_NumberOfDials</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>AssetId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_AssetId</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>AttributeDefinitionId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_MeterManufacturerAttributeDefinitionId</elementReference>
+            </value>
+        </filters>
+        <object>AssetAttribute</object>
+        <outputAssignments>
+            <assignToReference>var_MeterManufacturer</assignToReference>
+            <field>AttributeValue</field>
+        </outputAssignments>
+    </recordLookups>
+    <recordLookups>
+        <description>Get Meter Manufacturer Attribute Definition.</description>
+        <name>Get_MeterManufacturerAttributeDefinition</name>
+        <label>Get Meter Manufacturer Attribute Definition</label>
+        <locationX>1064</locationX>
+        <locationY>361</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_NumberOfDialsAttributeDefinition</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Name</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Meter Manufacturer</stringValue>
+            </value>
+        </filters>
+        <object>AttributeDefinition</object>
+        <outputAssignments>
+            <assignToReference>var_MeterManufacturerAttributeDefinitionId</assignToReference>
+            <field>Id</field>
+        </outputAssignments>
+    </recordLookups>
+    <recordLookups>
+        <description>Get Meter Size.</description>
+        <name>Get_MeterSize</name>
+        <label>Get Meter Size</label>
+        <locationX>641</locationX>
+        <locationY>361</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_MeterManufacturer</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>AssetId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_AssetId</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>AttributeDefinitionId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_MeterSizeAttributeDefinitionId</elementReference>
+            </value>
+        </filters>
+        <object>AssetAttribute</object>
+        <outputAssignments>
+            <assignToReference>var_MeterSize</assignToReference>
+            <field>AttributeValue</field>
+        </outputAssignments>
+    </recordLookups>
+    <recordLookups>
+        <description>Get Meter Size Attribute Definition.</description>
+        <name>Get_MeterSizeAttributeDefinition</name>
+        <label>Get Meter Size Attribute Definition</label>
+        <locationX>1063</locationX>
+        <locationY>177</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_MeterManufacturerAttributeDefinition</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Name</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Meter Size</stringValue>
+            </value>
+        </filters>
+        <object>AttributeDefinition</object>
+        <outputAssignments>
+            <assignToReference>var_MeterSizeAttributeDefinitionId</assignToReference>
+            <field>Id</field>
+        </outputAssignments>
+    </recordLookups>
+    <recordLookups>
+        <description>Get Number Of Dials.</description>
+        <name>Get_NumberOfDials</name>
+        <label>Get Number Of Dials</label>
+        <locationX>225</locationX>
+        <locationY>361</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>S01_VerifyMeterDetails</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>AssetId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_AssetId</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>AttributeDefinitionId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_NumberOfDialsAttributeDefinitionId</elementReference>
+            </value>
+        </filters>
+        <object>AssetAttribute</object>
+        <outputAssignments>
+            <assignToReference>var_NumberOfDials</assignToReference>
+            <field>AttributeValue</field>
+        </outputAssignments>
+    </recordLookups>
+    <recordLookups>
+        <description>Get Number Of Dials Attribute Definition.</description>
+        <name>Get_NumberOfDialsAttributeDefinition</name>
+        <label>Get Number Of Dials Attribute Definition</label>
+        <locationX>824</locationX>
+        <locationY>361</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_MeterSize</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Name</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Number Of Dials</stringValue>
+            </value>
+        </filters>
+        <object>AttributeDefinition</object>
+        <outputAssignments>
+            <assignToReference>var_NumberOfDialsAttributeDefinitionId</assignToReference>
+            <field>Id</field>
+        </outputAssignments>
+    </recordLookups>
+    <recordLookups>
+        <description>Get Work Order.</description>
+        <name>Get_WorkOrder</name>
+        <label>Get Work Order</label>
+        <locationX>781</locationX>
+        <locationY>177</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Asset</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_WorkOrderId</elementReference>
+            </value>
+        </filters>
+        <object>WorkOrder</object>
+        <outputAssignments>
+            <assignToReference>var_AssetId</assignToReference>
+            <field>AssetId</field>
+        </outputAssignments>
+    </recordLookups>
+    <recordLookups>
+        <description>Get Work Step.</description>
+        <name>Get_WorkStep</name>
+        <label>Get Work Step</label>
+        <locationX>632</locationX>
+        <locationY>177</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_WorkOrder</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <object>WorkStep</object>
+        <outputAssignments>
+            <assignToReference>var_WorkOrderId</assignToReference>
+            <field>WorkOrderId</field>
+        </outputAssignments>
+    </recordLookups>
+    <recordUpdates>
+        <description>Update Service Appointment status to Can&apos;t Complete.</description>
+        <name>Update_ServiceAppointment</name>
+        <label>Update Service Appointment</label>
+        <locationX>700</locationX>
+        <locationY>596</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ParentRecordId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_WorkOrderId</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Cannot Complete</stringValue>
+            </value>
+        </inputAssignments>
+        <object>ServiceAppointment</object>
+    </recordUpdates>
+    <screens>
+        <description>A Screen flow that is used to verify the details of meter to be replaced.</description>
+        <name>S01_VerifyMeterDetails</name>
+        <label>Verify Meter Details</label>
+        <locationX>225</locationX>
+        <locationY>592</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Check_Is_Right_Meter</targetReference>
+        </connector>
+        <fields>
+            <name>S01_MeterSerialNumber</name>
+            <fieldText>&lt;p&gt;&lt;strong&gt;Meter Serial Number:&lt;/strong&gt;{!var_MeterSerialNumber}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>S01_MeterSize</name>
+            <fieldText>&lt;p&gt;&lt;strong&gt;Meter Size: &lt;/strong&gt;{!var_MeterSize}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>S01_MeterManufacturer</name>
+            <fieldText>&lt;p&gt;&lt;strong&gt;Meter Manufacturer: &lt;/strong&gt;{!var_MeterManufacturer}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>S01_NumberOfDials</name>
+            <fieldText>&lt;p&gt;&lt;strong&gt;Number Of Dials: &lt;/strong&gt;{!var_NumberOfDialsNumber}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>S01_CorrectMeterCheckBox</name>
+            <dataType>Boolean</dataType>
+            <defaultValue>
+                <booleanValue>true</booleanValue>
+            </defaultValue>
+            <fieldText>You are at the correct meter</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <nextOrFinishButtonLabel>Submit</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>10</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Check_Id_Exists</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <description>This variable is used to store Id of Work Step associated with this flow.</description>
+        <name>Id</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <description>This variable is used to store Id of the Work Step associated with this flow.</description>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <description>This variable is used to store Asset Id.</description>
+        <name>var_AssetId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>This variable is used to store Meter Manufacturer</description>
+        <name>var_MeterManufacturer</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>This variable is used to store Id of Meter Manufacturer Attribute Definition.</description>
+        <name>var_MeterManufacturerAttributeDefinitionId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>This variable is used to store Meter Serial Number.</description>
+        <name>var_MeterSerialNumber</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>This variable is used to store Meter Size.</description>
+        <name>var_MeterSize</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>This variable is used to store Id of Meter Size Attribute Definition.</description>
+        <name>var_MeterSizeAttributeDefinitionId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>This variable is used to store Number of Dials.</description>
+        <name>var_NumberOfDials</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>This variable is used to store Number Of Dials Attribute Definition.</description>
+        <name>var_NumberOfDialsAttributeDefinitionId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>This variable is used to store Id of Work Order.</description>
+        <name>var_WorkOrderId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

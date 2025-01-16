@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <fullName>Omni_Data_Transformation</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Omni Data Transformation</label>
+        <sharedTo>
+            <guestUser>VEE_Digital_Sales</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>CreatedById</field>
+            <operation>notEqual</operation>
+            <value>null</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+    <sharingGuestRules>
+        <fullName>Sfi_Omni_Data_TransformationSharing_Rule</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Sfi Omni Data TransformationSharing Rule</label>
+        <sharedTo>
+            <guestUser>Self_Service_Portal</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+</SharingRules>

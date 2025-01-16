@@ -1,0 +1,33 @@
+{
+    "CustomJavaScript": "VEE_DigitalCalculateBasketTotal_SampleInput.json",
+    "Description": "This VIP will be used to calculate total prices of basket based on unit prices of products and consumption provided by user.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VEEDigitalCalculateBasketTotal",
+    "OmniProcessElement": [
+        "VEE_DigitalCalculateBasketTotal_Element_ElectricityAndGasProduct.json",
+        "VEE_DigitalCalculateBasketTotal_Element_CalculatingPricesInBaskets.json",
+        "VEE_DigitalCalculateBasketTotal_Element_MergePricesListWithBasketList.json",
+        "VEE_DigitalCalculateBasketTotal_Element_ResponseForElecAndGas.json",
+        "VEE_DigitalCalculateBasketTotal_Element_DualFuelProduct.json",
+        "VEE_DigitalCalculateBasketTotal_Element_CalculatingPricesInBasketsDualFuel.json",
+        "VEE_DigitalCalculateBasketTotal_Element_MergePricesListWithBasketListDualFuel.json",
+        "VEE_DigitalCalculateBasketTotal_Element_ResponseForDualFuel.json",
+        "VEE_DigitalCalculateBasketTotal_Element_Response.json"
+    ],
+    "OmniProcessKey": "VEE_DigitalCalculateBasketTotal",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VEE_DigitalCalculateBasketTotal_PropertySetConfig.json",
+    "RequiredPermission": "VEEDigitalOrderPermission",
+    "SubType": "DigitalCalculateBasketTotal",
+    "Type": "VEE",
+    "UniqueName": "VEE_DigitalCalculateBasketTotal_Procedure_3",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VEE/DigitalCalculateBasketTotal/Procedure"
+}

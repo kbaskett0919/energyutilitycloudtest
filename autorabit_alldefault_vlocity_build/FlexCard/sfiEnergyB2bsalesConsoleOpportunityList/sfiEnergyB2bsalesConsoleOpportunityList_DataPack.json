@@ -1,0 +1,45 @@
+{
+    "AuthorName": "Vlocity",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 1,
+                    "name": "Params.id",
+                    "val": "001Ws000004wBC5IAM"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "Id": "{Params.id}"
+                },
+                "ipMethod": "sfiEnergyB2bsales_ConsoleOpportunityList",
+                "jsonMap": "{\"Params.id\":\"{Params.id}\"}",
+                "resultVar": "",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyB2bsalesConsoleOpportunityList",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyB2bsalesConsoleOpportunityList/Vlocity/1/1632316746311",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyB2bsalesConsoleOpportunityList.json",
+    "SampleDataSourceResponse": "{\"OpportunityList\":[{\"OpportunityStage\":\"Prospecting\",\"OpportunityName\":\"Head Office - Business expansion 1\",\"OpportunityId\":\"006Ws000001U0WiIAK\",\"OpportunityCloseDate\":\"2025-04-01\",\"OpportunityAgent\":\"Admin\"},{\"OpportunityStage\":\"Prospecting\",\"OpportunityName\":\"Head Office - Business expansion 3\",\"OpportunityId\":\"006Ws000001U0WjIAK\",\"OpportunityCloseDate\":\"2025-04-01\",\"OpportunityAgent\":\"Admin\"}],\"columnsData\":{\"additionalColumns\":[],\"columns\":[{\"fieldName\":\"OpportunityName\",\"label\":\"SfiEnergyOpportunityName\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true,\"visible\":true},{\"fieldName\":\"OpportunityCloseDate\",\"label\":\"SfiEnergyOpportunityCloseDate\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true},{\"fieldName\":\"OpportunityStage\",\"label\":\"SfiEnergyOpportunityStatus\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true},{\"fieldName\":\"OpportunityAgent\",\"label\":\"SfiEnergyOpportunityAgent\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true}]}}",
+    "StylingConfiguration": "",
+    "UniqueName": "sfiEnergyB2bsalesConsoleOpportunityList_Vlocity_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyB2bsalesConsoleOpportunityList"
+}

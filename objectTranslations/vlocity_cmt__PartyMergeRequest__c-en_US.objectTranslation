@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__IsInBatch__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__MasterId__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__NonMasterId__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__ProcessStatus__c</name>
+    </fields>
+</CustomObjectTranslation>

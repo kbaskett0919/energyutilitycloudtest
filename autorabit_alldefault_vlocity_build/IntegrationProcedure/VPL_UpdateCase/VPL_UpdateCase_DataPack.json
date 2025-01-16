@@ -1,0 +1,29 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "This Integration procedure will Update the case status to closed as per condition.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VPL-UpdateCase",
+    "OmniProcessElement": [
+        "VPL_UpdateCase_Element_DRUpdateCase.json",
+        "VPL_UpdateCase_Element_DRGetCaseStatus.json",
+        "VPL_UpdateCase_Element_DRUpdateAccountStatement.json",
+        "VPL_UpdateCase_Element_SVResponseRebill.json",
+        "VPL_UpdateCase_Element_SVResponseBillAdjustment.json",
+        "VPL_UpdateCase_Element_Response.json"
+    ],
+    "OmniProcessKey": "VPL_UpdateCase",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VPL_UpdateCase_PropertySetConfig.json",
+    "SubType": "UpdateCase",
+    "Type": "VPL",
+    "UniqueName": "VPL_UpdateCase_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VPL/UpdateCase/Procedure"
+}

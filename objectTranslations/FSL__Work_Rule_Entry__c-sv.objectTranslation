@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Arbetsregelpost</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Arbetsregelposten</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Arbetsregelposter</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Arbetsregelposterna</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>En arbetsregelpost</value>
+    </caseValues>
+    <fields>
+        <help>Rastens längd i minuter.</help>
+        <label></label>
+        <name>FSL__Break_Duration__c</name>
+    </fields>
+    <fields>
+        <help>Antalet minuter från början av serviceresursens tillgänglighet till den tidigaste tillåtna starttiden för rasten. Ange t.ex. 120 om du vill planera en rast minst två timmar efter att dagen har börjat.</help>
+        <label></label>
+        <name>FSL__Earliest_Break_Start__c</name>
+    </fields>
+    <fields>
+        <help>Antalet minuter från början av serviceresursens tillgänglighet till den senaste sluttiden för rasten. Ange t.ex. 300 om du vill schemalägga en lunchrast så att den slutar högst fem timmar efter att dagen har börjat.</help>
+        <label></label>
+        <name>FSL__Latest_Break_End__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>FSL__Work_Rule__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Namn på post för arbetsregel</nameFieldLabel>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+</CustomObjectTranslation>

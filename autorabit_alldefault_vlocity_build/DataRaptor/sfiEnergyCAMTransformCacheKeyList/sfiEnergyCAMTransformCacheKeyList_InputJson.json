@@ -1,0 +1,21 @@
+{
+    "ContextId": null,
+    "LoopModifiedProducts": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRCachedAPIRecordsIDList": null,
+        "DRFetchCachedAPIRecords": null,
+        "DRGetCacheKeys": null,
+        "DRGetModifiedProductCode": null,
+        "DRTransformCacheKeyList": null,
+        "DeleteCachedAPIRecords": null,
+        "LoopModifiedProducts": null
+    }
+}

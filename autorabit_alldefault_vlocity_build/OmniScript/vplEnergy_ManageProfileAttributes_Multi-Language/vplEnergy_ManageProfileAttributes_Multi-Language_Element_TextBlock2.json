@@ -1,0 +1,40 @@
+{
+    "Description": "Confirmation to display updated Profile attribute values",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "TextBlock2",
+    "OmniProcessId": {
+        "Name": "vplEnergyManageProfileAttributes",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/vplEnergy/ManageProfileAttributes/Multi-Language",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Confirmation",
+        "OmniProcessId": {
+            "Name": "vplEnergyManageProfileAttributes",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/vplEnergy/ManageProfileAttributes/Multi-Language",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/vplEnergy/ManageProfileAttributes/Multi-Language/Confirmation",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Confirmation",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": "sfiEnergyConsoleConfirmation",
+        "show": null,
+        "text": "<h3><strong>Analysis</strong></h3>\n<p>Mood :&nbsp;<strong>%ManageProfileAttributes:AnalysisMood%</strong></p>\n<p>Upsell Potential<strong>:&nbsp;%ManageProfileAttributes:AnalysisUpsellPotential%</strong></p>\n<p>Renewal Potential<strong> :&nbsp;%ManageProfileAttributes:AnalysisRenewalPotential%</strong></p>\n<p></p>\n<p></p>",
+        "textKey": "sfiEnergyConsoleAnalysisConfirmMsg"
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/vplEnergy/ManageProfileAttributes/Multi-Language/TextBlock2"
+}

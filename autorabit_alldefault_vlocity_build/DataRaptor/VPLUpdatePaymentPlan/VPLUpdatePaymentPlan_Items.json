@@ -1,0 +1,100 @@
+[
+    {
+        "FormulaExpression": "IF(PaymentPlans:EndDate=\"\",TODAY(),PaymentPlans:EndDate)",
+        "FormulaResultPath": "PaymentEndDate",
+        "FormulaSequence": 1,
+        "GlobalKey": "VPL-Update-PaymentPlan-ENGY-104-1Customa192E00000BvVFuQANItem0",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-Update-PaymentPlan",
+        "OmniDataTransformationId": {
+            "Name": "VPLUpdatePaymentPlan",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLUpdatePaymentPlan",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-Update-PaymentPlan-ENGY-104-1Customa192E00000BvVFuQANItem3",
+        "InputFieldName": "PaymentEndDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-Update-PaymentPlan",
+        "OmniDataTransformationId": {
+            "Name": "VPLUpdatePaymentPlan",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLUpdatePaymentPlan",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__DeactivationDate__c",
+        "OutputObjectName": "%vlocity_namespace%__PaymentPlan__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "Inactive",
+        "GlobalKey": "VPL-Update-PaymentPlan-ENGY-104-1Customa192E00000BvVFuQANItem2",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-Update-PaymentPlan",
+        "OmniDataTransformationId": {
+            "Name": "VPLUpdatePaymentPlan",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLUpdatePaymentPlan",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__Status__c",
+        "OutputObjectName": "%vlocity_namespace%__PaymentPlan__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-Update-PaymentPlan-ENGY-104-1Customa192E00000BvVFuQANItem4",
+        "InputFieldName": "PaymentPlans:PaymentPlanId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": true,
+        "IsUpsertKey": true,
+        "Name": "VPL-Update-PaymentPlan",
+        "OmniDataTransformationId": {
+            "Name": "VPLUpdatePaymentPlan",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLUpdatePaymentPlan",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "%vlocity_namespace%__PaymentPlan__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "VPL-Update-PaymentPlan-ENGY-104-1Customa192E00000BvVFuQANItem1",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "VPL-Update-PaymentPlan",
+        "OmniDataTransformationId": {
+            "Name": "VPLUpdatePaymentPlan",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLUpdatePaymentPlan",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "%vlocity_namespace%__PaymentPlan__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

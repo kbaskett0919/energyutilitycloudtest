@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "VEE_DigitalCreateAccount_SampleInput.json",
+    "Description": "This VIP will create Consumer Account and will return Account details",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VEEDigitalCreateAccount",
+    "OmniProcessElement": [
+        "VEE_DigitalCreateAccount_Element_FetchRecordType.json",
+        "VEE_DigitalCreateAccount_Element_CreateAccount.json",
+        "VEE_DigitalCreateAccount_Element_EncryptAccountID.json",
+        "VEE_DigitalCreateAccount_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "VEE_DigitalCreateAccount",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VEE_DigitalCreateAccount_PropertySetConfig.json",
+    "RequiredPermission": "VEEDigitalOrderPermission",
+    "SubType": "DigitalCreateAccount",
+    "Type": "VEE",
+    "UniqueName": "VEE_DigitalCreateAccount_Procedure_3",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VEE/DigitalCreateAccount/Procedure"
+}

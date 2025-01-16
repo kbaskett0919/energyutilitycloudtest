@@ -1,0 +1,15 @@
+{
+    "CalculationMatrixColumn": "VEEDCSalesPricingMatrix_CalculationMatrixColumns.json",
+    "DecisionMatrixType": "DecisionMatrix",
+    "Description": "",
+    "GroupKey": "",
+    "Name": "VEEDCSalesPricingMatrix",
+    "Namespace": "",
+    "SubGroupKey": "",
+    "Type": "Standard",
+    "UniqueName": "VEEDCSalesPricingMatrix",
+    "UsageType": "Bre",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationMatrix",
+    "VlocityRecordSourceKey": "CalculationMatrix/VEEDCSalesPricingMatrix"
+}

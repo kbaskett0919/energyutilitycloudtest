@@ -1,0 +1,131 @@
+{
+    "electricityConsumption": 200,
+    "gasConsumption": 500,
+    "offerDetails": [
+        {
+            "": "",
+            "cartContextKey": "dcbe4165fc029f04eb6a0ca4e212860d",
+            "childProducts": [
+                {
+                    "childProducts": [
+                        {
+                            "description": "Unit rate is charged per kWh of energy consumption.",
+                            "name": "Unit Rate",
+                            "productCode": "CC_UNIT_RATE_ELEC_DUAL",
+                            "subType": "Unit Rate",
+                            "unitPrice": 0.1134
+                        },
+                        {
+                            "description": "Standing Charges is an infrastructure charge which is charged per Day of usage.",
+                            "name": "Standing Charges",
+                            "productCode": "CC_STANDING_CHARGES_ELEC_DUAL",
+                            "subType": "Standing Charges",
+                            "unitPrice": 0.101
+                        }
+                    ],
+                    "currencyCode": "GBP",
+                    "description": "Standard fixed rate electricity (discounted as part of a dual fuel offering).",
+                    "family": "Electricity",
+                    "name": "Electricity",
+                    "productCode": "PD_ELECTRICITY_DUALFUEL",
+                    "subType": "Electricity"
+                },
+                {
+                    "childProducts": [
+                        {
+                            "description": "Unit rate is charged per kWh of energy consumption.",
+                            "name": "Unit Rate",
+                            "productCode": "CC_UNIT_RATE_GAS_DUAL",
+                            "subType": "Unit Rate",
+                            "unitPrice": 0.1445
+                        },
+                        {
+                            "description": "Standing Charges is an infrastructure charge which is charged per Day of usage.",
+                            "name": "Standing Charges",
+                            "productCode": "CC_STANDING_CHARGES_GAS_DUAL",
+                            "subType": "Standing Charges",
+                            "unitPrice": 0.177
+                        }
+                    ],
+                    "currencyCode": "GBP",
+                    "description": "Standard fixed rate gas (discounted as part of a dual fuel offering).",
+                    "family": "Gas",
+                    "name": "Gas",
+                    "productCode": "PD_GAS_DUALFUEL",
+                    "subType": "Gas"
+                }
+            ],
+            "currencyCode": "GBP",
+            "default": true,
+            "description": "Dual Fuel (Elec & Gas) Tariff includes a dual fuel discount, which can mean your energy will be cheaper than paying for both electricity and gas fuels separately.",
+            "isAddedToCart": false,
+            "productCode": "PD_DUAL_FUEL_ELEC_GAS_TARIFF",
+            "productCodeWithAttachments": "PD_DUAL_FUEL_ELEC_GAS_TARIFF",
+            "productName": "Dual Fuel (Elec & Gas) Tariff",
+            "url": "/servlet/servlet.FileDownload?file=0155g0000000rXpAAI"
+        },
+        {
+            "": "",
+            "cartContextKey": "dcbe4165fc029f04eb6a0ca4e212860d",
+            "childProducts": [
+                {
+                    "childProducts": [
+                        {
+                            "description": "Unit rate is charged per kWh of energy consumption.",
+                            "name": "Unit Rate",
+                            "productCode": "CC_UNIT_RATE_ELEC_DUAL",
+                            "subType": "Unit Rate",
+                            "unitPrice": 1
+                        },
+                        {
+                            "description": "Standing Charges is an infrastructure charge which is charged per Day of usage.",
+                            "name": "Standing Charges",
+                            "productCode": "CC_STANDING_CHARGES_ELEC_DUAL",
+                            "subType": "Standing Charges",
+                            "unitPrice": 2
+                        }
+                    ],
+                    "currencyCode": "GBP",
+                    "description": "Standard fixed rate electricity (discounted as part of a dual fuel offering).",
+                    "family": "Electricity",
+                    "name": "Electricity",
+                    "productCode": "PD_ELECTRICITY_DUALFUEL",
+                    "subType": "Electricity"
+                },
+                {
+                    "childProducts": [
+                        {
+                            "description": "Unit rate is charged per kWh of energy consumption.",
+                            "name": "Unit Rate",
+                            "productCode": "CC_UNIT_RATE_GAS_DUAL",
+                            "subType": "Unit Rate",
+                            "unitPrice": 1
+                        },
+                        {
+                            "description": "Standing Charges is an infrastructure charge which is charged per Day of usage.",
+                            "name": "Standing Charges",
+                            "productCode": "CC_STANDING_CHARGES_GAS_DUAL",
+                            "subType": "Standing Charges",
+                            "unitPrice": 2
+                        }
+                    ],
+                    "currencyCode": "GBP",
+                    "description": "Standard fixed rate gas (discounted as part of a dual fuel offering).",
+                    "family": "Gas",
+                    "name": "Gas",
+                    "productCode": "PD_GAS_DUALFUEL",
+                    "subType": "Gas"
+                }
+            ],
+            "currencyCode": "GBP",
+            "default": true,
+            "description": "Dual Fuel (Elec & Gas) Tariff includes a dual fuel discount, which can mean your energy will be cheaper than paying for both electricity and gas fuels separately.",
+            "isAddedToCart": false,
+            "productCode": "PD_DUAL_FUEL_ELEC_GAS_TARIFF2",
+            "productCodeWithAttachments": "PD_DUAL_FUEL_ELEC_GAS_TARIFF",
+            "productName": "Dual Fuel (Elec & Gas) Tariff",
+            "url": "/servlet/servlet.FileDownload?file=0155g0000000rXpAAI"
+        }
+    ],
+    "productType": "Dual Fuel"
+}

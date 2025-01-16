@@ -1,0 +1,64 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "Internal - Replicated",
+        "GlobalKey": "VEEDigitalExtractCatalogCodeCustom4752",
+        "InputFieldName": "%vlocity_namespace%__SourceType__c",
+        "InputObjectName": "%vlocity_namespace%__Catalog__c",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalExtractCatalogCode",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalExtractCatalogCode",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalExtractCatalogCode",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "CatalogCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalExtractCatalogCodeCustom1463",
+        "InputFieldName": "CatalogCode:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalExtractCatalogCode",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalExtractCatalogCode",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalExtractCatalogCode",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "CatalogCode:Id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalExtractCatalogCodeCustom9861",
+        "InputFieldName": "CatalogCode:%vlocity_namespace%__CatalogCode__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalExtractCatalogCode",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalExtractCatalogCode",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalExtractCatalogCode",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "CatalogCode:Value",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

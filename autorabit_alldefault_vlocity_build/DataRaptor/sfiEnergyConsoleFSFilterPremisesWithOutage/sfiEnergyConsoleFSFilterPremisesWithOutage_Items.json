@@ -1,0 +1,467 @@
+[
+    {
+        "FormulaExpression": "FILTER(LIST(outages), 'status == \"CLOSED\" && affectedZipCode == \"' + premisePostalCode + '\"')",
+        "FormulaResultPath": "earlierPremisesWithOutages",
+        "FormulaSequence": 1,
+        "GlobalKey": "sfiEnergyConsoleFSFilterPremisesWithOutageCustom7029",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(outages), 'status == \"OPEN\" && affectedZipCode == \"' + premisePostalCode + '\"')",
+        "FormulaResultPath": "premises",
+        "FormulaSequence": 2,
+        "GlobalKey": "sfiEnergyConsoleFSFilterPremisesWithOutage45320925144906954",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(ISNOTBLANK(earlierPremisesWithOutages),true,false)",
+        "FormulaResultPath": "isEarlierOutage",
+        "FormulaSequence": 4,
+        "GlobalKey": "sfiEnergyConsoleFSFilterPremisesWithOutageCustom9943",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(ISNOTBLANK(premises),true,false)",
+        "FormulaResultPath": "isOutage",
+        "FormulaSequence": 3,
+        "GlobalKey": "sfiEnergyConsoleFSFilterPremisesWithOutage02911117256560969",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyConsoleFSFilterPremisesWithOutageCustom3548",
+        "InputFieldName": "earlierPremisesWithOutages:estimatedRestoration",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "earlierPremisesWithOutages:estimatedRestoration",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyConsoleFSFilterPremisesWithOutageCustom7362",
+        "InputFieldName": "isEarlierOutage",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "earlierPremisesWithOutages:isEarlierOutage",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyConsoleFSFilterPremisesWithOutageCustom3933",
+        "InputFieldName": "premiseCity",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "earlierPremisesWithOutages:premiseCity",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyConsoleFSFilterPremisesWithOutageCustom255",
+        "InputFieldName": "premiseCountry",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "earlierPremisesWithOutages:premiseCountry",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyConsoleFSFilterPremisesWithOutageCustom8016",
+        "InputFieldName": "premiseName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "earlierPremisesWithOutages:premiseName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyConsoleFSFilterPremisesWithOutageCustom1521",
+        "InputFieldName": "earlierPremisesWithOutages:affectedZipCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "earlierPremisesWithOutages:premisePostalCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyConsoleFSFilterPremisesWithOutageCustom273",
+        "InputFieldName": "premiseState",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "earlierPremisesWithOutages:premiseState",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyConsoleFSFilterPremisesWithOutageCustom1570",
+        "InputFieldName": "premiseStreet",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "earlierPremisesWithOutages:premiseStreet",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyConsoleFSFilterPremisesWithOutageCustom7398",
+        "InputFieldName": "premisesId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "earlierPremisesWithOutages:premisesId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyConsoleFSFilterPremisesWithOutageCustom9271",
+        "InputFieldName": "earlierPremisesWithOutages:startTime",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "earlierPremisesWithOutages:startTime",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyConsoleFSFilterPremisesWithOutage36724391287389246",
+        "InputFieldName": "premises:estimatedRestoration",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "premises:estimatedRestoration",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyConsoleFSFilterPremisesWithOutage4120385275925764",
+        "InputFieldName": "isOutage",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "premises:isOutage",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyConsoleFSFilterPremisesWithOutage21089853859775953",
+        "InputFieldName": "premiseCity",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "premises:premiseCity",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyConsoleFSFilterPremisesWithOutage7566704114449627",
+        "InputFieldName": "premiseCountry",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "premises:premiseCountry",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyConsoleFSFilterPremisesWithOutage8722955043485057",
+        "InputFieldName": "premiseName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "premises:premiseName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyConsoleFSFilterPremisesWithOutage2674753493066697",
+        "InputFieldName": "premises:affectedZipCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "premises:premisePostalCode",
+        "OutputObjectName": "json",
+        "TransformValueMappings": "{}",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyConsoleFSFilterPremisesWithOutage24434051419159886",
+        "InputFieldName": "premiseState",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "premises:premiseState",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyConsoleFSFilterPremisesWithOutage9164673004594768",
+        "InputFieldName": "premiseStreet",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "premises:premiseStreet",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyConsoleFSFilterPremisesWithOutageCustom6433",
+        "InputFieldName": "premisesId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "premises:premisesId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyConsoleFSFilterPremisesWithOutage3485106612926132",
+        "InputFieldName": "premises:startTime",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleFSFilterPremisesWithOutage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "premises:startTime",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

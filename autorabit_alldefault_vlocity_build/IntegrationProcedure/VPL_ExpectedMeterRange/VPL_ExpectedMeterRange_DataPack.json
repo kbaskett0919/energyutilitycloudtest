@@ -1,0 +1,26 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "This VIP will return static Expected meter range.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VPL-ExpectedMeterRange",
+    "OmniProcessElement": [
+        "VPL_ExpectedMeterRange_Element_SVTodayDate.json",
+        "VPL_ExpectedMeterRange_Element_SVResponse.json",
+        "VPL_ExpectedMeterRange_Element_Response.json"
+    ],
+    "OmniProcessKey": "VPL_ExpectedMeterRange",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VPL_ExpectedMeterRange_PropertySetConfig.json",
+    "SubType": "ExpectedMeterRange",
+    "Type": "VPL",
+    "UniqueName": "VPL_ExpectedMeterRange_Procedure_5",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VPL/ExpectedMeterRange/Procedure"
+}

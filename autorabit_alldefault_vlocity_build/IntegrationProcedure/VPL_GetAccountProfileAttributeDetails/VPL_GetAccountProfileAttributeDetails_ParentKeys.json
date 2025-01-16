@@ -1,0 +1,5 @@
+[
+    "DataRaptor/VPLGetAccountProfileAttributes",
+    "DataRaptor/VPLTransformExistingProfileAttributeCategory",
+    "IntegrationProcedure/VPL_GetCustomerAccountContact"
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "FormulaExpression": "DRGetSiteURL:SiteURL + \"/sfc/servlet.shepherd/version/download/\" + UploadDocument:File:vId",
+        "FormulaResultPath": "UploadDocument:File:DocumentURL",
+        "FormulaSequence": 1,
+        "GlobalKey": "EnergyUtilitiesProgramsTransformUploadDocumentURLCustom5774",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "EnergyUtilitiesProgramsTransformUploadDocumentURL",
+        "OmniDataTransformationId": {
+            "Name": "EnergyUtilitiesProgramsTransformUploadDocumentURL",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/EnergyUtilitiesProgramsTransformUploadDocumentURL",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "EnergyUtilitiesProgramsTransformUploadDocumentURLCustom646",
+        "InputFieldName": "UploadDocument",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "EnergyUtilitiesProgramsTransformUploadDocumentURL",
+        "OmniDataTransformationId": {
+            "Name": "EnergyUtilitiesProgramsTransformUploadDocumentURL",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/EnergyUtilitiesProgramsTransformUploadDocumentURL",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "UploadDocument",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

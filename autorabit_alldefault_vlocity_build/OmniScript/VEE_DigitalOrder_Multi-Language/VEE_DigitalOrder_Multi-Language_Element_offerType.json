@@ -1,0 +1,95 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "offerType",
+    "OmniProcessId": {
+        "Name": "VEEDigitalOrder",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/VEE/DigitalOrder/Multi-Language",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "UserInputsBlock",
+        "OmniProcessId": {
+            "Name": "VEEDigitalOrder",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/VEE/DigitalOrder/Multi-Language",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/VEE/DigitalOrder/Multi-Language/UserInputsBlock",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "UserInputsBlock",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 6,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "disOnTplt": false,
+        "enableCaption": true,
+        "help": false,
+        "hide": false,
+        "horizontalMode": "image",
+        "imageCountInRow": 3,
+        "label": "VEEQuoteType",
+        "optionHeight": 100,
+        "optionSource": {
+            "source": "%vlocity_namespace%.IntegrationProcedureService.runIntegrationService",
+            "type": "image"
+        },
+        "optionWidth": 100,
+        "options": [
+            {
+                "autoAdv": null,
+                "developerName": "CACBADBGAa95e04cc6fc54bfcb5896ed632e1491b",
+                "imgId": "/servlet/servlet.FileDownload?file=015Ws000000jB6PIAU&docName=CACBADBGAa95e04cc6fc54bfcb5896ed632e1491b",
+                "name": "CONSUMERELECTRICITY",
+                "value": "VEEElectricityOnly"
+            },
+            {
+                "autoAdv": null,
+                "developerName": "CACBADBGA1e5f1e367d19457e8a52608090c02890",
+                "imgId": "/servlet/servlet.FileDownload?file=015Ws000000jB6NIAU&docName=CACBADBGA1e5f1e367d19457e8a52608090c02890",
+                "name": "CONSUMERGAS",
+                "value": "VEEGasOnly"
+            },
+            {
+                "autoAdv": null,
+                "developerName": "CACBADBGAa231d146be7740ba8c76bb0ebaf70ba7",
+                "imgId": "/servlet/servlet.FileDownload?file=015Ws000000jB6OIAU&docName=CACBADBGAa231d146be7740ba8c76bb0ebaf70ba7",
+                "name": "CONSUMERDUALFUEL",
+                "value": "VEEDualFuel"
+            }
+        ],
+        "options|0:value": "VEEElectricityOnly",
+        "options|1:value": "VEEGasOnly",
+        "options|2:value": "VEEDualFuel",
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "required": true,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "isCityEligible"
+                    }
+                ]
+            }
+        }
+    },
+    "Type": "Radio",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/VEE/DigitalOrder/Multi-Language/offerType"
+}

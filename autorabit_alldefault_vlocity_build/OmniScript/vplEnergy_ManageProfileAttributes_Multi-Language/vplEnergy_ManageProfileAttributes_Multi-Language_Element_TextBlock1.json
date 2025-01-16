@@ -1,0 +1,40 @@
+{
+    "Description": "Confirmation to display updated Profile attribute values",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "TextBlock1",
+    "OmniProcessId": {
+        "Name": "vplEnergyManageProfileAttributes",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/vplEnergy/ManageProfileAttributes/Multi-Language",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Confirmation",
+        "OmniProcessId": {
+            "Name": "vplEnergyManageProfileAttributes",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/vplEnergy/ManageProfileAttributes/Multi-Language",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/vplEnergy/ManageProfileAttributes/Multi-Language/Confirmation",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Confirmation",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": "sfiEnergyConsoleConfirmation",
+        "show": null,
+        "text": "<p></p>\n<h3><strong>Customer Satisfaction</strong></h3>\n<p>Cost :&nbsp;<strong>%ManageProfileAttributes:CustomerSatisfactionCost%</strong></p>\n<p>Reliability<strong> :&nbsp;%ManageProfileAttributes:CustomerSatisfactionReliability%</strong></p>\n<p>Coverage<strong><strong> :&nbsp;%ManageProfileAttributes:CustomerSatisfactionCoverage%</strong></strong></p>\n<p>Service<strong><strong><strong><strong> :&nbsp;%ManageProfileAttributes:CustomerSatisfactionService%</strong></strong></strong></strong></p>\n<p>Maintenance<strong><strong><strong><strong><strong>:&nbsp;%ManageProfileAttributes:CustomerSatisfactionMaintenance%</strong></strong></strong></strong></strong></p>\n<p>Usage Charges<strong><strong><strong><strong><strong><strong> :&nbsp;%ManageProfileAttributes:CustomerSatisfactionUsageCharges%</strong></strong></strong></strong></strong></strong></p>\n<p></p>",
+        "textKey": "sfiEnergyConsoleCustomerSatisfactionConfirmMsg"
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/vplEnergy/ManageProfileAttributes/Multi-Language/TextBlock1"
+}

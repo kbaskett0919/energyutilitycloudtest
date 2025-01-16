@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "sfiEnergySelfService_GetPaymentRecords_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergySelfService/GetPaymentRecords",
+    "OmniProcessElement": [
+        "sfiEnergySelfService_GetPaymentRecords_Element_GetPaymentColumns.json",
+        "sfiEnergySelfService_GetPaymentRecords_Element_GetComboBoxFields.json",
+        "sfiEnergySelfService_GetPaymentRecords_Element_GetCsvFileName.json",
+        "sfiEnergySelfService_GetPaymentRecords_Element_DRGetPaymentRecords.json",
+        "sfiEnergySelfService_GetPaymentRecords_Element_Response.json"
+    ],
+    "OmniProcessKey": "sfiEnergySelfService_GetPaymentRecords",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergySelfService_GetPaymentRecords_PropertySetConfig.json",
+    "SubType": "GetPaymentRecords",
+    "Type": "sfiEnergySelfService",
+    "UniqueName": "sfiEnergySelfService_GetPaymentRecords_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergySelfService/GetPaymentRecords/Procedure"
+}

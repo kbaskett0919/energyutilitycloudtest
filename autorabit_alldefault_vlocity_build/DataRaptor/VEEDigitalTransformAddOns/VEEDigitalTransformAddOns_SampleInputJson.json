@@ -1,0 +1,775 @@
+{
+    "ApexGetOffers": {
+        "contextKey": "8a62f9c267b633484970f5e46dbc287f",
+        "error": "OK",
+        "errorCode": "INVOKE-200",
+        "offers": [
+            {
+                "%vlocity_namespace%__IsOrderable__c": true,
+                "%vlocity_namespace%__SellingStartDate__c": "2021-01-26T20:00:00.000Z",
+                "Attachments": [
+                    {
+                        "contentType": "Image",
+                        "defaultAttachment": false,
+                        "description": null,
+                        "displayConditionsData": null,
+                        "mimeType": null,
+                        "sequenceNumber": null,
+                        "title": "0154x000000FXtFAAW",
+                        "url": "/servlet/servlet.FileDownload?file=0154x000000FXtFAAW"
+                    },
+                    {
+                        "contentType": "Image",
+                        "defaultAttachment": true,
+                        "description": null,
+                        "displayConditionsData": null,
+                        "mimeType": "image/jpeg",
+                        "sequenceNumber": 10,
+                        "title": "Boiler Insurance Test Image",
+                        "url": "https://t4.ftcdn.net/jpg/03/68/33/29/240_F_368332994_ponkHiJj9sArPqNIYrjLdfl7MeJAlsYR.jpg"
+                    }
+                ],
+                "AttributeCategory": {
+                    "61669341-06cd-03a7-48b1-6da083425848": [
+                        {
+                            "$$AttributeDefinitionEnd$$": null,
+                            "$$AttributeDefinitionStart$$": null,
+                            "attributeRunTimeInfo": {
+                                "dataType": "Picklist",
+                                "default": [
+                                ],
+                                "uiDisplayType": "Dropdown",
+                                "values": [
+                                    {
+                                        "displayText": "Armagh",
+                                        "id": "037d0aa8-3840-8a04-3b26-2c7645716d40",
+                                        "sequence": 10,
+                                        "value": "Armagh"
+                                    },
+                                    {
+                                        "displayText": "Chichester",
+                                        "id": "977d56a0-3732-0671-f727-91b3dd9fff2d",
+                                        "sequence": 20,
+                                        "value": "Chichester"
+                                    },
+                                    {
+                                        "displayText": "Derby",
+                                        "id": "d6675d0c-f932-e3c5-4313-fd2110efd248",
+                                        "sequence": 30,
+                                        "value": "Derby"
+                                    },
+                                    {
+                                        "displayText": "London",
+                                        "id": "3e6915be-2d29-f395-0f0e-37cab6e81773",
+                                        "sequence": 40,
+                                        "value": "London"
+                                    },
+                                    {
+                                        "displayText": "Salisbury",
+                                        "id": "1b185341-ea70-2c21-f34b-57ffe6d86251",
+                                        "sequence": 50,
+                                        "value": "Salisbury"
+                                    }
+                                ]
+                            },
+                            "attributecategoryid__c": "a0O4x0000019pLxEAI",
+                            "attributecloneable__c": true,
+                            "attributeconfigurable__c": true,
+                            "attributedisplayname__c": "Distribution Region",
+                            "attributedisplaysequence__c": "20",
+                            "attributefilterable__c": true,
+                            "attributegrouptype__c": null,
+                            "attributeid__c": "a0P4x000002PNREEA4",
+                            "attributeuniquecode__c": "ATT_DISTRIBUTION_REGION",
+                            "categorycode__c": "61669341-06cd-03a7-48b1-6da083425848",
+                            "categorydisplaysequence__c": 20,
+                            "categoryname__c": "Commodity Cost Components",
+                            "customconfiguitemplate__c": null,
+                            "displaysequence__c": "20",
+                            "formatmask__c": null,
+                            "hasrule__c": false,
+                            "id": "a0M4x000001AKm4EAG",
+                            "isactive__c": true,
+                            "isconfigurable__c": true,
+                            "ishidden__c": false,
+                            "isnottranslatable__c": false,
+                            "isquerydriven__c": false,
+                            "isreadonly__c": false,
+                            "isrequired__c": false,
+                            "objectid__c": "01t4x000000C7C0AAK",
+                            "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                            "querycode__c": null,
+                            "querylabel__c": null,
+                            "rulemessage__c": null,
+                            "uidisplaytype__c": "Dropdown",
+                            "value__c": null,
+                            "valuedatatype__c": "Picklist",
+                            "valuedescription__c": null,
+                            "valueinnumber__c": null
+                        },
+                        {
+                            "$$AttributeDefinitionEnd$$": null,
+                            "$$AttributeDefinitionStart$$": null,
+                            "attributeRunTimeInfo": {
+                                "dataType": "Number",
+                                "uiDisplayType": "Single Value"
+                            },
+                            "attributecategoryid__c": "a0O4x0000019pLxEAI",
+                            "attributecloneable__c": true,
+                            "attributeconfigurable__c": true,
+                            "attributedisplayname__c": "Usage Attribute",
+                            "attributedisplaysequence__c": "30",
+                            "attributefilterable__c": true,
+                            "attributegrouptype__c": null,
+                            "attributeid__c": "a0P4x000002PNVREA4",
+                            "attributeuniquecode__c": "ATT_USAGE",
+                            "categorycode__c": "61669341-06cd-03a7-48b1-6da083425848",
+                            "categorydisplaysequence__c": 20,
+                            "categoryname__c": "Commodity Cost Components",
+                            "customconfiguitemplate__c": null,
+                            "displaysequence__c": "20",
+                            "formatmask__c": null,
+                            "hasrule__c": false,
+                            "id": "a0M4x000001AKm3EAG",
+                            "isactive__c": true,
+                            "isconfigurable__c": false,
+                            "ishidden__c": false,
+                            "isnottranslatable__c": false,
+                            "isquerydriven__c": false,
+                            "isreadonly__c": false,
+                            "isrequired__c": false,
+                            "objectid__c": "01t4x000000C7C0AAK",
+                            "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                            "querycode__c": null,
+                            "querylabel__c": null,
+                            "rulemessage__c": null,
+                            "uidisplaytype__c": "Single Value",
+                            "value__c": null,
+                            "valuedatatype__c": "Number",
+                            "valuedescription__c": null,
+                            "valueinnumber__c": null
+                        }
+                    ]
+                },
+                "IsActive": true,
+                "Name": "Boiler Insurance",
+                "ProductCode": "AD_BOILER_INSURANCE",
+                "addtocart": {
+                    "rest": {
+                        "link": "v3/catalogs/EUADDONS/basket",
+                        "method": "POST",
+                        "params": {
+                            "basketAction": "AddWithNoConfig",
+                            "offer": "AD_BOILER_INSURANCE"
+                        }
+                    }
+                },
+                "offerDetailsAction": {
+                    "client": {
+                        "params": {
+                        },
+                        "records": [
+                        ]
+                    },
+                    "remote": {
+                        "params": {
+                        }
+                    },
+                    "rest": {
+                        "link": "/v3/catalogs/EUADDONS/offers/AD_BOILER_INSURANCE",
+                        "method": "GET",
+                        "params": {
+                        }
+                    }
+                },
+                "offerType": "Product",
+                "priceResult": [
+                    {
+                        "Amount__c": 25,
+                        "ChargeType__c": "Recurring",
+                        "DisplayText__c": "25",
+                        "IsBasePrice__c": true,
+                        "IsVirtualPrice__c": false,
+                        "RecurringFrequency__c": "Monthly",
+                        "SubType__c": "Standard",
+                        "Type__c": "Price",
+                        "adjustments": [
+                        ],
+                        "baseamount": 25,
+                        "chargeamount": 25,
+                        "effectivefromdatespec": null,
+                        "effectiveuntildatespec": null,
+                        "overrides": [
+                        ]
+                    }
+                ]
+            },
+            {
+                "%vlocity_namespace%__IsOrderable__c": true,
+                "%vlocity_namespace%__SellingStartDate__c": "2021-01-26T20:00:00.000Z",
+                "Attachments": [
+                    {
+                        "contentType": "Image",
+                        "defaultAttachment": true,
+                        "description": null,
+                        "displayConditionsData": null,
+                        "mimeType": "image/png",
+                        "sequenceNumber": 10,
+                        "title": "Energy Audit Test Image",
+                        "url": "https://gesstabilizer.com/assets/img/product/energy.png"
+                    }
+                ],
+                "AttributeCategory": {
+                    "61669341-06cd-03a7-48b1-6da083425848": [
+                        {
+                            "$$AttributeDefinitionEnd$$": null,
+                            "$$AttributeDefinitionStart$$": null,
+                            "attributeRunTimeInfo": {
+                                "dataType": "Picklist",
+                                "default": [
+                                ],
+                                "uiDisplayType": "Dropdown",
+                                "values": [
+                                    {
+                                        "displayText": "Armagh",
+                                        "id": "037d0aa8-3840-8a04-3b26-2c7645716d40",
+                                        "sequence": 10,
+                                        "value": "Armagh"
+                                    },
+                                    {
+                                        "displayText": "Chichester",
+                                        "id": "977d56a0-3732-0671-f727-91b3dd9fff2d",
+                                        "sequence": 20,
+                                        "value": "Chichester"
+                                    },
+                                    {
+                                        "displayText": "Derby",
+                                        "id": "d6675d0c-f932-e3c5-4313-fd2110efd248",
+                                        "sequence": 30,
+                                        "value": "Derby"
+                                    },
+                                    {
+                                        "displayText": "London",
+                                        "id": "3e6915be-2d29-f395-0f0e-37cab6e81773",
+                                        "sequence": 40,
+                                        "value": "London"
+                                    },
+                                    {
+                                        "displayText": "Salisbury",
+                                        "id": "1b185341-ea70-2c21-f34b-57ffe6d86251",
+                                        "sequence": 50,
+                                        "value": "Salisbury"
+                                    }
+                                ]
+                            },
+                            "attributecategoryid__c": "a0O4x0000019pLxEAI",
+                            "attributecloneable__c": true,
+                            "attributeconfigurable__c": true,
+                            "attributedisplayname__c": "Distribution Region",
+                            "attributedisplaysequence__c": "20",
+                            "attributefilterable__c": true,
+                            "attributegrouptype__c": null,
+                            "attributeid__c": "a0P4x000002PNREEA4",
+                            "attributeuniquecode__c": "ATT_DISTRIBUTION_REGION",
+                            "categorycode__c": "61669341-06cd-03a7-48b1-6da083425848",
+                            "categorydisplaysequence__c": 20,
+                            "categoryname__c": "Commodity Cost Components",
+                            "customconfiguitemplate__c": null,
+                            "displaysequence__c": "20",
+                            "formatmask__c": null,
+                            "hasrule__c": false,
+                            "id": "a0M4x000001AKluEAG",
+                            "isactive__c": true,
+                            "isconfigurable__c": true,
+                            "ishidden__c": false,
+                            "isnottranslatable__c": false,
+                            "isquerydriven__c": false,
+                            "isreadonly__c": false,
+                            "isrequired__c": false,
+                            "objectid__c": "01t4x000000C7BrAAK",
+                            "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                            "querycode__c": null,
+                            "querylabel__c": null,
+                            "rulemessage__c": null,
+                            "uidisplaytype__c": "Dropdown",
+                            "value__c": null,
+                            "valuedatatype__c": "Picklist",
+                            "valuedescription__c": null,
+                            "valueinnumber__c": null
+                        },
+                        {
+                            "$$AttributeDefinitionEnd$$": null,
+                            "$$AttributeDefinitionStart$$": null,
+                            "attributeRunTimeInfo": {
+                                "dataType": "Number",
+                                "uiDisplayType": "Single Value"
+                            },
+                            "attributecategoryid__c": "a0O4x0000019pLxEAI",
+                            "attributecloneable__c": true,
+                            "attributeconfigurable__c": true,
+                            "attributedisplayname__c": "Usage Attribute",
+                            "attributedisplaysequence__c": "30",
+                            "attributefilterable__c": true,
+                            "attributegrouptype__c": null,
+                            "attributeid__c": "a0P4x000002PNVREA4",
+                            "attributeuniquecode__c": "ATT_USAGE",
+                            "categorycode__c": "61669341-06cd-03a7-48b1-6da083425848",
+                            "categorydisplaysequence__c": 20,
+                            "categoryname__c": "Commodity Cost Components",
+                            "customconfiguitemplate__c": null,
+                            "displaysequence__c": "20",
+                            "formatmask__c": null,
+                            "hasrule__c": false,
+                            "id": "a0M4x000001AKltEAG",
+                            "isactive__c": true,
+                            "isconfigurable__c": false,
+                            "ishidden__c": false,
+                            "isnottranslatable__c": false,
+                            "isquerydriven__c": false,
+                            "isreadonly__c": false,
+                            "isrequired__c": false,
+                            "objectid__c": "01t4x000000C7BrAAK",
+                            "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                            "querycode__c": null,
+                            "querylabel__c": null,
+                            "rulemessage__c": null,
+                            "uidisplaytype__c": "Single Value",
+                            "value__c": null,
+                            "valuedatatype__c": "Number",
+                            "valuedescription__c": null,
+                            "valueinnumber__c": null
+                        }
+                    ]
+                },
+                "IsActive": true,
+                "Name": "Energy Audit",
+                "ProductCode": "AD_ENERGY_AUDIT",
+                "addtocart": {
+                    "rest": {
+                        "link": "v3/catalogs/EUADDONS/basket",
+                        "method": "POST",
+                        "params": {
+                            "basketAction": "AddWithNoConfig",
+                            "offer": "AD_ENERGY_AUDIT"
+                        }
+                    }
+                },
+                "offerDetailsAction": {
+                    "client": {
+                        "params": {
+                        },
+                        "records": [
+                        ]
+                    },
+                    "remote": {
+                        "params": {
+                        }
+                    },
+                    "rest": {
+                        "link": "/v3/catalogs/EUADDONS/offers/AD_ENERGY_AUDIT",
+                        "method": "GET",
+                        "params": {
+                        }
+                    }
+                },
+                "offerType": "Product",
+                "priceResult": [
+                    {
+                        "Amount__c": 49,
+                        "ChargeType__c": "One-time",
+                        "DisplayText__c": "49",
+                        "IsBasePrice__c": true,
+                        "IsVirtualPrice__c": false,
+                        "RecurringFrequency__c": null,
+                        "SubType__c": "Standard",
+                        "Type__c": "Price",
+                        "UnitPrice": 49,
+                        "adjustments": [
+                        ],
+                        "baseamount": 49,
+                        "chargeamount": 49,
+                        "effectivefromdatespec": null,
+                        "effectiveuntildatespec": null,
+                        "overrides": [
+                        ]
+                    }
+                ]
+            },
+            {
+                "%vlocity_namespace%__IsOrderable__c": true,
+                "%vlocity_namespace%__SellingStartDate__c": "2021-01-26T20:00:00.000Z",
+                "Attachments": [
+                    {
+                        "contentType": "Image",
+                        "defaultAttachment": true,
+                        "description": null,
+                        "displayConditionsData": null,
+                        "mimeType": "image/jpeg",
+                        "sequenceNumber": 10,
+                        "title": "Solar Panel Test Image",
+                        "url": "https://image.freepik.com/free-vector/solar-panel-energy-electric-electricity-logo-vector-icon_7688-797.jpg"
+                    }
+                ],
+                "AttributeCategory": {
+                    "61669341-06cd-03a7-48b1-6da083425848": [
+                        {
+                            "$$AttributeDefinitionEnd$$": null,
+                            "$$AttributeDefinitionStart$$": null,
+                            "attributeRunTimeInfo": {
+                                "dataType": "Picklist",
+                                "default": [
+                                ],
+                                "uiDisplayType": "Dropdown",
+                                "values": [
+                                    {
+                                        "displayText": "Armagh",
+                                        "id": "037d0aa8-3840-8a04-3b26-2c7645716d40",
+                                        "sequence": 10,
+                                        "value": "Armagh"
+                                    },
+                                    {
+                                        "displayText": "Chichester",
+                                        "id": "977d56a0-3732-0671-f727-91b3dd9fff2d",
+                                        "sequence": 20,
+                                        "value": "Chichester"
+                                    },
+                                    {
+                                        "displayText": "Derby",
+                                        "id": "d6675d0c-f932-e3c5-4313-fd2110efd248",
+                                        "sequence": 30,
+                                        "value": "Derby"
+                                    },
+                                    {
+                                        "displayText": "London",
+                                        "id": "3e6915be-2d29-f395-0f0e-37cab6e81773",
+                                        "sequence": 40,
+                                        "value": "London"
+                                    },
+                                    {
+                                        "displayText": "Salisbury",
+                                        "id": "1b185341-ea70-2c21-f34b-57ffe6d86251",
+                                        "sequence": 50,
+                                        "value": "Salisbury"
+                                    }
+                                ]
+                            },
+                            "attributecategoryid__c": "a0O4x0000019pLxEAI",
+                            "attributecloneable__c": true,
+                            "attributeconfigurable__c": true,
+                            "attributedisplayname__c": "Distribution Region",
+                            "attributedisplaysequence__c": "20",
+                            "attributefilterable__c": true,
+                            "attributegrouptype__c": null,
+                            "attributeid__c": "a0P4x000002PNREEA4",
+                            "attributeuniquecode__c": "ATT_DISTRIBUTION_REGION",
+                            "categorycode__c": "61669341-06cd-03a7-48b1-6da083425848",
+                            "categorydisplaysequence__c": 20,
+                            "categoryname__c": "Commodity Cost Components",
+                            "customconfiguitemplate__c": null,
+                            "displaysequence__c": "20",
+                            "formatmask__c": null,
+                            "hasrule__c": false,
+                            "id": "a0M4x000001AKlfEAG",
+                            "isactive__c": true,
+                            "isconfigurable__c": true,
+                            "ishidden__c": false,
+                            "isnottranslatable__c": false,
+                            "isquerydriven__c": false,
+                            "isreadonly__c": false,
+                            "isrequired__c": false,
+                            "objectid__c": "01t4x000000C7BqAAK",
+                            "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                            "querycode__c": null,
+                            "querylabel__c": null,
+                            "rulemessage__c": null,
+                            "uidisplaytype__c": "Dropdown",
+                            "value__c": null,
+                            "valuedatatype__c": "Picklist",
+                            "valuedescription__c": null,
+                            "valueinnumber__c": null
+                        },
+                        {
+                            "$$AttributeDefinitionEnd$$": null,
+                            "$$AttributeDefinitionStart$$": null,
+                            "attributeRunTimeInfo": {
+                                "dataType": "Number",
+                                "uiDisplayType": "Number"
+                            },
+                            "attributecategoryid__c": "a0O4x0000019pLxEAI",
+                            "attributecloneable__c": true,
+                            "attributeconfigurable__c": true,
+                            "attributedisplayname__c": "Usage Attribute",
+                            "attributedisplaysequence__c": "30",
+                            "attributefilterable__c": true,
+                            "attributegrouptype__c": null,
+                            "attributeid__c": "a0P4x000002PNVREA4",
+                            "attributeuniquecode__c": "ATT_USAGE",
+                            "categorycode__c": "61669341-06cd-03a7-48b1-6da083425848",
+                            "categorydisplaysequence__c": 20,
+                            "categoryname__c": "Commodity Cost Components",
+                            "customconfiguitemplate__c": null,
+                            "displaysequence__c": "20",
+                            "formatmask__c": null,
+                            "hasrule__c": false,
+                            "id": "a0M4x000001AKleEAG",
+                            "isactive__c": true,
+                            "isconfigurable__c": false,
+                            "ishidden__c": false,
+                            "isnottranslatable__c": false,
+                            "isquerydriven__c": false,
+                            "isreadonly__c": false,
+                            "isrequired__c": false,
+                            "objectid__c": "01t4x000000C7BqAAK",
+                            "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                            "querycode__c": null,
+                            "querylabel__c": null,
+                            "rulemessage__c": null,
+                            "uidisplaytype__c": "Number",
+                            "value__c": null,
+                            "valuedatatype__c": "Number",
+                            "valuedescription__c": null,
+                            "valueinnumber__c": null
+                        }
+                    ]
+                },
+                "IsActive": true,
+                "Name": "Solar Panels",
+                "ProductCode": "AD_SOLAR_PANELS",
+                "addtocart": {
+                    "rest": {
+                        "link": "v3/catalogs/EUADDONS/basket",
+                        "method": "POST",
+                        "params": {
+                            "basketAction": "AddWithNoConfig",
+                            "offer": "AD_SOLAR_PANELS"
+                        }
+                    }
+                },
+                "offerDetailsAction": {
+                    "client": {
+                        "params": {
+                        },
+                        "records": [
+                        ]
+                    },
+                    "remote": {
+                        "params": {
+                        }
+                    },
+                    "rest": {
+                        "link": "/v3/catalogs/EUADDONS/offers/AD_SOLAR_PANELS",
+                        "method": "GET",
+                        "params": {
+                        }
+                    }
+                },
+                "offerType": "Product",
+                "priceResult": [
+                    {
+                        "Amount__c": 2200,
+                        "ChargeType__c": "One-time",
+                        "DisplayText__c": "2200",
+                        "IsBasePrice__c": true,
+                        "IsVirtualPrice__c": false,
+                        "RecurringFrequency__c": null,
+                        "SubType__c": "Standard",
+                        "Type__c": "Price",
+                        "UnitPrice": 2200,
+                        "adjustments": [
+                        ],
+                        "baseamount": 2200,
+                        "chargeamount": 2200,
+                        "effectivefromdatespec": null,
+                        "effectiveuntildatespec": null,
+                        "overrides": [
+                        ]
+                    }
+                ]
+            },
+            {
+                "%vlocity_namespace%__IsOrderable__c": true,
+                "%vlocity_namespace%__SellingStartDate__c": "2021-01-26T20:00:00.000Z",
+                "Attachments": null,
+                "AttributeCategory": {
+                    "61669341-06cd-03a7-48b1-6da083425848": [
+                        {
+                            "$$AttributeDefinitionEnd$$": null,
+                            "$$AttributeDefinitionStart$$": null,
+                            "attributeRunTimeInfo": {
+                                "dataType": "Picklist",
+                                "default": [
+                                ],
+                                "uiDisplayType": "Dropdown",
+                                "values": [
+                                    {
+                                        "displayText": "Armagh",
+                                        "id": "037d0aa8-3840-8a04-3b26-2c7645716d40",
+                                        "sequence": 10,
+                                        "value": "Armagh"
+                                    },
+                                    {
+                                        "displayText": "Chichester",
+                                        "id": "977d56a0-3732-0671-f727-91b3dd9fff2d",
+                                        "sequence": 20,
+                                        "value": "Chichester"
+                                    },
+                                    {
+                                        "displayText": "Derby",
+                                        "id": "d6675d0c-f932-e3c5-4313-fd2110efd248",
+                                        "sequence": 30,
+                                        "value": "Derby"
+                                    },
+                                    {
+                                        "displayText": "London",
+                                        "id": "3e6915be-2d29-f395-0f0e-37cab6e81773",
+                                        "sequence": 40,
+                                        "value": "London"
+                                    },
+                                    {
+                                        "displayText": "Salisbury",
+                                        "id": "1b185341-ea70-2c21-f34b-57ffe6d86251",
+                                        "sequence": 50,
+                                        "value": "Salisbury"
+                                    }
+                                ]
+                            },
+                            "attributecategoryid__c": "a0O4x0000019pLxEAI",
+                            "attributecloneable__c": true,
+                            "attributeconfigurable__c": true,
+                            "attributedisplayname__c": "Distribution Region",
+                            "attributedisplaysequence__c": "20",
+                            "attributefilterable__c": true,
+                            "attributegrouptype__c": null,
+                            "attributeid__c": "a0P4x000002PNREEA4",
+                            "attributeuniquecode__c": "ATT_DISTRIBUTION_REGION",
+                            "categorycode__c": "61669341-06cd-03a7-48b1-6da083425848",
+                            "categorydisplaysequence__c": 20,
+                            "categoryname__c": "Commodity Cost Components",
+                            "customconfiguitemplate__c": null,
+                            "displaysequence__c": "20",
+                            "formatmask__c": null,
+                            "hasrule__c": false,
+                            "id": "a0M4x000001AKlzEAG",
+                            "isactive__c": true,
+                            "isconfigurable__c": true,
+                            "ishidden__c": false,
+                            "isnottranslatable__c": false,
+                            "isquerydriven__c": false,
+                            "isreadonly__c": false,
+                            "isrequired__c": false,
+                            "objectid__c": "01t4x000000C7BvAAK",
+                            "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                            "querycode__c": null,
+                            "querylabel__c": null,
+                            "rulemessage__c": null,
+                            "uidisplaytype__c": "Dropdown",
+                            "value__c": null,
+                            "valuedatatype__c": "Picklist",
+                            "valuedescription__c": null,
+                            "valueinnumber__c": null
+                        },
+                        {
+                            "$$AttributeDefinitionEnd$$": null,
+                            "$$AttributeDefinitionStart$$": null,
+                            "attributeRunTimeInfo": {
+                                "dataType": "Number",
+                                "uiDisplayType": "Single Value"
+                            },
+                            "attributecategoryid__c": "a0O4x0000019pLxEAI",
+                            "attributecloneable__c": true,
+                            "attributeconfigurable__c": true,
+                            "attributedisplayname__c": "Usage Attribute",
+                            "attributedisplaysequence__c": "30",
+                            "attributefilterable__c": true,
+                            "attributegrouptype__c": null,
+                            "attributeid__c": "a0P4x000002PNVREA4",
+                            "attributeuniquecode__c": "ATT_USAGE",
+                            "categorycode__c": "61669341-06cd-03a7-48b1-6da083425848",
+                            "categorydisplaysequence__c": 20,
+                            "categoryname__c": "Commodity Cost Components",
+                            "customconfiguitemplate__c": null,
+                            "displaysequence__c": "20",
+                            "formatmask__c": null,
+                            "hasrule__c": false,
+                            "id": "a0M4x000001AKlyEAG",
+                            "isactive__c": true,
+                            "isconfigurable__c": false,
+                            "ishidden__c": false,
+                            "isnottranslatable__c": false,
+                            "isquerydriven__c": false,
+                            "isreadonly__c": false,
+                            "isrequired__c": false,
+                            "objectid__c": "01t4x000000C7BvAAK",
+                            "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                            "querycode__c": null,
+                            "querylabel__c": null,
+                            "rulemessage__c": null,
+                            "uidisplaytype__c": "Single Value",
+                            "value__c": null,
+                            "valuedatatype__c": "Number",
+                            "valuedescription__c": null,
+                            "valueinnumber__c": null
+                        }
+                    ]
+                },
+                "IsActive": true,
+                "Name": "Smart Thermostat",
+                "ProductCode": "AD_SMART_THERMOSTAT",
+                "addtocart": {
+                    "rest": {
+                        "link": "v3/catalogs/EUADDONS/basket",
+                        "method": "POST",
+                        "params": {
+                            "basketAction": "AddWithNoConfig",
+                            "offer": "AD_SMART_THERMOSTAT"
+                        }
+                    }
+                },
+                "offerDetailsAction": {
+                    "client": {
+                        "params": {
+                        },
+                        "records": [
+                        ]
+                    },
+                    "remote": {
+                        "params": {
+                        }
+                    },
+                    "rest": {
+                        "link": "/v3/catalogs/EUADDONS/offers/AD_SMART_THERMOSTAT",
+                        "method": "GET",
+                        "params": {
+                        }
+                    }
+                },
+                "offerType": "Product",
+                "priceResult": [
+                    {
+                        "Amount__c": 199,
+                        "ChargeType__c": "One-time",
+                        "DisplayText__c": "199",
+                        "IsBasePrice__c": true,
+                        "IsVirtualPrice__c": false,
+                        "RecurringFrequency__c": null,
+                        "SubType__c": "Standard",
+                        "Type__c": "Price",
+                        "UnitPrice": 199,
+                        "adjustments": [
+                        ],
+                        "baseamount": 199,
+                        "chargeamount": 199,
+                        "effectivefromdatespec": null,
+                        "effectiveuntildatespec": null,
+                        "overrides": [
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ResponseStatus": true,
+    "response": {
+        "": ""
+    }
+}

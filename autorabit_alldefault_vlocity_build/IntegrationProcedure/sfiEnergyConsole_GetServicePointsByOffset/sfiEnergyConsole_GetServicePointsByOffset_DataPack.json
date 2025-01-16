@@ -1,0 +1,30 @@
+{
+    "CustomJavaScript": "sfiEnergyConsole_GetServicePointsByOffset_SampleInput.json",
+    "Description": "Integration Procedure to fetch ServicePoints Lazily using OFFSET and LIMIT",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergyConsoleGetServicePointsByOffset",
+    "OmniProcessElement": [
+        "sfiEnergyConsole_GetServicePointsByOffset_Element_GetPremiseArray.json",
+        "sfiEnergyConsole_GetServicePointsByOffset_Element_GetServicePoints.json",
+        "sfiEnergyConsole_GetServicePointsByOffset_Element_Reserialize.json",
+        "sfiEnergyConsole_GetServicePointsByOffset_Element_TransformedServicePoints.json",
+        "sfiEnergyConsole_GetServicePointsByOffset_Element_CheckResponse.json",
+        "sfiEnergyConsole_GetServicePointsByOffset_Element_ValidResponse.json",
+        "sfiEnergyConsole_GetServicePointsByOffset_Element_EmptyResponse.json"
+    ],
+    "OmniProcessKey": "sfiEnergyConsole_GetServicePointsByOffset",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergyConsole_GetServicePointsByOffset_PropertySetConfig.json",
+    "SubType": "GetServicePointsByOffset",
+    "Type": "sfiEnergyConsole",
+    "UniqueName": "sfiEnergyConsole_GetServicePointsByOffset_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergyConsole/GetServicePointsByOffset/Procedure"
+}

@@ -1,0 +1,64 @@
+[
+    {
+        "FormulaExpression": "QUERY(\"SELECT Id FROM Site WHERE (Name = '\"+ SiteName +\"')\")",
+        "FormulaResultPath": "SiteId",
+        "FormulaSequence": 1,
+        "GlobalKey": "EnergyUtilitiesProgramsFetchSiteURLCustom6281",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "EnergyUtilitiesProgramsFetchSiteURL",
+        "OmniDataTransformationId": {
+            "Name": "EnergyUtilitiesProgramsFetchSiteURL",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/EnergyUtilitiesProgramsFetchSiteURL",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "QUERY(\"SELECT SecureUrl FROM SiteDetail WHERE (DurableId = '\"+ SiteId +\"')\")",
+        "FormulaResultPath": "SiteURL",
+        "FormulaSequence": 2,
+        "GlobalKey": "EnergyUtilitiesProgramsFetchSiteURLCustom3995",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "EnergyUtilitiesProgramsFetchSiteURL",
+        "OmniDataTransformationId": {
+            "Name": "EnergyUtilitiesProgramsFetchSiteURL",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/EnergyUtilitiesProgramsFetchSiteURL",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "EnergyUtilitiesProgramsFetchSiteURLCustom1460",
+        "InputFieldName": "SiteURL",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "EnergyUtilitiesProgramsFetchSiteURL",
+        "OmniDataTransformationId": {
+            "Name": "EnergyUtilitiesProgramsFetchSiteURL",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/EnergyUtilitiesProgramsFetchSiteURL",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "SiteURL",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

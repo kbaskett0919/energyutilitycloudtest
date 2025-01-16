@@ -1,0 +1,32 @@
+{
+    "AuthorName": "CME_EU_Express",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "{\n\"usageTotal\":124,\n\"oneTimeTotal\":122,\n\"monthlyTotal\":345,\n\"currencyCode\":\"GBP\"\n}",
+            "resultVar": ""
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "VEEConsumerOrderTotalSummary",
+    "Namespace": "",
+    "OmniUiCardKey": "VEEConsumerOrderTotalSummary/CME_EU_Express/1/1617094521807",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "VEEConsumerOrderTotalSummary.json",
+    "SampleDataSourceResponse": "{\"usageTotal\":124,\"oneTimeTotal\":122,\"monthlyTotal\":345,\"currencyCode\":\"GBP\"}",
+    "StylingConfiguration": "",
+    "UniqueName": "VEEConsumerOrderTotalSummary_CME_EU_Express_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/VEEConsumerOrderTotalSummary"
+}

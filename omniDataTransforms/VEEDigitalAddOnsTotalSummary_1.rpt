@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniDataTransform xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <assignmentRulesUsed>false</assignmentRulesUsed>
+    <deletedOnSuccess>false</deletedOnSuccess>
+    <errorIgnored>false</errorIgnored>
+    <fieldLevelSecurityEnabled>false</fieldLevelSecurityEnabled>
+    <inputType>JSON</inputType>
+    <name>VEEDigitalAddOnsTotalSummary</name>
+    <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| | var:AddOnProducts LIST &apos;isAddedToCart/\/\/==/\/\/true/\/\/&amp;&amp;/\/\/ChargeType/\/\/==/\/\/&quot;Recurring&quot;&apos; FILTER</formulaConverted>
+        <formulaExpression>FILTER(LIST((AddOnProducts)), &apos;isAddedToCart == true &amp;&amp; ChargeType == &quot;Recurring&quot;&apos;)</formulaExpression>
+        <formulaResultPath>filteredRecurringAddOns</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>VEEDigitalAddOnsTotalSummaryCustom2892</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalAddOnsTotalSummary</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:filteredOneTimeAddOns:Price SUM</formulaConverted>
+        <formulaExpression>SUM(filteredOneTimeAddOns:Price)</formulaExpression>
+        <formulaResultPath>oneTimeTotal</formulaResultPath>
+        <formulaSequence>4.0</formulaSequence>
+        <globalKey>VEEDigitalAddOnsTotalSummaryCustom2956</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalAddOnsTotalSummary</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| | var:AddOnProducts LIST &apos;isAddedToCart/\/\/==/\/\/true/\/\/&amp;&amp;/\/\/ChargeType/\/\/==/\/\/&quot;One-time&quot;&apos; FILTER</formulaConverted>
+        <formulaExpression>FILTER(LIST((AddOnProducts)), &apos;isAddedToCart == true &amp;&amp; ChargeType == &quot;One-time&quot;&apos;)</formulaExpression>
+        <formulaResultPath>filteredOneTimeAddOns</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>VEEDigitalAddOnsTotalSummaryCustom7394</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalAddOnsTotalSummary</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VEEDigitalAddOnsTotalSummaryCustom6008</globalKey>
+        <inputFieldName>usageTotal</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalAddOnsTotalSummary</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>usageTotal</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <defaultValue>0</defaultValue>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VEEDigitalAddOnsTotalSummaryCustom6444</globalKey>
+        <inputFieldName>monthlyTotal</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalAddOnsTotalSummary</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldFormat>Integer</outputFieldFormat>
+        <outputFieldName>monthlyTotal</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <defaultValue>0</defaultValue>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VEEDigitalAddOnsTotalSummaryCustom7146</globalKey>
+        <inputFieldName>oneTimeTotal</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalAddOnsTotalSummary</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldFormat>Integer</outputFieldFormat>
+        <outputFieldName>oneTimeTotal</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:filteredRecurringAddOns:Price SUM</formulaConverted>
+        <formulaExpression>SUM(filteredRecurringAddOns:Price)</formulaExpression>
+        <formulaResultPath>monthlyTotal</formulaResultPath>
+        <formulaSequence>3.0</formulaSequence>
+        <globalKey>VEEDigitalAddOnsTotalSummaryCustom3393</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalAddOnsTotalSummary</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VEEDigitalAddOnsTotalSummaryCustom4413</globalKey>
+        <inputFieldName>currencyCode</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalAddOnsTotalSummary</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>currencyCode</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;AddOnProducts&quot; : [ {
+    &quot;CatalogCode&quot; : &quot;EUADDONS&quot;,
+    &quot;ChargeType&quot; : &quot;Recurring&quot;,
+    &quot;Id&quot; : &quot;REC0&quot;,
+    &quot;Name&quot; : &quot;Boiler Insurance&quot;,
+    &quot;Price&quot; : 25,
+    &quot;URL&quot; : &quot;/servlet/servlet.FileDownload?file=0154x000000FimVAAS&quot;,
+    &quot;isAddedToCart&quot; : false,
+    &quot;productCode&quot; : &quot;AD_BOILER_INSURANCE&quot;,
+    &quot;uniqueKey&quot; : &quot;REC0&quot;
+  }, {
+    &quot;CatalogCode&quot; : &quot;EUADDONS&quot;,
+    &quot;ChargeType&quot; : &quot;One-time&quot;,
+    &quot;Id&quot; : &quot;REC1&quot;,
+    &quot;Name&quot; : &quot;Energy Audit&quot;,
+    &quot;Price&quot; : 49,
+    &quot;URL&quot; : &quot;https://gesstabilizer.com/assets/img/product/energy.png&quot;,
+    &quot;isAddedToCart&quot; : true,
+    &quot;productCode&quot; : &quot;AD_ENERGY_AUDIT&quot;,
+    &quot;uniqueKey&quot; : &quot;REC1&quot;
+  }, {
+    &quot;CatalogCode&quot; : &quot;EUADDONS&quot;,
+    &quot;ChargeType&quot; : &quot;One-time&quot;,
+    &quot;Id&quot; : &quot;REC2&quot;,
+    &quot;Name&quot; : &quot;Solar Panels&quot;,
+    &quot;Price&quot; : 2200,
+    &quot;URL&quot; : &quot;https://image.freepik.com/free-vector/solar-panel-energy-electric-electricity-logo-vector-icon_7688-797.jpg&quot;,
+    &quot;isAddedToCart&quot; : false,
+    &quot;productCode&quot; : &quot;AD_SOLAR_PANELS&quot;,
+    &quot;uniqueKey&quot; : &quot;REC2&quot;
+  }, {
+    &quot;CatalogCode&quot; : &quot;EUADDONS&quot;,
+    &quot;ChargeType&quot; : &quot;One-time&quot;,
+    &quot;Id&quot; : &quot;REC3&quot;,
+    &quot;Name&quot; : &quot;Smart Thermostat&quot;,
+    &quot;Price&quot; : 199,
+    &quot;URL&quot; : &quot;https://st4.depositphotos.com/16061158/39264/v/950/depositphotos_392645548-stock-illustration-thermostat-vector-icon-thermostat-editable.jpg&quot;,
+    &quot;isAddedToCart&quot; : false,
+    &quot;productCode&quot; : &quot;AD_SMART_THERMOSTAT&quot;,
+    &quot;uniqueKey&quot; : &quot;REC3&quot;
+  } ],
+  &quot;currencyCode&quot; : &quot;GBP&quot;,
+  &quot;usageTotal&quot; : 398.675
+}</previewJsonData>
+    <processSuperBulk>false</processSuperBulk>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <rollbackOnError>false</rollbackOnError>
+    <sourceObject>json</sourceObject>
+    <sourceObjectDefault>false</sourceObjectDefault>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Transform</type>
+    <uniqueName>VEEDigitalAddOnsTotalSummary_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <xmlDeclarationRemoved>false</xmlDeclarationRemoved>
+</OmniDataTransform>

@@ -1,0 +1,42 @@
+{
+    "transformAddOnOffers": {
+        "AddOnProducts": [
+            {
+                "Id": "REC0",
+                "Name": "Boiler Insurance",
+                "Price": 25,
+                "URL": "https://t4.ftcdn.net/jpg/03/68/33/29/240_F_368332994_ponkHiJj9sArPqNIYrjLdfl7MeJAlsYR.jpg",
+                "isAddedToCart": true,
+                "productCode": "AD_BOILER_INSURANCE",
+                "uniqueKey": "REC0"
+            },
+            {
+                "Id": "REC1",
+                "Name": "Energy Audit",
+                "Price": 49,
+                "URL": "https://gesstabilizer.com/assets/img/product/energy.png",
+                "isAddedToCart": true,
+                "productCode": "AD_ENERGY_AUDIT",
+                "uniqueKey": "REC1"
+            },
+            {
+                "Id": "REC2",
+                "Name": "Solar Panels",
+                "Price": 2200,
+                "URL": "https://image.freepik.com/free-vector/solar-panel-energy-electric-electricity-logo-vector-icon_7688-797.jpg",
+                "isAddedToCart": false,
+                "productCode": "AD_SOLAR_PANELS",
+                "uniqueKey": "REC2"
+            },
+            {
+                "Id": "REC3",
+                "Name": "Smart Thermostat",
+                "Price": 199,
+                "isAddedToCart": false,
+                "productCode": "AD_SMART_THERMOSTAT",
+                "uniqueKey": "REC3"
+            }
+        ],
+        "currencyCode": "GBP"
+    }
+}

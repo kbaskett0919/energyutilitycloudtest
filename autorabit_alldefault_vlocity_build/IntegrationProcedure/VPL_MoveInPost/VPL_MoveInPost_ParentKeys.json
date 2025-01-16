@@ -1,0 +1,8 @@
+[
+    "DataRaptor/VPLInsertEnergyAsset",
+    "DataRaptor/VPLUpdateAccountAfterIntegration",
+    "DataRaptor/VPLUpdateBillingAccountAfterIntegration",
+    "DataRaptor/VPLUpdateEnergyContact",
+    "DataRaptor/VPLUpdateInventoryItems",
+    "DataRaptor/VPLUpdateServicePoints"
+]

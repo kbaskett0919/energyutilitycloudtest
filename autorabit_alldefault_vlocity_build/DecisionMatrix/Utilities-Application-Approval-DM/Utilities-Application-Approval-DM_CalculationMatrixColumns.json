@@ -1,0 +1,62 @@
+[
+    {
+        "ApiName": "ActionPlanTemplateName",
+        "CalculationMatrixId": {
+            "Name": "Utilities Application Approval DM",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrix/Utilities Application Approval DM",
+            "VlocityRecordSObjectType": "CalculationMatrix"
+        },
+        "ColumnType": "Output",
+        "DataType": "Text",
+        "DisplaySequence": 3,
+        "IsWildcardColumn": false,
+        "Name": "ActionPlanTemplateName",
+        "Namespace": "",
+        "RangeValues": "",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixColumn",
+        "VlocityRecordSourceKey": "CalculationMatrixColumn/Generated458598850",
+        "WildcardColumnValue": ""
+    },
+    {
+        "ApiName": "EstimatedIncentive",
+        "CalculationMatrixId": {
+            "Name": "Utilities Application Approval DM",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrix/Utilities Application Approval DM",
+            "VlocityRecordSObjectType": "CalculationMatrix"
+        },
+        "ColumnType": "Output",
+        "DataType": "Number",
+        "DisplaySequence": 2,
+        "IsWildcardColumn": false,
+        "Name": "EstimatedIncentive",
+        "Namespace": "",
+        "RangeValues": "",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixColumn",
+        "VlocityRecordSourceKey": "CalculationMatrixColumn/Generated-1016142971",
+        "WildcardColumnValue": ""
+    },
+    {
+        "ApiName": "ProgramName",
+        "CalculationMatrixId": {
+            "Name": "Utilities Application Approval DM",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrix/Utilities Application Approval DM",
+            "VlocityRecordSObjectType": "CalculationMatrix"
+        },
+        "ColumnType": "Input",
+        "DataType": "Text",
+        "DisplaySequence": 1,
+        "IsWildcardColumn": false,
+        "Name": "ProgramName",
+        "Namespace": "",
+        "RangeValues": "",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixColumn",
+        "VlocityRecordSourceKey": "CalculationMatrixColumn/Generated1511146561",
+        "WildcardColumnValue": ""
+    }
+]

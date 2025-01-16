@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "sfiEnergySelfService_GetStatementAndPremiseInfo_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergySelfServiceGetStatementAndPremiseInfo",
+    "OmniProcessElement": [
+        "sfiEnergySelfService_GetStatementAndPremiseInfo_Element_DRGetLatestStatement.json",
+        "sfiEnergySelfService_GetStatementAndPremiseInfo_Element_DRFetchConsumerPremiseInfo.json",
+        "sfiEnergySelfService_GetStatementAndPremiseInfo_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "sfiEnergySelfService_GetStatementAndPremiseInfo",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergySelfService_GetStatementAndPremiseInfo_PropertySetConfig.json",
+    "SubType": "GetStatementAndPremiseInfo",
+    "Type": "sfiEnergySelfService",
+    "UniqueName": "sfiEnergySelfService_GetStatementAndPremiseInfo_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergySelfService/GetStatementAndPremiseInfo/Procedure"
+}

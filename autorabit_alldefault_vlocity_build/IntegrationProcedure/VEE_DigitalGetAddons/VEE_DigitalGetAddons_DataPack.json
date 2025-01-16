@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "This Integration Procedure will get the add ons details and send to omniscript/flex cards.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VEEDigitalGetAddons",
+    "OmniProcessElement": [
+        "VEE_DigitalGetAddons_Element_DRExtractCatalogCode.json",
+        "VEE_DigitalGetAddons_Element_GetOffersByCatalogCode.json",
+        "VEE_DigitalGetAddons_Element_DRTransformAddOns.json",
+        "VEE_DigitalGetAddons_Element_AddOnsResponseAction.json"
+    ],
+    "OmniProcessKey": "VEE_DigitalGetAddons",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VEE_DigitalGetAddons_PropertySetConfig.json",
+    "RequiredPermission": "VEEDigitalOrderPermission",
+    "SubType": "DigitalGetAddons",
+    "Type": "VEE",
+    "UniqueName": "VEE_DigitalGetAddons_Procedure_3",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VEE/DigitalGetAddons/Procedure"
+}

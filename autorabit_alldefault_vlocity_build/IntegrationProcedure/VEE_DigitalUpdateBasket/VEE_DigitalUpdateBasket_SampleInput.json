@@ -1,0 +1,99 @@
+{
+    "cartContextKey": "1c749d9faeda47d5bc944b815d9eb30c",
+    "elementName": "VIPUpdateBasketWithAddOns",
+    "meterType": "Standard",
+    "omniScriptId": "0jNSG0000004YCn2AM",
+    "selectedCatalogCode": "CONSUMERGAS",
+    "transformAddOnOffers": {
+        "addOnProducts": [
+            {
+                "CatalogCode": "EUADDONS",
+                "ChargeType": "Recurring",
+                "Id": "REC0",
+                "Name": "Boiler Insurance",
+                "Price": 25,
+                "_flex": {
+                    "state0element0block_element1block_element0block_element0": false,
+                    "state0element0block_element1block_element0block_element0_child": false,
+                    "state0element0block_element1block_element0block_element1": true,
+                    "state0element0block_element1block_element0block_element1_child": true,
+                    "state0element0block_element1block_element2block_element1": false,
+                    "state0element0block_element1block_element2block_element1_child": false,
+                    "state0element0block_element1block_element2block_element2": true,
+                    "state0element0block_element1block_element2block_element2_child": true,
+                    "uniqueKey": "REC0"
+                },
+                "description": "You’ve got an expensive boiler, need to make sure your policy covers the cost of replacing it if it breaks.",
+                "isAddedToCart": true,
+                "productCode": "AD_BOILER_INSURANCE",
+                "uniqueKey": "REC0"
+            },
+            {
+                "CatalogCode": "EUADDONS",
+                "ChargeType": "One-time",
+                "Id": "REC1",
+                "Name": "Energy Audit",
+                "Price": 49,
+                "_flex": {
+                    "state0element0block_element1block_element0block_element0": false,
+                    "state0element0block_element1block_element0block_element0_child": false,
+                    "state0element0block_element1block_element0block_element1": true,
+                    "state0element0block_element1block_element0block_element1_child": true,
+                    "state0element0block_element1block_element2block_element1": true,
+                    "state0element0block_element1block_element2block_element1_child": true,
+                    "state0element0block_element1block_element2block_element2": false,
+                    "state0element0block_element1block_element2block_element2_child": false,
+                    "uniqueKey": "REC1"
+                },
+                "description": "Find out about your energy consumption, identify ways to make it more efficient. helps to save your utility bills.",
+                "isAddedToCart": true,
+                "productCode": "AD_ENERGY_AUDIT",
+                "uniqueKey": "REC1"
+            },
+            {
+                "CatalogCode": "EUADDONS",
+                "ChargeType": "One-time",
+                "Id": "REC2",
+                "Name": "Smart Thermostat",
+                "Price": 199,
+                "_flex": {
+                    "state0element0block_element1block_element0block_element0": false,
+                    "state0element0block_element1block_element0block_element0_child": false,
+                    "state0element0block_element1block_element0block_element1": true,
+                    "state0element0block_element1block_element0block_element1_child": true,
+                    "state0element0block_element1block_element2block_element1": true,
+                    "state0element0block_element1block_element2block_element1_child": true,
+                    "state0element0block_element1block_element2block_element2": false,
+                    "state0element0block_element1block_element2block_element2_child": false,
+                    "uniqueKey": "REC2"
+                },
+                "description": "Host of connectivity options, from tablets, to mobile, move it to anywhere, can be controlled directly and remotely.",
+                "isAddedToCart": false,
+                "productCode": "AD_SMART_THERMOSTAT",
+                "uniqueKey": "REC2"
+            },
+            {
+                "CatalogCode": "EUADDONS",
+                "ChargeType": "One-time",
+                "Id": "REC3",
+                "Name": "Solar Panel Starter kit",
+                "Price": 2200,
+                "_flex": {
+                    "state0element0block_element1block_element0block_element0": false,
+                    "state0element0block_element1block_element0block_element0_child": false,
+                    "state0element0block_element1block_element0block_element1": true,
+                    "state0element0block_element1block_element0block_element1_child": true,
+                    "state0element0block_element1block_element2block_element1": true,
+                    "state0element0block_element1block_element2block_element1_child": true,
+                    "state0element0block_element1block_element2block_element2": false,
+                    "state0element0block_element1block_element2block_element2_child": false,
+                    "uniqueKey": "REC3"
+                },
+                "description": "4 kW Solar PV System Without Battery, 12 yrs Warranty, 25 Yrs Guarantee, Online Monitoring.",
+                "isAddedToCart": false,
+                "productCode": "AD_SOLAR_PANELS",
+                "uniqueKey": "REC3"
+            }
+        ]
+    }
+}

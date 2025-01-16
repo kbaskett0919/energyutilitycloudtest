@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>FRL ソースバンドルリレーション</value>
+    </caseValues>
+    <fields>
+        <help>履行要求行</help>
+        <label></label>
+        <name>vlocity_cmt__FulfilmentRequestLineId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>商業バンドルのルート OrderItem</help>
+        <label></label>
+        <name>vlocity_cmt__RootOrderItemId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <nameFieldLabel>履行要求行のソースバンドルリレーション</nameFieldLabel>
+</CustomObjectTranslation>

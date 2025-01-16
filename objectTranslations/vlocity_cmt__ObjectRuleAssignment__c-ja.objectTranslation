@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Vlocity オブジェクトルール割り当て</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__EffectiveEndDate__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__EffectiveStartDate__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__GlobalKey__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__HeaderId__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__IsActive__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__Object__c</name>
+        <picklistValues>
+            <masterLabel>Contract</masterLabel>
+            <translation>契約</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__RuleId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <nameFieldLabel>名前</nameFieldLabel>
+</CustomObjectTranslation>

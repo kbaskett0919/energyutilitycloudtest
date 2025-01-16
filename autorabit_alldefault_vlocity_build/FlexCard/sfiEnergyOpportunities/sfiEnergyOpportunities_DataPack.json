@@ -1,0 +1,48 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 8,
+                    "name": "recordId",
+                    "val": "0011Q00002ZRgo5QAD"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "Id": "{recordId}"
+                },
+                "ipMethod": "VPL_OpportunityList",
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "optionsMap": {
+                    "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+                },
+                "resultVar": "",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyOpportunities",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyOpportunities/CME_E_U/1/1629707070399",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyOpportunities.json",
+    "SampleDataSourceResponse": "{\"OpportunityList\":[{\"LoopBlockIterationIndex\":1,\"OpportunityCloseDate\":\"05/22/22\",\"OpportunityProbability\":\"20%\",\"OpportunityAmount\":\"$4,500.00\",\"OpportunityId\":\"0061Q000012dWjPQAU\",\"OpportunityStatus\":\"Needs Analysis\",\"DRGetQuoteListStatus\":true,\"DRTransformOpportunityStatus\":true,\"QuoteList\":[{\"QuoteMarginTotal\":\"0.00\",\"QuoteTotal\":\"$0.00\",\"QuoteName\":\"G12\",\"QuoteId\":\"0Q01Q000002Hol8SAC\"},{\"QuoteMarginTotal\":\"0.00\",\"QuoteTotal\":\"$0.00\",\"QuoteName\":\"Test1\",\"QuoteId\":\"0Q01Q000002Hol7SAC\"},{\"QuoteMarginTotal\":\"0.00\",\"QuoteTotal\":\"$0.00\",\"QuoteName\":\"Quote_a4vB00000005mFmIAI\",\"QuoteId\":\"0Q01Q000002Hol9SAC\"},{\"QuoteMarginTotal\":\"0.00\",\"QuoteTotal\":\"$0.00\",\"QuoteName\":\"Quote_a4vB00000005mFnIAI\",\"QuoteId\":\"0Q01Q000002HolASAS\"},{\"QuoteMarginTotal\":\"0.00\",\"QuoteTotal\":\"$0.00\",\"QuoteName\":\"MQ1\",\"QuoteId\":\"0Q01Q000002HohjSAC\"},{\"QuoteMarginTotal\":\"0.00\",\"QuoteTotal\":\"$0.00\",\"QuoteName\":\"Nme1\",\"QuoteId\":\"0Q01Q000002HohnSAC\"},{\"QuoteMarginTotal\":\"0.00\",\"QuoteTotal\":\"$4,000.00\",\"QuoteName\":\"Billy Bing - Renewal Quote\",\"ContractedMonths\":\"12\",\"QuoteId\":\"0Q01Q000002HohkSAC\"}],\"OpportunityName\":\"Billy Bing Renewal 2020\",\"LoopBlockIterationStatus\":true}],\"QuoteIcon\":\"standard:quotes\",\"columnsData\":{\"columns\":[{\"searchable\":true,\"label\":\"sfiEnergyConsoleOpportunityName\",\"sortable\":true,\"fieldName\":\"OpportunityId\",\"visible\":false},{\"searchable\":true,\"label\":\"sfiEnergyConsoleOpportunityName\",\"sortable\":true,\"userSelectable\":true,\"fieldName\":\"OpportunityName\"},{\"searchable\":true,\"label\":\"sfiEnergyConsoleOpportunityStatus\",\"sortable\":true,\"userSelectable\":true,\"fieldName\":\"OpportunityStatus\"},{\"searchable\":true,\"label\":\"sfiEnergyConsoleOpportunityProbability\",\"sortable\":true,\"userSelectable\":true,\"fieldName\":\"OpportunityProbability\"},{\"searchable\":true,\"label\":\"sfiEnergyConsoleOpportunityCloseDate\",\"sortable\":true,\"userSelectable\":true,\"fieldName\":\"OpportunityCloseDate\"},{\"searchable\":true,\"label\":\"sfiEnergyConsoleOpportunityAmount\",\"sortable\":true,\"userSelectable\":true,\"fieldName\":\"OpportunityAmount\"},{\"label\":\"\",\"userSelectable\":true,\"fieldName\":\"OpportunityId\"}]}}",
+    "StylingConfiguration": "",
+    "UniqueName": "sfiEnergyOpportunities_CME_E_U_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyOpportunities"
+}

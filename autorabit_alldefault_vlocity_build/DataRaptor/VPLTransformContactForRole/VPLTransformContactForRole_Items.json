@@ -1,0 +1,42 @@
+[
+    {
+        "FormulaExpression": "LISTMERGE(\"Id\", LIST(AllContacts), LIST(AccConRelDetails))",
+        "FormulaResultPath": "AllContacts",
+        "FormulaSequence": 1,
+        "GlobalKey": "VPL-TransformContactForRoleCustoma1V3h000002X6hsEACItem0",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformContactForRole",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformContactForRole",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformContactForRole",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformContactForRoleCustoma1V3h000002X6hsEACItem1",
+        "InputFieldName": "AllContacts",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformContactForRole",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformContactForRole",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformContactForRole",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AllContacts",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

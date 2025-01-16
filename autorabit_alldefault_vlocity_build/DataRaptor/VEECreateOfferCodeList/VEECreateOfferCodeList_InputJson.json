@@ -1,0 +1,1285 @@
+{
+    "Offers": [
+        {
+            "ApexGetOffersStatus": true,
+            "LoopBlockIterationIndex": 1,
+            "LoopBlockIterationStatus": true,
+            "SetValuesForRemoteActionStatus": true,
+            "TotalOffers": [
+                {
+                    "%vlocity_namespace%__IsOrderable__c": true,
+                    "%vlocity_namespace%__SellingStartDate__c": "2020-12-01T00:00:00.000Z",
+                    "Attachments": [
+                        {
+                            "contentType": "Image",
+                            "defaultAttachment": true,
+                            "description": null,
+                            "displayConditionsData": null,
+                            "mimeType": null,
+                            "sequenceNumber": null,
+                            "title": "Green Energy",
+                            "url": "/servlet/servlet.FileDownload?file=0154K00000104NVQAY"
+                        }
+                    ],
+                    "AttributeCategory": {
+                        "4d0ed959-8a53-98d5-b944-addc436e82c8": [
+                            {
+                                "$$AttributeDefinitionEnd$$": null,
+                                "$$AttributeDefinitionStart$$": null,
+                                "attributeRunTimeInfo": {
+                                    "dataType": "Picklist",
+                                    "default": [
+                                        {
+                                            "displayText": "Prepaid",
+                                            "id": "f2d13d9d-b452-81e1-83b2-3c2fc126734f",
+                                            "sequence": 2,
+                                            "value": "Prepaid"
+                                        }
+                                    ],
+                                    "uiDisplayType": "Dropdown",
+                                    "values": [
+                                        {
+                                            "displayText": "Any",
+                                            "id": "0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9",
+                                            "sequence": 1,
+                                            "value": "Any"
+                                        },
+                                        {
+                                            "displayText": "Prepaid",
+                                            "id": "f2d13d9d-b452-81e1-83b2-3c2fc126734f",
+                                            "sequence": 2,
+                                            "value": "Prepaid"
+                                        },
+                                        {
+                                            "displayText": "Smart",
+                                            "id": "7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d",
+                                            "sequence": 3,
+                                            "value": "Smart"
+                                        }
+                                    ]
+                                },
+                                "attributecategoryid__c": "a0O4K0000009IdZUAU",
+                                "attributecloneable__c": true,
+                                "attributeconfigurable__c": true,
+                                "attributedisplayname__c": "Meter Type",
+                                "attributedisplaysequence__c": "1",
+                                "attributefilterable__c": true,
+                                "attributegrouptype__c": null,
+                                "attributeid__c": "a0P4K0000009Qh9UAE",
+                                "attributeuniquecode__c": "ATT_METER_TYPE",
+                                "categorycode__c": "4d0ed959-8a53-98d5-b944-addc436e82c8",
+                                "categorydisplaysequence__c": 10,
+                                "categoryname__c": "Commodity Commercial Offers",
+                                "customconfiguitemplate__c": null,
+                                "displaysequence__c": "10",
+                                "formatmask__c": null,
+                                "hasrule__c": true,
+                                "id": "a0M4K0000000dhRUAQ",
+                                "isactive__c": true,
+                                "isconfigurable__c": true,
+                                "ishidden__c": false,
+                                "isnottranslatable__c": false,
+                                "isquerydriven__c": false,
+                                "isreadonly__c": false,
+                                "isrequired__c": false,
+                                "objectid__c": "01t4K000001JqiqQAC",
+                                "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                                "querycode__c": null,
+                                "querylabel__c": null,
+                                "rulemessage__c": null,
+                                "uidisplaytype__c": "Dropdown",
+                                "value__c": "Prepaid",
+                                "valuedatatype__c": "Picklist",
+                                "valuedescription__c": null,
+                                "valueinnumber__c": null
+                            }
+                        ]
+                    },
+                    "IsActive": true,
+                    "Name": "Green Energy",
+                    "ProductCode": "PD_ENERGY_GREEN",
+                    "addtocart": {
+                        "rest": {
+                            "link": "v3/catalogs/COMMODITY/basket",
+                            "method": "POST",
+                            "params": {
+                                "basketAction": "AddWithNoConfig",
+                                "context": "{\"MeterType\":\"Smart\"}",
+                                "offer": "PD_ENERGY_GREEN"
+                            }
+                        }
+                    },
+                    "offerDetailsAction": {
+                        "client": {
+                            "params": {
+                            },
+                            "records": [
+                            ]
+                        },
+                        "remote": {
+                            "params": {
+                            }
+                        },
+                        "rest": {
+                            "link": "/v3/catalogs/COMMODITY/offers/PD_ENERGY_GREEN?context={\"MeterType\":\"Smart\"}",
+                            "method": "GET",
+                            "params": {
+                            }
+                        }
+                    },
+                    "offerType": "Product",
+                    "priceResult": [
+                        {
+                            "Amount__c": 0,
+                            "ChargeType__c": "Recurring",
+                            "DisplayText__c": "based on distribution region",
+                            "IsBasePrice__c": true,
+                            "IsVirtualPrice__c": false,
+                            "RecurringFrequency__c": "Monthly",
+                            "SubType__c": "Standard",
+                            "Type__c": "Price",
+                            "adjustments": [
+                            ],
+                            "baseamount": 0,
+                            "chargeamount": 0,
+                            "effectivefromdatespec": null,
+                            "effectiveuntildatespec": null,
+                            "overrides": [
+                            ]
+                        },
+                        {
+                            "Amount__c": 0,
+                            "ChargeType__c": "One-time",
+                            "DisplayText__c": "based on consumption",
+                            "IsBasePrice__c": true,
+                            "IsVirtualPrice__c": false,
+                            "RecurringFrequency__c": null,
+                            "SubType__c": "Standard",
+                            "Type__c": "Price",
+                            "UnitPrice": 0,
+                            "adjustments": [
+                            ],
+                            "baseamount": 0,
+                            "chargeamount": 0,
+                            "effectivefromdatespec": null,
+                            "effectiveuntildatespec": null,
+                            "overrides": [
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "%vlocity_namespace%__IsOrderable__c": true,
+                    "%vlocity_namespace%__SellingStartDate__c": "2020-09-30T23:00:00.000Z",
+                    "Attachments": null,
+                    "AttributeCategory": {
+                        "4d0ed959-8a53-98d5-b944-addc436e82c8": [
+                            {
+                                "$$AttributeDefinitionEnd$$": null,
+                                "$$AttributeDefinitionStart$$": null,
+                                "attributeRunTimeInfo": {
+                                    "dataType": "Picklist",
+                                    "default": [
+                                        {
+                                            "displayText": "Any",
+                                            "id": "0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9",
+                                            "sequence": 1,
+                                            "value": "Any"
+                                        }
+                                    ],
+                                    "uiDisplayType": "Dropdown",
+                                    "values": [
+                                        {
+                                            "displayText": "Any",
+                                            "id": "0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9",
+                                            "sequence": 1,
+                                            "value": "Any"
+                                        },
+                                        {
+                                            "displayText": "Prepaid",
+                                            "id": "f2d13d9d-b452-81e1-83b2-3c2fc126734f",
+                                            "sequence": 2,
+                                            "value": "Prepaid"
+                                        },
+                                        {
+                                            "displayText": "Smart",
+                                            "id": "7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d",
+                                            "sequence": 3,
+                                            "value": "Smart"
+                                        }
+                                    ]
+                                },
+                                "attributecategoryid__c": "a0O4K0000009IdZUAU",
+                                "attributecloneable__c": true,
+                                "attributeconfigurable__c": true,
+                                "attributedisplayname__c": "Meter Type",
+                                "attributedisplaysequence__c": "1",
+                                "attributefilterable__c": true,
+                                "attributegrouptype__c": null,
+                                "attributeid__c": "a0P4K0000009Qh9UAE",
+                                "attributeuniquecode__c": "ATT_METER_TYPE",
+                                "categorycode__c": "4d0ed959-8a53-98d5-b944-addc436e82c8",
+                                "categorydisplaysequence__c": 10,
+                                "categoryname__c": "Commodity Commercial Offers",
+                                "customconfiguitemplate__c": null,
+                                "displaysequence__c": "10",
+                                "formatmask__c": null,
+                                "hasrule__c": true,
+                                "id": "a0M4K0000000dWCUAY",
+                                "isactive__c": true,
+                                "isconfigurable__c": true,
+                                "ishidden__c": false,
+                                "isnottranslatable__c": false,
+                                "isquerydriven__c": false,
+                                "isreadonly__c": false,
+                                "isrequired__c": false,
+                                "objectid__c": "01t4K000001Jc4CQAS",
+                                "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                                "querycode__c": null,
+                                "querylabel__c": null,
+                                "rulemessage__c": null,
+                                "uidisplaytype__c": "Dropdown",
+                                "value__c": "Any",
+                                "valuedatatype__c": "Picklist",
+                                "valuedescription__c": null,
+                                "valueinnumber__c": null
+                            }
+                        ]
+                    },
+                    "Description": "Fixed energy product based on setting a target margin for a single unit rate.",
+                    "IsActive": true,
+                    "Name": "Fixed Energy",
+                    "ProductCode": "PD_FIXED_ENERGY_MARGIN",
+                    "addtocart": {
+                        "rest": {
+                            "link": "v3/catalogs/COMMODITY/basket",
+                            "method": "POST",
+                            "params": {
+                                "basketAction": "AddWithNoConfig",
+                                "context": "{\"MeterType\":\"Smart\"}",
+                                "offer": "PD_FIXED_ENERGY_MARGIN"
+                            }
+                        }
+                    },
+                    "offerDetailsAction": {
+                        "client": {
+                            "params": {
+                            },
+                            "records": [
+                            ]
+                        },
+                        "remote": {
+                            "params": {
+                            }
+                        },
+                        "rest": {
+                            "link": "/v3/catalogs/COMMODITY/offers/PD_FIXED_ENERGY_MARGIN?context={\"MeterType\":\"Smart\"}",
+                            "method": "GET",
+                            "params": {
+                            }
+                        }
+                    },
+                    "offerType": "Product",
+                    "priceResult": [
+                        {
+                            "Amount__c": 0,
+                            "ChargeType__c": "One-time",
+                            "DisplayText__c": "based on consumption",
+                            "IsBasePrice__c": true,
+                            "IsVirtualPrice__c": false,
+                            "RecurringFrequency__c": null,
+                            "SubType__c": "Standard",
+                            "Type__c": "Price",
+                            "UnitPrice": 0,
+                            "adjustments": [
+                            ],
+                            "baseamount": 0,
+                            "chargeamount": 0,
+                            "effectivefromdatespec": null,
+                            "effectiveuntildatespec": null,
+                            "overrides": [
+                            ]
+                        },
+                        {
+                            "Amount__c": 0,
+                            "ChargeType__c": "Recurring",
+                            "DisplayText__c": "based on distribution region",
+                            "IsBasePrice__c": true,
+                            "IsVirtualPrice__c": false,
+                            "RecurringFrequency__c": "Monthly",
+                            "SubType__c": "Standard",
+                            "Type__c": "Price",
+                            "adjustments": [
+                            ],
+                            "baseamount": 0,
+                            "chargeamount": 0,
+                            "effectivefromdatespec": null,
+                            "effectiveuntildatespec": null,
+                            "overrides": [
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "%vlocity_namespace%__IsOrderable__c": true,
+                    "%vlocity_namespace%__SellingStartDate__c": "2020-12-01T00:00:00.000Z",
+                    "Attachments": [
+                        {
+                            "contentType": "Image",
+                            "defaultAttachment": true,
+                            "description": null,
+                            "displayConditionsData": null,
+                            "mimeType": null,
+                            "sequenceNumber": null,
+                            "title": "Energy Saver",
+                            "url": "/servlet/servlet.FileDownload?file=0154K00000104N6QAI"
+                        }
+                    ],
+                    "AttributeCategory": {
+                        "4d0ed959-8a53-98d5-b944-addc436e82c8": [
+                            {
+                                "$$AttributeDefinitionEnd$$": null,
+                                "$$AttributeDefinitionStart$$": null,
+                                "attributeRunTimeInfo": {
+                                    "dataType": "Picklist",
+                                    "default": [
+                                        {
+                                            "displayText": "Any",
+                                            "id": "0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9",
+                                            "sequence": 1,
+                                            "value": "Any"
+                                        }
+                                    ],
+                                    "uiDisplayType": "Dropdown",
+                                    "values": [
+                                        {
+                                            "displayText": "Any",
+                                            "id": "0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9",
+                                            "sequence": 1,
+                                            "value": "Any"
+                                        },
+                                        {
+                                            "displayText": "Prepaid",
+                                            "id": "f2d13d9d-b452-81e1-83b2-3c2fc126734f",
+                                            "sequence": 2,
+                                            "value": "Prepaid"
+                                        },
+                                        {
+                                            "displayText": "Smart",
+                                            "id": "7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d",
+                                            "sequence": 3,
+                                            "value": "Smart"
+                                        }
+                                    ]
+                                },
+                                "attributecategoryid__c": "a0O4K0000009IdZUAU",
+                                "attributecloneable__c": true,
+                                "attributeconfigurable__c": true,
+                                "attributedisplayname__c": "Meter Type",
+                                "attributedisplaysequence__c": "1",
+                                "attributefilterable__c": true,
+                                "attributegrouptype__c": null,
+                                "attributeid__c": "a0P4K0000009Qh9UAE",
+                                "attributeuniquecode__c": "ATT_METER_TYPE",
+                                "categorycode__c": "4d0ed959-8a53-98d5-b944-addc436e82c8",
+                                "categorydisplaysequence__c": 10,
+                                "categoryname__c": "Commodity Commercial Offers",
+                                "customconfiguitemplate__c": null,
+                                "displaysequence__c": "10",
+                                "formatmask__c": null,
+                                "hasrule__c": true,
+                                "id": "a0M4K0000000diPUAQ",
+                                "isactive__c": true,
+                                "isconfigurable__c": true,
+                                "ishidden__c": false,
+                                "isnottranslatable__c": false,
+                                "isquerydriven__c": false,
+                                "isreadonly__c": false,
+                                "isrequired__c": false,
+                                "objectid__c": "01t4K000001JuI6QAK",
+                                "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                                "querycode__c": null,
+                                "querylabel__c": null,
+                                "rulemessage__c": null,
+                                "uidisplaytype__c": "Dropdown",
+                                "value__c": "Any",
+                                "valuedatatype__c": "Picklist",
+                                "valuedescription__c": null,
+                                "valueinnumber__c": null
+                            }
+                        ]
+                    },
+                    "Description": "Day night energy product that works on smart meters or meters with multiple registers. Electricity during peak hours is charged at a different rate to off peak energy consumption.",
+                    "IsActive": true,
+                    "Name": "Energy Saver",
+                    "ProductCode": "PD_ENERGY_SAVER",
+                    "addtocart": {
+                        "rest": {
+                            "link": "v3/catalogs/COMMODITY/basket",
+                            "method": "POST",
+                            "params": {
+                                "basketAction": "AddWithNoConfig",
+                                "context": "{\"MeterType\":\"Smart\"}",
+                                "offer": "PD_ENERGY_SAVER"
+                            }
+                        }
+                    },
+                    "offerDetailsAction": {
+                        "client": {
+                            "params": {
+                            },
+                            "records": [
+                            ]
+                        },
+                        "remote": {
+                            "params": {
+                            }
+                        },
+                        "rest": {
+                            "link": "/v3/catalogs/COMMODITY/offers/PD_ENERGY_SAVER?context={\"MeterType\":\"Smart\"}",
+                            "method": "GET",
+                            "params": {
+                            }
+                        }
+                    },
+                    "offerType": "Product",
+                    "priceResult": [
+                        {
+                            "Amount__c": 0,
+                            "ChargeType__c": "Recurring",
+                            "DisplayText__c": "based on distribution region",
+                            "IsBasePrice__c": true,
+                            "IsVirtualPrice__c": false,
+                            "RecurringFrequency__c": "Monthly",
+                            "SubType__c": "Standard",
+                            "Type__c": "Price",
+                            "adjustments": [
+                            ],
+                            "baseamount": 0,
+                            "chargeamount": 0,
+                            "effectivefromdatespec": null,
+                            "effectiveuntildatespec": null,
+                            "overrides": [
+                            ]
+                        },
+                        {
+                            "Amount__c": 0,
+                            "ChargeType__c": "One-time",
+                            "DisplayText__c": "based on consumption",
+                            "IsBasePrice__c": true,
+                            "IsVirtualPrice__c": false,
+                            "RecurringFrequency__c": null,
+                            "SubType__c": "Standard",
+                            "Type__c": "Price",
+                            "UnitPrice": 0,
+                            "adjustments": [
+                            ],
+                            "baseamount": 0,
+                            "chargeamount": 0,
+                            "effectivefromdatespec": null,
+                            "effectiveuntildatespec": null,
+                            "overrides": [
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ApexGetOffersStatus": true,
+            "LoopBlockIterationIndex": 2,
+            "LoopBlockIterationStatus": true,
+            "SetValuesForRemoteActionStatus": true,
+            "TotalOffers": [
+                {
+                    "%vlocity_namespace%__IsOrderable__c": true,
+                    "%vlocity_namespace%__SellingStartDate__c": "2020-12-01T00:00:00.000Z",
+                    "Attachments": [
+                        {
+                            "contentType": "Image",
+                            "defaultAttachment": true,
+                            "description": null,
+                            "displayConditionsData": null,
+                            "mimeType": null,
+                            "sequenceNumber": null,
+                            "title": "Green Energy",
+                            "url": "/servlet/servlet.FileDownload?file=0154K00000104NVQAY"
+                        }
+                    ],
+                    "AttributeCategory": {
+                        "4d0ed959-8a53-98d5-b944-addc436e82c8": [
+                            {
+                                "$$AttributeDefinitionEnd$$": null,
+                                "$$AttributeDefinitionStart$$": null,
+                                "attributeRunTimeInfo": {
+                                    "dataType": "Picklist",
+                                    "default": [
+                                        {
+                                            "displayText": "Prepaid",
+                                            "id": "f2d13d9d-b452-81e1-83b2-3c2fc126734f",
+                                            "sequence": 2,
+                                            "value": "Prepaid"
+                                        }
+                                    ],
+                                    "uiDisplayType": "Dropdown",
+                                    "values": [
+                                        {
+                                            "displayText": "Any",
+                                            "id": "0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9",
+                                            "sequence": 1,
+                                            "value": "Any"
+                                        },
+                                        {
+                                            "displayText": "Prepaid",
+                                            "id": "f2d13d9d-b452-81e1-83b2-3c2fc126734f",
+                                            "sequence": 2,
+                                            "value": "Prepaid"
+                                        },
+                                        {
+                                            "displayText": "Smart",
+                                            "id": "7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d",
+                                            "sequence": 3,
+                                            "value": "Smart"
+                                        }
+                                    ]
+                                },
+                                "attributecategoryid__c": "a0O4K0000009IdZUAU",
+                                "attributecloneable__c": true,
+                                "attributeconfigurable__c": true,
+                                "attributedisplayname__c": "Meter Type",
+                                "attributedisplaysequence__c": "1",
+                                "attributefilterable__c": true,
+                                "attributegrouptype__c": null,
+                                "attributeid__c": "a0P4K0000009Qh9UAE",
+                                "attributeuniquecode__c": "ATT_METER_TYPE",
+                                "categorycode__c": "4d0ed959-8a53-98d5-b944-addc436e82c8",
+                                "categorydisplaysequence__c": 10,
+                                "categoryname__c": "Commodity Commercial Offers",
+                                "customconfiguitemplate__c": null,
+                                "displaysequence__c": "10",
+                                "formatmask__c": null,
+                                "hasrule__c": true,
+                                "id": "a0M4K0000000dhRUAQ",
+                                "isactive__c": true,
+                                "isconfigurable__c": true,
+                                "ishidden__c": false,
+                                "isnottranslatable__c": false,
+                                "isquerydriven__c": false,
+                                "isreadonly__c": false,
+                                "isrequired__c": false,
+                                "objectid__c": "01t4K000001JqiqQAC",
+                                "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                                "querycode__c": null,
+                                "querylabel__c": null,
+                                "rulemessage__c": null,
+                                "uidisplaytype__c": "Dropdown",
+                                "value__c": "Prepaid",
+                                "valuedatatype__c": "Picklist",
+                                "valuedescription__c": null,
+                                "valueinnumber__c": null
+                            }
+                        ]
+                    },
+                    "IsActive": true,
+                    "Name": "Green Energy",
+                    "ProductCode": "PD_ENERGY_GREEN",
+                    "addtocart": {
+                        "rest": {
+                            "link": "v3/catalogs/COMMODITY/basket",
+                            "method": "POST",
+                            "params": {
+                                "basketAction": "AddWithNoConfig",
+                                "context": "{\"MeterType\":\"Prepaid\"}",
+                                "offer": "PD_ENERGY_GREEN"
+                            }
+                        }
+                    },
+                    "offerDetailsAction": {
+                        "client": {
+                            "params": {
+                            },
+                            "records": [
+                            ]
+                        },
+                        "remote": {
+                            "params": {
+                            }
+                        },
+                        "rest": {
+                            "link": "/v3/catalogs/COMMODITY/offers/PD_ENERGY_GREEN?context={\"MeterType\":\"Prepaid\"}",
+                            "method": "GET",
+                            "params": {
+                            }
+                        }
+                    },
+                    "offerType": "Product",
+                    "priceResult": [
+                        {
+                            "Amount__c": 0,
+                            "ChargeType__c": "Recurring",
+                            "DisplayText__c": "based on distribution region",
+                            "IsBasePrice__c": true,
+                            "IsVirtualPrice__c": false,
+                            "RecurringFrequency__c": "Monthly",
+                            "SubType__c": "Standard",
+                            "Type__c": "Price",
+                            "adjustments": [
+                            ],
+                            "baseamount": 0,
+                            "chargeamount": 0,
+                            "effectivefromdatespec": null,
+                            "effectiveuntildatespec": null,
+                            "overrides": [
+                            ]
+                        },
+                        {
+                            "Amount__c": 0,
+                            "ChargeType__c": "One-time",
+                            "DisplayText__c": "based on consumption",
+                            "IsBasePrice__c": true,
+                            "IsVirtualPrice__c": false,
+                            "RecurringFrequency__c": null,
+                            "SubType__c": "Standard",
+                            "Type__c": "Price",
+                            "UnitPrice": 0,
+                            "adjustments": [
+                            ],
+                            "baseamount": 0,
+                            "chargeamount": 0,
+                            "effectivefromdatespec": null,
+                            "effectiveuntildatespec": null,
+                            "overrides": [
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "%vlocity_namespace%__IsOrderable__c": true,
+                    "%vlocity_namespace%__SellingStartDate__c": "2020-09-30T23:00:00.000Z",
+                    "Attachments": null,
+                    "AttributeCategory": {
+                        "4d0ed959-8a53-98d5-b944-addc436e82c8": [
+                            {
+                                "$$AttributeDefinitionEnd$$": null,
+                                "$$AttributeDefinitionStart$$": null,
+                                "attributeRunTimeInfo": {
+                                    "dataType": "Picklist",
+                                    "default": [
+                                        {
+                                            "displayText": "Any",
+                                            "id": "0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9",
+                                            "sequence": 1,
+                                            "value": "Any"
+                                        }
+                                    ],
+                                    "uiDisplayType": "Dropdown",
+                                    "values": [
+                                        {
+                                            "displayText": "Any",
+                                            "id": "0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9",
+                                            "sequence": 1,
+                                            "value": "Any"
+                                        },
+                                        {
+                                            "displayText": "Prepaid",
+                                            "id": "f2d13d9d-b452-81e1-83b2-3c2fc126734f",
+                                            "sequence": 2,
+                                            "value": "Prepaid"
+                                        },
+                                        {
+                                            "displayText": "Smart",
+                                            "id": "7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d",
+                                            "sequence": 3,
+                                            "value": "Smart"
+                                        }
+                                    ]
+                                },
+                                "attributecategoryid__c": "a0O4K0000009IdZUAU",
+                                "attributecloneable__c": true,
+                                "attributeconfigurable__c": true,
+                                "attributedisplayname__c": "Meter Type",
+                                "attributedisplaysequence__c": "1",
+                                "attributefilterable__c": true,
+                                "attributegrouptype__c": null,
+                                "attributeid__c": "a0P4K0000009Qh9UAE",
+                                "attributeuniquecode__c": "ATT_METER_TYPE",
+                                "categorycode__c": "4d0ed959-8a53-98d5-b944-addc436e82c8",
+                                "categorydisplaysequence__c": 10,
+                                "categoryname__c": "Commodity Commercial Offers",
+                                "customconfiguitemplate__c": null,
+                                "displaysequence__c": "10",
+                                "formatmask__c": null,
+                                "hasrule__c": true,
+                                "id": "a0M4K0000000dWCUAY",
+                                "isactive__c": true,
+                                "isconfigurable__c": true,
+                                "ishidden__c": false,
+                                "isnottranslatable__c": false,
+                                "isquerydriven__c": false,
+                                "isreadonly__c": false,
+                                "isrequired__c": false,
+                                "objectid__c": "01t4K000001Jc4CQAS",
+                                "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                                "querycode__c": null,
+                                "querylabel__c": null,
+                                "rulemessage__c": null,
+                                "uidisplaytype__c": "Dropdown",
+                                "value__c": "Any",
+                                "valuedatatype__c": "Picklist",
+                                "valuedescription__c": null,
+                                "valueinnumber__c": null
+                            }
+                        ]
+                    },
+                    "Description": "Fixed energy product based on setting a target margin for a single unit rate.",
+                    "IsActive": true,
+                    "Name": "Fixed Energy",
+                    "ProductCode": "PD_FIXED_ENERGY_MARGIN",
+                    "addtocart": {
+                        "rest": {
+                            "link": "v3/catalogs/COMMODITY/basket",
+                            "method": "POST",
+                            "params": {
+                                "basketAction": "AddWithNoConfig",
+                                "context": "{\"MeterType\":\"Prepaid\"}",
+                                "offer": "PD_FIXED_ENERGY_MARGIN"
+                            }
+                        }
+                    },
+                    "offerDetailsAction": {
+                        "client": {
+                            "params": {
+                            },
+                            "records": [
+                            ]
+                        },
+                        "remote": {
+                            "params": {
+                            }
+                        },
+                        "rest": {
+                            "link": "/v3/catalogs/COMMODITY/offers/PD_FIXED_ENERGY_MARGIN?context={\"MeterType\":\"Prepaid\"}",
+                            "method": "GET",
+                            "params": {
+                            }
+                        }
+                    },
+                    "offerType": "Product",
+                    "priceResult": [
+                        {
+                            "Amount__c": 0,
+                            "ChargeType__c": "One-time",
+                            "DisplayText__c": "based on consumption",
+                            "IsBasePrice__c": true,
+                            "IsVirtualPrice__c": false,
+                            "RecurringFrequency__c": null,
+                            "SubType__c": "Standard",
+                            "Type__c": "Price",
+                            "UnitPrice": 0,
+                            "adjustments": [
+                            ],
+                            "baseamount": 0,
+                            "chargeamount": 0,
+                            "effectivefromdatespec": null,
+                            "effectiveuntildatespec": null,
+                            "overrides": [
+                            ]
+                        },
+                        {
+                            "Amount__c": 0,
+                            "ChargeType__c": "Recurring",
+                            "DisplayText__c": "based on distribution region",
+                            "IsBasePrice__c": true,
+                            "IsVirtualPrice__c": false,
+                            "RecurringFrequency__c": "Monthly",
+                            "SubType__c": "Standard",
+                            "Type__c": "Price",
+                            "adjustments": [
+                            ],
+                            "baseamount": 0,
+                            "chargeamount": 0,
+                            "effectivefromdatespec": null,
+                            "effectiveuntildatespec": null,
+                            "overrides": [
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "%vlocity_namespace%__IsOrderable__c": true,
+                    "%vlocity_namespace%__SellingStartDate__c": "2020-12-01T00:00:00.000Z",
+                    "Attachments": null,
+                    "AttributeCategory": {
+                        "4d0ed959-8a53-98d5-b944-addc436e82c8": [
+                            {
+                                "$$AttributeDefinitionEnd$$": null,
+                                "$$AttributeDefinitionStart$$": null,
+                                "attributeRunTimeInfo": {
+                                    "dataType": "Picklist",
+                                    "default": [
+                                        {
+                                            "displayText": "Any",
+                                            "id": "0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9",
+                                            "sequence": 1,
+                                            "value": "Any"
+                                        }
+                                    ],
+                                    "uiDisplayType": "Dropdown",
+                                    "values": [
+                                        {
+                                            "displayText": "Any",
+                                            "id": "0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9",
+                                            "sequence": 1,
+                                            "value": "Any"
+                                        },
+                                        {
+                                            "displayText": "Prepaid",
+                                            "id": "f2d13d9d-b452-81e1-83b2-3c2fc126734f",
+                                            "sequence": 2,
+                                            "value": "Prepaid"
+                                        },
+                                        {
+                                            "displayText": "Smart",
+                                            "id": "7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d",
+                                            "sequence": 3,
+                                            "value": "Smart"
+                                        }
+                                    ]
+                                },
+                                "attributecategoryid__c": "a0O4K0000009IdZUAU",
+                                "attributecloneable__c": true,
+                                "attributeconfigurable__c": true,
+                                "attributedisplayname__c": "Meter Type",
+                                "attributedisplaysequence__c": "1",
+                                "attributefilterable__c": true,
+                                "attributegrouptype__c": null,
+                                "attributeid__c": "a0P4K0000009Qh9UAE",
+                                "attributeuniquecode__c": "ATT_METER_TYPE",
+                                "categorycode__c": "4d0ed959-8a53-98d5-b944-addc436e82c8",
+                                "categorydisplaysequence__c": 10,
+                                "categoryname__c": "Commodity Commercial Offers",
+                                "customconfiguitemplate__c": null,
+                                "displaysequence__c": "10",
+                                "formatmask__c": null,
+                                "hasrule__c": false,
+                                "id": "a0M4K0000000fXjUAI",
+                                "isactive__c": true,
+                                "isconfigurable__c": true,
+                                "ishidden__c": false,
+                                "isnottranslatable__c": false,
+                                "isquerydriven__c": false,
+                                "isreadonly__c": false,
+                                "isrequired__c": false,
+                                "objectid__c": "01t4K000001KRq4QAG",
+                                "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                                "querycode__c": null,
+                                "querylabel__c": null,
+                                "rulemessage__c": null,
+                                "uidisplaytype__c": "Dropdown",
+                                "value__c": "Any",
+                                "valuedatatype__c": "Picklist",
+                                "valuedescription__c": null,
+                                "valueinnumber__c": null
+                            }
+                        ]
+                    },
+                    "Description": "Our best prepaid offering for customers with prepaid meters.",
+                    "IsActive": true,
+                    "Name": "Prepaid Energy",
+                    "ProductCode": "PD_PREPAID_ENERGY",
+                    "addtocart": {
+                        "rest": {
+                            "link": "v3/catalogs/COMMODITY/basket",
+                            "method": "POST",
+                            "params": {
+                                "basketAction": "AddWithNoConfig",
+                                "context": "{\"MeterType\":\"Prepaid\"}",
+                                "offer": "PD_PREPAID_ENERGY"
+                            }
+                        }
+                    },
+                    "offerDetailsAction": {
+                        "client": {
+                            "params": {
+                            },
+                            "records": [
+                            ]
+                        },
+                        "remote": {
+                            "params": {
+                            }
+                        },
+                        "rest": {
+                            "link": "/v3/catalogs/COMMODITY/offers/PD_PREPAID_ENERGY?context={\"MeterType\":\"Prepaid\"}",
+                            "method": "GET",
+                            "params": {
+                            }
+                        }
+                    },
+                    "offerType": "Product",
+                    "priceResult": [
+                        {
+                            "Amount__c": 0,
+                            "ChargeType__c": "Recurring",
+                            "DisplayText__c": "based on distribution region",
+                            "IsBasePrice__c": true,
+                            "IsVirtualPrice__c": false,
+                            "RecurringFrequency__c": "Monthly",
+                            "SubType__c": "Standard",
+                            "Type__c": "Price",
+                            "adjustments": [
+                            ],
+                            "baseamount": 0,
+                            "chargeamount": 0,
+                            "effectivefromdatespec": null,
+                            "effectiveuntildatespec": null,
+                            "overrides": [
+                            ]
+                        },
+                        {
+                            "Amount__c": 0,
+                            "ChargeType__c": "One-time",
+                            "DisplayText__c": "based on consumption",
+                            "IsBasePrice__c": true,
+                            "IsVirtualPrice__c": false,
+                            "RecurringFrequency__c": null,
+                            "SubType__c": "Standard",
+                            "Type__c": "Price",
+                            "UnitPrice": 0,
+                            "adjustments": [
+                            ],
+                            "baseamount": 0,
+                            "chargeamount": 0,
+                            "effectivefromdatespec": null,
+                            "effectiveuntildatespec": null,
+                            "overrides": [
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ApexGetOffersStatus": true,
+            "LoopBlockIterationIndex": 3,
+            "LoopBlockIterationStatus": true,
+            "SetValuesForRemoteActionStatus": true,
+            "TotalOffers": [
+                {
+                    "%vlocity_namespace%__IsOrderable__c": true,
+                    "%vlocity_namespace%__SellingStartDate__c": "2020-12-01T00:00:00.000Z",
+                    "Attachments": [
+                        {
+                            "contentType": "Image",
+                            "defaultAttachment": true,
+                            "description": null,
+                            "displayConditionsData": null,
+                            "mimeType": null,
+                            "sequenceNumber": null,
+                            "title": "Green Energy",
+                            "url": "/servlet/servlet.FileDownload?file=0154K00000104NVQAY"
+                        }
+                    ],
+                    "AttributeCategory": {
+                        "4d0ed959-8a53-98d5-b944-addc436e82c8": [
+                            {
+                                "$$AttributeDefinitionEnd$$": null,
+                                "$$AttributeDefinitionStart$$": null,
+                                "attributeRunTimeInfo": {
+                                    "dataType": "Picklist",
+                                    "default": [
+                                        {
+                                            "displayText": "Prepaid",
+                                            "id": "f2d13d9d-b452-81e1-83b2-3c2fc126734f",
+                                            "sequence": 2,
+                                            "value": "Prepaid"
+                                        }
+                                    ],
+                                    "uiDisplayType": "Dropdown",
+                                    "values": [
+                                        {
+                                            "displayText": "Any",
+                                            "id": "0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9",
+                                            "sequence": 1,
+                                            "value": "Any"
+                                        },
+                                        {
+                                            "displayText": "Prepaid",
+                                            "id": "f2d13d9d-b452-81e1-83b2-3c2fc126734f",
+                                            "sequence": 2,
+                                            "value": "Prepaid"
+                                        },
+                                        {
+                                            "displayText": "Smart",
+                                            "id": "7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d",
+                                            "sequence": 3,
+                                            "value": "Smart"
+                                        }
+                                    ]
+                                },
+                                "attributecategoryid__c": "a0O4K0000009IdZUAU",
+                                "attributecloneable__c": true,
+                                "attributeconfigurable__c": true,
+                                "attributedisplayname__c": "Meter Type",
+                                "attributedisplaysequence__c": "1",
+                                "attributefilterable__c": true,
+                                "attributegrouptype__c": null,
+                                "attributeid__c": "a0P4K0000009Qh9UAE",
+                                "attributeuniquecode__c": "ATT_METER_TYPE",
+                                "categorycode__c": "4d0ed959-8a53-98d5-b944-addc436e82c8",
+                                "categorydisplaysequence__c": 10,
+                                "categoryname__c": "Commodity Commercial Offers",
+                                "customconfiguitemplate__c": null,
+                                "displaysequence__c": "10",
+                                "formatmask__c": null,
+                                "hasrule__c": true,
+                                "id": "a0M4K0000000dhRUAQ",
+                                "isactive__c": true,
+                                "isconfigurable__c": true,
+                                "ishidden__c": false,
+                                "isnottranslatable__c": false,
+                                "isquerydriven__c": false,
+                                "isreadonly__c": false,
+                                "isrequired__c": false,
+                                "objectid__c": "01t4K000001JqiqQAC",
+                                "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                                "querycode__c": null,
+                                "querylabel__c": null,
+                                "rulemessage__c": null,
+                                "uidisplaytype__c": "Dropdown",
+                                "value__c": "Prepaid",
+                                "valuedatatype__c": "Picklist",
+                                "valuedescription__c": null,
+                                "valueinnumber__c": null
+                            }
+                        ]
+                    },
+                    "IsActive": true,
+                    "Name": "Green Energy",
+                    "ProductCode": "PD_ENERGY_GREEN",
+                    "addtocart": {
+                        "rest": {
+                            "link": "v3/catalogs/COMMODITY/basket",
+                            "method": "POST",
+                            "params": {
+                                "basketAction": "AddWithNoConfig",
+                                "context": "{\"MeterType\":\"Any\"}",
+                                "offer": "PD_ENERGY_GREEN"
+                            }
+                        }
+                    },
+                    "offerDetailsAction": {
+                        "client": {
+                            "params": {
+                            },
+                            "records": [
+                            ]
+                        },
+                        "remote": {
+                            "params": {
+                            }
+                        },
+                        "rest": {
+                            "link": "/v3/catalogs/COMMODITY/offers/PD_ENERGY_GREEN?context={\"MeterType\":\"Any\"}",
+                            "method": "GET",
+                            "params": {
+                            }
+                        }
+                    },
+                    "offerType": "Product",
+                    "priceResult": [
+                        {
+                            "Amount__c": 0,
+                            "ChargeType__c": "Recurring",
+                            "DisplayText__c": "based on distribution region",
+                            "IsBasePrice__c": true,
+                            "IsVirtualPrice__c": false,
+                            "RecurringFrequency__c": "Monthly",
+                            "SubType__c": "Standard",
+                            "Type__c": "Price",
+                            "adjustments": [
+                            ],
+                            "baseamount": 0,
+                            "chargeamount": 0,
+                            "effectivefromdatespec": null,
+                            "effectiveuntildatespec": null,
+                            "overrides": [
+                            ]
+                        },
+                        {
+                            "Amount__c": 0,
+                            "ChargeType__c": "One-time",
+                            "DisplayText__c": "based on consumption",
+                            "IsBasePrice__c": true,
+                            "IsVirtualPrice__c": false,
+                            "RecurringFrequency__c": null,
+                            "SubType__c": "Standard",
+                            "Type__c": "Price",
+                            "UnitPrice": 0,
+                            "adjustments": [
+                            ],
+                            "baseamount": 0,
+                            "chargeamount": 0,
+                            "effectivefromdatespec": null,
+                            "effectiveuntildatespec": null,
+                            "overrides": [
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "%vlocity_namespace%__IsOrderable__c": true,
+                    "%vlocity_namespace%__SellingStartDate__c": "2020-09-30T23:00:00.000Z",
+                    "Attachments": null,
+                    "AttributeCategory": {
+                        "4d0ed959-8a53-98d5-b944-addc436e82c8": [
+                            {
+                                "$$AttributeDefinitionEnd$$": null,
+                                "$$AttributeDefinitionStart$$": null,
+                                "attributeRunTimeInfo": {
+                                    "dataType": "Picklist",
+                                    "default": [
+                                        {
+                                            "displayText": "Any",
+                                            "id": "0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9",
+                                            "sequence": 1,
+                                            "value": "Any"
+                                        }
+                                    ],
+                                    "uiDisplayType": "Dropdown",
+                                    "values": [
+                                        {
+                                            "displayText": "Any",
+                                            "id": "0358ea25-c1d9-37b0-f6c3-1e2b81bdfeb9",
+                                            "sequence": 1,
+                                            "value": "Any"
+                                        },
+                                        {
+                                            "displayText": "Prepaid",
+                                            "id": "f2d13d9d-b452-81e1-83b2-3c2fc126734f",
+                                            "sequence": 2,
+                                            "value": "Prepaid"
+                                        },
+                                        {
+                                            "displayText": "Smart",
+                                            "id": "7f5435df-eb51-14b6-5ac7-8b0e3ae75c2d",
+                                            "sequence": 3,
+                                            "value": "Smart"
+                                        }
+                                    ]
+                                },
+                                "attributecategoryid__c": "a0O4K0000009IdZUAU",
+                                "attributecloneable__c": true,
+                                "attributeconfigurable__c": true,
+                                "attributedisplayname__c": "Meter Type",
+                                "attributedisplaysequence__c": "1",
+                                "attributefilterable__c": true,
+                                "attributegrouptype__c": null,
+                                "attributeid__c": "a0P4K0000009Qh9UAE",
+                                "attributeuniquecode__c": "ATT_METER_TYPE",
+                                "categorycode__c": "4d0ed959-8a53-98d5-b944-addc436e82c8",
+                                "categorydisplaysequence__c": 10,
+                                "categoryname__c": "Commodity Commercial Offers",
+                                "customconfiguitemplate__c": null,
+                                "displaysequence__c": "10",
+                                "formatmask__c": null,
+                                "hasrule__c": true,
+                                "id": "a0M4K0000000dWCUAY",
+                                "isactive__c": true,
+                                "isconfigurable__c": true,
+                                "ishidden__c": false,
+                                "isnottranslatable__c": false,
+                                "isquerydriven__c": false,
+                                "isreadonly__c": false,
+                                "isrequired__c": false,
+                                "objectid__c": "01t4K000001Jc4CQAS",
+                                "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                                "querycode__c": null,
+                                "querylabel__c": null,
+                                "rulemessage__c": null,
+                                "uidisplaytype__c": "Dropdown",
+                                "value__c": "Any",
+                                "valuedatatype__c": "Picklist",
+                                "valuedescription__c": null,
+                                "valueinnumber__c": null
+                            }
+                        ]
+                    },
+                    "Description": "Fixed energy product based on setting a target margin for a single unit rate.",
+                    "IsActive": true,
+                    "Name": "Fixed Energy",
+                    "ProductCode": "PD_FIXED_ENERGY_MARGIN",
+                    "addtocart": {
+                        "rest": {
+                            "link": "v3/catalogs/COMMODITY/basket",
+                            "method": "POST",
+                            "params": {
+                                "basketAction": "AddWithNoConfig",
+                                "context": "{\"MeterType\":\"Any\"}",
+                                "offer": "PD_FIXED_ENERGY_MARGIN"
+                            }
+                        }
+                    },
+                    "offerDetailsAction": {
+                        "client": {
+                            "params": {
+                            },
+                            "records": [
+                            ]
+                        },
+                        "remote": {
+                            "params": {
+                            }
+                        },
+                        "rest": {
+                            "link": "/v3/catalogs/COMMODITY/offers/PD_FIXED_ENERGY_MARGIN?context={\"MeterType\":\"Any\"}",
+                            "method": "GET",
+                            "params": {
+                            }
+                        }
+                    },
+                    "offerType": "Product",
+                    "priceResult": [
+                        {
+                            "Amount__c": 0,
+                            "ChargeType__c": "One-time",
+                            "DisplayText__c": "based on consumption",
+                            "IsBasePrice__c": true,
+                            "IsVirtualPrice__c": false,
+                            "RecurringFrequency__c": null,
+                            "SubType__c": "Standard",
+                            "Type__c": "Price",
+                            "UnitPrice": 0,
+                            "adjustments": [
+                            ],
+                            "baseamount": 0,
+                            "chargeamount": 0,
+                            "effectivefromdatespec": null,
+                            "effectiveuntildatespec": null,
+                            "overrides": [
+                            ]
+                        },
+                        {
+                            "Amount__c": 0,
+                            "ChargeType__c": "Recurring",
+                            "DisplayText__c": "based on distribution region",
+                            "IsBasePrice__c": true,
+                            "IsVirtualPrice__c": false,
+                            "RecurringFrequency__c": "Monthly",
+                            "SubType__c": "Standard",
+                            "Type__c": "Price",
+                            "adjustments": [
+                            ],
+                            "baseamount": 0,
+                            "chargeamount": 0,
+                            "effectivefromdatespec": null,
+                            "effectiveuntildatespec": null,
+                            "overrides": [
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

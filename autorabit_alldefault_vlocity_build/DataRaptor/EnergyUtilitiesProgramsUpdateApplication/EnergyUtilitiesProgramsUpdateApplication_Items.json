@@ -1,0 +1,60 @@
+[
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "EnergyUtilitiesProgramsUpdateApplication7098614117835333",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "EnergyUtilitiesProgramsUpdateApplication",
+        "OmniDataTransformationId": {
+            "Name": "EnergyUtilitiesProgramsUpdateApplication",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/EnergyUtilitiesProgramsUpdateApplication",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "IndividualApplication",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "EnergyUtilitiesProgramsUpdateApplication9465913997061608",
+        "InputFieldName": "ApplicationId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": true,
+        "IsUpsertKey": true,
+        "Name": "EnergyUtilitiesProgramsUpdateApplication",
+        "OmniDataTransformationId": {
+            "Name": "EnergyUtilitiesProgramsUpdateApplication",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/EnergyUtilitiesProgramsUpdateApplication",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Name",
+        "OutputObjectName": "IndividualApplication",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "EnergyUtilitiesProgramsUpdateApplication4682328823123514",
+        "InputFieldName": "Status",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "EnergyUtilitiesProgramsUpdateApplication",
+        "OmniDataTransformationId": {
+            "Name": "EnergyUtilitiesProgramsUpdateApplication",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/EnergyUtilitiesProgramsUpdateApplication",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Status",
+        "OutputObjectName": "IndividualApplication",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

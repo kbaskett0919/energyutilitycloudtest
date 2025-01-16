@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniIntegrationProcedure xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customJavaScript>{&quot;accountId&quot;:&quot;0013x00002RKjN8AAL&quot;,&quot;action&quot;:&quot;Main&quot;,&quot;contactId&quot;:&quot;0033x00003CZrggAAD&quot;,&quot;isRescheduleFlow&quot;:false,&quot;operatingHoursId&quot;:&quot;0OH3x000000TTUKGA4&quot;,&quot;serviceAddress&quot;:{&quot;city&quot;:&quot;Edinburgh&quot;,&quot;country&quot;:&quot;United Kingdom&quot;,&quot;postalCode&quot;:&quot;EEH15 3HR&quot;,&quot;serviceLocationId&quot;:&quot;a403x000001BTiBAAW&quot;,&quot;serviceLocationName&quot;:&quot;5 Whitehill Rd, Newcraighall, Edinburgh, Scotland, United Kingdom, EEH15 3HR&quot;,&quot;serviceLocationSearchKey&quot;:&quot;5 Whitehill Rd, Newcraighall, Edinburgh, Scotland, United Kingdom, EEH15 3HR&quot;,&quot;state&quot;:&quot;Scotland&quot;,&quot;street&quot;:&quot;5 Whitehill Rd, Newcraighall&quot;},&quot;serviceAppointmentId&quot;:&quot;&quot;,&quot;serviceDescription&quot;:&quot;test&quot;,&quot;serviceTerritory&quot;:&quot;CA&quot;,&quot;serviceType&quot;:&quot;Gas&quot;,&quot;workType&quot;:&quot;Gas Leakage Order&quot;}</customJavaScript>
+    <elementTypeComponentMapping>{&quot;ElementTypeToHTMLTemplateList&quot;:[]}</elementTypeComponentMapping>
+    <isActive>true</isActive>
+    <isIntegrationProcedure>true</isIntegrationProcedure>
+    <isMetadataCacheDisabled>false</isMetadataCacheDisabled>
+    <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+    <isTestProcedure>false</isTestProcedure>
+    <isWebCompEnabled>false</isWebCompEnabled>
+    <language>Procedure</language>
+    <name>sfiEnergyConsoleFSGetSlots</name>
+    <omniProcessElements>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>RACreateServiceAppointment</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;actionMessage&quot; : &quot;&quot;,
+  &quot;additionalChainableResponse&quot; : { },
+  &quot;additionalInput&quot; : {
+    &quot;accountId&quot; : &quot;%accountId%&quot;,
+    &quot;contactId&quot; : &quot;%contactId%&quot;,
+    &quot;maxDueDays&quot; : 30,
+    &quot;operatingHoursId&quot; : &quot;%operatingHoursId%&quot;,
+    &quot;schedulingPolicy&quot; : &quot;Customer First&quot;,
+    &quot;servTypeDesc&quot; : &quot;=CONCAT(&apos;Service Type: &apos;%serviceType%,&apos; - &apos;,%serviceDescription%)&quot;,
+    &quot;serviceAddress&quot; : &quot;%serviceAddress%&quot;,
+    &quot;serviceTerritory&quot; : &quot;%serviceTerritory%&quot;,
+    &quot;workType&quot; : &quot;%workType%&quot;
+  },
+  &quot;additionalOutput&quot; : { },
+  &quot;chainOnStep&quot; : false,
+  &quot;disOnTplt&quot; : false,
+  &quot;executionConditionalFormula&quot; : &quot;(%action% == &apos;Main&apos; &amp;&amp; %isRescheduleFlow% == false)&quot;,
+  &quot;failOnStepError&quot; : true,
+  &quot;failureConditionalFormula&quot; : &quot;&quot;,
+  &quot;failureResponse&quot; : {
+    &quot;ErrorMessage&quot; : &quot;RACreateServiceAppointment : Failed to Create Service Appointment&quot;
+  },
+  &quot;label&quot; : &quot;RemoteAction1&quot;,
+  &quot;remoteClass&quot; : &quot;SfiEnergyConsoleFSAPIFactory&quot;,
+  &quot;remoteMethod&quot; : &quot;createServiceAppointment&quot;,
+  &quot;remoteOptions&quot; : { },
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;returnOnlyAdditionalOutput&quot; : false,
+  &quot;returnOnlyFailureResponse&quot; : false,
+  &quot;sendJSONNode&quot; : &quot;&quot;,
+  &quot;sendJSONPath&quot; : &quot;&quot;,
+  &quot;sendOnlyAdditionalInput&quot; : true,
+  &quot;show&quot; : null,
+  &quot;useFormulas&quot; : true
+}</propertySetConfig>
+        <sequenceNumber>1.0</sequenceNumber>
+        <type>Remote Action</type>
+    </omniProcessElements>
+    <omniProcessElements>
+        <description>//Extend functionality :- run this for Next and extend</description>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>RAFetchNextSlots</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;actionMessage&quot; : &quot;&quot;,
+  &quot;additionalChainableResponse&quot; : { },
+  &quot;additionalInput&quot; : {
+    &quot;operatingHoursId&quot; : &quot;%operatingHoursId%&quot;,
+    &quot;schedulingPolicyId&quot; : &quot;%schedulingPolicyId%&quot;,
+    &quot;serviceAppointmentValue&quot; : &quot;%serviceAppointmentValue%&quot;,
+    &quot;serviceTerritory&quot; : &quot;%serviceTerritory%&quot;,
+    &quot;slotsForDays&quot; : 5,
+    &quot;sortBy&quot; : &quot;SORT_BY_DATE&quot;,
+    &quot;workOrderId&quot; : &quot;%workOrderId%&quot;,
+    &quot;workType&quot; : &quot;%workType%&quot;
+  },
+  &quot;additionalOutput&quot; : { },
+  &quot;chainOnStep&quot; : false,
+  &quot;disOnTplt&quot; : false,
+  &quot;executionConditionalFormula&quot; : &quot;(%action% == &apos;Next&apos; || %action% == &apos;Extend&apos;)&quot;,
+  &quot;failOnStepError&quot; : true,
+  &quot;failureConditionalFormula&quot; : &quot;&quot;,
+  &quot;failureResponse&quot; : {
+    &quot;ErrorMessage&quot; : &quot;RAFetchNextSlots : Failed to fetch next available slots&quot;
+  },
+  &quot;label&quot; : &quot;RemoteAction1&quot;,
+  &quot;remoteClass&quot; : &quot;sfiEnergyConsoleFSAPIFactory&quot;,
+  &quot;remoteMethod&quot; : &quot;getAdjacentSlots&quot;,
+  &quot;remoteOptions&quot; : { },
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;returnOnlyAdditionalOutput&quot; : false,
+  &quot;returnOnlyFailureResponse&quot; : false,
+  &quot;sendJSONNode&quot; : &quot;&quot;,
+  &quot;sendJSONPath&quot; : &quot;&quot;,
+  &quot;sendOnlyAdditionalInput&quot; : true,
+  &quot;show&quot; : null,
+  &quot;useFormulas&quot; : true
+}</propertySetConfig>
+        <sequenceNumber>9.0</sequenceNumber>
+        <type>Remote Action</type>
+    </omniProcessElements>
+    <omniProcessElements>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>RAFetchRescheduleSlots</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;actionMessage&quot; : &quot;&quot;,
+  &quot;additionalChainableResponse&quot; : { },
+  &quot;additionalInput&quot; : {
+    &quot;appointmentStatus&quot; : &quot;None&quot;,
+    &quot;clonedserviceAppointmentValue&quot; : &quot;=%ReSerializeRescheduleSetup:reschedule:rescheduleDetails:serviceAppointmentId%&quot;,
+    &quot;maxDueDays&quot; : 30,
+    &quot;schedulingPolicy&quot; : &quot;Customer First&quot;,
+    &quot;serviceAppointmentValue&quot; : &quot;%serviceAppointmentId%&quot;,
+    &quot;slotsForDays&quot; : 5,
+    &quot;sortBy&quot; : &quot;SORT_BY_DATE&quot;,
+    &quot;workOrderId&quot; : &quot;=%ReSerializeRescheduleSetup:reschedule:rescheduleDetails:workOrderId%&quot;
+  },
+  &quot;additionalOutput&quot; : { },
+  &quot;chainOnStep&quot; : false,
+  &quot;disOnTplt&quot; : false,
+  &quot;executionConditionalFormula&quot; : &quot;(%action% == &apos;Main&apos; &amp;&amp; %isRescheduleFlow% == true)&quot;,
+  &quot;failOnStepError&quot; : true,
+  &quot;failureConditionalFormula&quot; : &quot;&quot;,
+  &quot;failureResponse&quot; : {
+    &quot;ErrorMessage&quot; : &quot;RAFetchRescheduleSlots : Failed to fetch available slots&quot;
+  },
+  &quot;label&quot; : &quot;RemoteAction1&quot;,
+  &quot;remoteClass&quot; : &quot;sfiEnergyConsoleFSAPIFactory&quot;,
+  &quot;remoteMethod&quot; : &quot;getRescheduleSlots&quot;,
+  &quot;remoteOptions&quot; : { },
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;returnOnlyAdditionalOutput&quot; : false,
+  &quot;returnOnlyFailureResponse&quot; : false,
+  &quot;sendJSONNode&quot; : &quot;&quot;,
+  &quot;sendJSONPath&quot; : &quot;&quot;,
+  &quot;sendOnlyAdditionalInput&quot; : true,
+  &quot;show&quot; : null,
+  &quot;useFormulas&quot; : true
+}</propertySetConfig>
+        <sequenceNumber>6.0</sequenceNumber>
+        <type>Remote Action</type>
+    </omniProcessElements>
+    <omniProcessElements>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>RAFetchSlots</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;actionMessage&quot; : &quot;&quot;,
+  &quot;additionalChainableResponse&quot; : { },
+  &quot;additionalInput&quot; : {
+    &quot;operatingHoursId&quot; : &quot;%operatingHoursId%&quot;,
+    &quot;schedulingPolicy&quot; : &quot;Customer First&quot;,
+    &quot;serviceAppointmentValue&quot; : &quot;=%ReSerializeServiceAppt:serviceAppt:serviceApptDetails:serviceAppointmentId%&quot;,
+    &quot;serviceApptDueDate&quot; : &quot;=%ReSerializeServiceAppt:serviceAppt:serviceApptDetails:serviceApptDueDate%&quot;,
+    &quot;serviceApptStartDate&quot; : &quot;=%ReSerializeServiceAppt:serviceAppt:serviceApptDetails:serviceApptStartDate%&quot;,
+    &quot;serviceTerritory&quot; : &quot;%serviceTerritory%&quot;,
+    &quot;slotsForDays&quot; : 5,
+    &quot;sortBy&quot; : &quot;SORT_BY_DATE&quot;,
+    &quot;workOrderId&quot; : &quot;=%ReSerializeServiceAppt:serviceAppt:serviceApptDetails:workOrderId%&quot;,
+    &quot;workType&quot; : &quot;%workType%&quot;
+  },
+  &quot;additionalOutput&quot; : { },
+  &quot;chainOnStep&quot; : false,
+  &quot;disOnTplt&quot; : false,
+  &quot;executionConditionalFormula&quot; : &quot;(%action% == &apos;Main&apos; &amp;&amp; %isRescheduleFlow% == false)&quot;,
+  &quot;failOnStepError&quot; : true,
+  &quot;failureConditionalFormula&quot; : &quot;&quot;,
+  &quot;failureResponse&quot; : {
+    &quot;ErrorMessage&quot; : &quot;RAFetchSlots : Failed to fetch available slots&quot;
+  },
+  &quot;label&quot; : &quot;RemoteAction1&quot;,
+  &quot;remoteClass&quot; : &quot;SfiEnergyConsoleFSAPIFactory&quot;,
+  &quot;remoteMethod&quot; : &quot;getSlotsVal&quot;,
+  &quot;remoteOptions&quot; : { },
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;returnOnlyAdditionalOutput&quot; : false,
+  &quot;returnOnlyFailureResponse&quot; : false,
+  &quot;sendJSONNode&quot; : &quot;&quot;,
+  &quot;sendJSONPath&quot; : &quot;&quot;,
+  &quot;sendOnlyAdditionalInput&quot; : true,
+  &quot;show&quot; : null,
+  &quot;useFormulas&quot; : true
+}</propertySetConfig>
+        <sequenceNumber>3.0</sequenceNumber>
+        <type>Remote Action</type>
+    </omniProcessElements>
+    <omniProcessElements>
+        <description>//Extend functionality :- run this for Next and extend</description>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>RANextSlotsSetup</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;actionMessage&quot; : &quot;&quot;,
+  &quot;additionalChainableResponse&quot; : { },
+  &quot;additionalInput&quot; : {
+    &quot;currentRangeDT&quot; : &quot;%currentRangeDT%&quot;,
+    &quot;maxDueDays&quot; : 30,
+    &quot;operatingHoursId&quot; : &quot;%operatingHoursId%&quot;,
+    &quot;serviceAppointmentValue&quot; : &quot;%serviceAppointmentValue%&quot;,
+    &quot;workOrderId&quot; : &quot;%workOrderId%&quot;
+  },
+  &quot;additionalOutput&quot; : { },
+  &quot;chainOnStep&quot; : false,
+  &quot;disOnTplt&quot; : false,
+  &quot;executionConditionalFormula&quot; : &quot;(%action% == &apos;Next&apos; || %action% == &apos;Extend&apos;)&quot;,
+  &quot;failOnStepError&quot; : true,
+  &quot;failureConditionalFormula&quot; : &quot;&quot;,
+  &quot;failureResponse&quot; : {
+    &quot;ErrorMessage&quot; : &quot;RANextSlotsSetup : Failed to setup next available slots data&quot;
+  },
+  &quot;label&quot; : &quot;RemoteAction1&quot;,
+  &quot;remoteClass&quot; : &quot;sfiEnergyConsoleFSAPIFactory&quot;,
+  &quot;remoteMethod&quot; : &quot;adjacentSlotsSetup&quot;,
+  &quot;remoteOptions&quot; : { },
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;returnOnlyAdditionalOutput&quot; : false,
+  &quot;returnOnlyFailureResponse&quot; : false,
+  &quot;sendJSONNode&quot; : &quot;&quot;,
+  &quot;sendJSONPath&quot; : &quot;&quot;,
+  &quot;sendOnlyAdditionalInput&quot; : true,
+  &quot;show&quot; : null,
+  &quot;useFormulas&quot; : true
+}</propertySetConfig>
+        <sequenceNumber>7.0</sequenceNumber>
+        <type>Remote Action</type>
+    </omniProcessElements>
+    <omniProcessElements>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>RARescheduleSetup</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;actionMessage&quot; : &quot;&quot;,
+  &quot;additionalChainableResponse&quot; : { },
+  &quot;additionalInput&quot; : {
+    &quot;appointmentStatus&quot; : &quot;None&quot;,
+    &quot;maxDueDays&quot; : 30,
+    &quot;serviceAppointmentValue&quot; : &quot;%serviceAppointmentId%&quot;
+  },
+  &quot;additionalOutput&quot; : { },
+  &quot;chainOnStep&quot; : false,
+  &quot;disOnTplt&quot; : false,
+  &quot;executionConditionalFormula&quot; : &quot;(%action% == &apos;Main&apos; &amp;&amp; %isRescheduleFlow% == true)&quot;,
+  &quot;failOnStepError&quot; : true,
+  &quot;failureConditionalFormula&quot; : &quot;&quot;,
+  &quot;failureResponse&quot; : {
+    &quot;ErrorMessage&quot; : &quot;RARescheduleSetup : Failed to setup the reschedule data&quot;
+  },
+  &quot;label&quot; : &quot;RemoteAction1&quot;,
+  &quot;remoteClass&quot; : &quot;sfiEnergyConsoleFSAPIFactory&quot;,
+  &quot;remoteMethod&quot; : &quot;rescheduleSetup&quot;,
+  &quot;remoteOptions&quot; : { },
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;returnOnlyAdditionalOutput&quot; : false,
+  &quot;returnOnlyFailureResponse&quot; : false,
+  &quot;sendJSONNode&quot; : &quot;&quot;,
+  &quot;sendJSONPath&quot; : &quot;&quot;,
+  &quot;sendOnlyAdditionalInput&quot; : true,
+  &quot;show&quot; : null,
+  &quot;useFormulas&quot; : true
+}</propertySetConfig>
+        <sequenceNumber>4.0</sequenceNumber>
+        <type>Remote Action</type>
+    </omniProcessElements>
+    <omniProcessElements>
+        <isActive>false</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>ReSerializeNextSlotsSetup</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;actionMessage&quot; : &quot;&quot;,
+  &quot;chainOnStep&quot; : true,
+  &quot;disOnTplt&quot; : false,
+  &quot;elementValueMap&quot; : {
+    &quot;nextSlots&quot; : &quot;=RESERIALIZE(%RANextSlotsSetup%)&quot;
+  },
+  &quot;executionConditionalFormula&quot; : &quot;(%action% == &apos;Next&apos; || %action% == &apos;Extend&apos;)&quot;,
+  &quot;failOnStepError&quot; : true,
+  &quot;failureConditionalFormula&quot; : &quot;&quot;,
+  &quot;label&quot; : &quot;SetValues1&quot;,
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;show&quot; : null
+}</propertySetConfig>
+        <sequenceNumber>8.0</sequenceNumber>
+        <type>Set Values</type>
+    </omniProcessElements>
+    <omniProcessElements>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>ReSerializeRescheduleSetup</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;actionMessage&quot; : &quot;&quot;,
+  &quot;chainOnStep&quot; : true,
+  &quot;disOnTplt&quot; : false,
+  &quot;elementValueMap&quot; : {
+    &quot;reschedule&quot; : &quot;=RESERIALIZE(%RARescheduleSetup%)&quot;
+  },
+  &quot;executionConditionalFormula&quot; : &quot;(%action% == &apos;Main&apos; &amp;&amp; %isRescheduleFlow% == true)&quot;,
+  &quot;failOnStepError&quot; : true,
+  &quot;failureConditionalFormula&quot; : &quot;&quot;,
+  &quot;label&quot; : &quot;SetValues1&quot;,
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;show&quot; : null
+}</propertySetConfig>
+        <sequenceNumber>5.0</sequenceNumber>
+        <type>Set Values</type>
+    </omniProcessElements>
+    <omniProcessElements>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>ReSerializeServiceAppt</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;actionMessage&quot; : &quot;&quot;,
+  &quot;chainOnStep&quot; : true,
+  &quot;disOnTplt&quot; : false,
+  &quot;elementValueMap&quot; : {
+    &quot;serviceAppt&quot; : &quot;=RESERIALIZE(%RACreateServiceAppointment%)&quot;
+  },
+  &quot;executionConditionalFormula&quot; : &quot;(%action% == &apos;Main&apos; &amp;&amp; %isRescheduleFlow% == false)&quot;,
+  &quot;failOnStepError&quot; : true,
+  &quot;failureConditionalFormula&quot; : &quot;&quot;,
+  &quot;label&quot; : &quot;SetValues1&quot;,
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;show&quot; : null
+}</propertySetConfig>
+        <sequenceNumber>2.0</sequenceNumber>
+        <type>Set Values</type>
+    </omniProcessElements>
+    <omniProcessElements>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>ResponseAction</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;additionalOutput&quot; : {
+    &quot;appointmentSlots&quot; : &quot;%RAFetchSlots:slotsValue%&quot;
+  },
+  &quot;disOnTplt&quot; : false,
+  &quot;executionConditionalFormula&quot; : &quot;(%action% == &apos;Main&apos; &amp;&amp; %isRescheduleFlow% == false)&quot;,
+  &quot;label&quot; : &quot;ResponseAction1&quot;,
+  &quot;responseDefaultData&quot; : { },
+  &quot;responseFormat&quot; : &quot;JSON&quot;,
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;returnFullDataJSON&quot; : false,
+  &quot;returnOnlyAdditionalOutput&quot; : true,
+  &quot;sendJSONNode&quot; : &quot;&quot;,
+  &quot;sendJSONPath&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;useFormulas&quot; : true,
+  &quot;vlcResponseHeaders&quot; : { }
+}</propertySetConfig>
+        <sequenceNumber>10.0</sequenceNumber>
+        <type>Response Action</type>
+    </omniProcessElements>
+    <omniProcessElements>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>ResponseAction2</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;additionalOutput&quot; : {
+    &quot;appointmentSlots&quot; : &quot;%RAFetchNextSlots:slotsValue%&quot;
+  },
+  &quot;disOnTplt&quot; : false,
+  &quot;executionConditionalFormula&quot; : &quot;(%action% == \&quot;Next\&quot; || %action% == \&quot;Extend\&quot;)&quot;,
+  &quot;label&quot; : &quot;ResponseAction1&quot;,
+  &quot;responseDefaultData&quot; : { },
+  &quot;responseFormat&quot; : &quot;JSON&quot;,
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;returnFullDataJSON&quot; : false,
+  &quot;returnOnlyAdditionalOutput&quot; : true,
+  &quot;sendJSONNode&quot; : &quot;&quot;,
+  &quot;sendJSONPath&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;useFormulas&quot; : true,
+  &quot;vlcResponseHeaders&quot; : { }
+}</propertySetConfig>
+        <sequenceNumber>11.0</sequenceNumber>
+        <type>Response Action</type>
+    </omniProcessElements>
+    <omniProcessElements>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>ResponseAction3</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;additionalOutput&quot; : {
+    &quot;appointmentSlots&quot; : &quot;%RAFetchRescheduleSlots:slotsValue%&quot;
+  },
+  &quot;disOnTplt&quot; : false,
+  &quot;executionConditionalFormula&quot; : &quot;(%action% == &apos;Main&apos; &amp;&amp; %isRescheduleFlow% == true)&quot;,
+  &quot;label&quot; : &quot;ResponseAction1&quot;,
+  &quot;responseDefaultData&quot; : { },
+  &quot;responseFormat&quot; : &quot;JSON&quot;,
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;returnFullDataJSON&quot; : false,
+  &quot;returnOnlyAdditionalOutput&quot; : true,
+  &quot;sendJSONNode&quot; : &quot;&quot;,
+  &quot;sendJSONPath&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;useFormulas&quot; : true,
+  &quot;vlcResponseHeaders&quot; : { }
+}</propertySetConfig>
+        <sequenceNumber>12.0</sequenceNumber>
+        <type>Response Action</type>
+    </omniProcessElements>
+    <omniProcessKey>sfiEnergyConsole_FSGetSlots</omniProcessKey>
+    <omniProcessType>Integration Procedure</omniProcessType>
+    <propertySetConfig>{
+  &quot;additionalChainableResponse&quot; : { },
+  &quot;chainableActualTimeLimit&quot; : null,
+  &quot;chainableCpuLimit&quot; : 3000,
+  &quot;chainableDMLRowsLimit&quot; : null,
+  &quot;chainableDMLStatementsLimit&quot; : null,
+  &quot;chainableHeapSizeLimit&quot; : 4,
+  &quot;chainableQueriesLimit&quot; : 70,
+  &quot;chainableQueryRowsLimit&quot; : null,
+  &quot;chainableSoslQueriesLimit&quot; : null,
+  &quot;columnsPropertyMap&quot; : [ ],
+  &quot;description&quot; : &quot;&quot;,
+  &quot;includeAllActionsInResponse&quot; : false,
+  &quot;labelPlural&quot; : &quot;&quot;,
+  &quot;labelSingular&quot; : &quot;&quot;,
+  &quot;linkToExternalObject&quot; : &quot;&quot;,
+  &quot;mockResponseMap&quot; : { },
+  &quot;nameColumn&quot; : &quot;&quot;,
+  &quot;queueableChainableCpuLimit&quot; : 40000,
+  &quot;queueableChainableHeapSizeLimit&quot; : 6,
+  &quot;queueableChainableQueriesLimit&quot; : 120,
+  &quot;relationshipFieldsMap&quot; : [ ],
+  &quot;rollbackOnError&quot; : false,
+  &quot;trackingCustomData&quot; : { },
+  &quot;ttlMinutes&quot; : 5
+}</propertySetConfig>
+    <requiredPermission>sfiEnergyConsoleFSPermission</requiredPermission>
+    <subType>FSGetSlots</subType>
+    <type>sfiEnergyConsole</type>
+    <uniqueName>sfiEnergyConsole_FSGetSlots_Procedure_3</uniqueName>
+    <versionNumber>3.0</versionNumber>
+    <webComponentKey>6f473377-e2e5-4cea-21d1-93ba4f4d7ca2</webComponentKey>
+</OmniIntegrationProcedure>

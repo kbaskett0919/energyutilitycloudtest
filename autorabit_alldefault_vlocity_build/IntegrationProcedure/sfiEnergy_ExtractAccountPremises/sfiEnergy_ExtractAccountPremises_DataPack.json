@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "sfiEnergy_ExtractAccountPremises_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergyExtractAccountPremises",
+    "OmniProcessElement": [
+        "sfiEnergy_ExtractAccountPremises_Element_DRExtractAccountPremises.json",
+        "sfiEnergy_ExtractAccountPremises_Element_AccountPremisesResponse.json"
+    ],
+    "OmniProcessKey": "sfiEnergy_ExtractAccountPremises",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergy_ExtractAccountPremises_PropertySetConfig.json",
+    "SubType": "ExtractAccountPremises",
+    "Type": "sfiEnergy",
+    "UniqueName": "sfiEnergy_ExtractAccountPremises_Procedure_5",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergy/ExtractAccountPremises/Procedure"
+}

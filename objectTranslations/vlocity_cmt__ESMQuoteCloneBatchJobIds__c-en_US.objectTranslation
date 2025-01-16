@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__JobIdList__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__allRelatedJobsTriggered__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__cloneType__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__sourceRecordId__c</name>
+    </fields>
+</CustomObjectTranslation>

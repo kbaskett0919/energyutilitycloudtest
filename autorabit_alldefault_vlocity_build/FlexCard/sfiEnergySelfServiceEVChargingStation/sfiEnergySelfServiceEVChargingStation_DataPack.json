@@ -1,0 +1,28 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "sfiEnergySelfServiceEVChargingStationUpdateAuthor/CME_E_U/1/1649315341104",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "Description": "EV Charging Station - Child flex card for the Overview Tab content",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergySelfServiceEVChargingStation",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergySelfServiceEVChargingStation/CME_E_U/9.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergySelfServiceEVChargingStation.json",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "{\"customStyles\":\"\"}",
+    "UniqueName": "sfiEnergySelfServiceEVChargingStation_CME_E_U_9",
+    "VersionNumber": 9,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergySelfServiceEVChargingStation"
+}

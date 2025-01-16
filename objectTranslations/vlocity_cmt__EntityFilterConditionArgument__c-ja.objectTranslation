@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Vlocity エンティティ検索条件引数</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__ArgumentSequence__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__ContextDimensionId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__DomainType__c</name>
+        <picklistValues>
+            <masterLabel>Context Dimension</masterLabel>
+            <translation>コンテキストディメンション</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Object Lookup</masterLabel>
+            <translation>オブジェクト参照</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Picklist</masterLabel>
+            <translation>選択リスト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Type in</masterLabel>
+            <translation>入力</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__FilterConditionId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__FunctionArgumentId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__ObjectId__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__PicklistValueId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__Value__c</name>
+    </fields>
+    <nameFieldLabel>引数名</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActionLauncherItemDef xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identifier>_agdmrrghfyi01uebzgtx3h38j</identifier>
+    <itemActionType>Omniscript</itemActionType>
+    <itemCategory>dbBased</itemCategory>
+    <itemLanguage>Multi-Language</itemLanguage>
+    <masterLabel>vplEnergy/UpdateAccountShippingAddress/Multi-Language</masterLabel>
+    <subType>UpdateAccountShippingAddress</subType>
+    <type>vplEnergy</type>
+</ActionLauncherItemDef>

@@ -1,0 +1,35 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "Custom",
+            "value": {
+                "body": "{\n\"display\": \"options\"\n}",
+                "dsDelay": "",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "This FlexCard is used as a Landing page for EUC Administration.",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyEUCAdministration",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyEUCAdministration/CME_E_U/2/1664187942204",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyEUCAdministration.json",
+    "SampleDataSourceResponse": "{\"display\":\"options\"}",
+    "StylingConfiguration": "",
+    "UniqueName": "sfiEnergyEUCAdministration_CME_E_U_2",
+    "VersionNumber": 2,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyEUCAdministration"
+}

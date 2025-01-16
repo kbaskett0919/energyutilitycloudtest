@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActionLauncherItemDef xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identifier>_1wmwtiakql1t51hj1q4rkrdxua</identifier>
+    <itemActionType>Omniscript</itemActionType>
+    <itemCategory>dbBased</itemCategory>
+    <itemLanguage>English</itemLanguage>
+    <masterLabel>UpdateFrameAgreement/Oppty/English</masterLabel>
+    <subType>Oppty</subType>
+    <type>UpdateFrameAgreement</type>
+</ActionLauncherItemDef>

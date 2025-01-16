@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "sfiEnergy_TransformUpdateConsumerPremisesData_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergyTransformUpdateConsumerPremisesData",
+    "OmniProcessElement": [
+        "sfiEnergy_TransformUpdateConsumerPremisesData_Element_DRTransformUpdateConsumerPremisesData.json",
+        "sfiEnergy_TransformUpdateConsumerPremisesData_Element_TransformedResponse.json"
+    ],
+    "OmniProcessKey": "sfiEnergy_TransformUpdateConsumerPremisesData",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergy_TransformUpdateConsumerPremisesData_PropertySetConfig.json",
+    "SubType": "TransformUpdateConsumerPremisesData",
+    "Type": "sfiEnergy",
+    "UniqueName": "sfiEnergy_TransformUpdateConsumerPremisesData_Procedure_5",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergy/TransformUpdateConsumerPremisesData/Procedure"
+}

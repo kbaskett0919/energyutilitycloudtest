@@ -1,0 +1,48 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 1,
+                    "name": "recordId",
+                    "val": "0011Q00002ZRgo5QAD"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "Id": "{recordId}"
+                },
+                "ipMethod": "sfiEnergyConsole_GetServicePointsInfo",
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "optionsMap": {
+                    "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+                },
+                "resultVar": "",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "FlexCard Used to display Service Points Tab Layout",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyServicePointsTabLayout",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyServicePointsTabLayout/CME_E_U/6/1636521250641",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyServicePointsTabLayout.json",
+    "SampleDataSourceResponse": "{\"PremiseAddressList\":[{\"LoopBlockIterationIndex\":1,\"ServiceAccountNumber\":\"\",\"ServicePointCount\":2,\"DRGetPremiseAndServicePointsInfoStatus\":true,\"ServiceAccountId\":\"0011Q00002Z8WL6QAN\",\"ServiceAccountName\":\"generic_service_account729\",\"PremiseId\":\"a401Q000001DJmTQAW\",\"ServicePointStatus\":\"Active\",\"isPremiseSelected\":false,\"LoopBlockIterationStatus\":true,\"PremiseAddress\":\", , , \"},{\"LoopBlockIterationIndex\":2,\"ServiceAccountNumber\":\"565758\",\"ServicePointCount\":2,\"DRGetPremiseAndServicePointsInfoStatus\":true,\"ServiceAccountId\":\"0011Q00002ZRgo5QAD\",\"ServiceAccountName\":\"Billy Bing\",\"PremiseId\":\"a401Q000001DJi8QAG\",\"ServicePointStatus\":\"Active\",\"isPremiseSelected\":false,\"LoopBlockIterationStatus\":true,\"PremiseAddress\":\"77 Whitehill Rd, Fort Kinnaird, Edinburgh, Scotland, EH15 5HR\"}],\"columnsData\":{\"columns\":[{\"searchable\":true,\"label\":\"sfiEnergyConsoleServicePointType\",\"sortable\":true,\"userSelectable\":true,\"fieldName\":\"ServiceType\"},{\"searchable\":false,\"label\":\"sfiEnergyConsoleServicePointActvnDate\",\"sortable\":false,\"userSelectable\":false,\"fieldName\":\"ActivationDate\"},{\"searchable\":true,\"typeAttributes\":{\"displayField\":{\"fieldName\":\"PremiseAddress\"},\"objectName\":\"%vlocity_namespace%__Premise__c\",\"navigationKey\":{\"fieldName\":\"PremiseId\"}},\"type\":\"sObjectRecordNavigation\",\"label\":\"sfiEnergyConsoleServicePointPremise\",\"sortable\":true,\"userSelectable\":true,\"fieldName\":\"PremiseAddress\"},{\"searchable\":true,\"typeAttributes\":{\"displayField\":{\"fieldName\":\"ServiceAccountNumber\"},\"objectName\":\"Account\",\"navigationKey\":{\"fieldName\":\"ServiceAccountId\"}},\"type\":\"sObjectRecordNavigation\",\"label\":\"sfiEnergyConsoleServiceAccount\",\"sortable\":true,\"userSelectable\":true,\"fieldName\":\"ServiceAccountNumber\"},{\"searchable\":true,\"label\":\"sfiEnergyConsoleAverageUsage\",\"sortable\":true,\"userSelectable\":true,\"fieldName\":\"AverageUsage\"},{\"searchable\":true,\"typeAttributes\":{\"displayField\":{\"fieldName\":\"ServicePointNumber\"},\"objectName\":\"%vlocity_namespace%__Service_Point__c\",\"navigationKey\":{\"fieldName\":\"ServicePointId\"}},\"type\":\"sObjectRecordNavigation\",\"label\":\"sfiEnergyConsoleServicePointNumber\",\"sortable\":true,\"userSelectable\":true,\"fieldName\":\"ServicePointNumber\"},{\"searchable\":false,\"typeAttributes\":{\"status\":{\"fieldName\":\"ServicePointStatus\"}},\"type\":\"servicePointStatus\",\"label\":\"sfiEnergyConsoleServicePointStatus\",\"sortable\":false,\"userSelectable\":true,\"fieldName\":\"ServicePointStatus\"},{\"searchable\":false,\"typeAttributes\":{\"productDescription\":{\"fieldName\":\"ProductDescription\"},\"productName\":{\"fieldName\":\"ProductName\"}},\"type\":\"serviceReadMore\",\"sortable\":false,\"userSelectable\":true,\"fieldName\":\"ProductName\"}]},\"TotalServiceCount\":4}",
+    "StylingConfiguration": "",
+    "UniqueName": "sfiEnergyServicePointsTabLayout_CME_E_U_6",
+    "VersionNumber": 6,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyServicePointsTabLayout"
+}

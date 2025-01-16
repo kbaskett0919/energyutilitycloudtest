@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>広告サーバー</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__AdServerApplicationName__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__AdServerNetworkIdentifier__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__AllowedAdPriorityTypes__c</name>
+        <picklistValues>
+            <masterLabel>Bulk</masterLabel>
+            <translation>一括</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Click Tracking</masterLabel>
+            <translation>クリックトラッキング</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InHouse</masterLabel>
+            <translation>InHouse</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Network</masterLabel>
+            <translation>ネットワーク</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price Priority</masterLabel>
+            <translation>価格優先度</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsorship</masterLabel>
+            <translation>スポンサーシップ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation>標準</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__CoreId__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__NamedCredentialReference__c</name>
+    </fields>
+    <nameFieldLabel>広告サーバー名</nameFieldLabel>
+</CustomObjectTranslation>

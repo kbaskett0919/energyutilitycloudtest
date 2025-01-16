@@ -1,0 +1,318 @@
+{
+    "AvailableProductList": null,
+    "AvailableProductMaxRowSelection": "Multiple",
+    "AvialbleProductsColumns": [
+        {
+            "fieldName": "ProdName",
+            "label": "Product Name"
+        },
+        {
+            "fieldName": "ProdFamily",
+            "label": "Product Family"
+        },
+        {
+            "fieldName": "ProdCategory",
+            "label": "Service Type"
+        },
+        {
+            "fieldName": "ProdDescription",
+            "label": "Description"
+        }
+    ],
+    "BillingAccountRecTypeId": "0123h000000jV4IAAU",
+    "BillingAccountRecordType": "Billing",
+    "BillingPreferences": {
+    },
+    "BusinessAccountRecTypeId": "0123h000000jV4HAAU",
+    "BusinessAccountRecordType": "Business",
+    "Confirmation": null,
+    "CustomerSelection": {
+        "AccountType": "Consumer",
+        "BillingDetails": {
+        },
+        "ConNameError": null,
+        "ExistingAccount-Block": null,
+        "GetCustomer-Block": null,
+        "MoveInDate": "2020-09-01T18:30:00.000Z",
+        "MoveInDateFormula": true,
+        "MoveInMessage": true,
+        "MsgInvalidExistingAccount": null,
+        "MsgInvalidParentAccount": null,
+        "NewAccountNeeded": null,
+        "NewCustomer": "Yes",
+        "NewCustomerDetails": {
+            "CustomerDOB": "08/26/2020",
+            "CustomerEmail": "test@tt.co",
+            "CustomerFirstName": "test",
+            "CustomerLastName": "tt",
+            "CustomerPhone": "0767887878",
+            "DOBFormula": true,
+            "DOBMsg": true,
+            "Description": null,
+            "DriverLicense": null,
+            "IdentificationType": "SSN",
+            "SSN": "221211221",
+            "TaxId": null
+        },
+        "ParentAccount-Block": null,
+        "TaxDetails": {
+            "ExemptionEndDate": null,
+            "ExemptionPercentage": null,
+            "ExemptionStartDate": null
+        }
+    },
+    "Error": {
+    },
+    "IntegrationType": "JSON",
+    "OmniscriptType": "Move_In",
+    "PremiseServicePointsListReadOnlyColumns": [
+        {
+            "fieldName": "ServicePointName",
+            "label": "Service Point Name"
+        },
+        {
+            "fieldName": "ServiceType",
+            "label": "Service Type"
+        }
+    ],
+    "ProductListReadOnlyColumns": [
+        {
+            "fieldName": "ServicePointName",
+            "label": "Service Point Name"
+        },
+        {
+            "fieldName": "ProdCategory",
+            "label": "Service Type"
+        },
+        {
+            "fieldName": "ProdName",
+            "label": "Product Name"
+        },
+        {
+            "fieldName": "ProdDescription",
+            "label": "Description"
+        }
+    ],
+    "Products": {
+        "ElectricityProduct": [
+            {
+                "Id": "01t3h000001Ck7WAAS",
+                "Name": "Day/Night Tariff",
+                "ProductCode": "001"
+            },
+            {
+                "Id": "01t3h000001Ck7gAAC",
+                "Name": "Night Display Tariff",
+                "ProductCode": "003"
+            },
+            {
+                "Id": "01t3h000001Ck7bAAC",
+                "Name": "High Voltage Tariff",
+                "ProductCode": "002"
+            }
+        ],
+        "GasProduct": [
+            {
+                "Id": "01t3h000001Ck7lAAC",
+                "Name": "Turn Off Order",
+                "ProductCode": "004"
+            },
+            {
+                "Id": "01t3h000001Ck7qAAC",
+                "Name": "Regulated Gas Rate",
+                "ProductCode": "REG-GAS-1"
+            }
+        ],
+        "WaterProduct": [
+            {
+                "Id": "01t3h000001Ck7vAAC",
+                "Name": "Water",
+                "ProductCode": "water"
+            }
+        ]
+    },
+    "RecordType": [
+        {
+            "Id": "0123h000000jV4IAAU",
+            "Name": "Billing"
+        }
+    ],
+    "SObjectName": "Account",
+    "SelectPremises": {
+        "NewAccountPremises": null,
+        "PremiseError": null,
+        "ServiceLocation-Block": {
+            "PremCity": "Kolkata",
+            "PremCountry": "India",
+            "PremId": "a3X3h0000006OvsEAE",
+            "PremPostalCode": "700059",
+            "PremState": "West Bengal",
+            "PremiseName": "London Premise",
+            "PremiseNumber": "12121",
+            "PremiseStreetAddress": "Akshara Lotus Garden London",
+            "ServiceLocation": "London Premise"
+        }
+    },
+    "SelectService": [
+        {
+            "PremiseAddress": "London Premise",
+            "PremiseNumber": "12121",
+            "Premises": "a3X3h0000006OvsEAE",
+            "PremisesId": "a3X3h0000006OvsEAE",
+            "ServicePointId": "a4P3h00000059wBEAQ",
+            "ServicePointName": "London Electricity",
+            "ServiceType": "Electricity",
+            "Status": "Connected"
+        },
+        {
+            "PremiseAddress": "London Premise",
+            "PremiseNumber": "12121",
+            "Premises": "a3X3h0000006OvsEAE",
+            "PremisesId": "a3X3h0000006OvsEAE",
+            "ServicePointId": "a4P3h00000059wWEAQ",
+            "ServicePointName": "London Gas",
+            "ServiceType": "Gas",
+            "Status": "Connected"
+        },
+        {
+            "PremiseAddress": "London Premise",
+            "PremiseNumber": "12121",
+            "Premises": "a3X3h0000006OvsEAE",
+            "PremisesId": "a3X3h0000006OvsEAE",
+            "ServicePointId": "a4P3h00000059wYEAQ",
+            "ServicePointName": "London Water",
+            "ServiceType": "Water",
+            "Status": "Connected"
+        }
+    ],
+    "SelectServicePoints": [
+        {
+            "PremiseAddress": "London Premise",
+            "PremiseNumber": "12121",
+            "Premises": "a3X3h0000006OvsEAE",
+            "PremisesId": "a3X3h0000006OvsEAE",
+            "ServicePointId": "a4P3h00000059wBEAQ",
+            "ServicePointName": "London Electricity",
+            "ServiceType": "Electricity",
+            "Status": "Connected"
+        },
+        {
+            "PremiseAddress": "London Premise",
+            "PremiseNumber": "12121",
+            "Premises": "a3X3h0000006OvsEAE",
+            "PremisesId": "a3X3h0000006OvsEAE",
+            "ServicePointId": "a4P3h00000059wWEAQ",
+            "ServicePointName": "London Gas",
+            "ServiceType": "Gas",
+            "Status": "Connected"
+        },
+        {
+            "PremiseAddress": "London Premise",
+            "PremiseNumber": "12121",
+            "Premises": "a3X3h0000006OvsEAE",
+            "PremisesId": "a3X3h0000006OvsEAE",
+            "ServicePointId": "a4P3h00000059wYEAQ",
+            "ServicePointName": "London Water",
+            "ServiceType": "Water",
+            "Status": "Connected"
+        }
+    ],
+    "SelectTypeofService": {
+        "SelectServicePoint": null,
+        "SelectServicePoints": [
+            {
+                "PremiseAddress": "London Premise",
+                "PremiseNumber": "12121",
+                "Premises": "a3X3h0000006OvsEAE",
+                "PremisesId": "a3X3h0000006OvsEAE",
+                "ProductId": "01t3h000001Ck7gAAC",
+                "ServicePointId": "a4P3h00000059wBEAQ",
+                "ServicePointName": "London Electricity",
+                "ServiceType": "Electricity",
+                "Status": "Connected",
+                "originalIndex": "0"
+            },
+            {
+                "PremiseAddress": "London Premise",
+                "PremiseNumber": "12121",
+                "Premises": "a3X3h0000006OvsEAE",
+                "PremisesId": "a3X3h0000006OvsEAE",
+                "ProductId": "01t3h000001Ck7qAAC",
+                "ServicePointId": "a4P3h00000059wWEAQ",
+                "ServicePointName": "London Gas",
+                "ServiceType": "Gas",
+                "Status": "Connected",
+                "originalIndex": "1"
+            },
+            {
+                "PremiseAddress": "London Premise",
+                "PremiseNumber": "12121",
+                "Premises": "a3X3h0000006OvsEAE",
+                "PremisesId": "a3X3h0000006OvsEAE",
+                "ProductId": "01t3h000001Ck7vAAC",
+                "ServicePointId": "a4P3h00000059wYEAQ",
+                "ServicePointName": "London Water",
+                "ServiceType": "Water",
+                "Status": "Connected",
+                "originalIndex": "2"
+            }
+        ],
+        "ServicePointsFormula": 3
+    },
+    "SelectedPremises": "a3X3h0000006OvsEAE",
+    "ServiceAccountPremisesColumns": [
+        {
+            "fieldName": "SrevicePremisesId",
+            "label": "SrevicePremisesId"
+        },
+        {
+            "fieldName": "AccountName",
+            "label": "Account Name"
+        },
+        {
+            "fieldName": "PremisesName",
+            "label": "Premise Address"
+        }
+    ],
+    "ServiceAccountPremisesMaxRowSelection": "Single",
+    "ServiceAccountRecordType": "Service",
+    "ServicePointsColumns": [
+        {
+            "fieldName": "ServicePointName",
+            "label": "Service Point Name"
+        },
+        {
+            "fieldName": "ServiceType",
+            "label": "Service Type"
+        },
+        {
+            "fieldName": "SelectProduct",
+            "label": "Select Product"
+        }
+    ],
+    "ServicePointsError": null,
+    "ServicePremises": null,
+    "timeStamp": "2020-09-01T05:44:45.458Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053h000002WfuuAAC",
+    "userName": "express_org_sebanti@org.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420",
+    "vlcTimeTracking": {
+        "CustomerSelection": 119808,
+        "DR-GetProducts": 2984,
+        "DRExtractBussinessAccountRecId": 3132,
+        "DRFetchBillingAccountRecTypeId": 2089,
+        "ExtractServiceAccountPremises": 0,
+        "GetPremServicePoints": 1037,
+        "OmniScriptSessionToken": "3e4769e2-a603-4c78-8c93-059fec1e026e",
+        "SVBusinessAccountRecTypeId": 72,
+        "SelectPremises": 9297,
+        "SelectTypeofService": 28318,
+        "ServicePointsError": 0,
+        "SetCustomLWCValues": 85,
+        "SetDefaultValues": 94,
+        "SetPremisesBusinessAccountRecTypeId": 72,
+        "SetServicePointVal": 76
+    }
+}

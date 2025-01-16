@@ -1,0 +1,22 @@
+[
+    {
+        "GlobalKey": "VPL-TransformOpportunityListCustoma1V3h000001nakWEAQItem0",
+        "InputFieldName": "OpportunityList",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformOpportunityList",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformOpportunityList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformOpportunityList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "OpportunityList",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

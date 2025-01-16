@@ -1,0 +1,28 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "sfiEnergySelfServiceInsightBox/Vlocity/1/1646764408144",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergySelfServiceInsightBoxTwo",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergySelfServiceInsightBoxTwo/CME_E_U/1/1646964756372",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergySelfServiceInsightBoxTwo.json",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "",
+    "UniqueName": "sfiEnergySelfServiceInsightBoxTwo_CME_E_U_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergySelfServiceInsightBoxTwo"
+}

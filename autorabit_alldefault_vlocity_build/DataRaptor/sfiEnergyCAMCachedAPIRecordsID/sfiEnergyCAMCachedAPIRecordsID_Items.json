@@ -1,0 +1,42 @@
+[
+    {
+        "FormulaExpression": "records:Id",
+        "FormulaResultPath": "idList",
+        "FormulaSequence": 1,
+        "GlobalKey": "sfiEnergyCAMCachedAPIRecordsIDCustom4671",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyCAMCachedAPIRecordsID",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyCAMCachedAPIRecordsID",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyCAMCachedAPIRecordsID",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyCAMCachedAPIRecordsID4879125205090511",
+        "InputFieldName": "idList",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyCAMCachedAPIRecordsID",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyCAMCachedAPIRecordsID",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyCAMCachedAPIRecordsID",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "cachedAPIRecords:recId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

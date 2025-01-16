@@ -1,0 +1,121 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "InventoryId",
+        "GlobalKey": "VPL-ExtractMeterProducts-ENGY-104-1Customa192E00000BvVtxQAFItem0",
+        "InputFieldName": "Id",
+        "InputObjectName": "%vlocity_namespace%__InventoryItem__c",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-ExtractMeterProducts",
+        "OmniDataTransformationId": {
+            "Name": "VPLExtractMeterProducts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLExtractMeterProducts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Meter",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-ExtractMeterProducts-ENGY-104-1Customa192E00000BvVtxQAFItem9",
+        "InputFieldName": "Meter:%vlocity_namespace%__ServicePointId__r.%vlocity_namespace%__ServicePointNumber__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-ExtractMeterProducts",
+        "OmniDataTransformationId": {
+            "Name": "VPLExtractMeterProducts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLExtractMeterProducts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Meter:IntsallationNumber",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-ExtractMeterProducts-ENGY-104-1Customa192E00000BvVtxQAFItem4",
+        "InputFieldName": "Meter:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-ExtractMeterProducts",
+        "OmniDataTransformationId": {
+            "Name": "VPLExtractMeterProducts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLExtractMeterProducts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Meter:MeterId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-ExtractMeterProducts-ENGY-104-1Customa192E00000BvVtxQAFItem6",
+        "InputFieldName": "Meter:%vlocity_namespace%__ProductId__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-ExtractMeterProducts",
+        "OmniDataTransformationId": {
+            "Name": "VPLExtractMeterProducts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLExtractMeterProducts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Meter:ProdId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-ExtractMeterProducts-ENGY-104-1Customa192E00000BvVtxQAFItem7",
+        "InputFieldName": "Meter:%vlocity_namespace%__ProductId__r.Family",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-ExtractMeterProducts",
+        "OmniDataTransformationId": {
+            "Name": "VPLExtractMeterProducts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLExtractMeterProducts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Meter:ProductFamily",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-ExtractMeterProducts-ENGY-104-1Customa192E00000BvVtxQAFItem8",
+        "InputFieldName": "Meter:%vlocity_namespace%__SerialNumber__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-ExtractMeterProducts",
+        "OmniDataTransformationId": {
+            "Name": "VPLExtractMeterProducts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLExtractMeterProducts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Meter:SerialNumber",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

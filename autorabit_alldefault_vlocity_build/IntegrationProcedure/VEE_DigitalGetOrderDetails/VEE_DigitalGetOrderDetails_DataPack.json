@@ -1,0 +1,26 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "This IP get the Order Id and Number",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VEEDigitalGetOrderDetails",
+    "OmniProcessElement": [
+        "VEE_DigitalGetOrderDetails_Element_GetOrderDetails.json",
+        "VEE_DigitalGetOrderDetails_Element_DecryptOrderNumber.json",
+        "VEE_DigitalGetOrderDetails_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "VEE_DigitalGetOrderDetails",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VEE_DigitalGetOrderDetails_PropertySetConfig.json",
+    "SubType": "DigitalGetOrderDetails",
+    "Type": "VEE",
+    "UniqueName": "VEE_DigitalGetOrderDetails_Procedure_3",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VEE/DigitalGetOrderDetails/Procedure"
+}

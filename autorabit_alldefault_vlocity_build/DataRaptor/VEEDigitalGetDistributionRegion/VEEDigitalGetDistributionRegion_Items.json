@@ -1,0 +1,90 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "'Distribution Region'",
+        "GlobalKey": "VEEDigitalGetDistributionRegionCustom344",
+        "InputFieldName": "Name",
+        "InputObjectName": "%vlocity_namespace%__Picklist__c",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalGetDistributionRegion",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalGetDistributionRegion",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalGetDistributionRegion",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "picklist",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "picklist:Id",
+        "GlobalKey": "VEEDigitalGetDistributionRegionCustom8570",
+        "InputFieldName": "%vlocity_namespace%__PicklistId__c",
+        "InputObjectName": "%vlocity_namespace%__PicklistValue__c",
+        "InputObjectQuerySequence": 2,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalGetDistributionRegion",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalGetDistributionRegion",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalGetDistributionRegion",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "picklistValue",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "picklistValue:Name",
+        "FormulaResultPath": "distributionRegion",
+        "FormulaSequence": 1,
+        "GlobalKey": "VEEDigitalGetDistributionRegionCustom4867",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalGetDistributionRegion",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalGetDistributionRegion",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalGetDistributionRegion",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalGetDistributionRegionCustom1757",
+        "InputFieldName": "distributionRegion",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalGetDistributionRegion",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalGetDistributionRegion",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalGetDistributionRegion",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "distributionRegions",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

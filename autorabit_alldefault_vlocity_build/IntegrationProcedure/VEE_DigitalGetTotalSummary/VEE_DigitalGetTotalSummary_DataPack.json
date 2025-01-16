@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "VEE_DigitalGetTotalSummary_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VEEDigitalGetTotalSummary",
+    "OmniProcessElement": [
+        "VEE_DigitalGetTotalSummary_Element_VEEDigitalAddOnsTotalSummary.json",
+        "VEE_DigitalGetTotalSummary_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "VEE_DigitalGetTotalSummary",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VEE_DigitalGetTotalSummary_PropertySetConfig.json",
+    "RequiredPermission": "VEEDigitalOrderPermission",
+    "SubType": "DigitalGetTotalSummary",
+    "Type": "VEE",
+    "UniqueName": "VEE_DigitalGetTotalSummary_Procedure_3",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VEE/DigitalGetTotalSummary/Procedure"
+}

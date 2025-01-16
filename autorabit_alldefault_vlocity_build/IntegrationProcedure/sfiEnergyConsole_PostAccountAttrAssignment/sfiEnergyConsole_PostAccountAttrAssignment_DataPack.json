@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "VIP Used to Save Account Preferences",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergyConsolePostAccountAttrAssignment",
+    "OmniProcessElement": [
+        "sfiEnergyConsole_PostAccountAttrAssignment_Element_PostAccountAttrAssignment.json",
+        "sfiEnergyConsole_PostAccountAttrAssignment_Element_Response.json"
+    ],
+    "OmniProcessKey": "sfiEnergyConsole_PostAccountAttrAssignment",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergyConsole_PostAccountAttrAssignment_PropertySetConfig.json",
+    "SubType": "PostAccountAttrAssignment",
+    "Type": "sfiEnergyConsole",
+    "UniqueName": "sfiEnergyConsole_PostAccountAttrAssignment_Procedure_5",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergyConsole/PostAccountAttrAssignment/Procedure"
+}

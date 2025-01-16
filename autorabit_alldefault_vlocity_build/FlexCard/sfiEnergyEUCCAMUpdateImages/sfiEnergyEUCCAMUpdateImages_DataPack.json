@@ -1,0 +1,68 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "sfiEnergyEUCCAMVIPCaching/CME_E_U/1/1654773522643",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "Custom",
+            "value": {
+                "body": "{\n\"status\": \"false\"\n}",
+                "dsDelay": "",
+                "resultVar": ""
+            }
+        },
+        "state0element0block_element0block_element1_0": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "ipMethod": "sfiEnergyCAM_UpdateImages",
+                "resultVar": "",
+                "vlocityAsync": false
+            }
+        },
+        "state1element0block_element0block_element1_0": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "jobName": "Test"
+                },
+                "ipMethod": "sfiEnergyCAM_ScheduledJobPOC",
+                "resultVar": "",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "This FlexCard is used to run CAM Update images action.",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyEUCCAMUpdateImages",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyEUCCAMUpdateImages/CME_E_U/3/1664188821580",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyEUCCAMUpdateImages.json",
+    "SampleDataSourceResponse": "{\"status\":\"false\"}",
+    "StylingConfiguration": "",
+    "UniqueName": "sfiEnergyEUCCAMUpdateImages_CME_E_U_3",
+    "VersionNumber": 3,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyEUCCAMUpdateImages"
+}

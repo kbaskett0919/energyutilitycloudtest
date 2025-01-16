@@ -1,0 +1,30 @@
+{
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+            },
+            "type": null,
+            "value": {
+            }
+        }
+    },
+    "Description": "This card displays the Benefit boxes and being used on the benefit section of program details page",
+    "IsTrackingEnabled": false,
+    "Name": "EnergyUtilitiesProgramsDetailOneBenefit",
+    "Namespace": "",
+    "OmniUiCardKey": "EnergyUtilitiesProgramsDetailOneBenefit/Salesforce/1.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "EnergyUtilitiesProgramsDetailOneBenefit.json",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "",
+    "UniqueName": "EnergyUtilitiesProgramsDetailOneBenefit_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/EnergyUtilitiesProgramsDetailOneBenefit"
+}

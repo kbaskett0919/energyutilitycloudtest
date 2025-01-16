@@ -1,0 +1,31 @@
+{
+    "AuthorName": "CME_EU_Express",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "{\"testimonialData\":\"I found the service easy to use and straightforward. The information  was clear and allowed me to quickly analyse the options and choose which would be best for the Charity. I would definitely recommend the service.\"}"
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "VEEConsumerTestimonial",
+    "Namespace": "",
+    "OmniUiCardKey": "VEEConsumerTestimonial/Lakshmi/1/1614239695649",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "VEEConsumerTestimonial.json",
+    "SampleDataSourceResponse": "{\"testimonialData\":\"I found the service easy to use and straightforward. The information  was clear and allowed me to quickly analyse the options and choose which would be best for the Charity. I would definitely recommend the service.\"}",
+    "StylingConfiguration": "",
+    "UniqueName": "VEEConsumerTestimonial_CME_EU_Express_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/VEEConsumerTestimonial"
+}

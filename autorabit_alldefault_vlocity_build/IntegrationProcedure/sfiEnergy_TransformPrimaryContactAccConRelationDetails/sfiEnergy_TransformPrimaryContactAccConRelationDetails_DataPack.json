@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "It transforms Account Contact Relation information for previous primary contact & new primary contact",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergyTransformPrimaryContactAccConRelationDetails",
+    "OmniProcessElement": [
+        "sfiEnergy_TransformPrimaryContactAccConRelationDetails_Element_DRTransformPrimaryContactAccConRelationDetails.json",
+        "sfiEnergy_TransformPrimaryContactAccConRelationDetails_Element_TransformedResponse.json"
+    ],
+    "OmniProcessKey": "sfiEnergy_TransformPrimaryContactAccConRelationDetails",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergy_TransformPrimaryContactAccConRelationDetails_PropertySetConfig.json",
+    "SubType": "TransformPrimaryContactAccConRelationDetails",
+    "Type": "sfiEnergy",
+    "UniqueName": "sfiEnergy_TransformPrimaryContactAccConRelationDetails_Procedure_5",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergy/TransformPrimaryContactAccConRelationDetails/Procedure"
+}

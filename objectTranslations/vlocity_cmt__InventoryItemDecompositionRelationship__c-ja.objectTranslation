@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>在庫品目 DecompositionRelationship</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__DestinationInventoryItemId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__SourceAssetId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__SourceInventoryItemId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <nameFieldLabel>InventoryItemDecompositionRelationship 名</nameFieldLabel>
+</CustomObjectTranslation>

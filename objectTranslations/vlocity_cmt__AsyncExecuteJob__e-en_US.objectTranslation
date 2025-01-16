@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__AdditionalData__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__AsyncProcessId__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__AsyncProcessStepId__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__ItemsToProcessList__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__JobConfiguration__c</name>
+    </fields>
+</CustomObjectTranslation>

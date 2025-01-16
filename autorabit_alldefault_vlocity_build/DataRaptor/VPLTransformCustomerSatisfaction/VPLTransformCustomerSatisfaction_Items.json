@@ -1,0 +1,261 @@
+[
+    {
+        "FormulaExpression": "IF(%CustomerSatisfaction:Category%==\"CUSTOMER_SATISFACTION_COST\",%CustomerSatisfaction:AttributeValue%,\"0\")",
+        "FormulaResultPath": "CustomerSatisfactionCost",
+        "FormulaSequence": 1,
+        "GlobalKey": "VPL-TransformCustomerSatisfactionCustoma1V3h000000mAPBEA2Item0",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCustomerSatisfaction",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCustomerSatisfaction",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCustomerSatisfaction",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(%CustomerSatisfaction:Category%==\"CUSTOMER_SATISFACTION_COVERAGE\",%CustomerSatisfaction:AttributeValue%,\"0\")",
+        "FormulaResultPath": "CustomerSatisfactionCoverage",
+        "FormulaSequence": 2,
+        "GlobalKey": "VPL-TransformCustomerSatisfactionCustoma1V3h000000mAPBEA2Item4",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCustomerSatisfaction",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCustomerSatisfaction",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCustomerSatisfaction",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(%CustomerSatisfaction:Category%==\"CUSTOMER_SATISFACTION_MAINTENANCE\",%CustomerSatisfaction:AttributeValue%,\"0\")",
+        "FormulaResultPath": "CustomerSatisfactionMaintenance",
+        "FormulaSequence": 3,
+        "GlobalKey": "VPL-TransformCustomerSatisfactionCustoma1V3h000000mAPBEA2Item3",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCustomerSatisfaction",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCustomerSatisfaction",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCustomerSatisfaction",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(%CustomerSatisfaction:Category%==\"CUSTOMER_SATISFACTION_RELIABILITY\",%CustomerSatisfaction:AttributeValue%,\"0\")",
+        "FormulaResultPath": "CustomerSatisfactionReliability",
+        "FormulaSequence": 4,
+        "GlobalKey": "VPL-TransformCustomerSatisfactionCustoma1V3h000000mAPBEA2Item2",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCustomerSatisfaction",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCustomerSatisfaction",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCustomerSatisfaction",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(%CustomerSatisfaction:Category%==\"CUSTOMER_SATISFACTION_SERVICE\",%CustomerSatisfaction:AttributeValue%,\"0\")",
+        "FormulaResultPath": "CustomerSatisfactionService",
+        "FormulaSequence": 5,
+        "GlobalKey": "VPL-TransformCustomerSatisfactionCustoma1V3h000000mAPBEA2Item1",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCustomerSatisfaction",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCustomerSatisfaction",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCustomerSatisfaction",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(%CustomerSatisfaction:Category%==\"CUSTOMER_SATISFACTION_USAGE_CHARGES\",%CustomerSatisfaction:AttributeValue%,\"0\")",
+        "FormulaResultPath": "CustomerSatisfactionUsageCharges",
+        "FormulaSequence": 6,
+        "GlobalKey": "VPL-TransformCustomerSatisfactionCustom8075",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCustomerSatisfaction",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCustomerSatisfaction",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCustomerSatisfaction",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCustomerSatisfactionCustoma1V3h000000mAPBEA2Item5",
+        "InputFieldName": "CustomerSatisfaction",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCustomerSatisfaction",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCustomerSatisfaction",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCustomerSatisfaction",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "CustomerSatisfaction",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCustomerSatisfactionCustoma1V3h000000mAPBEA2Item6",
+        "InputFieldName": "CustomerSatisfactionCost",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCustomerSatisfaction",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCustomerSatisfaction",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCustomerSatisfaction",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "CustomerSatisfactionCost",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCustomerSatisfactionCustoma1V3h000000mAPBEA2Item7",
+        "InputFieldName": "CustomerSatisfactionCoverage",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCustomerSatisfaction",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCustomerSatisfaction",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCustomerSatisfaction",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "CustomerSatisfactionCoverage",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCustomerSatisfactionCustoma1V3h000000mAPBEA2Item8",
+        "InputFieldName": "CustomerSatisfactionMaintenance",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCustomerSatisfaction",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCustomerSatisfaction",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCustomerSatisfaction",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "CustomerSatisfactionMaintenance",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCustomerSatisfactionCustoma1V3h000000mAPBEA2Item9",
+        "InputFieldName": "CustomerSatisfactionReliability",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCustomerSatisfaction",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCustomerSatisfaction",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCustomerSatisfaction",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "CustomerSatisfactionReliability",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCustomerSatisfactionCustoma1V3h000000mAPBEA2Item10",
+        "InputFieldName": "CustomerSatisfactionService",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCustomerSatisfaction",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCustomerSatisfaction",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCustomerSatisfaction",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "CustomerSatisfactionService",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCustomerSatisfactionCustom1749",
+        "InputFieldName": "CustomerSatisfactionUsageCharges",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCustomerSatisfaction",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCustomerSatisfaction",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCustomerSatisfaction",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "CustomerSatisfactionUsageCharges",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

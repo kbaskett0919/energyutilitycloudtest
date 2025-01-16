@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Optimeringsanmodningskø</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Optimeringsanmodningskøen</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Optimeringsanmodningskøer</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Optimeringsanmodningskøerne</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>FSL__Current_Running_Requests__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>FSL__Identifier__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>FSL__Total_Related_Optimization_Requests__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Optimeringskønummer</nameFieldLabel>
+</CustomObjectTranslation>

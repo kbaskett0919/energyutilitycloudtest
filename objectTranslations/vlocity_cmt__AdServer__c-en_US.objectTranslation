@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__AdServerApplicationName__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__AdServerNetworkIdentifier__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__AllowedAdPriorityTypes__c</name>
+        <picklistValues>
+            <masterLabel>Bulk</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Click Tracking</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InHouse</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Network</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price Priority</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsorship</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__CoreId__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__NamedCredentialReference__c</name>
+    </fields>
+</CustomObjectTranslation>

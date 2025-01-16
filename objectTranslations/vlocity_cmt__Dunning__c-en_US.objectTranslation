@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__AccountId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__CollectionsActivity__c</name>
+        <picklistValues>
+            <masterLabel>Disconnect Notice</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late Payment Assessed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Past Due Notice</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment Plan Deactivated</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Write-off</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__CollectionsAmount__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__CollectionsEndDate__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__CollectionsStartDate__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__NextCollectionsActivity__c</name>
+        <picklistValues>
+            <masterLabel>Disconnect notice</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late payment assessed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Past due notice</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment plan deactivated</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

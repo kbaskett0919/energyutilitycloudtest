@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniDataTransform xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <assignmentRulesUsed>false</assignmentRulesUsed>
+    <deletedOnSuccess>false</deletedOnSuccess>
+    <errorIgnored>false</errorIgnored>
+    <expectedInputJson>{
+  &quot;ContextId&quot; : null,
+  &quot;timeStamp&quot; : null,
+  &quot;userId&quot; : null,
+  &quot;userName&quot; : null,
+  &quot;userProfile&quot; : null,
+  &quot;userTimeZone&quot; : null,
+  &quot;vlcPersistentComponent&quot; : { },
+  &quot;vlcTimeTracking&quot; : {
+    &quot;ApexGetOffers&quot; : null,
+    &quot;DataRaptorExtractAction2&quot; : null,
+    &quot;DataRaptorTransformAction&quot; : null,
+    &quot;Response&quot; : null
+  }
+}</expectedInputJson>
+    <expectedOutputJson>{
+  &quot;CatalogCode&quot; : [ {
+    &quot;vlocity_cmt__CatalogCode__c&quot; : &quot;EUADDONS&quot;,
+    &quot;Id&quot; : &quot;a0v4x000001IDgEAAW&quot;
+  } ]
+}</expectedOutputJson>
+    <fieldLevelSecurityEnabled>false</fieldLevelSecurityEnabled>
+    <inputType>JSON</inputType>
+    <name>VEEDigitalExtractCatalogCode</name>
+    <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VEEDigitalExtractCatalogCodeCustom1463</globalKey>
+        <inputFieldName>CatalogCode:Id</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalExtractCatalogCode</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>CatalogCode:Id</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VEEDigitalExtractCatalogCodeCustom9861</globalKey>
+        <inputFieldName>CatalogCode:vlocity_cmt__CatalogCode__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalExtractCatalogCode</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>CatalogCode:Value</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>=</filterOperator>
+        <filterValue>Internal - Replicated</filterValue>
+        <globalKey>VEEDigitalExtractCatalogCodeCustom4752</globalKey>
+        <inputFieldName>vlocity_cmt__SourceType__c</inputFieldName>
+        <inputObjectName>vlocity_cmt__Catalog__c</inputObjectName>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VEEDigitalExtractCatalogCode</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>CatalogCode</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;Internal - Replicated&quot; : &quot;Internal - Replicated&quot;
+}</previewJsonData>
+    <processSuperBulk>false</processSuperBulk>
+    <responseCacheTtlMinutes>9999.0</responseCacheTtlMinutes>
+    <responseCacheType>Org Cache</responseCacheType>
+    <rollbackOnError>false</rollbackOnError>
+    <sourceObject>json</sourceObject>
+    <sourceObjectDefault>false</sourceObjectDefault>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Extract</type>
+    <uniqueName>VEEDigitalExtractCatalogCode_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <xmlDeclarationRemoved>false</xmlDeclarationRemoved>
+</OmniDataTransform>

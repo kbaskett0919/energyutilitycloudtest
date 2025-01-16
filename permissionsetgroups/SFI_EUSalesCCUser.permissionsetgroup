@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Bundles together permission sets based on the sales customer community user user job functions for Customer Acquisition Management application.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>E&amp;U Sales CC User</label>
+    <permissionSets>Base_Runtime_ReadOnly</permissionSets>
+    <permissionSets>Base_Runtime_ViewAndManageBillPayment</permissionSets>
+    <permissionSets>CPQ_Runtime_CartOperations</permissionSets>
+    <permissionSets>DC_Runtime_Shopping</permissionSets>
+    <permissionSets>DocGenInd_Runtime_All</permissionSets>
+    <permissionSets>EnergyRuntimeB2CSalesCustomerCommunityUser</permissionSets>
+    <permissionSets>SFIOmniObjectsPermissions</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

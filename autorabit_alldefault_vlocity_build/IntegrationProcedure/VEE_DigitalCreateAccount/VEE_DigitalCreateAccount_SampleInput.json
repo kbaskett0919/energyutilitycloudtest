@@ -1,0 +1,21 @@
+{
+    "Enroll": {
+        "VEECustomerDetailsBlock": {
+            "ContactPreference": "Email",
+            "Email": "vk2433@gmail.com",
+            "FirstName": "Vaibhav",
+            "LastName": "Gupta",
+            "Phone": "0811228289",
+            "TAAreaLevel1": "Rajasthan",
+            "TACountry": "India",
+            "TAPostalCode": "302020",
+            "TAStreet": "34-35, Shree Radhe Krishna Apartments"
+        }
+    },
+    "distributionRegion": "Chichester",
+    "elementName": "VIPCreateAccount",
+    "meterType": "Smart",
+    "newCartContextKey": "afe155dd80594587b938c9b6d323135e",
+    "offerType": "CONSUMERELECTRICITY",
+    "omniScriptId": "0jN1Q0000000yPzUAI"
+}

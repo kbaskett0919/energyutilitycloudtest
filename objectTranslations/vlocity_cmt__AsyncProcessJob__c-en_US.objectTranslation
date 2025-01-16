@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__AsyncProcessId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__AsyncProcessStepId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__ItemsProcessedList__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__ItemsToProcessList__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__JobId__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__Message__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__StatusCode__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__Status__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__StepProgress__c</name>
+        <picklistValues>
+            <masterLabel>Execute Process</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finish Process</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start Process</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__TechnicalMessage__c</name>
+    </fields>
+</CustomObjectTranslation>

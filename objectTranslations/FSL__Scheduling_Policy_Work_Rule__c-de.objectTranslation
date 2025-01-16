@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Planungsrichtlinien-Arbeitsregel</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Planungsrichtlinien-Arbeitsregeln</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>FSL__Scheduling_Policy__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>FSL__Work_Rule__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Name der Planungsrichtlinien-Arbeitsrege</nameFieldLabel>
+</CustomObjectTranslation>

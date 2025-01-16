@@ -1,0 +1,89 @@
+{
+    "Description": "Warning message to enter all the billing details",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "MsgConsumerAccountBillWarning",
+    "OmniProcessId": {
+        "Name": "VPLEnegryAddAccount",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/vplEnergy/AddAccount/Multi-Language",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "BillingAccountDetails",
+        "OmniProcessId": {
+            "Name": "VPLEnegryAddAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/vplEnergy/AddAccount/Multi-Language",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/vplEnergy/AddAccount/Multi-Language/BillingAccountDetails",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "BillingAccountDetails",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "hideLabel": true,
+        "label": null,
+        "messages": [
+            {
+                "active": true,
+                "text": "sfiEnergyConsoleWeRecommnedBilling",
+                "type": "Warning",
+                "value": true
+            },
+            {
+                "active": false,
+                "text": "",
+                "type": "Requirement",
+                "value": false
+            }
+        ],
+        "show": null,
+        "validateExpression": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": null,
+                        "field": "BillCycle"
+                    },
+                    {
+                        "condition": "=",
+                        "data": null,
+                        "field": "BillDeliveryMethod"
+                    },
+                    {
+                        "condition": "=",
+                        "data": null,
+                        "field": "BillFormat"
+                    },
+                    {
+                        "condition": "=",
+                        "data": null,
+                        "field": "BillFrequency"
+                    },
+                    {
+                        "condition": "=",
+                        "data": null,
+                        "field": "BillingEmailAddress"
+                    },
+                    {
+                        "condition": "=",
+                        "data": null,
+                        "field": "NumberOfBills"
+                    }
+                ]
+            }
+        }
+    },
+    "Type": "Validation",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/vplEnergy/AddAccount/Multi-Language/MsgConsumerAccountBillWarning"
+}

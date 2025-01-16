@@ -1,0 +1,6 @@
+[
+    "DataRaptor/VEECreateOfferCodeList",
+    "DataRaptor/VEEGetCatalogMeterType",
+    "DataRaptor/VEETransformDistributionRegion",
+    "DataRaptor/sfiEnergyCAMGetModifiedProductsCodes"
+]

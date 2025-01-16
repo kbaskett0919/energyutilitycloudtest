@@ -1,0 +1,22 @@
+[
+    {
+        "GlobalKey": "sfiEnergyB2bsalesTransformOpportunityList07444975043956559",
+        "InputFieldName": "OpportunityList",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyB2bsalesTransformOpportunityList",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyB2bsalesTransformOpportunityList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyB2bsalesTransformOpportunityList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "OpportunityList",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

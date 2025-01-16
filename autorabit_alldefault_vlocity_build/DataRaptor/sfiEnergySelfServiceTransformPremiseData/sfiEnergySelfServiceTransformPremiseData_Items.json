@@ -1,0 +1,40 @@
+[
+    {
+        "GlobalKey": "sfiEnergySelfServiceTransformPremiseDataCustoma0P4x00000ghLQdEAMItem1",
+        "InputFieldName": "premiseAddress",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergySelfServiceTransformPremiseData",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergySelfServiceTransformPremiseData",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergySelfServiceTransformPremiseData",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "label",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergySelfServiceTransformPremiseDataCustoma0P4x00000ghLQdEAMItem0",
+        "InputFieldName": "premisesId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergySelfServiceTransformPremiseData",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergySelfServiceTransformPremiseData",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergySelfServiceTransformPremiseData",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "value",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

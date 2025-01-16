@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>見積商品積み上げ集計</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__CatalogCategoryId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__CurrentDiscountRange__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__DiscountQuantity__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__NeedsPricing__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__PreviousDiscountRange__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__ProductId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__QuoteGroupId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__QuoteId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__RollupType__c</name>
+        <picklistValues>
+            <masterLabel>Total Group Rollup</masterLabel>
+            <translation>グループ積み上げ集計 (合計)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Quote Rollup</masterLabel>
+            <translation>見積積み上げ集計 (合計)</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__TotalAssetQuantity__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__TotalQuoteQuantity__c</name>
+    </fields>
+    <nameFieldLabel>見積商品積み上げ集計名</nameFieldLabel>
+</CustomObjectTranslation>

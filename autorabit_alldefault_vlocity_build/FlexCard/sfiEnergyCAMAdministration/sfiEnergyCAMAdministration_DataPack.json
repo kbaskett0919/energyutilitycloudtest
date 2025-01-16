@@ -1,0 +1,30 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+            },
+            "type": null,
+            "value": {
+            }
+        }
+    },
+    "Description": "This FlexCard is used to display CAM Application related Admin activities/tasks.",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyCAMAdministration",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyCAMAdministration/CME_E_U/3/1664187291062",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyCAMAdministration.json",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "",
+    "UniqueName": "sfiEnergyCAMAdministration_CME_E_U_3",
+    "VersionNumber": 3,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyCAMAdministration"
+}

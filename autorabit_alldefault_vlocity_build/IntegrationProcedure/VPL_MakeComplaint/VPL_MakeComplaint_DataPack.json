@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "VPL_MakeComplaint_SampleInput.json",
+    "Description": "This IP will update the account and statement status to Billing Hold and Billing Dispute. Also this will create a case.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VPL-MakeComplaint",
+    "OmniProcessElement": [
+        "VPL_MakeComplaint_Element_DRCreateEnergyComplaintCase.json",
+        "VPL_MakeComplaint_Element_DRUpdateStatementStatus.json",
+        "VPL_MakeComplaint_Element_SVResponse.json",
+        "VPL_MakeComplaint_Element_Response.json",
+        "VPL_MakeComplaint_Element_ResponseBillingDispute.json"
+    ],
+    "OmniProcessKey": "VPL_MakeComplaint",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VPL_MakeComplaint_PropertySetConfig.json",
+    "SubType": "MakeComplaint",
+    "Type": "VPL",
+    "UniqueName": "VPL_MakeComplaint_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VPL/MakeComplaint/Procedure"
+}

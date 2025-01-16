@@ -1,0 +1,233 @@
+[
+    {
+        "FormulaExpression": "IF(%CustomerSelection:AccountType% = 'Business', %BusinessAccountId%, %DRId_Contact%)",
+        "FormulaResultPath": "FML_AccountId",
+        "FormulaSequence": 1,
+        "GlobalKey": "VPL-TransformCreateBusinessPartnerCustom8492",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateBusinessPartner",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateBusinessPartner",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateBusinessPartner",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreateBusinessPartnerCustoma1V3h000002Q1HeEAKItem5",
+        "InputFieldName": "SelectPremises:ServiceLocation-Block:PremCity",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateBusinessPartner",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateBusinessPartner",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateBusinessPartner",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "BillingCity",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreateBusinessPartnerCustoma1V3h000002Q1HeEAKItem6",
+        "InputFieldName": "SelectPremises:ServiceLocation-Block:PremCountry",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateBusinessPartner",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateBusinessPartner",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateBusinessPartner",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "BillingCountry",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreateBusinessPartnerCustoma1V3h000002Q1HeEAKItem8",
+        "InputFieldName": "SelectPremises:ServiceLocation-Block:PremPostalCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateBusinessPartner",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateBusinessPartner",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateBusinessPartner",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "BillingPostalCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreateBusinessPartnerCustoma1V3h000002Q1HeEAKItem9",
+        "InputFieldName": "SelectPremises:ServiceLocation-Block:PremState",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateBusinessPartner",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateBusinessPartner",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateBusinessPartner",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "BillingState",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreateBusinessPartnerCustoma1V3h000002Q1HeEAKItem7",
+        "InputFieldName": "SelectPremises:ServiceLocation-Block:PremiseStreetAddress",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateBusinessPartner",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateBusinessPartner",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateBusinessPartner",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "BillingStreet",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreateBusinessPartnerCustoma1V3h000002Q1HeEAKItem12",
+        "InputFieldName": "CustomerSelection:NewCustomerDetails:CustomerFirstName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateBusinessPartner",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateBusinessPartner",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateBusinessPartner",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "FirstName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreateBusinessPartnerCustoma1V3h000002Q1HeEAKItem10",
+        "InputFieldName": "FML_AccountId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateBusinessPartner",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateBusinessPartner",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateBusinessPartner",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreateBusinessPartnerCustoma1V3h000002Q1HeEAKItem13",
+        "InputFieldName": "CustomerSelection:NewCustomerDetails:CustomerLastName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateBusinessPartner",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateBusinessPartner",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateBusinessPartner",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "LastName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreateBusinessPartnerCustoma1V3h000002Q1HeEAKItem4",
+        "InputFieldName": "CustomerSelection:NewCustomerDetails:CustomerDOB",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateBusinessPartner",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateBusinessPartner",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateBusinessPartner",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PersonBirthdate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreateBusinessPartnerCustoma1V3h000002Q1HeEAKItem11",
+        "InputFieldName": "CustomerSelection:NewCustomerDetails:CustomerEmail",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateBusinessPartner",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateBusinessPartner",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateBusinessPartner",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PersonEmail",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreateBusinessPartnerCustoma1V3h000002Q1HeEAKItem14",
+        "InputFieldName": "CustomerSelection:NewCustomerDetails:CustomerPhone",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreateBusinessPartner",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreateBusinessPartner",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreateBusinessPartner",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Phone",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

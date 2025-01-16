@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "EnergyUtilitiesPrograms_GetAllProducts_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "EnergyUtilitiesProgramsGetAllProducts",
+    "OmniProcessElement": [
+        "EnergyUtilitiesPrograms_GetAllProducts_Element_DRGetSiteURL.json",
+        "EnergyUtilitiesPrograms_GetAllProducts_Element_FetchProgramProducts.json",
+        "EnergyUtilitiesPrograms_GetAllProducts_Element_TransformProgramProducts.json",
+        "EnergyUtilitiesPrograms_GetAllProducts_Element_MergeNoneWithFinancialAssistance.json",
+        "EnergyUtilitiesPrograms_GetAllProducts_Element_FetchBillingAddress.json",
+        "EnergyUtilitiesPrograms_GetAllProducts_Element_Response.json"
+    ],
+    "OmniProcessKey": "EnergyUtilitiesPrograms_GetAllProducts",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "EnergyUtilitiesPrograms_GetAllProducts_PropertySetConfig.json",
+    "SubType": "GetAllProducts",
+    "Type": "EnergyUtilitiesPrograms",
+    "UniqueName": "EnergyUtilitiesPrograms_GetAllProducts_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/EnergyUtilitiesPrograms/GetAllProducts/Procedure"
+}

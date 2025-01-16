@@ -1,0 +1,30 @@
+{
+    "Description": "Uses account details and creates a case ...",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "Multi-Language",
+    "Name": "RaiseADispute",
+    "OmniProcessElement": [
+        "SelfService_FetchAccountDetailsAndCreateCase_Multi-Language_Element_IPGetAccountDetails.json",
+        "SelfService_FetchAccountDetailsAndCreateCase_Multi-Language_Element_LoggedInUser.json",
+        "SelfService_FetchAccountDetailsAndCreateCase_Multi-Language_Element_ContactUs.json",
+        "SelfService_FetchAccountDetailsAndCreateCase_Multi-Language_Element_UserName.json",
+        "SelfService_FetchAccountDetailsAndCreateCase_Multi-Language_Element_Address.json",
+        "SelfService_FetchAccountDetailsAndCreateCase_Multi-Language_Element_Subject.json",
+        "SelfService_FetchAccountDetailsAndCreateCase_Multi-Language_Element_Description.json",
+        "SelfService_FetchAccountDetailsAndCreateCase_Multi-Language_Element_IntegrationProcedureAction1.json",
+        "SelfService_FetchAccountDetailsAndCreateCase_Multi-Language_Element_NavigateAction1.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "SelfService_FetchAccountDetailsAndCreateCase_Multi-Language_PropertySetConfig.json",
+    "SubType": "FetchAccountDetailsAndCreateCase",
+    "Type": "SelfService",
+    "UniqueName": "SelfService_FetchAccountDetailsAndCreateCase_multiLanguage_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/SelfService/FetchAccountDetailsAndCreateCase/Multi-Language"
+}

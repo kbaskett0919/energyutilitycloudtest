@@ -1,0 +1,213 @@
+[
+    {
+        "FormulaExpression": "IF(%AccountBalanceDetails:PaymentPlan%='AccountBalance',%AccountBalanceDetails:AccountBalances%,%AccountBalanceDetails:BalanceAmount%)",
+        "FormulaResultPath": "BalanceAmount",
+        "FormulaSequence": 1,
+        "GlobalKey": "VPL-TransformCreatePaymentPlanToJSONCustom4946",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreatePaymentPlanToJSON",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreatePaymentPlanToJSON",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreatePaymentPlanToJSON",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreatePaymentPlanToJSONCustom7742",
+        "InputFieldName": "BillingAccountNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreatePaymentPlanToJSON",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreatePaymentPlanToJSON",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreatePaymentPlanToJSON",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "BPNumber",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreatePaymentPlanToJSONCustom9935",
+        "InputFieldName": "PaymentPlans:BalanceAmount",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreatePaymentPlanToJSON",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreatePaymentPlanToJSON",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreatePaymentPlanToJSON",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "BalanceAmount",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreatePaymentPlanToJSONCustoma1V3h000002PzoREASItem1",
+        "InputFieldName": "PaymentPlans:DownPaymentAmount",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreatePaymentPlanToJSON",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreatePaymentPlanToJSON",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreatePaymentPlanToJSON",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "DownPaymentAmount",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreatePaymentPlanToJSONCustoma1V3h000002PzoREASItem0",
+        "InputFieldName": "PaymentPlans:InstallmentAmount",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreatePaymentPlanToJSON",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreatePaymentPlanToJSON",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreatePaymentPlanToJSON",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "InstallmentAmount",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreatePaymentPlanToJSONCustom1602",
+        "InputFieldName": "PaymentPlans:NumberOfInstallments",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreatePaymentPlanToJSON",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreatePaymentPlanToJSON",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreatePaymentPlanToJSON",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "NumberOfInstallments",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreatePaymentPlanToJSONCustom1583",
+        "InputFieldName": "SelectPaymentMethods:Payments:MethodType",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreatePaymentPlanToJSON",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreatePaymentPlanToJSON",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreatePaymentPlanToJSON",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PaymentMethod",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreatePaymentPlanToJSONCustom967",
+        "InputFieldName": "PaymentPlans:PaymentPlanName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreatePaymentPlanToJSON",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreatePaymentPlanToJSON",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreatePaymentPlanToJSON",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PaymentPlanName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreatePaymentPlanToJSONCustom2936",
+        "InputFieldName": "PaymentPlans:PaymentPlanReason",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreatePaymentPlanToJSON",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreatePaymentPlanToJSON",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreatePaymentPlanToJSON",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PaymentPlanReason",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreatePaymentPlanToJSONCustom4800",
+        "InputFieldName": "PaymentPlans:ServiceTerms",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreatePaymentPlanToJSON",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreatePaymentPlanToJSON",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreatePaymentPlanToJSON",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ServiceTerms",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformCreatePaymentPlanToJSONCustom9899",
+        "InputFieldName": "PaymentPlans:StartDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformCreatePaymentPlanToJSON",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformCreatePaymentPlanToJSON",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformCreatePaymentPlanToJSON",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "StartDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

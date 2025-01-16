@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "EnergyUtilitiesPrograms_SubmitApplication_SampleInput.json",
+    "Description": "IP to invoke the connect API",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "EnergyUtilitiesProgramsSubmitApplication",
+    "OmniProcessElement": [
+        "EnergyUtilitiesPrograms_SubmitApplication_Element_SubmitApplication.json",
+        "EnergyUtilitiesPrograms_SubmitApplication_Element_SubmitApplicationResponse.json"
+    ],
+    "OmniProcessKey": "EnergyUtilitiesPrograms_SubmitApplication",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "EnergyUtilitiesPrograms_SubmitApplication_PropertySetConfig.json",
+    "SubType": "SubmitApplication",
+    "Type": "EnergyUtilitiesPrograms",
+    "UniqueName": "EnergyUtilitiesPrograms_SubmitApplication_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/EnergyUtilitiesPrograms/SubmitApplication/Procedure"
+}

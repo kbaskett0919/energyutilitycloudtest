@@ -1,0 +1,53 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "sfiEnergyEUCAdminTasks/CME_E_U/1/1654690160712",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "Custom",
+            "value": {
+                "body": "{\n\"data\": \"\"\n}",
+                "dsDelay": "",
+                "resultVar": ""
+            }
+        },
+        "state0element0block_element1block_element1_0": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "jobName": "Test"
+                },
+                "ipMethod": "sfiEnergyCAM_ScheduledJobPOC",
+                "resultVar": "",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "This FlexCard is used to display CAM Cache-related jobs and tasks.",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyEUCCAMCacheRelated",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyEUCCAMCacheRelated/CME_E_U/1/1654769536460",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyEUCCAMCacheRelated.json",
+    "SampleDataSourceResponse": "{\"data\":\"\"}",
+    "StylingConfiguration": "",
+    "UniqueName": "sfiEnergyEUCCAMCacheRelated_CME_E_U_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyEUCCAMCacheRelated"
+}

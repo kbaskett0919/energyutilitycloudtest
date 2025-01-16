@@ -1,0 +1,81 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "sfiEnergyEUCCAMDeleteCachedAPIResponse/CME_E_U/1/1654754519202",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "Custom",
+            "value": {
+                "body": "{\n\"status\": \"false\",\n\"jobName\": \"VEEDigitalSalesVIPCaching\"\n}",
+                "dsDelay": "",
+                "resultVar": ""
+            }
+        },
+        "state0element0block_element0block_element1_0": {
+            "contextVariables": [
+                {
+                    "id": 2,
+                    "name": "JobName",
+                    "val": "Test"
+                },
+                {
+                    "id": 2,
+                    "name": "jobName",
+                    "val": ""
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "JobName": "{jobName}"
+                },
+                "ipMethod": "sfiEnergyCAM_RunScheduledJob",
+                "jsonMap": "{\"JobName\":\"{JobName}\"}",
+                "vlocityAsync": false
+            }
+        },
+        "state1element0block_element0block_element1_0": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "jobName": "Test"
+                },
+                "ipMethod": "sfiEnergyCAM_ScheduledJobPOC",
+                "resultVar": "",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "This FlexCard is used to run CAM VIP Caching Job.",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyEUCCAMVIPCaching",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyEUCCAMVIPCaching/CME_E_U/2/1664188088649",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyEUCCAMVIPCaching.json",
+    "SampleDataSourceResponse": "{\"status\":\"false\",\"jobName\":\"VEEDigitalSalesVIPCaching\"}",
+    "StylingConfiguration": "",
+    "UniqueName": "sfiEnergyEUCCAMVIPCaching_CME_E_U_2",
+    "VersionNumber": 2,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyEUCCAMVIPCaching"
+}

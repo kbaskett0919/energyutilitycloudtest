@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActionLauncherItemDef xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identifier>_ac5xgov76yaf1w7j3532l796k</identifier>
+    <itemActionType>Omniscript</itemActionType>
+    <itemCategory>dbBased</itemCategory>
+    <itemLanguage>English</itemLanguage>
+    <masterLabel>UpdateFrameAgreement/Order/English</masterLabel>
+    <subType>Order</subType>
+    <type>UpdateFrameAgreement</type>
+</ActionLauncherItemDef>

@@ -1,0 +1,8 @@
+[
+    "DataRaptor/sfiEnergyCAMCachedAPIRecordsID",
+    "DataRaptor/sfiEnergyCAMCachedAPIRecsToDelete",
+    "DataRaptor/sfiEnergyCAMGetCacheKeyList",
+    "DataRaptor/sfiEnergyCAMGetModifiedProductsCodes",
+    "DataRaptor/sfiEnergyCAMTransformCacheKeyList",
+    "DataRaptor/sfiEnergyCAMTransformProductsCodes"
+]

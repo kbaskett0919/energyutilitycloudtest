@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__IsActive__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__IsTest__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__Parameters__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__Priority__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__VlocityOpenInterfaceClassName__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__XOMEvent__c</name>
+    </fields>
+</CustomObjectTranslation>

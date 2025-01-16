@@ -1,0 +1,644 @@
+[
+    {
+        "FormulaExpression": "FILTER(LIST(Preferences), 'Category == \"ANALYSIS_MOOD\"')",
+        "FormulaResultPath": "AnalysisMood",
+        "FormulaSequence": 14,
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustom6788",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Preferences), 'Category == \"ANALYSIS_RENEWAL_POTENTIAL\"')",
+        "FormulaResultPath": "AnalysisRenewalPotential",
+        "FormulaSequence": 16,
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustom4299",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Preferences), 'Category == \"ANALYSIS_UPSELL_POTENTIAL\"')",
+        "FormulaResultPath": "AnalysisUpsellPotential",
+        "FormulaSequence": 15,
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustom6199",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Preferences), 'Category == \"CUSTOMER_SATISFACTION_COST\"')",
+        "FormulaResultPath": "CustomerSatisfactionCost",
+        "FormulaSequence": 8,
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustom5454",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Preferences), 'Category == \"CUSTOMER_SATISFACTION_COVERAGE\"')",
+        "FormulaResultPath": "CustomerSatisfactionCoverage",
+        "FormulaSequence": 10,
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustom8990",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Preferences), 'Category == \"CUSTOMER_SATISFACTION_MAINTENANCE\"')",
+        "FormulaResultPath": "CustomerSatisfactionMaintenance",
+        "FormulaSequence": 12,
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustom1094",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Preferences), 'Category == \"CUSTOMER_SATISFACTION_RELIABILITY\"')",
+        "FormulaResultPath": "CustomerSatisfactionReliability",
+        "FormulaSequence": 9,
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustom3610",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Preferences), 'Category == \"CUSTOMER_SATISFACTION_SERVICE\"')",
+        "FormulaResultPath": "CustomerSatisfactionService",
+        "FormulaSequence": 11,
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustom5357",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Preferences), 'Category == \"CUSTOMER_SATISFACTION_USAGE_CHARGES\"')",
+        "FormulaResultPath": "CustomerSatisfactionUsageCharges",
+        "FormulaSequence": 13,
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustom4449",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Preferences), 'Category == \"DNC_FROM\"')",
+        "FormulaResultPath": "DNCFrom",
+        "FormulaSequence": 4,
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustoma1V3h000000mBriEAEItem2",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Preferences), 'Category == \"DNC_TO\"')",
+        "FormulaResultPath": "DNCTo",
+        "FormulaSequence": 5,
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustoma1V3h000000mBriEAEItem1",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Preferences), 'Category == \"PRODUCT_INTERESTS\"')",
+        "FormulaResultPath": "ProductInterests",
+        "FormulaSequence": 17,
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustom7774",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Preferences), 'Category == \"PURCHASE_CRITERIA_COST\"')",
+        "FormulaResultPath": "PurchaseCriteriaCost",
+        "FormulaSequence": 2,
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustoma1V3h000000mBriEAEItem4",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Preferences), 'Category == \"PURCHASE_CRITERIA_FAMILY_FRIENDLY\"')",
+        "FormulaResultPath": "PurchaseCriteriaFamilyFriendly",
+        "FormulaSequence": 1,
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustoma1V3h000000mBriEAEItem0",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Preferences), 'Category == \"PURCHASE_CRITERIA_INSURANCE\"')",
+        "FormulaResultPath": "PurchaseCriteriaInsurance",
+        "FormulaSequence": 7,
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustom3489",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Preferences), 'Category == \"PURCHASE_CRITERIA_RENEWABLE_ENERGY\"')",
+        "FormulaResultPath": "PurchaseCriteriaRenewableEnergy",
+        "FormulaSequence": 3,
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustoma1V3h000000mBriEAEItem3",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Preferences), 'Category == \"PURCHASE_CRITERIA_SERVICE_AVAILABILITY\"')",
+        "FormulaResultPath": "PurchaseCriteriaServiceAvailability",
+        "FormulaSequence": 6,
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustom6364",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustom3216",
+        "InputFieldName": "AnalysisMood",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AccountPref:AnalysisMood",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustom7817",
+        "InputFieldName": "AnalysisRenewalPotential",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AccountPref:AnalysisRenewalPotential",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustom3052",
+        "InputFieldName": "AnalysisUpsellPotential",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AccountPref:AnalysisUpsellPotential",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustom7047",
+        "InputFieldName": "CustomerSatisfactionCost",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AccountPref:CustomerSatisfactionCost",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustom9196",
+        "InputFieldName": "CustomerSatisfactionCoverage",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AccountPref:CustomerSatisfactionCoverage",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustom7989",
+        "InputFieldName": "CustomerSatisfactionMaintenance",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AccountPref:CustomerSatisfactionMaintenance",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustom1872",
+        "InputFieldName": "CustomerSatisfactionReliability",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AccountPref:CustomerSatisfactionReliability",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustom397",
+        "InputFieldName": "CustomerSatisfactionService",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AccountPref:CustomerSatisfactionService",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustom2442",
+        "InputFieldName": "CustomerSatisfactionUsageCharges",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AccountPref:CustomerSatisfactionUsageCharges",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustom90",
+        "InputFieldName": "ProductInterests",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AccountPref:ProductInterests",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustoma1V3h000000mBriEAEItem7",
+        "InputFieldName": "PurchaseCriteriaCost",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AccountPref:PurchaseCriteriaCost",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustoma1V3h000000mBriEAEItem11",
+        "InputFieldName": "PurchaseCriteriaFamilyFriendly",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AccountPref:PurchaseCriteriaFamilyFriendly",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustom6487",
+        "InputFieldName": "PurchaseCriteriaInsurance",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AccountPref:PurchaseCriteriaInsurance",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustoma1V3h000000mBriEAEItem12",
+        "InputFieldName": "PurchaseCriteriaRenewableEnergy",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AccountPref:PurchaseCriteriaRenewableEnergy",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformExistingProfileAttributeCategoryCustom1480",
+        "InputFieldName": "PurchaseCriteriaServiceAvailability",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformExistingProfileAttributeCategory",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformExistingProfileAttributeCategory",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformExistingProfileAttributeCategory",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AccountPref:PurchaseCriteriaServiceAvailability",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

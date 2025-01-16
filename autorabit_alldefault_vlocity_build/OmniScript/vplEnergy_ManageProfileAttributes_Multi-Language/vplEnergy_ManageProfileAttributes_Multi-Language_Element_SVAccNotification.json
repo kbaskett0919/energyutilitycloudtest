@@ -1,0 +1,49 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SVAccNotification",
+    "OmniProcessId": {
+        "Name": "vplEnergyManageProfileAttributes",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/vplEnergy/ManageProfileAttributes/Multi-Language",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "AnalysisMood": "=%AccountPref:AnalysisMood:AttrValue%",
+            "AnalysisRenewalPotential": "=%AccountPref:AnalysisRenewalPotential:AttrValue%",
+            "AnalysisUpsellPotential": "=%AccountPref:AnalysisUpsellPotential:AttrValue%",
+            "CustomerSatisfactionCost": "=%AccountPref:CustomerSatisfactionCost:AttrValue%",
+            "CustomerSatisfactionCoverage": "=%AccountPref:CustomerSatisfactionCoverage:AttrValue%",
+            "CustomerSatisfactionMaintenance": "=%AccountPref:CustomerSatisfactionMaintenance:AttrValue%",
+            "CustomerSatisfactionReliability": "=%AccountPref:CustomerSatisfactionReliability:AttrValue%",
+            "CustomerSatisfactionService": "=%AccountPref:CustomerSatisfactionService:AttrValue%",
+            "CustomerSatisfactionUsageCharges": "=%AccountPref:CustomerSatisfactionUsageCharges:AttrValue%",
+            "ProductInterestValues": "=%ProductInterest:ProductInterestsValues%",
+            "PurchaseCriteriaCost": "=%AccountPref:PurchaseCriteriaCost:AttrValue%",
+            "PurchaseCriteriaFamilyFriendly": "=%AccountPref:PurchaseCriteriaFamilyFriendly:AttrValue%",
+            "PurchaseCriteriaInsurance": "=%AccountPref:PurchaseCriteriaInsurance:AttrValue%",
+            "PurchaseCriteriaRenewableEnergy": "=%AccountPref:PurchaseCriteriaRenewableEnergy:AttrValue%",
+            "PurchaseCriteriaServiceAvailability": "=%AccountPref:PurchaseCriteriaServiceAvailability:AttrValue%",
+            "TotalAttrAssignCount": "=%AccountNotificationPreference:TotalNotification%"
+        },
+        "label": null,
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/vplEnergy/ManageProfileAttributes/Multi-Language/SVAccNotification"
+}

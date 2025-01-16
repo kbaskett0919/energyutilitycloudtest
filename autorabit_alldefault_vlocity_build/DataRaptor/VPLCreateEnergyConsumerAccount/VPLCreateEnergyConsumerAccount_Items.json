@@ -1,0 +1,799 @@
+[
+    {
+        "FormulaExpression": "IF(%CustomerSelection:NewCustomer% == 'No', %CustomerSelection:GetCustomer-Block:ContactName%, CONCAT(%CustomerSelection:NewCustomerDetails:CustomerFirstName%,' ', %CustomerSelection:NewCustomerDetails:CustomerLastName%))",
+        "FormulaResultPath": "AccountName",
+        "FormulaSequence": 1,
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom4885",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(%CustomerSelection:NewCustomer% == 'No', %CustomerSelection:GetCustomer-Block:ContactPhone%, %CustomerSelection:NewCustomerDetails:CustomerPhone%)",
+        "FormulaResultPath": "Phone",
+        "FormulaSequence": 7,
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom8953",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(OR(%BillingPreferences:MailingAddres% == 'DifferentAddress', %BillingPreferences:MailingAddresss% == 'DifferentAddress'),%BillingPreferences:MailingCity%, %SelectPremises:ServiceLocation-Block:PremCity%)",
+        "FormulaResultPath": "FML_MailingCity",
+        "FormulaSequence": 3,
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom9397",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(OR(%BillingPreferences:MailingAddres% == 'DifferentAddress', %BillingPreferences:MailingAddresss% == 'DifferentAddress'),%BillingPreferences:MailingCountry%, %SelectPremises:ServiceLocation-Block:PremCountry%)",
+        "FormulaResultPath": "FML_MailingCountry",
+        "FormulaSequence": 5,
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom1808",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(OR(%BillingPreferences:MailingAddres% == 'DifferentAddress', %BillingPreferences:MailingAddresss% == 'DifferentAddress'),%BillingPreferences:MailingState%, %SelectPremises:ServiceLocation-Block:PremState%)",
+        "FormulaResultPath": "FML_MailingState",
+        "FormulaSequence": 4,
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom4903",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(OR(%BillingPreferences:MailingAddres% == 'DifferentAddress', %BillingPreferences:MailingAddresss% == 'DifferentAddress'),%BillingPreferences:MailingStreet%, %SelectPremises:ServiceLocation-Block:PremiseStreetAddress%)",
+        "FormulaResultPath": "FML_MailingStreet",
+        "FormulaSequence": 2,
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom2053",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(OR(%BillingPreferences:MailingAddres% == 'DifferentAddress', %BillingPreferences:MailingAddresss% == 'DifferentAddress'),%BillingPreferences:MailingZipCode%, %SelectPremises:ServiceLocation-Block:PremPostalCode%)",
+        "FormulaResultPath": "FML_MailingPostalCode",
+        "FormulaSequence": 6,
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom8810",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom6136",
+        "InputFieldName": "BillingPreferences:APaymentType",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__AccountPaymentType__c",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom9037",
+        "InputFieldName": "CustomerSelection:BillingDetails:BillCycle",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__BillCycle__c",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom9804",
+        "InputFieldName": "CustomerSelection:BillingDetails:BillDeliveryMethod",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__BillDeliveryMethod__c",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom6139",
+        "InputFieldName": "CustomerSelection:BillingDetails:BillFormat",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__BillFormat__c",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom9538",
+        "InputFieldName": "CustomerSelection:BillingDetails:BillFrequency",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__BillFrequency__c",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom8156",
+        "InputFieldName": "CustomerSelection:BillingDetails:NumberOfBills",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__BillNumberOfCopies__c",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom1202",
+        "InputFieldName": "CustomerSelection:BillingDetails:BillingEmailAddress",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__BillingEmailAddress__c",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom743",
+        "InputFieldName": "CustomerSelection:NewCustomerDetails:CustomerClass",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__CustomerClass__c",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom9558",
+        "InputFieldName": "SelectPremises:ServiceLocation-Block:PremId",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__PremisesId__c",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom177",
+        "InputFieldName": "DRId_Contact",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__PrimaryContactId__c",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "Active",
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom4436",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__Status__c",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom5141",
+        "InputFieldName": "CustomerSelection:TaxDetails:ExemptionEndDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__TaxExemptionEndDate__c",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom4858",
+        "InputFieldName": "CustomerSelection:TaxDetails:ExemptionPercentage",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__TaxExemptionPercentage__c",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom2928",
+        "InputFieldName": "CustomerSelection:TaxDetails:ExemptionStartDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__TaxExemptionStartDate__c",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom4347",
+        "InputFieldName": "CustomerSelection:TaxDetails:TaxExemption",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__TaxExemptionType__c",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom7511",
+        "InputFieldName": "CustomerSelection:NewCustomerDetails:TaxId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__TaxID__c",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom9384",
+        "InputFieldName": "CustomerSelection:TaxDetails:TaxIds",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__TaxID__c",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom9992",
+        "InputFieldName": "CustomerSelection:BillingDetails:BillingCity",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "BillingCity",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom8364",
+        "InputFieldName": "CustomerSelection:BillingDetails:BillingCountry",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "BillingCountry",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom8516",
+        "InputFieldName": "CustomerSelection:BillingDetails:BillingPostalCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "BillingPostalCode",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom4693",
+        "InputFieldName": "CustomerSelection:BillingDetails:BillingState",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "BillingState",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom3316",
+        "InputFieldName": "CustomerSelection:BillingDetails:BillingStreet",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "BillingStreet",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom6333",
+        "InputFieldName": "CustomerSelection:NewCustomerDetails:Description",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Description",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom6182",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom8264",
+        "InputFieldName": "CustomerSelection:NewCustomerDetails:Industry",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Industry",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom3086",
+        "InputFieldName": "AccountName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Name",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom2900",
+        "InputFieldName": "Phone",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Phone",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "Consumer",
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom4504",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LookupByFieldName": "DeveloperName",
+        "LookupObjectName": "RecordType",
+        "LookupReturnedFieldName": "Id",
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "RecordTypeId",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom5358",
+        "InputFieldName": "FML_MailingCity",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ShippingCity",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom3784",
+        "InputFieldName": "FML_MailingCountry",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ShippingCountry",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom7792",
+        "InputFieldName": "FML_MailingPostalCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ShippingPostalCode",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom757",
+        "InputFieldName": "FML_MailingState",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ShippingState",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom4563",
+        "InputFieldName": "FML_MailingStreet",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ShippingStreet",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateEnergyConsumerAccountCustom3862",
+        "InputFieldName": "CustomerSelection:NewCustomerDetails:Website",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateEnergyConsumerAccount",
+        "OmniDataTransformationId": {
+            "Name": "VPLCreateEnergyConsumerAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLCreateEnergyConsumerAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Website",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

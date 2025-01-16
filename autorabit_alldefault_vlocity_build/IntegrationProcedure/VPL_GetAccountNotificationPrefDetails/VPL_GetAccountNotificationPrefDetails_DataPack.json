@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "VPL_GetAccountNotificationPrefDetails_SampleInput.json",
+    "Description": "This VIP extracts account Notification Preferences",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VPL-GetAccountNotificationPrefDetails",
+    "OmniProcessElement": [
+        "VPL_GetAccountNotificationPrefDetails_Element_FetchAccount.json",
+        "VPL_GetAccountNotificationPrefDetails_Element_DRExtractAccountPreferences.json",
+        "VPL_GetAccountNotificationPrefDetails_Element_DRTransformAccPrefAttr.json",
+        "VPL_GetAccountNotificationPrefDetails_Element_SVAccountPreferenceDetails.json",
+        "VPL_GetAccountNotificationPrefDetails_Element_GetAccountPreferenceDetailsResponse.json"
+    ],
+    "OmniProcessKey": "VPL_GetAccountNotificationPrefDetails",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VPL_GetAccountNotificationPrefDetails_PropertySetConfig.json",
+    "SubType": "GetAccountNotificationPrefDetails",
+    "Type": "VPL",
+    "UniqueName": "VPL_GetAccountNotificationPrefDetails_Procedure_3",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VPL/GetAccountNotificationPrefDetails/Procedure"
+}

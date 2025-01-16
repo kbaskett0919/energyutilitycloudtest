@@ -1,0 +1,1744 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "[\n    {\n      \"Pricing\": {\n        \"TotalPrice\": 84.511,\n        \"TotalUnitcharges\": 80.248,\n        \"TotalStandingCharges\": 4.263\n      },\n\"isAddedToCart\":false,\n      \"cartContextKey\": \"b2559cbf1e64217a71a5dbbc5a2f920d\",\n      \"childProducts\": [\n        {\n          \"productCode\": \"CC_UNIT_RATE_GREEN1\",\n          \"Name\": \"Unit Rate\",\n          \"UnitPrice\": 0.1433\n        },\n        {\n          \"productCode\": \"CC_STANDING_CHARGES_GREEN1\",\n          \"Name\": \"Standing Charges\",\n          \"UnitPrice\": 0.1421\n        }\n      ],\n      \"productCode\": \"PD_GREEN_ENERGY_TARIFF1\",\n      \"productName\": \"Green Energy Tariff1\",\n      \"currencyCode\": \"USD\",\n\"TotalUnitPrice\":80.248,\n       \"TotalPrice\":84.511,\n\"url\":\"https://lookaftermybills.com/wp-content/uploads/2019/08/electricity-gas-01.png\"\n    },\n{\n      \"\": \"\",\n      \"TotalElectricityPrice\":1232,\n\"TotalGasPrice\":1000,\n\"TotalPrice\":2232,\n      \"isAddedToCart\": false,\n      \"cartContextKey\": \"f73a60e222b151daeb54b0a7d6797de1\",\n      \"childProducts\": [\n        {\n          \"CurrencyCode\": \"GBP\",\n          \"childProducts\": [\n            {\n              \"productCode\": \"CC_UNIT_RATE_ELEC_DUAL\",\n              \"Name\": \"Unit Rate\",\n              \"SubType\": \"Unit Rate\",\n              \"UnitPrice\": 0.1134\n            },\n            {\n              \"productCode\": \"CC_STANDING_CHARGES_ELEC_DUAL\",\n              \"Name\": \"Standing Charges\",\n              \"SubType\": \"Standing Charges\",\n              \"UnitPrice\": 0.101\n            }\n          ],\n          \"productCode\": \"PD_ELECTRICITY_DUALFUEL\",\n          \"Name\": \"Electricity\",\n          \"SubType\": \"Electricity\"\n        },\n        {\n          \"CurrencyCode\": \"GBP\",\n          \"childProducts\": [\n            {\n              \"productCode\": \"CC_UNIT_RATE_GAS_DUAL\",\n              \"Name\": \"Unit Rate\",\n              \"SubType\": \"Unit Rate\",\n              \"UnitPrice\": 0.1445\n            },\n            {\n              \"productCode\": \"CC_STANDING_CHARGES_GAS_DUAL\",\n              \"Name\": \"Standing Charges\",\n              \"SubType\": \"Standing Charges\",\n              \"UnitPrice\": 0.177\n            }\n          ],\n          \"productCode\": \"PD_GAS_DUALFUEL\",\n          \"Name\": \"Gas\",\n          \"SubType\": \"Gas\"\n        }\n      ],\n      \"productCode\": \"PD_DUAL_FUEL_ELEC_GAS_TARIFF\",\n      \"productName\": \"Dual Fuel (Elec & Gas) Tariff\",\n      \"currencyCode\": \"GBP\",\n      \"SubType\": \"Dual Fuel\",\n      \"Description\": \"Dual Fuel (Elec & Gas) product description\",\n      \"url\": \"/servlet/servlet.FileDownload?file=0154x000000FfuKAAS\",\n      \"default\": true,\n      \"ProductCode\": \"PD_DUAL_FUEL_ELEC_GAS_TARIFF\"\n    },\n    {\n      \"\": \"\",\n      \"isAddedToCart\": false,\n   \"TotalElectricityPrice\":1232,\n\"TotalGasPrice\":2000,\n\"TotalPrice\":3232,\n      \"cartContextKey\": \"4c36dd16732cb9ae72ab7438850fd585\",\n      \"childProducts\": [\n        {\n          \"CurrencyCode\": \"GBP\",\n          \"childProducts\": [\n            {\n              \"productCode\": \"CC_UNIT_RATE_GAS_DUAL\",\n              \"Name\": \"Unit Rate\",\n              \"UnitPrice\": 0.1445,\n              \"SubType\": \"Unit Rate\"\n            },\n            {\n              \"productCode\": \"CC_STANDING_CHARGES_GAS_DUAL\",\n              \"Name\": \"Standing Charges\",\n              \"UnitPrice\": 0.177,\n              \"SubType\": \"Standing Charges\"\n            }\n          ],\n          \"productCode\": \"PD_GAS_DUALFUEL\",\n          \"Name\": \"Gas\",\n          \"SubType\": \"Gas\"\n        },\n        {\n          \"CurrencyCode\": \"GBP\",\n          \"childProducts\": [\n            {\n              \"productCode\": \"CC_UNIT_RATE_ELEC_DUAL\",\n              \"Name\": \"Unit Rate\",\n              \"UnitPrice\": 0.1134,\n              \"SubType\": \"Unit Rate\"\n            },\n            {\n              \"productCode\": \"CC_STANDING_CHARGES_ELEC_DUAL\",\n              \"Name\": \"Standing Charges\",\n              \"UnitPrice\": 0.101,\n              \"SubType\": \"Standing Charges\"\n            }\n          ],\n          \"productCode\": \"PD_ELECTRICITY_DUALFUEL\",\n          \"Name\": \"Electricity\",\n          \"SubType\": \"Electricity\"\n        }\n      ],\n      \"productCode\": \"PD_DUAL_FUEL_ELEC_GAS_TARIFF1\",\n      \"productName\": \"Dual Fuel (Elec & Gas) Tariff1\",\n      \"currencyCode\": \"GBP\",\n      \"SubType\": \"Dual Fuel\"\n    }\n  ]\n",
+            "dsDelay": 0,
+            "resultVar": ""
+        }
+    },
+    "dynamicCanvasWidth": {
+        "type": "desktop"
+    },
+    "enableLwc": true,
+    "events": [
+        {
+            "actionData": {
+                "card": "{card}",
+                "stateAction": {
+                    "eventName": "offer",
+                    "extraParams": {
+                        "selectedRecords": "{selectedoffers.0}"
+                    },
+                    "hasExtraParams": true,
+                    "id": "flex-action-1617881164958",
+                    "message": "selected",
+                    "subType": "PubSub",
+                    "type": "Event"
+                }
+            },
+            "channelname": "VEEConsumerCommodityOfferDetails",
+            "displayLabel": "selectcards_selectedoffers",
+            "element": "action",
+            "eventLabel": "custom event",
+            "eventname": "selectcards_selectedoffers",
+            "eventtype": "event",
+            "key": "event-0",
+            "recordIndex": "0"
+        },
+        {
+            "actionData": {
+                "card": "{card}",
+                "stateAction": {
+                    "elementId": "showOffers",
+                    "extraParams": {
+                        "Baskets": "{records}",
+                        "selectedCartContextKey": "{action.selectedRecords.cartContextKey}",
+                        "selectedCommodityOffer": "{action.selectedRecords}",
+                        "selectedProductCode": "{action.selectedRecords.productCode}"
+                    },
+                    "hasExtraParams": true,
+                    "id": "flex-action-1617881366675",
+                    "type": "updateOmniScript"
+                }
+            },
+            "channelname": "offer",
+            "displayLabel": "offer:selected",
+            "element": "action",
+            "eventLabel": "pubsub",
+            "eventname": "selected",
+            "eventtype": "pubsub",
+            "key": "event-1",
+            "recordIndex": "0"
+        }
+    ],
+    "isFlex": true,
+    "isRepeatable": true,
+    "lwc": {
+        "DeveloperName": "cfVEEConsumerCommodityOfferChild_3_CME_EU_Express",
+        "Id": "0Rb4x0000016aSuCAI",
+        "ManageableState": "unmanaged",
+        "MasterLabel": "cfVEEConsumerCommodityOfferChild_3_CME_EU_Express",
+        "NamespacePrefix": "c"
+    },
+    "multilanguageSupport": true,
+    "osSupport": true,
+    "selectableField": "isAddedToCart",
+    "selectableMode": "Single",
+    "selectedCardsLabel": "selectedoffers",
+    "states": [
+        {
+            "actions": [
+            ],
+            "blankCardState": false,
+            "childCards": [
+                "VEEConsumerOfferChildProducts",
+                "VEEConsumerDuelFuelChildProducts",
+                "VEEConsumer2LevelDuelFuelChildProducts"
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "action",
+                                            "elementLabel": "Block-0-clone-0-Block-0-clone-0-Action-1",
+                                            "key": "element_element_element_block_0_0_block_0_0_action_0_0",
+                                            "name": "Action",
+                                            "parentElementKey": "element_element_block_0_0_block_0_0",
+                                            "property": {
+                                                "card": "{card}",
+                                                "iconSize": "small",
+                                                "record": "{record}",
+                                                "stateAction": {
+                                                    "Web Page": {
+                                                        "targetName": "/apex"
+                                                    },
+                                                    "displayName": "",
+                                                    "eventName": "selectcards",
+                                                    "id": "flex-action-1634037769530",
+                                                    "openUrlIn": "Current Window",
+                                                    "selectedCardsLabel": "selectedoffers",
+                                                    "targetType": "Web Page",
+                                                    "type": "cardAction",
+                                                    "vlocityIcon": "standard-default"
+                                                },
+                                                "stateObj": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "12",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "slds-text-align_center slds-p-around_x-small ",
+                                                "container": {
+                                                    "class": ""
+                                                },
+                                                "elementStyleProperties": {
+                                                    "iconSize": "small"
+                                                },
+                                                "inlineStyle": "",
+                                                "margin": [
+                                                ],
+                                                "padding": [
+                                                    {
+                                                        "label": "around:x-small",
+                                                        "size": "x-small",
+                                                        "type": "around"
+                                                    }
+                                                ],
+                                                "size": {
+                                                    "default": "12",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_12-of-12 ",
+                                                "style": "     : #ccc 1px solid; \n         ",
+                                                "text": {
+                                                    "align": "center",
+                                                    "color": ""
+                                                }
+                                            },
+                                            "styleObjects": [
+                                                {
+                                                    "conditionString": "",
+                                                    "conditions": "default",
+                                                    "draggable": false,
+                                                    "key": 0,
+                                                    "label": "Default",
+                                                    "name": "Default",
+                                                    "styleObject": {
+                                                        "background": {
+                                                            "color": "",
+                                                            "image": "",
+                                                            "position": "",
+                                                            "repeat": "",
+                                                            "size": ""
+                                                        },
+                                                        "border": {
+                                                            "color": "",
+                                                            "radius": "",
+                                                            "style": "",
+                                                            "type": "",
+                                                            "width": ""
+                                                        },
+                                                        "class": "slds-text-align_center slds-p-around_x-small ",
+                                                        "container": {
+                                                            "class": ""
+                                                        },
+                                                        "elementStyleProperties": {
+                                                            "iconSize": "small"
+                                                        },
+                                                        "inlineStyle": "",
+                                                        "margin": [
+                                                        ],
+                                                        "padding": [
+                                                            {
+                                                                "label": "around:x-small",
+                                                                "size": "x-small",
+                                                                "type": "around"
+                                                            }
+                                                        ],
+                                                        "size": {
+                                                            "default": "12",
+                                                            "isResponsive": false
+                                                        },
+                                                        "sizeClass": "slds-size_12-of-12 ",
+                                                        "style": "     : #ccc 1px solid; \n         ",
+                                                        "text": {
+                                                            "align": "center",
+                                                            "color": ""
+                                                        }
+                                                    }
+                                                }
+                                            ],
+                                            "type": "element"
+                                        }
+                                    ],
+                                    "class": "slds-col ",
+                                    "element": "block",
+                                    "elementLabel": "Block-0-clone-0-Block-0-clone-0",
+                                    "key": "element_element_block_0_0_block_0_0",
+                                    "name": "Block",
+                                    "parentElementKey": "element_block_0_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "collapsedByDefault": false,
+                                        "collapsible": false,
+                                        "label": "Block",
+                                        "record": "{record}"
+                                    },
+                                    "size": {
+                                        "default": "1",
+                                        "isResponsive": true,
+                                        "large": "1",
+                                        "medium": "1",
+                                        "small": "1"
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "slds-p-around_x-small ",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                        },
+                                        "inlineStyle": "",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                            {
+                                                "label": "around:x-small",
+                                                "size": "x-small",
+                                                "type": "around"
+                                            }
+                                        ],
+                                        "size": {
+                                            "default": "1",
+                                            "isResponsive": true,
+                                            "large": "1",
+                                            "medium": "1",
+                                            "small": "1"
+                                        },
+                                        "sizeClass": "slds-large-size_1-of-12 slds-medium-size_1-of-12 slds-small-size_1-of-12 slds-size_1-of-12 ",
+                                        "style": "     : #ccc 1px solid; \n         ",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
+                                    },
+                                    "type": "block"
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "children": [
+                                                {
+                                                    "class": "slds-col ",
+                                                    "element": "flexImg",
+                                                    "elementLabel": "Block-1-Block-2-Block-2-Image-0",
+                                                    "key": "element_element_element_element_block_0_0_block_1_0_block_0_0_flexImg_0_0",
+                                                    "name": "Image",
+                                                    "parentElementKey": "element_element_element_block_0_0_block_1_0_block_0_0",
+                                                    "property": {
+                                                        "card": "{card}",
+                                                        "data-conditions": {
+                                                            "group": [
+                                                                {
+                                                                    "field": "url",
+                                                                    "id": "state-new-condition-0",
+                                                                    "operator": "!=",
+                                                                    "type": "custom",
+                                                                    "value": "undefined"
+                                                                }
+                                                            ],
+                                                            "id": "state-condition-object",
+                                                            "isParent": true
+                                                        },
+                                                        "extraclass": "slds-align_absolute-center",
+                                                        "imgHeight": "100px",
+                                                        "imgWidth": "100px",
+                                                        "record": "{record}",
+                                                        "size": "",
+                                                        "stateImg": {
+                                                            "alternativeText": "product image",
+                                                            "imgsrc": "{url}"
+                                                        }
+                                                    },
+                                                    "size": {
+                                                        "default": "12",
+                                                        "isResponsive": false
+                                                    },
+                                                    "stateIndex": 0,
+                                                    "styleObject": {
+                                                        "sizeClass": "slds-size_12-of-12"
+                                                    },
+                                                    "type": "element"
+                                                },
+                                                {
+                                                    "class": "slds-col ",
+                                                    "element": "flexImg",
+                                                    "elementLabel": "Block-1-Block-2-Block-2-Image-0-clone-0",
+                                                    "key": "element_element_element_element_block_0_0_block_1_0_block_0_0_flexImg_1_0",
+                                                    "name": "Image",
+                                                    "parentElementKey": "element_element_element_block_0_0_block_1_0_block_0_0",
+                                                    "property": {
+                                                        "card": "{card}",
+                                                        "data-conditions": {
+                                                            "group": [
+                                                                {
+                                                                    "field": "url",
+                                                                    "id": "state-new-condition-0",
+                                                                    "operator": "==",
+                                                                    "type": "custom",
+                                                                    "value": "undefined"
+                                                                }
+                                                            ],
+                                                            "id": "state-condition-object",
+                                                            "isParent": true
+                                                        },
+                                                        "extraclass": "slds-align_absolute-center",
+                                                        "imgHeight": "100px",
+                                                        "imgWidth": "100px",
+                                                        "record": "{record}",
+                                                        "size": "",
+                                                        "stateImg": {
+                                                            "alternativeText": "product image",
+                                                            "imgsrc": "/resource/VEEDigitalSalesStaticResources/VEEDigitalSalesStaticResources/VEEDefaultProductImage.png"
+                                                        }
+                                                    },
+                                                    "size": {
+                                                        "default": "12",
+                                                        "isResponsive": false
+                                                    },
+                                                    "stateIndex": 0,
+                                                    "styleObject": {
+                                                        "sizeClass": "slds-size_12-of-12"
+                                                    },
+                                                    "type": "element"
+                                                }
+                                            ],
+                                            "class": "slds-col ",
+                                            "element": "block",
+                                            "elementLabel": "Block-1-Block-2-Block-2",
+                                            "key": "element_element_element_block_0_0_block_1_0_block_0_0",
+                                            "name": "Block",
+                                            "parentElementKey": "element_element_block_0_0_block_1_0",
+                                            "property": {
+                                                "card": "{card}",
+                                                "collapsedByDefault": false,
+                                                "collapsible": false,
+                                                "label": "Block",
+                                                "record": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "12",
+                                                "isResponsive": true,
+                                                "large": "2",
+                                                "medium": "12",
+                                                "small": "12"
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "slds-p-around_x-small ",
+                                                "container": {
+                                                    "class": ""
+                                                },
+                                                "elementStyleProperties": {
+                                                },
+                                                "inlineStyle": "",
+                                                "margin": [
+                                                ],
+                                                "padding": [
+                                                    {
+                                                        "label": "around:x-small",
+                                                        "size": "x-small",
+                                                        "type": "around"
+                                                    }
+                                                ],
+                                                "size": {
+                                                    "default": "12",
+                                                    "isResponsive": true,
+                                                    "large": "2",
+                                                    "medium": "12",
+                                                    "small": "12"
+                                                },
+                                                "sizeClass": "slds-large-size_2-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
+                                                "style": "     : #ccc 1px solid; \n         ",
+                                                "text": {
+                                                    "align": "",
+                                                    "color": ""
+                                                }
+                                            },
+                                            "type": "block"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "class": "slds-col ",
+                                                    "element": "outputField",
+                                                    "elementLabel": "Block-1-Block-2-Field-1",
+                                                    "key": "element_element_element_element_block_0_0_block_1_0_block_1_0_outputField_0_0",
+                                                    "name": "Field",
+                                                    "parentElementKey": "element_element_element_block_0_0_block_1_0_block_1_0",
+                                                    "property": {
+                                                        "card": "{card}",
+                                                        "fieldName": "productName",
+                                                        "label": "",
+                                                        "placeholder": "output",
+                                                        "record": "{record}",
+                                                        "styles": {
+                                                            "label": {
+                                                                "fontSize": ""
+                                                            },
+                                                            "value": {
+                                                                "fontSize": "large"
+                                                            }
+                                                        },
+                                                        "type": "text"
+                                                    },
+                                                    "size": {
+                                                        "default": "12",
+                                                        "isResponsive": false
+                                                    },
+                                                    "stateIndex": 0,
+                                                    "styleObject": {
+                                                        "background": {
+                                                            "color": "",
+                                                            "image": "",
+                                                            "position": "",
+                                                            "repeat": "",
+                                                            "size": ""
+                                                        },
+                                                        "border": {
+                                                            "color": "",
+                                                            "radius": "",
+                                                            "style": "",
+                                                            "type": "",
+                                                            "width": ""
+                                                        },
+                                                        "class": "",
+                                                        "container": {
+                                                            "class": ""
+                                                        },
+                                                        "elementStyleProperties": {
+                                                            "styles": {
+                                                                "label": {
+                                                                    "fontSize": ""
+                                                                },
+                                                                "value": {
+                                                                    "fontSize": "large"
+                                                                }
+                                                            }
+                                                        },
+                                                        "inlineStyle": "font-weight:bold;",
+                                                        "margin": [
+                                                        ],
+                                                        "padding": [
+                                                        ],
+                                                        "size": {
+                                                            "default": "12",
+                                                            "isResponsive": false
+                                                        },
+                                                        "sizeClass": "slds-size_12-of-12 ",
+                                                        "style": "             font-weight:bold;",
+                                                        "text": {
+                                                            "align": "",
+                                                            "color": ""
+                                                        }
+                                                    },
+                                                    "type": "element"
+                                                },
+                                                {
+                                                    "class": "slds-col ",
+                                                    "element": "outputField",
+                                                    "elementLabel": "Block-1-Block-2-Field-2",
+                                                    "key": "element_element_element_element_block_0_0_block_1_0_block_1_0_outputField_1_0",
+                                                    "name": "Field",
+                                                    "parentElementKey": "element_element_element_block_0_0_block_1_0_block_1_0",
+                                                    "property": {
+                                                        "card": "{card}",
+                                                        "currency": "USD",
+                                                        "fieldName": "description",
+                                                        "label": "",
+                                                        "locale": "en-US",
+                                                        "placeholder": "",
+                                                        "record": "{record}",
+                                                        "styles": {
+                                                            "label": {
+                                                                "fontSize": ""
+                                                            },
+                                                            "value": {
+                                                                "fontSize": ""
+                                                            }
+                                                        },
+                                                        "type": "text"
+                                                    },
+                                                    "size": {
+                                                        "default": "12",
+                                                        "isResponsive": false
+                                                    },
+                                                    "stateIndex": 0,
+                                                    "styleObject": {
+                                                        "background": {
+                                                            "color": "",
+                                                            "image": "",
+                                                            "position": "",
+                                                            "repeat": "",
+                                                            "size": ""
+                                                        },
+                                                        "border": {
+                                                            "color": "",
+                                                            "radius": "",
+                                                            "style": "",
+                                                            "type": "",
+                                                            "width": ""
+                                                        },
+                                                        "class": "",
+                                                        "container": {
+                                                            "class": ""
+                                                        },
+                                                        "elementStyleProperties": {
+                                                            "styles": {
+                                                                "label": {
+                                                                    "fontSize": ""
+                                                                },
+                                                                "value": {
+                                                                    "fontSize": ""
+                                                                }
+                                                            }
+                                                        },
+                                                        "inlineStyle": "",
+                                                        "margin": [
+                                                        ],
+                                                        "padding": [
+                                                        ],
+                                                        "size": {
+                                                            "default": "12",
+                                                            "isResponsive": false
+                                                        },
+                                                        "sizeClass": "slds-size_12-of-12 ",
+                                                        "style": "     : #ccc 1px solid; \n         ",
+                                                        "text": {
+                                                            "align": "",
+                                                            "color": ""
+                                                        }
+                                                    },
+                                                    "styleObjects": [
+                                                        {
+                                                            "conditionString": "",
+                                                            "conditions": "default",
+                                                            "draggable": false,
+                                                            "key": 0,
+                                                            "label": "Default",
+                                                            "name": "Default",
+                                                            "styleObject": {
+                                                                "background": {
+                                                                    "color": "",
+                                                                    "image": "",
+                                                                    "position": "",
+                                                                    "repeat": "",
+                                                                    "size": ""
+                                                                },
+                                                                "border": {
+                                                                    "color": "",
+                                                                    "radius": "",
+                                                                    "style": "",
+                                                                    "type": "",
+                                                                    "width": ""
+                                                                },
+                                                                "class": "",
+                                                                "container": {
+                                                                    "class": ""
+                                                                },
+                                                                "elementStyleProperties": {
+                                                                    "styles": {
+                                                                        "label": {
+                                                                            "fontSize": ""
+                                                                        },
+                                                                        "value": {
+                                                                            "fontSize": ""
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "inlineStyle": "",
+                                                                "margin": [
+                                                                ],
+                                                                "padding": [
+                                                                ],
+                                                                "size": {
+                                                                    "default": "12",
+                                                                    "isResponsive": false
+                                                                },
+                                                                "sizeClass": "slds-size_12-of-12 ",
+                                                                "style": "     : #ccc 1px solid; \n         ",
+                                                                "text": {
+                                                                    "align": "",
+                                                                    "color": ""
+                                                                }
+                                                            }
+                                                        }
+                                                    ],
+                                                    "type": "element"
+                                                }
+                                            ],
+                                            "class": "slds-col ",
+                                            "element": "block",
+                                            "elementLabel": "Block-1-Block-2-Block-0",
+                                            "key": "element_element_element_block_0_0_block_1_0_block_1_0",
+                                            "name": "Block",
+                                            "parentElementKey": "element_element_block_0_0_block_1_0",
+                                            "property": {
+                                                "card": "{card}",
+                                                "collapsedByDefault": false,
+                                                "collapsible": false,
+                                                "label": "Block",
+                                                "record": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "12",
+                                                "isResponsive": true,
+                                                "large": "7",
+                                                "medium": "12",
+                                                "small": "12"
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "slds-p-around_x-small ",
+                                                "container": {
+                                                    "class": ""
+                                                },
+                                                "elementStyleProperties": {
+                                                },
+                                                "inlineStyle": "",
+                                                "margin": [
+                                                ],
+                                                "padding": [
+                                                    {
+                                                        "label": "around:x-small",
+                                                        "size": "x-small",
+                                                        "type": "around"
+                                                    }
+                                                ],
+                                                "size": {
+                                                    "default": "12",
+                                                    "isResponsive": true,
+                                                    "large": "7",
+                                                    "medium": "12",
+                                                    "small": "12"
+                                                },
+                                                "sizeClass": "slds-large-size_7-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
+                                                "style": "     : #ccc 1px solid; \n         ",
+                                                "text": {
+                                                    "align": "",
+                                                    "color": ""
+                                                }
+                                            },
+                                            "styleObjects": [
+                                                {
+                                                    "conditionString": "",
+                                                    "conditions": "default",
+                                                    "draggable": false,
+                                                    "key": 0,
+                                                    "label": "Default",
+                                                    "name": "Default",
+                                                    "styleObject": {
+                                                        "background": {
+                                                            "color": "",
+                                                            "image": "",
+                                                            "position": "",
+                                                            "repeat": "",
+                                                            "size": ""
+                                                        },
+                                                        "border": {
+                                                            "color": "",
+                                                            "radius": "",
+                                                            "style": "",
+                                                            "type": "",
+                                                            "width": ""
+                                                        },
+                                                        "class": "slds-p-around_x-small ",
+                                                        "container": {
+                                                            "class": ""
+                                                        },
+                                                        "elementStyleProperties": {
+                                                        },
+                                                        "inlineStyle": "",
+                                                        "margin": [
+                                                        ],
+                                                        "padding": [
+                                                            {
+                                                                "label": "around:x-small",
+                                                                "size": "x-small",
+                                                                "type": "around"
+                                                            }
+                                                        ],
+                                                        "size": {
+                                                            "default": "12",
+                                                            "isResponsive": true,
+                                                            "large": "7",
+                                                            "medium": "12",
+                                                            "small": "12"
+                                                        },
+                                                        "sizeClass": "slds-large-size_7-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
+                                                        "style": "     : #ccc 1px solid; \n         ",
+                                                        "text": {
+                                                            "align": "",
+                                                            "color": ""
+                                                        }
+                                                    }
+                                                }
+                                            ],
+                                            "type": "block"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "children": [
+                                                        {
+                                                            "class": "slds-col ",
+                                                            "element": "customLwc",
+                                                            "elementLabel": "Block-1-Block-2-Block-0-clone-0-Block-2-Custom LWC-0",
+                                                            "key": "element_element_element_element_element_block_0_0_block_1_0_block_2_0_block_1_0_customLwc_0_0",
+                                                            "name": "Custom LWC",
+                                                            "parentElementKey": "element_element_element_element_block_0_0_block_1_0_block_2_0_block_1_0",
+                                                            "property": {
+                                                                "currency": "{currencyCode}",
+                                                                "customlwcname": "outputField",
+                                                                "fieldName": "totalPrice",
+                                                                "label": "",
+                                                                "record": "{record}",
+                                                                "type": "currency"
+                                                            },
+                                                            "size": {
+                                                                "default": "12",
+                                                                "isResponsive": true,
+                                                                "large": "12",
+                                                                "medium": "12",
+                                                                "small": "12"
+                                                            },
+                                                            "stateIndex": 0,
+                                                            "styleObject": {
+                                                                "background": {
+                                                                    "color": "",
+                                                                    "image": "",
+                                                                    "position": "",
+                                                                    "repeat": "",
+                                                                    "size": ""
+                                                                },
+                                                                "border": {
+                                                                    "color": "",
+                                                                    "radius": "",
+                                                                    "style": "",
+                                                                    "type": "",
+                                                                    "width": ""
+                                                                },
+                                                                "class": "",
+                                                                "container": {
+                                                                    "class": ""
+                                                                },
+                                                                "elementStyleProperties": {
+                                                                },
+                                                                "inlineStyle": "font-size:large;font-weight:bold;",
+                                                                "margin": [
+                                                                ],
+                                                                "padding": [
+                                                                ],
+                                                                "size": {
+                                                                    "default": "12",
+                                                                    "isResponsive": true,
+                                                                    "large": "12",
+                                                                    "medium": "12",
+                                                                    "small": "12"
+                                                                },
+                                                                "sizeClass": "slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
+                                                                "style": "     : #ccc 1px solid; \n         font-size:large;font-weight:bold;",
+                                                                "text": {
+                                                                    "align": "",
+                                                                    "color": ""
+                                                                }
+                                                            },
+                                                            "type": "element"
+                                                        },
+                                                        {
+                                                            "class": "slds-col ",
+                                                            "element": "outputField",
+                                                            "elementLabel": "Block-1-Block-2-Block-0-clone-0-Block-2-Text-1",
+                                                            "key": "element_element_element_element_element_block_0_0_block_1_0_block_2_0_block_1_0_outputField_1_0",
+                                                            "name": "Text",
+                                                            "parentElementKey": "element_element_element_element_block_0_0_block_1_0_block_2_0_block_1_0",
+                                                            "property": {
+                                                                "card": "{card}",
+                                                                "mergeField": "%3Cdiv%3E%7BLabel.VEEUsageCost%7D%3C/div%3E",
+                                                                "record": "{record}"
+                                                            },
+                                                            "size": {
+                                                                "default": "12",
+                                                                "isResponsive": false
+                                                            },
+                                                            "stateIndex": 0,
+                                                            "styleObject": {
+                                                                "background": {
+                                                                    "color": "",
+                                                                    "image": "",
+                                                                    "position": "",
+                                                                    "repeat": "",
+                                                                    "size": ""
+                                                                },
+                                                                "border": {
+                                                                    "color": "",
+                                                                    "radius": "",
+                                                                    "style": "",
+                                                                    "type": "",
+                                                                    "width": ""
+                                                                },
+                                                                "class": "",
+                                                                "container": {
+                                                                    "class": ""
+                                                                },
+                                                                "elementStyleProperties": {
+                                                                },
+                                                                "inlineStyle": "font-weight:bold; font-size:0.75rem;",
+                                                                "margin": [
+                                                                ],
+                                                                "padding": [
+                                                                ],
+                                                                "size": {
+                                                                    "default": "12",
+                                                                    "isResponsive": false
+                                                                },
+                                                                "sizeClass": "slds-size_12-of-12 ",
+                                                                "style": "     : #ccc 1px solid; \n        color:#6D6B70; font-weight:bold; font-size:0.75rem;",
+                                                                "text": {
+                                                                    "align": "",
+                                                                    "color": "#6D6B70"
+                                                                }
+                                                            },
+                                                            "type": "text"
+                                                        },
+                                                        {
+                                                            "class": "slds-col ",
+                                                            "element": "action",
+                                                            "elementLabel": "Block-1-Block-2-Block-0-clone-0-Block-2-Action-2",
+                                                            "key": "element_element_element_element_element_block_0_0_block_1_0_block_2_0_block_1_0_action_2_0",
+                                                            "name": "Action",
+                                                            "parentElementKey": "element_element_element_element_block_0_0_block_1_0_block_2_0_block_1_0",
+                                                            "property": {
+                                                                "buttonVariant": "neutral",
+                                                                "card": "{card}",
+                                                                "data-conditions": {
+                                                                    "group": [
+                                                                        {
+                                                                            "field": "subType",
+                                                                            "id": "state-new-condition-0",
+                                                                            "operator": "!=",
+                                                                            "type": "custom",
+                                                                            "value": "Dual Fuel"
+                                                                        }
+                                                                    ],
+                                                                    "id": "state-condition-object",
+                                                                    "isParent": true
+                                                                },
+                                                                "displayAsButton": false,
+                                                                "hideActionIcon": true,
+                                                                "record": "{record}",
+                                                                "stateAction": {
+                                                                    "cardName": "VEEConsumerOfferChildProducts",
+                                                                    "cardNode": "{record}",
+                                                                    "displayName": "{Label.VEEViewDetails}",
+                                                                    "flyoutLwc": "VEEConsumerOfferChildProducts",
+                                                                    "flyoutType": "childCard",
+                                                                    "id": "flex-action-1616061837080",
+                                                                    "openFlyoutIn": "Modal",
+                                                                    "openUrlIn": "Current Window",
+                                                                    "type": "Flyout",
+                                                                    "vlocityIcon": "standard-default"
+                                                                },
+                                                                "stateObj": "{record}",
+                                                                "styles": {
+                                                                    "label": {
+                                                                        "color": "#005FB2"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "size": {
+                                                                "default": "12",
+                                                                "isResponsive": false
+                                                            },
+                                                            "stateIndex": 0,
+                                                            "styleObject": {
+                                                                "background": {
+                                                                    "color": "",
+                                                                    "image": "",
+                                                                    "position": "",
+                                                                    "repeat": "",
+                                                                    "size": ""
+                                                                },
+                                                                "border": {
+                                                                    "color": "",
+                                                                    "radius": "",
+                                                                    "style": "",
+                                                                    "type": "",
+                                                                    "width": ""
+                                                                },
+                                                                "class": "slds-p-top_x-small ",
+                                                                "container": {
+                                                                    "class": ""
+                                                                },
+                                                                "elementStyleProperties": {
+                                                                    "styles": {
+                                                                        "label": {
+                                                                            "color": "#005FB2"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "inlineStyle": "",
+                                                                "margin": [
+                                                                ],
+                                                                "padding": [
+                                                                    {
+                                                                        "label": "top:x-small",
+                                                                        "size": "x-small",
+                                                                        "type": "top"
+                                                                    }
+                                                                ],
+                                                                "size": {
+                                                                    "default": "12",
+                                                                    "isResponsive": false
+                                                                },
+                                                                "sizeClass": "slds-size_12-of-12 ",
+                                                                "style": "     : #ccc 1px solid; \n         ",
+                                                                "text": {
+                                                                    "align": "",
+                                                                    "color": ""
+                                                                }
+                                                            },
+                                                            "type": "element"
+                                                        },
+                                                        {
+                                                            "class": "slds-col ",
+                                                            "element": "action",
+                                                            "elementLabel": "Block-1-Block-2-Block-0-clone-0-Block-2-Action-2-clone-0",
+                                                            "key": "element_element_element_element_element_block_0_0_block_1_0_block_2_0_block_1_0_action_3_0",
+                                                            "name": "Action",
+                                                            "parentElementKey": "element_element_element_element_block_0_0_block_1_0_block_2_0_block_1_0",
+                                                            "property": {
+                                                                "buttonVariant": "neutral",
+                                                                "card": "{card}",
+                                                                "data-conditions": {
+                                                                    "group": [
+                                                                        {
+                                                                            "field": "childProducts[0].childProducts",
+                                                                            "id": "state-new-condition-9",
+                                                                            "operator": "!=",
+                                                                            "type": "custom",
+                                                                            "value": "undefined"
+                                                                        },
+                                                                        {
+                                                                            "field": "subType",
+                                                                            "id": "state-new-condition-14",
+                                                                            "logicalOperator": "&&",
+                                                                            "operator": "==",
+                                                                            "type": "custom",
+                                                                            "value": "Dual Fuel"
+                                                                        }
+                                                                    ],
+                                                                    "id": "state-condition-object",
+                                                                    "isParent": true
+                                                                },
+                                                                "displayAsButton": false,
+                                                                "hideActionIcon": true,
+                                                                "record": "{record}",
+                                                                "stateAction": {
+                                                                    "cardName": "VEEConsumerDuelFuelChildProducts",
+                                                                    "cardNode": "{record}",
+                                                                    "displayName": "{Label.VEEViewDetails}",
+                                                                    "flyoutLwc": "VEEConsumerDuelFuelChildProducts",
+                                                                    "flyoutType": "childCard",
+                                                                    "hasExtraParams": false,
+                                                                    "id": "flex-action-1616061852949",
+                                                                    "openFlyoutIn": "Modal",
+                                                                    "openUrlIn": "Current Window",
+                                                                    "type": "Flyout",
+                                                                    "vlocityIcon": "standard-default"
+                                                                },
+                                                                "stateObj": "{record}",
+                                                                "styles": {
+                                                                    "label": {
+                                                                        "color": "#005FB2"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "size": {
+                                                                "default": "12",
+                                                                "isResponsive": false
+                                                            },
+                                                            "stateIndex": 0,
+                                                            "styleObject": {
+                                                                "background": {
+                                                                    "color": "",
+                                                                    "image": "",
+                                                                    "position": "",
+                                                                    "repeat": "",
+                                                                    "size": ""
+                                                                },
+                                                                "border": {
+                                                                    "color": "",
+                                                                    "radius": "",
+                                                                    "style": "",
+                                                                    "type": "",
+                                                                    "width": ""
+                                                                },
+                                                                "class": "slds-p-top_x-small ",
+                                                                "container": {
+                                                                    "class": ""
+                                                                },
+                                                                "elementStyleProperties": {
+                                                                    "styles": {
+                                                                        "label": {
+                                                                            "color": "#005FB2"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "inlineStyle": "",
+                                                                "margin": [
+                                                                ],
+                                                                "padding": [
+                                                                    {
+                                                                        "label": "top:x-small",
+                                                                        "size": "x-small",
+                                                                        "type": "top"
+                                                                    }
+                                                                ],
+                                                                "size": {
+                                                                    "default": "12",
+                                                                    "isResponsive": false
+                                                                },
+                                                                "sizeClass": "slds-size_12-of-12 ",
+                                                                "style": "     : #ccc 1px solid; \n         ",
+                                                                "text": {
+                                                                    "align": "",
+                                                                    "color": ""
+                                                                }
+                                                            },
+                                                            "type": "element"
+                                                        },
+                                                        {
+                                                            "class": "slds-col ",
+                                                            "element": "action",
+                                                            "elementLabel": "Block-1-Block-2-Block-0-clone-0-Block-2-Action-3-clone-0",
+                                                            "key": "element_element_element_element_element_block_0_0_block_1_0_block_2_0_block_1_0_action_4_0",
+                                                            "name": "Action",
+                                                            "parentElementKey": "element_element_element_element_block_0_0_block_1_0_block_2_0_block_1_0",
+                                                            "property": {
+                                                                "buttonVariant": "neutral",
+                                                                "card": "{card}",
+                                                                "data-conditions": {
+                                                                    "group": [
+                                                                        {
+                                                                            "field": "childProducts[0].childProducts",
+                                                                            "id": "state-new-condition-9",
+                                                                            "operator": "==",
+                                                                            "type": "custom",
+                                                                            "value": "undefined"
+                                                                        },
+                                                                        {
+                                                                            "field": "subType",
+                                                                            "id": "state-new-condition-14",
+                                                                            "logicalOperator": "&&",
+                                                                            "operator": "==",
+                                                                            "type": "custom",
+                                                                            "value": "Dual Fuel"
+                                                                        }
+                                                                    ],
+                                                                    "id": "state-condition-object",
+                                                                    "isParent": true
+                                                                },
+                                                                "displayAsButton": false,
+                                                                "hideActionIcon": true,
+                                                                "record": "{record}",
+                                                                "stateAction": {
+                                                                    "cardName": "VEEConsumer2LevelDuelFuelChildProducts",
+                                                                    "cardNode": "{record}",
+                                                                    "displayName": "{Label.VEEViewDetails}",
+                                                                    "flyoutLwc": "VEEConsumer2LevelDuelFuelChildProducts",
+                                                                    "flyoutParams": {
+                                                                        "TotalElectricityPrice": "{totalElectricityPrice}",
+                                                                        "TotalGasPrice": "{totalGasPrice}"
+                                                                    },
+                                                                    "flyoutType": "childCard",
+                                                                    "hasExtraParams": true,
+                                                                    "id": "flex-action-1616061855497",
+                                                                    "openFlyoutIn": "Modal",
+                                                                    "openUrlIn": "Current Window",
+                                                                    "type": "Flyout",
+                                                                    "vlocityIcon": "standard-default"
+                                                                },
+                                                                "stateObj": "{record}",
+                                                                "styles": {
+                                                                    "label": {
+                                                                        "color": "#005FB2"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "size": {
+                                                                "default": "12",
+                                                                "isResponsive": false
+                                                            },
+                                                            "stateIndex": 0,
+                                                            "styleObject": {
+                                                                "background": {
+                                                                    "color": "",
+                                                                    "image": "",
+                                                                    "position": "",
+                                                                    "repeat": "",
+                                                                    "size": ""
+                                                                },
+                                                                "border": {
+                                                                    "color": "",
+                                                                    "radius": "",
+                                                                    "style": "",
+                                                                    "type": "",
+                                                                    "width": ""
+                                                                },
+                                                                "class": "slds-p-top_x-small ",
+                                                                "container": {
+                                                                    "class": ""
+                                                                },
+                                                                "elementStyleProperties": {
+                                                                    "styles": {
+                                                                        "label": {
+                                                                            "color": "#005FB2"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "inlineStyle": "",
+                                                                "margin": [
+                                                                ],
+                                                                "padding": [
+                                                                    {
+                                                                        "label": "top:x-small",
+                                                                        "size": "x-small",
+                                                                        "type": "top"
+                                                                    }
+                                                                ],
+                                                                "size": {
+                                                                    "default": "12",
+                                                                    "isResponsive": false
+                                                                },
+                                                                "sizeClass": "slds-size_12-of-12 ",
+                                                                "style": "     : #ccc 1px solid; \n         ",
+                                                                "text": {
+                                                                    "align": "",
+                                                                    "color": ""
+                                                                }
+                                                            },
+                                                            "type": "element"
+                                                        }
+                                                    ],
+                                                    "class": "slds-col ",
+                                                    "element": "block",
+                                                    "elementLabel": "Block-1-Block-2-Block-0-clone-0-Block-2",
+                                                    "key": "element_element_element_element_block_0_0_block_1_0_block_2_0_block_0_0",
+                                                    "name": "Block",
+                                                    "parentElementKey": "element_element_element_block_0_0_block_1_0_block_2_0",
+                                                    "property": {
+                                                        "card": "{card}",
+                                                        "collapsedByDefault": false,
+                                                        "collapsible": false,
+                                                        "label": "Block",
+                                                        "record": "{record}"
+                                                    },
+                                                    "size": {
+                                                        "default": "12",
+                                                        "isResponsive": true,
+                                                        "large": "12",
+                                                        "medium": "12",
+                                                        "small": "12"
+                                                    },
+                                                    "stateIndex": 0,
+                                                    "styleObject": {
+                                                        "background": {
+                                                            "color": "",
+                                                            "image": "",
+                                                            "position": "",
+                                                            "repeat": "",
+                                                            "size": ""
+                                                        },
+                                                        "border": {
+                                                            "color": "",
+                                                            "radius": "",
+                                                            "style": "",
+                                                            "type": "",
+                                                            "width": ""
+                                                        },
+                                                        "class": "slds-p-around_x-small ",
+                                                        "container": {
+                                                            "class": ""
+                                                        },
+                                                        "elementStyleProperties": {
+                                                        },
+                                                        "inlineStyle": "",
+                                                        "margin": [
+                                                        ],
+                                                        "padding": [
+                                                            {
+                                                                "label": "around:x-small",
+                                                                "size": "x-small",
+                                                                "type": "around"
+                                                            }
+                                                        ],
+                                                        "size": {
+                                                            "default": "12",
+                                                            "isResponsive": true,
+                                                            "large": "12",
+                                                            "medium": "12",
+                                                            "small": "12"
+                                                        },
+                                                        "sizeClass": "slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
+                                                        "style": "     : #ccc 1px solid; \n         ",
+                                                        "text": {
+                                                            "align": "",
+                                                            "color": ""
+                                                        }
+                                                    },
+                                                    "styleObjects": [
+                                                        {
+                                                            "conditionString": "",
+                                                            "conditions": "default",
+                                                            "draggable": false,
+                                                            "key": 0,
+                                                            "label": "Default",
+                                                            "name": "Default",
+                                                            "styleObject": {
+                                                                "background": {
+                                                                    "color": "",
+                                                                    "image": "",
+                                                                    "position": "",
+                                                                    "repeat": "",
+                                                                    "size": ""
+                                                                },
+                                                                "border": {
+                                                                    "color": "",
+                                                                    "radius": "",
+                                                                    "style": "",
+                                                                    "type": "",
+                                                                    "width": ""
+                                                                },
+                                                                "class": "slds-p-around_x-small ",
+                                                                "container": {
+                                                                    "class": ""
+                                                                },
+                                                                "elementStyleProperties": {
+                                                                },
+                                                                "inlineStyle": "",
+                                                                "margin": [
+                                                                ],
+                                                                "padding": [
+                                                                    {
+                                                                        "label": "around:x-small",
+                                                                        "size": "x-small",
+                                                                        "type": "around"
+                                                                    }
+                                                                ],
+                                                                "size": {
+                                                                    "default": "12",
+                                                                    "isResponsive": true,
+                                                                    "large": "12",
+                                                                    "medium": "12",
+                                                                    "small": "12"
+                                                                },
+                                                                "sizeClass": "slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
+                                                                "style": "     : #ccc 1px solid; \n         ",
+                                                                "text": {
+                                                                    "align": "",
+                                                                    "color": ""
+                                                                }
+                                                            }
+                                                        }
+                                                    ],
+                                                    "type": "block"
+                                                }
+                                            ],
+                                            "class": "slds-col ",
+                                            "element": "block",
+                                            "elementLabel": "Block-1-Block-2-Block-1",
+                                            "key": "element_element_element_block_0_0_block_1_0_block_2_0",
+                                            "name": "Block",
+                                            "parentElementKey": "element_element_block_0_0_block_1_0",
+                                            "property": {
+                                                "card": "{card}",
+                                                "collapsedByDefault": false,
+                                                "collapsible": false,
+                                                "label": "Block",
+                                                "record": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "12",
+                                                "isResponsive": true,
+                                                "large": "3",
+                                                "medium": "12",
+                                                "small": "12"
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "slds-p-around_x-small ",
+                                                "container": {
+                                                    "class": ""
+                                                },
+                                                "elementStyleProperties": {
+                                                },
+                                                "inlineStyle": "",
+                                                "margin": [
+                                                ],
+                                                "padding": [
+                                                    {
+                                                        "label": "around:x-small",
+                                                        "size": "x-small",
+                                                        "type": "around"
+                                                    }
+                                                ],
+                                                "size": {
+                                                    "default": "12",
+                                                    "isResponsive": true,
+                                                    "large": "3",
+                                                    "medium": "12",
+                                                    "small": "12"
+                                                },
+                                                "sizeClass": "slds-large-size_3-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
+                                                "style": "     : #ccc 1px solid; \n         ",
+                                                "text": {
+                                                    "align": "",
+                                                    "color": ""
+                                                }
+                                            },
+                                            "styleObjects": [
+                                                {
+                                                    "conditionString": "",
+                                                    "conditions": "default",
+                                                    "draggable": false,
+                                                    "key": 0,
+                                                    "label": "Default",
+                                                    "name": "Default",
+                                                    "styleObject": {
+                                                        "background": {
+                                                            "color": "",
+                                                            "image": "",
+                                                            "position": "",
+                                                            "repeat": "",
+                                                            "size": ""
+                                                        },
+                                                        "border": {
+                                                            "color": "",
+                                                            "radius": "",
+                                                            "style": "",
+                                                            "type": "",
+                                                            "width": ""
+                                                        },
+                                                        "class": "slds-p-around_x-small ",
+                                                        "container": {
+                                                            "class": ""
+                                                        },
+                                                        "elementStyleProperties": {
+                                                        },
+                                                        "inlineStyle": "",
+                                                        "margin": [
+                                                        ],
+                                                        "padding": [
+                                                            {
+                                                                "label": "around:x-small",
+                                                                "size": "x-small",
+                                                                "type": "around"
+                                                            }
+                                                        ],
+                                                        "size": {
+                                                            "default": "12",
+                                                            "isResponsive": true,
+                                                            "large": "3",
+                                                            "medium": "12",
+                                                            "small": "12"
+                                                        },
+                                                        "sizeClass": "slds-large-size_3-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
+                                                        "style": "     : #ccc 1px solid; \n         ",
+                                                        "text": {
+                                                            "align": "",
+                                                            "color": ""
+                                                        }
+                                                    }
+                                                }
+                                            ],
+                                            "type": "block"
+                                        }
+                                    ],
+                                    "class": "slds-col ",
+                                    "element": "block",
+                                    "elementLabel": "Block-1-Block-2",
+                                    "key": "element_element_block_0_0_block_1_0",
+                                    "name": "Block",
+                                    "parentElementKey": "element_block_0_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "collapsedByDefault": false,
+                                        "collapsible": false,
+                                        "label": "Block",
+                                        "record": "{record}"
+                                    },
+                                    "size": {
+                                        "default": "12",
+                                        "isResponsive": true,
+                                        "large": "11",
+                                        "medium": "12",
+                                        "small": "12"
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "slds-p-around_x-small ",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                        },
+                                        "inlineStyle": "",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                            {
+                                                "label": "around:x-small",
+                                                "size": "x-small",
+                                                "type": "around"
+                                            }
+                                        ],
+                                        "size": {
+                                            "default": "12",
+                                            "isResponsive": true,
+                                            "large": "11",
+                                            "medium": "12",
+                                            "small": "12"
+                                        },
+                                        "sizeClass": "slds-large-size_11-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
+                                        "style": "     : #ccc 1px solid; \n         ",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
+                                    },
+                                    "type": "block"
+                                }
+                            ],
+                            "class": "slds-col ",
+                            "element": "block",
+                            "elementLabel": "Block-0",
+                            "name": "Block",
+                            "property": {
+                                "card": "{card}",
+                                "collapsedByDefault": false,
+                                "collapsible": false,
+                                "label": "Block",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": true,
+                                "large": "12",
+                                "medium": "12",
+                                "small": "12"
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "background": {
+                                    "color": "",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "#cccccc",
+                                    "radius": "5px",
+                                    "style": "solid",
+                                    "type": [
+                                        "border_top",
+                                        "border_right",
+                                        "border_bottom",
+                                        "border_left"
+                                    ],
+                                    "width": "2px"
+                                },
+                                "class": "slds-border_top slds-border_right slds-border_bottom slds-border_left slds-p-around_x-small ",
+                                "container": {
+                                    "class": ""
+                                },
+                                "elementStyleProperties": {
+                                },
+                                "inlineStyle": "background: #FFFFFF;\nborder: 1px solid #ECEBEA;\nborder-radius: 4px;",
+                                "margin": [
+                                ],
+                                "padding": [
+                                    {
+                                        "label": "around:x-small",
+                                        "size": "x-small",
+                                        "type": "around"
+                                    }
+                                ],
+                                "size": {
+                                    "default": "12",
+                                    "isResponsive": true,
+                                    "large": "12",
+                                    "medium": "12",
+                                    "small": "12"
+                                },
+                                "sizeClass": "slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
+                                "style": "     border-top: #cccccc 2pxpx solid;border-right: #cccccc 2pxpx solid;border-bottom: #cccccc 2pxpx solid;border-left: #cccccc 2pxpx solid; \n    border-radius:5px;     background: #FFFFFF;\nborder: 1px solid #ECEBEA;\nborder-radius: 4px;",
+                                "text": {
+                                    "align": "",
+                                    "color": ""
+                                }
+                            },
+                            "type": "block"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "background": {
+                    "color": "",
+                    "image": "",
+                    "position": "",
+                    "repeat": "",
+                    "size": ""
+                },
+                "border": {
+                    "color": "",
+                    "radius": "",
+                    "style": "",
+                    "type": "",
+                    "width": ""
+                },
+                "class": "slds-p-around_x-small slds-m-bottom_x-small ",
+                "container": {
+                    "class": ""
+                },
+                "elementStyleProperties": {
+                },
+                "inlineStyle": "",
+                "margin": [
+                    {
+                        "label": "bottom:x-small",
+                        "size": "x-small",
+                        "type": "bottom"
+                    }
+                ],
+                "padding": [
+                    {
+                        "label": "around:x-small",
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": true,
+                    "large": "12",
+                    "medium": "12",
+                    "small": "12"
+                },
+                "sizeClass": "slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
+                "style": "     : #ccc 1px solid; \n         ",
+                "text": {
+                    "align": "",
+                    "color": ""
+                }
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "VEEConsumerCommodityOfferChild",
+    "xmlJson": [
+        {
+            "@attributes": {
+                "targets": "lightning__AppPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "name": "recordId",
+                        "type": "String"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "targets": "lightning__RecordPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                }
+            ]
+        }
+    ],
+    "xmlObject": {
+        "targetConfigs": "PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0icmVjb3JkSWQiIHR5cGU9IlN0cmluZyIvPgogICAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgICAgPHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX1JlY29yZFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==",
+        "targets": {
+            "target": [
+                "lightning__RecordPage",
+                "lightning__AppPage",
+                "lightning__HomePage"
+            ]
+        }
+    }
+}

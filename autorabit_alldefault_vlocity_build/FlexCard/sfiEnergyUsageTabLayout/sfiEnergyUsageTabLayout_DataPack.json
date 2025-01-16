@@ -1,0 +1,45 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 1,
+                    "name": "recordId",
+                    "val": "0011Q00002ZRgo5QAD"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "Id": "{recordId}"
+                },
+                "ipMethod": "sfiEnergyConsole_GetUsageInfo",
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": "",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "Flex card used to display Usage info as a Tab.",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyUsageTabLayout",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyUsageTabLayout/CME_E_U/5/1643882883143",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyUsageTabLayout.json",
+    "SampleDataSourceResponse": "{\"activeTab\":\"Electricity\",\"premiseList\":[{\"LoopBlockIterationIndex\":1,\"DRGetPremiseInfoStatus\":true,\"PremiseId\":\"a401Q000001DJi8QAG\",\"PremisePlan\":\"Green Energy\",\"PremiseIdentifier\":\"101234\",\"LoopBlockIterationStatus\":true,\"PremiseAddress\":\"77 Whitehill Rd, Fort Kinnaird, Edinburgh, Scotland, EH15 5HR\"}],\"config\":{\"tabConfig\":[{\"value\":\"Electricity\",\"label\":\"sfiEnergyConsoleElectricity\"},{\"value\":\"Gas\",\"label\":\"sfiEnergyConsoleGas\"}],\"defaultTab\":\"Electricity\",\"defaultDimention\":\"EnergyActualConsumption\",\"defaultFrequency\":\"EnergyLastMnth\",\"chartConfig\":{\"backgroundFill\":false,\"xAxesGridLinesColor\":\"rgba(220,220,220, .2)\",\"legendPosition\":\"bottom\",\"chartType\":\"bar\",\"borderWidth\":\"0\",\"yAxesGridLinesLineWidth\":2,\"legendAlign\":\"center\",\"xAxesMaxBarThickness\":50,\"backgroundColor\":\"rgb(8, 167, 223)\",\"borderColor\":\"rgb(255, 255, 255)\"}},\"filterList\":[{\"value\":\"EnergyLast5Yrs\",\"label\":\"sfiEnergyConsoleLast5years\"},{\"value\":\"EnergyLast12Mnts\",\"label\":\"sfiEnergyConsoleLast12Months\"},{\"value\":\"EnergyThisYr\",\"label\":\"sfiEnergyConsoleThisYear\"},{\"value\":\"EnergyLastYr\",\"label\":\"sfiEnergyConsoleLastYear\"},{\"value\":\"EnergyThisMnth\",\"label\":\"sfiEnergyConsoleThisMonth\"},{\"value\":\"EnergyLastMnth\",\"label\":\"sfiEnergyConsoleLastMonth\"},{\"value\":\"EnergyTodayInHrs\",\"label\":\"sfiEnergyConsoleTodayInHours\"},{\"value\":\"EnergyTodayInMnts\",\"label\":\"sfiEnergyConsoleTodayInMinutes\"},{\"value\":\"EnergyYesterdayInMnts\",\"label\":\"sfiEnergyConsoleTodayYesterdayInMinutes\"},{\"value\":\"EnergyCustomInMnts\",\"label\":\"sfiEnergyConsoleCustomDateInMinutes\"},{\"value\":\"EnergyCustomInHrs\",\"label\":\"sfiEnergyConsoleCustomDateInHours\"}],\"tabConfig\":[{\"value\":\"Electricity\",\"label\":\"sfiEnergyConsoleElectricity\"},{\"value\":\"Gas\",\"label\":\"sfiEnergyConsoleGas\"}],\"dimensionList\":[{\"value\":\"EnergyActualConsumption\",\"label\":\"sfiEnergyConsoleActualConsumption\"},{\"value\":\"EnergyEstCost\",\"label\":\"sfiEnergyConsoleEstimatedCost\"}],\"isAccountFetched\":true,\"chartConfig\":{\"backgroundFill\":false,\"xAxesGridLinesColor\":\"rgba(220,220,220, .2)\",\"legendPosition\":\"bottom\",\"chartType\":\"bar\",\"borderWidth\":\"0\",\"yAxesGridLinesLineWidth\":2,\"legendAlign\":\"center\",\"xAxesMaxBarThickness\":50,\"backgroundColor\":\"rgb(8, 167, 223)\",\"borderColor\":\"rgb(255, 255, 255)\"},\"accountId\":\"0011Q00002ZRgo5QAD\",\"numPremises\":1}",
+    "StylingConfiguration": "",
+    "UniqueName": "sfiEnergyUsageTabLayout_CME_E_U_5",
+    "VersionNumber": 5,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyUsageTabLayout"
+}

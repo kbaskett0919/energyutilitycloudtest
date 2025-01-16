@@ -1,0 +1,598 @@
+{
+    "AvailableProductMaxRowSelection": "Multiple",
+    "AvialbleProductsColumns": [
+        {
+            "fieldName": "ProdName",
+            "label": "Product Name"
+        },
+        {
+            "fieldName": "ProdFamily",
+            "label": "Product Family"
+        },
+        {
+            "fieldName": "ProdCategory",
+            "label": "Service Type"
+        },
+        {
+            "fieldName": "ProdDescription",
+            "label": "Description"
+        }
+    ],
+    "BillingAccountId": "0013h00000JOFrxAAH",
+    "BillingAccountRecTypeId": "0123h000000jV4IAAU",
+    "BillingAccountRecordType": "Billing",
+    "BillingPreferences": {
+        "APaymentType": "Postpaid",
+        "AutoPay": "No",
+        "BillNotification": "No",
+        "MailingAddres": null,
+        "MailingAddresss": null,
+        "MailingCity": null,
+        "MailingCountry": null,
+        "MailingState": null,
+        "MailingStreet": null,
+        "MailingZipCode": null,
+        "OffersPromotions": "Yes",
+        "OutageNotification": "Yes",
+        "PaymentNotification": "Yes",
+        "WorkOrderNotification": "Yes"
+    },
+    "BusinessAccountId": "0013h00000JOFrsAAH",
+    "BusinessAccountRecTypeId": "0123h000000jV4HAAU",
+    "BusinessAccountRecordType": "Business",
+    "Confirmation": null,
+    "CustomerName": "MAcky Morris",
+    "CustomerName_Fml1": "MAcky Morris",
+    "CustomerName_Fml2": " ",
+    "CustomerSelection": {
+        "AccountType": "Business",
+        "BillingDetails": {
+        },
+        "ConNameError": null,
+        "ExistingAccount-Block": null,
+        "GetCustomer-Block": null,
+        "MoveInDate": "2020-09-01T18:30:00.000Z",
+        "MoveInDateFormula": true,
+        "MoveInMessage": true,
+        "MsgInvalidExistingAccount": null,
+        "MsgInvalidParentAccount": true,
+        "NewAccountNeeded": null,
+        "NewCustomer": "Yes",
+        "NewCustomerDetails": {
+            "BusinessAccountName": "Macky morris",
+            "CustomerDOB": "08/05/2020",
+            "CustomerEmail": "test@tt.co",
+            "CustomerFirstName": "MAcky",
+            "CustomerLastName": "Morris",
+            "CustomerPhone": "0767887878",
+            "DOBFormula": true,
+            "DOBMsg": true,
+            "DriverLicense": null,
+            "IdentificationType": "SSN",
+            "SSN": "213123123",
+            "TaxId": null
+        },
+        "ParentAccount-Block": {
+            "ParentAccount": "Daren drools",
+            "ParentAccountId": "0013h00000JOCjuAAH",
+            "ParentAccountName": "Daren drools"
+        },
+        "TaxDetails": {
+            "ExemptionEndDate": null,
+            "ExemptionPercentage": null,
+            "ExemptionStartDate": null
+        }
+    },
+    "DRId_Account": "0013h00000JOFs7AAH",
+    "DRId_Contact": "0033h00000DWfYLAA1",
+    "Error": {
+    },
+    "IntegrationType": "JSON",
+    "MuleCloseDate": "2020-9-1",
+    "MuleMoveInDate": "2020-9-2",
+    "NewAccountName": "MAcky Morris",
+    "OmniscriptType": "Move_In",
+    "PreConfirm": {
+        "Confirm": "Yes"
+    },
+    "PremiseServicePointsListReadOnlyColumns": [
+        {
+            "fieldName": "ServicePointName",
+            "label": "Service Point Name"
+        },
+        {
+            "fieldName": "ServiceType",
+            "label": "Service Type"
+        }
+    ],
+    "ProductListReadOnlyColumns": [
+        {
+            "fieldName": "ServicePointName",
+            "label": "Service Point Name"
+        },
+        {
+            "fieldName": "ProdCategory",
+            "label": "Service Type"
+        },
+        {
+            "fieldName": "ProdName",
+            "label": "Product Name"
+        },
+        {
+            "fieldName": "ProdDescription",
+            "label": "Description"
+        }
+    ],
+    "Products": {
+        "ElectricityProduct": [
+            {
+                "Id": "01t3h000001Ck7WAAS",
+                "Name": "Day/Night Tariff",
+                "ProductCode": "001"
+            },
+            {
+                "Id": "01t3h000001Ck7gAAC",
+                "Name": "Night Display Tariff",
+                "ProductCode": "003"
+            },
+            {
+                "Id": "01t3h000001Ck7bAAC",
+                "Name": "High Voltage Tariff",
+                "ProductCode": "002"
+            }
+        ],
+        "GasProduct": [
+            {
+                "Id": "01t3h000001Ck7lAAC",
+                "Name": "Turn Off Order",
+                "ProductCode": "004"
+            },
+            {
+                "Id": "01t3h000001Ck7qAAC",
+                "Name": "Regulated Gas Rate",
+                "ProductCode": "REG-GAS-1"
+            }
+        ],
+        "WaterProduct": [
+            {
+                "Id": "01t3h000001Ck7vAAC",
+                "Name": "Water",
+                "ProductCode": "water"
+            }
+        ]
+    },
+    "RecordType": [
+        {
+            "Id": "0123h000000jV4JAAU",
+            "Name": "Service"
+        }
+    ],
+    "SObjectName": "Account",
+    "SelectPremises": {
+        "NewAccountPremises": null,
+        "PremiseError": null,
+        "ServiceLocation-Block": {
+            "PremCity": "Kolkata",
+            "PremCountry": "India",
+            "PremId": "a3X3h0000006OviEAE",
+            "PremPostalCode": "700059",
+            "PremState": "West Bengal",
+            "PremiseName": "Coventry premise",
+            "PremiseStreetAddress": "Akshara Lotus Garden Coevtry",
+            "ServiceLocation": "Coventry premise"
+        }
+    },
+    "SelectService": [
+        {
+            "InventoryItemId": "a2O3h000000hrDaEAI",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ServicePointId": "a4P3h00000059wGEAQ",
+            "ServicePointName": "Coventry Electricity",
+            "ServiceType": "Electricity",
+            "Status": "Connected"
+        },
+        {
+            "InventoryItemId": "a2O3h000000hrDVEAY",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ServicePointId": "a4P3h00000059wGEAQ",
+            "ServicePointName": "Coventry Electricity",
+            "ServiceType": "Electricity",
+            "Status": "Connected"
+        },
+        {
+            "InventoryItemId": "a2O3h000000hrDQEAY",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ServicePointId": "a4P3h00000059wGEAQ",
+            "ServicePointName": "Coventry Electricity",
+            "ServiceType": "Electricity",
+            "Status": "Connected"
+        },
+        {
+            "InventoryItemId": "a2O3h000000hrDaEAI",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ServicePointId": "a4P3h00000059wHEAQ",
+            "ServicePointName": "Coventry Water",
+            "ServiceType": "Water",
+            "Status": "Connected"
+        },
+        {
+            "InventoryItemId": "a2O3h000000hrDVEAY",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ServicePointId": "a4P3h00000059wHEAQ",
+            "ServicePointName": "Coventry Water",
+            "ServiceType": "Water",
+            "Status": "Connected"
+        },
+        {
+            "InventoryItemId": "a2O3h000000hrDQEAY",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ServicePointId": "a4P3h00000059wHEAQ",
+            "ServicePointName": "Coventry Water",
+            "ServiceType": "Water",
+            "Status": "Connected"
+        },
+        {
+            "InventoryItemId": "a2O3h000000hrDaEAI",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ServicePointId": "a4P3h00000059waEAA",
+            "ServicePointName": "Coventry Gas",
+            "ServiceType": "Gas",
+            "Status": "Connected"
+        },
+        {
+            "InventoryItemId": "a2O3h000000hrDVEAY",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ServicePointId": "a4P3h00000059waEAA",
+            "ServicePointName": "Coventry Gas",
+            "ServiceType": "Gas",
+            "Status": "Connected"
+        },
+        {
+            "InventoryItemId": "a2O3h000000hrDQEAY",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ServicePointId": "a4P3h00000059waEAA",
+            "ServicePointName": "Coventry Gas",
+            "ServiceType": "Gas",
+            "Status": "Connected"
+        }
+    ],
+    "SelectServicePoints": [
+        {
+            "InventoryItemId": "a2O3h000000hrDaEAI",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ServicePointId": "a4P3h00000059wGEAQ",
+            "ServicePointName": "Coventry Electricity",
+            "ServiceType": "Electricity",
+            "Status": "Connected"
+        },
+        {
+            "InventoryItemId": "a2O3h000000hrDVEAY",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ServicePointId": "a4P3h00000059wGEAQ",
+            "ServicePointName": "Coventry Electricity",
+            "ServiceType": "Electricity",
+            "Status": "Connected"
+        },
+        {
+            "InventoryItemId": "a2O3h000000hrDQEAY",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ServicePointId": "a4P3h00000059wGEAQ",
+            "ServicePointName": "Coventry Electricity",
+            "ServiceType": "Electricity",
+            "Status": "Connected"
+        },
+        {
+            "InventoryItemId": "a2O3h000000hrDaEAI",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ServicePointId": "a4P3h00000059wHEAQ",
+            "ServicePointName": "Coventry Water",
+            "ServiceType": "Water",
+            "Status": "Connected"
+        },
+        {
+            "InventoryItemId": "a2O3h000000hrDVEAY",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ServicePointId": "a4P3h00000059wHEAQ",
+            "ServicePointName": "Coventry Water",
+            "ServiceType": "Water",
+            "Status": "Connected"
+        },
+        {
+            "InventoryItemId": "a2O3h000000hrDQEAY",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ServicePointId": "a4P3h00000059wHEAQ",
+            "ServicePointName": "Coventry Water",
+            "ServiceType": "Water",
+            "Status": "Connected"
+        },
+        {
+            "InventoryItemId": "a2O3h000000hrDaEAI",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ServicePointId": "a4P3h00000059waEAA",
+            "ServicePointName": "Coventry Gas",
+            "ServiceType": "Gas",
+            "Status": "Connected"
+        },
+        {
+            "InventoryItemId": "a2O3h000000hrDVEAY",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ServicePointId": "a4P3h00000059waEAA",
+            "ServicePointName": "Coventry Gas",
+            "ServiceType": "Gas",
+            "Status": "Connected"
+        },
+        {
+            "InventoryItemId": "a2O3h000000hrDQEAY",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ServicePointId": "a4P3h00000059waEAA",
+            "ServicePointName": "Coventry Gas",
+            "ServiceType": "Gas",
+            "Status": "Connected"
+        }
+    ],
+    "SelectTypeofService": {
+        "SelectServicePoint": null,
+        "SelectServicePoints": [
+            {
+                "InventoryItemId": "a2O3h000000hrDaEAI",
+                "PremiseAddress": "Coventry premise",
+                "Premises": "a3X3h0000006OviEAE",
+                "PremisesId": "a3X3h0000006OviEAE",
+                "ProductId": "01t3h000001Ck7gAAC",
+                "ServicePointId": "a4P3h00000059wGEAQ",
+                "ServicePointName": "Coventry Electricity",
+                "ServiceType": "Electricity",
+                "Status": "Connected",
+                "originalIndex": "0"
+            },
+            {
+                "InventoryItemId": "a2O3h000000hrDVEAY",
+                "PremiseAddress": "Coventry premise",
+                "Premises": "a3X3h0000006OviEAE",
+                "PremisesId": "a3X3h0000006OviEAE",
+                "ProductId": "01t3h000001Ck7bAAC",
+                "ServicePointId": "a4P3h00000059wGEAQ",
+                "ServicePointName": "Coventry Electricity",
+                "ServiceType": "Electricity",
+                "Status": "Connected",
+                "originalIndex": "1"
+            },
+            {
+                "InventoryItemId": "a2O3h000000hrDaEAI",
+                "PremiseAddress": "Coventry premise",
+                "Premises": "a3X3h0000006OviEAE",
+                "PremisesId": "a3X3h0000006OviEAE",
+                "ProductId": "01t3h000001Ck7vAAC",
+                "ServicePointId": "a4P3h00000059wHEAQ",
+                "ServicePointName": "Coventry Water",
+                "ServiceType": "Water",
+                "Status": "Connected",
+                "originalIndex": "3"
+            },
+            {
+                "InventoryItemId": "a2O3h000000hrDaEAI",
+                "PremiseAddress": "Coventry premise",
+                "Premises": "a3X3h0000006OviEAE",
+                "PremisesId": "a3X3h0000006OviEAE",
+                "ProductId": "01t3h000001Ck7lAAC",
+                "ServicePointId": "a4P3h00000059waEAA",
+                "ServicePointName": "Coventry Gas",
+                "ServiceType": "Gas",
+                "Status": "Connected",
+                "originalIndex": "6"
+            }
+        ],
+        "ServicePointsFormula": 4
+    },
+    "SelectedPremises": "a3X3h0000006OviEAE",
+    "SelectedServices": [
+        {
+            "InventoryItemId": "a2O3h000000hrDaEAI",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ProductId": "01t3h000001Ck7gAAC",
+            "ServicePointId": "a4P3h00000059wGEAQ",
+            "ServicePointName": "Coventry Electricity",
+            "ServiceType": "Electricity",
+            "Status": "Connected",
+            "originalIndex": "0"
+        },
+        {
+            "InventoryItemId": "a2O3h000000hrDVEAY",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ProductId": "01t3h000001Ck7bAAC",
+            "ServicePointId": "a4P3h00000059wGEAQ",
+            "ServicePointName": "Coventry Electricity",
+            "ServiceType": "Electricity",
+            "Status": "Connected",
+            "originalIndex": "1"
+        },
+        {
+            "InventoryItemId": "a2O3h000000hrDaEAI",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ProductId": "01t3h000001Ck7vAAC",
+            "ServicePointId": "a4P3h00000059wHEAQ",
+            "ServicePointName": "Coventry Water",
+            "ServiceType": "Water",
+            "Status": "Connected",
+            "originalIndex": "3"
+        },
+        {
+            "InventoryItemId": "a2O3h000000hrDaEAI",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ProductId": "01t3h000001Ck7lAAC",
+            "ServicePointId": "a4P3h00000059waEAA",
+            "ServicePointName": "Coventry Gas",
+            "ServiceType": "Gas",
+            "Status": "Connected",
+            "originalIndex": "6"
+        }
+    ],
+    "SelectedServices1": [
+        {
+            "InventoryItemId": "a2O3h000000hrDaEAI",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ProductId": "01t3h000001Ck7gAAC",
+            "ServicePointId": "a4P3h00000059wGEAQ",
+            "ServicePointName": "Coventry Electricity",
+            "ServiceType": "Electricity",
+            "Status": "Connected",
+            "originalIndex": "0"
+        },
+        {
+            "InventoryItemId": "a2O3h000000hrDVEAY",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ProductId": "01t3h000001Ck7bAAC",
+            "ServicePointId": "a4P3h00000059wGEAQ",
+            "ServicePointName": "Coventry Electricity",
+            "ServiceType": "Electricity",
+            "Status": "Connected",
+            "originalIndex": "1"
+        },
+        {
+            "InventoryItemId": "a2O3h000000hrDaEAI",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ProductId": "01t3h000001Ck7vAAC",
+            "ServicePointId": "a4P3h00000059wHEAQ",
+            "ServicePointName": "Coventry Water",
+            "ServiceType": "Water",
+            "Status": "Connected",
+            "originalIndex": "3"
+        },
+        {
+            "InventoryItemId": "a2O3h000000hrDaEAI",
+            "PremiseAddress": "Coventry premise",
+            "Premises": "a3X3h0000006OviEAE",
+            "PremisesId": "a3X3h0000006OviEAE",
+            "ProductId": "01t3h000001Ck7lAAC",
+            "ServicePointId": "a4P3h00000059waEAA",
+            "ServicePointName": "Coventry Gas",
+            "ServiceType": "Gas",
+            "Status": "Connected",
+            "originalIndex": "6"
+        }
+    ],
+    "ServiceAccountId": "0013h00000JOFs7AAH",
+    "ServiceAccountPremisesColumns": [
+        {
+            "fieldName": "SrevicePremisesId",
+            "label": "SrevicePremisesId"
+        },
+        {
+            "fieldName": "AccountName",
+            "label": "Account Name"
+        },
+        {
+            "fieldName": "PremisesName",
+            "label": "Premise Address"
+        }
+    ],
+    "ServiceAccountPremisesMaxRowSelection": "Single",
+    "ServiceAccountRecTypeId": "0123h000000jV4JAAU",
+    "ServiceAccountRecordType": "Service",
+    "ServicePointsColumns": [
+        {
+            "fieldName": "ServicePointName",
+            "label": "Service Point Name"
+        },
+        {
+            "fieldName": "ServiceType",
+            "label": "Service Type"
+        },
+        {
+            "fieldName": "SelectProduct",
+            "label": "Select Product"
+        }
+    ],
+    "ServicePointsError": null,
+    "ServicePremises": null,
+    "ServicesChoosen": "",
+    "timeStamp": "2020-09-01T11:22:50.243Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053h000002WfuuAAC",
+    "userName": "express_org_sebanti@org.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420",
+    "vlcTimeTracking": {
+        "BillingPreferences": 18900,
+        "ConfirmUserActionError": 24492,
+        "Confirmation": 0,
+        "CustomerSelection": 54237,
+        "DR-GetProducts": 1110,
+        "DRCreatServiceAccount": 2584,
+        "DRCreateBillingAccount": 1818,
+        "DRCreateBusinessAccount": 1814,
+        "DRExtractBussinessAccountRecId": 996,
+        "DRFetchBillingAccountRecTypeId": 1696,
+        "DRFetchDesiredRecordType": 983,
+        "DRFetchServiceAccountRecTypeId": 998,
+        "DRInsertContact": 1757,
+        "ExtractServiceAccountPremises": 0,
+        "GetPremServicePoints": 1324,
+        "OmniScriptSessionToken": "e201304c-2db9-45e5-a967-89eafa3ce647",
+        "PreConfirm": 2844,
+        "SVBusinessAccountRecTypeId": 40,
+        "SVServiceAccountRecTypeId": 58,
+        "SelectPremises": 11594,
+        "SelectTypeofService": 26299,
+        "ServicePointsError": 0,
+        "SetBillingAccountId": 63,
+        "SetBusinessAccountId": 70,
+        "SetCustomLWCValues": 73,
+        "SetDefaultValues": 44,
+        "SetExistingCustomerDetails": 116,
+        "SetPremisesBusinessAccountRecTypeId": 57,
+        "SetServiceAccountId": 104,
+        "SetServicePointVal": 102,
+        "VIPMoveInPost": 2250
+    }
+}

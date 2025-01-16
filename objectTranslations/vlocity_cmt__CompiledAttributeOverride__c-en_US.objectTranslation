@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__AttributeDefaultValues__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__AttributeMetadataChanges__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__AttributeMetadata__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__AttributeRules__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__JSONAttribute__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__ProductChildItemId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__ProductId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

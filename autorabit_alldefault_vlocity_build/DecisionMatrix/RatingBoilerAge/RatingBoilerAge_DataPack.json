@@ -1,0 +1,15 @@
+{
+    "CalculationMatrixColumn": "RatingBoilerAge_CalculationMatrixColumns.json",
+    "DecisionMatrixType": "DecisionMatrix",
+    "Description": "",
+    "GroupKey": "",
+    "Name": "RatingBoilerAge",
+    "Namespace": "",
+    "SubGroupKey": "",
+    "Type": "Standard",
+    "UniqueName": "RatingBoilerAge",
+    "UsageType": "Bre",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationMatrix",
+    "VlocityRecordSourceKey": "CalculationMatrix/RatingBoilerAge"
+}

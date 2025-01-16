@@ -1,0 +1,141 @@
+[
+    {
+        "FormulaExpression": "IF(%Analysis:Category%==\"ANALYSIS_MOOD\",%Analysis:AttributeValue%,\"0\")",
+        "FormulaResultPath": "AnalysisMood",
+        "FormulaSequence": 1,
+        "GlobalKey": "VPL-TransformAnalysisCustoma1V3h000000mAkREAUItem0",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformAnalysis",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformAnalysis",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformAnalysis",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(%Analysis:Category%==\"ANALYSIS_RENEWAL_POTENTIAL\",%Analysis:AttributeValue%,\"0\")",
+        "FormulaResultPath": "AnalysisRenewablePotential",
+        "FormulaSequence": 2,
+        "GlobalKey": "VPL-TransformAnalysisCustoma1V3h000000mAkREAUItem5",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformAnalysis",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformAnalysis",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformAnalysis",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(%Analysis:Category%==\"ANALYSIS_UPSELL_POTENTIAL\",%Analysis:AttributeValue%,\"0\")",
+        "FormulaResultPath": "AnalysisUpsellPotential",
+        "FormulaSequence": 3,
+        "GlobalKey": "VPL-TransformAnalysisCustoma1V3h000000mAkREAUItem4",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformAnalysis",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformAnalysis",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformAnalysis",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformAnalysisCustoma1V3h000000mAkREAUItem6",
+        "InputFieldName": "Analysis",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformAnalysis",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformAnalysis",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformAnalysis",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Analysis",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformAnalysisCustoma1V3h000000mAkREAUItem7",
+        "InputFieldName": "AnalysisMood",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformAnalysis",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformAnalysis",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformAnalysis",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AnalysisMood",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformAnalysisCustoma1V3h000000mAkREAUItem8",
+        "InputFieldName": "AnalysisRenewablePotential",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformAnalysis",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformAnalysis",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformAnalysis",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AnalysisRenewablePotential",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformAnalysisCustoma1V3h000000mAkREAUItem9",
+        "InputFieldName": "AnalysisUpsellPotential",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformAnalysis",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformAnalysis",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformAnalysis",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AnalysisUpsellPotential",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

@@ -1,0 +1,50 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "VEEEnergyOverviewPremises/CME_E_U/1/1620728368600",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 15,
+                    "name": "recordId",
+                    "val": "0011Q00002ZRgo5QAD"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "Id": "{recordId}",
+                    "OverViewSummary": "true"
+                },
+                "ipMethod": "VPL_GetAccountOverview",
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "optionsMap": {
+                    "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+                },
+                "resultVar": "",
+                "vlocityAsync": true,
+                "vlocityAsyncTimeout": 1000
+            }
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "VEEEnergyOverviewSummary",
+    "Namespace": "",
+    "OmniUiCardKey": "VEEEnergyOverviewSummary/CME_E_U/6.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "VEEEnergyOverviewSummary.json",
+    "SampleDataSourceResponse": "{\"GetAccountOverviewResponseStatus\":true,\"DRGetAccountLastStatement\":{\"Statement\":{\"OverDueBill\":true,\"NextPaymentDate\":\"Apr 12,2022\",\"PaymentPlanStartDate\":\"Aug 08,2022\",\"StatementId\":\"a511Q000000M3LjQAK\",\"PaymentPlanAvailable\":true,\"GraphPreviousBalance\":46,\"SelectedPaperBilling\":false,\"NextPayment\":\"$459.00\",\"ActivePaymentPlan\":true,\"InstallmentAmount\":\"$7,500.00\",\"CurrentBalance\":\"$459.00\",\"GraphCurrentBalance\":459,\"AccountId\":\"0011Q00002ZRgo5QAD\",\"IsStatementAvailable\":true,\"DisconnectFee\":\"$126.25\"},\"AccountBalance\":\"$15,000.00\"},\"Id\":\"0011Q00002ZRgo5QAD\",\"OverViewBlockStatus\":true,\"options\":{\"vlcFilesMap\":null,\"forceQueueable\":false,\"mockHttpResponse\":null,\"ParentInteractionToken\":null,\"useFuture\":false,\"isTestProcedure\":false,\"useQueueable\":false,\"disableMetadataCache\":false,\"resetCache\":false,\"vlcIPData\":null,\"OmniAnalyticsTrackingDebug\":false,\"ignoreCache\":false,\"isDebug\":false,\"queueableChainable\":false,\"useContinuation\":false,\"chainable\":false,\"shouldCommit\":false,\"vlcTestSuiteUniqueKey\":null,\"vlcTestUniqueKey\":null,\"vlcCacheKey\":null,\"useHttpCalloutMock\":false,\"continuationStepResult\":null,\"useQueueableApexRemoting\":false},\"DRGetContract\":{\"data\":[{\"AccountName\":\"Billy Bing\",\"ContractId\":\"8001Q00000AZFEoQAP\",\"ContractStatus\":\"Draft\",\"ContractEndDate\":\"01/17/2023\",\"ContractNumber\":\"00000101\",\"ContractStartDate\":\"18/01/2022\"},{\"AccountName\":\"Billy Bing\",\"ContractId\":\"8001Q00000AZFEpQAP\",\"ContractStatus\":\"Draft\",\"ContractEndDate\":\"02/17/2023\",\"ContractNumber\":\"00000102\",\"ContractStartDate\":\"18/01/2022\"},{\"AccountName\":\"Billy Bing\",\"ContractId\":\"8001Q00000AZFEqQAP\",\"ContractStatus\":\"Draft\",\"ContractEndDate\":\"01/18/2023\",\"ContractNumber\":\"00000103\",\"ContractStartDate\":\"19/01/2022\"}],\"CountOfContractEndIn90Days\":1},\"response\":{},\"DRGetAccountLastStatementStatus\":true,\"SVAccountDetails\":{\"BusinessAccountId\":\"0011Q00002ZRgo5QAD\",\"ContractExpiringIn90Days\":true,\"CustomerId\":565758,\"AccountCreatedDate\":\"Sep 05,2023 - Present\",\"BillingAccountId\":\"0011Q00002ZRgo5QAD\",\"BillingAccountName\":\"Billy Bing\",\"OpportunityCount\":1,\"PremisesCount\":1},\"GetBillingAccountStatus\":false,\"DRGetContractStatus\":true,\"GetServiceAccountPremiseDetailsStatus\":true,\"OverViewSummary\":\"true\",\"FetchAccount_ContactId\":{\"AccountRecordType\":\"Consumer\",\"ContactId\":null,\"ContextAccountName\":\"Billy Bing\",\"BillDeliveryMethod\":\"Electronic Statements Online\",\"AccountId\":\"0011Q00002ZRgo5QAD\"},\"ServicesBlockStatus\":false,\"SVAccountDetailsStatus\":true,\"GetServiceAccountPremiseDetails\":[{\"LoopBlockIterationIndex\":1,\"ServicePointCount\":2,\"PremiseId\":\"a401Q000001DJi8QAG\",\"ServicePointStatus\":\"Active\",\"DRGetServicePointStatus\":true,\"LoopBlockIterationStatus\":true,\"PremiseAddress\":\"77 Whitehill Rd, Fort Kinnaird, Edinburgh, Scotland, EH15 5HR\"}],\"DRGetPremiseDetails\":{\"ServiceAccount\":[{\"ServiceAccountNumber\":\"565758\",\"PremiseCity\":\"Edinburgh\",\"ServiceAccountId\":\"0011Q00002ZRgo5QAD\",\"ServiceAccountName\":\"Billy Bing\",\"PremisePostalCode\":\"EH15 5HR\",\"PremiseId\":\"a401Q000001DJi8QAG\",\"PremiseName\":\"77 Whitehill Rd, Fort Kinnaird, Edinburgh, Scotland, EH15 5HR, United Kingdom\",\"PremiseIdentifier\":\"101234\",\"PremiseAddress\":\"77 Whitehill Rd, Fort Kinnaird\",\"PremiseState\":\"Scotland\"}]},\"OverViewBlock\":null,\"FetchAccount_ContactIdStatus\":true,\"DRGetPremiseDetailsStatus\":true,\"DRGetAccountDetails\":{\"AccountName\":\"Billy Bing\",\"BusinessAccountId\":\"0011Q00002ZRgo5QAD\",\"ParentAccountId\":\"0011Q00002ZRgoIQAT\",\"PrimaryContact\":\"James Rawlings\",\"CustomerId\":\"565758\",\"BillingAccountNumber\":\"565758\",\"AccountCreatedDate\":\"Sep 05,2023\",\"RecordTypeName\":\"Consumer\",\"BillingAccountId\":\"0011Q00002ZRgo5QAD\",\"BillingAccountName\":\"Billy Bing\",\"ActiveOpportunity\":true,\"OpportunityCount\":1},\"DRGetAccountDetailsStatus\":true}",
+    "StylingConfiguration": "",
+    "UniqueName": "VEEEnergyOverviewSummary_CME_E_U_6",
+    "VersionNumber": 6,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/VEEEnergyOverviewSummary"
+}

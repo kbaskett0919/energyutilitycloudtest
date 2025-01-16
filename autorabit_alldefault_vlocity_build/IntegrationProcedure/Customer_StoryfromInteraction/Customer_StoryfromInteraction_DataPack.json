@@ -1,0 +1,26 @@
+{
+    "CustomJavaScript": "Customer_StoryfromInteraction_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "StoryListfromInteraction",
+    "OmniProcessElement": [
+        "Customer_StoryfromInteraction_Element_GetObjectFromInteraction.json",
+        "Customer_StoryfromInteraction_Element_FetchAccount_ContactId.json",
+        "Customer_StoryfromInteraction_Element_StoryList.json",
+        "Customer_StoryfromInteraction_Element_returnStories.json"
+    ],
+    "OmniProcessKey": "Customer_StoryfromInteraction",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "Customer_StoryfromInteraction_PropertySetConfig.json",
+    "SubType": "StoryfromInteraction",
+    "Type": "Customer",
+    "UniqueName": "Customer_StoryfromInteraction_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/Customer/StoryfromInteraction/Procedure"
+}

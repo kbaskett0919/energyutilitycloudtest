@@ -1,0 +1,54 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "AddChildProducts",
+    "OmniProcessId": {
+        "Name": "VEEDigitalUpdateBasket",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/VEE/DigitalUpdateBasket/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalChainableResponse": {
+        },
+        "additionalInput": {
+            "apiName": "basketOperations",
+            "basketAction": "addWithNoConfig",
+            "cartContextKey": "%cartContextKey%",
+            "catalogCode": "%selectedCatalogCode%",
+            "context": "=TOSTRING(CONCAT('{\"MeterType\":\"',%meterType%,'\"}'))",
+            "methodName": "addWithNoConfig",
+            "offer": "%selectedAddOns%"
+        },
+        "additionalOutput": {
+            "result": "=DESERIALIZE(%AddChildProducts:result%)"
+        },
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "ISNOTBLANK(%selectedAddOns%)",
+        "failOnStepError": false,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+            "ErrorMessage": "VEEDigitalUpdateBasket AddChildProducts Failed to modify the basket"
+        },
+        "label": "RemoteAction1",
+        "remoteClass": "%vlocity_namespace%.CpqAppHandler",
+        "remoteMethod": "addWithNoConfig",
+        "remoteOptions": {
+        },
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": true,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "Remote Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/VEE/DigitalUpdateBasket/Procedure/AddChildProducts"
+}

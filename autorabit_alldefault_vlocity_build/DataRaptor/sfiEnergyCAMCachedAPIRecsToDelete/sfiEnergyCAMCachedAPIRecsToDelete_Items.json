@@ -1,0 +1,47 @@
+[
+    {
+        "FilterDataType": "STRING",
+        "FilterGroup": 0,
+        "FilterOperator": "IN",
+        "FilterValue": "cacheKeysList",
+        "GlobalKey": "sfiEnergyCAMCachedAPIRecsToDelete2129039979163314",
+        "InputFieldName": "%vlocity_namespace%__CacheKey__c",
+        "InputObjectName": "%vlocity_namespace%__CachedAPIResponse__c",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyCAMCachedAPIRecsToDelete",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyCAMCachedAPIRecsToDelete",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyCAMCachedAPIRecsToDelete",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "records",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyCAMCachedAPIRecsToDelete9974629224697198",
+        "InputFieldName": "%vlocity_namespace%__CacheKey__c",
+        "InputObjectName": "%vlocity_namespace%__CachedAPIResponse__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyCAMCachedAPIRecsToDelete",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyCAMCachedAPIRecsToDelete",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyCAMCachedAPIRecsToDelete",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "records",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

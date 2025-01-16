@@ -1,0 +1,46 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "VEEFieldServiceLandingPage/CME_E_U/2/1623661822947",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 4,
+                    "name": "recordId",
+                    "val": "0011Q00002ZRgo5QAD"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "Id": "{recordId}"
+                },
+                "ipMethod": "sfiEnergyConsole_FSAppointmentDetails",
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": "",
+                "vlocityAsync": true,
+                "vlocityAsyncTimeout": 500
+            }
+        }
+    },
+    "Description": "FlexCard used to display Service Appointments along with Schedule Appointment button.",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyConsoleFSLandingPage",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyConsoleFSLandingPage/CME_E_U/2/1638283623375",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyConsoleFSLandingPage.json",
+    "SampleDataSourceResponse": "{\"AccountId\":\"0011Q00002ZRgo5QAD\",\"isFSPackageLicenseAvailable\":true,\"appointments\":[],\"AccountEntitlements\":null,\"entitlements\":[{\"entitlementName\":\"Sample Entitlement - Billy Bing\"}]}",
+    "StylingConfiguration": "",
+    "UniqueName": "sfiEnergyConsoleFSLandingPage_CME_E_U_2",
+    "VersionNumber": 2,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyConsoleFSLandingPage"
+}

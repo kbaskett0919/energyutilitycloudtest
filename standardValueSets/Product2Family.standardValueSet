@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>None</fullName>
+        <default>true</default>
+        <label>None</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Multiplay</fullName>
+        <default>false</default>
+        <label>Multiplay</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Electricity</fullName>
+        <default>false</default>
+        <label>Electricity</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Gas</fullName>
+        <default>false</default>
+        <label>Gas</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dual Fuel</fullName>
+        <default>false</default>
+        <label>Dual Fuel</label>
+    </standardValue>
+    <standardValue>
+        <fullName>EV Charger</fullName>
+        <default>false</default>
+        <label>EV Charger</label>
+    </standardValue>
+    <standardValue>
+        <fullName>EV Charger Rate</fullName>
+        <default>false</default>
+        <label>EV Charger Rate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Financial Assistance</fullName>
+        <default>false</default>
+        <label>Financial Assistance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Smart Thermostat</fullName>
+        <default>false</default>
+        <label>Smart Thermostat</label>
+    </standardValue>
+</StandardValueSet>

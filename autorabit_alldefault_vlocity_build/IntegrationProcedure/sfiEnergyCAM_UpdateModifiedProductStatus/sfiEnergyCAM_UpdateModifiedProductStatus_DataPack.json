@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "Update the isProcessed to True in ModifiedProductsCode records.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergyCAMUpdateModifiedProductStatus",
+    "OmniProcessElement": [
+        "sfiEnergyCAM_UpdateModifiedProductStatus_Element_DRGetModifiedProductCode.json",
+        "sfiEnergyCAM_UpdateModifiedProductStatus_Element_DRUpdateModifiedProductCodeRecords.json"
+    ],
+    "OmniProcessKey": "sfiEnergyCAM_UpdateModifiedProductStatus",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergyCAM_UpdateModifiedProductStatus_PropertySetConfig.json",
+    "SubType": "UpdateModifiedProductStatus",
+    "Type": "sfiEnergyCAM",
+    "UniqueName": "sfiEnergyCAM_UpdateModifiedProductStatus_Procedure_3",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergyCAM/UpdateModifiedProductStatus/Procedure"
+}

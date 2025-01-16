@@ -1,0 +1,30 @@
+{
+    "CustomJavaScript": "sfiEnergySelfService_UpdateProfile_SampleInput.json",
+    "Description": "Integration procedure used for retrieve and update Profile details.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergySelfServiceUpdateProfile",
+    "OmniProcessElement": [
+        "sfiEnergySelfService_UpdateProfile_Element_GetUserInfo.json",
+        "sfiEnergySelfService_UpdateProfile_Element_Reserialize.json",
+        "sfiEnergySelfService_UpdateProfile_Element_TransformUserInfo.json",
+        "sfiEnergySelfService_UpdateProfile_Element_Response.json",
+        "sfiEnergySelfService_UpdateProfile_Element_UpdateUseInfo.json",
+        "sfiEnergySelfService_UpdateProfile_Element_ResponseUpsert.json"
+    ],
+    "OmniProcessKey": "sfiEnergySelfService_UpdateProfile",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergySelfService_UpdateProfile_PropertySetConfig.json",
+    "RequiredPermission": "sfiEnergySelfServicePermission",
+    "SubType": "UpdateProfile",
+    "Type": "sfiEnergySelfService",
+    "UniqueName": "sfiEnergySelfService_UpdateProfile_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergySelfService/UpdateProfile/Procedure"
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Данные оптимизации</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Данным оптимизации</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Данными оптимизации</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Данных оптимизации</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>FSL__Identifier__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Номер данных оптимизации</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__DependencyItemDefinitionId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__DependencyPlanDefinitionId__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__DependencyType__c</name>
+        <picklistValues>
+            <masterLabel>Depends On</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Should Be Processed Before</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__GlobalKey__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__OrchestrationItemDefinitionId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__OrchestrationPlanDefinition__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__Scope__c</name>
+        <picklistValues>
+            <masterLabel>Global</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Main Order Item</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order Item</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Related Order</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Bundle</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swimlane</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>vlocity_cmt__CircularDependencyValidation</name>
+    </validationRules>
+</CustomObjectTranslation>

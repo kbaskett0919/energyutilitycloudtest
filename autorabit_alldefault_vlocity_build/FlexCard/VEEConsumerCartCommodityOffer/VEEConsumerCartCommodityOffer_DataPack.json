@@ -1,0 +1,32 @@
+{
+    "AuthorName": "CME_EU_Express",
+    "ClonedFromOmniUiCardKey": "VEEConsumerSelectedCommodityOfferDetails/CME_EU_Express/1/1616840154272",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "{\n        \"Id\": \"REC0\",\n        \"uniqueKey\": \"REC0\",\n        \"consumption\": 2000,\n        \"totalPrice\": 398.675,\n        \"totalStandingPrice\": 6.075,\n        \"totalUnitPrice\": 392.6,\n        \"ID\": \"Input\",\n        \"\": \"\",\n        \"isAddedToCart\": false,\n        \"cartContextKey\": \"1a81f0214a678e9943600a86fb06b30b\",\n        \"childProducts\": [\n          {\n            \"currencyCode\": \"GBP\",\n            \"productCode\": \"CC_UNIT_RATE_DAY/NIGHT_DAY\",\n            \"name\": \"Unit Rate - Day\",\n            \"unitPrice\": 0.2324,\n            \"family\": \"Electricity\",\n            \"subType\": \"Unit Rate\"\n          },\n          {\n            \"currencyCode\": \"GBP\",\n            \"productCode\": \"CC_UNIT_RATE_DAY/NIGHT_NIGHT\",\n            \"name\": \"Unit Rate - Night\",\n            \"unitPrice\": 0.1602,\n            \"family\": \"Electricity\",\n            \"subType\": \"Unit Rate\"\n          },\n          {\n            \"currencyCode\": \"GBP\",\n            \"productCode\": \"CC_STANDING_CHARGES_DAY/NIGHT\",\n            \"name\": \"Standing Charges\",\n            \"unitPrice\": 0.2025,\n            \"family\": \"Electricity\",\n            \"subType\": \"Standing Charges\"\n          }\n        ],\n        \"productCode\": \"PD_DAY_NIGHT_TARIFF\",\n        \"productName\": \"Day/Night Tariff\",\n        \"currencyCode\": \"GBP\",\n        \"subType\": \"Electricity\",\n        \"description\": \"Day/Night product description\",\n        \"url\": \"https://marketplace-images-production.s3-us-west-2.amazonaws.com/vault/items/preview-53b400cf-5edc-4996-b9a5-4c240a140b28-1180x660-gPpuz.png\",\n        \"default\": true,\n        \"productCodeWithAttachments\": \"PD_DAY_NIGHT_TARIFF\"\n      }",
+            "resultVar": ""
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "VEEConsumerCartCommodityOffer",
+    "Namespace": "",
+    "OmniUiCardKey": "VEEConsumerCartCommodityOffer/CME_EU_Express/3/1618383384822",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "VEEConsumerCartCommodityOffer.json",
+    "SampleDataSourceResponse": "{\"Id\":\"REC0\",\"uniqueKey\":\"REC0\",\"consumption\":2000,\"totalPrice\":398.675,\"totalStandingPrice\":6.075,\"totalUnitPrice\":392.6,\"ID\":\"Input\",\"\":\"\",\"isAddedToCart\":false,\"cartContextKey\":\"1a81f0214a678e9943600a86fb06b30b\",\"childProducts\":[{\"currencyCode\":\"GBP\",\"productCode\":\"CC_UNIT_RATE_DAY/NIGHT_DAY\",\"name\":\"Unit Rate - Day\",\"unitPrice\":0.2324,\"family\":\"Electricity\",\"subType\":\"Unit Rate\"},{\"currencyCode\":\"GBP\",\"productCode\":\"CC_UNIT_RATE_DAY/NIGHT_NIGHT\",\"name\":\"Unit Rate - Night\",\"unitPrice\":0.1602,\"family\":\"Electricity\",\"subType\":\"Unit Rate\"},{\"currencyCode\":\"GBP\",\"productCode\":\"CC_STANDING_CHARGES_DAY/NIGHT\",\"name\":\"Standing Charges\",\"unitPrice\":0.2025,\"family\":\"Electricity\",\"subType\":\"Standing Charges\"}],\"productCode\":\"PD_DAY_NIGHT_TARIFF\",\"productName\":\"Day/Night Tariff\",\"currencyCode\":\"GBP\",\"subType\":\"Electricity\",\"description\":\"Day/Night product description\",\"url\":\"https://marketplace-images-production.s3-us-west-2.amazonaws.com/vault/items/preview-53b400cf-5edc-4996-b9a5-4c240a140b28-1180x660-gPpuz.png\",\"default\":true,\"productCodeWithAttachments\":\"PD_DAY_NIGHT_TARIFF\"}",
+    "StylingConfiguration": "",
+    "UniqueName": "VEEConsumerCartCommodityOffer_CME_EU_Express_3",
+    "VersionNumber": 3,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/VEEConsumerCartCommodityOffer"
+}

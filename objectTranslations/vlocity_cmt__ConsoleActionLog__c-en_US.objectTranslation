@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__InteractionEnd__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__InteractionStart__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__ProcessedEventString__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__Processed__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__RawEventString__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__ReadyForArchival__c</name>
+    </fields>
+</CustomObjectTranslation>

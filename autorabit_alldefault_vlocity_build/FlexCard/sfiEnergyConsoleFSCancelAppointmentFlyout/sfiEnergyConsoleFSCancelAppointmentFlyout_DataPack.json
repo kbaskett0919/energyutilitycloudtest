@@ -1,0 +1,35 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "VEEFieldServiceCancelAppointmentFlyout/CME_E_U/1/1621409017673",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "Custom",
+            "value": {
+                "body": "{\n      \"workType\": null,\n      \"startDate\": \"Mon, May 17 08:00 AM\",\n      \"schedDateTime\": \"Mon, May 17 08:00 AM - 09:00 AM\",\n      \"location\": null,\n      \"endDate\": \"09:00 AM\",\n      \"contactPerson\": null,\n      \"caseNumber\": \"00001008\",\n      \"caseId\": \"5003h000005orF9AAI\",\n      \"appointmentStatus\": \"In Progress\"\n    }",
+                "dsDelay": 0,
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "FlexCard used to show a modal popup when user clicks on Cancel button on Appointment",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyConsoleFSCancelAppointmentFlyout",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyConsoleFSCancelAppointmentFlyout/CME_E_U/1/1624936919801",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyConsoleFSCancelAppointmentFlyout.json",
+    "SampleDataSourceResponse": "{\"workType\":null,\"startDate\":\"Mon, May 17 08:00 AM\",\"schedDateTime\":\"Mon, May 17 08:00 AM - 09:00 AM\",\"location\":null,\"endDate\":\"09:00 AM\",\"contactPerson\":null,\"caseNumber\":\"00001008\",\"caseId\":\"5003h000005orF9AAI\",\"appointmentStatus\":\"In Progress\"}",
+    "StylingConfiguration": "",
+    "UniqueName": "sfiEnergyConsoleFSCancelAppointmentFlyout_CME_E_U_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyConsoleFSCancelAppointmentFlyout"
+}

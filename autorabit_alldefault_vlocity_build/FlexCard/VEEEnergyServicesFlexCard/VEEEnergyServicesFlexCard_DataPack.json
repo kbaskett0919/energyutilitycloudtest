@@ -1,0 +1,49 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 7,
+                    "name": "recordId",
+                    "val": "0011Q00002ZRgo5QAD"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "Id": "{recordId}",
+                    "OverviewServices": "true"
+                },
+                "ipMethod": "VPL_GetAccountOverview",
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "optionsMap": {
+                    "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+                },
+                "resultVar": "",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "VEEEnergyServicesFlexCard",
+    "Namespace": "",
+    "OmniUiCardKey": "VEEEnergyServicesFlexCard/CME_E_U/2/1643268426733",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "VEEEnergyServicesFlexCard.json",
+    "SampleDataSourceResponse": "{\"GetAccountOverviewResponseStatus\":true,\"ServicesBlock\":null,\"OverviewServices\":\"true\",\"Id\":\"0011Q00002ZRgo5QAD\",\"OverViewBlockStatus\":false,\"options\":{\"vlcFilesMap\":null,\"forceQueueable\":false,\"mockHttpResponse\":null,\"ParentInteractionToken\":null,\"useFuture\":false,\"isTestProcedure\":false,\"useQueueable\":false,\"disableMetadataCache\":false,\"resetCache\":false,\"vlcIPData\":null,\"OmniAnalyticsTrackingDebug\":false,\"ignoreCache\":false,\"isDebug\":false,\"queueableChainable\":false,\"useContinuation\":false,\"chainable\":false,\"shouldCommit\":false,\"vlcTestSuiteUniqueKey\":null,\"vlcTestUniqueKey\":null,\"vlcCacheKey\":null,\"useHttpCalloutMock\":false,\"continuationStepResult\":null,\"useQueueableApexRemoting\":false},\"response\":{},\"FetchAccount_ContactId\":{\"AccountRecordType\":\"Consumer\",\"ContactId\":null,\"ContextAccountName\":\"Billy Bing\",\"BillDeliveryMethod\":\"Electronic Statements Online\",\"AccountId\":\"0011Q00002ZRgo5QAD\"},\"DRGetAccountAsset\":{\"AssetDetail\":[{\"BillingHold\":\"Other\",\"AssetId\":\"02i1Q000008ukQeQAI\",\"ContactName\":\"James Rawlings\",\"RootItemId\":\"NA\",\"PremiseName\":\"77 Whitehill Rd, Fort Kinnaird, Edinburgh, Scotland, EH15 5HR, United Kingdom\",\"InstalledDate\":1651536000000,\"BillingAccountName\":\"Head Office - Billing\",\"SerialNumber\":\"S0001\",\"Active\":1654128000000,\"ServicePoint\":\"E-BB88900\",\"Name\":\"Billy Bing Electricity\",\"Market Identifier\":\"S0001\",\"ServiceAccountName\":\"Billy Bing\",\"ProductName\":\"Electricity\",\"CurrentUsage\":6,\"ProductFamily\":\"Electricity\",\"Status\":\"Registered\"},{\"AssetId\":\"02i1Q000008ukQfQAI\",\"ContactName\":\"James Rawlings\",\"RootItemId\":\"NA\",\"PremiseName\":\"77 Whitehill Rd, Fort Kinnaird, Edinburgh, Scotland, EH15 5HR, United Kingdom\",\"InstalledDate\":1651536000000,\"SerialNumber\":\"S0002\",\"Active\":1654128000000,\"ServicePoint\":\"G-BB22331\",\"Name\":\"Billy Bing Gas\",\"Market Identifier\":\"S0002\",\"ServiceAccountName\":\"Billy Bing\",\"ProductName\":\"Gas\",\"CurrentUsage\":80,\"ProductFamily\":\"Gas\",\"Status\":\"Purchased\"}]},\"ServicesBlockStatus\":true,\"GetServices\":[{\"ContactName\":\"James Rawlings\",\"RootItemId\":\"NA\",\"PremiseName\":\"77 Whitehill Rd, Fort Kinnaird, Edinburgh, Scotland, EH15 5HR, United Kingdom\",\"SerialNumber\":\"S0001\",\"Active\":\"2022-06-02\",\"ProvisioningStatus\":\"\",\"ContractName\":\"\",\"LoopBlockIterationIndex\":1,\"Market Identifier\":\"S0001\",\"ServiceAccountName\":\"Billy Bing\",\"MoveUrl\":\"/apex/%vlocity_namespace%__MoveInAccount?id=02i1Q000008ukQeQAI\",\"DisconnectDate\":\"NA\",\"Status\":\"Registered\",\"BillingHold\":\"Other\",\"DeRegulationStatus\":\"NA\",\"InstalledDate\":\"2022-05-03\",\"BillingAccountName\":\"Head Office - Billing\",\"ServicePoint\":\"E-BB88900\",\"Name\":\"Billy Bing Electricity\",\"ChangeToQuoteUrl\":\"/apex/%vlocity_namespace%__OmniScriptUniversalPage?id=0011Q00002ZRgo5QAD:all:02i1Q000008ukQeQAI#/OmniScriptType/MACD/OmniScriptSubType/ChangeToQuote/OmniScriptLang/English/ContextId/0011Q00002ZRgo5QAD:all:02i1Q000008ukQeQAI/PrefillDataRaptorBundle//true\",\"DRTransformServicesStatus\":true,\"OrderNumber\":\"NA\",\"ChangeToOrderUrl\":\"/apex/%vlocity_namespace%__MACDFdo?id=02i1Q000008ukQeQAI#/OmniScriptType/MACD/OmniScriptSubType/FDO/OmniScriptLang/English/ContextId/02i1Q000008ukQeQAI/PrefillDataRaptorBundle//true\",\"ProductName\":\"Electricity\",\"CurrentUsage\":\"6.00 \",\"Description\":\"NA\",\"ContractNumber\":\"\",\"LoopBlockIterationStatus\":true,\"InventoryItem\":\"NA\",\"ProductFamily\":\"Electricity\"},{\"ContactName\":\"James Rawlings\",\"RootItemId\":\"NA\",\"PremiseName\":\"77 Whitehill Rd, Fort Kinnaird, Edinburgh, Scotland, EH15 5HR, United Kingdom\",\"SerialNumber\":\"S0002\",\"Active\":\"2022-06-02\",\"ProvisioningStatus\":\"\",\"ContractName\":\"\",\"LoopBlockIterationIndex\":2,\"Market Identifier\":\"S0002\",\"ServiceAccountName\":\"Billy Bing\",\"MoveUrl\":\"/apex/%vlocity_namespace%__MoveInAccount?id=02i1Q000008ukQfQAI\",\"DisconnectDate\":\"NA\",\"Status\":\"Purchased\",\"BillingHold\":\"NA\",\"DeRegulationStatus\":\"NA\",\"InstalledDate\":\"2022-05-03\",\"BillingAccountName\":\"NA\",\"ServicePoint\":\"G-BB22331\",\"Name\":\"Billy Bing Gas\",\"ChangeToQuoteUrl\":\"/apex/%vlocity_namespace%__OmniScriptUniversalPage?id=0011Q00002ZRgo5QAD:all:02i1Q000008ukQfQAI#/OmniScriptType/MACD/OmniScriptSubType/ChangeToQuote/OmniScriptLang/English/ContextId/0011Q00002ZRgo5QAD:all:02i1Q000008ukQfQAI/PrefillDataRaptorBundle//true\",\"DRTransformServicesStatus\":true,\"OrderNumber\":\"NA\",\"ChangeToOrderUrl\":\"/apex/%vlocity_namespace%__MACDFdo?id=02i1Q000008ukQfQAI#/OmniScriptType/MACD/OmniScriptSubType/FDO/OmniScriptLang/English/ContextId/02i1Q000008ukQfQAI/PrefillDataRaptorBundle//true\",\"ProductName\":\"Gas\",\"CurrentUsage\":\"80.00 \",\"Description\":\"NA\",\"ContractNumber\":\"\",\"LoopBlockIterationStatus\":true,\"InventoryItem\":\"NA\",\"ProductFamily\":\"Gas\"}],\"DRGetAccountAssetStatus\":true,\"GetServicesStatus\":true,\"FetchAccount_ContactIdStatus\":true}",
+    "StylingConfiguration": "",
+    "UniqueName": "VEEEnergyServicesFlexCard_CME_E_U_2",
+    "VersionNumber": 2,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/VEEEnergyServicesFlexCard"
+}

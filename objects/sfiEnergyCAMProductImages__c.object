@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>It will store the Product Code and Image&apos;s developer name. It will be used to map image to the particular product. The Image is stored as a Document record, Use Developer Name same as image name for all the images.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>IsDefaultImage__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>On attachment record it will set the image as default image.</description>
+        <label>IsDefaultImage</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Product_Code__c</fullName>
+        <description>Store the product code of the product for which you need to add the image as an attachment.</description>
+        <externalId>false</externalId>
+        <label>Product_Code</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Image__c</fullName>
+        <description>I will store the Developer name of the image present in Document object.</description>
+        <externalId>false</externalId>
+        <label>Product_Image</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>isImageUpdated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If it is checked then it means the image has been attached to the product.</description>
+        <label>isImageUpdated</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>sfiEnergyCAMProductImages</label>
+    <visibility>Public</visibility>
+</CustomObject>

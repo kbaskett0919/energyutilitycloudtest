@@ -1,0 +1,31 @@
+{
+    "AuthorName": "CME_EU_Express",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "[{\"Title\":\"Is it easy to Switch to other Energy plan?\"}, {\"Title\":\"Do you have customer support to guide us?\"},{\"Title\":\"Is Green Energy 100% sustainable source?\"},{\"Title\":\"is there a way to find all add on products for Green Energy?\"}]"
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "VEEConsumerFAQ",
+    "Namespace": "",
+    "OmniUiCardKey": "VEEConsumerFAQ/Lakshmi/1/1614237131528",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "VEEConsumerFAQ.json",
+    "SampleDataSourceResponse": "[{\"Title\":\"Is it easy to Switch to other Energy plan?\"},{\"Title\":\"Do you have customer support to guide us?\"},{\"Title\":\"Is Green Energy 100% sustainable source?\"},{\"Title\":\"is there a way to find all add on products for Green Energy?\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "VEEConsumerFAQ_CME_EU_Express_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/VEEConsumerFAQ"
+}

@@ -1,0 +1,30 @@
+{
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "EnergyUtilitiesProgramsDisplayNoneEVRates/Salesforce/1.0",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+            },
+            "type": null,
+            "value": {
+            }
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "EnergyUtilitiesProgramsDisplayNoneFinancialAssistance",
+    "Namespace": "",
+    "OmniUiCardKey": "EnergyUtilitiesProgramsDisplayNoneFinancialAssistance/Salesforce/1.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "EnergyUtilitiesProgramsDisplayNoneFinancialAssistance.json",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "",
+    "UniqueName": "EnergyUtilitiesProgramsDisplayNoneFinancialAssistance_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/EnergyUtilitiesProgramsDisplayNoneFinancialAssistance"
+}

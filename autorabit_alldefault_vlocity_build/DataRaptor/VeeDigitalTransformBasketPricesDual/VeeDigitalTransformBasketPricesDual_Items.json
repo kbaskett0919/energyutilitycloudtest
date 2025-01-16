@@ -1,0 +1,590 @@
+[
+    {
+        "FormulaExpression": "AVG(offerDetails:electrictyStandingRateList:unitPrice)",
+        "FormulaResultPath": "offerDetails:electricityStandingPrice",
+        "FormulaSequence": 6,
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom5948",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "AVG(offerDetails:electrictyUnitRateList:unitPrice)",
+        "FormulaResultPath": "offerDetails:electricityUnitPrice",
+        "FormulaSequence": 7,
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom9672",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "AVG(offerDetails:gasStandingRateList:unitPrice)",
+        "FormulaResultPath": "offerDetails:gasStandingPrice",
+        "FormulaSequence": 13,
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom2473",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "AVG(offerDetails:gasUnitRateList:unitPrice)",
+        "FormulaResultPath": "offerDetails:gasUnitPrice",
+        "FormulaSequence": 14,
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom8719",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(SERIALIZE(offerDetails:childProducts) LIKE \"childProducts\",true,false)",
+        "FormulaResultPath": "threelevel",
+        "FormulaSequence": 1,
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom6060",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(threelevel == true, (FILTER(LIST(%offerDetails:electricityProductList:childProducts%), 'subType == \"Standing Charge\"'),(FILTER(LIST(offerDetails:electricityProductList), 'subType == \"Standing Charge\"'))",
+        "FormulaResultPath": "offerDetails:electrictyStandingRateList",
+        "FormulaSequence": 4,
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom8014",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(threelevel == true, (FILTER(LIST(%offerDetails:gasProductList:childProducts%), 'subType == \"Standing Charge\"'),(FILTER(LIST(offerDetails:gasProductList), 'subType == \"Standing Charge\"'))",
+        "FormulaResultPath": "offerDetails:gasStandingRateList",
+        "FormulaSequence": 12,
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom9930",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(threelevel == true, (FILTER(LIST(offerDetails:childProducts), 'subType == \"Electricity\"'),(FILTER(LIST(offerDetails:childProducts), 'family == \"Electricity\"'))",
+        "FormulaResultPath": "offerDetails:electricityProductList",
+        "FormulaSequence": 2,
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom219",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(threelevel == true, (FILTER(LIST(offerDetails:childProducts), 'subType == \"Gas\"'),(FILTER(LIST(offerDetails:childProducts), 'family == \"Gas\"'))",
+        "FormulaResultPath": "offerDetails:gasProductList",
+        "FormulaSequence": 3,
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom6933",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(threelevel == true, (FILTER(LIST(offerDetails:electricityProductList:childProducts), 'subType == \"Unit Rate\"'),(FILTER(LIST(offerDetails:electricityProductList), 'subType == \"Unit Rate\"'))",
+        "FormulaResultPath": "offerDetails:electrictyUnitRateList",
+        "FormulaSequence": 5,
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom4188",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(threelevel == true, (FILTER(LIST(offerDetails:gasProductList:childProducts), 'subType == \"Unit Rate\"'),(FILTER(LIST(offerDetails:gasProductList), 'subType == \"Unit Rate\"'))",
+        "FormulaResultPath": "offerDetails:gasUnitRateList",
+        "FormulaSequence": 11,
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom7566",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "offerDetails:electricityStandingPrice * 30",
+        "FormulaResultPath": "offerDetails:totalElecStandingPrice",
+        "FormulaSequence": 8,
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom966",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "offerDetails:electricityUnitPrice * electricityConsumption",
+        "FormulaResultPath": "offerDetails:totalElecUnitPrice",
+        "FormulaSequence": 9,
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom5443",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "offerDetails:gasStandingPrice * 30",
+        "FormulaResultPath": "offerDetails:totalGasStandingPrice",
+        "FormulaSequence": 16,
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom1921",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "offerDetails:gasUnitPrice * gasConsumption",
+        "FormulaResultPath": "offerDetails:totalGasUnitPrice",
+        "FormulaSequence": 15,
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom1325",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "offerDetails:totalElecUnitPrice + offerDetails:totalElecStandingPrice",
+        "FormulaResultPath": "offerDetails:totalElectricityPrice",
+        "FormulaSequence": 10,
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom5985",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "offerDetails:totalGasPrice + offerDetails:totalElectricityPrice",
+        "FormulaResultPath": "offerDetails:totalPrice",
+        "FormulaSequence": 18,
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom6419",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "offerDetails:totalGasUnitPrice + offerDetails:totalGasStandingPrice",
+        "FormulaResultPath": "offerDetails:totalGasPrice",
+        "FormulaSequence": 17,
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom8307",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom0jIRN000000094w2AAItem7",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "TotalPrices",
+        "OutputObjectName": "json",
+        "TransformValueMappings": "{}",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom8107",
+        "InputFieldName": "electricityConsumption",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "TotalPrices:electricityConsumption",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom4888",
+        "InputFieldName": "gasConsumption",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "TotalPrices:gasConsumption",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom0jIRN000000094w2AAItem9",
+        "InputFieldName": "offerDetails:productCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "TotalPrices:productCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom9579",
+        "InputFieldName": "offerDetails:totalElecStandingPrice",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "TotalPrices:totalElecStandingPrice",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom2710",
+        "InputFieldName": "offerDetails:totalElecUnitPrice",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "TotalPrices:totalElecUnitPrice",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom5654",
+        "InputFieldName": "offerDetails:totalElectricityPrice",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "TotalPrices:totalElectricityPrice",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom3374",
+        "InputFieldName": "offerDetails:totalGasPrice",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "TotalPrices:totalGasPrice",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom9180",
+        "InputFieldName": "offerDetails:totalGasStandingPrice",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "TotalPrices:totalGasStandingPrice",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom2860",
+        "InputFieldName": "offerDetails:totalGasUnitPrice",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "TotalPrices:totalGasUnitPrice",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VeeDigitalTransformBasketPricesDualCustom0jIRN000000094w2AAItem11",
+        "InputFieldName": "offerDetails:totalPrice",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPricesDual",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPricesDual",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPricesDual",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "TotalPrices:totalPrice",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

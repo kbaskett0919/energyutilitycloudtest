@@ -1,0 +1,45 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "contextVariables": [
+            {
+                "id": 42,
+                "name": "Params.id",
+                "val": "a1S4x000000mkzgEAA"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "IntegrationProcedures",
+        "value": {
+            "dsDelay": 0,
+            "inputMap": {
+                "Id": "{Params.id}"
+            },
+            "ipMethod": "VPL_GetProfileData",
+            "optionsMap": {
+                "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+            },
+            "resultVar": "",
+            "vlocityAsync": false
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyProfile",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyProfile/CME_E_U/4/1632752822145",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyProfile.json",
+    "SampleDataSourceResponse": "{\"AccountId\":\"0014x0000073OnIAAU\",\"AnalysisMood\":1,\"AnalysisRenewablePotential\":3,\"AnalysisUpsellPotential\":2,\"CSCost\":1,\"CSCoverage\":3,\"CSMaintenance\":3,\"CSReliability\":2,\"CSService\":1,\"CSUsageCharges\":3,\"CategoryId\":\"a0O4x00000016rjEAA\",\"PCCost\":3,\"PCFamilyFriendly\":3,\"PCInsurance\":5,\"PCRenewableEnergy\":3,\"PCServiceAvailability\":2,\"ProfileInterest\":\"\"}",
+    "StylingConfiguration": "",
+    "UniqueName": "sfiEnergyProfile_CME_E_U_4",
+    "VersionNumber": 4,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyProfile"
+}

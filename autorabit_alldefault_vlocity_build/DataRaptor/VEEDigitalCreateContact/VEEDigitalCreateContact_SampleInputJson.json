@@ -1,0 +1,35 @@
+{
+    "Address": {
+        "ContactPreference": "Email",
+        "Email": "abcde@r.com",
+        "FirstName": "abcde",
+        "LastName": "abcde",
+        "Phone": null,
+        "TAAreaLevel1": "abcde",
+        "TACountry": "abcde",
+        "TAPostalCode": "abcde",
+        "TAStreet": "abcde"
+    },
+    "Enroll": {
+        "VEECustomerDetailsBlock": {
+            "ContactPreference": "Email",
+            "Email": "abcde@r.com",
+            "FirstName": "abcde",
+            "LastName": "abcde",
+            "Phone": null,
+            "TAAreaLevel1": "abcde",
+            "TACountry": "abcde",
+            "TAPostalCode": "abcde",
+            "TAStreet": "abcde"
+        }
+    },
+    "distributionRegion": "Derby",
+    "meterType": "Standard",
+    "orderDetails": {
+        "accountId": "001B000001SP7cjIAD",
+        "orderId": "801B0000002RrbNIAS",
+        "orderNumber": "00000276",
+        "serviceAccountRecordTypeId": "012B0000000SytKIAS"
+    },
+    "productType": "Electricity"
+}

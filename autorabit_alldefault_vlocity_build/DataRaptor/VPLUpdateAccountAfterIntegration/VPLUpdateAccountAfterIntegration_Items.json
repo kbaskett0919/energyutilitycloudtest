@@ -1,0 +1,102 @@
+[
+    {
+        "FormulaExpression": "IF(%CustomerSelection:AccountType% = 'Business', %VIPCreateBusinessPartner:ERPAccountID__c%, %VIPCreateContractAccount:ERP_Contract_ID__c%)",
+        "FormulaResultPath": "FML_ERPValue",
+        "FormulaSequence": 2,
+        "GlobalKey": "VPL-UpdateAccountAfterIntegrationCustom2971",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-UpdateAccountAfterIntegration",
+        "OmniDataTransformationId": {
+            "Name": "VPLUpdateAccountAfterIntegration",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLUpdateAccountAfterIntegration",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(%CustomerSelection:NewAccountNeeded% = 'No', %CustomerSelection:ExistingAccount-Block:ExistingAccountId%, IF(%CustomerSelection:AccountType% = 'Business', %BusinessAccountId%, %DRId_Account%))",
+        "FormulaResultPath": "FML_AccountId",
+        "FormulaSequence": 1,
+        "GlobalKey": "VPL-UpdateAccountAfterIntegrationCustom7020",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-UpdateAccountAfterIntegration",
+        "OmniDataTransformationId": {
+            "Name": "VPLUpdateAccountAfterIntegration",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLUpdateAccountAfterIntegration",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-UpdateAccountAfterIntegrationCustom8674",
+        "InputFieldName": "FML_ERPValue",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-UpdateAccountAfterIntegration",
+        "OmniDataTransformationId": {
+            "Name": "VPLUpdateAccountAfterIntegration",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLUpdateAccountAfterIntegration",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AccountNumber",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-UpdateAccountAfterIntegrationCustom6615",
+        "InputFieldName": "FML_AccountId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-UpdateAccountAfterIntegration",
+        "OmniDataTransformationId": {
+            "Name": "VPLUpdateAccountAfterIntegration",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLUpdateAccountAfterIntegration",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "VPL-UpdateAccountAfterIntegrationCustom153",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "VPL-UpdateAccountAfterIntegration",
+        "OmniDataTransformationId": {
+            "Name": "VPLUpdateAccountAfterIntegration",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLUpdateAccountAfterIntegration",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

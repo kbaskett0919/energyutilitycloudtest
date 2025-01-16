@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>A Screen flow with instructions for health and safety checks to be performed at customer&apos;s location.</description>
+    <environments>Default</environments>
+    <interviewLabel>Health And Safety Checks {!$Flow.CurrentDateTime}</interviewLabel>
+    <isTemplate>true</isTemplate>
+    <label>Health and safety checks</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>FieldServiceMobile</processType>
+    <screens>
+        <description>A Screen flow with instructions for health and safety checks to be performed at customer&apos;s location.</description>
+        <name>S01_Health_And_Safety_Checks</name>
+        <label>Health And Safety Checks</label>
+        <locationX>669</locationX>
+        <locationY>181</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>S01_Instructions</name>
+            <fieldText>&lt;p&gt;&lt;strong&gt;Instructions:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Test for Unwanted Charge:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;1) Test a Volt stick on a known live source.&lt;/p&gt;&lt;p&gt;2) Test the voltages on gas appliances and Meter installation using the tip of volt stick.&lt;/p&gt;&lt;p&gt;3) If the Volt stick illuminates, then cease the work activity and refer to your company procedure.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Tightness Test:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;1) Raise the pressure to 7/10 millibar (mb) for 1 minute to test the let by of the ECV.1. If the let by is susceptive, then disconnect the regulator and apply the leak detection fluid LDF (Leak Detection Fluid) inside the ECV.&lt;/p&gt;&lt;p&gt;2) If let by is present, then contact the gas transporter.&lt;/p&gt;&lt;p&gt;3) Raise the pressure to 20 millibar for 1 minute for the stabilisation period.&lt;/p&gt;&lt;p&gt;4) For a further 2 minutes, test the installation at 20mb.&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>S01_IsUnwantedChargeTested</name>
+            <dataType>Boolean</dataType>
+            <defaultValue>
+                <booleanValue>true</booleanValue>
+            </defaultValue>
+            <fieldText>I have tested for unwanted charge</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>S01_IsEmergencyControlValveIsolated</name>
+            <dataType>Boolean</dataType>
+            <defaultValue>
+                <booleanValue>true</booleanValue>
+            </defaultValue>
+            <fieldText>I have isolated gas at Emergency Control Valve</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>S01_IsTightnessTestPerformed</name>
+            <dataType>Boolean</dataType>
+            <defaultValue>
+                <booleanValue>true</booleanValue>
+            </defaultValue>
+            <fieldText>I have performed the Tightness Test</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <nextOrFinishButtonLabel>Submit</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>543</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>S01_Health_And_Safety_Checks</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+</Flow>

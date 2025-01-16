@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "This IP is used to fetch the programs orders related to an account.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "EnergyUtilitiesProgramsGetOrderList",
+    "OmniProcessElement": [
+        "EnergyUtilitiesPrograms_getOrderList_Element_DRGetSiteURL.json",
+        "EnergyUtilitiesPrograms_getOrderList_Element_DRGetOrders.json",
+        "EnergyUtilitiesPrograms_getOrderList_Element_DRGetOrdersList.json",
+        "EnergyUtilitiesPrograms_getOrderList_Element_Response.json"
+    ],
+    "OmniProcessKey": "EnergyUtilitiesPrograms_getOrderList",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "EnergyUtilitiesPrograms_getOrderList_PropertySetConfig.json",
+    "SubType": "getOrderList",
+    "Type": "EnergyUtilitiesPrograms",
+    "UniqueName": "EnergyUtilitiesPrograms_getOrderList_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/EnergyUtilitiesPrograms/getOrderList/Procedure"
+}

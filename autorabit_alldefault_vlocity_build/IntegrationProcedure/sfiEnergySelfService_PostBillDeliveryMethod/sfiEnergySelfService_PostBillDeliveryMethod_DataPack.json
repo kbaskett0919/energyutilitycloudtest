@@ -1,0 +1,21 @@
+{
+    "CustomJavaScript": "sfiEnergySelfService_PostBillDeliveryMethod_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergySelfServicePostBillDeliveryMethod",
+    "OmniProcessElement": "sfiEnergySelfService_PostBillDeliveryMethod_Element_DataRaptorPostAction1.json",
+    "OmniProcessKey": "sfiEnergySelfService_PostBillDeliveryMethod",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergySelfService_PostBillDeliveryMethod_PropertySetConfig.json",
+    "SubType": "PostBillDeliveryMethod",
+    "Type": "sfiEnergySelfService",
+    "UniqueName": "sfiEnergySelfService_PostBillDeliveryMethod_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergySelfService/PostBillDeliveryMethod/Procedure"
+}

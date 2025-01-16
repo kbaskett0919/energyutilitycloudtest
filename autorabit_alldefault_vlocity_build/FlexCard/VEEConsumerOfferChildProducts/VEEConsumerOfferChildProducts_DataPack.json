@@ -1,0 +1,32 @@
+{
+    "AuthorName": "CME_EU_Express",
+    "ClonedFromOmniUiCardKey": "OfferChildProducts/Lakshmi/1/1611201712871",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "\n  {\n     \"consumption\":123,\n      \"childProducts\": [\n        {\n          \"UnitPrice\": 0.1609,\n          \"productCode\": \"CC_UNIT_RATE_GREEN1\",\n          \"Name\": \"Unit Rate\",\n          \"currencyCode\": \"USD\"\n        },\n        {\n          \"UnitPrice\": 0.1313,\n          \"productCode\": \"CC_STANDING_CHARGES_GREEN1\",\n          \"Name\": \"Standing Charges\",\n           \"currencyCode\": \"USD\"\n        }\n      ],\n      \"totalStandingPrice\": 3.939,\n      \"isAddedToCart\": false,\n      \"Description\": \"Green Energy product description\",\n      \"productName\": \"Green Energy Tariff1\",\n      \"currencyCode\": \"USD\",\n      \"productCode\": \"PD_GREEN_ENERGY_TARIFF1\",\n      \"cartContextKey\": \"946abbb9787caf72af697878da7ed66e\",\n      \"totalPrice\": 164.839,\n      \"totalUnitPrice\": 160.9\n    }\n  ",
+            "resultVar": ""
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "VEEConsumerOfferChildProducts",
+    "Namespace": "",
+    "OmniUiCardKey": "VEEConsumerOfferChildProducts/CME_EU_Express/5/1618291762052",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "VEEConsumerOfferChildProducts.json",
+    "SampleDataSourceResponse": "{\"consumption\":123,\"childProducts\":[{\"UnitPrice\":0.1609,\"productCode\":\"CC_UNIT_RATE_GREEN1\",\"Name\":\"Unit Rate\",\"currencyCode\":\"USD\"},{\"UnitPrice\":0.1313,\"productCode\":\"CC_STANDING_CHARGES_GREEN1\",\"Name\":\"Standing Charges\",\"currencyCode\":\"USD\"}],\"totalStandingPrice\":3.939,\"isAddedToCart\":false,\"Description\":\"Green Energy product description\",\"productName\":\"Green Energy Tariff1\",\"currencyCode\":\"USD\",\"productCode\":\"PD_GREEN_ENERGY_TARIFF1\",\"cartContextKey\":\"946abbb9787caf72af697878da7ed66e\",\"totalPrice\":164.839,\"totalUnitPrice\":160.9}",
+    "StylingConfiguration": "",
+    "UniqueName": "VEEConsumerOfferChildProducts_CME_EU_Express_5",
+    "VersionNumber": 5,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/VEEConsumerOfferChildProducts"
+}

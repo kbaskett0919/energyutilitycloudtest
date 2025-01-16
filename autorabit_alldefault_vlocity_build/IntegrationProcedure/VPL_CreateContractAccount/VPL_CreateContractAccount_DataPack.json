@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "VPL_CreateContractAccount_SampleInput.json",
+    "Description": "Connects with external system to create a contract and gets back the ERP_Contract_ID__c",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VPL-CreateContractAccount",
+    "OmniProcessElement": [
+        "VPL_CreateContractAccount_Element_TransformJSONtoXML.json",
+        "VPL_CreateContractAccount_Element_TransomJSONValues.json",
+        "VPL_CreateContractAccount_Element_SVJSONResponse.json",
+        "VPL_CreateContractAccount_Element_OutResponse.json"
+    ],
+    "OmniProcessKey": "VPL_CreateContractAccount",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VPL_CreateContractAccount_PropertySetConfig.json",
+    "SubType": "CreateContractAccount",
+    "Type": "VPL",
+    "UniqueName": "VPL_CreateContractAccount_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VPL/CreateContractAccount/Procedure"
+}

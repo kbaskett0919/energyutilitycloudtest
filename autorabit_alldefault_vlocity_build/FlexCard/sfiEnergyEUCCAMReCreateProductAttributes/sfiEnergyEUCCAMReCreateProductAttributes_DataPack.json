@@ -1,0 +1,76 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "sfiEnergyEUCCAMUpdateImages/CME_E_U/2/1655122695717",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "Custom",
+            "value": {
+                "body": "{\n\"status\": \"false\",\n\"jobName\": \"EPCProductAttribJSONBatchJob\"\n}",
+                "dsDelay": "",
+                "resultVar": ""
+            }
+        },
+        "state0element0block_element0block_element1_0": {
+            "contextVariables": [
+                {
+                    "id": 1,
+                    "name": "jobName",
+                    "val": "EPCProductAttribJSONBatchJob"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "JobName": "{jobName}"
+                },
+                "ipMethod": "sfiEnergyCAM_RunScheduledJob",
+                "jsonMap": "{\"jobName\":\"{jobName}\"}",
+                "vlocityAsync": false
+            }
+        },
+        "state1element0block_element0block_element1_0": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "jobName": "Test"
+                },
+                "ipMethod": "sfiEnergyCAM_ScheduledJobPOC",
+                "resultVar": "",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "This FlexCard is used to run CAM - EPCProductAttribJSONBatchJob.",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyEUCCAMReCreateProductAttributes",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyEUCCAMReCreateProductAttributes/CME_E_U/2/1664188833705",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyEUCCAMReCreateProductAttributes.json",
+    "SampleDataSourceResponse": "{\"status\":\"false\",\"jobName\":\"EPCProductAttribJSONBatchJob\"}",
+    "StylingConfiguration": "",
+    "UniqueName": "sfiEnergyEUCCAMReCreateProductAttributes_CME_E_U_2",
+    "VersionNumber": 2,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyEUCCAMReCreateProductAttributes"
+}

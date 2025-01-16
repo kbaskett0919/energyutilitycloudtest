@@ -1,0 +1,49 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 12,
+                    "name": "recordId",
+                    "val": "0011Q00002ZRgo5QAD"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "Id": "{recordId}",
+                    "callFrom": "'Actions'"
+                },
+                "ipMethod": "sfiEnergyConsole_FSAppointmentDetails",
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "optionsMap": {
+                    "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+                },
+                "resultVar": "",
+                "vlocityAsync": true
+            }
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyActionsLayout",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyActionsLayout/CME_E_U/9/1657267565280",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyActionsLayout.json",
+    "SampleDataSourceResponse": "{\"AccountId\":\"0011Q00002ZRgo5QAD\",\"isFSPackageLicenseAvailable\":true,\"AccountEntitlements\":{\"entitlements\":[{\"entitlementName\":\"Sample Entitlement - Billy Bing\"}]}}",
+    "StylingConfiguration": "",
+    "UniqueName": "sfiEnergyActionsLayout_CME_E_U_9",
+    "VersionNumber": 9,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyActionsLayout"
+}

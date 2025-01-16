@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "sfiEnergy_GetServicePointAssetDetail_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergyGetServicePointAssetDetail",
+    "OmniProcessElement": [
+        "sfiEnergy_GetServicePointAssetDetail_Element_DRServicePointList.json",
+        "sfiEnergy_GetServicePointAssetDetail_Element_ServicePointListResponse.json"
+    ],
+    "OmniProcessKey": "sfiEnergy_GetServicePointAssetDetail",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergy_GetServicePointAssetDetail_PropertySetConfig.json",
+    "SubType": "GetServicePointAssetDetail",
+    "Type": "sfiEnergy",
+    "UniqueName": "sfiEnergy_GetServicePointAssetDetail_Procedure_3",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergy/GetServicePointAssetDetail/Procedure"
+}

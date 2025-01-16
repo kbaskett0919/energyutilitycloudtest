@@ -1,0 +1,42 @@
+{
+    "AuthorName": "Vlocity",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "contextVariables": [
+            {
+                "id": 2,
+                "name": "Params.id",
+                "val": "0015f000004jXxjAAE"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "IntegrationProcedures",
+        "value": {
+            "dsDelay": "",
+            "inputMap": {
+                "Id": "{Params.id}"
+            },
+            "ipMethod": "sfiEnergyB2bsales_ConsoleQuoteList",
+            "resultVar": "",
+            "vlocityAsync": false
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyB2bsalesConsoleQuoteList",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyB2bsalesConsoleQuoteList/Vlocity/1/1632316830869",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyB2bsalesConsoleQuoteList.json",
+    "SampleDataSourceResponse": "{\"QuoteList\":[{\"QuoteTotal\":\"$100,000.00\",\"QuoteName\":\"Demo quote 2\",\"QuoteMargin\":0,\"QuoteId\":\"0Q05f000000D9EqCAK\"},{\"QuoteTotal\":\"$10,000.00\",\"QuoteName\":\"demo quote 4\",\"QuoteMargin\":0,\"QuoteId\":\"0Q05f000000D9EvCAK\"},{\"QuoteTotal\":\"$12,346.00\",\"QuoteName\":\"Demo Quote 1\",\"QuoteMargin\":0,\"QuoteId\":\"0Q05f000000D9ElCAK\"},{\"QuoteTotal\":\"$100,000.00\",\"QuoteName\":\"Demo quote 3\",\"QuoteMargin\":0,\"QuoteId\":\"0Q05f000000D9EmCAK\"},{\"QuoteTotal\":\"$0.00\",\"QuoteName\":\"Arizona Quote1\",\"QuoteMargin\":0,\"QuoteId\":\"0Q05f000000D9JICA0\"},{\"QuoteTotal\":\"$0.00\",\"QuoteName\":\"Premium Quote2\",\"QuoteMargin\":0,\"QuoteId\":\"0Q05f000000D9JNCA0\"}],\"columnsData\":{\"additionalColumns\":[],\"columns\":[{\"fieldName\":\"QuoteName\",\"label\":\"SfiEnergyQuotesName\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true,\"visible\":true},{\"fieldName\":\"QuoteMargin\",\"label\":\"SfiEnergyQuoteMargin\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true},{\"fieldName\":\"QuoteTotal\",\"label\":\"SfiEnergyQuoteTotal\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true},{\"fieldName\":\"QuoteTerms\",\"label\":\"SfiEnergyContractedMonths\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true},{\"fieldName\":\"QuoteStatus\",\"label\":\"SfiEnergyQuoteStatus\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true}]}}",
+    "StylingConfiguration": "",
+    "UniqueName": "sfiEnergyB2bsalesConsoleQuoteList_Vlocity_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyB2bsalesConsoleQuoteList"
+}

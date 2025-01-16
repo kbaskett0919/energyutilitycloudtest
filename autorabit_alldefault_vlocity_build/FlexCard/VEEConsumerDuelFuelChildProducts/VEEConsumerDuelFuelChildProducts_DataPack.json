@@ -1,0 +1,32 @@
+{
+    "AuthorName": "CME_EU_Express",
+    "ClonedFromOmniUiCardKey": "VEEConsumerDualFuelChildProducts/Lakshmi/1/1614591789765",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "[\n        {\n          \"CurrencyCode\": \"GBP\",\n          \"childProducts\": [\n            {\n              \"productCode\": \"CC_UNIT_RATE_ELEC_DUAL\",\n              \"Name\": \"Unit Rate\",\n              \"SubType\": \"Unit Rate\",\n              \"UnitPrice\": 0.1134\n            },\n            {\n              \"productCode\": \"CC_STANDING_CHARGES_ELEC_DUAL\",\n              \"Name\": \"Standing Charges\",\n              \"SubType\": \"Standing Charges\",\n              \"UnitPrice\": 0.101\n            }\n          ],\n          \"productCode\": \"PD_ELECTRICITY_DUALFUEL\",\n          \"Name\": \"Electricity\",\n          \"SubType\": \"Electricity\"\n        },\n        {\n          \"CurrencyCode\": \"GBP\",\n          \"childProducts\": [\n            {\n              \"productCode\": \"CC_UNIT_RATE_GAS_DUAL\",\n              \"Name\": \"Unit Rate\",\n              \"SubType\": \"Unit Rate\",\n              \"UnitPrice\": 0.1445\n            },\n            {\n              \"productCode\": \"CC_STANDING_CHARGES_GAS_DUAL\",\n              \"Name\": \"Standing Charges\",\n              \"SubType\": \"Standing Charges\",\n              \"UnitPrice\": 0.177\n            }\n          ],\n          \"productCode\": \"PD_GAS_DUALFUEL\",\n          \"Name\": \"Gas\",\n          \"SubType\": \"Gas\"\n        }\n      ]",
+            "resultVar": ""
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "VEEConsumerDuelFuelChildProducts",
+    "Namespace": "",
+    "OmniUiCardKey": "VEEConsumerDuelFuelChildProducts/CME_EU_Express/2/1616577009048",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "VEEConsumerDuelFuelChildProducts.json",
+    "SampleDataSourceResponse": "[{\"CurrencyCode\":\"GBP\",\"childProducts\":[{\"productCode\":\"CC_UNIT_RATE_ELEC_DUAL\",\"Name\":\"Unit Rate\",\"SubType\":\"Unit Rate\",\"UnitPrice\":0.1134},{\"productCode\":\"CC_STANDING_CHARGES_ELEC_DUAL\",\"Name\":\"Standing Charges\",\"SubType\":\"Standing Charges\",\"UnitPrice\":0.101}],\"productCode\":\"PD_ELECTRICITY_DUALFUEL\",\"Name\":\"Electricity\",\"SubType\":\"Electricity\"},{\"CurrencyCode\":\"GBP\",\"childProducts\":[{\"productCode\":\"CC_UNIT_RATE_GAS_DUAL\",\"Name\":\"Unit Rate\",\"SubType\":\"Unit Rate\",\"UnitPrice\":0.1445},{\"productCode\":\"CC_STANDING_CHARGES_GAS_DUAL\",\"Name\":\"Standing Charges\",\"SubType\":\"Standing Charges\",\"UnitPrice\":0.177}],\"productCode\":\"PD_GAS_DUALFUEL\",\"Name\":\"Gas\",\"SubType\":\"Gas\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "VEEConsumerDuelFuelChildProducts_CME_EU_Express_2",
+    "VersionNumber": 2,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/VEEConsumerDuelFuelChildProducts"
+}

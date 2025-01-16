@@ -1,0 +1,96 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetCustomLWCValues",
+    "OmniProcessId": {
+        "Name": "VPLMoveIn-WithoutCPQ",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/vplEnergy/MoveIn/Multi-Language",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "AvailableProductMaxRowSelection": "=\"Multiple\"",
+            "AvialbleProductsColumns": [
+                {
+                    "fieldName": "ProdName",
+                    "label": "sfiEnergyConsoleMoveInProductName"
+                },
+                {
+                    "fieldName": "ProdFamily",
+                    "label": "sfiEnergyConsoleMoveInProductFamily"
+                },
+                {
+                    "fieldName": "ProdCategory",
+                    "label": "sfiEnergyConsoleMoveInServiceType"
+                },
+                {
+                    "fieldName": "ProdDescription",
+                    "label": "sfiEnergyConsoleMoveInDescription"
+                }
+            ],
+            "SObjectName": "=\"Account\"",
+            "SelectedServiceMaxRow": "=NULL",
+            "ServiceAccountPremisesColumns": [
+                {
+                    "fieldName": "Checked",
+                    "label": ""
+                },
+                {
+                    "fieldName": "AccountName",
+                    "label": "sfiEnergyConsoleMoveInAccountName"
+                },
+                {
+                    "fieldName": "PremisesName",
+                    "label": "sfiEnergyConsoleMoveInPremiseAddress"
+                }
+            ],
+            "ServiceAccountPremisesMaxRowSelection": "=\"Single\"",
+            "ServicePointsColumns": [
+                {
+                    "fieldName": "ServicePointName",
+                    "label": "sfiEnergyConsoleMoveInServicePointName"
+                },
+                {
+                    "fieldName": "ServiceType",
+                    "label": "sfiEnergyConsoleMoveInServiceType"
+                },
+                {
+                    "fieldName": "SelectProduct",
+                    "label": "sfiEnergyConsoleMoveInSelectProduct"
+                }
+            ],
+            "ServicePointsColumnsConfirm": [
+                {
+                    "fieldName": "ServicePointName",
+                    "label": "sfiEnergyConsoleMoveInServicePointName"
+                },
+                {
+                    "fieldName": "ServiceType",
+                    "label": "sfiEnergyConsoleMoveInServiceType"
+                },
+                {
+                    "fieldName": "ProductName",
+                    "label": "sfiEnergyConsoleMoveInSelectProduct"
+                }
+            ]
+        },
+        "message": {
+        },
+        "pubsub": false,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/vplEnergy/MoveIn/Multi-Language/SetCustomLWCValues"
+}

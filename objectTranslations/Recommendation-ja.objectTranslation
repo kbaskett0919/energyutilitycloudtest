@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__ContextID__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__OfferCode__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__VlocityActionId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

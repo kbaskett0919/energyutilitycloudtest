@@ -1,0 +1,264 @@
+[
+    {
+        "FormulaExpression": "(FILTER(LIST(offerDetails:childProducts), 'subType == \"Standing Charge\"')",
+        "FormulaResultPath": "offerDetails:standingRateList",
+        "FormulaSequence": 4,
+        "GlobalKey": "VeeDigitalTransformBasketPrices322519843285054",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPrices",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPrices",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPrices",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "(FILTER(LIST(offerDetails:childProducts), 'subType == \"Unit Rate\"')",
+        "FormulaResultPath": "offerDetails:unitRateList",
+        "FormulaSequence": 1,
+        "GlobalKey": "VeeDigitalTransformBasketPrices8542539847678614",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPrices",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPrices",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPrices",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "AVG(offerDetails:standingRateList:unitPrice)",
+        "FormulaResultPath": "offerDetails:standingPrice",
+        "FormulaSequence": 5,
+        "GlobalKey": "VeeDigitalTransformBasketPrices7944764071682082",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPrices",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPrices",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPrices",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "AVG(offerDetails:unitRateList:unitPrice)",
+        "FormulaResultPath": "offerDetails:unitPrice",
+        "FormulaSequence": 2,
+        "GlobalKey": "VeeDigitalTransformBasketPrices4993709830147539",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPrices",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPrices",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPrices",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "offerDetails:standingPrice * 30",
+        "FormulaResultPath": "offerDetails:totalstandingPrice",
+        "FormulaSequence": 6,
+        "GlobalKey": "VeeDigitalTransformBasketPrices06418218687640853",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPrices",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPrices",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPrices",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "offerDetails:totalstandingPrice + offerDetails:totalUnitPrice",
+        "FormulaResultPath": "offerDetails:totalPrice",
+        "FormulaSequence": 7,
+        "GlobalKey": "VeeDigitalTransformBasketPrices9924481864068051",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPrices",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPrices",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPrices",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "offerDetails:unitPrice * consumption",
+        "FormulaResultPath": "offerDetails:totalUnitPrice",
+        "FormulaSequence": 3,
+        "GlobalKey": "VeeDigitalTransformBasketPrices2540467795827084",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPrices",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPrices",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPrices",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VeeDigitalTransformBasketPrices6378364104727092",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPrices",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPrices",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPrices",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "TotalPrices",
+        "OutputObjectName": "json",
+        "TransformValueMappings": "{}",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VeeDigitalTransformBasketPrices7035805108776285",
+        "InputFieldName": "consumption",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPrices",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPrices",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPrices",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "TotalPrices:consumption",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VeeDigitalTransformBasketPrices9580263404324447",
+        "InputFieldName": "offerDetails:productCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPrices",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPrices",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPrices",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "TotalPrices:productCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VeeDigitalTransformBasketPrices3505642839990717",
+        "InputFieldName": "offerDetails:totalPrice",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPrices",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPrices",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPrices",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "TotalPrices:totalPrice",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VeeDigitalTransformBasketPrices9669548537019266",
+        "InputFieldName": "offerDetails:totalstandingPrice",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPrices",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPrices",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPrices",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "TotalPrices:totalStandingPrice",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VeeDigitalTransformBasketPrices2281314018060121",
+        "InputFieldName": "offerDetails:totalUnitPrice",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VeeDigitalTransformBasketPrices",
+        "OmniDataTransformationId": {
+            "Name": "VeeDigitalTransformBasketPrices",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VeeDigitalTransformBasketPrices",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "TotalPrices:totalUnitPrice",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

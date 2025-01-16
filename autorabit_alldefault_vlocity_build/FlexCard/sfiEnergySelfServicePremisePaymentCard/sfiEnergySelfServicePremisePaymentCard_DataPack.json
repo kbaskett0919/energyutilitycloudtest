@@ -1,0 +1,68 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "sfiEnergySelfServicePaymentCard/CME_E_U/1/1653538210274",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 1,
+                    "name": "Parent.AccountId",
+                    "val": "0014x000010stzEAAQ"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "AccountId": "{Parent.AccountId}"
+                },
+                "ipMethod": "sfiEnergySelfService_GetStatementAndPremiseInfo",
+                "jsonMap": "{\"Parent.AccountId\":\"{Parent.AccountId}\"}",
+                "resultVar": "",
+                "vlocityAsync": false
+            }
+        },
+        "state0element0block_element2block_element1_0": {
+            "contextVariables": [
+                {
+                    "id": 1,
+                    "name": "Parent.AccountId",
+                    "val": "0014x000010stzEAAQ"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "AccountId": "{Parent.AccountId}"
+                },
+                "ipMethod": "sfiEnergySelfService_GetStatementAndPremiseInfo",
+                "jsonMap": "{\"Parent.AccountId\":\"{Parent.AccountId}\"}",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "Payment and Premise card for Overview page on SSP v2.",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergySelfServicePremisePaymentCard",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergySelfServicePremisePaymentCard/CME_E_U/4.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergySelfServicePremisePaymentCard.json",
+    "SampleDataSourceResponse": "{\"Statement\":{\"PercentChange\":9,\"BalanceIncrease\":false,\"PreviousBalance\":\"$500\",\"ImageURL\":\"/resource/dummy_pdf\",\"DueDate\":\"07/04/2020\",\"BalanceDue\":\"$454\",\"PeriodEndDate\":\"22 Mar 2020\",\"PeriodStartDate\":\"22 Feb\"},\"premiseInfo\":[{\"premiseAddress\":\"11 premise street , 11 premise city , 11 premise state , CV3 4LF\",\"accountrecordType\":\"Consumer\",\"accountNumber\":\"123456789\",\"premisesId\":\"a3B4x000000QCLjEAO\",\"premiseStreet\":\"11 premise street\",\"premiseState\":\"11 premise state\",\"premisePostalCode\":\"CV3 4LF\",\"premiseName\":\"test premise 11\",\"premiseCity\":\"11 premise city\",\"premiseAccountId\":\"0014x000010stzEAAQ\"},{\"premiseAddress\":\"Street4 , Columbus , Colorado , 68219\",\"accountrecordType\":\"Service\",\"premisesId\":\"a3B4x000000Q98nEAC\",\"premiseStreet\":\"Street4\",\"premiseState\":\"Colorado\",\"premisePostalCode\":\"68219\",\"premiseName\":\"PerfPremise4\",\"premiseCity\":\"Columbus\",\"premiseAccountId\":\"0014x000016kI6uAAE\"},{\"premiseAddress\":\"5 Whitehill Rd, Newcraighall , Edinburgh , Scotland , CV3 4LF\",\"accountrecordType\":\"Service\",\"accountNumber\":\"123\",\"premisesId\":\"a3B4x000000QCLoEAO\",\"premiseStreet\":\"5 Whitehill Rd, Newcraighall\",\"premiseState\":\"Scotland\",\"premisePostalCode\":\"CV3 4LF\",\"premiseName\":\"5 Whitehill Rd, Newcraighall, Edinburgh Scotland, EH15 3HR, United Kingdom\",\"premiseCity\":\"Edinburgh\",\"premiseAccountId\":\"0014x0000033MHPAA2\"},{\"premiseAddress\":\"112 Ocean Avenue , Amityville , NY , 11701\",\"accountrecordType\":\"Service\",\"premisesId\":\"a3B4x000000PLnFEAW\",\"premiseStreet\":\"112 Ocean Avenue\",\"premiseState\":\"NY\",\"premisePostalCode\":\"11701\",\"premiseName\":\"112 Ocean Avenue, Amityville,NY,11701,United States\",\"premiseCountry\":\"United States\",\"premiseCity\":\"Amityville\",\"premiseAccountId\":\"0014x000018IxXHAA0\"},{\"premiseAddress\":\"23 Abbey Road, Whitley , Coventry , Warwickshire , 123456\",\"accountrecordType\":\"Service\",\"accountNumber\":\"12345\",\"premisesId\":\"a3B4x000000QCLFEA4\",\"premiseStreet\":\"23 Abbey Road, Whitley\",\"premiseState\":\"Warwickshire\",\"premisePostalCode\":\"123456\",\"premiseName\":\"23 Abbey Road, Whitley, Coventry, Warwickshire CV3 4LF, United Kingdom\",\"premiseCountry\":\"United Kingdom\",\"premiseCity\":\"Coventry\",\"premiseAccountId\":\"0014x00000t34sLAAQ\"}],\"premiseCount\":5}",
+    "StylingConfiguration": "{\"styleObjects\":{\"testStyle\":{\"sizeClass\":\"slds-size_12-of-12\",\"padding\":[],\"margin\":[],\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":\"\",\"width\":\"\",\"color\":\"\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{},\"text\":{\"align\":\"\",\"color\":\"\"},\"inlineStyle\":\"\",\"selectedStyles\":\"testStyle\",\"element\":\"action\"}},\"customStyles\":\":host{\\n    --sds-c-card-color-background: #F9FCFF;\\n    --sds-c-card-shadow: none;\\n    --sds-c-card-color-border:#fff;\\n    --sds-c-card-radius-border:0;\\n    --lwc-fontSize5: 1.4rem;\\n    --sds-c-card-header-spacing-block-start:1.3rem;\\n    --sds-c-card-header-spacing-inline-start:1.3rem;\\n    --sds-c-card-body-spacing-inline-start:1.3rem;\\n    --sds-c-card-body-spacing-block-end:1.3rem;\\n     --lwc-colorTextLabel:var(--colorTextDefault);\\n}\\n.button-full-width button{\\n    width:100%;\\n}\\n\\n.eu-payment-container {\\n    background-color: #FFF;\\n    box-shadow: 0px 8px 16px rgba(1, 118, 211, 0.1);\\n    box-shadow: 0px 8px 16px rgba(1, 118, 211, 0.1);\\n    border-radius: 24px;\\n}\\n\\n\"}",
+    "UniqueName": "sfiEnergySelfServicePremisePaymentCard_CME_E_U_4",
+    "VersionNumber": 4,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergySelfServicePremisePaymentCard"
+}

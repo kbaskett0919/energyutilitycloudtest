@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniDataTransform xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <assignmentRulesUsed>false</assignmentRulesUsed>
+    <deletedOnSuccess>false</deletedOnSuccess>
+    <description>Used to transform inputs to call IP for external system</description>
+    <errorIgnored>false</errorIgnored>
+    <expectedInputJson>{
+  &quot;AccountDetails&quot; : &quot;&lt;p&gt;&lt;strong&gt;&lt;img src=\&quot;../servlet/servlet.ImageServer?docName=015f2000001sxa4AAA&amp;amp;&amp;amp;id=015f2000001sxa4AAA&amp;amp;&amp;amp;oid=00Df2000000NVjKEAW\&quot; alt=\&quot;\&quot; width=\&quot;25\&quot; height=\&quot;25\&quot; /&gt;&amp;nbsp;Account Number:&lt;/strong&gt;&amp;nbsp; &lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;img src=\&quot;../servlet/servlet.ImageServer?id=015f2000001sxkiAAA&amp;amp;&amp;amp;id=015f2000001sxkiAAA&amp;amp;&amp;amp;oid=00Df2000000NVjKEAW\&quot; alt=\&quot;\&quot; width=\&quot;27\&quot; height=\&quot;25\&quot; /&gt;&amp;nbsp;Customer:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/strong&gt;border boy&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/strong&gt;1234565675&lt;/p&gt;\n&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;strong&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/strong&gt;akash.naik@accenture.com&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;img src=\&quot;../servlet/servlet.ImageServer?id=015f2000001sxkiAAA&amp;amp;&amp;amp;id=015f2000001sxkiAAA&amp;amp;&amp;amp;oid=00Df2000000NVjKEAW\&quot; alt=\&quot;\&quot; width=\&quot;27\&quot; height=\&quot;25\&quot; /&gt;&amp;nbsp;Customer ID:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/strong&gt;003f200002lgmrcAAA&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;img src=\&quot;../servlet/servlet.ImageServer?id=015f2000001sxknAAA&amp;amp;&amp;amp;id=015f2000001sxknAAA&amp;amp;&amp;amp;oid=00Df2000000NVjKEAW\&quot; alt=\&quot;\&quot; width=\&quot;25\&quot; height=\&quot;25\&quot; /&gt;&amp;nbsp;Premise Address:&amp;nbsp; &amp;nbsp; &lt;/strong&gt;5 Harper Ave Detroit MI 48202&lt;/p&gt;&quot;,
+  &quot;AccountId&quot; : &quot;001f200001tJyttAAC&quot;,
+  &quot;AccountName&quot; : &quot;border boy&quot;,
+  &quot;BillDeliveryMethod&quot; : &quot;Electronic Statements Online&quot;,
+  &quot;BillFrequency&quot; : &quot;Weekly&quot;,
+  &quot;ContactFirstName&quot; : &quot;border&quot;,
+  &quot;ContactId&quot; : &quot;003f200002lgmrcAAA&quot;,
+  &quot;ContactLastName&quot; : &quot;boy&quot;,
+  &quot;ContactName&quot; : &quot;border boy&quot;,
+  &quot;ContextId&quot; : &quot;001f200001tJytt&quot;,
+  &quot;ERP_Account_Id__c&quot; : &quot;6010605&quot;,
+  &quot;Email&quot; : &quot;akash.naik@accenture.com&quot;,
+  &quot;Phone&quot; : &quot;1234565675&quot;,
+  &quot;PreConfirmMoveOut&quot; : {
+    &quot;Confirm&quot; : null
+  },
+  &quot;PremiseAddress&quot; : &quot;5 Harper Ave Detroit MI 48202&quot;,
+  &quot;PremiseCity&quot; : &quot;Detroit&quot;,
+  &quot;PremiseCountry&quot; : &quot;US&quot;,
+  &quot;PremiseId&quot; : &quot;a0lf2000007hKlvAAE&quot;,
+  &quot;PremisePostalCode&quot; : &quot;48202&quot;,
+  &quot;PremiseState&quot; : &quot;MI&quot;,
+  &quot;PremiseStreet&quot; : &quot;5 Harper Ave&quot;,
+  &quot;PrimaryContactPreferences&quot; : &quot;Phone&quot;,
+  &quot;SelectAsset&quot; : {
+    &quot;AssetId&quot; : &quot;02if200000WrzzLAAR&quot;
+  },
+  &quot;SelectContractLineItem&quot; : {
+    &quot;ContractLineFormula&quot; : 0,
+    &quot;SelectContractItem&quot; : null,
+    &quot;SelectContractItemMessaging&quot; : false
+  },
+  &quot;SelectContracts&quot; : {
+    &quot;ContractId&quot; : &quot;800f2000001gdZhAAI&quot;,
+    &quot;ContractName&quot; : &quot;border boy  Contract&quot;,
+    &quot;ContractNumber&quot; : &quot;00000427&quot;,
+    &quot;ERP_AgreementID&quot; : &quot;1500011131&quot;,
+    &quot;StartDate&quot; : &quot;2019-04-11&quot;
+  },
+  &quot;id&quot; : &quot;a0Zf200000P46wQEAR&quot;,
+  &quot;layout&quot; : &quot;lightning&quot;,
+  &quot;testContextId&quot; : &quot;001f200001tJytt&quot;,
+  &quot;timeStamp&quot; : &quot;2019-04-05T10:54:26.433Z&quot;,
+  &quot;userCurrencyCode&quot; : &quot;CAD&quot;,
+  &quot;userId&quot; : &quot;005f2000008YzmAAAS&quot;,
+  &quot;userName&quot; : &quot;akash.naik@accenture.com.vlocity&quot;,
+  &quot;userProfile&quot; : &quot;System Administrator&quot;,
+  &quot;userTimeZone&quot; : -240,
+  &quot;vlcPersistentComponent&quot; : { },
+  &quot;vlcTimeTracking&quot; : {
+    &quot;GetAccountContracts&quot; : 893,
+    &quot;OmniScriptSessionToken&quot; : &quot;07f6e48f-3db4-42d2-89f2-378b0f38a72b&quot;,
+    &quot;SetContractItemValue&quot; : 20
+  }
+}</expectedInputJson>
+    <fieldLevelSecurityEnabled>false</fieldLevelSecurityEnabled>
+    <inputType>JSON</inputType>
+    <name>VPLTransformTerminateContract</name>
+    <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
+    <omniDataTransformItem>
+        <defaultValue>http://schemas.xmlsoap.org/soap/envelope/</defaultValue>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VPL TransformTerminateContract 104-1Customa0Kf200000Ev9VxEAJItem9</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-TransformTerminateContract</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>soapenv#Envelope:@xmlns#soapenv</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <defaultValue>http://www.w3.org/2001/XMLSchema</defaultValue>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VPL TransformTerminateContract 104-1Customa0Kf200000Ev9VxEAJItem8</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-TransformTerminateContract</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>soapenv#Envelope:@xmlns#xsd</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <defaultValue>http://www.w3.org/2001/XMLSchema-instance</defaultValue>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VPL TransformTerminateContract 104-1Customa0Kf200000Ev9VxEAJItem7</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-TransformTerminateContract</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>soapenv#Envelope:@xmlns#xsi</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <defaultValue>http://soap.sforce.com/2005/09/outbound</defaultValue>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VPL TransformTerminateContract 104-1Customa0Kf200000Ev9VxEAJItem6</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-TransformTerminateContract</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>soapenv#Envelope:soapenv#Body:notifications:@xmlns</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <defaultValue>00DfL000005qEZHUA2</defaultValue>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VPL TransformTerminateContract 104-1Customa0Kf200000Ev9VxEAJItem0</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-TransformTerminateContract</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>soapenv#Envelope:soapenv#Body:notifications:OrganizationId</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <defaultValue>https://accenture-utilities--UIDev.cs5.my.salesforce.com/services/Soap/u/41.0/00Df2000000NVjK</defaultValue>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VPL TransformTerminateContract 104-1Customa0Kf200000Ev9VxEAJItem3</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-TransformTerminateContract</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>soapenv#Envelope:soapenv#Body:notifications:PartnerUrl</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VPL TransformTerminateContract 104-1Customa0Kf200000Ev9VxEAJItem12</globalKey>
+        <inputFieldName>MoveOutDate</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-TransformTerminateContract</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>soapenv#Envelope:soapenv#Body:notifications:Notification:sObject:sf#CloseDate</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VPL TransformTerminateContract 104-1Customa0Kf200000Ev9VxEAJItem14</globalKey>
+        <inputFieldName>SelectedAsset:ContractNumber</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-TransformTerminateContract</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>soapenv#Envelope:soapenv#Body:notifications:Notification:sObject:sf#ERP_Agreement_ID__c</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <defaultValue>urn:sobject.enterprise.soap.sforce.com</defaultValue>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VPL TransformTerminateContract 104-1Customa0Kf200000Ev9VxEAJItem1</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-TransformTerminateContract</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>soapenv#Envelope:soapenv#Body:notifications:Notification:sObject:@xmlns#sf</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <defaultValue>sf:Agreement__c</defaultValue>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VPL TransformTerminateContract 104-1Customa0Kf200000Ev9VxEAJItem2</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-TransformTerminateContract</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>soapenv#Envelope:soapenv#Body:notifications:Notification:sObject:@xsi#type</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <defaultValue>https://accenture-utilities--UIDev.cs5.my.salesforce.com/services/Soap/c/41.0/00Df2000000NVjK</defaultValue>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VPL TransformTerminateContract 104-1Customa0Kf200000Ev9VxEAJItem4</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-TransformTerminateContract</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>soapenv#Envelope:soapenv#Body:notifications:EnterpriseUrl</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <defaultValue>true</defaultValue>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>VPL TransformTerminateContract 104-1Customa0Kf200000Ev9VxEAJItem5</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>VPL-TransformTerminateContract</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>soapenv#Envelope:soapenv#Body:notifications:SessionId:@xsi#nil</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <outputType>XML</outputType>
+    <previewJsonData>{
+  &quot;OmniscriptType&quot;: &quot;Move_Out&quot;,
+  &quot;ContextId&quot;: &quot;001f200001uqHNhAAM&quot;,
+  &quot;timeStamp&quot;: &quot;2019-05-03T09:08:02.556Z&quot;,
+  &quot;userId&quot;: &quot;005f2000008YzmAAAS&quot;,
+  &quot;userName&quot;: &quot;akash.naik@accenture.com.vlocity&quot;,
+  &quot;userProfile&quot;: &quot;System Administrator&quot;,
+  &quot;userTimeZone&quot;: -240,
+  &quot;userCurrencyCode&quot;: &quot;CAD&quot;,
+  &quot;testContextId&quot;: &quot;001f200001uqHNhAAM&quot;,
+  &quot;layout&quot;: &quot;lightning&quot;,
+  &quot;id&quot;: &quot;a0Zf200000PT9qREAT&quot;,
+  &quot;vlcPersistentComponent&quot;: {},
+  &quot;vlcTimeTracking&quot;: {
+    &quot;OmniScriptSessionToken&quot;: &quot;8f8d3668-dcf3-448a-a518-8c98ed67250a&quot;,
+    &quot;GetAccountAsset&quot;: 950,
+    &quot;GetAssetValue&quot;: 62,
+    &quot;SelectAssets&quot;: 3544,
+    &quot;MoveOutInformation&quot;: 4469,
+    &quot;SetAssetProductVal&quot;: 20,
+    &quot;ExtractInventoryItems&quot;: 724,
+    &quot;SetMeterReadingValues&quot;: 43,
+    &quot;ExtractIntegrationSettings&quot;: 677,
+    &quot;PreConfirmMoveOut&quot;: 1298,
+    &quot;UpdateMoveoutRecords&quot;: 1077
+  },
+  &quot;PreConfirmMoveOut&quot;: {
+    &quot;Confirm&quot;: &quot;Yes&quot;
+  },
+  &quot;ConnectedAsset&quot;: [
+    {
+      &quot;AssetName&quot;: &quot;12 Harper Ave, Detroit - Electricity&quot;,
+      &quot;Id&quot;: &quot;02if200000WsAFpAAN&quot;
+    },
+    {
+      &quot;AssetName&quot;: &quot;12 Harper Ave, Detroit - Gas&quot;,
+      &quot;Id&quot;: &quot;02if200000WsAFqAAN&quot;
+    }
+  ],
+  &quot;SelectAsset&quot;: [
+    {
+      &quot;Service_Contract_ID&quot;: &quot;1500011382&quot;,
+      &quot;ProductCode&quot;: &quot;ACN-ELEC-0001&quot;,
+      &quot;ConnectDate&quot;: &quot;2019-05-03T18:30:00.000Z&quot;,
+      &quot;ServicePointStatus&quot;: &quot;Connected&quot;,
+      &quot;AssetName&quot;: &quot;12 Harper Ave, Detroit - Electricity&quot;,
+      &quot;AssetId&quot;: &quot;02if200000WsAFpAAN&quot;,
+      &quot;ServiceType&quot;: &quot;Electricity&quot;,
+      &quot;PremiseAddress&quot;: &quot;12 Harper Ave, Detroit, MI, 48202&quot;,
+      &quot;ServicePointName&quot;: &quot;12 Harper Ave, Detroit - Electricity&quot;,
+      &quot;ProductFamily&quot;: &quot;Electricity&quot;,
+      {
+        &quot;OmniscriptType&quot;: &quot;Move_Out&quot;,
+        &quot;ContextId&quot;: &quot;001f200001uqHNhAAM&quot;,
+        &quot;timeStamp&quot;: &quot;2019-05-03T09:08:02.556Z&quot;,
+        &quot;userId&quot;: &quot;005f2000008YzmAAAS&quot;,
+        &quot;userName&quot;: &quot;akash.naik@accenture.com.vlocity&quot;,
+        &quot;userProfile&quot;: &quot;System Administrator&quot;,
+        &quot;userTimeZone&quot;: -240,
+        &quot;userCurrencyCode&quot;: &quot;CAD&quot;,
+        &quot;testContextId&quot;: &quot;001f200001uqHNhAAM&quot;,
+        &quot;layout&quot;: &quot;lightning&quot;,
+        &quot;id&quot;: &quot;a0Zf200000PT9qREAT&quot;,
+        &quot;vlcPersistentComponent&quot;: {},
+        &quot;vlcTimeTracking&quot;: {
+          &quot;OmniScriptSessionToken&quot;: &quot;8f8d3668-dcf3-448a-a518-8c98ed67250a&quot;,
+          &quot;GetAccountAsset&quot;: 950,
+          &quot;GetAssetValue&quot;: 62,
+          &quot;SelectAssets&quot;: 3544,
+          &quot;MoveOutInformation&quot;: 4469,
+          &quot;SetAssetProductVal&quot;: 20,
+          &quot;ExtractInventoryItems&quot;: 724,
+          &quot;SetMeterReadingValues&quot;: 43,
+          &quot;ExtractIntegrationSettings&quot;: 677,
+          &quot;PreConfirmMoveOut&quot;: 1298,
+          &quot;UpdateMoveoutRecords&quot;: 1077
+        },
+        &quot;PreConfirmMoveOut&quot;: {
+          &quot;Confirm&quot;: &quot;Yes&quot;
+        },
+        &quot;ConnectedAsset&quot;: [
+          {
+            &quot;AssetName&quot;: &quot;12 Harper Ave, Detroit - Electricity&quot;,
+            &quot;Id&quot;: &quot;02if200000WsAFpAAN&quot;
+          },
+          {
+            &quot;AssetName&quot;: &quot;12 Harper Ave, Detroit - Gas&quot;,
+            &quot;Id&quot;: &quot;02if200000WsAFqAAN&quot;
+          }
+        ],
+        &quot;SelectAsset&quot;: [
+          {
+            &quot;Service_Contract_ID&quot;: &quot;1500011382&quot;,
+            &quot;ProductCode&quot;: &quot;ACN-ELEC-0001&quot;,
+            &quot;ConnectDate&quot;: &quot;2019-05-03T18:30:00.000Z&quot;,
+            &quot;ServicePointStatus&quot;: &quot;Connected&quot;,
+            &quot;AssetName&quot;: &quot;12 Harper Ave, Detroit - Electricity&quot;,
+            &quot;AssetId&quot;: &quot;02if200000WsAFpAAN&quot;,
+            &quot;ServiceType&quot;: &quot;Electricity&quot;,
+            &quot;PremiseAddress&quot;: &quot;12 Harper Ave, Detroit, MI, 48202&quot;,
+            &quot;ServicePointName&quot;: &quot;12 Harper Ave, Detroit - Electricity&quot;,
+            &quot;ProductFamily&quot;: &quot;Electricity&quot;,
+            &quot;ProductName&quot;: &quot;Electricity Standard Tariff&quot;,
+            &quot;ProductId&quot;: &quot;01tf2000007tC3TAAU&quot;,
+            &quot;ServicePointId&quot;: &quot;a26f200000KhBbCAAV&quot;,
+            &quot;PremiseId&quot;: &quot;a0lf2000007hSuMAAU&quot;,
+            &quot;BillingAccountId&quot;: &quot;001f200001uqHNhAAM&quot;,
+            &quot;AccountId&quot;: &quot;001f200001uqHNhAAM&quot;,
+            &quot;ServiceAccountId&quot;: &quot;001f200001uqHNhAAM&quot;
+          },
+          {
+            &quot;Service_Contract_ID&quot;: &quot;1500011383&quot;,
+            &quot;ProductCode&quot;: &quot;ACN-GAS-0001&quot;,
+            &quot;ConnectDate&quot;: &quot;2019-05-03T18:30:00.000Z&quot;,
+            &quot;ServicePointStatus&quot;: &quot;Connected&quot;,
+            &quot;AssetName&quot;: &quot;12 Harper Ave, Detroit - Gas&quot;,
+            &quot;AssetId&quot;: &quot;02if200000WsAFqAAN&quot;,
+            &quot;ServiceType&quot;: &quot;Gas&quot;,
+            &quot;PremiseAddress&quot;: &quot;12 Harper Ave, Detroit, MI, 48202&quot;,
+            &quot;ServicePointName&quot;: &quot;12 Harper Ave, Detroit - Gas&quot;,
+            &quot;ProductFamily&quot;: &quot;Gas&quot;,
+            &quot;ProductName&quot;: &quot;Gas Standard Tariff&quot;,
+            &quot;ProductId&quot;: &quot;01tf2000007tC3dAAE&quot;,
+            &quot;ServicePointId&quot;: &quot;a26f200000KhBcjAAF&quot;,
+            &quot;PremiseId&quot;: &quot;a0lf2000007hSuMAAU&quot;,
+            &quot;BillingAccountId&quot;: &quot;001f200001uqHNhAAM&quot;,
+            &quot;AccountId&quot;: &quot;001f200001uqHNhAAM&quot;,
+            &quot;ServiceAccountId&quot;: &quot;001f200001uqHNhAAM&quot;
+          }
+        ],
+        &quot;BillingStreet&quot;: &quot;12 Harper Ave&quot;,
+        &quot;BillingState&quot;: &quot;MI&quot;,
+        &quot;BillingCountry&quot;: &quot;US&quot;,
+        &quot;BillingCity&quot;: &quot;Detroit&quot;,
+        &quot;Phone&quot;: &quot;3242343242&quot;,
+        &quot;ContactName&quot;: &quot;Hegde BM&quot;,
+        &quot;ContactLastName&quot;: &quot;BM&quot;,
+        &quot;ContactFirstName&quot;: &quot;Hegde&quot;,
+        &quot;Email&quot;: &quot;akash.naik@accenture.com&quot;,
+        &quot;PrimaryContactPreferences&quot;: &quot;Phone&quot;,
+        &quot;ERP_Account_Id__c&quot;: &quot;6011100&quot;,
+        &quot;ContactId&quot;: &quot;003f200002mu2XIAAY&quot;,
+        &quot;PremiseStreet&quot;: &quot;12 Harper Ave&quot;,
+        &quot;PremiseState&quot;: &quot;MI&quot;,
+        &quot;PremisePostalCode&quot;: &quot;48202&quot;,
+        &quot;PremiseCountry&quot;: &quot;US&quot;,
+        &quot;PremiseCity&quot;: &quot;Detroit&quot;,
+        &quot;PremiseId&quot;: &quot;a0lf2000007hSuMAAU&quot;,
+        &quot;BillFrequency&quot;: &quot;Weekly&quot;,
+        &quot;BillDeliveryMethod&quot;: &quot;Electronic Statements Online&quot;,
+        &quot;PremiseAddress&quot;: &quot;12 Harper Ave, Detroit, MI, 48202&quot;,
+        &quot;AccountName&quot;: &quot;Hegde BM&quot;,
+        &quot;AccountId&quot;: &quot;001f200001uqHNhAAM&quot;,
+        &quot;AccountNumber&quot;: &quot;22000014950&quot;,
+        &quot;SelectAssets&quot;: {
+          &quot;SelectAssetItem&quot;: [
+            {
+              &quot;Service_Contract_ID&quot;: &quot;1500011382&quot;,
+              &quot;ProductCode&quot;: &quot;ACN-ELEC-0001&quot;,
+              &quot;ConnectDate&quot;: &quot;2019-05-03T18:30:00.000Z&quot;,
+              &quot;ServicePointStatus&quot;: &quot;Connected&quot;,
+              &quot;AssetName&quot;: &quot;12 Harper Ave, Detroit - Electricity&quot;,
+              &quot;AssetId&quot;: &quot;02if200000WsAFpAAN&quot;,
+              &quot;ServiceType&quot;: &quot;Electricity&quot;,
+              &quot;PremiseAddress&quot;: &quot;12 Harper Ave, Detroit, MI, 48202&quot;,
+              &quot;ServicePointName&quot;: &quot;12 Harper Ave, Detroit - Electricity&quot;,
+              &quot;ProductFamily&quot;: &quot;Electricity&quot;,
+              &quot;ProductName&quot;: &quot;Electricity Standard Tariff&quot;,
+              &quot;ProductId&quot;: &quot;01tf2000007tC3TAAU&quot;,
+              &quot;ServicePointId&quot;: &quot;a26f200000KhBbCAAV&quot;,
+              &quot;PremiseId&quot;: &quot;a0lf2000007hSuMAAU&quot;,
+              &quot;BillingAccountId&quot;: &quot;001f200001uqHNhAAM&quot;,
+              &quot;AccountId&quot;: &quot;001f200001uqHNhAAM&quot;,
+              &quot;ServiceAccountId&quot;: &quot;001f200001uqHNhAAM&quot;,
+              &quot;vlcSelected&quot;: true
+            },
+            {
+              &quot;Service_Contract_ID&quot;: &quot;1500011383&quot;,
+              &quot;ProductCode&quot;: &quot;ACN-GAS-0001&quot;,
+              &quot;ConnectDate&quot;: &quot;2019-05-03T18:30:00.000Z&quot;,
+              &quot;ServicePointStatus&quot;: &quot;Connected&quot;,
+              &quot;AssetName&quot;: &quot;12 Harper Ave, Detroit - Gas&quot;,
+              &quot;AssetId&quot;: &quot;02if200000WsAFqAAN&quot;,
+              &quot;ServiceType&quot;: &quot;Gas&quot;,
+              &quot;PremiseAddress&quot;: &quot;12 Harper Ave, Detroit, MI, 48202&quot;,
+              &quot;ServicePointName&quot;: &quot;12 Harper Ave, Detroit - Gas&quot;,
+              &quot;ProductFamily&quot;: &quot;Gas&quot;,
+              &quot;ProductName&quot;: &quot;Gas Standard Tariff&quot;,
+              &quot;ProductId&quot;: &quot;01tf2000007tC3dAAE&quot;,
+              &quot;ServicePointId&quot;: &quot;a26f200000KhBcjAAF&quot;,
+              &quot;PremiseId&quot;: &quot;a0lf2000007hSuMAAU&quot;,
+              &quot;BillingAccountId&quot;: &quot;001f200001uqHNhAAM&quot;,
+              &quot;AccountId&quot;: &quot;001f200001uqHNhAAM&quot;,
+              &quot;ServiceAccountId&quot;: &quot;001f200001uqHNhAAM&quot;,
+              &quot;vlcSelected&quot;: true
+            }
+          ],
+          &quot;AssetFormula&quot;: 2,
+          &quot;SelectAssetItemMessaging&quot;: true,
+          &quot;SelectAssetMessaging&quot;: null
+        },
+        &quot;AccountDetails&quot;: &quot;&lt;p&gt;&lt;strong&gt;&lt;img src=\&quot;../servlet/servlet.ImageServer?docName=015f2000001sxa4AAA&amp;amp;&amp;amp;id=015f2000001sxa4AAA&amp;amp;&amp;amp;oid=00Df2000000NVjKEAW\&quot; alt=\&quot;\&quot; width=\&quot;25\&quot; height=\&quot;25\&quot; /&gt;&amp;nbsp;Account Number:&lt;/strong&gt;&amp;nbsp; 22000014950&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;img src=\&quot;../servlet/servlet.ImageServer?id=015f2000001sxkiAAA&amp;amp;&amp;amp;id=015f2000001sxkiAAA&amp;amp;&amp;amp;oid=00Df2000000NVjKEAW\&quot; alt=\&quot;\&quot; width=\&quot;27\&quot; height=\&quot;25\&quot; /&gt;&amp;nbsp;Customer:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/strong&gt;Hegde BM&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/strong&gt;3242343242&lt;/p&gt;\n&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;strong&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/strong&gt;akash.naik@accenture.com&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;img src=\&quot;../servlet/servlet.ImageServer?id=015f2000001sxkiAAA&amp;amp;&amp;amp;id=015f2000001sxkiAAA&amp;amp;&amp;amp;oid=00Df2000000NVjKEAW\&quot; alt=\&quot;\&quot; width=\&quot;27\&quot; height=\&quot;25\&quot; /&gt;&amp;nbsp;Customer ID:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/strong&gt;003f200002mu2XIAAY&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;img src=\&quot;../servlet/servlet.ImageServer?id=015f2000001sxknAAA&amp;amp;&amp;amp;id=015f2000001sxknAAA&amp;amp;&amp;amp;oid=00Df2000000NVjKEAW\&quot; alt=\&quot;\&quot; width=\&quot;25\&quot; height=\&quot;25\&quot; /&gt;&amp;nbsp;Premise Address:&amp;nbsp; &amp;nbsp; &lt;/strong&gt;12 Harper Ave, Detroit, MI, 48202&lt;/p&gt;&quot;,
+        &quot;MoveOutInformation&quot;: {
+          &quot;MoveOutReason&quot;: &quot;Leaving Service Territory&quot;,
+          &quot;MoveOutDate&quot;: &quot;2019-05-29T18:30:00.000Z&quot;,
+          &quot;MoveOutDateValidation&quot;: false,
+          &quot;MoveOutDateMessaging&quot;: true,
+          &quot;MoveInOutValidation&quot;: false,
+          &quot;MoveInOutDateMsg&quot;: true
+        },
+        &quot;MoveOutDateToday&quot;: false,
+        &quot;Asset3&quot;: &quot;&quot;,
+        &quot;Asset2&quot;: &quot;02if200000WsAFqAAN&quot;,
+        &quot;Asset1&quot;: &quot;02if200000WsAFpAAN&quot;,
+        &quot;Water&quot;: false,
+        &quot;Gas&quot;: true,
+        &quot;Electricity&quot;: true,
+        &quot;SelectMeter2&quot;: {
+          &quot;SerialNumber&quot;: &quot;ISUMDG133133G&quot;,
+          &quot;ProductName&quot;: &quot;Gas Standard Tariff&quot;,
+          &quot;MeterName&quot;: &quot;Gas Meter - ISUMDG133133G&quot;,
+          &quot;Id&quot;: &quot;a25f2000004DtDFAA0&quot;
+        },
+        &quot;SelectMeter&quot;: {
+          &quot;ProductName&quot;: &quot;Electricity Standard Tariff&quot;,
+          &quot;SerialNumber&quot;: &quot;ISUMDG133130E&quot;,
+          &quot;MeterName&quot;: &quot;Electricity Meter - ISUMDG133130E&quot;,
+          &quot;Id&quot;: &quot;a25f2000004DtBnAAK&quot;
+        },
+        &quot;ExtMoveOutDate&quot;: &quot;2019-5-30&quot;,
+        &quot;GasMeterReading&quot;: {
+          &quot;SerialNumber&quot;: &quot;ISUMDG133133G&quot;,
+          &quot;ProductName&quot;: &quot;Gas Standard Tariff&quot;,
+          &quot;MeterName&quot;: &quot;Gas Meter - ISUMDG133133G&quot;,
+          &quot;Id&quot;: &quot;a25f2000004DtDFAA0&quot;
+        },
+        &quot;WaterMeterReading&quot;: &quot;&quot;,
+        &quot;ElecMeterReading&quot;: {
+          &quot;ProductName&quot;: &quot;Electricity Standard Tariff&quot;,
+          &quot;SerialNumber&quot;: &quot;ISUMDG133130E&quot;,
+          &quot;MeterName&quot;: &quot;Electricity Meter - ISUMDG133130E&quot;,
+          &quot;Id&quot;: &quot;a25f2000004DtBnAAK&quot;
+        },
+        &quot;IntergationMtd&quot;: {
+          &quot;IntergationType&quot;: &quot;JSON&quot;,
+          &quot;Name&quot;: &quot;Move_Out&quot;
+        },
+        &quot;DRId_Account&quot;: &quot;001f200001uqHNhAAM&quot;
+      }
+      &quot;ProductName&quot;: &quot;Electricity Standard Tariff&quot;,
+      &quot;ProductId&quot;: &quot;01tf2000007tC3TAAU&quot;,
+      &quot;ServicePointId&quot;: &quot;a26f200000KhBbCAAV&quot;,
+      &quot;PremiseId&quot;: &quot;a0lf2000007hSuMAAU&quot;,
+      &quot;BillingAccountId&quot;: &quot;001f200001uqHNhAAM&quot;,
+      &quot;AccountId&quot;: &quot;001f200001uqHNhAAM&quot;,
+      &quot;ServiceAccountId&quot;: &quot;001f200001uqHNhAAM&quot;
+    },
+    {
+      &quot;Service_Contract_ID&quot;: &quot;1500011383&quot;,
+      &quot;ProductCode&quot;: &quot;ACN-GAS-0001&quot;,
+      &quot;ConnectDate&quot;: &quot;2019-05-03T18:30:00.000Z&quot;,
+      &quot;ServicePointStatus&quot;: &quot;Connected&quot;,
+      &quot;AssetName&quot;: &quot;12 Harper Ave, Detroit - Gas&quot;,
+      &quot;AssetId&quot;: &quot;02if200000WsAFqAAN&quot;,
+      &quot;ServiceType&quot;: &quot;Gas&quot;,
+      &quot;PremiseAddress&quot;: &quot;12 Harper Ave, Detroit, MI, 48202&quot;,
+      &quot;ServicePointName&quot;: &quot;12 Harper Ave, Detroit - Gas&quot;,
+      &quot;ProductFamily&quot;: &quot;Gas&quot;,
+      &quot;ProductName&quot;: &quot;Gas Standard Tariff&quot;,
+      &quot;ProductId&quot;: &quot;01tf2000007tC3dAAE&quot;,
+      &quot;ServicePointId&quot;: &quot;a26f200000KhBcjAAF&quot;,
+      &quot;PremiseId&quot;: &quot;a0lf2000007hSuMAAU&quot;,
+      &quot;BillingAccountId&quot;: &quot;001f200001uqHNhAAM&quot;,
+      &quot;AccountId&quot;: &quot;001f200001uqHNhAAM&quot;,
+      &quot;ServiceAccountId&quot;: &quot;001f200001uqHNhAAM&quot;
+    }
+  ],
+  &quot;BillingStreet&quot;: &quot;12 Harper Ave&quot;,
+  &quot;BillingState&quot;: &quot;MI&quot;,
+  &quot;BillingCountry&quot;: &quot;US&quot;,
+  &quot;BillingCity&quot;: &quot;Detroit&quot;,
+  &quot;Phone&quot;: &quot;3242343242&quot;,
+  &quot;ContactName&quot;: &quot;Hegde BM&quot;,
+  &quot;ContactLastName&quot;: &quot;BM&quot;,
+  &quot;ContactFirstName&quot;: &quot;Hegde&quot;,
+  &quot;Email&quot;: &quot;akash.naik@accenture.com&quot;,
+  &quot;PrimaryContactPreferences&quot;: &quot;Phone&quot;,
+  &quot;ERP_Account_Id__c&quot;: &quot;6011100&quot;,
+  &quot;ContactId&quot;: &quot;003f200002mu2XIAAY&quot;,
+  &quot;PremiseStreet&quot;: &quot;12 Harper Ave&quot;,
+  &quot;PremiseState&quot;: &quot;MI&quot;,
+  &quot;PremisePostalCode&quot;: &quot;48202&quot;,
+  &quot;PremiseCountry&quot;: &quot;US&quot;,
+  &quot;PremiseCity&quot;: &quot;Detroit&quot;,
+  &quot;PremiseId&quot;: &quot;a0lf2000007hSuMAAU&quot;,
+  &quot;BillFrequency&quot;: &quot;Weekly&quot;,
+  &quot;BillDeliveryMethod&quot;: &quot;Electronic Statements Online&quot;,
+  &quot;PremiseAddress&quot;: &quot;12 Harper Ave, Detroit, MI, 48202&quot;,
+  &quot;AccountName&quot;: &quot;Hegde BM&quot;,
+  &quot;AccountId&quot;: &quot;001f200001uqHNhAAM&quot;,
+  &quot;AccountNumber&quot;: &quot;22000014950&quot;,
+  &quot;SelectAssets&quot;: {
+    &quot;SelectAssetItem&quot;: [
+      {
+        &quot;Service_Contract_ID&quot;: &quot;1500011382&quot;,
+        &quot;ProductCode&quot;: &quot;ACN-ELEC-0001&quot;,
+        &quot;ConnectDate&quot;: &quot;2019-05-03T18:30:00.000Z&quot;,
+        &quot;ServicePointStatus&quot;: &quot;Connected&quot;,
+        &quot;AssetName&quot;: &quot;12 Harper Ave, Detroit - Electricity&quot;,
+        &quot;AssetId&quot;: &quot;02if200000WsAFpAAN&quot;,
+        &quot;ServiceType&quot;: &quot;Electricity&quot;,
+        &quot;PremiseAddress&quot;: &quot;12 Harper Ave, Detroit, MI, 48202&quot;,
+        &quot;ServicePointName&quot;: &quot;12 Harper Ave, Detroit - Electricity&quot;,
+        &quot;ProductFamily&quot;: &quot;Electricity&quot;,
+        &quot;ProductName&quot;: &quot;Electricity Standard Tariff&quot;,
+        &quot;ProductId&quot;: &quot;01tf2000007tC3TAAU&quot;,
+        &quot;ServicePointId&quot;: &quot;a26f200000KhBbCAAV&quot;,
+        &quot;PremiseId&quot;: &quot;a0lf2000007hSuMAAU&quot;,
+        &quot;BillingAccountId&quot;: &quot;001f200001uqHNhAAM&quot;,
+        &quot;AccountId&quot;: &quot;001f200001uqHNhAAM&quot;,
+        &quot;ServiceAccountId&quot;: &quot;001f200001uqHNhAAM&quot;,
+        &quot;vlcSelected&quot;: true
+      },
+      {
+        &quot;Service_Contract_ID&quot;: &quot;1500011383&quot;,
+        &quot;ProductCode&quot;: &quot;ACN-GAS-0001&quot;,
+        &quot;ConnectDate&quot;: &quot;2019-05-03T18:30:00.000Z&quot;,
+        &quot;ServicePointStatus&quot;: &quot;Connected&quot;,
+        &quot;AssetName&quot;: &quot;12 Harper Ave, Detroit - Gas&quot;,
+        &quot;AssetId&quot;: &quot;02if200000WsAFqAAN&quot;,
+        &quot;ServiceType&quot;: &quot;Gas&quot;,
+        &quot;PremiseAddress&quot;: &quot;12 Harper Ave, Detroit, MI, 48202&quot;,
+        &quot;ServicePointName&quot;: &quot;12 Harper Ave, Detroit - Gas&quot;,
+        &quot;ProductFamily&quot;: &quot;Gas&quot;,
+        &quot;ProductName&quot;: &quot;Gas Standard Tariff&quot;,
+        &quot;ProductId&quot;: &quot;01tf2000007tC3dAAE&quot;,
+        &quot;ServicePointId&quot;: &quot;a26f200000KhBcjAAF&quot;,
+        &quot;PremiseId&quot;: &quot;a0lf2000007hSuMAAU&quot;,
+        &quot;BillingAccountId&quot;: &quot;001f200001uqHNhAAM&quot;,
+        &quot;AccountId&quot;: &quot;001f200001uqHNhAAM&quot;,
+        &quot;ServiceAccountId&quot;: &quot;001f200001uqHNhAAM&quot;,
+        &quot;vlcSelected&quot;: true
+      }
+    ],
+    &quot;AssetFormula&quot;: 2,
+    &quot;SelectAssetItemMessaging&quot;: true,
+    &quot;SelectAssetMessaging&quot;: null
+  },
+  &quot;AccountDetails&quot;: &quot;&lt;p&gt;&lt;strong&gt;&lt;img src=\&quot;../servlet/servlet.ImageServer?docName=015f2000001sxa4AAA&amp;amp;&amp;amp;id=015f2000001sxa4AAA&amp;amp;&amp;amp;oid=00Df2000000NVjKEAW\&quot; alt=\&quot;\&quot; width=\&quot;25\&quot; height=\&quot;25\&quot; /&gt;&amp;nbsp;Account Number:&lt;/strong&gt;&amp;nbsp; 22000014950&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;img src=\&quot;../servlet/servlet.ImageServer?id=015f2000001sxkiAAA&amp;amp;&amp;amp;id=015f2000001sxkiAAA&amp;amp;&amp;amp;oid=00Df2000000NVjKEAW\&quot; alt=\&quot;\&quot; width=\&quot;27\&quot; height=\&quot;25\&quot; /&gt;&amp;nbsp;Customer:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/strong&gt;Hegde BM&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/strong&gt;3242343242&lt;/p&gt;\n&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;strong&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/strong&gt;akash.naik@accenture.com&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;img src=\&quot;../servlet/servlet.ImageServer?id=015f2000001sxkiAAA&amp;amp;&amp;amp;id=015f2000001sxkiAAA&amp;amp;&amp;amp;oid=00Df2000000NVjKEAW\&quot; alt=\&quot;\&quot; width=\&quot;27\&quot; height=\&quot;25\&quot; /&gt;&amp;nbsp;Customer ID:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/strong&gt;003f200002mu2XIAAY&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;img src=\&quot;../servlet/servlet.ImageServer?id=015f2000001sxknAAA&amp;amp;&amp;amp;id=015f2000001sxknAAA&amp;amp;&amp;amp;oid=00Df2000000NVjKEAW\&quot; alt=\&quot;\&quot; width=\&quot;25\&quot; height=\&quot;25\&quot; /&gt;&amp;nbsp;Premise Address:&amp;nbsp; &amp;nbsp; &lt;/strong&gt;12 Harper Ave, Detroit, MI, 48202&lt;/p&gt;&quot;,
+  &quot;MoveOutInformation&quot;: {
+    &quot;MoveOutReason&quot;: &quot;Leaving Service Territory&quot;,
+    &quot;MoveOutDate&quot;: &quot;2019-05-29T18:30:00.000Z&quot;,
+    &quot;MoveOutDateValidation&quot;: false,
+    &quot;MoveOutDateMessaging&quot;: true,
+    &quot;MoveInOutValidation&quot;: false,
+    &quot;MoveInOutDateMsg&quot;: true
+  },
+  &quot;MoveOutDateToday&quot;: false,
+  &quot;Asset3&quot;: &quot;&quot;,
+  &quot;Asset2&quot;: &quot;02if200000WsAFqAAN&quot;,
+  &quot;Asset1&quot;: &quot;02if200000WsAFpAAN&quot;,
+  &quot;Water&quot;: false,
+  &quot;Gas&quot;: true,
+  &quot;Electricity&quot;: true,
+  &quot;SelectMeter2&quot;: {
+    &quot;SerialNumber&quot;: &quot;ISUMDG133133G&quot;,
+    &quot;ProductName&quot;: &quot;Gas Standard Tariff&quot;,
+    &quot;MeterName&quot;: &quot;Gas Meter - ISUMDG133133G&quot;,
+    &quot;Id&quot;: &quot;a25f2000004DtDFAA0&quot;
+  },
+  &quot;SelectMeter&quot;: {
+    &quot;ProductName&quot;: &quot;Electricity Standard Tariff&quot;,
+    &quot;SerialNumber&quot;: &quot;ISUMDG133130E&quot;,
+    &quot;MeterName&quot;: &quot;Electricity Meter - ISUMDG133130E&quot;,
+    &quot;Id&quot;: &quot;a25f2000004DtBnAAK&quot;
+  },
+  &quot;ExtMoveOutDate&quot;: &quot;2019-5-30&quot;,
+  &quot;GasMeterReading&quot;: {
+    &quot;SerialNumber&quot;: &quot;ISUMDG133133G&quot;,
+    &quot;ProductName&quot;: &quot;Gas Standard Tariff&quot;,
+    &quot;MeterName&quot;: &quot;Gas Meter - ISUMDG133133G&quot;,
+    &quot;Id&quot;: &quot;a25f2000004DtDFAA0&quot;
+  },
+  &quot;WaterMeterReading&quot;: &quot;&quot;,
+  &quot;ElecMeterReading&quot;: {
+    &quot;ProductName&quot;: &quot;Electricity Standard Tariff&quot;,
+    &quot;SerialNumber&quot;: &quot;ISUMDG133130E&quot;,
+    &quot;MeterName&quot;: &quot;Electricity Meter - ISUMDG133130E&quot;,
+    &quot;Id&quot;: &quot;a25f2000004DtBnAAK&quot;
+  },
+  &quot;IntergationMtd&quot;: {
+    &quot;IntergationType&quot;: &quot;XML&quot;,
+    &quot;Name&quot;: &quot;Move_Out&quot;
+  },
+  &quot;DRId_Account&quot;: &quot;001f200001uqHNhAAM&quot;
+}</previewJsonData>
+    <processSuperBulk>false</processSuperBulk>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <rollbackOnError>false</rollbackOnError>
+    <sourceObject>json</sourceObject>
+    <sourceObjectDefault>false</sourceObjectDefault>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Transform</type>
+    <uniqueName>VPLTransformTerminateContract_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <xmlDeclarationRemoved>false</xmlDeclarationRemoved>
+</OmniDataTransform>

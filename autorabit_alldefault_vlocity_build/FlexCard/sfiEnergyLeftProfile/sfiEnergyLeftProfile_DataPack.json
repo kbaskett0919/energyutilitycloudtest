@@ -1,0 +1,48 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 6,
+                    "name": "recordId",
+                    "val": "001Hr00001tAwFfIAK"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "Id": "{recordId}"
+                },
+                "ipMethod": "VPL_ConsoleLeftInfo",
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "optionsMap": {
+                    "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+                },
+                "resultVar": "",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyLeftProfile",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyLeftProfile/CME_E_U/3/1627018142519",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyLeftProfile.json",
+    "SampleDataSourceResponse": "{\"ImageURL\":\"https://maps.googleapis.com/maps/api/staticmap?center=5 Whitehill Rd, Newcraighall Edinburgh Scotland EH15 3HR United Kingdom&zoom=14&size=600x400&key=AIzaSyB11L9l7gR0n2tTrpYMhMtr5HmJXwQfET8\",\"columnsData\":{\"columns\":[{\"fieldName\":\"Name\",\"label\":\"SfiEnergyConsoleContactName\",\"searchable\":true,\"sortable\":true,\"userSelectable\":false},{\"fieldName\":\"Role\",\"label\":\"SfiEnergyConsoleContactRole\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true},{\"fieldName\":\"Email\",\"label\":\"SfiEnergyConsoleContactEmail\",\"searchable\":true,\"sortable\":true,\"type\":\"email\",\"userSelectable\":true},{\"fieldName\":\"Phone\",\"label\":\"SfiEnergyConsoleContactPhone\",\"searchable\":true,\"sortable\":true,\"type\":\"phone\",\"userSelectable\":true}]},\"MapAPIKey\":\"AIzaSyB11L9l7gR0n2tTrpYMhMtr5HmJXwQfET8\",\"AccountTree\":{\"disabled\":false,\"expanded\":false,\"items\":[{\"disabled\":false,\"expanded\":false,\"items\":[{\"disabled\":false,\"expanded\":false,\"items\":[],\"label\":\"Edinburgh Dealer\",\"metatext\":\"777777\",\"name\":\"001Hr00001tAwFjIAK\"},{\"disabled\":false,\"expanded\":false,\"items\":[],\"label\":\"Glasgow Dealer\",\"metatext\":\"9999999\",\"name\":\"001Hr00001tAwFkIAK\"},{\"disabled\":false,\"expanded\":false,\"items\":[],\"label\":\"Newcastle Dealer\",\"metatext\":\"121212\",\"name\":\"001Hr00001tAwFlIAK\"}],\"label\":\"Northern Region\",\"metatext\":\"666666\",\"name\":\"001Hr00001tAwFfIAK\"},{\"disabled\":false,\"expanded\":false,\"items\":[],\"label\":\"Southern Region\",\"metatext\":\"787878\",\"name\":\"001Hr00001tAwFhIAK\"},{\"disabled\":false,\"expanded\":false,\"items\":[],\"label\":\"Midlands Region\",\"metatext\":\"444444\",\"name\":\"001Hr00001tAwFiIAK\"}],\"label\":\"Imperial Autos - Head Office\",\"metatext\":\"111111\",\"name\":\"001Hr00001tAwFgIAK\"},\"ConsoleLeftCardDetails\":{\"PrimaryContactPhone\":\"0131 878 1282\",\"AccountName\":\"Northern Region\",\"BillingState\":\"Scotland\",\"userIcon\":\"utility:user\",\"incoming_callIcon\":\"utility:incoming_call\",\"BillingPostalCode\":\"EH15 3HR\",\"ShippingAddress\":\"5 Whitehill Rd, Newcraighall Edinburgh Scotland EH15 3HR United Kingdom\",\"BillingStreet\":\"5 Whitehill Rd, Newcraighall\",\"BillingCountry\":\"United Kingdom\",\"BillingAddress\":\"5 Whitehill Rd, Newcraighall Edinburgh Scotland EH15 3HR United Kingdom\",\"AllContact\":[{\"Name\":\"Elon Horowitz\",\"Id\":\"003Hr00002YvKtAIAV\",\"Phone\":\"0131 878 1272\",\"Email\":\"musk@headoffice.com\",\"Role\":\"Business User\"},{\"Name\":\"Jeff Steiner\",\"Id\":\"003Hr00002YvKtGIAV\",\"Phone\":\"0131 878 1282\",\"Email\":\"jeff@headoffice.com\",\"Role\":\"Primary Contact;Property Manager\"},{\"Name\":\"Mark James\",\"Id\":\"003Hr00002YvKtJIAV\",\"Phone\":\"0131 878 1252\",\"Email\":\"jamesmark@headoffice.com\",\"Role\":\"Technical Buyer\"},{\"Name\":\"Ronald Ross\",\"Id\":\"003Hr00002YvKtKIAV\",\"Phone\":\"0131 878 1204\",\"Email\":\"ross@headoffice.com\",\"Role\":\"Influencer\"},{\"Name\":\"Steve Baller\",\"Id\":\"003Hr00002YvKtMIAV\",\"Phone\":\"5565545566\",\"Email\":\"steveballer@headoffice.com\",\"Role\":\"Evaluator;Property Manager;Purchasing Contact\"},{\"Name\":\"Tom Berry\",\"Id\":\"003Hr00002YvKtOIAV\",\"Email\":\"tom.berry@tb.com\",\"Role\":\"Business User\"},{\"Name\":\"Tom Gates\",\"Id\":\"003Hr00002YvKtPIAV\",\"Phone\":\"0131 878 1256\",\"Email\":\"tomgates@headoffice.com\",\"Role\":\"Property Manager\"}],\"PrimaryContactEmail\":\"jeff@headoffice.com\",\"emailIcon\":\"utility:email\",\"callIcon\":\"utility:call\",\"RecordTypeName\":\"Business\",\"BillingCity\":\"Edinburgh\",\"AccountId\":\"001Hr00001tAwFfIAK\",\"PrimaryContactId\":\"003Hr00002YvKtGIAV\",\"PrimaryContactName\":\"Jeff Steiner (Primary Contact)\"}}",
+    "StylingConfiguration": "",
+    "UniqueName": "sfiEnergyLeftProfile_CME_E_U_3",
+    "VersionNumber": 3,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyLeftProfile"
+}

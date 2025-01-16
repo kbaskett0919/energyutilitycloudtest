@@ -1,0 +1,140 @@
+[
+    {
+        "FormulaExpression": "IF(%PremiseStreet%!=null && %PremiseState%!=null && %PremiseCity%!=null && %PremisePostalCode%!=null,CONCAT(%PremiseStreet%,\", \" %PremiseCity%,\", \" %PremiseState%,\", \",  %PremisePostalCode%),null)",
+        "FormulaResultPath": "PremiseAddress",
+        "FormulaSequence": 2,
+        "GlobalKey": "sfiEnergyConsoleTransformServicePointsInfoCustom3632",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleTransformServicePointsInfo",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleTransformServicePointsInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleTransformServicePointsInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "SUM(%TotalSVPoint%)",
+        "FormulaResultPath": "TotalServicePoint",
+        "FormulaSequence": 1,
+        "GlobalKey": "sfiEnergyConsoleTransformServicePointsInfoCustoma1V4x00000BqltuEABItem2",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleTransformServicePointsInfo",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleTransformServicePointsInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleTransformServicePointsInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "Green Energy",
+        "GlobalKey": "sfiEnergyConsoleTransformServicePointsInfoCustom8145",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleTransformServicePointsInfo",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleTransformServicePointsInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleTransformServicePointsInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Plan",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyConsoleTransformServicePointsInfoCustom3727",
+        "InputFieldName": "PremiseAddress",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleTransformServicePointsInfo",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleTransformServicePointsInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleTransformServicePointsInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PremiseAddress",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyConsoleTransformServicePointsInfoCustom7368",
+        "InputFieldName": "PremiseId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleTransformServicePointsInfo",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleTransformServicePointsInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleTransformServicePointsInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PremiseId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyConsoleTransformServicePointsInfoCustom641",
+        "InputFieldName": "PremiseIdentifier",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleTransformServicePointsInfo",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleTransformServicePointsInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleTransformServicePointsInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PremiseIdentifier",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyConsoleTransformServicePointsInfoCustoma1V4x00000BqltuEABItem28",
+        "InputFieldName": "TotalServicePoint",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyConsoleTransformServicePointsInfo",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyConsoleTransformServicePointsInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyConsoleTransformServicePointsInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Integer",
+        "OutputFieldName": "TotalServicePoint",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

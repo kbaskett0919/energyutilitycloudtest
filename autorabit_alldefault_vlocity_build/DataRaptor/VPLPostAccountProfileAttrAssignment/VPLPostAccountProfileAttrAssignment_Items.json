@@ -1,0 +1,274 @@
+[
+    {
+        "DefaultValue": "true",
+        "GlobalKey": "VPL-PostAccountProfileAttrAssignmentCustoma1V3h000000mC0eEAEItem1",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-PostAccountProfileAttrAssignment",
+        "OmniDataTransformationId": {
+            "Name": "VPLPostAccountProfileAttrAssignment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLPostAccountProfileAttrAssignment",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__ActiveFlg__c",
+        "OutputObjectName": "%vlocity_namespace%__Attribute__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-PostAccountProfileAttrAssignmentCustoma1V3h000000mC0eEAEItem4",
+        "InputFieldName": "UpdatedAccountPref:CategoryId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-PostAccountProfileAttrAssignment",
+        "OmniDataTransformationId": {
+            "Name": "VPLPostAccountProfileAttrAssignment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLPostAccountProfileAttrAssignment",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__AttributeCategoryId__c",
+        "OutputObjectName": "%vlocity_namespace%__Attribute__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-PostAccountProfileAttrAssignmentCustoma1V3h000000mC0eEAEItem2",
+        "InputFieldName": "UpdatedAccountPref:AttributeId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-PostAccountProfileAttrAssignment",
+        "OmniDataTransformationId": {
+            "Name": "VPLPostAccountProfileAttrAssignment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLPostAccountProfileAttrAssignment",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "%vlocity_namespace%__Attribute__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "VPL-PostAccountProfileAttrAssignmentCustoma1V3h000000mC0eEAEItem0",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "VPL-PostAccountProfileAttrAssignment",
+        "OmniDataTransformationId": {
+            "Name": "VPLPostAccountProfileAttrAssignment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLPostAccountProfileAttrAssignment",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "%vlocity_namespace%__Attribute__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "false",
+        "GlobalKey": "VPL-PostAccountProfileAttrAssignmentCustoma1V3h000000mC0eEAEItem5",
+        "InputFieldName": "UpdatedAccountPref:IsDeleted",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-PostAccountProfileAttrAssignment",
+        "OmniDataTransformationId": {
+            "Name": "VPLPostAccountProfileAttrAssignment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLPostAccountProfileAttrAssignment",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "IsDeleted",
+        "OutputObjectName": "%vlocity_namespace%__Attribute__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-PostAccountProfileAttrAssignmentCustoma1V3h000000mC0eEAEItem3",
+        "InputFieldName": "UpdatedAccountPref:AttrValue",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-PostAccountProfileAttrAssignment",
+        "OmniDataTransformationId": {
+            "Name": "VPLPostAccountProfileAttrAssignment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLPostAccountProfileAttrAssignment",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Name",
+        "OutputObjectName": "%vlocity_namespace%__Attribute__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-PostAccountProfileAttrAssignmentCustoma1V3h000000mC0eEAEItem13",
+        "InputFieldName": "UpdatedAccountPref:CategoryId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-PostAccountProfileAttrAssignment",
+        "OmniDataTransformationId": {
+            "Name": "VPLPostAccountProfileAttrAssignment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLPostAccountProfileAttrAssignment",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 2,
+        "OutputFieldName": "%vlocity_namespace%__AttributeCategoryId__c",
+        "OutputObjectName": "%vlocity_namespace%__AttributeAssignment__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "VPL-PostAccountProfileAttrAssignmentCustoma1V3h000000mC0eEAEItem8",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedFieldName": "Id",
+        "LinkedObjectSequence": 1,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "VPL-PostAccountProfileAttrAssignment",
+        "OmniDataTransformationId": {
+            "Name": "VPLPostAccountProfileAttrAssignment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLPostAccountProfileAttrAssignment",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 2,
+        "OutputFieldName": "%vlocity_namespace%__AttributeId__c",
+        "OutputObjectName": "%vlocity_namespace%__AttributeAssignment__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-PostAccountProfileAttrAssignmentCustoma1V3h000000mC0eEAEItem9",
+        "InputFieldName": "UpdatedAccountPref:AccountId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-PostAccountProfileAttrAssignment",
+        "OmniDataTransformationId": {
+            "Name": "VPLPostAccountProfileAttrAssignment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLPostAccountProfileAttrAssignment",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 2,
+        "OutputFieldName": "%vlocity_namespace%__ObjectId__c",
+        "OutputObjectName": "%vlocity_namespace%__AttributeAssignment__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "Account",
+        "GlobalKey": "VPL-PostAccountProfileAttrAssignmentCustoma1V3h000000mC0eEAEItem7",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-PostAccountProfileAttrAssignment",
+        "OmniDataTransformationId": {
+            "Name": "VPLPostAccountProfileAttrAssignment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLPostAccountProfileAttrAssignment",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 2,
+        "OutputFieldName": "%vlocity_namespace%__ObjectType__c",
+        "OutputObjectName": "%vlocity_namespace%__AttributeAssignment__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-PostAccountProfileAttrAssignmentCustoma1V3h000000mC0eEAEItem12",
+        "InputFieldName": "UpdatedAccountPref:AttrValue",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-PostAccountProfileAttrAssignment",
+        "OmniDataTransformationId": {
+            "Name": "VPLPostAccountProfileAttrAssignment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLPostAccountProfileAttrAssignment",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 2,
+        "OutputFieldName": "%vlocity_namespace%__Value__c",
+        "OutputObjectName": "%vlocity_namespace%__AttributeAssignment__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-PostAccountProfileAttrAssignmentCustoma1V3h000000mC0eEAEItem11",
+        "InputFieldName": "UpdatedAccountPref:AttrAssignId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-PostAccountProfileAttrAssignment",
+        "OmniDataTransformationId": {
+            "Name": "VPLPostAccountProfileAttrAssignment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLPostAccountProfileAttrAssignment",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 2,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "%vlocity_namespace%__AttributeAssignment__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "VPL-PostAccountProfileAttrAssignmentCustoma1V3h000000mC0eEAEItem6",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "VPL-PostAccountProfileAttrAssignment",
+        "OmniDataTransformationId": {
+            "Name": "VPLPostAccountProfileAttrAssignment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLPostAccountProfileAttrAssignment",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 2,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "%vlocity_namespace%__AttributeAssignment__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-PostAccountProfileAttrAssignmentCustoma1V3h000000mC0eEAEItem10",
+        "InputFieldName": "UpdatedAccountPref:AccountName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-PostAccountProfileAttrAssignment",
+        "OmniDataTransformationId": {
+            "Name": "VPLPostAccountProfileAttrAssignment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLPostAccountProfileAttrAssignment",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 2,
+        "OutputFieldName": "Name",
+        "OutputObjectName": "%vlocity_namespace%__AttributeAssignment__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

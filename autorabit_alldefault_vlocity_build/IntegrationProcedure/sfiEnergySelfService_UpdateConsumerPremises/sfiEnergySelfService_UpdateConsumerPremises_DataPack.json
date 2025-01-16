@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "sfiEnergySelfService_UpdateConsumerPremises_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergySelfServiceUpdateConsumerPremises",
+    "OmniProcessElement": [
+        "sfiEnergySelfService_UpdateConsumerPremises_Element_UpdateConsumerPremise.json",
+        "sfiEnergySelfService_UpdateConsumerPremises_Element_UpdateConsumerPremiseError.json",
+        "sfiEnergySelfService_UpdateConsumerPremises_Element_UpdateConsumerPremiseSuccess.json"
+    ],
+    "OmniProcessKey": "sfiEnergySelfService_UpdateConsumerPremises",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergySelfService_UpdateConsumerPremises_PropertySetConfig.json",
+    "SubType": "UpdateConsumerPremises",
+    "Type": "sfiEnergySelfService",
+    "UniqueName": "sfiEnergySelfService_UpdateConsumerPremises_Procedure_5",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergySelfService/UpdateConsumerPremises/Procedure"
+}

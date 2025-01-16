@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "sfiEnergySelfService_CreateCase_SampleInput.json",
+    "Description": "Create case",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergySelfServiceCreateCase",
+    "OmniProcessElement": [
+        "sfiEnergySelfService_CreateCase_Element_DataRaptorPostAction1.json",
+        "sfiEnergySelfService_CreateCase_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "sfiEnergySelfService_CreateCase",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergySelfService_CreateCase_PropertySetConfig.json",
+    "SubType": "CreateCase",
+    "Type": "sfiEnergySelfService",
+    "UniqueName": "sfiEnergySelfService_CreateCase_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergySelfService/CreateCase/Procedure"
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "FormulaExpression": "%Opportunities:OpportunityId%",
+        "FormulaResultPath": "FormulaResult",
+        "FormulaSequence": 1,
+        "GlobalKey": "sfiEnergyB2bsalesTransformOppSummaryCustom4992",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyB2bsalesTransformOppSummary",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyB2bsalesTransformOppSummary",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyB2bsalesTransformOppSummary",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergyB2bsalesTransformOppSummaryCustom7587",
+        "InputFieldName": "FormulaResult",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergyB2bsalesTransformOppSummary",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergyB2bsalesTransformOppSummary",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergyB2bsalesTransformOppSummary",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "OpportunityIds",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

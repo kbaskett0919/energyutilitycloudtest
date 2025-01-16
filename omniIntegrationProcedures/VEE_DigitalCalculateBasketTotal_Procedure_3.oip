@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniIntegrationProcedure xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customJavaScript>{&quot;Consumption&quot;:1000,&quot;GasConsumption&quot;:2000,&quot;offerDetails&quot;:[{&quot;&quot;:&quot;&quot;,&quot;cartContextKey&quot;:&quot;dcbe4165fc029f04eb6a0ca4e212860d&quot;,&quot;childProducts&quot;:[{&quot;childProducts&quot;:[{&quot;description&quot;:&quot;Unit rate is charged per kWh of energy consumption.&quot;,&quot;name&quot;:&quot;Unit Rate&quot;,&quot;productCode&quot;:&quot;CC_UNIT_RATE_ELEC_DUAL&quot;,&quot;subType&quot;:&quot;Unit Rate&quot;,&quot;unitPrice&quot;:0.1134},{&quot;description&quot;:&quot;Standing Charges is an infrastructure charge which is charged per Day of usage.&quot;,&quot;name&quot;:&quot;Standing Charges&quot;,&quot;productCode&quot;:&quot;CC_STANDING_CHARGES_ELEC_DUAL&quot;,&quot;subType&quot;:&quot;Standing Charges&quot;,&quot;unitPrice&quot;:0.101}],&quot;currencyCode&quot;:&quot;GBP&quot;,&quot;description&quot;:&quot;Standard fixed rate electricity (discounted as part of a dual fuel offering).&quot;,&quot;family&quot;:&quot;Electricity&quot;,&quot;name&quot;:&quot;Electricity&quot;,&quot;productCode&quot;:&quot;PD_ELECTRICITY_DUALFUEL&quot;,&quot;subType&quot;:&quot;Electricity&quot;},{&quot;childProducts&quot;:[{&quot;description&quot;:&quot;Unit rate is charged per kWh of energy consumption.&quot;,&quot;name&quot;:&quot;Unit Rate&quot;,&quot;productCode&quot;:&quot;CC_UNIT_RATE_GAS_DUAL&quot;,&quot;subType&quot;:&quot;Unit Rate&quot;,&quot;unitPrice&quot;:0.1445},{&quot;description&quot;:&quot;Standing Charges is an infrastructure charge which is charged per Day of usage.&quot;,&quot;name&quot;:&quot;Standing Charges&quot;,&quot;productCode&quot;:&quot;CC_STANDING_CHARGES_GAS_DUAL&quot;,&quot;subType&quot;:&quot;Standing Charges&quot;,&quot;unitPrice&quot;:0.177}],&quot;currencyCode&quot;:&quot;GBP&quot;,&quot;description&quot;:&quot;Standard fixed rate gas (discounted as part of a dual fuel offering).&quot;,&quot;family&quot;:&quot;Gas&quot;,&quot;name&quot;:&quot;Gas&quot;,&quot;productCode&quot;:&quot;PD_GAS_DUALFUEL&quot;,&quot;subType&quot;:&quot;Gas&quot;}],&quot;currencyCode&quot;:&quot;GBP&quot;,&quot;default&quot;:true,&quot;description&quot;:&quot;Dual Fuel (Elec &amp; Gas) Tariff includes a dual fuel discount, which can mean your energy will be cheaper than paying for both electricity and gas fuels separately.&quot;,&quot;isAddedToCart&quot;:false,&quot;productCode&quot;:&quot;PD_DUAL_FUEL_ELEC_GAS_TARIFF&quot;,&quot;productCodeWithAttachments&quot;:&quot;PD_DUAL_FUEL_ELEC_GAS_TARIFF&quot;,&quot;productName&quot;:&quot;Dual Fuel (Elec &amp; Gas) Tariff&quot;,&quot;url&quot;:&quot;/servlet/servlet.FileDownload?file=0155g0000000rXpAAI&quot;},{&quot;&quot;:&quot;&quot;,&quot;cartContextKey&quot;:&quot;dcbe4165fc029f04eb6a0ca4e212860d&quot;,&quot;childProducts&quot;:[{&quot;childProducts&quot;:[{&quot;description&quot;:&quot;Unit rate is charged per kWh of energy consumption.&quot;,&quot;name&quot;:&quot;Unit Rate&quot;,&quot;productCode&quot;:&quot;CC_UNIT_RATE_ELEC_DUAL&quot;,&quot;subType&quot;:&quot;Unit Rate&quot;,&quot;unitPrice&quot;:1},{&quot;description&quot;:&quot;Standing Charges is an infrastructure charge which is charged per Day of usage.&quot;,&quot;name&quot;:&quot;Standing Charges&quot;,&quot;productCode&quot;:&quot;CC_STANDING_CHARGES_ELEC_DUAL&quot;,&quot;subType&quot;:&quot;Standing Charges&quot;,&quot;unitPrice&quot;:2}],&quot;currencyCode&quot;:&quot;GBP&quot;,&quot;description&quot;:&quot;Standard fixed rate electricity (discounted as part of a dual fuel offering).&quot;,&quot;family&quot;:&quot;Electricity&quot;,&quot;name&quot;:&quot;Electricity&quot;,&quot;productCode&quot;:&quot;PD_ELECTRICITY_DUALFUEL&quot;,&quot;subType&quot;:&quot;Electricity&quot;},{&quot;childProducts&quot;:[{&quot;description&quot;:&quot;Unit rate is charged per kWh of energy consumption.&quot;,&quot;name&quot;:&quot;Unit Rate&quot;,&quot;productCode&quot;:&quot;CC_UNIT_RATE_GAS_DUAL&quot;,&quot;subType&quot;:&quot;Unit Rate&quot;,&quot;unitPrice&quot;:3},{&quot;description&quot;:&quot;Standing Charges is an infrastructure charge which is charged per Day of usage.&quot;,&quot;name&quot;:&quot;Standing Charges&quot;,&quot;productCode&quot;:&quot;CC_STANDING_CHARGES_GAS_DUAL&quot;,&quot;subType&quot;:&quot;Standing Charges&quot;,&quot;unitPrice&quot;:4}],&quot;currencyCode&quot;:&quot;GBP&quot;,&quot;description&quot;:&quot;Standard fixed rate gas (discounted as part of a dual fuel offering).&quot;,&quot;family&quot;:&quot;Gas&quot;,&quot;name&quot;:&quot;Gas&quot;,&quot;productCode&quot;:&quot;PD_GAS_DUALFUEL&quot;,&quot;subType&quot;:&quot;Gas&quot;}],&quot;currencyCode&quot;:&quot;GBP&quot;,&quot;default&quot;:true,&quot;description&quot;:&quot;Dual Fuel (Elec &amp; Gas) Tariff includes a dual fuel discount, which can mean your energy will be cheaper than paying for both electricity and gas fuels separately.&quot;,&quot;isAddedToCart&quot;:false,&quot;productCode&quot;:&quot;PD_DUAL_FUEL_ELEC_GAS_TARIFF2&quot;,&quot;productCodeWithAttachments&quot;:&quot;PD_DUAL_FUEL_ELEC_GAS_TARIFF&quot;,&quot;productName&quot;:&quot;Dual Fuel (Elec &amp; Gas) Tariff&quot;,&quot;url&quot;:&quot;/servlet/servlet.FileDownload?file=0155g0000000rXpAAI&quot;}],&quot;productType&quot;:&quot;Dual Fuel&quot;}</customJavaScript>
+    <description>This VIP will be used to calculate total prices of basket based on unit prices of products and consumption provided by user.</description>
+    <elementTypeComponentMapping>{&quot;ElementTypeToHTMLTemplateList&quot;:[]}</elementTypeComponentMapping>
+    <isActive>true</isActive>
+    <isIntegrationProcedure>true</isIntegrationProcedure>
+    <isMetadataCacheDisabled>false</isMetadataCacheDisabled>
+    <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+    <isTestProcedure>false</isTestProcedure>
+    <isWebCompEnabled>false</isWebCompEnabled>
+    <language>Procedure</language>
+    <name>VEEDigitalCalculateBasketTotal</name>
+    <omniProcessElements>
+        <childElements>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>CalculatingPricesInBasketsDualFuel</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;actionMessage&quot; : &quot;&quot;,
+  &quot;additionalInput&quot; : {
+    &quot;electricityConsumption&quot; : &quot;%Consumption%&quot;,
+    &quot;gasConsumption&quot; : &quot;%GasConsumption%&quot;,
+    &quot;offerDetails&quot; : &quot;%offerDetails%&quot;
+  },
+  &quot;additionalOutput&quot; : { },
+  &quot;bundle&quot; : &quot;VeeDigitalTransformBasketPricesDual&quot;,
+  &quot;chainOnStep&quot; : false,
+  &quot;disOnTplt&quot; : false,
+  &quot;executionConditionalFormula&quot; : &quot;&quot;,
+  &quot;failOnStepError&quot; : true,
+  &quot;failureConditionalFormula&quot; : &quot;&quot;,
+  &quot;failureResponse&quot; : { },
+  &quot;ignoreCache&quot; : false,
+  &quot;label&quot; : &quot;DataRaptorTransformAction2&quot;,
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;returnOnlyAdditionalOutput&quot; : false,
+  &quot;returnOnlyFailureResponse&quot; : false,
+  &quot;sendJSONNode&quot; : &quot;&quot;,
+  &quot;sendJSONPath&quot; : &quot;&quot;,
+  &quot;sendOnlyAdditionalInput&quot; : true,
+  &quot;show&quot; : null,
+  &quot;useFormulas&quot; : true
+}</propertySetConfig>
+            <sequenceNumber>6.0</sequenceNumber>
+            <type>DataRaptor Transform Action</type>
+        </childElements>
+        <childElements>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>MergePricesListWithBasketListDualFuel</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;actionMessage&quot; : &quot;&quot;,
+  &quot;additionalChainableResponse&quot; : { },
+  &quot;additionalInput&quot; : { },
+  &quot;additionalOutput&quot; : { },
+  &quot;advancedMerge&quot; : true,
+  &quot;advancedMergeMap&quot; : [ {
+    &quot;listKey&quot; : &quot;offerDetails&quot;,
+    &quot;matchingPath&quot; : &quot;productCode&quot;,
+    &quot;normalizeKey&quot; : &quot;1&quot;
+  }, {
+    &quot;listKey&quot; : &quot;CalculatingPricesInBasketsDualFuel:TotalPrices&quot;,
+    &quot;matchingPath&quot; : &quot;productCode&quot;,
+    &quot;normalizeKey&quot; : &quot;1&quot;
+  } ],
+  &quot;allowMergeNulls&quot; : true,
+  &quot;chainOnStep&quot; : false,
+  &quot;disOnTplt&quot; : false,
+  &quot;dynamicOutputFields&quot; : &quot;&quot;,
+  &quot;executionConditionalFormula&quot; : &quot;ISNOTBLANK(CalculatingPricesInBasketsDualFuel:TotalPrices)&quot;,
+  &quot;failOnStepError&quot; : true,
+  &quot;failureConditionalFormula&quot; : &quot;&quot;,
+  &quot;failureResponse&quot; : { },
+  &quot;filterListFormula&quot; : &quot;&quot;,
+  &quot;hasPrimary&quot; : false,
+  &quot;label&quot; : &quot;ListAction4&quot;,
+  &quot;mergeFields&quot; : [ null ],
+  &quot;mergeListsOrder&quot; : [ &quot;offerDetails&quot;, &quot;CalculatingPricesInBasketsDualFuel:TotalPrices&quot; ],
+  &quot;primaryListKey&quot; : &quot;&quot;,
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;returnOnlyAdditionalOutput&quot; : false,
+  &quot;returnOnlyFailureResponse&quot; : false,
+  &quot;sendJSONNode&quot; : &quot;&quot;,
+  &quot;sendJSONPath&quot; : &quot;&quot;,
+  &quot;sendOnlyAdditionalInput&quot; : false,
+  &quot;show&quot; : null,
+  &quot;sortBy&quot; : [ ],
+  &quot;sortInDescendingOrder&quot; : false,
+  &quot;updateFieldValue&quot; : { },
+  &quot;useFormulas&quot; : true
+}</propertySetConfig>
+            <sequenceNumber>7.0</sequenceNumber>
+            <type>List Merge Action</type>
+        </childElements>
+        <childElements>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>ResponseForDualFuel</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;additionalOutput&quot; : { },
+  &quot;disOnTplt&quot; : false,
+  &quot;executionConditionalFormula&quot; : &quot;&quot;,
+  &quot;label&quot; : &quot;ResponseAction1&quot;,
+  &quot;responseDefaultData&quot; : { },
+  &quot;responseFormat&quot; : &quot;JSON&quot;,
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;returnFullDataJSON&quot; : false,
+  &quot;returnOnlyAdditionalOutput&quot; : false,
+  &quot;sendJSONNode&quot; : &quot;Baskets&quot;,
+  &quot;sendJSONPath&quot; : &quot;%MergePricesListWithBasketListDualFuel%&quot;,
+  &quot;show&quot; : null,
+  &quot;useFormulas&quot; : true,
+  &quot;vlcResponseHeaders&quot; : { }
+}</propertySetConfig>
+            <sequenceNumber>8.0</sequenceNumber>
+            <type>Response Action</type>
+        </childElements>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>DualFuelProduct</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;disOnTplt&quot; : false,
+  &quot;executionConditionalFormula&quot; : &quot;productType == \&quot;Dual Fuel\&quot;&quot;,
+  &quot;isIfElseBlock&quot; : false,
+  &quot;label&quot; : &quot;ConditionalBlock1&quot;,
+  &quot;show&quot; : null
+}</propertySetConfig>
+        <sequenceNumber>5.0</sequenceNumber>
+        <type>Conditional Block</type>
+    </omniProcessElements>
+    <omniProcessElements>
+        <childElements>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>CalculatingPricesInBaskets</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;actionMessage&quot; : &quot;&quot;,
+  &quot;additionalInput&quot; : {
+    &quot;consumption&quot; : &quot;%Consumption%&quot;,
+    &quot;offerDetails&quot; : &quot;%offerDetails%&quot;
+  },
+  &quot;additionalOutput&quot; : { },
+  &quot;bundle&quot; : &quot;VeeDigitalTransformBasketPrices&quot;,
+  &quot;chainOnStep&quot; : false,
+  &quot;disOnTplt&quot; : false,
+  &quot;executionConditionalFormula&quot; : &quot;&quot;,
+  &quot;failOnStepError&quot; : true,
+  &quot;failureConditionalFormula&quot; : &quot;&quot;,
+  &quot;failureResponse&quot; : { },
+  &quot;ignoreCache&quot; : false,
+  &quot;label&quot; : &quot;DataRaptorTransformAction1&quot;,
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;returnOnlyAdditionalOutput&quot; : false,
+  &quot;returnOnlyFailureResponse&quot; : false,
+  &quot;sendJSONNode&quot; : &quot;&quot;,
+  &quot;sendJSONPath&quot; : &quot;&quot;,
+  &quot;sendOnlyAdditionalInput&quot; : true,
+  &quot;show&quot; : null,
+  &quot;useFormulas&quot; : true
+}</propertySetConfig>
+            <sequenceNumber>2.0</sequenceNumber>
+            <type>DataRaptor Transform Action</type>
+        </childElements>
+        <childElements>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>MergePricesListWithBasketList</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;actionMessage&quot; : &quot;&quot;,
+  &quot;additionalChainableResponse&quot; : { },
+  &quot;additionalInput&quot; : { },
+  &quot;additionalOutput&quot; : { },
+  &quot;advancedMerge&quot; : true,
+  &quot;advancedMergeMap&quot; : [ {
+    &quot;listKey&quot; : &quot;offerDetails&quot;,
+    &quot;matchingPath&quot; : &quot;productCode&quot;,
+    &quot;normalizeKey&quot; : &quot;1&quot;
+  }, {
+    &quot;listKey&quot; : &quot;CalculatingPricesInBaskets:TotalPrices&quot;,
+    &quot;matchingPath&quot; : &quot;productCode&quot;,
+    &quot;normalizeKey&quot; : &quot;1&quot;
+  } ],
+  &quot;allowMergeNulls&quot; : true,
+  &quot;chainOnStep&quot; : false,
+  &quot;disOnTplt&quot; : false,
+  &quot;dynamicOutputFields&quot; : &quot;&quot;,
+  &quot;executionConditionalFormula&quot; : &quot;ISNOTBLANK(CalculatingPricesInBaskets:TotalPrices)&quot;,
+  &quot;failOnStepError&quot; : true,
+  &quot;failureConditionalFormula&quot; : &quot;&quot;,
+  &quot;failureResponse&quot; : {
+    &quot;ErrorMessage&quot; : &quot;VEEDigitalGetBasket:MergePricesListWithBasketList MergePricesListWithBasketList is failing&quot;
+  },
+  &quot;filterListFormula&quot; : &quot;&quot;,
+  &quot;hasPrimary&quot; : false,
+  &quot;label&quot; : &quot;ListAction2&quot;,
+  &quot;mergeFields&quot; : [ ],
+  &quot;mergeListsOrder&quot; : [ &quot;offerDetails&quot;, &quot;CalculatingPricesInBaskets:TotalPrices&quot; ],
+  &quot;preventIntraListMerge&quot; : false,
+  &quot;primaryListKey&quot; : &quot;&quot;,
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;returnOnlyAdditionalOutput&quot; : false,
+  &quot;returnOnlyFailureResponse&quot; : false,
+  &quot;sendJSONNode&quot; : &quot;&quot;,
+  &quot;sendJSONPath&quot; : &quot;&quot;,
+  &quot;sendOnlyAdditionalInput&quot; : false,
+  &quot;show&quot; : null,
+  &quot;sortBy&quot; : [ ],
+  &quot;sortInDescendingOrder&quot; : false,
+  &quot;updateFieldValue&quot; : { },
+  &quot;useFormulas&quot; : true
+}</propertySetConfig>
+            <sequenceNumber>3.0</sequenceNumber>
+            <type>List Merge Action</type>
+        </childElements>
+        <childElements>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>ResponseForElecAndGas</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;additionalOutput&quot; : { },
+  &quot;disOnTplt&quot; : false,
+  &quot;executionConditionalFormula&quot; : &quot;&quot;,
+  &quot;label&quot; : &quot;ResponseAction1&quot;,
+  &quot;responseDefaultData&quot; : { },
+  &quot;responseFormat&quot; : &quot;JSON&quot;,
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;returnFullDataJSON&quot; : false,
+  &quot;returnOnlyAdditionalOutput&quot; : false,
+  &quot;sendJSONNode&quot; : &quot;Baskets&quot;,
+  &quot;sendJSONPath&quot; : &quot;%MergePricesListWithBasketList%&quot;,
+  &quot;show&quot; : null,
+  &quot;useFormulas&quot; : true,
+  &quot;vlcResponseHeaders&quot; : { }
+}</propertySetConfig>
+            <sequenceNumber>4.0</sequenceNumber>
+            <type>Response Action</type>
+        </childElements>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>ElectricityAndGasProduct</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;disOnTplt&quot; : false,
+  &quot;executionConditionalFormula&quot; : &quot;productType == \&quot;Electricity\&quot; || productType == \&quot;Gas\&quot;&quot;,
+  &quot;isIfElseBlock&quot; : false,
+  &quot;label&quot; : &quot;ConditionalBlock1&quot;,
+  &quot;show&quot; : null
+}</propertySetConfig>
+        <sequenceNumber>1.0</sequenceNumber>
+        <type>Conditional Block</type>
+    </omniProcessElements>
+    <omniProcessElements>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>Response</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;additionalOutput&quot; : {
+    &quot;Baskets&quot; : &quot;=LIST()&quot;
+  },
+  &quot;disOnTplt&quot; : false,
+  &quot;executionConditionalFormula&quot; : &quot;ISBLANK(%productType%)&quot;,
+  &quot;label&quot; : &quot;ResponseAction3&quot;,
+  &quot;responseDefaultData&quot; : { },
+  &quot;responseFormat&quot; : &quot;JSON&quot;,
+  &quot;responseJSONNode&quot; : &quot;&quot;,
+  &quot;responseJSONPath&quot; : &quot;&quot;,
+  &quot;returnFullDataJSON&quot; : false,
+  &quot;returnOnlyAdditionalOutput&quot; : true,
+  &quot;sendJSONNode&quot; : &quot;&quot;,
+  &quot;sendJSONPath&quot; : &quot;&quot;,
+  &quot;show&quot; : null,
+  &quot;useFormulas&quot; : true,
+  &quot;vlcResponseHeaders&quot; : { }
+}</propertySetConfig>
+        <sequenceNumber>9.0</sequenceNumber>
+        <type>Response Action</type>
+    </omniProcessElements>
+    <omniProcessKey>VEE_DigitalCalculateBasketTotal</omniProcessKey>
+    <omniProcessType>Integration Procedure</omniProcessType>
+    <propertySetConfig>{
+  &quot;additionalChainableResponse&quot; : { },
+  &quot;chainableActualTimeLimit&quot; : null,
+  &quot;chainableCpuLimit&quot; : 2000,
+  &quot;chainableDMLRowsLimit&quot; : null,
+  &quot;chainableDMLStatementsLimit&quot; : null,
+  &quot;chainableHeapSizeLimit&quot; : null,
+  &quot;chainableQueriesLimit&quot; : 30,
+  &quot;chainableQueryRowsLimit&quot; : null,
+  &quot;chainableSoslQueriesLimit&quot; : null,
+  &quot;columnsPropertyMap&quot; : [ ],
+  &quot;description&quot; : &quot;&quot;,
+  &quot;includeAllActionsInResponse&quot; : false,
+  &quot;labelPlural&quot; : &quot;&quot;,
+  &quot;labelSingular&quot; : &quot;&quot;,
+  &quot;linkToExternalObject&quot; : &quot;&quot;,
+  &quot;mockResponseMap&quot; : { },
+  &quot;nameColumn&quot; : &quot;&quot;,
+  &quot;queueableChainableCpuLimit&quot; : 40000,
+  &quot;queueableChainableHeapSizeLimit&quot; : 6,
+  &quot;queueableChainableQueriesLimit&quot; : 120,
+  &quot;relationshipFieldsMap&quot; : [ ],
+  &quot;rollbackOnError&quot; : false,
+  &quot;trackingCustomData&quot; : { },
+  &quot;ttlMinutes&quot; : null
+}</propertySetConfig>
+    <requiredPermission>VEEDigitalOrderPermission</requiredPermission>
+    <subType>DigitalCalculateBasketTotal</subType>
+    <type>VEE</type>
+    <uniqueName>VEE_DigitalCalculateBasketTotal_Procedure_3</uniqueName>
+    <versionNumber>3.0</versionNumber>
+    <webComponentKey>d4d349fe-673d-c079-d3e0-2222e083367f</webComponentKey>
+</OmniIntegrationProcedure>

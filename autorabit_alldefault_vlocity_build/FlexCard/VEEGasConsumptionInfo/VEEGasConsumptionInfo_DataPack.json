@@ -1,0 +1,32 @@
+{
+    "AuthorName": "CME_EU_Express",
+    "ClonedFromOmniUiCardKey": "VEEElectricityConsumptionInfo/Divakar/1/1614852319746",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "{\n\"State\": \"High\"\n}",
+            "resultVar": ""
+        }
+    },
+    "Description": "Used to display consumption Info message for Gas",
+    "IsTrackingEnabled": false,
+    "Name": "VEEGasConsumptionInfo",
+    "Namespace": "",
+    "OmniUiCardKey": "VEEGasConsumptionInfo/Divakar/1/1614852644925",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "VEEGasConsumptionInfo.json",
+    "SampleDataSourceResponse": "{\"State\":\"High\"}",
+    "StylingConfiguration": "",
+    "UniqueName": "VEEGasConsumptionInfo_CME_EU_Express_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/VEEGasConsumptionInfo"
+}

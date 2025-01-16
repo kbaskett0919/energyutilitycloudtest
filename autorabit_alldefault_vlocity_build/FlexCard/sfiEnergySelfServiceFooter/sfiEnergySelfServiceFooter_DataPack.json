@@ -1,0 +1,29 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+            },
+            "value": {
+            }
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergySelfServiceFooter",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergySelfServiceFooter/CME_E_U/12/1666297950056",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergySelfServiceFooter.json",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "{\"customStyles\":\".footerBg{\\n    background-size: 45%;\\n    padding-bottom: 1rem;\\n    padding-top: 1rem;\\n}\"}",
+    "UniqueName": "sfiEnergySelfServiceFooter_CME_E_U_12",
+    "VersionNumber": 12,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergySelfServiceFooter"
+}

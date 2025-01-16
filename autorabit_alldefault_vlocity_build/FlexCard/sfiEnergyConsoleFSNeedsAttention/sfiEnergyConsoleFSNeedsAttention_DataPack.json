@@ -1,0 +1,45 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 2,
+                    "name": "recordId",
+                    "val": "0011Q00002ZRgo5QAD"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "Id": "{recordId}"
+                },
+                "ipMethod": "sfiEnergyConsole_FSFetchOutageInfo",
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": "[\"premiseInfo\"]",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyConsoleFSNeedsAttention",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyConsoleFSNeedsAttention/CME_E_U/2/1643267585484",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyConsoleFSNeedsAttention.json",
+    "SampleDataSourceResponse": "{\"premiseInfo\":{\"recordCountforEarlierOutagePremises\":0,\"premisesWithEarlierOutage\":[\"\"],\"premisesWithOutage\":[{\"premiseName\":\"77 Whitehill Rd, Fort Kinnaird, Edinburgh, Scotland, EH15 5HR, United Kingdom\",\"premiseCountry\":\"United Kingdom\",\"startTime\":\"25th June 08:30 AM\",\"estimatedRestoration\":\"26th June 11:30 AM\",\"premiseState\":\"Scotland\",\"isOutage\":true,\"premisePostalCode\":\"EH15 5HR\",\"premisesId\":\"a401Q000001DJi8QAG\",\"premiseStreet\":\"77 Whitehill Rd, Fort Kinnaird\",\"premiseCity\":\"Edinburgh\"}],\"recordCount\":1,\"sameResolutionTime\":true},\"TabName\":\"\"}",
+    "StylingConfiguration": "",
+    "UniqueName": "sfiEnergyConsoleFSNeedsAttention_CME_E_U_2",
+    "VersionNumber": 2,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyConsoleFSNeedsAttention"
+}

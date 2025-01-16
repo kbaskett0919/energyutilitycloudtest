@@ -1,0 +1,59 @@
+[
+    {
+        "GlobalKey": "sfiEnergySelfServiceUpdateConsumerPremisesCustom2721",
+        "InputFieldName": "premiseInfo:premiseAccountId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergySelfServiceUpdateConsumerPremises",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergySelfServiceUpdateConsumerPremises",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergySelfServiceUpdateConsumerPremises",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "SSPConsumerPremisesDetails:SSPConsumerPremisesAccountId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergySelfServiceUpdateConsumerPremisesCustom8102",
+        "InputFieldName": "premiseInfo:premisesId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergySelfServiceUpdateConsumerPremises",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergySelfServiceUpdateConsumerPremises",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergySelfServiceUpdateConsumerPremises",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "SSPConsumerPremisesDetails:SSPConsumerPremisesId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sfiEnergySelfServiceUpdateConsumerPremisesCustom6175",
+        "InputFieldName": "premiseInfo:premiseName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sfiEnergySelfServiceUpdateConsumerPremises",
+        "OmniDataTransformationId": {
+            "Name": "sfiEnergySelfServiceUpdateConsumerPremises",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sfiEnergySelfServiceUpdateConsumerPremises",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "SSPConsumerPremisesDetails:SSPConsumerPremisesName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

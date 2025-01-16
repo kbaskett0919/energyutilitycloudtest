@@ -1,0 +1,22 @@
+[
+    {
+        "GlobalKey": "VPL-TransformServicePointListCustoma1V3h000001o3bREAQItem0",
+        "InputFieldName": "ServicePointList",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformServicePointList",
+        "OmniDataTransformationId": {
+            "Name": "VPLTransformServicePointList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLTransformServicePointList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "ServicePointList",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

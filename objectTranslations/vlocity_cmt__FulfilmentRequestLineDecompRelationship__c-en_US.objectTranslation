@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help></help>
+        <label></label>
+        <name>vlocity_cmt__DecompositionRelationshipMetadata__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>vlocity_cmt__DestinationFulfilmentRequestLineId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>vlocity_cmt__IsConditionFailed__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>vlocity_cmt__SourceFulfilmentRequestLineId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>vlocity_cmt__SourceOrderItemId__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

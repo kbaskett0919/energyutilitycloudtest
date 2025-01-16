@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "VPL_ContractList_SampleInput.json",
+    "Description": "This Integration Procedure will get the contracts related to a business account.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VPL/GetContractList",
+    "OmniProcessElement": [
+        "VPL_ContractList_Element_columnsData.json",
+        "VPL_ContractList_Element_FetchAccount_ContactId.json",
+        "VPL_ContractList_Element_DRGetContractList.json",
+        "VPL_ContractList_Element_DRTransformContractList.json",
+        "VPL_ContractList_Element_Response.json"
+    ],
+    "OmniProcessKey": "VPL_ContractList",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VPL_ContractList_PropertySetConfig.json",
+    "SubType": "ContractList",
+    "Type": "VPL",
+    "UniqueName": "VPL_ContractList_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VPL/ContractList/Procedure"
+}

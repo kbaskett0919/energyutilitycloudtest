@@ -1,0 +1,32 @@
+{
+    "AuthorName": "CME_EU_Express",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "{ \"orderId\":\"MH23F\",\"orderNumber\":\"009598\"}",
+            "resultVar": ""
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "VEEConsumerConfirmationCard",
+    "Namespace": "",
+    "OmniUiCardKey": "VEEConsumerConfirmationCard/Lakshmi/1/1614845830768",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "VEEConsumerConfirmationCard.json",
+    "SampleDataSourceResponse": "{\"orderId\":\"MH23F\",\"orderNumber\":\"009598\"}",
+    "StylingConfiguration": "",
+    "UniqueName": "VEEConsumerConfirmationCard_CME_EU_Express_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/VEEConsumerConfirmationCard"
+}

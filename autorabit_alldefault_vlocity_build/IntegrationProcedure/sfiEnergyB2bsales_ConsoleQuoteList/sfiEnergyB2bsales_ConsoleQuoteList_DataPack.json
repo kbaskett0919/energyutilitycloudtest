@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergyB2bsalesConsoleQuoteList",
+    "OmniProcessElement": [
+        "sfiEnergyB2bsales_ConsoleQuoteList_Element_columnsData.json",
+        "sfiEnergyB2bsales_ConsoleQuoteList_Element_DRGetQuoteList.json",
+        "sfiEnergyB2bsales_ConsoleQuoteList_Element_Response.json"
+    ],
+    "OmniProcessKey": "sfiEnergyB2bsales_ConsoleQuoteList",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergyB2bsales_ConsoleQuoteList_PropertySetConfig.json",
+    "SubType": "ConsoleQuoteList",
+    "Type": "sfiEnergyB2bsales",
+    "UniqueName": "sfiEnergyB2bsales_ConsoleQuoteList_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergyB2bsales/ConsoleQuoteList/Procedure"
+}

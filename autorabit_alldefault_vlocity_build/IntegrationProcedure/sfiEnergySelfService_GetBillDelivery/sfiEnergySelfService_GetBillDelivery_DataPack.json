@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "sfiEnergySelfService_GetBillDelivery_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergySelfServiceGetBillDelivery",
+    "OmniProcessElement": [
+        "sfiEnergySelfService_GetBillDelivery_Element_DRGetBillDelivery.json",
+        "sfiEnergySelfService_GetBillDelivery_Element_GetBillDeliveryResponse.json"
+    ],
+    "OmniProcessKey": "sfiEnergySelfService_GetBillDelivery",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergySelfService_GetBillDelivery_PropertySetConfig.json",
+    "SubType": "GetBillDelivery",
+    "Type": "sfiEnergySelfService",
+    "UniqueName": "sfiEnergySelfService_GetBillDelivery_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergySelfService/GetBillDelivery/Procedure"
+}

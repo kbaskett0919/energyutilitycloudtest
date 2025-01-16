@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "EnergyUtilitiesPrograms_UpdateApplication_SampleInput.json",
+    "Description": "IP to update application values.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "EnergyUtilitiesProgramsUpdateApplication",
+    "OmniProcessElement": [
+        "EnergyUtilitiesPrograms_UpdateApplication_Element_UpdateApplication.json",
+        "EnergyUtilitiesPrograms_UpdateApplication_Element_Response.json"
+    ],
+    "OmniProcessKey": "EnergyUtilitiesPrograms_UpdateApplication",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "EnergyUtilitiesPrograms_UpdateApplication_PropertySetConfig.json",
+    "SubType": "UpdateApplication",
+    "Type": "EnergyUtilitiesPrograms",
+    "UniqueName": "EnergyUtilitiesPrograms_UpdateApplication_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/EnergyUtilitiesPrograms/UpdateApplication/Procedure"
+}

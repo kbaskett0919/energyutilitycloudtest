@@ -1,0 +1,61 @@
+[
+    {
+        "FormulaExpression": "FILTER(LIST(Attachments),'default == true')",
+        "FormulaResultPath": "defaultAttachments",
+        "FormulaSequence": 1,
+        "GlobalKey": "VEEDigitalFilterDefaultAttachmentsCustoma1V4x000009nHxIEAUItem0",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalFilterDefaultAttachments",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalFilterDefaultAttachments",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalFilterDefaultAttachments",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalFilterDefaultAttachmentsCustoma1V4x000009nHxIEAUItem2",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalFilterDefaultAttachments",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalFilterDefaultAttachments",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalFilterDefaultAttachments",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "Att",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VEEDigitalFilterDefaultAttachmentsCustoma1V4x000009nHxIEAUItem1",
+        "InputFieldName": "defaultAttachments",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VEEDigitalFilterDefaultAttachments",
+        "OmniDataTransformationId": {
+            "Name": "VEEDigitalFilterDefaultAttachments",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VEEDigitalFilterDefaultAttachments",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Att:defaultAttachments",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

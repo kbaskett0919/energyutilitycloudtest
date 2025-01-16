@@ -1,0 +1,29 @@
+{
+    "CustomJavaScript": "sfiEnergySelfService_GetPlanDetails_SampleInput.json",
+    "Description": "IP To fetch Plan details for all premises linked to a consumer account",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergySelfServiceGetPlanDetails",
+    "OmniProcessElement": [
+        "sfiEnergySelfService_GetPlanDetails_Element_IPRetrievePremiseInfo.json",
+        "sfiEnergySelfService_GetPlanDetails_Element_InitString.json",
+        "sfiEnergySelfService_GetPlanDetails_Element_LoopBlock1.json",
+        "sfiEnergySelfService_GetPlanDetails_Element_ConcatListItem.json",
+        "sfiEnergySelfService_GetPlanDetails_Element_DeserializeString.json",
+        "sfiEnergySelfService_GetPlanDetails_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "sfiEnergySelfService_GetPlanDetails",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergySelfService_GetPlanDetails_PropertySetConfig.json",
+    "SubType": "GetPlanDetails",
+    "Type": "sfiEnergySelfService",
+    "UniqueName": "sfiEnergySelfService_GetPlanDetails_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergySelfService/GetPlanDetails/Procedure"
+}

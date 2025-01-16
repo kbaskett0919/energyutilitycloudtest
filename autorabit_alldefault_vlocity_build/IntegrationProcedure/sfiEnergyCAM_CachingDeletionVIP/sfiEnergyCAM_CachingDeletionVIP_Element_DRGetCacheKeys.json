@@ -1,0 +1,48 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "DRGetCacheKeys",
+    "OmniProcessId": {
+        "Name": "sfiEnergyCAMCachingDeletionVIP",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/sfiEnergyCAM/CachingDeletionVIP/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+        },
+        "additionalOutput": {
+        },
+        "bundle": "sfiEnergyCAMGetCacheKeyList",
+        "chainOnStep": false,
+        "dataRaptor Input Parameters": [
+            {
+                "element": "LoopModifiedProducts:prodCode",
+                "inputParam": "productCodeList"
+            }
+        ],
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+            "ErrorMessage": "sfiEnergyCAMCachingDeletionVIP:DRGetCacheKeys Failed to fetch the Cache keys for the modified Product codes."
+        },
+        "ignoreCache": false,
+        "label": "DataRaptorTurboAction2",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Turbo Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/sfiEnergyCAM/CachingDeletionVIP/Procedure/DRGetCacheKeys"
+}
