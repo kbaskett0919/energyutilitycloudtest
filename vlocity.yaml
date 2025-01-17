@@ -55,7 +55,10 @@ manifest:
 - DecisionMatrix
 - ContextAction
 - IntegrationProcedure
-maxDepth: 0
+- FlexCard/cpqAsyncJobStatus
+- FlexCard/cpqAsyncJobStatusChild
+maxDepth: -1
 autoUpdateSettings: true
 separateMatrixVersions: true
 separateCalculationProcedureVersions: false
+CompileOnBuild: true
