@@ -7080,6 +7080,11 @@
         <name>CompactLayout</name>
     </types>
     <types>
+        <members>fastrabbit</members>
+        <members>fastrabbit1</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
         <members>Energy_B2B_Sales</members>
         <members>Energy_Utility_console</members>
         <members>FSL__FieldService</members>
@@ -21406,6 +21411,7 @@
         <members>vlocity_cmt__VPLExpress.vlocity_cmt__Stripe_Webhook_Payment_Intent_Succeeded</members>
         <members>vlocity_cmt__VersionAwareObjectRelationship.vlocity_cmt__PCI_childrenProducts</members>
         <members>vlocity_cmt__VlocityDataPackConfiguration.CalculationMatrixVersion</members>
+        <members>vlocity_cmt__VlocityDataPackConfiguration.CalculationProcedureVersion</members>
         <members>vlocity_cmt__VlocityDataPackConfiguration.CustomFieldMap</members>
         <members>vlocity_cmt__VlocityDataPackConfiguration.CustomObjectMap</members>
         <members>vlocity_cmt__VlocityDataPackConfiguration.OrchestrationDependencyDefinition</members>
@@ -33811,6 +33817,7 @@
         <members>FSL__wo_icon_png</members>
         <members>FSL__wo_red</members>
         <members>SNA_VFgQ2_sf_default_cdn_VEE_Digital_Sales1</members>
+        <members>SNA_lMooA_sf_default_cdn_Contractor1</members>
         <members>SNA_r7YWx_sf_default_cdn_VEE_Digital_Sales1</members>
         <members>SiteSamples</members>
         <members>VEEDigitalSalesStaticResources</members>

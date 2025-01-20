@@ -5,16 +5,22 @@
     <label>Default Navigation</label>
     <navigationMenuItem>
         <label>Overview</label>
-        <position>0</position>
+        <position>1</position>
         <publiclyAvailable>false</publiclyAvailable>
         <target>/</target>
         <type>InternalLink</type>
     </navigationMenuItem>
     <navigationMenuItem>
         <label>Programs</label>
-        <position>1</position>
+        <position>2</position>
         <publiclyAvailable>false</publiclyAvailable>
         <target>/eu-cp-programs</target>
         <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>This is a new tab</label>
+        <position>3</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <type>MenuLabel</type>
     </navigationMenuItem>
 </NavigationMenu>
