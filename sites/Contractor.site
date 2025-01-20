@@ -23,6 +23,7 @@
     <redirectToCustomDomain>false</redirectToCustomDomain>
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
+    <serverIsDown>SNA_lMooA_sf_default_cdn_Contractor1</serverIsDown>
     <siteAdmin>kristin.baskett-slk8@force.com</siteAdmin>
     <siteGuestRecordDefaultOwner>kristin.baskett-slk8@force.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
