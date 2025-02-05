@@ -7082,6 +7082,7 @@
     <types>
         <members>fastrabbit</members>
         <members>fastrabbit1</members>
+        <members>fastrabbit2</members>
         <name>ContentAsset</name>
     </types>
     <types>
