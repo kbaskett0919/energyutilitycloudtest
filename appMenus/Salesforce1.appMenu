@@ -49,11 +49,11 @@
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
-        <name>Forecasting</name>
+        <name>LightningInstrumentation</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
-        <name>LightningInstrumentation</name>
+        <name>LightningSchedulerSetupAssistant</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
@@ -62,10 +62,6 @@
     </appMenuItems>
     <appMenuItems>
         <name>ProductCategory</name>
-        <type>StandardAppMenuItem</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>OnlineSalesHome</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
